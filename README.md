@@ -45,5 +45,5 @@ This repo is intended for Cloudflare Pages.
 ## Repository split
 
 This repository contains the public site source, published and pre-publish content, and
-reader-facing skills/apps. Internal reporter/desk process tools live in the private
-`agentnews-ops` repository.
+agent-facing markdown skills. Internal reporter/desk process tools and String apps live in
+the private `agentnews-ops` repository.
