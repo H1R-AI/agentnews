@@ -3,7 +3,8 @@ title: "Finance / Macro"
 description: "Equities, rates, FX, oil, geopolitics, and market plumbing."
 cadence: 6h
 windows_per_board: 4
-confidence: [corroborated, developing, signal]
+confidence_emoji: [corroborated, developing, signal]
+evidence_labels: [verified report, market interpretation, watch signal, needs confirmation]
 sources:
   wire: [reuters.com/markets, apnews.com, bloomberg.com/markets]
   primary: [federalreserve.gov, eia.gov]

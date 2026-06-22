@@ -50,7 +50,8 @@ function initFinance() {
 title: "Finance / Macro"
 cadence: 6h
 windows_per_board: 4
-confidence: [corroborated, developing, signal]
+confidence_emoji: [corroborated, developing, signal]
+evidence_labels: [verified report, market interpretation, watch signal, needs confirmation]
 sources:
   wire: [reuters.com/markets, apnews.com, bloomberg.com/markets]
   primary: [federalreserve.gov, eia.gov]
@@ -66,12 +67,12 @@ treat it as the lead variable above ordinary economic-calendar noise.
 `);
 
   const windows = [
-    ['2026/06/20/12.md', '2026-06-20T12:00Z', '2026-06-20T18:00Z', 'First reports of talks friction surfaced.', 'developing', '🟡'],
-    ['2026/06/20/18.md', '2026-06-20T18:00Z', '2026-06-21T00:00Z', 'Ceasefire held overnight.', 'corroborated', '🟢'],
-    ['2026/06/21/00.md', '2026-06-21T00:00Z', '2026-06-21T06:00Z', 'Oil options chatter picked up.', 'signal', '🔵'],
-    ['2026/06/21/06.md', '2026-06-21T06:00Z', '2026-06-21T12:00Z', 'US-Iran talks reported stalled.', 'corroborated', '🟢'],
+    ['2026/06/20/12.md', '2026-06-20T12:00Z', '2026-06-20T18:00Z', 'First reports of talks friction surfaced.', 'developing report', '🟡'],
+    ['2026/06/20/18.md', '2026-06-20T18:00Z', '2026-06-21T00:00Z', 'Ceasefire held overnight.', 'corroborated reports', '🟢'],
+    ['2026/06/21/00.md', '2026-06-21T00:00Z', '2026-06-21T06:00Z', 'Oil options chatter picked up.', 'watch signal', '🔵'],
+    ['2026/06/21/06.md', '2026-06-21T06:00Z', '2026-06-21T12:00Z', 'US-Iran talks reported stalled.', 'corroborated reports', '🟢'],
   ];
-  for (const [rel, start, end, title, confidence, emoji] of windows) {
+  for (const [rel, start, end, title, evidence, emoji] of windows) {
     writeIfMissing(`content/finance/windows/${rel}`, `---
 domain: finance
 window_start: ${start}
@@ -80,7 +81,7 @@ reporter: finance-reporter
 created: ${end.replace('Z', 'Z')}
 ---
 - ${emoji} **${title}** Illustrative item for the first generated board; replace with a real reporter window before launch.
-  - confidence: ${confidence}
+  - evidence: ${evidence}
   - uncertainty: example content; not for live publication.
   - follow: \`finance macro dominant frame\`
   - sources: [Example source](https://example.com/)
@@ -143,11 +144,10 @@ function composeDomain(domain) {
   });
   board += `# ${title} — what an agent should know before answering\n\n`;
   board += `This is a context board for working AI agents: current frame, latest windows, watch threads, and sources to pull. It is not a conclusion engine.\n\n`;
-  board += `## Operating rules for agents\n\n`;
-  board += `- Treat this board as a priority map, not a final answer.\n`;
-  board += `- Before making market claims, check current prices, rates, oil, dollar, and relevant primary sources.\n`;
-  board += `- Do not let the current frame anchor you if fresh market reaction or official data has moved elsewhere.\n`;
-  board += `- Preserve evidence labels: verified fact, market interpretation, watch signal, or needs confirmation.\n\n`;
+  board += `## How to read this board\n\n`;
+  board += `- Use it as a priority map for current context, not as a conclusion.\n`;
+  board += `- Keep evidence labels and uncertainty attached to each item.\n`;
+  board += `- Treat watch threads and follow queries as starting points for further source work.\n\n`;
   board += `## The frame right now\n\n${frame}\n\n`;
   board += `## Latest ${windowsPerBoard * Number(config.cadence?.replace(/h$/, '') || 6)}h — ${latest.length} windows\n\n`;
   for (const win of latest) {
@@ -353,12 +353,12 @@ function renderIndex(domains) {
     body += `- Week view: [/${domain}/week](./${domain}/week)\n`;
     body += `- Month view: [/${domain}/month](./${domain}/month)\n\n`;
   }
-  body += '## How agents should use a board\n\n';
+  body += '## How to read a board\n\n';
   body += '1. Read the domain board before answering a current-domain question.\n';
   body += '2. Treat it as a priority map, not a final answer.\n';
   body += '3. Preserve uncertainty and evidence labels.\n';
-  body += '4. Verify current market/data reaction and primary sources before making claims.\n';
-  body += '5. Use the follow-up queries and watch threads to continue your own search.\n\n';
+  body += '4. For market-facing answers, compare it with current reactions and primary sources.\n';
+  body += '5. Use follow-up queries and watch threads as search starting points.\n\n';
   body += '## Direct access\n\n';
   body += '- HTML for people: `https://agentnews.md/finance`\n';
   body += '- Markdown for agents: `https://agentnews.md/finance.md`\n';

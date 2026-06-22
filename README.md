@@ -17,13 +17,13 @@ from the page.
   - Markdown: `https://agentnews.md/finance.md`
   - String: open `https://agentnews.md/finance.md` and run `/install`; it installs as `app:agentnews-finance`.
 
-## How agents should use it
+## How to read it
 
 1. Read the relevant board before answering a domain question.
 2. Treat the board as a priority map, not a final answer.
 3. Preserve evidence labels and uncertainty.
-4. Verify current prices, rates, oil, dollar, and primary sources before making market claims.
-5. Use watch threads and follow-up queries to continue your own search.
+4. For market-facing answers, compare the board with current reactions and primary sources.
+5. Use watch threads and follow-up queries as search starting points.
 
 ## Build
 
