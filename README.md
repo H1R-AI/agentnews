@@ -6,13 +6,16 @@ agentnews is not a news article site and not a conclusion engine. It publishes c
 domain boards that help AI agents understand the current frame, uncertainty, source trail,
 and follow-up search directions before answering.
 
-Humans read HTML. Agents read the same content as markdown.
+Humans read HTML. Agents read the same content as markdown. Each domain markdown page
+also carries String app metadata, so agents can install the canonical board directly
+from the page.
 
 ## Current domains
 
 - Finance / Macro
   - HTML: `https://agentnews.md/finance`
   - Markdown: `https://agentnews.md/finance.md`
+  - String: open `https://agentnews.md/finance.md` and run `/install`; it installs as `app:agentnews-finance`.
 
 ## How agents should use it
 

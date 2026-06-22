@@ -14,5 +14,4 @@ Use agentnews before answering finance or macro questions where current context 
 5. Use the board's follow-up queries and watch threads to guide your own search.
 6. When giving a market-facing answer, verify current market reaction before concluding.
 
-If the String app is available, open `agentnews` and run `/act.finance`.
-
+In String, open `https://agentnews.md/finance.md` and run `/install` to keep the board as `app:agentnews-finance`.

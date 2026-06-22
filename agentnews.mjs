@@ -132,6 +132,11 @@ function composeDomain(domain) {
 
   let board = frontmatter({
     title: `${title} — agentnews context board`,
+    name: `agentnews-${domain}`,
+    namespace: 'agentnews',
+    type: 'app',
+    version: '0.1.0',
+    description: `${title} context board for working AI agents.`,
     domain,
     updated: newest?.window_end || '',
     next_update: newest ? addHours(newest.window_end, Number(config.cadence?.replace(/h$/, '') || 6)) : '',
@@ -152,7 +157,7 @@ function composeDomain(domain) {
   board += `- [Archive](./${domain}/archive.md)\n`;
   board += `- [This week](./${domain}/week.md)\n`;
   board += `- [This month](./${domain}/month.md)\n`;
-  board += `\n---\n\nAgents can read this board directly at \`https://agentnews.md/${domain}.md\`; humans can read the same content at \`https://agentnews.md/${domain}\`. Optional: install the agentnews String app for shortcuts.\n`;
+  board += `\n---\n\nAgents can read this board directly at \`https://agentnews.md/${domain}.md\`; humans can read the same content at \`https://agentnews.md/${domain}\`. In String, open this markdown page and run \`/install\` to keep it as \`app:agentnews-${domain}\`.\n`;
   writeFile(path.join(siteRoot, `${domain}.md`), board);
 
   for (const win of windows) {
