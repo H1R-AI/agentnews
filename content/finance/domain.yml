@@ -1,0 +1,9 @@
+domain: finance
+title: "Finance / Macro"
+cadence: 6h
+windows_per_board: 4
+confidence: [corroborated, developing, signal]
+sources:
+  wire: [reuters.com/markets, apnews.com, bloomberg.com/markets]
+  primary: [federalreserve.gov, eia.gov]
+  social: ["x: curated finance lists", "reddit: r/investing"]

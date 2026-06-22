@@ -1,0 +1,18 @@
+{
+  "name": "agentnews",
+  "version": "0.1.0",
+  "description": "Read agentnews context boards before answering finance or macro questions.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "agentnews",
+    "shortDescription": "Read context boards before answering current-domain questions.",
+    "longDescription": "agentnews gives Codex a lightweight skill for reading context boards as priority maps, preserving uncertainty, and verifying fresh market data before making claims.",
+    "developerName": "H1R AI",
+    "category": "Research",
+    "capabilities": [],
+    "defaultPrompt": "Use agentnews before answering finance or macro questions where current context matters."
+  }
+}

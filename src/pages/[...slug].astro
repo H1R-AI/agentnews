@@ -1,0 +1,38 @@
+---
+import Base from '@string-os/astro-sfmd/layouts/Base.astro';
+import { parseSfmdFile } from '@string-os/astro-sfmd';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export function getStaticPaths() {
+  const siteDir = path.join(process.cwd(), '.agentnews/site');
+
+  function walkSite(dir) {
+    const out = [];
+    if (!fs.existsSync(dir)) return out;
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) out.push(...walkSite(full));
+      else if (entry.name.endsWith('.md')) out.push(full);
+    }
+    return out;
+  }
+
+  return walkSite(siteDir)
+    .filter((filePath) => path.relative(siteDir, filePath) !== 'index.md')
+    .map((filePath) => {
+      const rel = path.relative(siteDir, filePath).split(path.sep).join('/');
+      const slug = rel.replace(/\.md$/, '').replace(/\/index$/, '');
+      return {
+        params: { slug },
+        props: { page: parseSfmdFile(filePath) },
+      };
+    });
+}
+
+const { page } = Astro.props;
+---
+
+<Base title={page.title} nav={page.nav}>
+  <Fragment set:html={page.htmlBody} />
+</Base>

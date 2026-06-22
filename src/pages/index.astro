@@ -1,0 +1,11 @@
+---
+import Base from '@string-os/astro-sfmd/layouts/Base.astro';
+import { parseSfmdFile } from '@string-os/astro-sfmd';
+import path from 'node:path';
+
+const page = parseSfmdFile(path.join(process.cwd(), '.agentnews/site/index.md'));
+---
+
+<Base title={page.title} nav={page.nav}>
+  <Fragment set:html={page.htmlBody} />
+</Base>

@@ -1,0 +1,41 @@
+{
+  "domain": "finance",
+  "updated": "2026-06-22T05:25:00Z",
+  "feeds": [
+    {
+      "name": "Federal Reserve press releases",
+      "kind": "primary",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+    },
+    {
+      "name": "FT markets",
+      "kind": "major-media",
+      "url": "https://www.ft.com/markets?format=rss"
+    },
+    {
+      "name": "BBC business",
+      "kind": "major-media",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml"
+    },
+    {
+      "name": "CNBC finance",
+      "kind": "major-media",
+      "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html"
+    },
+    {
+      "name": "MarketWatch top stories",
+      "kind": "major-media",
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+    },
+    {
+      "name": "NPR business",
+      "kind": "major-media",
+      "url": "https://feeds.npr.org/1006/rss.xml"
+    },
+    {
+      "name": "Guardian business",
+      "kind": "major-media",
+      "url": "https://www.theguardian.com/business/rss"
+    }
+  ]
+}

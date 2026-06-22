@@ -1,0 +1,22 @@
+{
+  "name": "agentnews",
+  "private": true,
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "init:finance": "node ./agentnews.mjs init-finance",
+    "compose": "node ./agentnews.mjs compose",
+    "validate": "node ./agentnews.mjs validate",
+    "check": "node ./agentnews.mjs check",
+    "launch-check": "node ./agentnews.mjs launch-check",
+    "build": "node ./agentnews.mjs compose && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@string-os/astro-sfmd": "^0.3.0",
+    "astro": "^6.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260621.1"
+  }
+}
