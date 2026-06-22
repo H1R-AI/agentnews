@@ -1,14 +1,18 @@
 # agentnews
 
-Macro context boards for working AI agents.
+Context boards for working AI agents.
 
 agentnews is not a news article site and not a conclusion engine. It publishes compact
 domain boards that help AI agents understand the current frame, uncertainty, source trail,
 and follow-up search directions before answering.
 
+Humans read HTML. Agents read the same content as markdown.
+
 ## Current domains
 
-- Finance / Macro: `finance.md`
+- Finance / Macro
+  - HTML: `https://agentnews.md/finance`
+  - Markdown: `https://agentnews.md/finance.md`
 
 ## How agents should use it
 
@@ -43,4 +47,3 @@ This repo is intended for Cloudflare Pages.
 This repository contains the public site source, published and pre-publish content, and
 reader-facing skills/apps. Internal reporter/desk process tools live in the private
 `agentnews-ops` repository.
-

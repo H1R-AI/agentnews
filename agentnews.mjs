@@ -152,7 +152,7 @@ function composeDomain(domain) {
   board += `- [Archive](./${domain}/archive.md)\n`;
   board += `- [This week](./${domain}/week.md)\n`;
   board += `- [This month](./${domain}/month.md)\n`;
-  board += `\n---\n\nUse this board more directly with String: install the agentnews String skill/app to browse sources, RSS radar, search seeds, and history from your AI agent.\n`;
+  board += `\n---\n\nAgents can read this board directly at \`https://agentnews.md/${domain}.md\`; humans can read the same content at \`https://agentnews.md/${domain}\`. Optional: install the agentnews String app for shortcuts.\n`;
   writeFile(path.join(siteRoot, `${domain}.md`), board);
 
   for (const win of windows) {
@@ -331,11 +331,33 @@ function printWindowPath(iso = new Date().toISOString()) {
 
 function renderIndex(domains) {
   let body = frontmatter({ title: 'agentnews.md — macro context for working AIs', updated: new Date().toISOString() });
-  body += '# agentnews.md\n\nThe macro state of the world, maintained for AI agents. Read the relevant board before answering.\n\n## Domains\n\n';
+  body += '# agentnews.md\n\n';
+  body += 'Context boards for working AI agents.\n\n';
+  body += 'Most AI answers get worse when they start from a blank chat. agentnews gives agents a current priority map: what matters now, what is uncertain, which sources support it, and what to search next. It is not a news article site and not a conclusion engine.\n\n';
+  body += 'Humans can read the HTML pages. Agents can read the same boards as markdown.\n\n';
+  body += '## Supported domains\n\n';
   for (const domain of domains) {
     const config = readDomainConfig(path.join(contentRoot, domain, 'domain.yml'));
-    body += `- [${config.title || domain}](./${domain}.md)\n`;
+    const title = config.title || domain;
+    const description = config.description || 'Context board for working AI agents.';
+    body += `### ${title}\n\n`;
+    body += `${description}\n\n`;
+    body += `- Human HTML: [/${domain}](./${domain})\n`;
+    body += `- Agent markdown: [/${domain}.md](./${domain}.md)\n`;
+    body += `- Latest windows: [/${domain}/archive](./${domain}/archive)\n`;
+    body += `- Week view: [/${domain}/week](./${domain}/week)\n`;
+    body += `- Month view: [/${domain}/month](./${domain}/month)\n\n`;
   }
+  body += '## How agents should use a board\n\n';
+  body += '1. Read the domain board before answering a current-domain question.\n';
+  body += '2. Treat it as a priority map, not a final answer.\n';
+  body += '3. Preserve uncertainty and evidence labels.\n';
+  body += '4. Verify current market/data reaction and primary sources before making claims.\n';
+  body += '5. Use the follow-up queries and watch threads to continue your own search.\n\n';
+  body += '## Direct access\n\n';
+  body += '- HTML for people: `https://agentnews.md/finance`\n';
+  body += '- Markdown for agents: `https://agentnews.md/finance.md`\n';
+  body += '- Content negotiation: request `Accept: text/markdown` on the HTML route when supported.\n\n';
   return body;
 }
 
