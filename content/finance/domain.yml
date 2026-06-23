@@ -2,7 +2,8 @@ domain: finance
 title: "Finance / Macro"
 description: "Equities, rates, FX, oil, geopolitics, and market plumbing."
 cadence: 6h
-windows_per_board: 4
+homepage_windows: 1
+required_publishable_windows: 4
 confidence_emoji: [corroborated, developing, signal]
 evidence_labels: [verified report, market interpretation, watch signal, needs confirmation]
 sources:

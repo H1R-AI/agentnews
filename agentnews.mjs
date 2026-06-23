@@ -49,7 +49,8 @@ function initFinance() {
   writeIfMissing('content/finance/domain.yml', `domain: finance
 title: "Finance / Macro"
 cadence: 6h
-windows_per_board: 4
+homepage_windows: 1
+required_publishable_windows: 4
 confidence_emoji: [corroborated, developing, signal]
 evidence_labels: [verified report, market interpretation, watch signal, needs confirmation]
 sources:
@@ -125,10 +126,10 @@ function composeDomain(domain) {
   const dir = path.join(contentRoot, domain);
   const config = readDomainConfig(path.join(dir, 'domain.yml'));
   const title = config.title || domain;
-  const windowsPerBoard = Number(config.windows_per_board || 4);
+  const homepageWindows = Number(config.homepage_windows || config.windows_per_board || 1);
   const frame = readMarkdownBody(path.join(dir, 'frame.md'));
   const windows = listWindows(domain).filter((win) => win.status !== 'example').sort((a, b) => b.id.localeCompare(a.id));
-  const latest = windows.slice(0, windowsPerBoard);
+  const latest = windows.slice(0, homepageWindows);
   const newest = latest[0];
 
   let board = frontmatter({
@@ -143,13 +144,13 @@ function composeDomain(domain) {
     next_update: newest ? addHours(newest.window_end, Number(config.cadence?.replace(/h$/, '') || 6)) : '',
   });
   board += `# ${title} — what an agent should know before answering\n\n`;
-  board += `This is a context board for working AI agents: current frame, latest windows, watch threads, and sources to pull. It is not a conclusion engine.\n\n`;
+  board += `This is the current now board for working AI agents: current frame, latest window, watch threads, and sources to pull. It is not a conclusion engine.\n\n`;
   board += `## How to read this board\n\n`;
   board += `- Use it as a priority map for current context, not as a conclusion.\n`;
   board += `- Keep evidence labels and uncertainty attached to each item.\n`;
   board += `- Treat watch threads and follow queries as starting points for further source work.\n\n`;
   board += `## The frame right now\n\n${frame}\n\n`;
-  board += `## Latest ${windowsPerBoard * Number(config.cadence?.replace(/h$/, '') || 6)}h — ${latest.length} windows\n\n`;
+  board += `## Current now board\n\n`;
   for (const win of latest) {
     board += `### ▸ ${formatWindowTitle(win)}\n\n${win.body}\n\n`;
   }
@@ -191,7 +192,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
     const config = readDomainConfig(path.join(dir, 'domain.yml'));
     const windows = listWindows(domain);
     const publishableWindows = windows.filter((win) => win.status !== 'example');
-    const requiredWindows = Number(config.windows_per_board || 4);
+    const requiredWindows = Number(config.required_publishable_windows || 4);
     if (windows.length === 0) errors.push(`${domain}: no windows found`);
     if (requireWindowCount && publishableWindows.length < requiredWindows) {
       errors.push(`${domain}: only ${publishableWindows.length}/${requiredWindows} publishable windows; example windows do not count`);
