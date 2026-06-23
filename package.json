@@ -3,6 +3,9 @@
   "private": true,
   "type": "module",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=24 <25"
+  },
   "scripts": {
     "init:finance": "node ./agentnews.mjs init-finance",
     "compose": "node ./agentnews.mjs compose",
