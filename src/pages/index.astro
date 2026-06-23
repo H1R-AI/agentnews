@@ -3,7 +3,9 @@ import Base from '@string-os/astro-sfmd/layouts/Base.astro';
 import { parseSfmdFile } from '@string-os/astro-sfmd';
 import path from 'node:path';
 
-const page = parseSfmdFile(path.join(process.cwd(), '.agentnews/site/index.md'));
+const page = parseSfmdFile(path.join(process.cwd(), '.agentnews/site/index.md'), {
+  contentDir: '.agentnews/site',
+});
 ---
 
 <Base title={page.title} nav={page.nav}>

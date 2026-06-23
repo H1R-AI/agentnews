@@ -25,7 +25,11 @@ export function getStaticPaths() {
       const slug = rel.replace(/\.md$/, '').replace(/\/index$/, '');
       return {
         params: { slug },
-        props: { page: parseSfmdFile(filePath) },
+        props: {
+          page: parseSfmdFile(filePath, {
+            contentDir: '.agentnews/site',
+          }),
+        },
       };
     });
 }
