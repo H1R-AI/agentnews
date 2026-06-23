@@ -374,7 +374,7 @@ function renderWindowPage(domainTitle, win) {
 function renderArchive(title, domain, windows) {
   let body = frontmatter({ title: `${title} archive`, domain, updated: windows[0]?.created || '' });
   body += `# ${title} archive\n\nEvery 6h window is preserved here.\n\n`;
-  for (const win of windows) body += `- [${win.id}](./w/${win.id}.md) — ${win.window_start} to ${win.window_end}\n`;
+  for (const win of windows) body += `- [${win.id}](/${domain}/w/${win.id}) — ${win.window_start} to ${win.window_end}\n`;
   return body;
 }
 
