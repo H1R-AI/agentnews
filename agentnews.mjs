@@ -348,7 +348,7 @@ function renderIndex(domains) {
     body += `### ${title}\n\n`;
     body += `${description}\n\n`;
     body += `- Human HTML: [/${domain}](./${domain})\n`;
-    body += `- Agent markdown: [/${domain}.md](./${domain}.md)\n`;
+    body += `- Agent markdown: <a href="/${domain}.md">/${domain}.md</a>\n`;
     body += `- Latest windows: [/${domain}/archive](./${domain}/archive)\n`;
     body += `- Week view: [/${domain}/week](./${domain}/week)\n`;
     body += `- Month view: [/${domain}/month](./${domain}/month)\n\n`;
@@ -361,7 +361,7 @@ function renderIndex(domains) {
   body += '5. Use follow-up queries and watch threads as search starting points.\n\n';
   body += '## Direct access\n\n';
   body += '- HTML for people: `https://agentnews.md/finance`\n';
-  body += '- Markdown for agents: `https://agentnews.md/finance.md`\n';
+  body += '- Markdown for agents: <a href="https://agentnews.md/finance.md">https://agentnews.md/finance.md</a>\n';
   body += '- Content negotiation: request `Accept: text/markdown` on the HTML route when supported.\n\n';
   return body;
 }
