@@ -483,7 +483,7 @@ function formatUpdateCycleDay(win) {
 function formatUpdateCycleHour(win) {
   const iso = win.window_start || '';
   const hour = iso.match(/T(\d{2}):/)?.[1] || win.id.match(/-(\d{2})$/)?.[1] || '00';
-  return `${hour}H`;
+  return `${hour}:00 UTC`;
 }
 
 function expectedWindowRel(iso) {
