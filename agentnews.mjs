@@ -221,6 +221,19 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
       const sourceIssues = inspectSourceText(win.body);
       for (const issue of sourceIssues.errors) errors.push(`${win.rel}: ${issue}`);
       for (const issue of sourceIssues.warnings) warnings.push(`${win.rel}: ${issue}`);
+      // Desk frame block (gaze/bias layer) — lenient checks, warn-not-fail.
+      // Only fire when the optional field is present; absent fields never warn,
+      // so existing windows without a Desk frame block are untouched.
+      const fieldEnd = /(?=\n- \*\*|\n\n|\n## |$)/;
+      const suppressed = win.body.match(new RegExp(`- \\*\\*Suppressed:\\*\\*([\\s\\S]*?)${fieldEnd.source}`));
+      if (suppressed && !/revive if/i.test(suppressed[1])) {
+        warnings.push(`${win.rel}: Suppressed line has no "revive if <trigger>" — add a concrete revival trigger or cut the line`);
+      }
+      const contested = win.body.match(new RegExp(`- \\*\\*Contested:\\*\\*([\\s\\S]*?)${fieldEnd.source}`));
+      if (contested) {
+        const links = (contested[1].match(/\[[^\]]*\]\(https?:\/\//g) || []).length;
+        if (links < 2) warnings.push(`${win.rel}: Contested line has ${links} sourced side(s); needs two sourced sides (one per side) or cut the line`);
+      }
     }
   }
   if (warnings.length) {
