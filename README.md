@@ -96,7 +96,7 @@ String is an agent-native web/app runtime for opening markdown sites and
 installing them as apps. Learn more:
 
 ```text
-https://www.string-os.org/index.md
+https://www.string-os.org
 ```
 
 In String:
