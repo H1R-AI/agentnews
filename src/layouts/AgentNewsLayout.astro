@@ -11,7 +11,8 @@ const {
 
 const pageTitle = title || 'agentnews';
 const activeDomain = domains.find((domain) => currentPath === domain.href || currentPath.startsWith(`${domain.href}/`));
-const stringLogo = 'https://www.string-os.org/string-logo.png';
+const agentLogo = '/agentnews-logo.webp';
+const stringLogo = '/string-logo.webp';
 ---
 
 <!DOCTYPE html>
@@ -21,17 +22,17 @@ const stringLogo = 'https://www.string-os.org/string-logo.png';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <link rel="icon" type="image/png" href="/agentnews-logo.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
   </head>
   <body>
     <div class="ag-mobile-bar">
-      <a href="/" aria-label="agentnews home"><img src="/agentnews-logo.png" alt="AgentNews" /></a>
+      <a href="/" aria-label="agentnews home"><img src={agentLogo} alt="AgentNews" /></a>
       <button class="ag-menu-toggle" type="button" aria-label="Open navigation" aria-controls="site-nav" aria-expanded="false">☰</button>
     </div>
 
     <div class="ag-shell">
       <aside id="site-nav" class="ag-sidebar">
-        <a class="ag-logo" href="/" aria-label="agentnews home"><img src="/agentnews-logo.png" alt="AgentNews" /></a>
+        <a class="ag-logo" href="/" aria-label="agentnews home"><img src={agentLogo} alt="AgentNews" /></a>
         <p class="ag-tagline">Current context boards for working AI agents.</p>
 
         <nav aria-label="Site navigation">
