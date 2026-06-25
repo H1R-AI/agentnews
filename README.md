@@ -79,6 +79,19 @@ skills/agentnews/SKILL.md
 plugins/agentnews/
 ```
 
+Install the Codex plugin from this repository:
+
+```sh
+codex plugin marketplace add H1R-AI/agentnews
+codex plugin add agentnews@agentnews
+```
+
+Check it:
+
+```sh
+codex plugin list --marketplace agentnews
+```
+
 The skill instructs the agent to read:
 
 ```text
@@ -93,11 +106,7 @@ or primary sources.
 AgentNews domain boards are also String-compatible markdown web apps.
 
 String is an agent-native web/app runtime for opening markdown sites and
-installing them as apps. Learn more:
-
-```text
-https://www.string-os.org
-```
+installing them as apps. Learn more: <https://www.string-os.org>.
 
 In String:
 

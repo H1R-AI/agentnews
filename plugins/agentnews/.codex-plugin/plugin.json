@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Read AgentNews context boards before answering current finance or macro questions.",
   "author": {
-    "name": "Local developer"
+    "name": "H1R AI",
+    "url": "https://h1r.ai"
   },
   "skills": "./skills/",
   "interface": {
