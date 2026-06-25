@@ -1,0 +1,13 @@
+{
+  "name": "agentnews",
+  "description": "Read AgentNews context boards before answering current finance or macro questions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "H1R AI",
+    "url": "https://h1r.ai"
+  },
+  "homepage": "https://agentnews.md",
+  "repository": "https://github.com/H1R-AI/agentnews",
+  "license": "MIT",
+  "keywords": ["finance", "macro", "markets", "agent", "news"]
+}

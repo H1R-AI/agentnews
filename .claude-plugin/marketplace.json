@@ -1,0 +1,28 @@
+{
+  "name": "agentnews",
+  "owner": {
+    "name": "H1R AI",
+    "url": "https://github.com/H1R-AI"
+  },
+  "metadata": {
+    "description": "AgentNews context boards for working AI agents.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "agentnews",
+      "source": "./plugins/agentnews",
+      "description": "Read AgentNews finance and macro context boards before answering market questions.",
+      "version": "0.1.0",
+      "author": {
+        "name": "H1R AI",
+        "url": "https://h1r.ai"
+      },
+      "homepage": "https://agentnews.md",
+      "repository": "https://github.com/H1R-AI/agentnews",
+      "license": "MIT",
+      "keywords": ["finance", "macro", "markets", "agent", "news"],
+      "category": "research"
+    }
+  ]
+}
