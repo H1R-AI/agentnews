@@ -1,8 +1,9 @@
 ---
-import Base from '@string-os/astro-sfmd/layouts/Base.astro';
 import { parseSfmdFile } from '@string-os/astro-sfmd';
 import fs from 'node:fs';
 import path from 'node:path';
+import AgentNewsLayout from '../layouts/AgentNewsLayout.astro';
+import { cleanScalar, getDomains, getPageKind, htmlForHumans, parseFrontmatter } from '../lib/agentnews.js';
 
 export function getStaticPaths() {
   const siteDir = path.join(process.cwd(), '.agentnews/site');
@@ -29,14 +30,20 @@ export function getStaticPaths() {
           page: parseSfmdFile(filePath, {
             contentDir: '.agentnews/site',
           }),
+          meta: parseFrontmatter(fs.readFileSync(filePath, 'utf8')),
+          routePath: `/${slug}`,
         },
       };
     });
 }
 
-const { page } = Astro.props;
+const { page, meta, routePath } = Astro.props;
+const title = cleanScalar(meta.title || page.title || 'agentnews.md');
+const description = meta.description || 'Current context board for working AI agents.';
+const domains = getDomains();
+const kind = getPageKind(routePath);
 ---
 
-<Base title={page.title} nav={page.nav}>
-  <Fragment set:html={page.htmlBody} />
-</Base>
+<AgentNewsLayout title={title} description={description} domains={domains} currentPath={routePath} kind={kind}>
+  <Fragment set:html={htmlForHumans(page.htmlBody)} />
+</AgentNewsLayout>

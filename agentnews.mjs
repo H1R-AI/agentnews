@@ -119,6 +119,7 @@ function composeAll() {
   const domains = listDomains();
   writeFile(path.join(siteRoot, 'index.md'), renderIndex(domains));
   for (const domain of domains) composeDomain(domain);
+  writeFile(path.join(root, 'public', 'sitemap.xml'), renderSitemap(domains));
   console.log(`Composed ${domains.length} domain(s) into ${path.relative(root, siteRoot)}.`);
 }
 
@@ -140,11 +141,11 @@ function composeDomain(domain) {
     version: '0.1.0',
     description: `${title} context board for working AI agents.`,
     domain,
-    updated: newest?.window_end || '',
+    updated: newest ? getPublishedAt(newest) : '',
     next_update: newest ? addHours(newest.window_end, Number(config.cadence?.replace(/h$/, '') || 6)) : '',
   });
   board += `# ${title} — what an agent should know before answering\n\n`;
-  board += `This is the current now board for working AI agents: current frame, latest window, watch threads, and sources to pull. It is not a conclusion engine.\n\n`;
+  board += `This is the current now board for working AI agents: current frame, latest update, watch threads, and sources to pull. It is not a conclusion engine.\n\n`;
   board += `## How to read this board\n\n`;
   board += `- Use it as a priority map for current context, not as a conclusion.\n`;
   board += `- Keep evidence labels and uncertainty attached to each item.\n`;
@@ -155,18 +156,16 @@ function composeDomain(domain) {
     board += `### ▸ ${formatWindowTitle(win)}\n\n${win.body}\n\n`;
   }
   board += `## Go deeper\n\n`;
-  board += `- [Archive](./${domain}/archive.md)\n`;
-  board += `- [This week](./${domain}/week.md)\n`;
-  board += `- [This month](./${domain}/month.md)\n`;
-  board += `\n---\n\nAgents can read this board directly at \`https://agentnews.md/${domain}.md\`; humans can read the same content at \`https://agentnews.md/${domain}\`. In String, open this markdown page and run \`/install\` to keep it as \`app:agentnews-${domain}\`.\n`;
+  board += `- [Archive](/${domain}/archive.md)\n`;
+  board += `\n---\n\n## For AI agents\n\n`;
+  board += `Read this board directly at \`https://agentnews.md/${domain}.md\`; humans can read the same content at \`https://agentnews.md/${domain}\`. In String, open this markdown page and run \`/install\` to keep it as \`app:agentnews-${domain}\`. String docs for agents: <https://www.string-os.org/index.md>.\n`;
   writeFile(path.join(siteRoot, `${domain}.md`), board);
 
   for (const win of windows) {
-    writeFile(path.join(siteRoot, domain, 'w', `${win.id}.md`), renderWindowPage(title, win));
+    writeFile(path.join(siteRoot, domain, 'updates', `${win.id}.md`), renderWindowPage(title, win));
   }
   writeFile(path.join(siteRoot, domain, 'archive.md'), renderArchive(title, domain, windows));
-  composePeriodPage(domain, title, 'week');
-  composePeriodPage(domain, title, 'month');
+  // TODO: add weekly and monthly synthesis pages after the desk process is defined.
 }
 
 function composePeriodPage(domain, title, kind) {
@@ -198,8 +197,11 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
       errors.push(`${domain}: only ${publishableWindows.length}/${requiredWindows} publishable windows; example windows do not count`);
     }
     for (const win of windows) {
-      if (!win.window_start || !win.window_end || !win.reporter || !win.created) {
+      if (!win.window_start || !win.window_end || !win.reporter) {
         errors.push(`${win.rel}: missing required frontmatter keys`);
+      }
+      if (!win.published_at && !win.created) {
+        errors.push(`${win.rel}: missing published_at or legacy created frontmatter key`);
       }
       const expected = expectedWindowRel(win.window_start);
       if (expected && expected !== win.rel) warnings.push(`${win.rel}: path does not match window_start; expected ${expected}`);
@@ -267,7 +269,7 @@ function printBrief(domain) {
   console.log(`# ${config.title || domain} reporter brief\n`);
   console.log('## Current frame\n');
   console.log(readMarkdownBody(path.join(domainDir, 'frame.md')));
-  console.log('\n## Latest windows\n');
+  console.log('\n## Latest now board updates\n');
   for (const win of windows) {
     const firstItem = win.body.split('\n').find((line) => /^-\s+[🟢🟡🔵]\s+\*\*/u.test(line)) || '(no item)';
     const status = win.status === 'example' ? 'EXAMPLE, not publishable' : (win.status || 'draft');
@@ -349,10 +351,8 @@ function renderIndex(domains) {
     body += `### ${title}\n\n`;
     body += `${description}\n\n`;
     body += `- Human HTML: [/${domain}](./${domain})\n`;
-    body += `- Agent markdown: <a href="/${domain}.md">/${domain}.md</a>\n`;
-    body += `- Latest windows: [/${domain}/archive](./${domain}/archive)\n`;
-    body += `- Week view: [/${domain}/week](./${domain}/week)\n`;
-    body += `- Month view: [/${domain}/month](./${domain}/month)\n\n`;
+    body += `- Agent markdown: [https://agentnews.md/${domain}.md](https://agentnews.md/${domain}.md)\n`;
+    body += `- Archive: [/${domain}/archive](./${domain}/archive)\n\n`;
   }
   body += '## How to read a board\n\n';
   body += '1. Read the domain board before answering a current-domain question.\n';
@@ -362,21 +362,47 @@ function renderIndex(domains) {
   body += '5. Use follow-up queries and watch threads as search starting points.\n\n';
   body += '## Direct access\n\n';
   body += '- HTML for people: `https://agentnews.md/finance`\n';
-  body += '- Markdown for agents: <a href="https://agentnews.md/finance.md">https://agentnews.md/finance.md</a>\n';
+  body += '- Markdown for agents: [https://agentnews.md/finance.md](https://agentnews.md/finance.md)\n';
   body += '- Content negotiation: request `Accept: text/markdown` on the HTML route when supported.\n\n';
   return body;
 }
 
 function renderWindowPage(domainTitle, win) {
-  return frontmatter({ title: `${domainTitle} window ${win.id}`, domain: win.domain, updated: win.created }) +
-    `# ${domainTitle} window ${win.id}\n\nWindow: ${win.window_start} to ${win.window_end}\nReporter: ${win.reporter}\n\n${win.body}\n`;
+  return frontmatter({ title: `${domainTitle} ${formatUpdateCycleLabel(win)}`, domain: win.domain, updated: getPublishedAt(win) }) +
+    `# ${domainTitle} ${formatUpdateCycleLabel(win)}\n\nPublished: ${formatPublishedAt(win)}\nReporter: ${win.reporter}\n\n${win.body}\n`;
 }
 
 function renderArchive(title, domain, windows) {
-  let body = frontmatter({ title: `${title} archive`, domain, updated: windows[0]?.created || '' });
-  body += `# ${title} archive\n\nEvery 6h window is preserved here.\n\n`;
-  for (const win of windows) body += `- [${win.id}](/${domain}/w/${win.id}) — ${win.window_start} to ${win.window_end}\n`;
+  const sorted = [...windows].sort((a, b) => getPublishedAt(b).localeCompare(getPublishedAt(a)));
+  let body = frontmatter({ title: `${title} archive`, domain, updated: sorted[0] ? getPublishedAt(sorted[0]) : '' });
+  body += `# ${title} archive\n\nPublished now board updates, grouped by UTC cycle.\n\n`;
+  let currentDay = '';
+  for (const win of sorted) {
+    const day = formatUpdateCycleDay(win);
+    if (day !== currentDay) {
+      if (currentDay) body += '\n';
+      body += `## ${day}\n\n`;
+      currentDay = day;
+    }
+    body += `- [${formatUpdateCycleHour(win)} update](/${domain}/updates/${win.id}.md)\n`;
+  }
   return body;
+}
+
+function renderSitemap(domains) {
+  const urls = ['/', '/index.md'];
+  for (const domain of domains) {
+    urls.push(`/${domain}`, `/${domain}.md`, `/${domain}/archive`, `/${domain}/archive.md`);
+    const windows = listWindows(domain)
+      .filter((win) => win.status !== 'example')
+      .sort((a, b) => getPublishedAt(b).localeCompare(getPublishedAt(a)));
+    for (const win of windows) {
+      urls.push(`/${domain}/updates/${win.id}`, `/${domain}/updates/${win.id}.md`);
+    }
+  }
+
+  const body = urls.map((url) => `  <url>\n    <loc>https://agentnews.md${url}</loc>\n  </url>`).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
 }
 
 function normalizePage(raw, fallbackTitle) {
@@ -417,7 +443,34 @@ function listWindows(domain) {
 }
 
 function formatWindowTitle(win) {
-  return `${win.window_start || win.id} — ${win.window_end || ''}`;
+  return formatUpdateCycleLabel(win);
+}
+
+function formatUpdateLabel(win) {
+  return formatUpdateCycleLabel(win);
+}
+
+function formatPublishedAt(win) {
+  return getPublishedAt(win);
+}
+
+function getPublishedAt(win) {
+  return win.published_at || win.created || win.window_end || win.id;
+}
+
+function formatUpdateCycleLabel(win) {
+  return `${formatUpdateCycleDay(win)} ${formatUpdateCycleHour(win)} update`;
+}
+
+function formatUpdateCycleDay(win) {
+  const iso = win.window_start || '';
+  return iso.slice(0, 10) || win.id.slice(0, 10) || 'unknown date';
+}
+
+function formatUpdateCycleHour(win) {
+  const iso = win.window_start || '';
+  const hour = iso.match(/T(\d{2}):/)?.[1] || win.id.match(/-(\d{2})$/)?.[1] || '00';
+  return `${hour}H`;
 }
 
 function expectedWindowRel(iso) {

@@ -1,13 +1,19 @@
 ---
-import Base from '@string-os/astro-sfmd/layouts/Base.astro';
 import { parseSfmdFile } from '@string-os/astro-sfmd';
+import fs from 'node:fs';
 import path from 'node:path';
+import AgentNewsLayout from '../layouts/AgentNewsLayout.astro';
+import { cleanScalar, getDomains, getPageKind, htmlForHumans, parseFrontmatter } from '../lib/agentnews.js';
 
-const page = parseSfmdFile(path.join(process.cwd(), '.agentnews/site/index.md'), {
+const filePath = path.join(process.cwd(), '.agentnews/site/index.md');
+const page = parseSfmdFile(filePath, {
   contentDir: '.agentnews/site',
 });
+const meta = parseFrontmatter(fs.readFileSync(filePath, 'utf8'));
+const title = cleanScalar(meta.title || page.title || 'agentnews.md');
+const description = meta.description || 'Current context boards for working AI agents.';
 ---
 
-<Base title={page.title} nav={page.nav}>
-  <Fragment set:html={page.htmlBody} />
-</Base>
+<AgentNewsLayout title={title} description={description} domains={getDomains()} currentPath="/" kind={getPageKind('/')}>
+  <Fragment set:html={htmlForHumans(page.htmlBody)} />
+</AgentNewsLayout>

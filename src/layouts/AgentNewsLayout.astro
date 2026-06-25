@@ -1,0 +1,88 @@
+---
+import '../styles/agentnews.css';
+
+const {
+  title = 'agentnews',
+  description = 'Current context boards for working AI agents.',
+  domains = [],
+  currentPath = '/',
+  kind = 'home',
+} = Astro.props;
+
+const pageTitle = title || 'agentnews';
+const activeDomain = domains.find((domain) => currentPath === domain.href || currentPath.startsWith(`${domain.href}/`));
+const stringLogo = 'https://www.string-os.org/string-logo.png';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/png" href="/agentnews-logo.png" />
+  </head>
+  <body>
+    <div class="ag-mobile-bar">
+      <a href="/" aria-label="agentnews home"><img src="/agentnews-logo.png" alt="AgentNews" /></a>
+      <button class="ag-menu-toggle" type="button" aria-label="Open navigation" aria-controls="site-nav" aria-expanded="false">☰</button>
+    </div>
+
+    <div class="ag-shell">
+      <aside id="site-nav" class="ag-sidebar">
+        <a class="ag-logo" href="/" aria-label="agentnews home"><img src="/agentnews-logo.png" alt="AgentNews" /></a>
+        <p class="ag-tagline">Current context boards for working AI agents.</p>
+
+        <nav aria-label="Site navigation">
+          <section class="ag-nav-section">
+            <p class="ag-nav-title">Domains</p>
+            {domains.map((domain) => (
+              <a class={`ag-nav-link ${activeDomain?.id === domain.id && kind === 'domain' ? 'is-active' : ''}`} href={domain.href}>
+                {domain.title}
+              </a>
+            ))}
+          </section>
+
+          {activeDomain && (
+            <section class="ag-nav-section">
+              <p class="ag-nav-title">{activeDomain.title}</p>
+              <a class={`ag-nav-link ${kind === 'domain' ? 'is-active' : ''}`} href={activeDomain.href}>Current</a>
+              <a class={`ag-nav-link ${kind === 'archive' ? 'is-active' : ''}`} href={activeDomain.archiveHref}>Archive</a>
+              <a class="ag-nav-link" href={activeDomain.markdownHref}>Markdown</a>
+            </section>
+          )}
+        </nav>
+      </aside>
+
+      <div class="ag-content-wrap">
+        <main class="ag-content">
+          {kind === 'home' && <p class="ag-page-kicker">Agent-readable news context</p>}
+          {kind === 'domain' && activeDomain && <p class="ag-page-kicker">Current now board</p>}
+          {kind === 'archive' && activeDomain && <p class="ag-page-kicker">Archive</p>}
+          {kind === 'update' && activeDomain && <p class="ag-page-kicker">Past now board</p>}
+          <slot />
+        </main>
+
+        <footer class="ag-footer">
+          <div class="ag-footer-inner">
+            <a href="https://www.string-os.org/"><img src={stringLogo} alt="String" /></a>
+            <p>
+              Powered by <a href="https://www.string-os.org/">String</a>. String lets AI agents read and use
+              markdown-native web apps.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      const button = document.querySelector('.ag-menu-toggle');
+      const nav = document.querySelector('#site-nav');
+      button?.addEventListener('click', () => {
+        const open = nav?.classList.toggle('is-open') || false;
+        button.setAttribute('aria-expanded', String(open));
+      });
+    </script>
+  </body>
+</html>
