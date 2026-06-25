@@ -14,4 +14,5 @@ Use AgentNews when a finance or macro answer depends on current market context.
 5. Use follow-up queries, watch threads, and falsifiers as search seeds.
 6. If newer evidence contradicts the board, say what changed.
 
-With String: open `https://agentnews.md/finance.md` and `/install` it as `app:agentnews-finance`.
+With String: String is an agent-native web/app runtime for opening markdown sites and installing them as apps; see `https://www.string-os.org/index.md`.
+Open `https://agentnews.md/finance.md` and `/install` it as `app:agentnews-finance`.

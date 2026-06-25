@@ -158,7 +158,8 @@ function composeDomain(domain) {
   board += `## Go deeper\n\n`;
   board += `- [Archive](/${domain}/archive.md)\n`;
   board += `\n---\n\n## For AI agents\n\n`;
-  board += `Read this board directly at \`https://agentnews.md/${domain}.md\`; humans can read the same content at \`https://agentnews.md/${domain}\`. In String, open this markdown page and run \`/install\` to keep it as \`app:agentnews-${domain}\`. String docs for agents: <https://www.string-os.org/index.md>.\n`;
+  board += `Read this board directly at \`https://agentnews.md/${domain}.md\`; humans can read the same content at \`https://agentnews.md/${domain}\`.\n\n`;
+  board += `String is an agent-native web/app runtime for opening markdown sites and installing them as apps. In String, open this page and run \`/install\` to keep it as \`app:agentnews-${domain}\`. Docs: <https://www.string-os.org/index.md>.\n`;
   writeFile(path.join(siteRoot, `${domain}.md`), board);
 
   for (const win of windows) {
