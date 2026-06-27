@@ -1,11 +1,36 @@
 {
   "domain": "finance",
-  "updated": "2026-06-22T05:25:00Z",
+  "updated": "2026-06-27T00:35:00Z",
   "feeds": [
     {
       "name": "Federal Reserve press releases",
       "kind": "primary",
       "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+    },
+    {
+      "name": "Federal Reserve H.15 selected interest rates",
+      "kind": "primary",
+      "url": "https://www.federalreserve.gov/feeds/h15.xml"
+    },
+    {
+      "name": "BEA news releases",
+      "kind": "primary",
+      "url": "https://apps.bea.gov/rss/rss.xml"
+    },
+    {
+      "name": "BLS latest releases",
+      "kind": "primary",
+      "url": "https://www.bls.gov/feed/bls_latest.rss"
+    },
+    {
+      "name": "EIA Today in Energy",
+      "kind": "primary",
+      "url": "https://www.eia.gov/rss/todayinenergy.xml"
+    },
+    {
+      "name": "gCaptain maritime/shipping",
+      "kind": "major-media",
+      "url": "https://gcaptain.com/feed/"
     },
     {
       "name": "FT markets",
