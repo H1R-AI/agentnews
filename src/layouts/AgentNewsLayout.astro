@@ -37,6 +37,12 @@ const stringLogo = '/string-logo.webp';
 
         <nav aria-label="Site navigation">
           <section class="ag-nav-section">
+            <p class="ag-nav-title">AgentNews</p>
+            <a class={`ag-nav-link ${kind === 'home' ? 'is-active' : ''}`} href="/">Home</a>
+            <a class={`ag-nav-link ${kind === 'about' ? 'is-active' : ''}`} href="/about">About</a>
+          </section>
+
+          <section class="ag-nav-section">
             <p class="ag-nav-title">Domains</p>
             {domains.map((domain) => (
               <a class={`ag-nav-link ${activeDomain?.id === domain.id && kind === 'domain' ? 'is-active' : ''}`} href={domain.href}>
@@ -59,6 +65,7 @@ const stringLogo = '/string-logo.webp';
       <div class="ag-content-wrap">
         <main class="ag-content">
           {kind === 'home' && <p class="ag-page-kicker">Agent-readable news context</p>}
+          {kind === 'about' && <p class="ag-page-kicker">Why this exists</p>}
           {kind === 'domain' && activeDomain && <p class="ag-page-kicker">Current now board</p>}
           {kind === 'archive' && activeDomain && <p class="ag-page-kicker">Archive</p>}
           {kind === 'update' && activeDomain && <p class="ag-page-kicker">Past now board</p>}

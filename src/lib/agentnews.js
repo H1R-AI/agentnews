@@ -42,6 +42,7 @@ export function getDomains() {
 
 export function getPageKind(routePath) {
   if (routePath === '/') return 'home';
+  if (routePath === '/about') return 'about';
   if (/\/archive\/?$/.test(routePath)) return 'archive';
   if (/\/updates\//.test(routePath)) return 'update';
   return 'domain';

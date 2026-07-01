@@ -118,6 +118,7 @@ function composeAll() {
 
   const domains = listDomains();
   writeFile(path.join(siteRoot, 'index.md'), renderIndex(domains));
+  writeFile(path.join(siteRoot, 'about.md'), renderAbout());
   for (const domain of domains) composeDomain(domain);
   writeFile(path.join(root, 'public', 'sitemap.xml'), renderSitemap(domains));
   console.log(`Composed ${domains.length} domain(s) into ${path.relative(root, siteRoot)}.`);
@@ -357,6 +358,7 @@ function renderIndex(domains) {
   body += 'Context boards for working AI agents.\n\n';
   body += 'Most AI answers get worse when they start from a blank chat. agentnews gives agents a current priority map: what matters now, what is uncertain, which sources support it, and what to search next. It is not a news article site and not a conclusion engine.\n\n';
   body += 'Humans can read the HTML pages. Agents can read the same boards as markdown.\n\n';
+  body += '[About AgentNews](./about) explains the problem: AI search can find links, but agents still need a shared, falsifiable now before they answer.\n\n';
   body += '## Supported domains\n\n';
   for (const domain of domains) {
     const config = readDomainConfig(path.join(contentRoot, domain, 'domain.yml'));
@@ -378,6 +380,45 @@ function renderIndex(domains) {
   body += '- HTML for people: `https://agentnews.md/finance`\n';
   body += '- Markdown for agents: [https://agentnews.md/finance.md](https://agentnews.md/finance.md)\n';
   body += '- Content negotiation: request `Accept: text/markdown` on the HTML route when supported.\n\n';
+  return body;
+}
+
+function renderAbout() {
+  let body = frontmatter({
+    title: 'About AgentNews',
+    description: 'AgentNews gives working AI agents a shared, falsifiable now before they answer.',
+    updated: new Date().toISOString(),
+  });
+  body += '# About AgentNews\n\n';
+  body += '## AI search is missing a shared now\n\n';
+  body += 'AI agents can search, but they do not share a now.\n\n';
+  body += 'Search can find recent links. It does not tell an agent what is held, what is contested, what changed, or what would prove the current frame wrong.\n\n';
+  body += 'That gap is **Nowless Search**.\n\n';
+  body += 'AgentNews is our answer: a public context desk that publishes a shared, falsifiable now for working AI agents before they answer current questions.\n\n';
+  body += '## What AgentNews provides\n\n';
+  body += 'Each board gives agents a current frame they can inspect, challenge, update, or reject:\n\n';
+  body += '- **Held:** the current working frame.\n';
+  body += '- **Falsifier:** what would prove that frame wrong.\n';
+  body += '- **Contested:** what remains genuinely unresolved.\n';
+  body += '- **Suppressed:** what is intentionally downgraded, and when to revive it.\n';
+  body += '- **Changed since last:** what actually moved since the previous board.\n\n';
+  body += 'It is a context prior, not a conclusion.\n\n';
+  body += '## What it is not\n\n';
+  body += 'AgentNews is not a news article site. It is not financial advice, trading calls, stock picks, or a replacement for fresh market data and primary sources.\n\n';
+  body += 'The board is meant to improve the starting state for analysis. Agents and humans should still verify live prices, rates, oil, dollar, official data, and primary sources before making market-facing claims.\n\n';
+  body += '## Why agents need this\n\n';
+  body += 'Most AI answers get worse when they start from a blank chat or a generic search. Search returns documents. It does not provide a shared current frame.\n\n';
+  body += 'A useful agent should know what the current frame is, what evidence supports it, what is uncertain, and what would break it. AgentNews gives that frame to the next agent before it reasons.\n\n';
+  body += '## Human HTML, agent markdown\n\n';
+  body += 'Humans read HTML:\n\n';
+  body += '- <https://agentnews.md/finance>\n\n';
+  body += 'Agents read markdown:\n\n';
+  body += '- <https://agentnews.md/finance.md>\n\n';
+  body += 'Both are built from the same source. The goal is not to make agents scrape a human page and guess what matters; the goal is to provide a context board they can read directly.\n\n';
+  body += '## Built with String\n\n';
+  body += 'AgentNews is also a live example of the agent-readable web.\n\n';
+  body += 'String is an open OS/runtime for AI agents. It lets agents open markdown-native sites, install them as apps, and work with web, app, and document surfaces directly.\n\n';
+  body += 'Learn more: <https://www.string-os.org>\n\n';
   return body;
 }
 
@@ -404,7 +445,7 @@ function renderArchive(title, domain, windows) {
 }
 
 function renderSitemap(domains) {
-  const urls = ['/', '/index.md'];
+  const urls = ['/', '/index.md', '/about', '/about.md'];
   for (const domain of domains) {
     urls.push(`/${domain}`, `/${domain}.md`, `/${domain}/archive`, `/${domain}/archive.md`);
     const windows = listWindows(domain)
