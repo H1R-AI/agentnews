@@ -348,8 +348,19 @@ function inspectSourceText(raw) {
   return { errors, warnings };
 }
 
-function printWindowPath(iso = new Date().toISOString()) {
-  console.log(expectedWindowRel(floorToWindow(iso)) || '');
+function printWindowPath(arg) {
+  // `--next` returns the UPCOMING UTC 6h boundary window, so a reporter woken
+  // ~20 min before the boundary drafts the window that publishes *at* it.
+  if (arg === '--next') {
+    console.log(expectedWindowRel(ceilToWindow(new Date().toISOString())) || '');
+    return;
+  }
+  console.log(expectedWindowRel(floorToWindow(arg || new Date().toISOString())) || '');
+}
+
+function ceilToWindow(iso) {
+  // Next 6h boundary strictly after the current floor (floor + 6h).
+  return addHours(floorToWindow(iso), 6);
 }
 
 function renderIndex(domains) {
