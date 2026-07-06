@@ -1,0 +1,52 @@
+{
+  "domain": "finance-ko",
+  "updated": "2026-07-06T14:00:00Z",
+  "note": "한국 시장 중심 레이더 피드. 모든 URL은 2026-07-06 curl(agentnews-rss-watch/0.1 UA)로 RSS/XML 200 응답 확인. 정부 1차 소스(FSC/MOEF/KRX/DART)는 안정적 RSS가 없어 피드가 아닌 targeted WebFetch 대상으로 REPORTER 노트에 별도 관리.",
+  "feeds": [
+    {
+      "name": "한국은행(BOK) 보도자료",
+      "kind": "primary",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000338/news.rss?menuNo=200761"
+    },
+    {
+      "name": "연합뉴스 시장(증시·환율·금리)",
+      "kind": "wire",
+      "url": "https://www.yna.co.kr/rss/market.xml"
+    },
+    {
+      "name": "연합뉴스 경제",
+      "kind": "wire",
+      "url": "https://www.yna.co.kr/rss/economy.xml"
+    },
+    {
+      "name": "이데일리 뉴스",
+      "kind": "major-media",
+      "url": "http://rss.edaily.co.kr/edaily_news.xml"
+    },
+    {
+      "name": "매일경제 증권/증시",
+      "kind": "major-media",
+      "url": "https://www.mk.co.kr/rss/50200011/"
+    },
+    {
+      "name": "매일경제 경제",
+      "kind": "major-media",
+      "url": "https://www.mk.co.kr/rss/30100041/"
+    },
+    {
+      "name": "매일경제 세계/국제",
+      "kind": "major-media",
+      "url": "https://www.mk.co.kr/rss/40300001/"
+    },
+    {
+      "name": "Federal Reserve press releases (원화·금리 전이 경로)",
+      "kind": "primary",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+    },
+    {
+      "name": "Investing.com stock market news (글로벌 색, 한국 관점 교차검증용)",
+      "kind": "major-media",
+      "url": "https://www.investing.com/rss/news_25.rss"
+    }
+  ]
+}
