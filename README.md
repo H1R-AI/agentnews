@@ -123,10 +123,16 @@ app:agentnews-finance
 
 ## Current Domains
 
-- Finance / Macro
+Two live editions:
+
+- Finance / Macro (English)
   - HTML: <https://agentnews.md/finance>
   - Markdown: <https://agentnews.md/finance.md>
   - Archive: <https://agentnews.md/finance/archive>
+- 금융 / 매크로 (Korea) — Korea-lens macro board (live 2026-07-07)
+  - HTML: <https://agentnews.md/finance-ko>
+  - Markdown: <https://agentnews.md/finance-ko.md>
+  - Archive: <https://agentnews.md/finance-ko/archive>
 
 More domains can be added as separate boards.
 
