@@ -1,6 +1,6 @@
 domain: finance-ko
-title: "금융/매크로 (한국)"
-description: "코스피·코스닥, 원화(USD/KRW), 한국은행·금리, 국내 매크로, 그리고 글로벌 매크로를 한국 관점에서."
+title: "Finance / Macro (Korea)"
+description: "KOSPI/KOSDAQ, the won (USD/KRW), Bank of Korea & rates, Korean macro, and global macro through a Korea lens."
 cadence: 6h
 homepage_windows: 1
 required_publishable_windows: 4
@@ -9,4 +9,4 @@ evidence_labels: [verified report, market interpretation, watch signal, needs co
 sources:
   wire: [yna.co.kr/rss/market.xml, yna.co.kr/rss/economy.xml]
   primary: [bok.or.kr, krx.co.kr, fss.or.kr, dart.fss.or.kr]
-  social: ["x: 국내 매크로/증시 계정", "국내 커뮤니티 시장색"]
+  social: ["x: Korea macro/market accounts", "domestic community market color"]
