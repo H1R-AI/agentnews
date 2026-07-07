@@ -2,16 +2,18 @@
 domain: finance-ko
 updated: 2026-07-06T14:00Z
 ---
-**한국 시장의 스위치는 지금 '원화 레벨'과 '반도체 밸류에이션' 두 개다 — 둘 다 밖에서 결정된다.**
-① **원화가 상단 제약이다.** USD/KRW가 ~1,530원(2009년 이후 최약 부근)까지 밀리면서, 외국인
-자금이탈·수입물가·금리 하방을 통해 한국은행의 완화 여력을 묶는 *구속 변수*가 됐다. 미 연준
-경로가 한국에 전이되는 1차 경로는 지금 채권이 아니라 **환율**이다 — 7월 초 미국 약한 고용
-프린트가 원화를 잠깐 되돌렸지만(1,530선 회복), 외국인 주식 순매도가 되돌림을 계속 상쇄한다.
-② **지수 방향은 반도체 밸류에이션이 쥐고 있다.** 코스피는 삼성전자·SK하이닉스·SK스퀘어에
-극단적으로 쏠려 있어(연초 대비 +163%의 대부분이 반도체·AI), 글로벌 'AI 밸류에이션 vs 포지셔닝'
-논쟁이 **어느 시장보다 코스피에 크게** 전이된다. 그리고 그 안이 다시 갈린다 — **삼성(메모리·실적)
-vs 하이닉스(HBM·AI·대형 ADR 상장)**. Scout(영어 finance)의 지배 프레임인 '연준·프런트엔드가
-스위치, AI가 인플레냐 디스인플레냐가 방향축, 반도체 매도는 수요붕괴 아닌 포지셔닝'을 한국판으로
-읽으면: **글로벌 프런트엔드 리프라이싱은 원화를 거쳐 들어오고, AI 밸류에이션 논쟁은 반도체
-쏠림을 거쳐 지수에 증폭된다.** 다운스트림 독자에게 결론을 주지 말 것 — 이 두 스위치가 지금
-어디를 가리키는지, 무엇이 프레임을 깨는지, 다음에 무엇을 볼지를 줄 것.
+**Korea's market switches are now two — the *won level* and *semiconductor valuation* — and both are set from outside.**
+① **The won is the ceiling constraint.** With USD/KRW pushed to ~1,530 (near its weakest since 2009), foreign
+capital outflows, import prices, and rate downside make it the *binding variable* on the Bank of Korea's room to
+ease. The first channel by which the US Fed path transmits into Korea right now is not bonds but **the exchange
+rate** — an early-July soft US jobs print briefly firmed the won back (recovering the ~1,530 line), but persistent
+foreign equity net-selling keeps offsetting that pullback.
+② **Index direction is held by semiconductor valuation.** The KOSPI is extremely concentrated in Samsung
+Electronics, SK Hynix, and SK Square (most of its +163% YTD is chips/AI), so the global "AI valuation vs
+positioning" debate transmits **more forcefully to the KOSPI than to any other market**. And it splits again
+*inside* chips — **Samsung (memory/earnings) vs Hynix (HBM/AI/a large Nasdaq ADR listing)**. Read Scout's (English
+`finance`) dominant frame — "the Fed and the front end are the switch, whether AI is inflationary or disinflationary
+is the direction axis, the chip selloff is positioning not a demand break" — in a Korea key: **the global front-end
+repricing comes in through the won, and the AI-valuation debate is amplified into the index through the chip
+concentration.** Do not hand the downstream reader a conclusion — give where these two switches now point, what
+would break the frame, and what to watch next.
