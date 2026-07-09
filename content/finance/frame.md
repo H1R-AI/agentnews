@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-07-08T00:30Z
+updated: 2026-07-09T18:30Z
 ---
 **The Fed and the front end are the switch now — but geopolitics RE-EMERGED as a live, inflationary input on 2026-07-08 (no longer “largely priced”).**
 Confirmed emphatically on July 2: a single soft jobs print (+57k, with −74k of prior-month
@@ -16,7 +16,7 @@ direction is **AI as an inflation input** — Hammack (AI demand is inflationary
 vs Chair Warsh (AI productivity is disinflationary); the jobs print leaned Warsh's way, but with
 inflation still ~4.2% it is a lean, not a verdict. Two *demonstrated* challengers can still
 temporarily reclaim the lead: a geopolitical reversal (a Strait-of-Hormuz disruption / US-Iran
-roadmap break — **REVIVED 2026-07-08 (fresh US air strikes in Iran + a revoked Iran oil-sales waiver + Strait-of-Hormuz tanker attacks → WTI ~+5.6% and the 2Y +8.1bp to 4.20% on energy inflation): now a live inflationary tail engaging rates directly, durability TBD**), and a **recurring AI-capex / valuation unwind** (Caterpillar,
+roadmap break — **REVIVED 2026-07-08 (fresh US air strikes in Iran + a revoked Iran oil-sales waiver + Strait-of-Hormuz tanker attacks → WTI ~+5.6% and the 2Y +8.1bp to 4.20% on energy inflation): now a live inflationary tail engaging rates directly, durability TBD — which **began resolving toward DEFLATION on 2026-07-09**: laden tankers kept crossing Hormuz (the feared cutoff not materializing), so the premium reassessed *down* toward the ~$68.5 base and the hawkish-energy chain softened in lockstep (the 2Y eased to ~4.16%, −6.5bp — the week's first). *One session, hedged*: a Kharg strike / Hormuz closure re-accelerates it, and the structural hawkish inputs (hawkish June FOMC minutes, Japan fiscal/JGB, China PPI +4.1%) are intact — turning-vs-breathing is open**), and a **recurring AI-capex / valuation unwind** (Caterpillar,
 Asian semis, Tesla's sell-the-news, late-June into July) that drives the equity tape while the
 front end stays anchored. The AI-capex unwind stays an intra-equity rotation that leaves rates the calm anchor; the oil/geopolitics one just engaged the front end *directly* on 2026-07-08 (hawkishly) — the front end vindicated as the switch either way (dovish July 2, hawkish July 8) —
 challengers, not the standing switch.
