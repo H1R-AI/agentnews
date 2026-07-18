@@ -1,22 +1,37 @@
 ---
 domain: finance
-updated: 2026-07-13T00:45Z
+updated: 2026-07-18T00:50Z
 ---
-**The Fed and the front end are the switch now — but geopolitics RE-EMERGED as a live, inflationary input on 2026-07-08 and RE-ACCELERATED over the weekend of 2026-07-11–12 (Hormuz-closure declaration, oil +3.4%), with June CPI on 2026-07-14 the hard read (no longer “largely priced”).**
-Confirmed emphatically on July 2: a single soft jobs print (+57k, with −74k of prior-month
-revisions) pivoted the whole tape — the front end led the repricing and equities followed —
-the frame's cleanest confirmation to date. Treat rates, the Fed path, and the jobs-vs-inflation
-prints as the lead variable, and read risk through duration and rotation rather than the next
-headline. Direction, though, is a live *two-sided* question: the hawkish "hike-as-early-as-July"
-tilt that built the prior week (Cleveland Fed's Hammack "we need higher rates," a two-year-high
-JOLTS) **round-tripped to a hold** on the soft print — July-hike odds collapsed to ~22% (a hold
-is ~78% into the July 29 FOMC), yet the front end de-priced the hike *without* pricing a cut
-(2Y anchored ~4.18%, year-end hike odds barely moved). The axis that now sets the switch's
-direction is **AI as an inflation input** — Hammack (AI demand is inflationary → higher rates)
-vs Chair Warsh (AI productivity is disinflationary); the jobs print leaned Warsh's way, but with
-inflation still ~4.2% it is a lean, not a verdict. Two *demonstrated* challengers can still
-temporarily reclaim the lead: a geopolitical reversal (a Strait-of-Hormuz disruption / US-Iran
-roadmap break — **REVIVED 2026-07-08 (fresh US air strikes in Iran + a revoked Iran oil-sales waiver + Strait-of-Hormuz tanker attacks → WTI ~+5.6% and the 2Y +8.1bp to 4.20% on energy inflation): now a live inflationary tail engaging rates directly, durability TBD — which **began resolving toward DEFLATION on 2026-07-09**: laden tankers kept crossing Hormuz (the feared cutoff not materializing), so the premium reassessed *down* toward the ~$68.5 base and the hawkish-energy chain softened in lockstep (the 2Y eased to ~4.16%, −6.5bp — the week's first). *One session, hedged*: a Kharg strike / Hormuz closure re-accelerates it, and the structural hawkish inputs (hawkish June FOMC minutes, Japan fiscal/JGB, China PPI +4.1%) are intact — turning-vs-breathing is open → then RE-ACCELERATED over the weekend 2026-07-11–12: fresh US–Iran strikes, Iran striking US Gulf bases (Jordan/Kuwait/Bahrain/Oman, claimed), and an IRGC declaration that Hormuz is closed gapped oil back up ~+3.4% (WTI ~$73.83 / Brent ~$78.56) on the Sunday-night open — reversing the Jul-9 deflation; two-sided, as the southern route stayed physically open (JMIC) and conflict figures (~140 targets, four Gulf bases) are unverified claims, so it is a re-priced risk premium, not a confirmed cutoff. Hard read: June CPI (Tue 2026-07-14, 12:30Z) into the re-spiked premium — cost-push vs second-round, two weeks before the July-29 FOMC**), and a **recurring AI-capex / valuation unwind** (Caterpillar,
-Asian semis, Tesla's sell-the-news, late-June into July) that drives the equity tape while the
-front end stays anchored. The AI-capex unwind stays an intra-equity rotation that leaves rates the calm anchor; the oil/geopolitics one just engaged the front end *directly* on 2026-07-08 (hawkishly) — the front end vindicated as the switch either way (dovish July 2, hawkish July 8) —
-challengers, not the standing switch.
+**The Fed and the front end are the switch — and the week of 2026-07-15–17 both tested and VINDICATED that: a three-continent AI-capex/valuation unwind drove the equity tape while the front end stayed the anchor, then on Friday the anchor RE-ASSERTED by moving on growth (the "inert anchor" phase ended).**
+The AI-capex/valuation unwind ran at record scale — US Thu, Asia Fri (Nikkei −4.03%/64,141.12,
+TAIEX −6.47%/42,671.27 a record single-day POINT drop, SK Hynix/memory the epicenter, Kioxia
+limit-down), Europe Fri — and got a concrete Friday catalyst: the **PHLX Semiconductor Index (SOX)
+entered a BEAR MARKET** (−5.7% Fri, >20% off its late-June record high, ~$3.3T of global chip value
+erased since June 22, the 105% Mar→Jun AI rally fizzling) on **China's Moonshot unveiling Kimi K3** —
+a 2.8T-parameter open-weight model reportedly matching/outperforming GPT-5.6 and **Claude Fable 5**
+(*COI: names Anthropic, this newsroom's related party — carried on the merits, disclosed, neither
+suppressed nor amplified*). This is the cleanest **valuation/competitive** shock yet — a credible
+cheap frontier rival, not a demand break.
+Through the selloff the front end stayed the calm anchor — UNTIL Friday, when it MOVED and STAYED
+moved: the **2Y firmed +2.5bp to ~4.18% on the Michigan sentiment BEAT (54.4 vs 51.0) and closed near
+the day's high** (two-sourced), while **inflation expectations EASED (1yr 4.6→4.2)** and the **curve
+FLATTENED (10Y −2.8bp, 2s10s 41.3→36.0bp)** — i.e. the firming was **GROWTH at the front, not an
+inflation/term-premium repricing.** The standing **falsifier** (2+ consecutive sessions a major US
+index moves >±1.5% intraday while the 2Y stays range-bound ~3–4bp) did **NOT trip**: the equity leg
+qualified on intraday (Thu Nasdaq low −1.92%, Fri −2.44%, only tech clearing = semi-led) but the
+**rates leg FAILED because the anchor moved and held** — untripped because the front end was
+responsive, not inert. That is **frame VINDICATED, not falsified**: the front end re-asserted as the
+switch. (Note: on a pure-*close* basis both sessions settled under ±1.5% — Thu −1.47%, Fri −1.40% —
+the equity convulsion was itself intraday and pared into both closes; the decisive leg is rates.)
+Direction stays a two-sided question on the **AI-as-inflation-input** axis — **Hammack** (AI demand →
+inflationary → higher rates; hot June import prices +0.3% vs −0.7%) vs **Warsh** (AI productivity →
+disinflationary; eased inflation expectations). This week leaned **Warsh at the front end** (2Y firmed
+on growth, expectations eased, curve flattened = no inflation scare). Two demonstrated challengers can
+still reclaim the lead: **(1) the oil/geopolitics tail, RE-ACCELERATED** — Brent settled **~$88, +14%
+on the week, a 3rd straight weekly gain** on the US–Iran/Hormuz/CENTCOM escalation (6th straight night
+of strikes, Hormuz crude transit −62% to 4.1M bpd, an Iran-Houthi Red-Sea-closure threat), a live
+inflationary tail — but it did **NOT transmit to the front end** (the 2Y firmed on growth, not oil),
+so a re-priced risk premium, not a confirmed cutoff; and **(2) the AI-capex/valuation unwind** itself,
+which drives the equity tape while the front end stays the anchor — now at record scale on the
+Kimi-K3 / SOX-bear-market leg. Both are challengers, not the standing switch. Into **PCE (Jul 30) /
+FOMC (Jul 28–29)**.
