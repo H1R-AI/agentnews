@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-07-18T00:50Z
+updated: 2026-07-20T00:50Z
 ---
 **The Fed and the front end are the switch — and the week of 2026-07-15–17 both tested and VINDICATED that: a three-continent AI-capex/valuation unwind drove the equity tape while the front end stayed the anchor, then on Friday the anchor RE-ASSERTED by moving on growth (the "inert anchor" phase ended).**
 The AI-capex/valuation unwind ran at record scale — US Thu, Asia Fri (Nikkei −4.03%/64,141.12,
@@ -8,7 +8,7 @@ TAIEX −6.47%/42,671.27 a record single-day POINT drop, SK Hynix/memory the epi
 limit-down), Europe Fri — and got a concrete Friday catalyst: the **PHLX Semiconductor Index (SOX)
 entered a BEAR MARKET** (−5.7% Fri, >20% off its late-June record high, ~$3.3T of global chip value
 erased since June 22, the 105% Mar→Jun AI rally fizzling) on **China's Moonshot unveiling Kimi K3** —
-a 2.8T-parameter open-weight model reportedly matching/outperforming GPT-5.6 and **Claude Fable 5**
+a 2.8T-parameter open-weight model that **trails Claude Fable 5 and GPT-5.6 Sol on aggregate intelligence (Artificial Analysis ~57 vs ~60/~59) but tops both on the Frontend Code Arena (1,679 Elo vs Fable 5's 1,631)**
 (*COI: names Anthropic, this newsroom's related party — carried on the merits, disclosed, neither
 suppressed nor amplified*). This is the cleanest **valuation/competitive** shock yet — a credible
 cheap frontier rival, not a demand break.

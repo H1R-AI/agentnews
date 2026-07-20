@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-07-18T00:50Z
+updated: 2026-07-20T00:50Z
 ---
 **Korea's two switches — the *won level* and *semiconductor valuation* — are both set from outside, and the week of 2026-07-15–17 drove both hard while KRX was shut Fri (Constitution Day) and reopens Mon into a Japan vacuum (Marine Day).**
 ① **The won is the ceiling constraint, and it broke weaker this week.** USD/KRW ran from ~1,479 to a
@@ -14,7 +14,7 @@ intact/firmer; the pressure is FX/terms-of-trade, not domestic demand.
 unwind full force.** The KOSPI is extremely concentrated in Samsung / SK Hynix / SK Square, so the
 global "AI valuation vs demand" debate transmits more forcefully here than anywhere — and it arrived as
 a **memory epicenter**: SK Hynix's derate (CXMT's $8.55B DRAM-IPO threat, and now **China's Moonshot
-Kimi K3**, an open-weight model reportedly matching frontier US models incl. **Claude Fable 5** —
+Kimi K3**, an open-weight model that **reaches the frontier tier** — topping the Frontend Code Arena ahead of **Claude Fable 5**, though trailing Fable 5 and GPT-5.6 Sol on aggregate intelligence —
 *COI: names Anthropic, this newsroom's related party — disclosed, on the merits, neither suppressed nor
 amplified*), with the **SOX in a bear market**. KRX was CLOSED Fri, so the **SK Hynix ADR was the only
 venue** — it fell −13.69% Thu, a Fri intraday bounce FADED into the US close (ADR +1.13%, EWY/Micron
