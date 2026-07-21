@@ -42,5 +42,5 @@ Warsh Fri vs oil/term-premium / Hammack Mon) — growth-lean **softened, not fli
 **Oil held ~$89 near $90** and this settle was the **active equity driver** (the S&P −0.19% fade was
 oil/Iran, not memory-contagion), so the tail now **transmits to equity RISK** even as its front-end
 transmission stays ambiguous. The AI-capex leg was **CONTAINED**: Korea's Mon reopen absorbed the full
-−4.83% catch-up while the US held (chips green, SOX up) = **catch-up, not contagion**. Into **PCE (Jul 30) /
+−4.46% catch-up while the US held (chips green, SOX up) = **catch-up, not contagion**. Into **PCE (Jul 30) /
 FOMC (Jul 28–29)**.
