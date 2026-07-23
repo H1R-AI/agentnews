@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-07-22T00:50Z
+updated: 2026-07-23T00:50Z
 ---
 **The Fed and the front end are the switch — and the week of 2026-07-15–17 both tested and VINDICATED that: a three-continent AI-capex/valuation unwind drove the equity tape while the front end stayed the anchor, then on Friday the anchor RE-ASSERTED by moving on growth (the "inert anchor" phase ended).**
 The AI-capex/valuation unwind ran at record scale — US Thu, Asia Fri (Nikkei −4.03%/64,141.12,
@@ -51,5 +51,16 @@ S&P at 7,509 is still ~1.3% below its Jun-2 ATH ~7,605, not a record). Clean tes
 ~$91.7 yet the curve FLATTENED, not steepened** — oil is **NOT** driving the front end; the firming is
 growth. That makes **2 of the last 3 settles growth-flatteners (Fri + Tue) vs Monday's lone
 oil/steepener**, so Monday's softening **re-firms toward growth/Warsh**: the front end is the switch,
-firming on growth; the oil tail transmits to equity risk (choppy ~$91) but **not** to the curve. Into **PCE (Jul 30) /
+firming on growth; the oil tail transmits to equity risk (choppy ~$91) but **not** to the curve.
+**Wed 07-22 US settle — the AI test splits DEMAND from VALUATION; rates stay two-sided:** **Alphabet's
+Q2** cut both ways — a **demand validation** (revenue +24%, **Cloud +82%**, and 2026 capex **RAISED to
+$195–205B** from $180–190B, Q2 capex +100% YoY = the hyperscaler AI-infrastructure spend is **growing**,
+positive for the **memory/HBM read into SK Hynix Q2 (~Jul 29)**) that the equity market **SOLD anyway**
+(Alphabet **−4–5% after-hours** on the capex hike; Tesla −4% on a profit miss) = the
+**"valuation-not-demand" worry reasserting** on the rising spend. So the Contested axis sharpens on hard
+numbers: **AI DEMAND is validated (capex up), AI VALUATION is the worry (the market sold the spend).** On
+rates, the oil spike (Brent to a **~$95.4 6-week-high settle**, held despite a bearish EIA build, on the
+11th-night US–Iran / CPC-terminal strikes) firmed the curve only **marginally/ambiguously** (2Y +3bp to
+4.31%, 10Y +4bp to 4.67% = ~+1bp steepen, 30Y lagging) — no decisive growth-vs-oil resolution, **two-sided,
+held**. The switch keeps transmitting into **FX: the yen at ¥163, a 40-year low** (intervention risk live). Into **PCE (Jul 30) /
 FOMC (Jul 28–29)**.
