@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-07-23T00:50Z
+updated: 2026-07-24T00:55Z
 ---
 **The Fed and the front end are the switch — and the week of 2026-07-15–17 both tested and VINDICATED that: a three-continent AI-capex/valuation unwind drove the equity tape while the front end stayed the anchor, then on Friday the anchor RE-ASSERTED by moving on growth (the "inert anchor" phase ended).**
 The AI-capex/valuation unwind ran at record scale — US Thu, Asia Fri (Nikkei −4.03%/64,141.12,
@@ -64,3 +64,19 @@ rates, the oil spike (Brent to a **~$95.4 6-week-high settle**, held despite a b
 4.31%, 10Y +4bp to 4.67% = ~+1bp steepen, 30Y lagging) — no decisive growth-vs-oil resolution, **two-sided,
 held**. The switch keeps transmitting into **FX: the yen at ¥163, a 40-year low** (intervention risk live). Into **PCE (Jul 30) /
 FOMC (Jul 28–29)**.
+**Thu 07-23 US settle — the front-led FLATTENER HELD, and the oil tail FINALLY transmitted to the front end (a shift toward oil/Hammack sharing the switch).** The
+front-end firming held into a **4th straight firming settle** with the sharpest front-led shape yet — official US Treasury CMT closes: **2Y +6bp to 4.37%, 5Y +5bp to 4.46%,
+10Y +4bp to 4.71% (highest since Jan-2025), 30Y +2bp to 5.17%** — a cleanly monotonic front-led FLATTENER (2Y +6 ≫ 30Y +2; two-sourced against the reporter's TE/Investing +6.3
+≫ +1.8, and the reporter was VINDICATED — the desk near-overrode his 4.37% settle as an intraday high off bad search summaries, then the Treasury primary confirmed him). The
+**mechanism EVOLVED**: for weeks the oil tail did **NOT** reach the front end (the 2Y firmed on growth, not oil), but this settle **oil settled ABOVE $100** (Brent ~$100.7, first
+since ~May 22; WTI $92.2, +6%, on the first direct Houthi strikes on Saudi tankers) and the front end firmed **with** it, via the **Fed-path / higher-for-longer channel** (pricing
+out cuts) — the 30Y-lag says higher FRONT rates, not term premium. So the front-firming is now **overdetermined by BOTH growth (Warsh; firm 187k claims, a ~57-yr low) AND
+oil-via-Fed-path (Hammack)** — the oil/Hammack challenger has, for the first time, **reclaimed a share of the front end** (no longer purely growth/Warsh). The **AI-valuation derate
+settled DEEP**: **Nasdaq −2.15%/25,137.69 ≫ Dow −0.97%/51,711.65** (S&P −1.21%/7,408.30) — a **discount-rate derate** (long-duration tech hit hardest as the front end firms and HOLDS),
+NOT a growth scare (claims firm) — Alphabet −7% on its $195–205B capex hike, Tesla −14% on an earnings miss. That IS front-end-is-the-switch **reinforced**: the higher front end is
+the discount rate that compressed the AI multiple. A **NEW post-close US tariff shock** landed ~2h AFTER the cash close (so NOT a settle driver): **10–12.5% on ~60 countries / 99%
+of US imports** over forced-labour enforcement — but it **REPLACES expiring court-struck levies and EXEMPTS oil/gas, fertilizer, and USMCA goods**, so it is a **real but bounded**
+second inflation input (energy — the thing that would stack on $100 oil — is carved out), into PCE. **Korea read-through:** the Friday KRX **OPENED giving back** the memory rally
+(KOSPI ~−2.7→−3%, SK Hynix red onshore) as the macro triple-hit overwhelmed the demand tell **at the open** — though SK Hynix's **ADR held green** offshore (demand intact, **swamped
+not broken**); the session-2 **settle** verdict is the 06Z window. Net: **front-end-is-the-switch REINFORCED, now firming on oil-via-Fed-path AND growth** — the oil tail has crossed
+from an equity-risk tail into the front end itself. Into **FOMC (Jul 28–29) / PCE (Jul 30)**, with SK Hynix Q2 (~Jul 29) the memory-DEMAND arbiter.
