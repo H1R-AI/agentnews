@@ -9,6 +9,24 @@ const financeRoot = path.join(contentRoot, 'finance');
 const siteRoot = path.join(root, '.agentnews', 'site');
 const cmd = process.argv[2] || 'help';
 
+// Settle provenance tables (C4) — declared above the entry point so the
+// validator can reach them; see checkSettleProvenance below.
+const SETTLE_REJECT_HOSTS = [
+  'tradingeconomics.com', 'investing.com', 'finance.yahoo.com',
+];
+const CLOSE_TOKENS_DEFAULT = ['close', 'closing', '마감', '종가', '大引', '終値'];
+const SETTLE_SOURCES = [
+  { match: /^(KOSPI|KOSDAQ)/, hosts: ['krx.co.kr','yna.co.kr','sedaily.com','mt.co.kr','edaily.co.kr','hankyung.com','mk.co.kr','fnnews.com','etoday.co.kr','asiae.co.kr'], tokens: ['마감','종가'] },
+  { match: /^NIKKEI/,         hosts: ['jpx.co.jp','nikkei.com','reuters.com','bloomberg.com'], tokens: ['大引','終値'] },
+  { match: /^TAIEX/,          hosts: ['twse.com.tw','cna.com.tw'] },
+  { match: /^(HSI|HANGSENG)/, hosts: ['hkex.com.hk','scmp.com'] },
+  { match: /^(SSE|CSI|SHANGHAI)/, hosts: ['sse.com.cn','csindex.com.cn'] },
+  { match: /^(SPX|SP500|NASDAQ|NDX|DOW|DJIA)/, hosts: ['nyse.com','nasdaq.com','cmegroup.com','apnews.com','reuters.com','bloomberg.com','wsj.com','cnbc.com'] },
+  { match: /^(UST|TREASURY|CMT)/, hosts: ['home.treasury.gov','fred.stlouisfed.org'] },
+  { match: /^(BRENT|WTI|OIL)/, hosts: ['ice.com','theice.com','cmegroup.com','apnews.com','reuters.com'], roll: true },
+];
+
+
 switch (cmd) {
   case 'init-finance':
     initFinance();
@@ -207,10 +225,73 @@ function parseSettles(raw) {
     if (/^\S/.test(line)) break;                       // dedent ends the block
     const idx = line.match(/^\s{2}([A-Za-z0-9_.-]+):\s*$/);
     if (idx) { current = idx[1]; out[current] = {}; continue; }
-    const kv = line.match(/^\s{4}([a-z_]+):\s*(-?[\d.]+)\s*$/);
-    if (kv && current) out[current][kv[1]] = Number(kv[2]);
+    // Values may be numeric (close, pct) or text (source, close_label); keep
+    // numbers numeric so the arithmetic checks can use them directly.
+    const kv = line.match(/^\s{4}([a-z_]+):\s*(.+?)\s*$/);
+    if (kv && current) {
+      const raw = kv[2].replace(/^["']|["']$/g, '');
+      out[current][kv[1]] = /^-?[\d.]+$/.test(raw) ? Number(raw) : raw;
+    }
   }
   return out;
+}
+
+// --- C4: settle provenance ---------------------------------------------------
+// Both 2026-07-27/28 close errors had one shape: a DERIVED representation was read
+// instead of the primary — an aggregator's close label on Monday, a search summary
+// on Tuesday. Derived-ness is checkable by host, so this mechanizes the native
+// close-label gate that until now depended on a human remembering it.
+// Allowlist owned by the desk (Vera, 2026-07-28).
+
+function hostOf(url) {
+  const m = String(url).match(/^https?:\/\/([^/?#]+)/i);
+  return m ? m[1].toLowerCase().replace(/^www\./, '') : null;
+}
+function hostMatches(host, allowed) {
+  return allowed.some((a) => host === a || host.endsWith('.' + a));
+}
+
+function checkSettleProvenance(win, index, s, errors, warnings) {
+  const rule = SETTLE_SOURCES.find((r) => r.match.test(index.toUpperCase().replace(/[^A-Z0-9]/g, '')));
+
+  // Missing provenance is a FAILURE, never a skip: a settle without a source is
+  // exactly the state both of today's errors were published in.
+  if (!s.source) {
+    errors.push(`${win.rel}: settles.${index} has no source — a settle value may not publish without a native close-labelled primary URL`);
+    return;
+  }
+  const host = hostOf(s.source);
+  if (!host) {
+    errors.push(`${win.rel}: settles.${index}.source is not a URL (${s.source})`);
+    return;
+  }
+  if (hostMatches(host, SETTLE_REJECT_HOSTS)) {
+    errors.push(`${win.rel}: settles.${index}.source is ${host} — aggregators and search summaries are never a settle source; open the native close-labelled primary`);
+    return;
+  }
+  if (!s.close_label) {
+    errors.push(`${win.rel}: settles.${index} has no close_label — record the close token that actually appears in the source (e.g. 마감, 大引, "closing")`);
+    return;
+  }
+  const tokens = (rule && rule.tokens) || CLOSE_TOKENS_DEFAULT;
+  const label = String(s.close_label).toLowerCase();
+  if (!tokens.some((tok) => label.includes(tok.toLowerCase()))) {
+    errors.push(`${win.rel}: settles.${index}.close_label "${s.close_label}" is not a close token for this index (expected one of: ${tokens.join(', ')})`);
+    return;
+  }
+  if (!rule) {
+    warnings.push(`${win.rel}: settles.${index} has no host allowlist for this index — provenance only partly checked; add an entry to SETTLE_SOURCES`);
+    return;
+  }
+  if (!hostMatches(host, rule.hosts)) {
+    errors.push(`${win.rel}: settles.${index}.source host ${host} is not a native primary for ${index} (allowed: ${rule.hosts.join(', ')})`);
+    return;
+  }
+  // Not a check, a prompt at the moment of use: the continuous feed is a derived
+  // series, and mistaking it for the settle is the same shape as the errors above.
+  if (rule.roll) {
+    warnings.push(`${win.rel}: settles.${index} — confirm this is the front-month settle, not the continuous series (roll gap)`);
+  }
 }
 
 function checkSettles(windows, domain, errors, warnings) {
@@ -231,6 +312,9 @@ function checkSettles(windows, domain, errors, warnings) {
         warnings.push(`${win.rel}: settles.${index} is empty — CHECK NOT RUN for this index`);
         continue;
       }
+      // C4 — provenance. Runs before the arithmetic: a number from the wrong
+      // place can be perfectly self-consistent (Tue 07-28 was).
+      checkSettleProvenance(win, index, s, errors, warnings);
       // C2 — self-consistency of close / pct / prev_close (warn first).
       if (s.close != null && s.pct != null && s.prev_close != null) {
         const implied = s.close / (1 + s.pct / 100);
