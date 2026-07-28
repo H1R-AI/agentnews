@@ -183,6 +183,86 @@ function composePeriodPage(domain, title, kind) {
   }
 }
 
+// --- Settle continuity (C1/C2/C3) -------------------------------------------
+// Arithmetic backstop for published index settles. This does NOT replace the
+// native close-label rule in PUBLISH-PROCESS.md §3a — it only catches numbers
+// that contradict each other. Same-wrong-base on consecutive days still passes.
+//
+// Frontmatter shape (reporter-filled, data not prose):
+//   settles:
+//     KOSPI:
+//       close: 6237.54
+//       pct: -7.67
+//       prev_close: 6755.75
+//       cb_level: 6213.51        # optional, KRX level-1 breaker
+function parseSettles(raw) {
+  const m = raw.match(/^---\n([\s\S]*?)\n---/);
+  if (!m) return null;
+  const lines = m[1].split('\n');
+  const start = lines.findIndex((l) => /^settles:\s*$/.test(l));
+  if (start === -1) return null;
+  const out = {};
+  let current = null;
+  for (const line of lines.slice(start + 1)) {
+    if (/^\S/.test(line)) break;                       // dedent ends the block
+    const idx = line.match(/^\s{2}([A-Za-z0-9_.-]+):\s*$/);
+    if (idx) { current = idx[1]; out[current] = {}; continue; }
+    const kv = line.match(/^\s{4}([a-z_]+):\s*(-?[\d.]+)\s*$/);
+    if (kv && current) out[current][kv[1]] = Number(kv[2]);
+  }
+  return out;
+}
+
+function checkSettles(windows, domain, errors, warnings) {
+  const dated = windows
+    .filter((w) => w.status !== 'example' && w.window_start)
+    .sort((a, b) => String(a.window_start).localeCompare(String(b.window_start)));
+  const declared = dated.filter((w) => w.settles && Object.keys(w.settles).length);
+
+  if (dated.length && !declared.length) {
+    warnings.push(`${domain}: settle-continuity CHECK NOT RUN — no window declares a settles: block (add one so C1 can compare data to data)`);
+    return;
+  }
+
+  for (let i = 0; i < declared.length; i += 1) {
+    const win = declared[i];
+    for (const [index, s] of Object.entries(win.settles)) {
+      if (!Object.keys(s).length) {
+        warnings.push(`${win.rel}: settles.${index} is empty — CHECK NOT RUN for this index`);
+        continue;
+      }
+      // C2 — self-consistency of close / pct / prev_close (warn first).
+      if (s.close != null && s.pct != null && s.prev_close != null) {
+        const implied = s.close / (1 + s.pct / 100);
+        if (Math.abs(implied - s.prev_close) > Math.max(0.05, s.prev_close * 0.0002)) {
+          warnings.push(`${win.rel}: settles.${index} self-inconsistent — close ${s.close} with pct ${s.pct}% implies prev_close ${implied.toFixed(2)}, declared ${s.prev_close}`);
+        }
+      }
+      // C3 — KRX level-1 circuit breaker fires at -8% of the official prev close.
+      if (s.cb_level != null && s.prev_close != null) {
+        const implied = s.cb_level / 0.92;
+        if (Math.abs(implied - s.prev_close) > Math.max(0.5, s.prev_close * 0.001)) {
+          warnings.push(`${win.rel}: settles.${index} breaker math — cb_level ${s.cb_level} implies prev_close ${implied.toFixed(2)}, declared ${s.prev_close}`);
+        }
+      }
+      // C1 — HARD: this window's prev_close must equal the last close we published.
+      if (s.prev_close == null) continue;
+      let prior = null;
+      for (let j = i - 1; j >= 0; j -= 1) {
+        const cand = declared[j].settles[index];
+        if (cand && cand.close != null) { prior = { win: declared[j], close: cand.close }; break; }
+      }
+      if (!prior) {
+        warnings.push(`${win.rel}: settles.${index} has no earlier published close to compare — C1 not applicable (first window for this index)`);
+        continue;
+      }
+      if (Math.abs(prior.close - s.prev_close) > 0.011) {
+        errors.push(`${win.rel}: settles.${index} BASE MISMATCH — prev_close ${s.prev_close} but ${prior.win.rel} published close ${prior.close}. One of the two is wrong; resolve against the native close-labelled source before publishing.`);
+      }
+    }
+  }
+}
+
 function validateAll({ exit = false, requireWindowCount = false } = {}) {
   const errors = [];
   const warnings = [];
@@ -237,6 +317,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
         if (links < 2) warnings.push(`${win.rel}: Contested line has ${links} sourced side(s); needs two sourced sides (one per side) or cut the line`);
       }
     }
+    checkSettles(windows, domain, errors, warnings);
   }
   if (warnings.length) {
     console.log(`${warnings.length} warning(s):`);
@@ -498,12 +579,16 @@ function listWindows(domain) {
     const raw = fs.readFileSync(file, 'utf8');
     const fm = parseFrontmatter(raw);
     const body = stripFrontmatter(raw).trim();
+    const settles = parseSettles(raw);
     return {
       rel,
       id: rel.replace(/\.md$/, '').replaceAll('/', '-'),
       domain,
       body,
       ...fm,
+      // after the spread on purpose: parseFrontmatter also emits a flat, empty
+      // `settles` key for the block header, which would clobber the parsed map.
+      settles,
     };
   });
 }
