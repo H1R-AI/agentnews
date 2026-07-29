@@ -30,6 +30,13 @@ const SETTLE_SOURCES = [
 // entry point so the validator can reach them. See checkUndeclaredCloseAssertions.
 const C5_CLOSE_CONTEXT = /clos(?:e|ed|ing)|settled?|finish(?:ed)?|ended|jong-?ga/i;
 const C5_INDEX = 'KOSPI';
+// Only the edition that OWNS the index is gated. finance-ko sources the KOSPI
+// jong-ga and sets the continuity base, so it must declare. finance (global)
+// only cross-references the KOSPI in a watch line — it never declares a KOSPI
+// block, so scanning it would warn "none declared yet" on every KOSPI-mentioning
+// window forever, and that noise buries the warn-window monitoring it exists to
+// support. (Vera, scope decision 2026-07-29.)
+const C5_OWNER_DOMAIN = 'finance-ko';
 const C5_CONTEXT_CHARS = 200;
 // Forward-looking: the policy asks reporters to declare from here on. Windows
 // published before it were written under no such rule and will not be
@@ -57,6 +64,10 @@ const C5_FIXTURES = [
   ['URL slug carrying a number', 'See [report](https://x.com/kospi-swings-but-holds-6800-close-up-3) for detail.', 6607.53, false],
   ['other instrument priced in USD', 'KOSPI proxy: the SK Hynix ADR closed at $169.18 overnight.', 6607.53, false],
   ['other instrument, out of band', 'KOSPI read-through: Samsung closed 220,000 won, −13.39%.', 6607.53, false],
+  // FN found by Vera reviewing #246: a continuity reference standing before the
+  // real assertion in the same slice used to swallow it.
+  ['assertion behind a continuity reference', 'Off Monday\'s 6,607.53, KOSPI closed 6,023.66 / −8.83%.', 6607.53, true],
+  ['two references, no assertion', 'Both legs price off the 6,607.53 KOSPI close; 6,607.53 remains the base.', 6607.53, false],
 ];
 
 
@@ -432,8 +443,13 @@ function findAssertedCloses(body, lastClose) {
       if (C5_NOT_A_CLOSE.test(before)) continue;
       const value = Number(n[2].replace(/,/g, ''));
       if (lastClose != null && Math.abs(value - lastClose) / lastClose > C5_LEVEL_BAND) continue;
+      // Every in-band candidate, not just the first. Taking only the first hid a
+      // real assertion whenever a continuity reference preceded it in the same
+      // slice — "off Monday's 6,607.53, KOSPI closed 6,023.66" stopped at the
+      // reference, matched it as continuity, and missed the close. (Vera, code
+      // review of #246.) The caller skips a window only when EVERY candidate is
+      // the prior close.
       found.push({ value, snippet: slice.split('\n')[0].trim() });
-      break; // one candidate per mention: the figure the sentence is about
     }
   }
   return found;
@@ -448,7 +464,7 @@ function findAssertedCloses(body, lastClose) {
 function runC5SelfTest() {
   let failed = 0;
   for (const [name, body, lastClose, expectHit] of C5_FIXTURES) {
-    const hits = findAssertedCloses(body, lastClose);
+    const hits = assertedNewCloses(body, lastClose);
     const got = hits.length > 0;
     if (got !== expectHit) {
       failed += 1;
@@ -462,7 +478,16 @@ function runC5SelfTest() {
   console.log(`OK — ${C5_FIXTURES.length} C5 fixtures passed.`);
 }
 
+// The novelty decision, shared by the validator and the fixtures so they cannot
+// drift: a candidate equal to the close we last published is a continuity
+// reference, not an assertion.
+function assertedNewCloses(body, lastClose) {
+  return findAssertedCloses(body, lastClose)
+    .filter((hit) => lastClose == null || Math.abs(hit.value - lastClose) > 0.011);
+}
+
 function checkUndeclaredCloseAssertions(windows, domain, errors, warnings) {
+  if (domain !== C5_OWNER_DOMAIN) return;
   const dated = windows
     .filter((w) => w.status !== 'example' && w.window_start)
     .sort((a, b) => String(a.window_start).localeCompare(String(b.window_start)));
@@ -477,8 +502,7 @@ function checkUndeclaredCloseAssertions(windows, domain, errors, warnings) {
     }
     if (declared) continue; // declared but closeless — C1 already reports it
     if (String(win.window_start).slice(0, 10) < C5_EFFECTIVE_FROM) continue;
-    for (const hit of findAssertedCloses(win.body, lastClose)) {
-      if (lastClose != null && Math.abs(hit.value - lastClose) <= 0.011) continue; // continuity reference
+    for (const hit of assertedNewCloses(win.body, lastClose)) {
       const base = lastClose == null ? 'none declared yet' : String(lastClose);
       warnings.push(`${domain}/${win.rel}: C5 — asserts a ${C5_INDEX} close (${hit.value}) that differs from our last published close (${base}) but declares no settles.${C5_INDEX} block, so C1 cannot check it. A window that sets a new continuity base must declare it. [adoption 2026-07-31 · hard fail from 2026-08-03] — "${hit.snippet.slice(0, 120)}"`);
       break; // one finding per window is enough to act on
