@@ -26,6 +26,39 @@ const SETTLE_SOURCES = [
   { match: /^(BRENT|WTI|OIL)/, hosts: ['ice.com','theice.com','cmegroup.com','apnews.com','reuters.com'], roll: true },
 ];
 
+// C5 close-assertion detection — same reason as above: declared before the
+// entry point so the validator can reach them. See checkUndeclaredCloseAssertions.
+const C5_CLOSE_CONTEXT = /clos(?:e|ed|ing)|settled?|finish(?:ed)?|ended|jong-?ga/i;
+const C5_INDEX = 'KOSPI';
+const C5_CONTEXT_CHARS = 200;
+// Forward-looking: the policy asks reporters to declare from here on. Windows
+// published before it were written under no such rule and will not be
+// retro-declared, so scanning them produces noise, not findings.
+const C5_EFFECTIVE_FROM = '2026-07-29';
+// A real index session does not move this far. Anything outside the band next
+// to a KOSPI mention is a different instrument (an ADR price, an ETF, a point
+// count), not the index level.
+const C5_LEVEL_BAND = 0.25;
+// The close-label narrows to close CONTEXT, but a sentence can be about a
+// non-close level and still contain the word "close" ("the breaker tripped at
+// 6,213.51 before the close"). These words, immediately before the figure, say
+// what the figure IS — and it is not a settle.
+const C5_NOT_A_CLOSE = /breaker|sidecar|intraday|session (?:low|high)|day range|opened?|open tick|gap(?:ped)?|futures?|premarket|pre-market|target|proxy|ADR/i;
+const C5_LOOKBEHIND_CHARS = 50;
+
+const C5_FIXTURES = [
+  // [name, body, lastClose, expectHit]
+  ['close assertion — plain', 'KOSPI closed at 6,023.66 / −10.84% (native jong-ga).', 6607.53, true],
+  ['close assertion — settled', 'The KOSPI settled 6,023.66, a −10.84% fall.', 6607.53, true],
+  ['close assertion — ended', 'KOSPI ended the session at 6,023.66.', 6607.53, true],
+  ['continuity reference — equal close', 'Off Monday\'s 6,607.53 KOSPI close, futures imply a gap.', 6607.53, false],
+  ['no close context — open/intraday', 'KOSPI opened 6,806.27 and traded down to 6,364.10 intraday.', 6607.53, false],
+  ['circuit-breaker level, not a close', 'The KOSPI breaker tripped at 6,213.51 before the close.', 6607.53, false],
+  ['URL slug carrying a number', 'See [report](https://x.com/kospi-swings-but-holds-6800-close-up-3) for detail.', 6607.53, false],
+  ['other instrument priced in USD', 'KOSPI proxy: the SK Hynix ADR closed at $169.18 overnight.', 6607.53, false],
+  ['other instrument, out of band', 'KOSPI read-through: Samsung closed 220,000 won, −13.39%.', 6607.53, false],
+];
+
 
 switch (cmd) {
   case 'init-finance':
@@ -36,6 +69,9 @@ switch (cmd) {
     break;
   case 'validate':
     validateAll({ exit: true });
+    break;
+  case 'c5-selftest':
+    runC5SelfTest();
     break;
   case 'check':
     checkAll();
@@ -347,6 +383,109 @@ function checkSettles(windows, domain, errors, warnings) {
   }
 }
 
+// C5 — undeclared close assertion.
+//
+// Policy (Vera, desk owner, 2026-07-29): a window that ASSERTS a fresh KOSPI
+// close — a close-labelled figure that becomes the new continuity base — MUST
+// declare a settles block. A window that merely REFERENCES the prior close as
+// continuity asserts nothing new and is exempt.
+//
+// Why this exists: C1 compares declared settles to declared settles. A domain
+// that declares none is not protected by C1 at all, yet validate passes — the
+// gate looks present and is absent. finance-ko was in exactly that state.
+//
+// Two signals, two jobs — neither alone is sufficient:
+//   - the close LABEL narrows candidates to close context. A number-only rule
+//     false-positives on intraday ticks, futures and circuit-breaker levels:
+//     the 2026-07-28 KRX breaker level 6,213.51 sits in the finance-ko body and
+//     differs from every published close.
+//   - the NUMBER judges assertion vs reference, and it is language-neutral:
+//     differs from the last close we published => new base => settles required;
+//     equal => continuity => exempt. Judgment stays with the number.
+//
+// finance-ko publishes in ENGLISH (Korean primaries are internal sourcing), so
+// the label set here is English. The Korean tokens live only inside
+// settles.close_label as provenance — matching them in the body would produce a
+// gate that never fires.
+// URLs carry index names and numbers inside slugs ("kospi-swings-but-holds-6800")
+// and are not prose. Strip link targets before scanning so a citation cannot be
+// read as an assertion.
+function stripUrls(body) {
+  return body.replace(/\]\((https?:\/\/[^)]*)\)/g, '](#)').replace(/https?:\/\/\S+/g, ' ');
+}
+
+function findAssertedCloses(body, lastClose) {
+  const found = [];
+  const text = stripUrls(body);
+  const mention = new RegExp(C5_INDEX, 'gi');
+  let m;
+  while ((m = mention.exec(text)) !== null) {
+    const slice = text.slice(m.index, m.index + C5_CONTEXT_CHARS);
+    if (!C5_CLOSE_CONTEXT.test(slice)) continue;
+    // Candidates bound to this mention, nearest first. A currency mark means a
+    // security price (an ADR, an ETF), not the index.
+    const re = /(.?)\b(\d{1,2},\d{3}\.\d{1,2}|\d{3,5}\.\d{1,2})\b/g;
+    let n;
+    while ((n = re.exec(slice)) !== null) {
+      if (/[$₩€£]/.test(n[1])) continue;
+      const before = slice.slice(Math.max(0, n.index - C5_LOOKBEHIND_CHARS), n.index);
+      if (C5_NOT_A_CLOSE.test(before)) continue;
+      const value = Number(n[2].replace(/,/g, ''));
+      if (lastClose != null && Math.abs(value - lastClose) / lastClose > C5_LEVEL_BAND) continue;
+      found.push({ value, snippet: slice.split('\n')[0].trim() });
+      break; // one candidate per mention: the figure the sentence is about
+    }
+  }
+  return found;
+}
+
+// Fixtures are the false positives this detector actually produced against live
+// content on 2026-07-29, plus the assertions it must keep catching. Vera will
+// report FPs/FNs during the warn window (2026-07-31 → 08-03) and the token list
+// will be tuned before the hard-fail flip — tuning these regexes without a test
+// is how C1 gets broken by accident.
+
+function runC5SelfTest() {
+  let failed = 0;
+  for (const [name, body, lastClose, expectHit] of C5_FIXTURES) {
+    const hits = findAssertedCloses(body, lastClose);
+    const got = hits.length > 0;
+    if (got !== expectHit) {
+      failed += 1;
+      console.error(`  FAIL ${name}: expected ${expectHit ? 'a hit' : 'no hit'}, got ${JSON.stringify(hits)}`);
+    }
+  }
+  if (failed) {
+    console.error(`${failed}/${C5_FIXTURES.length} C5 fixture(s) failed.`);
+    process.exit(1);
+  }
+  console.log(`OK — ${C5_FIXTURES.length} C5 fixtures passed.`);
+}
+
+function checkUndeclaredCloseAssertions(windows, domain, errors, warnings) {
+  const dated = windows
+    .filter((w) => w.status !== 'example' && w.window_start)
+    .sort((a, b) => String(a.window_start).localeCompare(String(b.window_start)));
+
+  let lastClose = null;
+  for (const win of dated) {
+    const declared = win.settles && win.settles[C5_INDEX];
+    if (declared && declared.close != null) {
+      // Declared windows are C1's job, not C5's; they only move the baseline.
+      lastClose = declared.close;
+      continue;
+    }
+    if (declared) continue; // declared but closeless — C1 already reports it
+    if (String(win.window_start).slice(0, 10) < C5_EFFECTIVE_FROM) continue;
+    for (const hit of findAssertedCloses(win.body, lastClose)) {
+      if (lastClose != null && Math.abs(hit.value - lastClose) <= 0.011) continue; // continuity reference
+      const base = lastClose == null ? 'none declared yet' : String(lastClose);
+      warnings.push(`${domain}/${win.rel}: C5 — asserts a ${C5_INDEX} close (${hit.value}) that differs from our last published close (${base}) but declares no settles.${C5_INDEX} block, so C1 cannot check it. A window that sets a new continuity base must declare it. [adoption 2026-07-31 · hard fail from 2026-08-03] — "${hit.snippet.slice(0, 120)}"`);
+      break; // one finding per window is enough to act on
+    }
+  }
+}
+
 function validateAll({ exit = false, requireWindowCount = false } = {}) {
   const errors = [];
   const warnings = [];
@@ -402,6 +541,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
       }
     }
     checkSettles(windows, domain, errors, warnings);
+    checkUndeclaredCloseAssertions(windows, domain, errors, warnings);
   }
   if (warnings.length) {
     console.log(`${warnings.length} warning(s):`);
