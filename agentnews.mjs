@@ -42,6 +42,9 @@ const C5_CONTEXT_CHARS = 200;
 // published before it were written under no such rule and will not be
 // retro-declared, so scanning them produces noise, not findings.
 const C5_EFFECTIVE_FROM = '2026-07-29';
+// C5 warn→error promotion date. Pre-registered 2026-07-29, adopted 2026-07-31 (first clean TN).
+// Date-gated rather than a code flip so the promotion is auditable and reversible by one constant.
+const C5_HARD_FAIL_FROM = '2026-08-03';
 // A real index session does not move this far. Anything outside the band next
 // to a KOSPI mention is a different instrument (an ADR price, an ETF, a point
 // count), not the index level.
@@ -504,7 +507,13 @@ function checkUndeclaredCloseAssertions(windows, domain, errors, warnings) {
     if (String(win.window_start).slice(0, 10) < C5_EFFECTIVE_FROM) continue;
     for (const hit of assertedNewCloses(win.body, lastClose)) {
       const base = lastClose == null ? 'none declared yet' : String(lastClose);
-      warnings.push(`${domain}/${win.rel}: C5 — asserts a ${C5_INDEX} close (${hit.value}) that differs from our last published close (${base}) but declares no settles.${C5_INDEX} block, so C1 cannot check it. A window that sets a new continuity base must declare it. [adoption 2026-07-31 · hard fail from 2026-08-03] — "${hit.snippet.slice(0, 120)}"`);
+      {
+        const day = String(win.window_start).slice(0, 10);
+        const hard = day >= C5_HARD_FAIL_FROM;
+        const note = hard ? `[hard fail since ${C5_HARD_FAIL_FROM}]` : `[warn · hard fail from ${C5_HARD_FAIL_FROM}]`;
+        const msg = `${domain}/${win.rel}: C5 — asserts a ${C5_INDEX} close (${hit.value}) that differs from our last published close (${base}) but declares no settles.${C5_INDEX} block, so C1 cannot check it. A window that sets a new continuity base must declare it. ${note} — "${hit.snippet.slice(0, 120)}"`;
+        (hard ? errors : warnings).push(msg);
+      }
       break; // one finding per window is enough to act on
     }
   }
