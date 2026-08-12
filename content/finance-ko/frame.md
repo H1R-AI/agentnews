@@ -112,9 +112,11 @@ not-trip on the weaker basis. See `agentnews-ops/PUBLICATION-GAPS.md` for what s
 
 ## Next gates
 
-1. **US July CPI — ~12:30Z, STILL UNRELEASED as of this publish.** Consensus ~3.4% headline (from
-   3.5%), core ~+0.2% / 2.5%. Scout owns the print. Soft validates the chip-led decouple and eases
-   both switches; hot or oil-fed firms the dollar, caps the multiple, and tests this rally.
+1. **US July CPI — PRINTED 2026-08-12 12:30Z, IN LINE ACROSS THE BOARD.** Headline +3.4% YoY (from
+   3.5%) / +0.1% m/m; core 2.5% YoY (from 2.6%) / +0.2% m/m — every component matched forecast.
+   **Nothing in the print forces the dollar either way**, and the won barely moved on it (~1,418).
+   So it is modestly supportive of the chip-led decouple rather than validating or testing it: the
+   verdict defers to the settled reaction, not to a missing number. Scout owns the print.
 2. **Does the surge survive CPI?** Thursday's KRX settle is the read. A sidecar-day that faded into
    its own close and sat in two names is the most reversible kind of strength. The specific tell:
    whether foreign buying (**+₩2.08T**) persists or reverts toward the >₩6T selling that preceded it.

@@ -109,11 +109,15 @@ the front moved *with* the macro — the opposite of the pathology. Quote Monday
 
 ## Next gates
 
-1. **US July CPI — Wed 2026-08-12, ~12:30Z — STILL UNRELEASED as of the 06Z publish.** Consensus
-   ~3.4% headline (from 3.5% June), core ~+0.2% m/m / 2.5%. **The load-bearing disambiguator**: hot
-   or oil-fed confirms the inflation-premium wobble and the front holds/extends 4.25+; cool and the
-   dovish case reasserts and the 2Y re-eases. What CPI adjudicates is the **price of the ease**, not
-   the labour signal — the −23k July payrolls are unchanged underneath.
+1. **US July CPI — PRINTED 2026-08-12 12:30Z, IN LINE ACROSS THE BOARD.** Headline **+3.4% YoY**
+   (from 3.5%) and **+0.1% m/m**; core **2.5% YoY** (from 2.6%) and **+0.2% m/m**. Every component
+   matched forecast. **NEITHER frame branch fired** — not the hot/oil-fed wobble confirmation, not
+   the cool-core dovish re-assertion. **So dovish-durability stays RE-OPENED and unresolved: the
+   week's load-bearing gate has been passed and the question it was meant to settle is still open.**
+   Resolution now falls to the settled reaction and the Sept 16 FOMC path. *(Sourcing note: BLS
+   403s automated fetch; figures from an AP/ABC wire at 12:31Z plus Fox Business, both desk-opened
+   and dated 2026-08-12. The monthlies rest on one direct read each. All are FIRST estimates and
+   revisable — headline and any later revision are separate claims.)*
 2. **Whether the Korea surge survives CPI.** A sidecar-day built on a US handoff, faded into its own
    close and chip-concentrated, is the most reversible kind of strength. Thursday's KRX settle is the
    read. Tell to watch: whether foreign buying (+₩2.08T) persists or reverts toward the >₩6T selling
