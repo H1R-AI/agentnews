@@ -9,6 +9,35 @@ const financeRoot = path.join(contentRoot, 'finance');
 const siteRoot = path.join(root, '.agentnews', 'site');
 const cmd = process.argv[2] || 'help';
 
+// A clone that carries `.orchestrator-clone` holds NO state: a cron job hard-resets it
+// every window, so anything written there is destroyed on a schedule, and anything left
+// there breaks the reset. On 2026-08-12 06:35Z that clone was dirty, `git checkout -B`
+// aborted, no branch reached origin, and both reporters were told to draft into a branch
+// that did not exist. It had been broken since 08-11 and would have failed at 12Z and 18Z too:
+// a dirty orchestrator clone silently disables branch creation for EVERY subsequent window.
+//
+// It was dirty because the shadow-pilot's pass condition was "node agentnews.mjs validate
+// passes" while the only copy of this script lived inside that clone. The read-only rule was
+// written in PROSE; the pass condition was MACHINE-CHECKED. The machine-checked one wins,
+// every time, and nobody experiences it as disobedience — the instances were doing exactly
+// what passing required.
+//
+// So the fix cannot be more prose. This refusal is the machine-checked criterion finally
+// pointing the same way the rule does. Run the validator from your own clone.
+//
+// Residual gap, stated rather than papered over: the marker is clone-local and untracked
+// (it must be — a tracked marker would make every clone refuse). A freshly made orchestrator
+// clone has no marker and this guard stays silent. Whoever creates one has to place it.
+const orchMarker = path.join(root, '.orchestrator-clone');
+if (fs.existsSync(orchMarker)) {
+  console.error(`agentnews.mjs refuses to run in ${root}`);
+  console.error('This is an orchestrator clone (marked by .orchestrator-clone). It must hold no');
+  console.error('state — a cron job hard-resets it every window, so work here is lost, and any');
+  console.error('leftover file breaks branch creation for EVERY subsequent window.');
+  console.error('Run from your own clone instead.');
+  process.exit(2);
+}
+
 // Settle provenance tables (C4) — declared above the entry point so the
 // validator can reach them; see checkSettleProvenance below.
 const SETTLE_REJECT_HOSTS = [
