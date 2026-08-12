@@ -55,30 +55,37 @@ print disambiguates it.
 - **Tue 08-11 settle** (CMT primary, desk-pulled 08-12 02:20Z): 2Y 4.22 / 10Y 4.70 / 30Y 5.24 — a
   2–3bp **parallel easing**. Modest; resolves nothing either way.
 
-**US equities — Monday scored, Tuesday UNVERIFIED.**
-- Mon 08-10 settle: S&P 7,753.11 / −0.06%, Nasdaq 26,605.36 / −0.32%, Dow 53,975.98 / −0.11%.
-- **Tuesday 08-11 closes were never observed** — they fell inside the 17-hour outage (see
-  `agentnews-ops/PUBLICATION-GAPS.md`). Not asserted, not reconstructed. Deferred.
+**US equities — the outage hole is CLOSED.** Tue 08-11 settle, recovered and two-sourced, reconciling
+exactly to the Monday base: **S&P 7,728.20 / −0.32%, Nasdaq 26,445.45 / −0.60%, Dow 53,791.85 /
+−0.34%** — a shallow, tech-tilted slip on the US–Iran/Hormuz impasse, energy the offset; the softness
+was other megacap tech (Alphabet), not memory.
 
-**Memory / AI complex.** Monday settled a **broad AI-capex-financing de-rate, not an SK-Hynix
-idiosyncrasy**: Micron $861.00 / −1.89% (two-sourced), SK Hynix ADR $135.29 / −1.90%, Intel
-$97.52 / −4.06% (its $15B dilutive offering), Nvidia $217.55 / −2.86%. Tuesday, memory **firmed**:
-Micron closed $868.52 / +0.87% (two-sourced) — it did not extend Monday's leg.
+**Memory / AI complex — Monday's de-rate did NOT extend.** Monday settled a broad
+AI-capex-*financing* de-rate (Micron $861.00 / −1.89%, SK Hynix ADR $135.29 / −1.90%, Intel
+$97.52 / −4.06%, Nvidia $217.55 / −2.86%), **not** an SK-Hynix idiosyncrasy. Tuesday it reversed:
+Micron $868.52 / +0.87%, **SK Hynix ADR $141.65 / +4.70%**, Nvidia $217.50 / −0.02%. The AI-capex
+leg-down paused.
 
-**Korea — a chip-led green decouple that held and is extending.**
-- **Tue 08-11 KRX settle** (canonical jong-ga): KOSPI **6,345.53 / +0.73%**, a 2nd straight up day,
-  after opening −0.92% and reversing. Samsung **led** +4.13% / ₩239,500; SK Hynix only *stabilized*
-  +0.35% / ₩1,425,000; KOSDAQ 857.84 / +0.39%; foreign turned net buyers. **The crossover did not
-  fire** — the US de-rate did not transmit onshore.
-- Driver was **domestic and demand-side**: a record Aug 1–10 chip-export print, **+155.4% YoY,
-  ~$10B**, chips 46.8% of a +45.3% total (triple-sourced). The Korean demand tape actively re-rated
-  *against* the US valuation de-rate.
-- **Wed 08-12, intraday only — NOT a close** (settle is 06:30Z today): KOSPI ~6,564 / +3.44% off the
-  6,345.53 base; SK Hynix ~₩1,477,000 / +3.65%; USD/KRW ~1,415, roughly stable. Read as a live tick,
-  never as a scored session.
+**Korea — the decouple RESOLVED at the Wednesday settle: a chip-led SURGE, and it was a SESSION.**
+- **Wed 08-12 KRX settle** (canonical jong-ga, desk-verified across three close-labelled sources;
+  base CB-cross-checked 5,837.89 / 0.92 = 6,345.53): KOSPI **6,579.04 / +233.51 / +3.68%**, a **3rd**
+  straight up day. Chip-led — Samsung ~+6.68%, SK Hynix ~+5.33% (**near-close ~15:19 ticks, not the
+  jong-ga**; the constituent feed lagged at press). A **buy sidecar fired 11:57 KST** on KOSPI 200
+  futures +5.13%. Foreign **+₩2.08T** and institutions **+₩862B** net buyers, individuals −₩2.76T
+  (**KOSPI market only**).
+- **The mechanism INVERTED — this is the load-bearing change.** Tuesday Korea overrode a US memory
+  de-rate on a *domestic* export print (record Aug 1–10 chips +155.4% YoY, ~$10B, 46.8% of a +45.3%
+  total). Wednesday the **US itself flipped and pulled Korea up** — overnight memory strength plus
+  after-close CoreWeave/Supermicro AI-infra earnings. Both sides now price the AI-capex cycle as
+  intact: the cleanest demand-side resolution yet.
+- **Capped, three ways:** it FADED from a ~+5.08% high (~6,668) into the close; it is
+  chip-CONCENTRATED (KOSDAQ **flat**, 858.91 / +0.12%; individuals net sellers), so a reversal in two
+  names drags the index hard; and it front-runs CPI. USD/KRW ~1,417, flat.
 
-**Base levels for the next window:** KOSPI **6,345.53** · SK Hynix **₩1,425,000** ·
-2Y **4.22** / 10Y **4.70** / 30Y **5.24** · Micron **$868.52**.
+**Base levels for the next window:** KOSPI **6,579.04** · KOSDAQ **858.91** · SK Hynix
+**~₩1,501,000** and Samsung **~₩255,500** (*near-close, not jong-ga — re-anchor at the next settle*) ·
+2Y **4.22** / 10Y **4.70** / 30Y **5.24** · S&P **7,728.20** / Nasdaq **26,445.45** / Dow **53,791.85** ·
+Micron **$868.52** · SK Hynix ADR **$141.65** · USD/KRW **~1,417**.
 
 ---
 
@@ -88,26 +95,31 @@ Micron closed $868.52 / +0.87% (two-sourced) — it did not extend Monday's leg.
 while the **2Y stays range-bound (~3–4bp)** — i.e. a violent equity tape against an *inert* anchor.
 Score the **condition**, not the metric's letter, and only ever at a **settle**.
 
-**Last FINAL score — Mon 08-10 settle: does NOT trip, cleanly, on both legs.** Letter fails (widest
-index −0.32%); condition fails (2Y moved +6bp, not inert). It fails **affirmatively for the frame**:
-equities were calm while the front end moved *with* the macro — the opposite of the pathology. The
-switch is demonstrably live even as its direction flipped.
+**Current FINAL — Tue 08-11 settle: does NOT trip, on the WEAKER basis.** Letter fails (widest index
+−0.60%, nowhere near ±1.5%). But the 2Y moved only **−3bp**, which sits *inside* the range-bound
+band — so Tuesday's **rates leg is arguably satisfied** and only the equity leg defeats the trip.
+**The switch is not demonstrated live by Tuesday; it is merely not contradicted.**
 
-**Tue 08-11 is NOT scored** — the session ran inside the outage. The Monday FINAL stands until a
-settle is actually observed. An unobserved session is UNKNOWN, never a score.
+**Mon 08-10 remains the CLEANEST affirmation, and the two are not interchangeable.** There the letter
+failed (widest −0.32%) *and* the condition failed (2Y +6bp, clearly not inert): equities calm while
+the front moved *with* the macro — the opposite of the pathology. Quote Monday when the claim is
+"the switch is live"; quote Tuesday only for "it did not trip".
 
 ---
 
 ## Next gates
 
-1. **US July CPI — today, Wed 2026-08-12, ~12:30Z.** Consensus ~3.4% headline (from 3.5% June),
-   core ~+0.2% m/m / 2.5%. **This is the load-bearing disambiguator**: hot or oil-fed confirms the
-   inflation-premium wobble and the front holds/extends 4.25+; cool and the dovish case reasserts
-   and the 2Y re-eases.
-2. **KRX Wednesday settle, 06:30Z** — the first real Korea settle since the gap, and the test of
-   whether this morning's ~+3.4% is a session or a tick. TSE reopened Wednesday (Mountain Day is
-   over), so Asia is no longer Korea-only.
-3. Tuesday's unobserved US equity closes and falsifier score remain deferred to the archive.
+1. **US July CPI — Wed 2026-08-12, ~12:30Z — STILL UNRELEASED as of the 06Z publish.** Consensus
+   ~3.4% headline (from 3.5% June), core ~+0.2% m/m / 2.5%. **The load-bearing disambiguator**: hot
+   or oil-fed confirms the inflation-premium wobble and the front holds/extends 4.25+; cool and the
+   dovish case reasserts and the 2Y re-eases. What CPI adjudicates is the **price of the ease**, not
+   the labour signal — the −23k July payrolls are unchanged underneath.
+2. **Whether the Korea surge survives CPI.** A sidecar-day built on a US handoff, faded into its own
+   close and chip-concentrated, is the most reversible kind of strength. Thursday's KRX settle is the
+   read. Tell to watch: whether foreign buying (+₩2.08T) persists or reverts toward the >₩6T selling
+   that preceded it.
+3. **The oil/Hormuz tail** — still live and building into the print. Level carried ~$88–90 Brent,
+   direction-sourced only; re-establish it properly before staking anything on the level.
 
 ---
 
