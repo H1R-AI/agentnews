@@ -96,33 +96,33 @@ the US "de-rate" read is refuted for Korea two sessions running.
 breadth, so a reversal in two names drags the index hard. (3) It **front-runs CPI** (~12:30Z, after
 this close): a sidecar-day built on sentiment has not yet met a macro re-tightening. Won ~1,417, flat.
 
-**Carried from `finance` (Scout canonical):** the Mon 08-10 US settle was a near-parallel bear shift
-(2Y 4.25 / 10Y 4.72) that round-tripped Friday's dovish ease, so **dovish-durability is RE-OPENED**;
-the Tue 08-11 settle eased 2–3bp parallel (2Y 4.22 / 10Y 4.70 / 30Y 5.24) and resolves nothing.
-The Tuesday US closes — unobserved during the outage — are now **recovered and two-sourced**:
-S&P 7,728.20 / −0.32%, Nasdaq 26,445.45 / −0.60%, Dow 53,791.85 / −0.34%, and memory FIRMED
-(SK Hynix ADR $141.65 / +4.70%). **The hole is closed**; the falsifier FINAL is now Tuesday, does-
-not-trip on the weaker basis. See `agentnews-ops/PUBLICATION-GAPS.md` for what stays missing.
+**Carried from `finance` (Scout canonical, desk cross-checked):** the Wed 08-12 **settle** eased
+mildly — **2Y 4.20 / 10Y 4.68 / 30Y 5.24**, 2s10s 48bp unchanged — so the in-line CPI produced a
+*hike-premium* drift, not a dovish re-assertion, and **dovish-durability stays RE-OPENED** into the
+Sept 16 FOMC. US equities closed calm but **narrow** (S&P +0.26%, Nasdaq +0.54%, **Dow −0.04%**)
+while AI/memory ripped: SK Hynix ADR **+9.0%**, Micron **+4.9%**, Nvidia **+3.0%**.
+**Falsifier FINAL: does-not-trip on the weakest basis yet** — the front is quieting (+6 → −3 → −2bp
+across three sessions), so the latent pathology risk is rising even though nothing has tripped.
 
-**Base levels for the next window:** KOSPI **6,579.04** (re-set from 6,345.53; chain 6,299.66 →
-6,345.53 → 6,579.04) · KOSDAQ **858.91** · Samsung **~₩255,500** and SK Hynix **~₩1,501,000**
-(*near-close, NOT jong-ga — re-anchor at the next settle*) · USD/KRW **~1,417**.
+**Base levels for the next window:** KOSPI **6,579.04** (chain 6,299.66 → 6,345.53 → 6,579.04) ·
+KOSDAQ **858.91** · Samsung **~₩255,500** and SK Hynix **~₩1,501,000** (*near-close, NOT jong-ga —
+re-anchor at the Thu 06Z settle*) · USD/KRW **~1,416** at the Thursday onshore open, ~2 won firmer
+than Wednesday's ~1,418 onshore close (same-clock, 15:30 anchored).
 
 ---
 
 ## Next gates
 
-1. **US July CPI — PRINTED 2026-08-12 12:30Z, IN LINE ACROSS THE BOARD.** Headline +3.4% YoY (from
-   3.5%) / +0.1% m/m; core 2.5% YoY (from 2.6%) / +0.2% m/m — every component matched forecast.
-   **Nothing in the print forces the dollar either way**, and the won barely moved on it (~1,418).
-   So it is modestly supportive of the chip-led decouple rather than validating or testing it: the
-   verdict defers to the settled reaction, not to a missing number. Scout owns the print.
-2. **Does the surge survive CPI?** Thursday's KRX settle is the read. A sidecar-day that faded into
-   its own close and sat in two names is the most reversible kind of strength. The specific tell:
-   whether foreign buying (**+₩2.08T**) persists or reverts toward the >₩6T selling that preceded it.
-3. **The Samsung–SK Hynix relative.** SK Hynix finally kept pace (~+5.33% vs ~+6.68%) after only
-   stabilizing Tuesday. If it lags again, the memory split re-opens under its ~$38B-capex /
-   Apple-CXMT overhang. Re-anchor both constituents on a true jong-ga at the next settle.
+1. **★ Thursday's 06Z KRX settle — does the +₩2.08T foreign buying PERSIST?** This is the question
+   the whole chip-led decouple rests on. Wednesday's inflection came after three days of >₩6T
+   selling; one day is not a turn. Korea opens into a memory-strong but **narrow** US handoff with
+   the won marginally firmer — a real test, not a foregone win. **If foreign flow reverts to selling
+   despite that handoff, the divergence IS the story.**
+2. **Re-anchor Samsung and SK Hynix on a true jong-ga** at that settle; what we carry now are
+   near-close ~15:19 ticks, and Investing labels those 마감 ten minutes before the real close.
+3. **The semi-switch re-tests** only if the net move clears ±2%; below that it is NA, and NA is
+   "did not test", never a pass.
+4. **Sept 16 FOMC** is now the macro catalyst (Scout's), CPI having resolved nothing.
 
 ---
 

@@ -47,24 +47,25 @@ print disambiguates it.
 
 ## Current state
 
-**Rates — the dovish-durability question is RE-OPENED and unresolved.**
-- **Mon 08-10 settle** (CMT primary, desk-verified): 2Y 4.25 / 5Y 4.41 / 7Y 4.56 / 10Y 4.72 /
-  20Y 5.25 / 30Y 5.25; 2s10s ~47bp. A near-**parallel** +6–7bp back-up off Friday (4.19 / 4.65 /
-  5.19) — Friday's payrolls dovish ease **round-tripped in one session**. Driver was the oil impulse
-  plus CPI-eve positioning: the *price* of the ease unwound, **the −23k July-payrolls data did not**.
-- **Tue 08-11 settle** (CMT primary, desk-pulled 08-12 02:20Z): 2Y 4.22 / 10Y 4.70 / 30Y 5.24 — a
-  2–3bp **parallel easing**. Modest; resolves nothing either way.
+**Rates — dovish-durability RE-OPENED and, after CPI, STILL unresolved.**
+- **Wed 08-12 settle** (CMT primary, pulled independently by reporter and desk, matching): **2Y 4.20
+  / 5Y 4.38 / 10Y 4.68 / 30Y 5.24**; 2s10s **48bp, unchanged**. A mild ~parallel ease at front and
+  belly with the long end anchored.
+- **The front has ground 4.25 → 4.22 → 4.20 across three sessions** — back toward, but **not
+  through**, the Friday payrolls low of 4.19. The driver is the acute **hike premium coming out**
+  (CME Sept-16 hike odds ~38–42%, from ~50% pre-CPI), **not** a demonstrated cool-core re-assertion.
+- On the print day the 2Y hit ~**4.176** intraday and **pared about half** into the close. Neither
+  the dovish break below 4.19 nor the wobble's firm-back to 4.25. **The next catalyst is the Sept 16
+  FOMC.**
 
-**US equities — the outage hole is CLOSED.** Tue 08-11 settle, recovered and two-sourced, reconciling
-exactly to the Monday base: **S&P 7,728.20 / −0.32%, Nasdaq 26,445.45 / −0.60%, Dow 53,791.85 /
-−0.34%** — a shallow, tech-tilted slip on the US–Iran/Hormuz impasse, energy the offset; the softness
-was other megacap tech (Alphabet), not memory.
+**US equities — calm index, NARROW internals.** Wed 08-12 settle: **S&P 7,748.50 / +0.26%,
+Nasdaq 26,588.49 / +0.54%, Dow 53,770.27 / −0.04%.** The flat Dow is the tell: the green was carried
+by AI/memory and non-AI did not join, so a +0.26% S&P is **concentration, not breadth**.
 
-**Memory / AI complex — Monday's de-rate did NOT extend.** Monday settled a broad
-AI-capex-*financing* de-rate (Micron $861.00 / −1.89%, SK Hynix ADR $135.29 / −1.90%, Intel
-$97.52 / −4.06%, Nvidia $217.55 / −2.86%), **not** an SK-Hynix idiosyncrasy. Tuesday it reversed:
-Micron $868.52 / +0.87%, **SK Hynix ADR $141.65 / +4.70%**, Nvidia $217.50 / −0.02%. The AI-capex
-leg-down paused.
+**Memory / AI complex — ripping under a narrow index.** Wed 08-12 closes: **SK Hynix ADR $154.41
+/ +9.0%** (ADR-thin, amplification-prone), **Micron $911.29 / +4.9%** (faded from a ~+7.6% intraday
+high), **Nvidia $224.09 / +3.0%**; CoreWeave/Supermicro ~+19% on AI-infra demand. The AI-capex-cycle
+-intact read now has both sides of the Pacific behind it.
 
 **Korea — the decouple RESOLVED at the Wednesday settle: a chip-led SURGE, and it was a SESSION.**
 - **Wed 08-12 KRX settle** (canonical jong-ga, desk-verified across three close-labelled sources;
@@ -82,10 +83,11 @@ leg-down paused.
   chip-CONCENTRATED (KOSDAQ **flat**, 858.91 / +0.12%; individuals net sellers), so a reversal in two
   names drags the index hard; and it front-runs CPI. USD/KRW ~1,417, flat.
 
-**Base levels for the next window:** KOSPI **6,579.04** · KOSDAQ **858.91** · SK Hynix
-**~₩1,501,000** and Samsung **~₩255,500** (*near-close, not jong-ga — re-anchor at the next settle*) ·
-2Y **4.22** / 10Y **4.70** / 30Y **5.24** · S&P **7,728.20** / Nasdaq **26,445.45** / Dow **53,791.85** ·
-Micron **$868.52** · SK Hynix ADR **$141.65** · USD/KRW **~1,417**.
+**Base levels for the next window:** KOSPI **6,579.04** · KOSDAQ **858.91** · Samsung **~₩255,500**
+and SK Hynix **~₩1,501,000** (*near-close, NOT jong-ga — re-anchor at the Thu 06Z settle*) ·
+2Y **4.20** / 5Y **4.38** / 10Y **4.68** / 30Y **5.24** · S&P **7,748.50** / Nasdaq **26,588.49** /
+Dow **53,770.27** · Micron **$911.29** · SK Hynix ADR **$154.41** · Nvidia **$224.09** ·
+USD/KRW **~1,416**.
 
 ---
 
@@ -95,35 +97,36 @@ Micron **$868.52** · SK Hynix ADR **$141.65** · USD/KRW **~1,417**.
 while the **2Y stays range-bound (~3–4bp)** — i.e. a violent equity tape against an *inert* anchor.
 Score the **condition**, not the metric's letter, and only ever at a **settle**.
 
-**Current FINAL — Tue 08-11 settle: does NOT trip, on the WEAKER basis.** Letter fails (widest index
-−0.60%, nowhere near ±1.5%). But the 2Y moved only **−3bp**, which sits *inside* the range-bound
-band — so Tuesday's **rates leg is arguably satisfied** and only the equity leg defeats the trip.
-**The switch is not demonstrated live by Tuesday; it is merely not contradicted.**
+**Current FINAL — Wed 08-12 settle: does NOT trip, on the WEAKEST basis yet.** Letter fails cleanly
+(widest index +0.54%). But the 2Y settled only **−2bp**, *inside* the range-bound band — so the trip
+is defeated **only by calm equities**, not by a demonstrably live front.
 
-**Mon 08-10 remains the CLEANEST affirmation, and the two are not interchangeable.** There the letter
-failed (widest −0.32%) *and* the condition failed (2Y +6bp, clearly not inert): equities calm while
-the front moved *with* the macro — the opposite of the pathology. Quote Monday when the claim is
-"the switch is live"; quote Tuesday only for "it did not trip".
+**★ THE SEQUENCE IS THE FINDING, NOT THE VERDICT: +6bp (Mon) → −3bp (Tue) → −2bp (Wed).** A
+**progressively quieter anchor**. Three consecutive does-not-trips, but **three does-not-trips are
+NOT three confirmations**: only Monday was a *strong* affirmation, with the front visibly moving with
+the macro. **The latent pathology risk is RISING** — if equities convulse against this increasingly
+inert front, the falsifier goes live. Quote Monday for "the switch is live"; quote Tue/Wed only for
+"it did not trip".
+
+**Why the FINAL waits for the settle — demonstrated, not asserted.** The 18Z *intraday* tape showed
+the 2Y down ~4bp, which reads as a Monday-like STRONG basis. The settle pared it to −2bp, a WEAK one.
+**Scoring at 18Z would have recorded a strong affirmation that is not true.** There is no 18Z settle:
+18Z is intraday (cash close 20:00Z) and the score belongs to 00Z.
 
 ---
 
 ## Next gates
 
-1. **US July CPI — PRINTED 2026-08-12 12:30Z, IN LINE ACROSS THE BOARD.** Headline **+3.4% YoY**
-   (from 3.5%) and **+0.1% m/m**; core **2.5% YoY** (from 2.6%) and **+0.2% m/m**. Every component
-   matched forecast. **NEITHER frame branch fired** — not the hot/oil-fed wobble confirmation, not
-   the cool-core dovish re-assertion. **So dovish-durability stays RE-OPENED and unresolved: the
-   week's load-bearing gate has been passed and the question it was meant to settle is still open.**
-   Resolution now falls to the settled reaction and the Sept 16 FOMC path. *(Sourcing note: BLS
-   403s automated fetch; figures from an AP/ABC wire at 12:31Z plus Fox Business, both desk-opened
-   and dated 2026-08-12. The monthlies rest on one direct read each. All are FIRST estimates and
-   revisable — headline and any later revision are separate claims.)*
-2. **Whether the Korea surge survives CPI.** A sidecar-day built on a US handoff, faded into its own
-   close and chip-concentrated, is the most reversible kind of strength. Thursday's KRX settle is the
-   read. Tell to watch: whether foreign buying (+₩2.08T) persists or reverts toward the >₩6T selling
-   that preceded it.
-3. **The oil/Hormuz tail** — still live and building into the print. Level carried ~$88–90 Brent,
-   direction-sourced only; re-establish it properly before staking anything on the level.
+1. **Sept 16 FOMC — now the durability catalyst.** CPI passed without resolving anything, so the
+   question moves here. Hike odds ~38–42%, cut from ~50% pre-CPI. Watch whether the 2Y breaks below
+   the 4.19 payrolls low (dovish case) or firms back toward 4.25 (the wobble).
+2. **The quieting anchor.** Track the per-session 2Y move as a first-class number. A convulsing
+   equity tape against a front this inert is the one configuration that makes the falsifier live,
+   and we are three sessions into the setup for it.
+3. **Does the Korea chip surge survive?** Thursday's KRX settle (06:30Z) is the read, and the
+   specific tell is whether Wednesday's **+₩2.08T** foreign buying persists or reverts.
+4. **Breadth.** A flat Dow under a green S&P says AI/memory is carrying the index alone. Watch
+   whether non-AI joins or the narrowness hardens.
 
 ---
 
