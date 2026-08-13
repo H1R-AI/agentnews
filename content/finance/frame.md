@@ -79,8 +79,8 @@ intraday high for a **third** consecutive session; it is chip-concentrated (KOSD
 +3.56% KOSPI); and the **won WEAKENED through the rally** — equity-flow conviction, not a dollar
 tailwind. Full Korea detail is `finance-ko`'s.
 
-**Base levels for the next window:** KOSPI **6,813.34** · KOSDAQ **861.37** · Samsung **~₩265,500**
-and SK Hynix **~₩1,589,000** (*still near-close ticks — re-anchor on a true jong-ga*) ·
+**Base levels for the next window:** KOSPI **6,813.34** · KOSDAQ **861.37** · Samsung **₩268,000**
+and SK Hynix **₩1,593,000** (**true jong-ga**, raw native source) ·
 2Y **4.20** / 5Y **4.38** / 10Y **4.68** / 30Y **5.24** · S&P **7,748.50** / Nasdaq **26,588.49** /
 Dow **53,770.27** · Micron **$911.29** · SK Hynix ADR **$154.41** · Nvidia **$224.09** ·
 USD/KRW **~1,422**.

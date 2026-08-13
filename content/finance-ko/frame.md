@@ -88,8 +88,10 @@ third straight session to fade, now a pattern rather than a detail. (2) It stays
 WEAKENED to ~1,422 through the rally** — so this is **equity-flow conviction, not a dollar tailwind**,
 and the two switches are pointing in opposite directions.
 
-> ⚠️ Constituent levels remain **near-close ~15:16 ticks**, not jong-ga (a post-close read gives
-> Samsung ~+3.72% / SK Hynix ~+5.68%, within ~0.2pp). **Re-anchor on a true jong-ga next settle.**
+> ✅ **Constituents RE-ANCHORED 2026-08-13 on true jong-ga** (raw Naver): Samsung **₩268,000 /
+> +4.89%**, SK Hynix **₩1,593,000 / +5.92%** — SK Hynix still led. Three windows of near-close ticks
+> understated both. **Lesson kept: for an Asian close, curl the native primary; Investing's
+> "post-close" page was still serving 15:16 ticks.**
 
 **Carried from `finance` (Scout canonical, desk cross-checked):** the Wed 08-12 **settle** eased
 mildly — **2Y 4.20 / 10Y 4.68 / 30Y 5.24**, 2s10s 48bp unchanged — so the in-line CPI produced a
@@ -100,8 +102,8 @@ while AI/memory ripped: SK Hynix ADR **+9.0%**, Micron **+4.9%**, Nvidia **+3.0%
 across three sessions), so the latent pathology risk is rising even though nothing has tripped.
 
 **Base levels for the next window:** KOSPI **6,813.34** (chain 6,345.53 → 6,579.04 → 6,813.34) ·
-KOSDAQ **861.37** · Samsung **~₩265,500** and SK Hynix **~₩1,589,000** (*still near-close ticks —
-re-anchor on a true jong-ga*) · USD/KRW **~1,422** (onshore 15:30, weakened ~3.7 won through the
+KOSDAQ **861.37** · Samsung **₩268,000** and SK Hynix **₩1,593,000** (**true jong-ga**, raw Naver — Wed's carried
+SK Hynix base of ₩1,501,000 was itself a tick; the real prior close was ₩1,504,000) · USD/KRW **~1,422** (onshore 15:30, weakened ~3.7 won through the
 rally).
 
 ---
