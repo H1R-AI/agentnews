@@ -67,27 +67,23 @@ by AI/memory and non-AI did not join, so a +0.26% S&P is **concentration, not br
 high), **Nvidia $224.09 / +3.0%**; CoreWeave/Supermicro ~+19% on AI-infra demand. The AI-capex-cycle
 -intact read now has both sides of the Pacific behind it.
 
-**Korea — the decouple RESOLVED at the Wednesday settle: a chip-led SURGE, and it was a SESSION.**
-- **Wed 08-12 KRX settle** (canonical jong-ga, desk-verified across three close-labelled sources;
-  base CB-cross-checked 5,837.89 / 0.92 = 6,345.53): KOSPI **6,579.04 / +233.51 / +3.68%**, a **3rd**
-  straight up day. Chip-led — Samsung ~+6.68%, SK Hynix ~+5.33% (**near-close ~15:19 ticks, not the
-  jong-ga**; the constituent feed lagged at press). A **buy sidecar fired 11:57 KST** on KOSPI 200
-  futures +5.13%. Foreign **+₩2.08T** and institutions **+₩862B** net buyers, individuals −₩2.76T
-  (**KOSPI market only**).
-- **The mechanism INVERTED — this is the load-bearing change.** Tuesday Korea overrode a US memory
-  de-rate on a *domestic* export print (record Aug 1–10 chips +155.4% YoY, ~$10B, 46.8% of a +45.3%
-  total). Wednesday the **US itself flipped and pulled Korea up** — overnight memory strength plus
-  after-close CoreWeave/Supermicro AI-infra earnings. Both sides now price the AI-capex cycle as
-  intact: the cleanest demand-side resolution yet.
-- **Capped, three ways:** it FADED from a ~+5.08% high (~6,668) into the close; it is
-  chip-CONCENTRATED (KOSDAQ **flat**, 858.91 / +0.12%; individuals net sellers), so a reversal in two
-  names drags the index hard; and it front-runs CPI. USD/KRW ~1,417, flat.
+**Korea — the demand turn is CONFIRMED, and the concentration is the caveat.** Thu 08-13 settle:
+KOSPI **6,813.34 / +3.56%**, a 4th straight up day, into a technical bull market (~22% off the
+Jul 30 low; Bloomberg/CNBC). **The load-bearing tell resolved: foreign buying PERSISTED — ~+₩2.10T,
+a second consecutive day** after three days of >₩6T selling. That makes it an inflection, not a
+sentiment spike, and pairs with Wednesday's US session (SK Hynix ADR +9%, Micron +4.9%, Nvidia +3.0%)
+for **two straight sessions of both sides of the Pacific pricing the AI-capex cycle intact**.
 
-**Base levels for the next window:** KOSPI **6,579.04** · KOSDAQ **858.91** · Samsung **~₩255,500**
-and SK Hynix **~₩1,501,000** (*near-close, NOT jong-ga — re-anchor at the Thu 06Z settle*) ·
+**But the same three caveats keep recurring and are now a pattern, not a detail:** it faded from the
+intraday high for a **third** consecutive session; it is chip-concentrated (KOSDAQ +0.29% against a
++3.56% KOSPI); and the **won WEAKENED through the rally** — equity-flow conviction, not a dollar
+tailwind. Full Korea detail is `finance-ko`'s.
+
+**Base levels for the next window:** KOSPI **6,813.34** · KOSDAQ **861.37** · Samsung **~₩265,500**
+and SK Hynix **~₩1,589,000** (*still near-close ticks — re-anchor on a true jong-ga*) ·
 2Y **4.20** / 5Y **4.38** / 10Y **4.68** / 30Y **5.24** · S&P **7,748.50** / Nasdaq **26,588.49** /
 Dow **53,770.27** · Micron **$911.29** · SK Hynix ADR **$154.41** · Nvidia **$224.09** ·
-USD/KRW **~1,416**.
+USD/KRW **~1,422**.
 
 ---
 
@@ -123,8 +119,9 @@ the 2Y down ~4bp, which reads as a Monday-like STRONG basis. The settle pared it
 2. **The quieting anchor.** Track the per-session 2Y move as a first-class number. A convulsing
    equity tape against a front this inert is the one configuration that makes the falsifier live,
    and we are three sessions into the setup for it.
-3. **Does the Korea chip surge survive?** Thursday's KRX settle (06:30Z) is the read, and the
-   specific tell is whether Wednesday's **+₩2.08T** foreign buying persists or reverts.
+3. **Korea: answered YES — now watch BREADTH, not the index.** The buying persisted (~+₩2.10T, 2nd
+   day). What is unresolved is participation: three straight fades from the intraday high and a flat
+   KOSDAQ say two names are carrying the index, and a reversal in those two drags it hard.
 4. **Breadth.** A flat Dow under a green S&P says AI/memory is carrying the index alone. Watch
    whether non-AI joins or the narrowness hardens.
 

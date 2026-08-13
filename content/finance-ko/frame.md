@@ -72,29 +72,24 @@ domestic/idiosyncratic forces, off the external dollar/Fed switch → update the
 
 ## Current state
 
-**Wed 08-12 KRX settle (canonical jong-ga) — the decouple became a US-driven chip SURGE.** KOSPI
-closed **6,579.04 / +233.51 / +3.68%** off the 6,345.53 base, a **3rd** straight up day, desk-verified
-across three close-labelled sources and CB-cross-checked (5,837.89 / 0.92 = 6,345.53). Both memory
-names LED — Samsung ~+6.68%, SK Hynix ~+5.33% — so the leg that only *stabilized* Tuesday (+0.35%)
-fully re-rated up. **A buy sidecar fired 11:57 KST** (KOSPI 200 futures +5.13%). Foreign **+₩2.08T**
-and institutions **+₩862B** net buyers, individuals −₩2.76T (**KOSPI market only**, per the primary).
+**★ Thu 08-13 KRX settle — THE PERSISTENCE QUESTION IS ANSWERED: IT WAS A TURN.** KOSPI closed
+**6,813.34 / +234.30 / +3.56%** off 6,579.04 — a **4th** straight up day, three-sourced and
+CB-checked (6,052.72 / 0.92 = the 6,579.04 base). **Foreign investors were net buyers a SECOND
+consecutive day: ~+₩2.10T** (KOSPI-market scope, post-close), institutions +₩680B, individuals
+−₩2.72T. After three days of >₩6T selling, two consecutive ~₩2.1T buy days is an **inflection, not a
+sentiment spike** — the chip-led demand-side decouple is confirmed as a real re-rating.
+**SK Hynix LED (+5.65%) over Samsung (+3.91%)** — the leg that only stabilised Tuesday is now out
+front. KOSDAQ **861.37 / +0.29%**. Semi-switch **SCORES** (+3.56% > ±2%) → **CONFIRMED / ON,
+reinforced**.
 
-> ⚠️ Samsung and SK Hynix levels are **near-close ~15:19 ticks, NOT the jong-ga** — the constituent
-> feed lagged at press, and Investing labels them 마감/closed *at 15:19:59*, ten minutes before the
-> real 15:30 close. **A "closed" label is not a close.** Re-anchor at the next settle.
+**Three things keep it honest.** (1) It **FADED** from a ~+4.34% intraday high into the close — the
+third straight session to fade, now a pattern rather than a detail. (2) It stays
+**chip-CONCENTRATED**: KOSDAQ +0.29% against a +3.56% KOSPI, individuals −₩2.72T. (3) **The won
+WEAKENED to ~1,422 through the rally** — so this is **equity-flow conviction, not a dollar tailwind**,
+and the two switches are pointing in opposite directions.
 
-**THE MECHANISM INVERTED — the load-bearing change.** Monday the US closed both memory names −1.9%
-(a valuation de-rate). Tuesday Korea overrode it on a *domestic* record export print (Aug 1–10 chips
-+155.4% YoY, ~$10B, 46.8% of a +45.3% total). **Wednesday the US itself flipped and pulled Korea
-up** — overnight memory strength plus after-close CoreWeave/Supermicro AI-infra earnings. Both sides
-of the Pacific now price the AI-capex cycle as intact: the cleanest demand-side resolution yet, and
-the US "de-rate" read is refuted for Korea two sessions running.
-
-**Capped three ways — do not read the surge as durable.** (1) It **FADED** from a ~+5.08% high
-(~6,668) into the close — Tuesday's fade pattern, one magnitude larger. (2) It is
-**chip-CONCENTRATED**: KOSDAQ flat at 858.91 / +0.12%, individuals −₩2.76T — mega-cap depth, not
-breadth, so a reversal in two names drags the index hard. (3) It **front-runs CPI** (~12:30Z, after
-this close): a sidecar-day built on sentiment has not yet met a macro re-tightening. Won ~1,417, flat.
+> ⚠️ Constituent levels remain **near-close ~15:16 ticks**, not jong-ga (a post-close read gives
+> Samsung ~+3.72% / SK Hynix ~+5.68%, within ~0.2pp). **Re-anchor on a true jong-ga next settle.**
 
 **Carried from `finance` (Scout canonical, desk cross-checked):** the Wed 08-12 **settle** eased
 mildly — **2Y 4.20 / 10Y 4.68 / 30Y 5.24**, 2s10s 48bp unchanged — so the in-line CPI produced a
@@ -104,25 +99,25 @@ while AI/memory ripped: SK Hynix ADR **+9.0%**, Micron **+4.9%**, Nvidia **+3.0%
 **Falsifier FINAL: does-not-trip on the weakest basis yet** — the front is quieting (+6 → −3 → −2bp
 across three sessions), so the latent pathology risk is rising even though nothing has tripped.
 
-**Base levels for the next window:** KOSPI **6,579.04** (chain 6,299.66 → 6,345.53 → 6,579.04) ·
-KOSDAQ **858.91** · Samsung **~₩255,500** and SK Hynix **~₩1,501,000** (*near-close, NOT jong-ga —
-re-anchor at the Thu 06Z settle*) · USD/KRW **~1,416** at the Thursday onshore open, ~2 won firmer
-than Wednesday's ~1,418 onshore close (same-clock, 15:30 anchored).
+**Base levels for the next window:** KOSPI **6,813.34** (chain 6,345.53 → 6,579.04 → 6,813.34) ·
+KOSDAQ **861.37** · Samsung **~₩265,500** and SK Hynix **~₩1,589,000** (*still near-close ticks —
+re-anchor on a true jong-ga*) · USD/KRW **~1,422** (onshore 15:30, weakened ~3.7 won through the
+rally).
 
 ---
 
 ## Next gates
 
-1. **★ Thursday's 06Z KRX settle — does the +₩2.08T foreign buying PERSIST?** This is the question
-   the whole chip-led decouple rests on. Wednesday's inflection came after three days of >₩6T
-   selling; one day is not a turn. Korea opens into a memory-strong but **narrow** US handoff with
-   the won marginally firmer — a real test, not a foregone win. **If foreign flow reverts to selling
-   despite that handoff, the divergence IS the story.**
-2. **Re-anchor Samsung and SK Hynix on a true jong-ga** at that settle; what we carry now are
-   near-close ~15:19 ticks, and Investing labels those 마감 ten minutes before the real close.
-3. **The semi-switch re-tests** only if the net move clears ±2%; below that it is NA, and NA is
-   "did not test", never a pass.
-4. **Sept 16 FOMC** is now the macro catalyst (Scout's), CPI having resolved nothing.
+1. **Does the buying continue into Friday?** Two days is a turn; three would make it a trend. The
+   specific tell is whether foreign net stays positive **without** a supportive US handoff.
+2. **Does the rally BROADEN?** KOSDAQ +0.29% against a +3.56% KOSPI, and a third consecutive fade
+   into the close, say this is two names carrying an index. **A reversal in those two drags it hard.**
+   Watch KOSDAQ and market breadth, not just the index print.
+3. **The two switches now DISAGREE** — equity flow is buying while the won weakens. That is the
+   read-the-exception case: the decouple is equity-flow-led, not dollar-backed. Watch DXY/CNH
+   same-clock; the won stays unscored under the 10-won bar.
+4. **Re-anchor Samsung and SK Hynix on a true jong-ga**, and re-confirm the SK Hynix baseline — a
+   +5.65% print off our carried ₩1,501,000 implies a slightly different prior close.
 
 ---
 
