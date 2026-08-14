@@ -44,6 +44,25 @@ const SETTLE_REJECT_HOSTS = [
   'tradingeconomics.com', 'investing.com', 'finance.yahoo.com',
 ];
 const CLOSE_TOKENS_DEFAULT = ['close', 'closing', '마감', '종가', '大引', '終値'];
+// C6 — the settle CLOSE TIME per index, in UTC. This exists so that a source's own timestamp can
+// be checked against the moment it claims to describe. A source published BEFORE the close cannot
+// be reporting the close, however confidently it is labelled 마감.
+// Built 2026-08-14 after the identical trap fired on consecutive days: an etoday INTRADAY article
+// (13:05, then 13:10 the next day) cited as the source for a close-labelled settle. Both times the
+// reporter's NUMBERS were right and the URL described a different moment of the same day. A prose
+// reminder was given explicitly on the first occurrence and failed within 24h — which is a fact
+// about prose reminders, not about the reporter. So: make the writer DECLARE the source timestamp
+// (the checker cannot observe it), then the contradiction is mechanical. — Vera
+const SETTLE_CLOSE_UTC = [
+  { match: /^(KOSPI|KOSDAQ)/,           utc: '06:30', tz: 'KRX 15:30 KST' },
+  { match: /^NIKKEI/,                   utc: '06:00', tz: 'TSE 15:00 JST' },
+  { match: /^TAIEX/,                    utc: '05:30', tz: 'TWSE 13:30 CST' },
+  { match: /^(HSI|HANGSENG)/,           utc: '08:00', tz: 'HKEX 16:00 HKT' },
+  { match: /^(SPX|SP500|NASDAQ|NDX|DOW|DJIA)/, utc: '20:00', tz: 'US cash 16:00 ET' },
+  { match: /^(UST|TREASURY|CMT)/,       utc: '19:30', tz: 'CMT ~15:30 ET' },
+];
+const C6_HARD_FAIL_FROM = '2026-08-21';   // adoption grace: warn first, then hard-fail
+
 const SETTLE_SOURCES = [
   { match: /^(KOSPI|KOSDAQ)/, hosts: ['krx.co.kr','yna.co.kr','sedaily.com','mt.co.kr','edaily.co.kr','hankyung.com','mk.co.kr','fnnews.com','etoday.co.kr','asiae.co.kr'], tokens: ['마감','종가'] },
   { match: /^NIKKEI/,         hosts: ['jpx.co.jp','nikkei.com','reuters.com','bloomberg.com'], tokens: ['大引','終値'] },
@@ -366,6 +385,31 @@ function checkSettleProvenance(win, index, s, errors, warnings) {
     errors.push(`${win.rel}: settles.${index}.source host ${host} is not a native primary for ${index} (allowed: ${rule.hosts.join(', ')})`);
     return;
   }
+  // ── C6: does the SOURCE's own timestamp predate the close it claims to describe? ──
+  // The checker cannot observe when a page was published, so the writer declares it; then the
+  // contradiction is mechanical and needs no judgement. Adoption is warn-then-hard-fail so the
+  // existing archive does not fail en masse — but a DECLARED source_time that predates the close is
+  // an ERROR immediately, because that is a genuine contradiction rather than a missing field.
+  const closeRule = SETTLE_CLOSE_UTC.find((r) => r.match.test(index.toUpperCase().replace(/[^A-Z0-9]/g, '')));
+  if (!s.source_time) {
+    const hard = win.rel.slice(0, 10).replace(/\//g, '-') >= C6_HARD_FAIL_FROM;
+    const msg = `${win.rel}: settles.${index} has no source_time — declare when the SOURCE was published (ISO, e.g. 2026-08-14T15:42+09:00). Without it, an intraday article and a close wrap are indistinguishable, which is how a 13:05 piece was cited for a 마감 close on two consecutive days. ${hard ? `[hard fail since ${C6_HARD_FAIL_FROM}]` : `[warn · hard fail from ${C6_HARD_FAIL_FROM}]`}`;
+    (hard ? errors : warnings).push(msg);
+  } else if (closeRule) {
+    const t = new Date(s.source_time);
+    if (isNaN(t.getTime())) {
+      errors.push(`${win.rel}: settles.${index}.source_time "${s.source_time}" is not a parseable timestamp`);
+    } else {
+      const hhmm = t.toISOString().slice(11, 16);
+      const day = t.toISOString().slice(0, 10);
+      const winDay = win.rel.slice(0, 10).replace(/\//g, '-');
+      // Same UTC day and stamped before the close = the source cannot be describing the close.
+      if (day === winDay && hhmm < closeRule.utc) {
+        errors.push(`${win.rel}: settles.${index}.source_time ${s.source_time} PREDATES the close (${closeRule.utc}Z, ${closeRule.tz}) — a source published before the close is not reporting the close, whatever its label says. Cite the post-close wrap, not the intraday piece.`);
+      }
+    }
+  }
+
   // Not a check, a prompt at the moment of use: the continuous feed is a derived
   // series, and mistaking it for the settle is the same shape as the errors above.
   if (rule.roll) {
