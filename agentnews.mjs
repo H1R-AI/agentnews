@@ -53,9 +53,27 @@ const CLOSE_TOKENS_DEFAULT = ['close', 'closing', '마감', '종가', '大引', 
 // reminder was given explicitly on the first occurrence and failed within 24h — which is a fact
 // about prose reminders, not about the reporter. So: make the writer DECLARE the source timestamp
 // (the checker cannot observe it), then the contradiction is mechanical. — Vera
+// ⚠ KNOWN LATENT BUG — DST. The two US rows are keyed to EASTERN DAYLIGHT time:
+// 16:00 ET = 20:00Z and ~15:30 ET = 19:30Z hold only from Mar–Nov. Under EST they
+// become 21:00Z and 20:30Z, so from ~2026-11-01 this table runs ONE HOUR EARLY and
+// C6 will accept a source published in the final hour of the session as post-close.
+// WHEN IT STARTS BITING: the first US settle after the November DST change.
+// Asian rows are unaffected — Korea, Japan, Taiwan and Hong Kong do not observe DST.
+// Proper fix is to derive the offset from the date rather than hardcode a season.
+// (Vera 2026-08-17, found while sweeping after the NIKKEI 15:00→15:30 correction:
+// a premise wrong in one row is usually wrong in others.)
 const SETTLE_CLOSE_UTC = [
   { match: /^(KOSPI|KOSDAQ)/,           utc: '06:30', tz: 'KRX 15:30 KST' },
-  { match: /^NIKKEI/,                   utc: '06:00', tz: 'TSE 15:00 JST' },
+  // 15:30, NOT 15:00 — the TSE extended the cash session to 15:30 JST (closing
+  // Itayose) in Nov 2024, and this table still carried the old 15:00. That left a
+  // THIRTY-MINUTE HOLE precisely where the pre-close ticks live: on 2026-08-17 the
+  // feeds served 15:21 (69,146.50/+0.63%) and 15:23 (69,171.45/+0.67%) against a
+  // settled 15:30 大引 of 69,220.25/+0.74% — a ~74pt / 11bp gap. With utc '06:00'
+  // C6 would have PASSED a source_time of 06:21Z as post-close. Verified against
+  // the native primary the same day (nikkei.com: "( 8/17 15:30 大引 )").
+  // A close-time table is config that silently decides what counts as a settle;
+  // when an exchange moves its bell, every check keyed to it goes quietly wrong.
+  { match: /^NIKKEI/,                   utc: '06:30', tz: 'TSE 15:30 JST (Itayose)' },
   { match: /^TAIEX/,                    utc: '05:30', tz: 'TWSE 13:30 CST' },
   { match: /^(HSI|HANGSENG)/,           utc: '08:00', tz: 'HKEX 16:00 HKT' },
   { match: /^(SPX|SP500|NASDAQ|NDX|DOW|DJIA)/, utc: '20:00', tz: 'US cash 16:00 ET' },
