@@ -104,6 +104,95 @@ const C5_LEVEL_BAND = 0.25;
 const C5_NOT_A_CLOSE = /breaker|sidecar|intraday|session (?:low|high)|day range|opened?|open tick|gap(?:ped)?|futures?|premarket|pre-market|target|proxy|ADR/i;
 const C5_LOOKBEHIND_CHARS = 50;
 
+// ── C7: undeclared US index close assertions ────────────────────────────────
+// WHY THIS EXISTS (Vera, 2026-08-17). Window 08-17-00 printed Friday's US closes
+// (S&P 7,785.76 / Nasdaq 26,729.16 / Dow 53,732.41) and cited them to a page
+// headlined "Stock Market Midday", datePublished AND dateModified both 16:35Z,
+// whose body read "as of 11:39 AM ET ... 7,782.65". An INTRADAY article cited for
+// a SETTLE — the exact defect C6 was built for.
+//
+// C6 did not fire. Not because it was wrong: SETTLE_CLOSE_UTC already matches
+// SPX|SP500|NASDAQ|NDX|DOW|DJIA at 20:00Z, and SETTLE_SOURCES already allowlists
+// the US-index hosts. Had those closes been DECLARED, finance.yahoo.com would
+// have failed the host allowlist and 16:35Z would have failed the predates-close
+// rule. TWO armed checks, both pointed the right way, and prose walked past both
+// — because every one of them inspects the settles: block, and the closes were
+// never put in it. The reporter's own note said "Only CMT in the settles block."
+//
+// THE RULE: A CHECK YOU CAN OPT OUT OF BY NOT DECLARING IS OPTIONAL. Not
+// declaring is not a neutral act — it is the way past the gate. This is the
+// sibling of "a check that cannot fail is decoration": that one passes BY
+// CONSTRUCTION, this one is NEVER INVOKED. Both come back green.
+//
+// So the companion to a declare-rule is a detector for the UNDECLARED ASSERTION,
+// which makes OMISSION ITSELF the error. C5 already does exactly this for the
+// KOSPI in finance-ko; C7 is that same shape for the US indices in finance.
+// Deliberately reuses C5_CLOSE_CONTEXT / C5_NOT_A_CLOSE / stripUrls so the two
+// detectors cannot drift apart in what they consider "a close".
+const C7_OWNER_DOMAIN = 'finance';
+// finance has never declared a US settles block, so unlike C5 there is no prior
+// close to derive a band from on the first pass. A STATIC plausibility range does
+// that job instead: wide enough to never argue with a real session, narrow enough
+// to reject a different instrument sitting next to the index name (a share price,
+// a point count, a year). Once a window declares, the prior close also exempts
+// continuity references, exactly as in C5.
+const C7_US_INDICES = [
+  // Bare "S&P" must match: the editions write "S&P 7,785.76", not "S&P 500
+  // 7,785.76". Requiring the 500 made the detector catch nothing on real content.
+  { key: 'SP500',  mention: /S&P(?:\s*500)?|\bSPX\b/i,                min: 1000,  max: 20000 },
+  { key: 'NASDAQ', mention: /\bNasdaq(?:\s+Composite)?\b/i,           min: 5000,  max: 60000 },
+  { key: 'DOW',    mention: /\bDow(?:\s+Jones)?(?:\s+Industrials?)?\b/i, min: 10000, max: 100000 },
+];
+// Forward-looking, same rationale as C5_EFFECTIVE_FROM: windows written before
+// the rule existed will not be retro-declared, and scanning them yields noise.
+// Set to the day the defect was found so the detector is exercised against the
+// REAL case, not only fixtures — a detector that has only ever seen synthetic
+// input is written-but-unproven.
+const C7_EFFECTIVE_FROM = '2026-08-17';
+// Aligned with C6_HARD_FAIL_FROM so reporters have ONE adoption date to hold,
+// not two. Date-gated so the promotion is auditable and reversible by a constant.
+const C7_HARD_FAIL_FROM = '2026-08-21';
+// How far BACK of the index mention still counts as close context. Sized to span
+// a lead clause ("US stocks closed mild-RED Friday, off Thursday record — S&P
+// 7,785.76") without reaching into an unrelated neighbouring sentence.
+const C7_CONTEXT_LOOKBACK = 160;
+// Fixtures are the cases this detector must get right, in BOTH directions. The
+// first is the REAL 2026-08-17 defect verbatim; the rest are the false positives
+// a number-near-a-name rule invites. Testing only the catch direction would ship
+// a detector that fires on every point-move and gets muted within a week.
+// Declared HERE, above the entry point, because these are `const`: defining them
+// below the CLI switch parses cleanly and then dies at runtime in the temporal
+// dead zone — node --check passed and the self-test threw. Parsing is not
+// exercising.
+const C7_FIXTURES = [
+  ['real 08-17 defect — asserted close, no settles block',
+    'US stocks closed mild-RED Friday, off Thursday record — S&P 7,785.76 / −0.17%, Nasdaq 26,729.16 / −0.28%.',
+    'SP500', null, true],
+  ['same body, NASDAQ leg', 'US stocks closed mild-RED Friday — Nasdaq 26,729.16 / −0.28%.', 'NASDAQ', null, true],
+  // A POINT move is the false positive this rule invites most: "closed up 107.58
+  // points" puts a decimal number in close context right beside the index name.
+  // The static band is what rejects it, and it must keep rejecting it.
+  ['point move, not a level', 'The Dow closed up 107.58 points on the session.', 'DOW', null, false],
+  ['futures are not the cash close', 'S&P 500 futures closed at 7,790.00 overnight.', 'SP500', null, false],
+  ['intraday tick in close context', 'Before the close the S&P 500 printed an intraday 7,782.65.', 'SP500', null, false],
+  ['continuity reference to our own last close', 'Off Thursday close of 7,798.99, the S&P 500 slipped.', 'SP500', 7798.99, false],
+  ['a share price is not the index', 'A Nasdaq-listed name closed at $26,729.16 on the day.', 'NASDAQ', null, false],
+  ['numbers inside a URL are not prose', 'The S&P 500 closed lower ([wrap](https://x.com/sp-500-7785.76-close)).', 'SP500', null, false],
+  ['no close context at all', 'The S&P 500 is trading around 7,785.76 right now.', 'SP500', null, false],
+  ['DOW leg of the real body', 'US stocks closed mild-RED Friday — Dow 53,732.41 / −0.20%.', 'DOW', null, true],
+  // The lookback lets close context precede the mention; these guard what that
+  // widening newly risks.
+  ['cross-index binding — Nasdaq must not take the S&P level',
+    'US stocks closed lower — S&P 7,785.76 / −0.17%, Nasdaq 26,729.16 / −0.28%.', 'NASDAQ', 26729.16, false],
+  ['continuity exemption with the number AFTER the mention',
+    'US stocks closed flat — the S&P 500 finished at 7,798.99 again.', 'SP500', 7798.99, false],
+  // "S&P Dow Jones Indices" is a COMPANY, not the index — the cost of allowing a
+  // bare "S&P". Close context can legitimately sit nearby; nothing in band should
+  // bind to it.
+  ['company name, not the index',
+    'Reddit closed higher after S&P Dow Jones Indices said it would join the index.', 'SP500', null, false],
+];
+
 const C5_FIXTURES = [
   // [name, body, lastClose, expectHit]
   ['close assertion — plain', 'KOSPI closed at 6,023.66 / −10.84% (native jong-ga).', 6607.53, true],
@@ -134,6 +223,9 @@ switch (cmd) {
     break;
   case 'c5-selftest':
     runC5SelfTest();
+    break;
+  case 'c7-selftest':
+    runC7SelfTest();
     break;
   case 'check':
     checkAll();
@@ -592,7 +684,99 @@ function checkUndeclaredCloseAssertions(windows, domain, errors, warnings) {
   }
 }
 
+// C7 detection. Same two-signal design as C5 — the close LABEL narrows to close
+// context, the NUMBER decides assertion vs reference — with the band supplied
+// statically per index rather than from the prior close.
+function findAssertedUsCloses(body, spec, lastClose) {
+  const found = [];
+  const text = stripUrls(body);
+  const mention = new RegExp(spec.mention.source, 'gi');
+  let m;
+  while ((m = mention.exec(text)) !== null) {
+    // TWO WINDOWS, deliberately different sizes — C5 used one and it could not
+    // see this defect. C5 slices FORWARD only, which fits Korean-desk phrasing
+    // ("KOSPI closed 6,023.66"): the close token follows the index. US phrasing
+    // puts it FIRST — "US stocks closed mild-RED Friday — S&P 7,785.76" — so a
+    // forward-only window finds no close token and the detector catches nothing.
+    //   ctxSlice (looks BACKWARD too) answers: is this close CONTEXT?
+    //   numSlice (forward only) answers: which number belongs to THIS index?
+    // They must stay separate. Widening the number search backward would let
+    // "S&P 7,785.76, Nasdaq 26,729.16" bind the S&P level to the Nasdaq — 7785.76
+    // sits inside the Nasdaq band, so the band would not catch the swap.
+    const ctxSlice = text.slice(Math.max(0, m.index - C7_CONTEXT_LOOKBACK), m.index + C5_CONTEXT_CHARS);
+    if (!C5_CLOSE_CONTEXT.test(ctxSlice)) continue;
+    const slice = text.slice(m.index, m.index + C5_CONTEXT_CHARS);
+    const re = /(.?)\b(\d{1,3},\d{3}\.\d{1,2}|\d{4,5}\.\d{1,2})\b/g;
+    let n;
+    while ((n = re.exec(slice)) !== null) {
+      if (/[$₩€£]/.test(n[1])) continue;
+      const before = slice.slice(Math.max(0, n.index - C5_LOOKBEHIND_CHARS), n.index);
+      if (C5_NOT_A_CLOSE.test(before)) continue;
+      const value = Number(n[2].replace(/,/g, ''));
+      if (value < spec.min || value > spec.max) continue;
+      // A figure equal to the close we last published is a continuity reference,
+      // not a new assertion — same exemption C5 grants.
+      if (lastClose != null && Math.abs(value - lastClose) <= 0.011) continue;
+      found.push({ value, snippet: slice.split('\n')[0].trim() });
+    }
+  }
+  return found;
+}
+
+function runC7SelfTest() {
+  let failed = 0;
+  for (const [name, body, key, lastClose, expectHit] of C7_FIXTURES) {
+    const spec = C7_US_INDICES.find((s) => s.key === key);
+    const hits = findAssertedUsCloses(body, spec, lastClose);
+    const got = hits.length > 0;
+    if (got !== expectHit) {
+      failed += 1;
+      console.error(`  FAIL ${name}: expected ${expectHit ? 'a hit' : 'no hit'}, got ${JSON.stringify(hits)}`);
+    }
+  }
+  if (failed) {
+    console.error(`${failed}/${C7_FIXTURES.length} C7 fixture(s) failed.`);
+    process.exit(1);
+  }
+  console.log(`OK — ${C7_FIXTURES.length} C7 fixtures passed.`);
+}
+
+function checkUndeclaredUsCloseAssertions(windows, domain, errors, warnings) {
+  if (domain !== C7_OWNER_DOMAIN) return;
+  const dated = windows
+    .filter((w) => w.status !== 'example' && w.window_start)
+    .sort((a, b) => String(a.window_start).localeCompare(String(b.window_start)));
+
+  const lastClose = {};
+  for (const win of dated) {
+    for (const spec of C7_US_INDICES) {
+      const declared = win.settles && win.settles[spec.key];
+      if (declared && declared.close != null) {
+        lastClose[spec.key] = declared.close;   // declared → C1/C6's job, not C7's
+        continue;
+      }
+      if (declared) continue;                   // declared but closeless → C1 reports it
+      if (String(win.window_start).slice(0, 10) < C7_EFFECTIVE_FROM) continue;
+      const hits = findAssertedUsCloses(win.body, spec, lastClose[spec.key] ?? null);
+      if (!hits.length) continue;
+      const day = String(win.window_start).slice(0, 10);
+      const hard = day >= C7_HARD_FAIL_FROM;
+      const note = hard ? `[hard fail since ${C7_HARD_FAIL_FROM}]` : `[warn · hard fail from ${C7_HARD_FAIL_FROM}]`;
+      (hard ? errors : warnings).push(
+        `${domain}/${win.rel}: C7 — asserts a ${spec.key} close (${hits[0].value}) but declares no settles.${spec.key} block, so the source is never checked. An asserted close in PROSE bypasses the host allowlist AND the C6 source_time rule that guard a declared one — declaring is what puts it under the gate. ${note} — "${hits[0].snippet.slice(0, 120)}"`
+      );
+    }
+  }
+}
+
 function validateAll({ exit = false, requireWindowCount = false } = {}) {
+  // The detectors verify THEMSELVES before they are trusted to verify content.
+  // These were CLI-only subcommands, which made running them opt-in — the same
+  // defect C7 exists to close, one level up: a self-test nobody is obliged to run
+  // is a self-test that stops being run. Cheap (pure string matching, no I/O), so
+  // there is no reason for it to be optional. Both exit non-zero on failure.
+  runC5SelfTest();
+  runC7SelfTest();
   const errors = [];
   const warnings = [];
   for (const domain of listDomains()) {
@@ -648,6 +832,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
     }
     checkSettles(windows, domain, errors, warnings);
     checkUndeclaredCloseAssertions(windows, domain, errors, warnings);
+    checkUndeclaredUsCloseAssertions(windows, domain, errors, warnings);
   }
   if (warnings.length) {
     console.log(`${warnings.length} warning(s):`);
