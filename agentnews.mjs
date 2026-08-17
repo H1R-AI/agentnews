@@ -470,7 +470,16 @@ function checkSettleProvenance(win, index, s, errors, warnings) {
     return;
   }
   if (!rule) {
-    warnings.push(`${win.rel}: settles.${index} has no host allowlist for this index — provenance only partly checked; add an entry to SETTLE_SOURCES`);
+    // KNOWN QUIET PATH (Vera, 2026-08-17). This RETURNS, so everything below it —
+    // including the C6 source_time check — is silently skipped for any index with
+    // no SETTLE_SOURCES entry. Coverage is therefore defined by a list someone has
+    // to remember to extend: opt-in wearing a config file.
+    // WHEN IT STARTS BITING: the first time we publish an index nobody added here.
+    // Every index we currently publish has an entry, so it does not bite today.
+    // Fix when it does: warn but FALL THROUGH to the timestamp checks that do not
+    // depend on the host allowlist — a missing allowlist should not disable the
+    // checks it has nothing to do with.
+    warnings.push(`${win.rel}: settles.${index} has no host allowlist for this index — provenance only partly checked, and the C6 source_time check is SKIPPED for this index; add an entry to SETTLE_SOURCES`);
     return;
   }
   if (!hostMatches(host, rule.hosts)) {
