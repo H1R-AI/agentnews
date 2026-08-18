@@ -211,6 +211,35 @@ const C7_FIXTURES = [
     'Reddit closed higher after S&P Dow Jones Indices said it would join the index.', 'SP500', null, false],
 ];
 
+// parseSettles fixtures. A SILENT parser failure hid four ghost UST blocks for a
+// week (2026-08-11 → 08-17); nothing but a fixture makes a parser loud forever.
+// Declared above the entry point deliberately — these are `const`, and defining
+// them below the CLI switch dies in the temporal dead zone at runtime while
+// node --check still passes.
+const SETTLES_FIXTURES = [
+  ['block form parses', '---\nsettles:\n  SP500:\n    close: 7745.06\n    prev_close: 7785.76\n---\n', 'SP500', 7745.06, 0],
+  // The exact shape of the four ghosts.
+  ['inline-flow form parses', '---\nsettles:\n  UST2Y: {close: 4.17, prev_close: 4.15, close_label: close}\n---\n', 'UST2Y', 4.17, 0],
+  ['malformed line is reported, not swallowed', '---\nsettles:\n  UST2Y: [close 4.19]\n---\n', null, null, 1],
+  // A comma inside a quoted URL must not shear the value in half.
+  ['quoted comma survives', '---\nsettles:\n  KOSPI: {close: 6977.94, source: "https://x.co/a,b?c=1"}\n---\n', 'KOSPI', 6977.94, 0],
+];
+
+function runSettlesSelfTest() {
+  let failed = 0;
+  for (const [name, raw, key, close, nUnparsed] of SETTLES_FIXTURES) {
+    const out = parseSettles(raw) || {};
+    const bad = (out.__unparsed || []).length;
+    const gotClose = key ? (out[key] || {}).close : null;
+    if (bad !== nUnparsed || (key && gotClose !== close)) {
+      failed += 1;
+      console.error(`  FAIL ${name}: unparsed=${bad} (want ${nUnparsed}), ${key || 'n/a'}.close=${gotClose} (want ${close})`);
+    }
+  }
+  if (failed) { console.error(`${failed}/${SETTLES_FIXTURES.length} settles fixture(s) failed.`); process.exit(1); }
+  console.log(`OK — ${SETTLES_FIXTURES.length} settles-parser fixtures passed.`);
+}
+
 const C5_FIXTURES = [
   // [name, body, lastClose, expectHit]
   ['close assertion — plain', 'KOSPI closed at 6,023.66 / −10.84% (native jong-ga).', 6607.53, true],
@@ -428,9 +457,27 @@ function parseSettles(raw) {
   const start = lines.findIndex((l) => /^settles:\s*$/.test(l));
   if (start === -1) return null;
   const out = {};
+  const unparsed = [];
   let current = null;
   for (const line of lines.slice(start + 1)) {
     if (/^\S/.test(line)) break;                       // dedent ends the block
+    if (!line.trim()) continue;
+    // INLINE-FLOW form: `  UST2Y: {close: 4.17, prev_close: 4.15, source: "..."}`.
+    // This existed in four published windows and parsed to NOTHING — see the
+    // GHOST-BLOCK note below. Handled first because its key line also has a
+    // trailing value, which the block-form regex deliberately forbids.
+    const flow = line.match(/^\s{2}([A-Za-z0-9_.-]+):\s*\{(.*)\}\s*,?\s*$/);
+    if (flow) {
+      current = flow[1];
+      out[current] = {};
+      for (const part of splitTopLevel(flow[2])) {
+        const kv = part.match(/^\s*([a-z_]+)\s*:\s*(.+?)\s*$/);
+        if (!kv) { if (part.trim()) unparsed.push(line); continue; }
+        const v = kv[2].replace(/^["']|["']$/g, '');
+        out[current][kv[1]] = /^-?[\d.]+$/.test(v) ? Number(v) : v;
+      }
+      continue;
+    }
     const idx = line.match(/^\s{2}([A-Za-z0-9_.-]+):\s*$/);
     if (idx) { current = idx[1]; out[current] = {}; continue; }
     // Values may be numeric (close, pct) or text (source, close_label); keep
@@ -439,9 +486,42 @@ function parseSettles(raw) {
     if (kv && current) {
       const raw = kv[2].replace(/^["']|["']$/g, '');
       out[current][kv[1]] = /^-?[\d.]+$/.test(raw) ? Number(raw) : raw;
+      continue;
     }
+    // ── THE ROOT DEFECT THIS CLOSES ──────────────────────────────────────────
+    // Previously any line matching neither shape was SILENTLY SKIPPED, so a
+    // settles: block written in an unsupported form parsed to {} — identical to
+    // declaring nothing at all, with no signal anywhere. Four published finance
+    // 00Z windows (08-11, 08-13, 08-14, 08-17) carried inline-flow UST blocks
+    // that were GHOSTS: C1 never chained them, C6 never checked their
+    // source_time, the host allowlist never ran. The block LOOKED declared and
+    // the gate LOOKED green. Found 2026-08-18 only because Scout hit a BASE
+    // MISMATCH citing a close older than the immediately-prior window — and
+    // refused to bend prev_close to silence it.
+    // Silence on unrecognised input is what let this hide, so it is now LOUD:
+    // a future format we do not handle becomes an error, not a ghost.
+    unparsed.push(line);
+  }
+  if (unparsed.length) {
+    Object.defineProperty(out, '__unparsed', { value: unparsed, enumerable: false });
   }
   return out;
+}
+
+// Split an inline-flow body on top-level commas only — a quoted URL may contain
+// commas, and splitting naively would shear a source in half and then report the
+// fragment as malformed.
+function splitTopLevel(s) {
+  const parts = [];
+  let buf = '', q = null;
+  for (const ch of s) {
+    if (q) { buf += ch; if (ch === q) q = null; continue; }
+    if (ch === '"' || ch === "'") { q = ch; buf += ch; continue; }
+    if (ch === ',') { parts.push(buf); buf = ''; continue; }
+    buf += ch;
+  }
+  if (buf.trim()) parts.push(buf);
+  return parts;
 }
 
 // --- C4: settle provenance ---------------------------------------------------
@@ -542,6 +622,16 @@ function checkSettles(windows, domain, errors, warnings) {
     .sort((a, b) => String(a.window_start).localeCompare(String(b.window_start)));
   const declared = dated.filter((w) => w.settles && Object.keys(w.settles).length);
 
+  // A settles: block whose lines the parser did not recognise used to vanish
+  // silently — see the GHOST-BLOCK note in parseSettles. A ghost parses to {},
+  // so it is not even in `declared`; it must be caught against `dated`.
+  for (const w of dated) {
+    const bad = w.settles && w.settles.__unparsed;
+    if (bad && bad.length) {
+      errors.push(`${w.rel}: settles: block has ${bad.length} UNRECOGNISED line(s) — these were silently ignored, so anything declared on them is NOT under any check (no C1 chain, no C6 source_time, no host allowlist). A block that does not parse is indistinguishable from no block at all. First: ${bad[0].trim().slice(0, 90)}`);
+    }
+  }
+
   if (dated.length && !declared.length) {
     warnings.push(`${domain}: settle-continuity CHECK NOT RUN — no window declares a settles: block (add one so C1 can compare data to data)`);
     return;
@@ -582,8 +672,28 @@ function checkSettles(windows, domain, errors, warnings) {
         warnings.push(`${win.rel}: settles.${index} has no earlier published close to compare — C1 not applicable (first window for this index)`);
         continue;
       }
+      // A mismatch against a NON-ADJACENT prior is a GAP artifact, not a data
+      // error. If a same-hour sibling window sits between the two declarations
+      // and did not declare this index, the intervening session's close was
+      // never published, so C1 is comparing across a hole it cannot see into.
+      // 2026-08-18: 08/13/00 declared prev_close 4.22 (the true 08/12 settle,
+      // confirmed against the CMT primary) and C1 chained it back to 08/11/00's
+      // 4.25 because 08/12/00 declared nothing — reporting a BASE MISMATCH whose
+      // only "fix" was writing a FALSE prev_close to silence the gate. Scout hit
+      // exactly that and refused to bend the number, which is the correct call
+      // and the reason this branch exists: a check that can only be satisfied by
+      // falsifying data is worse than no check.
+      const hour = String(win.window_start).slice(11, 13);
+      const skipped = dated.filter((w) =>
+        String(w.window_start).slice(11, 13) === hour &&
+        String(w.window_start) > String(prior.win.window_start) &&
+        String(w.window_start) < String(win.window_start));
       if (Math.abs(prior.close - s.prev_close) > 0.011) {
-        errors.push(`${win.rel}: settles.${index} BASE MISMATCH — prev_close ${s.prev_close} but ${prior.win.rel} published close ${prior.close}. One of the two is wrong; resolve against the native close-labelled source before publishing.`);
+        if (skipped.length) {
+          warnings.push(`${win.rel}: settles.${index} continuity UNVERIFIABLE across a gap — prev_close ${s.prev_close} vs ${prior.win.rel}'s close ${prior.close}, but ${skipped.length} intervening ${hour}Z window(s) (${skipped.map((w) => w.rel).join(', ')}) declared no ${index}, so the sessions between were never published. NOT a mismatch — do NOT change prev_close to silence this; declare the missing window(s) instead.`);
+        } else {
+          errors.push(`${win.rel}: settles.${index} BASE MISMATCH — prev_close ${s.prev_close} but ${prior.win.rel} published close ${prior.close}. One of the two is wrong; resolve against the native close-labelled source before publishing.`);
+        }
       }
     }
   }
@@ -802,6 +912,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
   // defect C7 exists to close, one level up: a self-test nobody is obliged to run
   // is a self-test that stops being run. Cheap (pure string matching, no I/O), so
   // there is no reason for it to be optional. Both exit non-zero on failure.
+  runSettlesSelfTest();
   runC5SelfTest();
   runC7SelfTest();
   const errors = [];
