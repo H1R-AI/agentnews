@@ -76,10 +76,82 @@ const SETTLE_CLOSE_UTC = [
   { match: /^NIKKEI/,                   utc: '06:30', tz: 'TSE 15:30 JST (Itayose)' },
   { match: /^TAIEX/,                    utc: '05:30', tz: 'TWSE 13:30 CST' },
   { match: /^(HSI|HANGSENG)/,           utc: '08:00', tz: 'HKEX 16:00 HKT' },
-  { match: /^(SPX|SP500|NASDAQ|NDX|DOW|DJIA)/, utc: '20:00', tz: 'US cash 16:00 ET' },
-  { match: /^(UST|TREASURY|CMT)/,       utc: '19:30', tz: 'CMT ~15:30 ET' },
+  // US rows carry EASTERN LOCAL time, not a fixed UTC offset — see closeUtcFor().
+  // A hardcoded '20:00' is only correct under EDT. On 2026-11-01 the US falls back to
+  // EST and 16:00 ET becomes 21:00Z, so a fixed 20:00 would declare a 20:15Z source
+  // "post-close" for a close that had not happened yet — a SIXTY-MINUTE hole in exactly
+  // the place the TSE bug above put a thirty-minute one. Same defect, same table, found
+  // by asking of every remaining row: what makes this number true, and when does it stop?
+  { match: /^(SPX|SP500|NASDAQ|NDX|DOW|DJIA)/, et: '16:00', tz: 'US cash 16:00 ET' },
+  { match: /^(UST|TREASURY|CMT)/,       et: '15:30', tz: 'CMT ~15:30 ET' },
 ];
 const C6_HARD_FAIL_FROM = '2026-08-21';   // adoption grace: warn first, then hard-fail
+
+// ── Close time for an index ON A GIVEN DATE. ─────────────────────────────────────────
+// Asian exchanges here do not observe DST, so their rows stay fixed UTC. US rows are
+// declared in Eastern LOCAL time and converted per-date, because the UTC offset of the
+// US close is not a constant: EDT is UTC-4, EST is UTC-5.
+// US DST runs from the 2nd Sunday in March to the 1st Sunday in November. The switch
+// happens at 02:00 local, and no settle occurs at 02:00, so a date-level test is exact
+// for our purposes.
+function usEasternIsDst(dateStr) {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  if (m < 3 || m > 11) return false;
+  if (m > 3 && m < 11) return true;
+  const firstOfMonth = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();      // 0 = Sunday
+  if (m === 3) {
+    const secondSunday = 1 + ((7 - firstOfMonth) % 7) + 7;
+    return d >= secondSunday;
+  }
+  const firstSunday = 1 + ((7 - firstOfMonth) % 7);
+  return d < firstSunday;
+}
+
+function closeUtcFor(index, dateStr) {
+  const key = index.toUpperCase().replace(/[^A-Z0-9]/g, '');
+  const rule = SETTLE_CLOSE_UTC.find((r) => r.match.test(key));
+  if (!rule) return null;
+  if (rule.utc) return { utc: rule.utc, tz: rule.tz };
+  const [h, min] = rule.et.split(':').map(Number);
+  const offset = usEasternIsDst(dateStr) ? 4 : 5;                        // EDT : EST
+  const utcH = String(h + offset).padStart(2, '0');
+  return { utc: `${utcH}:${String(min).padStart(2, '0')}`, tz: `${rule.tz} (${offset === 4 ? 'EDT' : 'EST'})` };
+}
+
+// Fixtures for closeUtcFor — the DST boundary is the whole point, so both sides of both
+// 2026 transitions are pinned. Verified independently: US DST 2026 runs 03-08 -> 11-01.
+const C6_CLOSETIME_FIXTURES = [
+  ['SP500 mid-summer (EDT)',        'SP500',  '2026-08-20', '20:00'],
+  ['SP500 day before fall-back',    'SP500',  '2026-10-31', '20:00'],
+  ['SP500 ON the fall-back Sunday', 'SP500',  '2026-11-01', '21:00'],
+  ['SP500 after fall-back (EST)',   'SP500',  '2026-11-02', '21:00'],
+  ['SP500 day before spring-fwd',   'SP500',  '2026-03-07', '21:00'],
+  ['SP500 ON spring-forward',       'SP500',  '2026-03-08', '20:00'],
+  ['NASDAQ deep winter (EST)',      'NASDAQ', '2026-01-15', '21:00'],
+  ['UST CMT summer (EDT)',          'UST2Y',  '2026-08-20', '19:30'],
+  ['UST CMT winter (EST)',          'UST2Y',  '2026-12-15', '20:30'],
+  ['KOSPI does not observe DST',    'KOSPI',  '2026-12-15', '06:30'],
+  ['NIKKEI does not observe DST',   'NIKKEI', '2026-12-15', '06:30'],
+  ['unconfigured index -> no rule', 'FTSE100','2026-08-20', null],
+];
+
+function runC6CloseTimeSelfTest() {
+  let failed = 0;
+  for (const [name, index, date, expected] of C6_CLOSETIME_FIXTURES) {
+    const got = closeUtcFor(index, date);
+    const gotUtc = got ? got.utc : null;
+    if (gotUtc !== expected) {
+      failed += 1;
+      console.error(`  FAIL ${name}: closeUtcFor(${index}, ${date}) = ${gotUtc}, expected ${expected}`);
+    }
+  }
+  if (failed) {
+    console.error(`${failed}/${C6_CLOSETIME_FIXTURES.length} C6 close-time fixture(s) failed.`);
+    process.exit(1);
+  }
+  console.log(`OK — ${C6_CLOSETIME_FIXTURES.length} C6 close-time fixtures passed.`);
+}
+
 
 const SETTLE_SOURCES = [
   { match: /^(KOSPI|KOSDAQ)/, hosts: ['krx.co.kr','yna.co.kr','sedaily.com','mt.co.kr','edaily.co.kr','hankyung.com','mk.co.kr','fnnews.com','etoday.co.kr','asiae.co.kr'], tokens: ['마감','종가'] },
@@ -589,7 +661,8 @@ function checkSettleProvenance(win, index, s, errors, warnings) {
   // contradiction is mechanical and needs no judgement. Adoption is warn-then-hard-fail so the
   // existing archive does not fail en masse — but a DECLARED source_time that predates the close is
   // an ERROR immediately, because that is a genuine contradiction rather than a missing field.
-  const closeRule = SETTLE_CLOSE_UTC.find((r) => r.match.test(index.toUpperCase().replace(/[^A-Z0-9]/g, '')));
+  const winDayForRule = win.rel.slice(0, 10).replace(/\//g, '-');
+  const closeRule = closeUtcFor(index, winDayForRule);
   if (!s.source_time) {
     const hard = win.rel.slice(0, 10).replace(/\//g, '-') >= C6_HARD_FAIL_FROM;
     const msg = `${win.rel}: settles.${index} has no source_time — declare when the SOURCE was published (ISO, e.g. 2026-08-14T15:42+09:00). Without it, an intraday article and a close wrap are indistinguishable, which is how a 13:05 piece was cited for a 마감 close on two consecutive days. ${hard ? `[hard fail since ${C6_HARD_FAIL_FROM}]` : `[warn · hard fail from ${C6_HARD_FAIL_FROM}]`}`;
@@ -607,6 +680,12 @@ function checkSettleProvenance(win, index, s, errors, warnings) {
         errors.push(`${win.rel}: settles.${index}.source_time ${s.source_time} PREDATES the close (${closeRule.utc}Z, ${closeRule.tz}) — a source published before the close is not reporting the close, whatever its label says. Cite the post-close wrap, not the intraday piece.`);
       }
     }
+  } else {
+    // s.source_time exists but no SETTLE_CLOSE_UTC row matches this index, so the
+    // predates-the-close test CANNOT RUN. It used to fall through in silence, which is
+    // the worst outcome: the window shows a declared source_time and a clean validator,
+    // and nothing anywhere says the timestamp was never compared to anything. Say it.
+    warnings.push(`${win.rel}: settles.${index}.source_time NOT CHECKED against a close time — no SETTLE_CLOSE_UTC rule matches "${index}", so an intraday stamp cannot be distinguished from a post-close one for this index. Add a row to SETTLE_CLOSE_UTC (an unconfigured index is unguarded, not exempt).`);
   }
 
   // Not a check, a prompt at the moment of use: the continuous feed is a derived
@@ -915,14 +994,27 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
   runSettlesSelfTest();
   runC5SelfTest();
   runC7SelfTest();
+  runC6CloseTimeSelfTest();
   const errors = [];
   const warnings = [];
-  for (const domain of listDomains()) {
+  // A pass must state its SCOPE. With no domain.yml anywhere, listDomains() returns [], the loop
+  // below never runs, its own "no windows found" check never runs either, and this function prints
+  // "OK — agentnews content validation passed." over ZERO windows — identical to a clean corpus.
+  // That is not hypothetical: on 2026-08-20 I built a sandbox without domain.yml and read a green
+  // pass over an empty tree as evidence my fix had not fired. The corpus comes from process.cwd(),
+  // so running from the wrong directory produces exactly this. Refuse to pass over nothing.
+  const domains = listDomains();
+  if (domains.length === 0) {
+    errors.push(`no domains found under ${contentRoot} (a domain needs a domain.yml) — refusing to report a pass over an empty corpus; check the working directory`);
+  }
+  let scannedWindows = 0;
+  for (const domain of domains) {
     const dir = path.join(contentRoot, domain);
     if (!fs.existsSync(path.join(dir, 'domain.yml'))) errors.push(`${domain}: missing domain.yml`);
     if (!fs.existsSync(path.join(dir, 'frame.md'))) errors.push(`${domain}: missing frame.md`);
     const config = readDomainConfig(path.join(dir, 'domain.yml'));
     const windows = listWindows(domain);
+    scannedWindows += windows.length;
     const publishableWindows = windows.filter((win) => win.status !== 'example');
     const requiredWindows = Number(config.required_publishable_windows || 4);
     if (windows.length === 0) errors.push(`${domain}: no windows found`);
@@ -981,7 +1073,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
     for (const error of errors) console.error(`  - ${error}`);
     if (exit) process.exit(1);
   } else {
-    console.log('OK — agentnews content validation passed.');
+    console.log(`OK — agentnews content validation passed (${domains.length} domain(s), ${scannedWindows} window(s) scanned, ${warnings.length} warning(s)).`);
   }
   return { errors, warnings };
 }
