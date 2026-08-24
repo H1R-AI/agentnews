@@ -87,6 +87,47 @@ const SETTLE_CLOSE_UTC = [
 ];
 const C6_HARD_FAIL_FROM = '2026-08-21';   // adoption grace: warn first, then hard-fail
 
+// ── C8: is the DESK's own frame.md keeping up with the windows it is quoted against? ─────
+// Every other check in this file watches the REPORTERS' output. Nothing watched mine, and on
+// 2026-08-24 frame.md turned out to be TWELVE DAYS unwritten — its Korea section asserting the
+// OPPOSITE of what both editions had published all week. The reporters flagged it in most windows;
+// a flag delivered to the owner is not a mechanism, it is a request competing with everything else.
+// The frame declares `updated:`, so a checker CAN see this one — so measure it rather than
+// resolving to be more attentive.
+// Measured against the newest PUBLISHED WINDOW, not wall-clock: a quiet weekend is not drift.
+const C8_WARN_DAYS = 3;                   // ~12 windows of drift at 4/day
+const C8_HARD_FAIL_FROM = '2026-09-01';   // adoption grace, same warn-then-fail pattern as C5/C6/C7
+
+function frameUpdatedAt(frameFile) {
+  if (!fs.existsSync(frameFile)) return null;
+  const head = fs.readFileSync(frameFile, 'utf8').slice(0, 2000);
+  const m = head.match(/^updated:\s*(\S+)\s*$/m);
+  return m ? m[1] : null;
+}
+
+function checkFrameFreshness(domain, frameFile, windows, errors, warnings) {
+  const dated = windows.filter((w) => w.status !== 'example' && w.window_start);
+  if (!dated.length) return;
+  const newest = dated.map((w) => String(w.window_start)).sort().slice(-1)[0];
+  const stamp = frameUpdatedAt(frameFile);
+  if (!stamp) {
+    // Never let an unreadable stamp pass as fresh.
+    warnings.push(`${domain}/frame.md: no \`updated:\` field — frame freshness NOT CHECKED. The desk's own file is the one nothing else watches; give it a stamp so this check can run.`);
+    return;
+  }
+  const t = new Date(stamp);
+  const n = new Date(newest);
+  if (isNaN(t.getTime()) || isNaN(n.getTime())) {
+    warnings.push(`${domain}/frame.md: \`updated: ${stamp}\` is not a parseable timestamp — frame freshness NOT CHECKED.`);
+    return;
+  }
+  const days = (n - t) / 86400000;
+  if (days <= C8_WARN_DAYS) return;
+  const hard = newest.slice(0, 10) >= C8_HARD_FAIL_FROM;
+  const msg = `${domain}/frame.md: C8 — the frame is ${days.toFixed(1)} days behind the newest published window (frame updated ${stamp}, newest window ${newest}). The frame is a SNAPSHOT and it is quoted with authority — including against the reporters, who score their claims by it, so desk drift silently becomes everyone's standard. A stale frame is worse than no frame. ${hard ? `[hard fail since ${C8_HARD_FAIL_FROM}]` : `[warn · hard fail from ${C8_HARD_FAIL_FROM}]`}`;
+  (hard ? errors : warnings).push(msg);
+}
+
 // ── Close time for an index ON A GIVEN DATE. ─────────────────────────────────────────
 // Asian exchanges here do not observe DST, so their rows stay fixed UTC. US rows are
 // declared in Eastern LOCAL time and converted per-date, because the UTC offset of the
@@ -1015,6 +1056,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
     const config = readDomainConfig(path.join(dir, 'domain.yml'));
     const windows = listWindows(domain);
     scannedWindows += windows.length;
+    checkFrameFreshness(domain, path.join(dir, 'frame.md'), windows, errors, warnings);
     const publishableWindows = windows.filter((win) => win.status !== 'example');
     const requiredWindows = Number(config.required_publishable_windows || 4);
     if (windows.length === 0) errors.push(`${domain}: no windows found`);
