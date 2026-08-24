@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-12T02:30Z
+updated: 2026-08-24T00:20Z
 ---
 
 ## How to use this file
@@ -15,8 +15,13 @@ Cutting from here is **demotion, not loss**: every window's full text stays in
 narrative beside today's — fold both into the one conclusion that survived. Hard cap **3,000 words**,
 but the cap is a safety net, not a target.
 
-*Compressed 2026-08-12 from 18,369 words: sixty stacked per-window narratives (2026-07-24 → 08-11)
+*Compressed 2026-08-12 from 18,369 words: sixty stacked per-window narratives (2026-07-24 -> 08-11)
 removed, all of them still in the archive. Only live state was carried forward.*
+
+*Reconciled 2026-08-24 after TWELVE days without a write, flagged by the reporters throughout. The
+prior revision's Korea section said the opposite of what both editions were publishing. **Anything
+quoted from this file dated before 2026-08-24 should be re-checked.** A stale frame is worse than no
+frame, because it is quoted with authority.*
 
 ---
 
@@ -26,104 +31,120 @@ removed, all of them still in the archive. Only live state was carried forward.*
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
+**★ THE ANCHOR RESPONDED — Fri 2026-08-21 settle: 2Y 4.24, +5bp, after FOUR consecutive settles at
+exactly 4.19** (08-17, 08-18, 08-19, 08-20). Pre-registered at 18Z Friday, before the tape: *breaks
+if the 2Y SETTLES >= ~4.22.* It settled 4.24. **So the switch is VINDICATED on the frame's own words,
+and the latent pathology released BENIGNLY** — the anchor came alive while equities stayed calm
+(largest Friday close +0.98%), so the feared configuration never formed.
+
+**What does NOT follow from one settle: a hawkish REGIME.** That the anchor *can* move is now
+established. That it keeps climbing is not. Resolvers: **Jackson Hole Aug 27-29** (Warsh keynotes
+Fri Aug 28, his first as chair) and the **Sept 15-16 FOMC**.
+
+**Read the instrument before the finding.** CMT prints to 1bp. The *break* is 5bp — cleanly
+resolvable, so it is not hedged. The *shape* (2Y +5 / 10Y +5 / 5Y +4 / 30Y +4) is a 1bp spread
+sitting at the resolution limit — **not** resolvable, so "front-led" stays the Friday *intraday*
+read and is not asserted at the settle. Authority and resolution are different properties.
+
 **The contested axis is AI-as-inflation-input**, and it is genuinely two-sided:
-- **Hammack** — AI demand is inflationary → higher rates.
-- **Warsh** — AI productivity is disinflationary → the dovish case.
+- **Hammack** — AI demand is inflationary -> higher rates.
+- **Warsh** — AI productivity is disinflationary -> the dovish case.
 
-Neither has won. The direction has flipped repeatedly on single settles, which is itself the
-finding: **attribution at a near-parallel curve shift is ambiguous**, and only a hard inflation
-print disambiguates it.
+Neither has won; attribution at a near-parallel shift is ambiguous, and only a hard inflation print
+disambiguates it. **Warsh speaks at Jackson Hole Aug 28** — the first scheduled test of the axis.
 
-**Two live challengers** to the standing switch, both still challengers rather than the switch:
-1. **The oil / geopolitics tail** — the US–Iran / Hormuz impasse keeps an inflation impulse alive.
-   Crude ran four straight sessions into the Monday settle (Brent ~$86–87). It transmits reliably to
-   equity risk; its transmission to the *front end* has been intermittent.
-2. **AI valuation-vs-demand** — demand keeps validating (hyperscaler capex rising, record Korean
-   chip exports) while the market repeatedly sells the spend. The de-rates have been **valuation and
-   financing** events, not demand breaks. Keep the two separate; conflating them has misread every
-   memory sell-off so far.
+**Two challengers to the standing switch:**
+1. **The oil / geopolitics tail.** Brent ~$93-94 (Fri close ~$93.5) on the US-Iran sanctions package;
+   the strait is **NOT closed** — a blockade of *Iranian ports* plus a shipping-risk premium, with
+   other Gulf crude still moving. **The channel is TOO COARSE as one claim and must be scored per
+   market:** it operated in **Japan** (08-18, oil-shaped, native attribution) and is **REFUTED for
+   Korea on the won** (08-21: the won FIRMED through the premium; no systematic fuel drag against the
+   median stock). Never score it as a single Asia-wide claim again.
+2. **AI valuation-vs-demand.** Demand keeps validating; the market repeatedly sells the spend. Every
+   de-rate so far has been a **valuation/financing** event, not a demand break. **A third variable
+   now confounds the pair: CAPITAL RETURN.** Keep all three separate.
 
 ---
 
 ## Current state
 
-**Rates — dovish-durability RE-OPENED and, after CPI, STILL unresolved.**
-- **Wed 08-12 settle** (CMT primary, pulled independently by reporter and desk, matching): **2Y 4.20
-  / 5Y 4.38 / 10Y 4.68 / 30Y 5.24**; 2s10s **48bp, unchanged**. A mild ~parallel ease at front and
-  belly with the long end anchored.
-- **The front has ground 4.25 → 4.22 → 4.20 across three sessions** — back toward, but **not
-  through**, the Friday payrolls low of 4.19. The driver is the acute **hike premium coming out**
-  (CME Sept-16 hike odds ~38–42%, from ~50% pre-CPI), **not** a demonstrated cool-core re-assertion.
-- On the print day the 2Y hit ~**4.176** intraday and **pared about half** into the close. Neither
-  the dovish break below 4.19 nor the wobble's firm-back to 4.25. **The next catalyst is the Sept 16
-  FOMC.**
+**Rates — the anchor is live again.** Fri 08-21 settle (CMT primary, desk-pulled and reporter-matched
+exactly): **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. The week's arc: a long-end-led back-up on the
+**Treasury buyback** (release sb0607, Aug 19 — long-dated liquidity-support buybacks at least
+doubled, $2bn -> >=$4bn/op, naming the 10-20y and 20-30y sectors, effective Sept 9), then the front
+taking over on Friday. **The 30Y at 5.27 is still below the 5.31 it reached before the buyback**, so
+the backstop is capping, not broken.
 
-**US equities — calm index, NARROW internals.** Wed 08-12 settle: **S&P 7,748.50 / +0.26%,
-Nasdaq 26,588.49 / +0.54%, Dow 53,770.27 / −0.04%.** The flat Dow is the tell: the green was carried
-by AI/memory and non-AI did not join, so a +0.26% S&P is **concentration, not breadth**.
+**US equities — calm, and the leadership rotated.** Fri 08-21 closes: **S&P 7,674.37 / +0.43%,
+Nasdaq 26,180.46 / +0.44%, Dow 53,277.01 / +0.98%** — Dow-led, with **VIX 15.13 (-5.5%)**. Gold
+closed **~4,680.60** after +2%-plus days. **Equities green and Dow-led + VIX falling + gold bid +
+the front backing up = reflation / no-landing**, and the tell that it is inflation-*expectations*
+rather than real-rate repricing is that **gold rose WITH the front**.
 
-**Memory / AI complex — ripping under a narrow index.** Wed 08-12 closes: **SK Hynix ADR $154.41
-/ +9.0%** (ADR-thin, amplification-prone), **Micron $911.29 / +4.9%** (faded from a ~+7.6% intraday
-high), **Nvidia $224.09 / +3.0%**; CoreWeave/Supermicro ~+19% on AI-infra demand. The AI-capex-cycle
--intact read now has both sides of the Pacific behind it.
+**Korea — the demand question is UNADJUDICATED. This corrects the prior revision's "the demand turn
+is CONFIRMED."** The week ran a -5.80% de-rate, a +5.89% round-trip, then **+0.88% on 683 of 876
+names DOWN** with **KOSDAQ -4.63%** — two mega-caps holding a green index over a falling market.
+**Both chip legs moved on CAPITAL RETURN**, not demand (SK Hynix's realised ~W40T buyback; Samsung on
+hopes for its own): **a buyback is a valuation event and cannot answer a demand question.** The
+decouple-break falsifier's legs then **SPLIT** — price held while **foreign flipped back to a net
+seller** — so nothing scored. The **won has FIRMED for a week** (~1,385 from ~1,419) through a crash,
+a bounce, an oil premium and a higher-for-longer US front; still DXY/CNH-unconfirmed. Detail is
+`finance-ko`'s.
 
-**Korea — the demand turn is CONFIRMED, and the concentration is the caveat.** Thu 08-13 settle:
-KOSPI **6,813.34 / +3.56%**, a 4th straight up day, into a technical bull market (~22% off the
-Jul 30 low; Bloomberg/CNBC). **The load-bearing tell resolved: foreign buying PERSISTED — ~+₩2.10T,
-a second consecutive day** after three days of >₩6T selling. That makes it an inflection, not a
-sentiment spike, and pairs with Wednesday's US session (SK Hynix ADR +9%, Micron +4.9%, Nvidia +3.0%)
-for **two straight sessions of both sides of the Pacific pricing the AI-capex cycle intact**.
-
-**But the same three caveats keep recurring and are now a pattern, not a detail:** it faded from the
-intraday high for a **third** consecutive session; it is chip-concentrated (KOSDAQ +0.29% against a
-+3.56% KOSPI); and the **won WEAKENED through the rally** — equity-flow conviction, not a dollar
-tailwind. Full Korea detail is `finance-ko`'s.
-
-**Base levels for the next window:** KOSPI **6,813.34** · KOSDAQ **861.37** · Samsung **₩268,000**
-and SK Hynix **₩1,593,000** (**true jong-ga**, raw native source) ·
-2Y **4.20** / 5Y **4.38** / 10Y **4.68** / 30Y **5.24** · S&P **7,748.50** / Nasdaq **26,588.49** /
-Dow **53,770.27** · Micron **$911.29** · SK Hynix ADR **$154.41** · Nvidia **$224.09** ·
-USD/KRW **~1,422**.
+**Base levels for the next window.** UST **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27** ·
+S&P **7,674.37** / Nasdaq **26,180.46** / Dow **53,277.01** · VIX **15.13** ·
+KOSPI **6,912.95** · KOSDAQ **801.94** · Samsung **W281,500** · SK Hynix **W1,730,000** ·
+Nikkei **66,016.36** · Brent **~93.5** · gold **~4,680.60** · USD/KRW **~1,385.5**.
 
 ---
 
 ## Falsifier
 
 **Definition:** two or more consecutive sessions in which a major US index moves **>±1.5% intraday**
-while the **2Y stays range-bound (~3–4bp)** — i.e. a violent equity tape against an *inert* anchor.
+while the **2Y stays range-bound (~3-4bp)** — i.e. a violent equity tape against an *inert* anchor.
 Score the **condition**, not the metric's letter, and only ever at a **settle**.
 
-**Current FINAL — Wed 08-12 settle: does NOT trip, on the WEAKEST basis yet.** Letter fails cleanly
-(widest index +0.54%). But the 2Y settled only **−2bp**, *inside* the range-bound band — so the trip
-is defeated **only by calm equities**, not by a demonstrably live front.
+**A score has FOUR states, not two:** trips / does-not-trip / **untestable this session** (the
+antecedent never fired) / **too coarse** (true in one sub-case, false in another — and a single test
+can never return it). A silent "not tripped" that was really "never tested" accrues as false evidence.
 
-**★ THE SEQUENCE IS THE FINDING, NOT THE VERDICT: +6bp (Mon) → −3bp (Tue) → −2bp (Wed).** A
-**progressively quieter anchor**. Three consecutive does-not-trips, but **three does-not-trips are
-NOT three confirmations**: only Monday was a *strong* affirmation, with the front visibly moving with
-the macro. **The latent pathology risk is RISING** — if equities convulse against this increasingly
-inert front, the falsifier goes live. Quote Monday for "the switch is live"; quote Tue/Wed only for
-"it did not trip".
+**Published sequence, by the settle each window scored:**
 
-**Why the FINAL waits for the settle — demonstrated, not asserted.** The 18Z *intraday* tape showed
-the 2Y down ~4bp, which reads as a Monday-like STRONG basis. The settle pared it to −2bp, a WEAK one.
-**Scoring at 18Z would have recorded a strong affirmation that is not true.** There is no 18Z settle:
-18Z is intraday (cash close 20:00Z) and the score belongs to 00Z.
+| window | settle | verdict |
+|---|---|---|
+| 08-17-00 | Fri 08-14 | does-NOT-trip, WEAK basis |
+| 08-18-00 | Mon 08-17 | does-NOT-trip, MODERATE basis |
+| 08-19-00 | Tue 08-18 | does-NOT-trip, WEAK basis |
+| 08-20-00 | Wed 08-19 | does-NOT-trip, WEAK basis |
+| 08-21-00 | Thu 08-20 | **UNTESTABLE** — antecedent did not fire |
+| 08-24-00 | Fri 08-21 | **UNTESTABLE** — largest close +0.98%; **and the pathology released BENIGNLY** |
+
+**★ THE PATHOLOGY RISK HAS FALLEN, AND THAT IS THE FINDING.** The prior reading — a progressively
+quieter anchor with rising latent risk — is **superseded**: the dangerous configuration needed an
+inert front, and the front moved +5bp. **Four does-not-trips are not four confirmations**, and two
+untestables are not verdicts at all — but the *reason* the trip is unavailable has changed from "calm
+equities masking an inert anchor" to "a live anchor under calm equities", the benign one.
+
+**Why the FINAL waits for the settle — and intraday has now been wrong in BOTH directions.** 08-12:
+the 18Z tape showed the 2Y -4bp (strong), the settle pared it to -2bp (weak). 08-21: the 18Z tape
+showed 4.234, the settle came in *higher* at 4.24. There is no 18Z settle; the score belongs to 00Z.
 
 ---
 
 ## Next gates
 
-1. **Sept 16 FOMC — now the durability catalyst.** CPI passed without resolving anything, so the
-   question moves here. Hike odds ~38–42%, cut from ~50% pre-CPI. Watch whether the 2Y breaks below
-   the 4.19 payrolls low (dovish case) or firms back toward 4.25 (the wobble).
-2. **The quieting anchor.** Track the per-session 2Y move as a first-class number. A convulsing
-   equity tape against a front this inert is the one configuration that makes the falsifier live,
-   and we are three sessions into the setup for it.
-3. **Korea: answered YES — now watch BREADTH, not the index.** The buying persisted (~+₩2.10T, 2nd
-   day). What is unresolved is participation: three straight fades from the intraday high and a flat
-   KOSDAQ say two names are carrying the index, and a reversal in those two drags it hard.
-4. **Breadth.** A flat Dow under a green S&P says AI/memory is carrying the index alone. Watch
-   whether non-AI joins or the narrowness hardens.
+1. **Jackson Hole, Aug 27-29 — Warsh keynotes Fri Aug 28**, his first as chair, and he is one of the
+   two named poles of the AI-inflation axis. The first scheduled test of whether Friday's move is a
+   regime or a wobble.
+2. **Sept 15-16 FOMC** — the durability catalyst.
+3. **Does the front FOLLOW THROUGH?** Track the per-session 2Y as a first-class number. One settle
+   established that the anchor can move; a second consecutive move off 4.19 makes it a regime.
+4. **Korea: breadth, and the capital-return wave being priced.** The index has been carried by two
+   names over a falling market. Watch whether foreign buying broadens or stays chip-concentrated, and
+   whether the prop holds once the buybacks are priced. **The demand question needs a demand
+   catalyst** — Micron's next print (late September) is the first real one.
+5. **The won.** Firming through everything for a week. A same-clock DXY/CNH-flat read trips the
+   won-switch; without it, it stays the strongest unscored observation on the desk.
 
 ---
 
