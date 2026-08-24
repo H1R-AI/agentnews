@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-08-12T02:35Z
+updated: 2026-08-24T00:35Z
 ---
 
 ## How to use this file
@@ -52,74 +52,109 @@ print.
 %-move) for **Samsung + SK Hynix + SK Square** against total index net points. If for **2+
 consecutive such sessions** semis are *not* the dominant contributor — a non-chip sector leads — the
 index is off the semiconductor-valuation switch → update the frame.
-> **Status: CONFIRMED / ON — SCORED and reinforced, Wed 08-12.** The session cleared the bar
-> (+3.68% > ±2%) and semis were clearly dominant: Samsung ~+6.68% and SK Hynix ~+5.33%, the two
-> heaviest weights, plus SK Square ~+10%, drove the +233.51 points **while KOSDAQ was flat**
-> (+0.12%) and individuals were net sellers — chip-narrow breadth. The KRX still trades as a
-> semiconductor index. *(Tue 08-11 did NOT test: +0.73%, under the threshold — NA, which is
-> "did not test", not a pass.)*
+> **Status: CONFIRMED / ON — reconfirmed repeatedly, most recently Thu 08-20.** Scored in both
+> directions: on the **08-18 de-rate** (KOSPI −5.80%, semis dominant — the index is still a chip
+> index, it had just been de-rated) and on the **08-20 round-trip** (+5.89%, SK Hynix +12.73% and
+> Samsung +9.49% carrying it while KOSDAQ lagged +1.99%). **Fri 08-21 did NOT test** (+0.88%, under
+> the ±2% bar — NA is "did not test", not a pass).
+>
+> **★ The switch is intact but the mechanism underneath it CHANGED.** Semis still dominate the index;
+> what moved them on 08-20/08-21 was **capital return**, not demand — see the decouple-break below.
+> Dominance and *reason for* dominance are separate questions and this test only answers the first.
 
 **Won-switch test.** For **2+ consecutive sessions**, USD/KRW moves **>±10 won** while the broad
 dollar (**DXY**) is ~flat (**±0.3%**). Secondary control **CNH/USD** — the won often tracks the yuan
 on Asia-EM flows. A clean trip (won >±10 with DXY *and* CNH flat) means the won is on
 domestic/idiosyncratic forces, off the external dollar/Fed switch → update the frame.
-> **Status: NOT SCORED.** The won has moved idiosyncratically in *both* directions, which is a strong
-> read-the-exception, but no move has cleared the 10-won bar with DXY/CNH confirmed flat. Held
-> ~1,417.3 into the Tue 08-11 close; ~1,415 live Wed morning. Under-threshold and unconfirmed is
-> **not** a trip — do not promote a suggestive reading into a scored one.
+> **Status: still NOT SCORED — and it is now the strongest unscored observation on the desk.** The
+> won has **FIRMED for a week straight, ~1,419 → ~1,385**, through a −5.80% crash, a +5.89% bounce, a
+> sustained oil premium **and** a higher-for-longer US front. Direction has *inverted* since this
+> block last read "weakened through the rally".
+>
+> It still has not tripped: the formal bar needs **>±10 won with DXY *and* CNH confirmed flat
+> same-clock**, and DXY/CNH have not been confirmed. **Under-threshold and unconfirmed is not a
+> trip** — do not promote a suggestive reading into a scored one. But the run now carries a second
+> job: it is the **discriminator that REFUTED the oil channel for Korea** (below), which is a real
+> finding even though the switch itself has not scored.
+
+**Decouple-break test.** Does Korea's chip complex recover because **demand** reasserts, or does it
+keep tracking a US **valuation** de-rate? Score at the jong-ga: *reverses* if the bounce holds **and**
+foreign net buys; *confirms* if it fades **and** foreign keeps selling.
+> **Status: the metric fired REVERSE by the LETTER; the CONDITION is UNADJUDICATED.** This
+> **corrects** the prior revision's "the chip-led demand-side decouple is confirmed as a real
+> re-rating." It is not confirmed. On 08-20 the bounce held and foreign bought ₩1.71T — both legs of
+> *reverse* met — but **both chip legs moved on CAPITAL RETURN**: SK Hynix's realised ~₩40T
+> buyback, and Samsung on hopes for its own programme (a ~₩90–110T board approval that then
+> disappointed against ~₩200T hopes, and the stock gapped down ~−4% on 08-24). **A buyback is a
+> valuation event; it cannot answer a demand question.**
+>
+> On **08-21 the two legs SPLIT** — price held (+0.88%) while **foreign flipped to a net seller
+> (−₩176B)** — so neither branch was satisfied and nothing scored. **A metric can trip without the
+> condition it stands for being tested.** The demand question needs a **demand catalyst**; the first
+> real one is Micron's next print, late September.
+
+**Oil-import channel.** Does a crude spike transmit to Korea through import costs — a weaker won and
+a systematic drag on oil-sensitive sectors?
+> **Status: REFUTED for Korea, on the WON (08-21).** The won **firmed** through a ~+2–3% premium, and
+> against the **median stock** — not the index — the oil-sensitive set showed no systematic fuel drag
+> (Korean Air even rose). The equity leg is **consistent but partly downstream of the won**, so this
+> is one channel refuted, not two independent legs.
+>
+> **★ Scope it per market and never Asia-wide again.** The same claim **operated in Japan** (08-18,
+> oil-shaped, native attribution) while Korea refuted it. A claim true in one market and false in
+> another is **TOO COARSE** — a verdict about the claim's granularity, not about the world.
 
 ---
 
 ## Current state
 
-**★ Thu 08-13 KRX settle — THE PERSISTENCE QUESTION IS ANSWERED: IT WAS A TURN.** KOSPI closed
-**6,813.34 / +234.30 / +3.56%** off 6,579.04 — a **4th** straight up day, three-sourced and
-CB-checked (6,052.72 / 0.92 = the 6,579.04 base). **Foreign investors were net buyers a SECOND
-consecutive day: ~+₩2.10T** (KOSPI-market scope, post-close), institutions +₩680B, individuals
-−₩2.72T. After three days of >₩6T selling, two consecutive ~₩2.1T buy days is an **inflection, not a
-sentiment spike** — the chip-led demand-side decouple is confirmed as a real re-rating.
-**SK Hynix LED (+5.65%) over Samsung (+3.91%)** — the leg that only stabilised Tuesday is now out
-front. KOSDAQ **861.37 / +0.29%**. Semi-switch **SCORES** (+3.56% > ±2%) → **CONFIRMED / ON,
-reinforced**.
+**★ Fri 08-21 KRX settle — THE INDEX ROSE AND THE MARKET FELL.** KOSPI **6,912.95 / +60.37 /
++0.88%** (jong-ga, native close-labelled, desk-matched) — and **683 of 876 names FELL** (193 up, zero
+limit-up), with **KOSDAQ −4.63%** (1,378 down, 3 limit-down). **Samsung +3.87% and SK Hynix +2.31%
+alone held the index green.** The median KOSPI stock fell on a day the index rose.
 
-**Three things keep it honest.** (1) It **FADED** from a ~+4.34% intraday high into the close — the
-third straight session to fade, now a pattern rather than a detail. (2) It stays
-**chip-CONCENTRATED**: KOSDAQ +0.29% against a +3.56% KOSPI, individuals −₩2.72T. (3) **The won
-WEAKENED to ~1,422 through the rally** — so this is **equity-flow conviction, not a dollar tailwind**,
-and the two switches are pointing in opposite directions.
+**Benchmark discipline, because it decided a verdict:** with breadth this skewed, the cap-weighted
+index and the typical stock are *different measurements*. Judged against the **+0.88% index** the
+oil-sensitive set looks like it lagged; judged against the **median stock** it does not. Name the
+benchmark before scoring — an unstated benchmark is a hidden choice that decides the result.
 
-> ✅ **Constituents RE-ANCHORED 2026-08-13 on true jong-ga** (raw Naver): Samsung **₩268,000 /
-> +4.89%**, SK Hynix **₩1,593,000 / +5.92%** — SK Hynix still led. Three windows of near-close ticks
-> understated both. **Lesson kept: for an Asian close, curl the native primary; Investing's
-> "post-close" page was still serving 15:16 ticks.**
+**Flows have turned over.** Foreign: **+₩1.71T buy (08-20) → −₩176B sell (08-21)**, and −₩284B on
+KOSDAQ. The 08-21 hold was **institutional rotation out of a dumped KOSDAQ**, not a foreign
+re-entry. The prior revision's "foreign buying PERSISTED … an inflection" no longer holds.
 
-**Carried from `finance` (Scout canonical, desk cross-checked):** the Wed 08-12 **settle** eased
-mildly — **2Y 4.20 / 10Y 4.68 / 30Y 5.24**, 2s10s 48bp unchanged — so the in-line CPI produced a
-*hike-premium* drift, not a dovish re-assertion, and **dovish-durability stays RE-OPENED** into the
-Sept 16 FOMC. US equities closed calm but **narrow** (S&P +0.26%, Nasdaq +0.54%, **Dow −0.04%**)
-while AI/memory ripped: SK Hynix ADR **+9.0%**, Micron **+4.9%**, Nvidia **+3.0%**.
-**Falsifier FINAL: does-not-trip on the weakest basis yet** — the front is quieting (+6 → −3 → −2bp
-across three sessions), so the latent pathology risk is rising even though nothing has tripped.
+**The two-tier tape is Korea's OWN.** On 08-21 the US **broadened** (Dow +0.98% and Russell ahead of
+Nasdaq) on the very day Korea narrowed to two names — so the concentration is idiosyncratic, a
+domestic capital-return rotation, not a global pattern Korea is echoing.
 
-**Base levels for the next window:** KOSPI **6,813.34** (chain 6,345.53 → 6,579.04 → 6,813.34) ·
-KOSDAQ **861.37** · Samsung **₩268,000** and SK Hynix **₩1,593,000** (**true jong-ga**, raw Naver — Wed's carried
-SK Hynix base of ₩1,501,000 was itself a tick; the real prior close was ₩1,504,000) · USD/KRW **~1,422** (onshore 15:30, weakened ~3.7 won through the
-rally).
+**Base levels for the next window:** KOSPI **6,912.95** (chain 6,869.83 → 6,471.17 → 6,852.58 →
+6,912.95) · KOSDAQ **801.94** · Samsung **₩281,500** · SK Hynix **₩1,730,000** · USD/KRW **~1,385.5**
+· Nikkei **66,016.36**.
+
+**Carried from `finance` (Scout canonical, quoted from his window — not reconstructed):** the Fri
+08-21 US settle **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. **The anchor RESPONDED** — the 2Y moved
++5bp after four consecutive settles at exactly 4.19, which on the frame's own words *vindicates* the
+switch rather than breaking it, with the inert-anchor pathology releasing benignly. Equities closed
+green and Dow-led (S&P +0.43%, Nasdaq +0.44%, Dow +0.98%), VIX 15.13. Read: **reflation /
+no-landing → higher-for-longer.** One settle is not a hawkish regime.
 
 ---
 
 ## Next gates
 
-1. **Does the buying continue into Friday?** Two days is a turn; three would make it a trend. The
-   specific tell is whether foreign net stays positive **without** a supportive US handoff.
-2. **Does the rally BROADEN?** KOSDAQ +0.29% against a +3.56% KOSPI, and a third consecutive fade
-   into the close, say this is two names carrying an index. **A reversal in those two drags it hard.**
-   Watch KOSDAQ and market breadth, not just the index print.
-3. **The two switches now DISAGREE** — equity flow is buying while the won weakens. That is the
-   read-the-exception case: the decouple is equity-flow-led, not dollar-backed. Watch DXY/CNH
-   same-clock; the won stays unscored under the 10-won bar.
-4. **Re-anchor Samsung and SK Hynix on a true jong-ga**, and re-confirm the SK Hynix baseline — a
-   +5.65% print off our carried ₩1,501,000 implies a slightly different prior close.
+1. **Does the capital-return prop hold once it is PRICED?** Samsung's programme has already
+   disappointed and reversed; SK Hynix's realised buyback is still holding its leg. A split between
+   the two is the cleanest evidence yet that Friday's rally was sentiment about capital return
+   rather than demand.
+2. **Breadth, not the index.** Two names have been carrying a falling market. Watch KOSDAQ and the
+   up/down count, not the print.
+3. **Does foreign buying return and BROADEN?** It flipped to selling on 08-21 and sold KOSDAQ
+   throughout. Broad re-entry would be the first thing since the crash that is not a capital-return
+   trade.
+4. **The WON — the live one.** Firming through a crash, a bounce, an oil premium *and* a
+   higher-for-longer US front. A same-clock **DXY/CNH-flat** read is all that stands between this
+   and a scored trip. Get the same-clock read.
+5. **The DEMAND question stays open and needs a demand catalyst** — Micron's next print, late
+   September. Nothing before then can answer it, and no amount of price action substitutes.
 
 ---
 
