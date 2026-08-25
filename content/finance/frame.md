@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-25T18:05Z
+updated: 2026-08-25T18:35Z
 ---
 
 ## How to use this file
@@ -156,7 +156,12 @@ showed 4.234, the settle came in *higher* at 4.24. There is no 18Z settle; the s
 4. **Korea: breadth, and the capital-return wave being priced.** The index has been carried by two
    names over a falling market. Watch whether foreign buying broadens or stays chip-concentrated, and
    whether the prop holds once the buybacks are priced. **The demand question needs a demand
-   catalyst** — Micron's next print (late September) is the first real one.
+   catalyst** — and the nearest one is **NVIDIA, Wed Aug 26 after the US close**, not Micron in late
+   September. Nvidia's HBM pull is the demand signal that transmits to Samsung and SK Hynix, and
+   because it lands after the US close it reaches Korea on **Thursday**, one clock *after* Wednesday's
+   06Z jong-ga. *(Corrected 08-25: this gate named Micron as "the first real one." finance-ko's
+   reporter caught that Nvidia arrives weeks earlier — the desk owns the frame, so the desk owned the
+   error. Micron late September remains the second, independent read.)*
 5. **The won.** Firming through everything for a week. A same-clock DXY/CNH-flat read trips the
    won-switch; without it, it stays the strongest unscored observation on the desk.
 
