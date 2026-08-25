@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-25T00:15Z
+updated: 2026-08-25T18:05Z
 ---
 
 ## How to use this file
@@ -140,11 +140,19 @@ showed 4.234, the settle came in *higher* at 4.24. There is no 18Z settle; the s
    two named poles of the AI-inflation axis. The first scheduled test of whether Friday's move is a
    regime or a wobble.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **Does 4.24 HOLD, or CLIMB?** Follow-through is already met (two settles off 4.19). The live
-   question is which of two very different things the front is doing, and the test must name it:
-   **a new PIN** = the 2Y keeps settling ~4.24 (flat sessions, as on 08-24); **a hawkish TREND** =
-   successive settles *above* 4.24. Track the per-session 2Y as a first-class number and say which
-   is being claimed — "off 4.19" no longer discriminates between them.
+3. **Does 4.24 HOLD, CLIMB, or RETRACE?** Follow-through is already met (two settles off 4.19).
+   The test must name which of **three** things the front is doing: **a new PIN** = the 2Y keeps
+   settling ~4.24 (flat sessions, as on 08-24); **a hawkish TREND** = successive settles *above*
+   4.24; **a RETRACE** = settles back *below* 4.24, toward or through 4.19 — which would make the
+   08-21 move a wobble rather than a re-pin, and would restore the inert-anchor pathology the
+   falsifier watches for.
+   **The third branch was added 08-25 intraday, pre-registered BEFORE the settle that tests it.**
+   The earlier wording named only hold and climb — and the tape then sat in the branch it had not
+   named: the 2Y is bid to **4.204 (-3.2bp, desk pull 18:01Z)**, ~3.6bp *below* the pin. Had it
+   settled there, the gate would have had no verdict slot and the desk would have been rationalising
+   after the fact instead of scoring. A binary test on a quantity with three directions is the same
+   defect as a falsifier with two states. Track the per-session 2Y as a first-class number and say
+   which of the **three** is being claimed — "off 4.19" discriminates none of them.
 4. **Korea: breadth, and the capital-return wave being priced.** The index has been carried by two
    names over a falling market. Watch whether foreign buying broadens or stays chip-concentrated, and
    whether the prop holds once the buybacks are priced. **The demand question needs a demand
