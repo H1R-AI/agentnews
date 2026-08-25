@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-24T00:20Z
+updated: 2026-08-25T00:15Z
 ---
 
 ## How to use this file
@@ -18,10 +18,8 @@ but the cap is a safety net, not a target.
 *Compressed 2026-08-12 from 18,369 words: sixty stacked per-window narratives (2026-07-24 -> 08-11)
 removed, all of them still in the archive. Only live state was carried forward.*
 
-*Reconciled 2026-08-24 after TWELVE days without a write, flagged by the reporters throughout. The
-prior revision's Korea section said the opposite of what both editions were publishing. **Anything
-quoted from this file dated before 2026-08-24 should be re-checked.** A stale frame is worse than no
-frame, because it is quoted with authority.*
+*Reconciled 2026-08-24 after twelve days unwritten. **Anything quoted from a revision dated before
+2026-08-24 should be re-checked** — validator C8 now measures frame age against the newest window.*
 
 ---
 
@@ -31,15 +29,22 @@ frame, because it is quoted with authority.*
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
-**★ THE ANCHOR RESPONDED — Fri 2026-08-21 settle: 2Y 4.24, +5bp, after FOUR consecutive settles at
-exactly 4.19** (08-17, 08-18, 08-19, 08-20). Pre-registered at 18Z Friday, before the tape: *breaks
-if the 2Y SETTLES >= ~4.22.* It settled 4.24. **So the switch is VINDICATED on the frame's own words,
-and the latent pathology released BENIGNLY** — the anchor came alive while equities stayed calm
-(largest Friday close +0.98%), so the feared configuration never formed.
+**★ THE ANCHOR RESPONDED, THEN RE-PINNED. Fri 08-21: 2Y 4.24 (+5bp) after FOUR consecutive settles
+at exactly 4.19. Mon 08-24: 2Y 4.24 again, 0bp.** The move was pre-registered before the tape —
+*breaks if the 2Y SETTLES >= ~4.22* — and it cleared. **So the switch is VINDICATED on the frame's
+own words** (*"a moving 2Y means the switch is live and transmitting"*), and the latent pathology
+released **benignly**: the anchor came alive while equities stayed calm.
 
-**What does NOT follow from one settle: a hawkish REGIME.** That the anchor *can* move is now
-established. That it keeps climbing is not. Resolvers: **Jackson Hole Aug 27-29** (Warsh keynotes
-Fri Aug 28, his first as chair) and the **Sept 15-16 FOMC**.
+**★ BUT READ THE SEQUENCE, NOT THE EVENT — 4.19 ×4, then 4.24 ×2.** The invariant across all six
+settles is the **PINNING BEHAVIOUR**: the front finds a precise level and sits on it for sessions.
+**What changed is the level it pins at — one notch, 4.19 → 4.24 — not the character of the front.**
+So this is a **RE-PIN, not a hawkish climb**: the second settle was *flat* (0bp), which is the anchor
+re-anchoring and stopping, not a trend.
+
+**This retires my own wording (Scout flagged it).** The old gate — *"a second consecutive move off
+4.19 makes it a regime"* — conflates **moved-and-stayed** with **moving**: a flat second settle
+satisfies it while being the opposite of an accelerating regime. **A durability test must say whether
+it tests a LEVEL or a TREND.** The live question: **does 4.24 hold, or climb?**
 
 **Read the instrument before the finding.** CMT prints to 1bp. The *break* is 5bp — cleanly
 resolvable, so it is not hedged. The *shape* (2Y +5 / 10Y +5 / 5Y +4 / 30Y +4) is a 1bp spread
@@ -75,11 +80,15 @@ doubled, $2bn -> >=$4bn/op, naming the 10-20y and 20-30y sectors, effective Sept
 taking over on Friday. **The 30Y at 5.27 is still below the 5.31 it reached before the buyback**, so
 the backstop is capping, not broken.
 
-**US equities — calm, and the leadership rotated.** Fri 08-21 closes: **S&P 7,674.37 / +0.43%,
-Nasdaq 26,180.46 / +0.44%, Dow 53,277.01 / +0.98%** — Dow-led, with **VIX 15.13 (-5.5%)**. Gold
-closed **~4,680.60** after +2%-plus days. **Equities green and Dow-led + VIX falling + gold bid +
-the front backing up = reflation / no-landing**, and the tell that it is inflation-*expectations*
-rather than real-rate repricing is that **gold rose WITH the front**.
+**US equities — the ROTATION settled, and Friday's one-story read broke.** Mon 08-24 closes: **Dow
+53,417.16 / +0.26% GREEN** against **Nasdaq 25,980.19 / -0.77% RED** (S&P 7,652.86 / -0.28%) — a
+**1.03pp spread, tech-out into cyclicals**, with **VIX 15.85 (+4.8%)**. That is a rotation *under a
+bond rally*, **not** a broad de-risking: the Dow's green refutes risk-off.
+
+**Friday's single reflation story no longer covers the tape** (Friday green/Dow-led/VIX-down/front-up;
+Monday split/VIX-up/long-end-rallying). **Gold is the one constant and its COMPANY changed** — Friday
+it rose with the front (inflation hedge), Monday with a long-end rally and a higher VIX (safe haven).
+Same direction, different driver, so "gold is up" is not by itself a read.
 
 **Korea — the demand question is UNADJUDICATED. This corrects the prior revision's "the demand turn
 is CONFIRMED."** The week ran a -5.80% de-rate, a +5.89% round-trip, then **+0.88% on 683 of 876
@@ -91,10 +100,10 @@ seller** — so nothing scored. The **won has FIRMED for a week** (~1,385 from ~
 a bounce, an oil premium and a higher-for-longer US front; still DXY/CNH-unconfirmed. Detail is
 `finance-ko`'s.
 
-**Base levels for the next window.** UST **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27** ·
-S&P **7,674.37** / Nasdaq **26,180.46** / Dow **53,277.01** · VIX **15.13** ·
-KOSPI **6,912.95** · KOSDAQ **801.94** · Samsung **W281,500** · SK Hynix **W1,730,000** ·
-Nikkei **66,016.36** · Brent **~93.5** · gold **~4,680.60** · USD/KRW **~1,385.5**.
+**Base levels for the next window.** UST **2Y 4.24 / 5Y 4.41 / 10Y 4.70 / 30Y 5.23** ·
+S&P **7,652.86** / Nasdaq **25,980.19** / Dow **53,417.16** · VIX **15.85** ·
+KOSPI **6,696.96** · KOSDAQ **813.33** · Samsung **W257,000** · SK Hynix **W1,671,000** ·
+Brent **~92.2** · gold **~4,697.80** · USD/KRW **~1,381.4**.
 
 ---
 
@@ -108,16 +117,10 @@ Score the **condition**, not the metric's letter, and only ever at a **settle**.
 antecedent never fired) / **too coarse** (true in one sub-case, false in another — and a single test
 can never return it). A silent "not tripped" that was really "never tested" accrues as false evidence.
 
-**Published sequence, by the settle each window scored:**
-
-| window | settle | verdict |
-|---|---|---|
-| 08-17-00 | Fri 08-14 | does-NOT-trip, WEAK basis |
-| 08-18-00 | Mon 08-17 | does-NOT-trip, MODERATE basis |
-| 08-19-00 | Tue 08-18 | does-NOT-trip, WEAK basis |
-| 08-20-00 | Wed 08-19 | does-NOT-trip, WEAK basis |
-| 08-21-00 | Thu 08-20 | **UNTESTABLE** — antecedent did not fire |
-| 08-24-00 | Fri 08-21 | **UNTESTABLE** — largest close +0.98%; **and the pathology released BENIGNLY** |
+**Published sequence (08-17 → 08-25, by the settle each window scored):** four consecutive
+**does-NOT-trip** — one MODERATE basis (Mon 08-17 settle), three WEAK — then three consecutive
+**UNTESTABLE**, the antecedent never firing (largest close +0.98%, +0.43%, +0.26%). Per-window detail
+is in the archive; only the shape of the run is live state.
 
 **★ THE PATHOLOGY RISK HAS FALLEN, AND THAT IS THE FINDING.** The prior reading — a progressively
 quieter anchor with rising latent risk — is **superseded**: the dangerous configuration needed an
@@ -137,8 +140,11 @@ showed 4.234, the settle came in *higher* at 4.24. There is no 18Z settle; the s
    two named poles of the AI-inflation axis. The first scheduled test of whether Friday's move is a
    regime or a wobble.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **Does the front FOLLOW THROUGH?** Track the per-session 2Y as a first-class number. One settle
-   established that the anchor can move; a second consecutive move off 4.19 makes it a regime.
+3. **Does 4.24 HOLD, or CLIMB?** Follow-through is already met (two settles off 4.19). The live
+   question is which of two very different things the front is doing, and the test must name it:
+   **a new PIN** = the 2Y keeps settling ~4.24 (flat sessions, as on 08-24); **a hawkish TREND** =
+   successive settles *above* 4.24. Track the per-session 2Y as a first-class number and say which
+   is being claimed — "off 4.19" no longer discriminates between them.
 4. **Korea: breadth, and the capital-return wave being priced.** The index has been carried by two
    names over a falling market. Watch whether foreign buying broadens or stays chip-concentrated, and
    whether the prop holds once the buybacks are priced. **The demand question needs a demand
