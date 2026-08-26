@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-25T18:35Z
+updated: 2026-08-26T00:15Z
 ---
 
 ## How to use this file
@@ -29,22 +29,31 @@ removed, all of them still in the archive. Only live state was carried forward.*
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
-**★ THE ANCHOR RESPONDED, THEN RE-PINNED. Fri 08-21: 2Y 4.24 (+5bp) after FOUR consecutive settles
-at exactly 4.19. Mon 08-24: 2Y 4.24 again, 0bp.** The move was pre-registered before the tape —
-*breaks if the 2Y SETTLES >= ~4.22* — and it cleared. **So the switch is VINDICATED on the frame's
-own words** (*"a moving 2Y means the switch is live and transmitting"*), and the latent pathology
-released **benignly**: the anchor came alive while equities stayed calm.
+**★ THE ANCHOR IS LIVE, AND THE PIN IS GONE. Tue 08-25: 2Y settled 4.17 (-7bp)** — below 4.24 and
+**through the 4.19 it had held four times.** The arc is now **4.19 x4 -> 4.24 x2 -> 4.17**. Pre-registered
+gate #3 scored **RETRACE**, the third branch, added ~6 hours *before* the settle that tested it.
 
-**★ BUT READ THE SEQUENCE, NOT THE EVENT — 4.19 ×4, then 4.24 ×2.** The invariant across all six
-settles is the **PINNING BEHAVIOUR**: the front finds a precise level and sits on it for sessions.
-**What changed is the level it pins at — one notch, 4.19 → 4.24 — not the character of the front.**
-So this is a **RE-PIN, not a hawkish climb**: the second settle was *flat* (0bp), which is the anchor
-re-anchoring and stopping, not a trend.
+**So 08-21's jump to 4.24 was a WOBBLE, not a re-pin** — it lasted two settles and then broke the
+wrong way through the old level.
 
-**This retires my own wording (Scout flagged it).** The old gate — *"a second consecutive move off
-4.19 makes it a regime"* — conflates **moved-and-stayed** with **moving**: a flat second settle
-satisfies it while being the opposite of an accelerating regime. **A durability test must say whether
-it tests a LEVEL or a TREND.** The live question: **does 4.24 hold, or climb?**
+**The switch is VINDICATED; the narrower claim is DEAD.** On the frame's own words — *"a moving 2Y
+means the switch is live and transmitting"* — a -7bp settle is the anchor at its most responsive.
+What died is the *re-pin at 4.24* reading, not the switch.
+
+**★ AND MY OWN INVARIANT BROKE. This is the desk's claim, so the desk names it.** The frame asserted
+that *"the invariant across all six settles is the PINNING BEHAVIOUR: the front finds a precise level
+and sits on it for sessions,"* and that only the *level* was changing. That is now false: the front
+has moved decisively in **both directions inside four sessions** and has not sat anywhere. **The
+pinning behaviour was the thing I was most confident about and it is the thing that broke.** Whatever
+the front is doing now, "it pins" is not the description.
+
+**★ AND THE RETRACE BRANCH WAS WRITTEN WRONG — I corrected it the same day I scored it.** Gate #3's
+RETRACE text said a retrace *"would restore the inert-anchor pathology the falsifier watches for."*
+It does no such thing. **Level/direction and inertness are orthogonal axes**, and I collapsed them:
+the pathology needs a front that has gone *quiet* under a violent tape, and this front moved 7bp
+under a calm one — the opposite configuration on **both** legs. Both reporters caught this
+independently before I did. A retrace on a large move is a **live anchor repricing DOWN**, which is
+dovish information, not pathology.
 
 **Read the instrument before the finding.** CMT prints to 1bp. The *break* is 5bp — cleanly
 resolvable, so it is not hedged. The *shape* (2Y +5 / 10Y +5 / 5Y +4 / 30Y +4) is a 1bp spread
@@ -73,22 +82,22 @@ disambiguates it. **Warsh speaks at Jackson Hole Aug 28** — the first schedule
 
 ## Current state
 
-**Rates — the anchor is live again.** Fri 08-21 settle (CMT primary, desk-pulled and reporter-matched
-exactly): **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. The week's arc: a long-end-led back-up on the
-**Treasury buyback** (release sb0607, Aug 19 — long-dated liquidity-support buybacks at least
-doubled, $2bn -> >=$4bn/op, naming the 10-20y and 20-30y sectors, effective Sept 9), then the front
-taking over on Friday. **The 30Y at 5.27 is still below the 5.31 it reached before the buyback**, so
-the backstop is capping, not broken.
+**Rates — a whole-curve dovish shift, front-led.** Tue 08-25 settle (CMT primary, desk-pulled and
+reporter-matched **exactly**, on two independent pulls): **2Y 4.17 / 5Y 4.35 / 10Y 4.64 / 30Y 5.17** —
+**2Y -7bp, 5Y/10Y/30Y -6bp each.** Near-parallel DOWN with the front leading by a single basis point,
+which at CMT's 1bp resolution is **not** a resolvable lead: the *level* move is cleanly sourced, the
+"front-led" shape is not, and the frame does not assert it at the settle. The **Treasury buyback**
+backstop (sb0607, Aug 19 — long-dated buybacks at least doubled, $2bn -> >=$4bn/op, 10-20y and 20-30y,
+effective Sept 9) still caps the long end: the 30Y at **5.17** is well below the 5.31 it reached
+before the buyback.
 
-**US equities — the ROTATION settled, and Friday's one-story read broke.** Mon 08-24 closes: **Dow
-53,417.16 / +0.26% GREEN** against **Nasdaq 25,980.19 / -0.77% RED** (S&P 7,652.86 / -0.28%) — a
-**1.03pp spread, tech-out into cyclicals**, with **VIX 15.85 (+4.8%)**. That is a rotation *under a
-bond rally*, **not** a broad de-risking: the Dow's green refutes risk-off.
+**US equities — Monday's rotation REVERSED, quietly.** Tue 08-25 closes: **Nasdaq 26,151.30 /
++0.66%** leading **Dow 53,577.40 / +0.30%** and **S&P 7,677.28 / +0.32%**, with **VIX 15.45 (-2.5%)** —
+tech back in front, the exact mirror of Monday's Dow-green / Nasdaq-red split. A calm session: the
+widest index excursion all day was **+0.95%**.
 
-**Friday's single reflation story no longer covers the tape** (Friday green/Dow-led/VIX-down/front-up;
-Monday split/VIX-up/long-end-rallying). **Gold is the one constant and its COMPANY changed** — Friday
-it rose with the front (inflation hedge), Monday with a long-end rally and a higher VIX (safe haven).
-Same direction, different driver, so "gold is up" is not by itself a read.
+**So a bond rally and an equity rally ran together under a falling VIX.** That is the configuration a
+growth scare cannot produce, and it is why the -7bp front reads as **repricing, not flight**.
 
 **Korea — the demand question is UNADJUDICATED. This corrects the prior revision's "the demand turn
 is CONFIRMED."** The week ran a -5.80% de-rate, a +5.89% round-trip, then **+0.88% on 683 of 876
@@ -100,10 +109,15 @@ seller** — so nothing scored. The **won has FIRMED for a week** (~1,385 from ~
 a bounce, an oil premium and a higher-for-longer US front; still DXY/CNH-unconfirmed. Detail is
 `finance-ko`'s.
 
-**Base levels for the next window.** UST **2Y 4.24 / 5Y 4.41 / 10Y 4.70 / 30Y 5.23** ·
-S&P **7,652.86** / Nasdaq **25,980.19** / Dow **53,417.16** · VIX **15.85** ·
-KOSPI **6,696.96** · KOSDAQ **813.33** · Samsung **W257,000** · SK Hynix **W1,671,000** ·
-Brent **~92.2** · gold **~4,697.80** · USD/KRW **~1,381.4**.
+**Base levels for the next window.** UST **2Y 4.17 / 5Y 4.35 / 10Y 4.64 / 30Y 5.17** ·
+S&P **7,677.28** / Nasdaq **26,151.30** / Dow **53,577.40** · VIX **15.45** ·
+KOSPI **6,742.74** · KOSDAQ **827.15** · Samsung **W257,000** · SK Hynix **W1,678,000** ·
+Brent **~89.0** · gold **~4,700** · USD/KRW **~1,383**.
+*(All as of the Tue 2026-08-25 settle in their own market: US closes 20:00Z, KRX jong-ga 06:30Z,
+Brent ICE Oct-26, USD/KRW the 18:21Z same-clock desk pull. Four of these were carried stale into
+this revision — KOSPI, KOSDAQ, SK Hynix and Brent were still showing 08-21/08-24 values while the
+block claimed to be "for the next window." A carried level needs an as-of even when nobody disputes
+it; without one, nobody can tell when it was last true.)*
 
 ---
 
@@ -117,16 +131,18 @@ Score the **condition**, not the metric's letter, and only ever at a **settle**.
 antecedent never fired) / **too coarse** (true in one sub-case, false in another — and a single test
 can never return it). A silent "not tripped" that was really "never tested" accrues as false evidence.
 
-**Published sequence (08-17 → 08-25, by the settle each window scored):** four consecutive
-**does-NOT-trip** — one MODERATE basis (Mon 08-17 settle), three WEAK — then three consecutive
-**UNTESTABLE**, the antecedent never firing (largest close +0.98%, +0.43%, +0.26%). Per-window detail
-is in the archive; only the shape of the run is live state.
+**Published sequence (08-17 → 08-26, by the settle each window scored):** four consecutive
+**does-NOT-trip** — one MODERATE basis (Mon 08-17 settle), three WEAK — then **four consecutive
+UNTESTABLE**, the antecedent never firing (largest index excursion +0.98%, +0.43%, +0.26%, and on
+08-25 **+0.95%**, all far under ±1.5%). Per-window detail is in the archive; only the shape of the
+run is live state.
 
-**★ THE PATHOLOGY RISK HAS FALLEN, AND THAT IS THE FINDING.** The prior reading — a progressively
-quieter anchor with rising latent risk — is **superseded**: the dangerous configuration needed an
-inert front, and the front moved +5bp. **Four does-not-trips are not four confirmations**, and two
-untestables are not verdicts at all — but the *reason* the trip is unavailable has changed from "calm
-equities masking an inert anchor" to "a live anchor under calm equities", the benign one.
+**★ THE PATHOLOGY RISK IS NOW LOW, AND THE 08-25 SETTLE IS WHY.** The dangerous configuration needs
+an **inert** front under a **violent** tape. On 08-25 the front moved **-7bp** and the widest index
+excursion was **+0.95%** — the opposite of the pathology on *both* legs simultaneously. **Four
+does-not-trips are not four confirmations, and four untestables are not verdicts at all**; what has
+changed is only the *reason* the trip is unavailable, from "calm equities masking an inert anchor" to
+"a conspicuously live anchor under calm equities."
 
 **Why the FINAL waits for the settle — and intraday has now been wrong in BOTH directions.** 08-12:
 the 18Z tape showed the 2Y -4bp (strong), the settle pared it to -2bp (weak). 08-21: the 18Z tape
@@ -140,19 +156,15 @@ showed 4.234, the settle came in *higher* at 4.24. There is no 18Z settle; the s
    two named poles of the AI-inflation axis. The first scheduled test of whether Friday's move is a
    regime or a wobble.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **Does 4.24 HOLD, CLIMB, or RETRACE?** Follow-through is already met (two settles off 4.19).
-   The test must name which of **three** things the front is doing: **a new PIN** = the 2Y keeps
-   settling ~4.24 (flat sessions, as on 08-24); **a hawkish TREND** = successive settles *above*
-   4.24; **a RETRACE** = settles back *below* 4.24, toward or through 4.19 — which would make the
-   08-21 move a wobble rather than a re-pin, and would restore the inert-anchor pathology the
-   falsifier watches for.
-   **The third branch was added 08-25 intraday, pre-registered BEFORE the settle that tests it.**
-   The earlier wording named only hold and climb — and the tape then sat in the branch it had not
-   named: the 2Y is bid to **4.204 (-3.2bp, desk pull 18:01Z)**, ~3.6bp *below* the pin. Had it
-   settled there, the gate would have had no verdict slot and the desk would have been rationalising
-   after the fact instead of scoring. A binary test on a quantity with three directions is the same
-   defect as a falsifier with two states. Track the per-session 2Y as a first-class number and say
-   which of the **three** is being claimed — "off 4.19" discriminates none of them.
+3. **SCORED 08-25: RETRACE.** The 2Y settled **4.17**, below 4.24 and through 4.19; gate #3's third
+   branch, pre-registered ~6 hours before the settle. The re-pin claim is dead and the *pinning*
+   description with it. **The next question is not another level test — it is whether the front now
+   TRENDS.** A single -7bp settle is one observation, and this desk has twice mistaken one settle for
+   a regime. The test: **a hawkish read needs successive settles back above ~4.24; a dovish repricing
+   needs successive settles at or below ~4.17; anything else is the front moving without direction.**
+   Say which of the three is being claimed, and never lock it on an intraday print — 08-12 and 08-21
+   both had the 18Z tape wrong, in opposite directions.
+
 4. **Korea: breadth, and the capital-return wave being priced.** The index has been carried by two
    names over a falling market. Watch whether foreign buying broadens or stays chip-concentrated, and
    whether the prop holds once the buybacks are priced. **The demand question needs a demand
