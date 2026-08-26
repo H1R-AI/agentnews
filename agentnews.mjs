@@ -287,6 +287,52 @@ const C7_HARD_FAIL_FROM = '2026-08-21';
 // a lead clause ("US stocks closed mild-RED Friday, off Thursday record — S&P
 // 7,785.76") without reaching into an unrelated neighbouring sentence.
 const C7_CONTEXT_LOOKBACK = 160;
+
+// ---- C9: cross-domain close AGREEMENT -------------------------------------
+// Found 2026-08-26. finance asserted "KOSPI settled 6,808.21" in prose while
+// finance-ko DECLARED KOSPI in its settles block for the same window. C5 and C7
+// are both scoped to a single owner domain, so neither looks at the other
+// edition: nothing mechanical checked that the two agreed. My own read was the
+// only gate, and a desk read is exactly what fails on the cross-edition class —
+// each edition is internally correct and the contradiction is CREATED by
+// publishing them together.
+//
+// The checker CAN see both sides, so this is measurable rather than a prose rule.
+// C9 asks one question: when one edition ASSERTS a close for an index the other
+// edition DECLARES in the same window, do the two numbers match?
+//
+// Deliberately NOT a "you must declare it" rule. Quoting the sibling's settle is
+// correct practice and C7 already governs declaring. C9 only fires on DISAGREEMENT.
+const C9_CROSS_INDICES = [
+  { key: 'KOSPI',  mention: /\bKOSPI\b/i,                              min: 1000,  max: 20000 },
+  { key: 'KOSDAQ', mention: /\bKOSDAQ\b/i,                             min: 100,   max: 5000  },
+  { key: 'NIKKEI', mention: /\bNikkei(?:\s*225)?\b/i,                   min: 10000, max: 100000 },
+  { key: 'SP500',  mention: /S&P(?:\s*500)?|\bSPX\b/i,                  min: 1000,  max: 20000 },
+  { key: 'NASDAQ', mention: /\bNasdaq(?:\s+Composite)?\b/i,             min: 5000,  max: 60000 },
+  { key: 'DOW',    mention: /\bDow(?:\s+Jones)?(?:\s+Industrials?)?\b/i, min: 10000, max: 100000 },
+];
+// Same rationale as C5/C7: do not retro-scan windows written before the rule.
+const C9_EFFECTIVE_FROM = '2026-08-26';
+// A declared close and a prose quote of it should be the SAME number. The only
+// slack is decimal rendering, so this is the rounding tolerance used elsewhere,
+// not an analytic band.
+const C9_TOLERANCE = 0.011;
+
+// C9 fixtures. Both directions, because a detector that has only been shown the
+// catch case ships its false positives to production.
+const C9_FIXTURES = [
+  ['agreeing quote is NOT a finding',
+   "Korea's KOSPI settled **6,808.21 / +0.97% (jong-ga)** — a calm advance.", 'KOSPI', 6808.21, 6742.74, false],
+  ['DISAGREEING quote IS a finding',
+   "Korea's KOSPI settled **6,807.21 / +0.97% (jong-ga)** — a calm advance.", 'KOSPI', 6808.21, 6742.74, true],
+  ['quoting the sibling PREV close is continuity, not a finding',
+   "KOSPI chains to its prior close of 6,742.74 before today's move.", 'KOSPI', 6808.21, 6742.74, false],
+  ['a non-close mention is not an assertion',
+   "KOSPI futures pointed to 6,700.00 before the open.", 'KOSPI', 6808.21, 6742.74, false],
+  ['out-of-band number near the name is ignored',
+   "KOSPI closed higher; the KOSDAQ 100 sub-index is a different instrument.", 'KOSPI', 6808.21, 6742.74, false],
+];
+
 // Fixtures are the cases this detector must get right, in BOTH directions. The
 // first is the REAL 2026-08-17 defect verbatim; the rest are the false positives
 // a number-near-a-name rule invites. Testing only the catch direction would ship
@@ -998,6 +1044,65 @@ function runC7SelfTest() {
   console.log(`OK — ${C7_FIXTURES.length} C7 fixtures passed.`);
 }
 
+function runC9SelfTest() {
+  let failed = 0;
+  for (const [name, body, key, declaredClose, declaredPrev, expectHit] of C9_FIXTURES) {
+    const spec = C9_CROSS_INDICES.find((x) => x.key === key);
+    const hits = findAssertedUsCloses(body, spec, declaredPrev)
+      .filter((h) => Math.abs(h.value - declaredClose) > C9_TOLERANCE);
+    const got = hits.length > 0;
+    if (got !== expectHit) {
+      failed += 1;
+      console.error(`  FAIL ${name}: expected ${expectHit ? 'a hit' : 'no hit'}, got ${JSON.stringify(hits)}`);
+    }
+  }
+  if (failed) {
+    console.error(`${failed}/${C9_FIXTURES.length} C9 fixture(s) failed.`);
+    process.exit(1);
+  }
+  console.log(`OK — ${C9_FIXTURES.length} C9 fixtures passed.`);
+}
+
+// Runs ONCE over every domain, not per-domain: the whole point is the comparison
+// BETWEEN editions, so a per-domain hook could never see it.
+function checkCrossDomainCloseAgreement(windowsByDomain, errors, warnings) {
+  const domains = Object.keys(windowsByDomain);
+  if (domains.length < 2) return;   // nothing to cross-check; silent by design
+  // window_start -> index -> {close, prev, domain}
+  const declared = new Map();
+  for (const domain of domains) {
+    for (const win of windowsByDomain[domain]) {
+      if (win.status === 'example' || !win.window_start || !win.settles) continue;
+      if (!declared.has(win.window_start)) declared.set(win.window_start, new Map());
+      const byIndex = declared.get(win.window_start);
+      for (const spec of C9_CROSS_INDICES) {
+        const d = win.settles[spec.key];
+        if (!d || d.close == null) continue;
+        byIndex.set(spec.key, { close: Number(d.close), prev: d.prev_close == null ? null : Number(d.prev_close), domain });
+      }
+    }
+  }
+  for (const domain of domains) {
+    for (const win of windowsByDomain[domain]) {
+      if (win.status === 'example' || !win.window_start) continue;
+      if (String(win.window_start).slice(0, 10) < C9_EFFECTIVE_FROM) continue;
+      const byIndex = declared.get(win.window_start);
+      if (!byIndex) continue;
+      for (const spec of C9_CROSS_INDICES) {
+        const d = byIndex.get(spec.key);
+        if (!d || d.domain === domain) continue;              // only CROSS-domain
+        if (win.settles && win.settles[spec.key]) continue;    // this edition declares it too — C1/C6's job
+        const hits = findAssertedUsCloses(win.body, spec, d.prev)
+          .filter((h) => Math.abs(h.value - d.close) > C9_TOLERANCE);
+        if (!hits.length) continue;
+        warnings.push(
+          `${domain}/${win.rel}: C9 — asserts a ${spec.key} close of ${hits[0].value}, but ${d.domain} DECLARES ${d.close} for the same window. Both editions publish together, so this contradiction is created by publishing, not by either edition alone — and per-edition review cannot see it. Quote the sibling's settle rather than reconstructing it. — "${hits[0].snippet.slice(0, 120)}"`
+        );
+      }
+    }
+  }
+}
+
 function checkUndeclaredUsCloseAssertions(windows, domain, errors, warnings) {
   if (domain !== C7_OWNER_DOMAIN) return;
   const dated = windows
@@ -1036,6 +1141,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
   runC5SelfTest();
   runC7SelfTest();
   runC6CloseTimeSelfTest();
+  runC9SelfTest();
   const errors = [];
   const warnings = [];
   // A pass must state its SCOPE. With no domain.yml anywhere, listDomains() returns [], the loop
@@ -1049,12 +1155,14 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
     errors.push(`no domains found under ${contentRoot} (a domain needs a domain.yml) — refusing to report a pass over an empty corpus; check the working directory`);
   }
   let scannedWindows = 0;
+  const windowsByDomain = {};
   for (const domain of domains) {
     const dir = path.join(contentRoot, domain);
     if (!fs.existsSync(path.join(dir, 'domain.yml'))) errors.push(`${domain}: missing domain.yml`);
     if (!fs.existsSync(path.join(dir, 'frame.md'))) errors.push(`${domain}: missing frame.md`);
     const config = readDomainConfig(path.join(dir, 'domain.yml'));
     const windows = listWindows(domain);
+    windowsByDomain[domain] = windows;   // kept for the cross-domain pass below
     scannedWindows += windows.length;
     checkFrameFreshness(domain, path.join(dir, 'frame.md'), windows, errors, warnings);
     const publishableWindows = windows.filter((win) => win.status !== 'example');
@@ -1106,6 +1214,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
     checkUndeclaredCloseAssertions(windows, domain, errors, warnings);
     checkUndeclaredUsCloseAssertions(windows, domain, errors, warnings);
   }
+  checkCrossDomainCloseAgreement(windowsByDomain, errors, warnings);
   if (warnings.length) {
     console.log(`${warnings.length} warning(s):`);
     for (const warning of warnings) console.log(`  ! ${warning}`);
