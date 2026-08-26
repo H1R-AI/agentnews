@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-08-24T00:35Z
+updated: 2026-08-26T18:20Z
 ---
 
 ## How to use this file
@@ -67,9 +67,16 @@ dollar (**DXY**) is ~flat (**±0.3%**). Secondary control **CNH/USD** — the wo
 on Asia-EM flows. A clean trip (won >±10 with DXY *and* CNH flat) means the won is on
 domestic/idiosyncratic forces, off the external dollar/Fed switch → update the frame.
 > **Status: still NOT SCORED — and it is now the strongest unscored observation on the desk.** The
-> won has **FIRMED for a week straight, ~1,419 → ~1,385**, through a −5.80% crash, a +5.89% bounce, a
+> won has **FIRMED across the run, ~1,419 → ~1,382** (firmest 08-26 AM; then −3 won to **1,385.30** at
+the 08-26 settle on a flat dollar — sub-threshold), through a −5.80% crash, a +5.89% bounce, a
 > sustained oil premium **and** a higher-for-longer US front. Direction has *inverted* since this
 > block last read "weakened through the rally".
+>
+> **★ 08-26 18Z — the FLAT-DOLLAR BACKDROP BROKE.** DXY firmed to **99.16 / +0.24%** intraday (desk,
+> echo-tested), the first non-flat dollar of the run, and the won weakened to **1,386.30** same-clock.
+> A won move against a FIRMING dollar is **no longer presumptively idiosyncratic** — it may just be
+> tracking the external dollar (the normal channel), the OPPOSITE of the switch's signal. From here,
+> re-establish DXY *and* CNH flat same-clock BEFORE reading any won move as the switch.
 >
 > It still has not tripped: the formal bar needs **>±10 won with DXY *and* CNH confirmed flat
 > same-clock**, and DXY/CNH have not been confirmed. **Under-threshold and unconfirmed is not a
@@ -108,27 +115,40 @@ a systematic drag on oil-sensitive sectors?
 
 ## Current state
 
-**★ Fri 08-21 KRX settle — THE INDEX ROSE AND THE MARKET FELL.** KOSPI **6,912.95 / +60.37 /
-+0.88%** (jong-ga, native close-labelled, desk-matched) — and **683 of 876 names FELL** (193 up, zero
-limit-up), with **KOSDAQ −4.63%** (1,378 down, 3 limit-down). **Samsung +3.87% and SK Hynix +2.31%
-alone held the index green.** The median KOSPI stock fell on a day the index rose.
+**★ Wed 08-26 KRX settle — the recovery EXTENDED a 3rd session but RE-CONCENTRATED in the mega-caps.**
+KOSPI **6,808.21 / +0.97%** (@08-26 06Z jong-ga; Naver marketStatus=CLOSE + C1-chain) — but **KOSDAQ
+was FLAT (−0.03%)** and **Samsung +1.75% / SK Hynix +0.60% carried it**, so this is a mega-cap
+re-concentration, **not** a third breadth-repair session (the 08-26 settle up/down count + flows were
+date-contamination-blocked and are DEFERRED, not asserted). The arc here: **08-24 −3.12%** (a mirror
+crash — index down but 579 names UP, the capital-return trade unwinding on Samsung's disappointing
+~₩90–110T shareholder-return reveal) → **08-25 +0.68%** (a violent V — down ~−4.3% intraday to ~6,409,
+bought back to a close at the high, breadth strengthening two sessions, an Apple-sourcing scare
+rejected intraday) → **08-26 +0.97%** (mega-cap-led). The two mirror days (08-21 index-up/market-down;
+08-24 index-down/market-up) proved the index is a **two-mega-cap mirage in both directions**.
 
-**Benchmark discipline, because it decided a verdict:** with breadth this skewed, the cap-weighted
-index and the typical stock are *different measurements*. Judged against the **+0.88% index** the
-oil-sensitive set looks like it lagged; judged against the **median stock** it does not. Name the
-benchmark before scoring — an unstated benchmark is a hidden choice that decides the result.
+**The Apple-CXMT threat — UNPINNED (4 windows), and the harder facts cut FOR Korea.** The memory scare
+that hit 08-24/25 traces to a **June-origin** FT "Apple SEEKS approval to buy CXMT memory" story
+(Apple the applicant, not the US granting), already undercut before it re-priced: **CXMT REJECTED
+Apple's price cut** (Aug 5 — a Korean pricing-power boon) and **US Commerce OPPOSES it** (Lutnick Aug
+14). The Aug 24 US move was real+dated but its catalyst stays UNPINNED; US memory settled STRONG into
+it (SK Hynix ADR +2.68% @08-25). **Nvidia (Wed 08-26 after the US close) is the nearer demand read**,
+reaching Korea Thursday — do NOT pre-score on positioning (expectations ≠ demand). Micron late Sept is
+the second, independent read.
 
-**Flows have turned over.** Foreign: **+₩1.71T buy (08-20) → −₩176B sell (08-21)**, and −₩284B on
-KOSDAQ. The 08-21 hold was **institutional rotation out of a dumped KOSDAQ**, not a foreign
-re-entry. The prior revision's "foreign buying PERSISTED … an inflection" no longer holds.
+**Flows (as of 08-25; 08-26 settle flows unverified):** 08-25 foreign **−₩3.82T** (2nd session at
+scale) fully absorbed by institutions **+₩1.17T** and individuals **+₩1.05T** — a heavy foreign exit
+met a heavier domestic bid.
 
-**The two-tier tape is Korea's OWN.** On 08-21 the US **broadened** (Dow +0.98% and Russell ahead of
-Nasdaq) on the very day Korea narrowed to two names — so the concentration is idiosyncratic, a
-domestic capital-return rotation, not a global pattern Korea is echoing.
+**US front repriced DOVISH.** Scout's 08-25 settle scored a **RETRACE** — 2Y **4.17** (−7bp, through
+the 4.19 pin) — so the "re-pin at 4.24" was a wobble; a front-led dovish move into **Warsh's Jackson
+Hole keynote (Fri 08-28)**. This removes a higher-for-longer headwind the won had been firming against.
 
-**Base levels for the next window:** KOSPI **6,912.95** (chain 6,869.83 → 6,471.17 → 6,852.58 →
-6,912.95) · KOSDAQ **801.94** · Samsung **₩281,500** · SK Hynix **₩1,730,000** · USD/KRW **~1,385.5**
-· Nikkei **66,016.36**.
+**Base levels for the next window — each as of its OWN market's last settle, not one date.**
+**Korea (Wed 08-26 jong-ga, 06:30Z / 15:30 KST):** KOSPI **6,808.21** (chain 6,471.17 → 6,852.58 →
+6,912.95 → 6,696.96 → 6,742.74 → 6,808.21) · KOSDAQ **826.87** · Samsung **₩261,500** · SK Hynix
+**₩1,688,000** · USD/KRW **1,385.30** (@06:34Z fixing).
+**Japan (Wed 08-26 close, 06:00Z):** Nikkei **66,262.16** (Scout-declared).
+**US (Tue 08-25 settle, carried — no newer):** 2Y **4.17** (Scout).
 
 **Carried from `finance` (Scout canonical, quoted from his window — not reconstructed):** the Fri
 08-21 US settle **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. **The anchor RESPONDED** — the 2Y moved
