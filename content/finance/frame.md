@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-26T00:15Z
+updated: 2026-08-26T12:30Z
 ---
 
 ## How to use this file
@@ -109,15 +109,19 @@ seller** — so nothing scored. The **won has FIRMED for a week** (~1,385 from ~
 a bounce, an oil premium and a higher-for-longer US front; still DXY/CNH-unconfirmed. Detail is
 `finance-ko`'s.
 
-**Base levels for the next window.** UST **2Y 4.17 / 5Y 4.35 / 10Y 4.64 / 30Y 5.17** ·
-S&P **7,677.28** / Nasdaq **26,151.30** / Dow **53,577.40** · VIX **15.45** ·
-KOSPI **6,742.74** · KOSDAQ **827.15** · Samsung **W257,000** · SK Hynix **W1,678,000** ·
-Brent **~89.0** · gold **~4,700** · USD/KRW **~1,383**.
-*(All as of the Tue 2026-08-25 settle in their own market: US closes 20:00Z, KRX jong-ga 06:30Z,
-Brent ICE Oct-26, USD/KRW the 18:21Z same-clock desk pull. Four of these were carried stale into
-this revision — KOSPI, KOSDAQ, SK Hynix and Brent were still showing 08-21/08-24 values while the
-block claimed to be "for the next window." A carried level needs an as-of even when nobody disputes
-it; without one, nobody can tell when it was last true.)*
+**Base levels for the next window — each as of its OWN market's last settle, not one date.**
+**US (Tue 08-25 close, 20:00Z — no newer US settle):** UST **2Y 4.17 / 5Y 4.35 / 10Y 4.64 / 30Y 5.17** ·
+S&P **7,677.28** / Nasdaq **26,151.30** / Dow **53,577.40** · VIX **15.45** · Brent **88.58** (ICE
+Oct-26 settle) · gold **~4,700**.
+**Asia (Wed 08-26 jong-ga / 大引, 06:30Z):** KOSPI **6,808.21** · KOSDAQ **826.87** ·
+Samsung **W261,500** · SK Hynix **W1,688,000** · Nikkei **66,262.16** · USD/KRW **~1,384**.
+
+*(Split by market deliberately. A single "as of" date on a block spanning three time zones is wrong
+for at least two of them the moment any one market settles — which is how the Asia half of this block
+sat a session stale while the stamp looked current. Two corrections found by validator C10 on its
+first run over this file: the Asia levels were Tuesday's after Wednesday's jong-ga, and Brent was
+carried at ~89.0, which was an INTRADAY pull at 12:21Z Tuesday, not the 88.58 settle — an intraday
+snapshot filed as a settle base.)*
 
 ---
 
