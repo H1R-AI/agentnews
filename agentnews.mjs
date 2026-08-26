@@ -318,6 +318,70 @@ const C9_EFFECTIVE_FROM = '2026-08-26';
 // not an analytic band.
 const C9_TOLERANCE = 0.011;
 
+// ---- C10: a frame's BASE LEVELS must match the newest declared settle --------
+// Found 2026-08-26. finance-ko's frame carried "Base levels for the next window"
+// from Friday 08-21 while the stamp said 08-24 and three sessions had settled
+// since: KOSPI 6,912.95 against an actual 6,808.21, Samsung off by ~7%. My own
+// finance frame had the same defect the night before.
+//
+// This is the gap in C8, and C8 is mine. C8 measures the frame's STAMP — a proxy
+// for currency. The proxy is gameable BY ACCIDENT: edit the prose, re-stamp, and
+// a frame whose numbers are a week old passes forever. Worse, here the stamp was
+// itself newer than the numbers, so the proxy actively overstated freshness.
+//
+// The thing that matters is measurable directly. A "base levels for the next
+// window" line makes a checkable claim: these are the levels the next window
+// should start from. The newest DECLARED settle for that index is what they
+// should equal, and the checker can see both sides.
+//
+// Scoped hard to the base-levels block. An index level quoted in frame PROSE is
+// usually historical narration ("the week ran 6,471 -> 6,852") and must not fire.
+const C10_BASE_BLOCK = /\*\*Base levels[^*]*\*\*([\s\S]*?)(?=\n\n|\n\*\*|\n## |\n---|$)/i;
+const C10_INDICES = [
+  { key: 'KOSPI',  label: /KOSPI/i },
+  { key: 'KOSDAQ', label: /KOSDAQ/i },
+  { key: 'NIKKEI', label: /Nikkei/i },
+  { key: 'SP500',  label: /S&P(?:\s*500)?/i },
+  { key: 'NASDAQ', label: /Nasdaq/i },
+  { key: 'DOW',    label: /Dow/i },
+];
+const C10_EFFECTIVE_FROM = '2026-08-26';
+const C10_TOLERANCE = 0.011;
+
+// C10 fixtures. Both directions, and the NOT-CHECKED case, because a frame with
+// no base-levels block must report that rather than pass silently.
+const C10_FIXTURES = [
+  ['matching base level is not a finding',
+   '**Base levels for the next window.** KOSPI **6,808.21** · KOSDAQ **826.87**.', { KOSPI: 6808.21, KOSDAQ: 826.87 }, 0],
+  ['stale base level IS a finding',
+   '**Base levels for the next window.** KOSPI **6,912.95** · KOSDAQ **801.94**.', { KOSPI: 6808.21, KOSDAQ: 826.87 }, 2],
+  ['prose narration outside the block must NOT fire',
+   'The week ran 6,471.17 then 6,852.58 for the KOSPI.\n\n**Base levels for the next window.** KOSPI **6,808.21**.', { KOSPI: 6808.21 }, 0],
+  ['an index with no declared settle is skipped, not guessed',
+   '**Base levels for the next window.** KOSPI **6,808.21** · Nikkei **66,262.16**.', { KOSPI: 6808.21 }, 0],
+  ['no base-levels block at all parses to null (reported NOT CHECKED, never a pass)',
+   'A frame with no such block.', { KOSPI: 6808.21 }, null],
+];
+
+
+// Pull "NAME **6,808.21**" / "NAME 6,808.21" pairs out of the base-levels block.
+// Returns [{key, value}]. A name with no number after it is skipped rather than
+// guessed at.
+function parseFrameBaseLevels(frameText) {
+  const m = frameText.match(C10_BASE_BLOCK);
+  if (!m) return null;                       // no block at all -> NOT CHECKED, not a pass
+  const block = m[1];
+  const out = [];
+  for (const spec of C10_INDICES) {
+    const re = new RegExp(spec.label.source + '[^0-9\\n]{0,24}?(\\d{1,3}(?:,\\d{3})*(?:\\.\\d{1,2})?)', 'i');
+    const hit = block.match(re);
+    if (!hit) continue;
+    out.push({ key: spec.key, value: Number(hit[1].replace(/,/g, '')) });
+  }
+  return out;
+}
+
+
 // C9 fixtures. Both directions, because a detector that has only been shown the
 // catch case ships its false positives to production.
 const C9_FIXTURES = [
@@ -1065,6 +1129,66 @@ function runC9SelfTest() {
 
 // Runs ONCE over every domain, not per-domain: the whole point is the comparison
 // BETWEEN editions, so a per-domain hook could never see it.
+function runC10SelfTest() {
+  let failed = 0;
+  for (const [name, frameText, declared, expected] of C10_FIXTURES) {
+    const parsed = parseFrameBaseLevels(frameText);
+    let got;
+    if (parsed === null) {
+      got = null;
+    } else {
+      got = parsed.filter((b) => declared[b.key] != null && Math.abs(b.value - declared[b.key]) > C10_TOLERANCE).length;
+    }
+    if (got !== expected) {
+      failed += 1;
+      console.error(`  FAIL ${name}: expected ${expected}, got ${got} (parsed ${JSON.stringify(parsed)})`);
+    }
+  }
+  if (failed) {
+    console.error(`${failed}/${C10_FIXTURES.length} C10 fixture(s) failed.`);
+    process.exit(1);
+  }
+  console.log(`OK — ${C10_FIXTURES.length} C10 fixtures passed.`);
+}
+
+function checkFrameBaseLevels(windowsByDomain, frameTextByDomain, errors, warnings) {
+  // Newest declared close per index, across ALL domains, with the window it came from.
+  const newest = new Map();
+  for (const domain of Object.keys(windowsByDomain)) {
+    for (const win of windowsByDomain[domain]) {
+      if (win.status === 'example' || !win.window_start || !win.settles) continue;
+      for (const spec of C10_INDICES) {
+        const d = win.settles[spec.key];
+        if (!d || d.close == null) continue;
+        const cur = newest.get(spec.key);
+        if (!cur || String(win.window_start) > cur.window_start) {
+          newest.set(spec.key, { close: Number(d.close), window_start: String(win.window_start), domain });
+        }
+      }
+    }
+  }
+  const newestWindow = Object.values(windowsByDomain).flat()
+    .filter((w) => w.status !== 'example' && w.window_start)
+    .map((w) => String(w.window_start)).sort().pop();
+  if (!newestWindow || newestWindow.slice(0, 10) < C10_EFFECTIVE_FROM) return;
+
+  for (const domain of Object.keys(frameTextByDomain)) {
+    const parsed = parseFrameBaseLevels(frameTextByDomain[domain]);
+    if (parsed === null) {
+      warnings.push(`${domain}/frame.md: C10 — no "Base levels" block found, so the frame's carried levels were NOT CHECKED against the newest settle. This is not a pass.`);
+      continue;
+    }
+    for (const b of parsed) {
+      const n = newest.get(b.key);
+      if (!n) continue;                                  // never declared -> nothing to compare
+      if (Math.abs(b.value - n.close) <= C10_TOLERANCE) continue;
+      warnings.push(
+        `${domain}/frame.md: C10 — base level ${b.key} ${b.value} does not match the newest DECLARED settle ${n.close} (${n.domain}, window ${n.window_start}). A frame's base levels are what the next window starts from, so a stale one propagates into every window that reads it. Note the frame STAMP can be newer than its NUMBERS — C8 measures the stamp and cannot see this.`
+      );
+    }
+  }
+}
+
 function checkCrossDomainCloseAgreement(windowsByDomain, errors, warnings) {
   const domains = Object.keys(windowsByDomain);
   if (domains.length < 2) return;   // nothing to cross-check; silent by design
@@ -1142,6 +1266,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
   runC7SelfTest();
   runC6CloseTimeSelfTest();
   runC9SelfTest();
+  runC10SelfTest();
   const errors = [];
   const warnings = [];
   // A pass must state its SCOPE. With no domain.yml anywhere, listDomains() returns [], the loop
@@ -1156,6 +1281,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
   }
   let scannedWindows = 0;
   const windowsByDomain = {};
+  const frameTextByDomain = {};
   for (const domain of domains) {
     const dir = path.join(contentRoot, domain);
     if (!fs.existsSync(path.join(dir, 'domain.yml'))) errors.push(`${domain}: missing domain.yml`);
@@ -1163,6 +1289,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
     const config = readDomainConfig(path.join(dir, 'domain.yml'));
     const windows = listWindows(domain);
     windowsByDomain[domain] = windows;   // kept for the cross-domain pass below
+    try { frameTextByDomain[domain] = fs.readFileSync(path.join(dir, 'frame.md'), 'utf8'); } catch { /* missing frame.md already errored above */ }
     scannedWindows += windows.length;
     checkFrameFreshness(domain, path.join(dir, 'frame.md'), windows, errors, warnings);
     const publishableWindows = windows.filter((win) => win.status !== 'example');
@@ -1215,6 +1342,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
     checkUndeclaredUsCloseAssertions(windows, domain, errors, warnings);
   }
   checkCrossDomainCloseAgreement(windowsByDomain, errors, warnings);
+  checkFrameBaseLevels(windowsByDomain, frameTextByDomain, errors, warnings);
   if (warnings.length) {
     console.log(`${warnings.length} warning(s):`);
     for (const warning of warnings) console.log(`  ! ${warning}`);
