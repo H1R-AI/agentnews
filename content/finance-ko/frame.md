@@ -140,7 +140,7 @@ Hole keynote (Fri 08-28)**. This removes a higher-for-longer headwind the won ha
 **Base levels for the next window (per-market as-of):** KOSPI **6,808.21** (@08-26 06Z jong-ga; chain
 6,471.17 → 6,852.58 → 6,912.95 → 6,696.96 → 6,742.74 → 6,808.21) · KOSDAQ **826.87** (@08-26 06Z) ·
 Samsung **₩261,500** (@08-26 06Z) · SK Hynix **₩1,688,000** (@08-26 06Z) · USD/KRW **1,385.30** (@08-26
-06:34Z / 15:34 KST) · Nikkei **65,856.43** (@08-25 close, carried) · US 2Y **4.17** (@08-25 settle,
+06:34Z / 15:34 KST) · Nikkei **66,262.16** (@08-26 close, Scout-declared) · US 2Y **4.17** (@08-25 settle,
 Scout).
 
 **Carried from `finance` (Scout canonical, quoted from his window — not reconstructed):** the Fri
