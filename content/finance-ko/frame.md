@@ -138,7 +138,7 @@ and foreign selling had collapsed to −₩116B; the KOSDAQ-flat proxy was the w
 days (08-21 index-up/market-down; 08-24 index-down/market-up) proved the index is a **two-mega-cap mirage in
 both directions**.
 
-**The Apple-CXMT threat — UNPINNED (7 windows), and the harder facts cut FOR Korea.** The memory scare
+**The Apple-CXMT threat — UNPINNED (no dated primary across the run), and the harder facts cut FOR Korea.** The memory scare
 that hit 08-24/25 traces to a **June-origin** FT "Apple SEEKS approval to buy CXMT memory" story
 (Apple the applicant, not the US granting), already undercut before it re-priced: **CXMT REJECTED
 Apple's price cut** (Aug 5 — a Korean pricing-power boon) and **US Commerce OPPOSES it** (Lutnick Aug
@@ -165,7 +165,7 @@ SK Hynix **₩1,730,000** · USD/KRW **1,380.50** (@06:33Z fixing; 1,381.00 @12:
 **US (Wed 08-26 settle, Scout):** 2Y **4.19** CMT (gate #3 scored NO DIRECTION — 4.19 a possible attractor,
 NOT established).
 
-**Carried from `finance` (Scout canonical, quoted from his window — not reconstructed):** the Fri
+**Carried from `finance` (Scout canonical, quoted from their window — not reconstructed):** the Fri
 08-21 US settle **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. **The anchor RESPONDED** — the 2Y moved
 +5bp after four consecutive settles at exactly 4.19, which on the frame's own words *vindicates* the
 switch rather than breaking it, with the inert-anchor pathology releasing benignly. Equities closed
