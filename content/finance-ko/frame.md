@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-08-27T12:20Z
+updated: 2026-08-27T18:20Z
 ---
 
 ## How to use this file
@@ -103,10 +103,11 @@ foreign net buys; *confirms* if it fades **and** foreign keeps selling.
 > at the jong-ga — but published NOT SCORED.** KOSPI +1.53%, but the gap-up FADED (open = the high; SK
 > Hynix +4.80% open → +2.49% close), and the two scoring legs (foreign flow, breadth count) were
 > date-contaminated and WITHHELD, so neither *reverse* branch was cleanly met. **The demand question
-> stays OPEN.** The US session is re-bidding the memory names into Friday (SKHY ADR +4.23% pre-market
-> 08-27), a positioning lean — but the gate scores at the KOREAN settle on a CLEAN foreign-flow read,
-> which Friday's jong-ga is the next chance to deliver. Micron's late-Sept print remains an independent
-> second read.
+> stays OPEN.** At 12Z the US pre-open re-bid the memory names (SKHY ADR +4.23% pre-market, a
+> positioning lean into Friday); by 18Z the US CASH session FADED them — NVDA ripped (+8.88%) but SKHY
+> faded to +1.15% and Micron reversed to −2.66%, so the lean WEAKENED. Either way positioning is not
+> the score; the gate scores at the KOREAN settle on a CLEAN foreign-flow read, which Friday's jong-ga
+> is the next chance to deliver. Micron's late-Sept print remains an independent second read.
 
 **Oil-import channel.** Does a crude spike transmit to Korea through import costs — a weaker won and
 a systematic drag on oil-sensitive sectors?
@@ -153,9 +154,12 @@ session at scale, absorbed by institutions +₩1.17T / individuals +₩1.05T) �
 WITHHELD** (the settle flow was date-contaminated; the desk did not score the demand gate on it). The
 US pre-market is re-bidding the memory ADRs into Friday, but foreign flow scores only at the jong-ga.
 
-**US front repriced DOVISH.** Scout's 08-25 settle scored a **RETRACE** — 2Y **4.17** (−7bp, through
-the 4.19 pin) — so the "re-pin at 4.24" was a wobble; a front-led dovish move into **Warsh's Jackson
-Hole keynote (Fri 08-28)**. This removes a higher-for-longer headwind the won had been firming against.
+**US front — the 08-25 dovish excursion REVERTED at the next settle.** Scout's 08-25 settle printed 2Y
+**4.17** (a dovish retrace), but the **Wed 08-26 settle came back to 4.19 — the fifth settle at that
+level** (gate #3 scored NO DIRECTION; 4.19 a POSSIBLE attractor, NOT established — the question is open
+and next scores at the 00Z Fri settle). So the dovish move was a one-settle excursion that reverted,
+not a regime — **score against the base block (2Y 4.19), not a "pin is gone" narrative** (desk-flagged
+08-27 18Z). Warsh's Jackson Hole keynote (Fri 08-28) is the next resolver.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Thu 08-27 jong-ga, 06:30Z / 15:30 KST):** KOSPI **6,912.37** (chain 6,471.17 → 6,852.58 →
@@ -190,9 +194,10 @@ no-landing → higher-for-longer.** One settle is not a hawkish regime.
    and a scored trip. Get the same-clock read.
 5. **The DEMAND question stays open — its first catalyst (Nvidia) came and did NOT resolve it.** The
    beat-and-raise was tested at the 08-27 jong-ga but published NOT scored (gap faded, flow/breadth
-   withheld). It re-tests at Friday's settle on a CLEAN foreign-flow read; the US is re-bidding the
-   memory names into it (SKHY ADR +4.23% pre-market 08-27), a positioning lean, not the score. Micron's
-   late-Sept print is the independent second read. No price action substitutes for the settle flow.
+   withheld). It re-tests at Friday's settle on a CLEAN foreign-flow read; the US pre-open re-bid the
+   memory names but the 08-27 US CASH session FADED them (SKHY +4.23% pre-market → +1.15%, Micron
+   +3.99% → −2.66% as NVDA ripped +8.88%) — the positioning lean WEAKENED, not the score either way.
+   Micron's late-Sept print is the independent second read. No price action substitutes for the settle flow.
 
 ---
 
