@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-26T12:30Z
+updated: 2026-08-27T00:10Z
 ---
 
 ## How to use this file
@@ -110,9 +110,9 @@ a bounce, an oil premium and a higher-for-longer US front; still DXY/CNH-unconfi
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Tue 08-25 close, 20:00Z — no newer US settle):** UST **2Y 4.17 / 5Y 4.35 / 10Y 4.64 / 30Y 5.17** ·
-S&P **7,677.28** / Nasdaq **26,151.30** / Dow **53,577.40** · VIX **15.45** · Brent **88.58** (ICE
-Oct-26 settle) · gold **~4,700**.
+**US (Wed 08-26 close, 20:00Z):** UST **2Y 4.19 / 5Y 4.37 / 10Y 4.66 / 30Y 5.18** ·
+S&P **7,675.70** / Nasdaq **26,130.20** / Dow **53,463.88** · VIX **15.21** · Brent **88.58** (ICE
+Oct-26, Tue settle — not re-checked at the Wed close) · gold **~4,700**.
 **Asia (Wed 08-26 jong-ga / 大引, 06:30Z):** KOSPI **6,808.21** · KOSDAQ **826.87** ·
 Samsung **W261,500** · SK Hynix **W1,688,000** · Nikkei **66,262.16** · USD/KRW **~1,384**.
 
@@ -160,24 +160,39 @@ showed 4.234, the settle came in *higher* at 4.24. There is no 18Z settle; the s
    two named poles of the AI-inflation axis. The first scheduled test of whether Friday's move is a
    regime or a wobble.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **SCORED 08-25: RETRACE.** The 2Y settled **4.17**, below 4.24 and through 4.19; gate #3's third
-   branch, pre-registered ~6 hours before the settle. The re-pin claim is dead and the *pinning*
-   description with it. **The next question is not another level test — it is whether the front now
-   TRENDS.** A single -7bp settle is one observation, and this desk has twice mistaken one settle for
-   a regime. The test: **a hawkish read needs successive settles back above ~4.24; a dovish repricing
-   needs successive settles at or below ~4.17; anything else is the front moving without direction.**
-   Say which of the three is being claimed, and never lock it on an intraday print — 08-12 and 08-21
-   both had the 18Z tape wrong, in opposite directions.
+3. **SCORED 08-26: NO DIRECTION — and the gate is TOO COARSE to say more.** The 2Y settled **4.19**,
+   between the thresholds, so by the gate's own letter the front moved without direction. That score
+   stands. **But the gate cannot answer the question the tape is now asking.** A test built to separate
+   *hawkish* from *dovish* returns "no direction" for **two completely different worlds**: a random
+   walk, where the front carries no information, and a **mean-reverting level**, where it carries a
+   great deal. Same verdict, opposite meanings — the fourth falsifier state (*too coarse*) applied to a
+   gate instead of a falsifier.
+   **What the full arc shows, and what the published arc hid:** **4.19 ×4 → 4.24 ×2 → 4.17 → 4.19.**
+   The front has now settled at **4.19 five times**, excursed to 4.24 *and* to 4.17 — **both
+   directions** — and returned to 4.19 each time. That is the shape of an **attractor**, which is a
+   different claim from the *pin* I retired on 08-25 (a pin SITS; an attractor DEPARTS AND RETURNS).
+   **NOT ESTABLISHED — eight settles cannot carry it.** I have twice mistaken a short run for a regime,
+   so this is written as the question, not the answer. **The discriminating test, pre-registered:
+   does an excursion off 4.19 REVERT within two settles?** Mean reversion says yes and says the
+   distribution keeps centring on 4.19; a random walk says excursions persist with no pull back; a
+   trend says successive settles move away. Score the *reversion*, not the level. First evidence is
+   mixed and should be recorded as such: the 4.24 excursion did **not** revert directly — it held two
+   settles then overshot to 4.17 before returning.
 
-4. **Korea: breadth, and the capital-return wave being priced.** The index has been carried by two
-   names over a falling market. Watch whether foreign buying broadens or stays chip-concentrated, and
-   whether the prop holds once the buybacks are priced. **The demand question needs a demand
-   catalyst** — and the nearest one is **NVIDIA, Wed Aug 26 after the US close**, not Micron in late
-   September. Nvidia's HBM pull is the demand signal that transmits to Samsung and SK Hynix, and
-   because it lands after the US close it reaches Korea on **Thursday**, one clock *after* Wednesday's
-   06Z jong-ga. *(Corrected 08-25: this gate named Micron as "the first real one." finance-ko's
-   reporter caught that Nvidia arrives weeks earlier — the desk owns the frame, so the desk owned the
-   error. Micron late September remains the second, independent read.)*
+4. **Korea: breadth, and the demand question — NVIDIA HAS NOW PRINTED.** Q2 FY27, from the company
+   release: revenue **$96.2bn** (+106% YoY), **Data Center $89.0bn (+117% YoY)**, and a Q3 guide of
+   **$108.0bn ±2%** that explicitly assumes **no** Data Center compute revenue from China. On its face
+   that is a large AI-demand confirmation.
+   **It does NOT score the demand question yet, and the reason is transmission.** What Nvidia sells is
+   evidence about *Nvidia's* demand. The claim in play is whether Korean memory has a demand turn, and
+   that runs through **HBM pull into Samsung and SK Hynix** — which shows up at the **Korean open**,
+   not in an after-hours tick. **Positioning into and immediately after a print is evidence about
+   expectations, not about demand**; that distinction has cost this desk before. The gate was corrected
+   on 08-25 to name Nvidia as the nearer catalyst than Micron, and this is the settle it was built for:
+   **score it at the 08-27 06Z jong-ga**, on whether the HBM names and breadth actually move, with
+   Micron in late September as the second, independent read.
+   Still watch whether foreign buying broadens or stays chip-concentrated, and whether the prop holds
+   once the buybacks are priced.
 5. **The won.** Firming through everything for a week. A same-clock DXY/CNH-flat read trips the
    won-switch; without it, it stays the strongest unscored observation on the desk.
 
