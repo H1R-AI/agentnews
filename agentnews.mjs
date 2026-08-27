@@ -336,7 +336,7 @@ const C9_TOLERANCE = 0.011;
 //
 // Scoped hard to the base-levels block. An index level quoted in frame PROSE is
 // usually historical narration ("the week ran 6,471 -> 6,852") and must not fire.
-const C10_BASE_BLOCK = /\*\*Base levels[^*]*\*\*([\s\S]*?)(?=\n\n|\n\*\*|\n## |\n---|$)/i;
+const C10_BASE_BLOCK = /\*\*Base levels[^*]*\*\*([\s\S]*?)(?=\n\s*\n|\n## |\n---|$)/i;
 const C10_INDICES = [
   { key: 'KOSPI',  label: /KOSPI/i },
   { key: 'KOSDAQ', label: /KOSDAQ/i },
@@ -344,6 +344,13 @@ const C10_INDICES = [
   { key: 'SP500',  label: /S&P(?:\s*500)?/i },
   { key: 'NASDAQ', label: /Nasdaq/i },
   { key: 'DOW',    label: /Dow/i },
+  // Yields print to 1bp and the frame's whole front-end argument is built on 1bp
+  // differences, so these carry their own tolerance — the default 0.011 would
+  // swallow exactly the difference the check exists to see.
+  { key: 'UST2Y',  label: /\b2Y\b/i,  tol: 0.001 },
+  { key: 'UST5Y',  label: /\b5Y\b/i,  tol: 0.001 },
+  { key: 'UST10Y', label: /\b10Y\b/i, tol: 0.001 },
+  { key: 'UST30Y', label: /\b30Y\b/i, tol: 0.001 },
 ];
 const C10_EFFECTIVE_FROM = '2026-08-26';
 const C10_TOLERANCE = 0.011;
@@ -361,6 +368,26 @@ const C10_FIXTURES = [
    '**Base levels for the next window.** KOSPI **6,808.21** · Nikkei **66,262.16**.', { KOSPI: 6808.21 }, 0],
   ['no base-levels block at all parses to null (reported NOT CHECKED, never a pass)',
    'A frame with no such block.', { KOSPI: 6808.21 }, null],
+  // --- regression: the real frame shape, which C10 could not read until 2026-08-27 ---
+  ['REAL SHAPE: continuation lines starting with ** must not end the block',
+   '**Base levels for the next window — each as of its OWN market\'s last settle, not one date.**\n' +
+   '**US (Wed 08-26 close, 20:00Z):** UST **2Y 4.19 / 5Y 4.37 / 10Y 4.66 / 30Y 5.18** ·\n' +
+   'S&P **7,675.70** / Nasdaq **26,130.20** / Dow **53,463.88** · VIX **15.21**.\n' +
+   '**Asia (Wed 08-26 jong-ga, 06:30Z):** KOSPI **6,808.21** · KOSDAQ **826.87** · Nikkei **66,262.16**.\n\n' +
+   'Next paragraph.',
+   { UST2Y: 4.19, SP500: 7675.70, KOSPI: 6808.21, NIKKEI: 66262.16 }, 0],
+  ['REAL SHAPE: a stale UST tenor IS a finding at 1bp',
+   '**Base levels for the next window.**\n**US:** UST **2Y 4.17 / 10Y 4.64**.\n\nend',
+   { UST2Y: 4.19, UST10Y: 4.66 }, 2],
+  ['a 1bp yield gap must NOT be swallowed by the index-points tolerance',
+   '**Base levels for the next window.**\n**US:** UST **2Y 4.18**.\n\nend',
+   { UST2Y: 4.19 }, 1],
+  ['block present but body EMPTY reports zero coverage, never a pass',
+   '**Base levels for the next window.**\n\nSomething else entirely.',
+   { KOSPI: 6808.21 }, 'EMPTY'],
+  ['block present with prose but no recognised pair reports zero coverage',
+   '**Base levels for the next window.**\nCarried forward unchanged from yesterday.\n\nend',
+   { KOSPI: 6808.21 }, 'EMPTY'],
 ];
 
 
@@ -376,7 +403,7 @@ function parseFrameBaseLevels(frameText) {
     const re = new RegExp(spec.label.source + '[^0-9\\n]{0,24}?(\\d{1,3}(?:,\\d{3})*(?:\\.\\d{1,2})?)', 'i');
     const hit = block.match(re);
     if (!hit) continue;
-    out.push({ key: spec.key, value: Number(hit[1].replace(/,/g, '')) });
+    out.push({ key: spec.key, value: Number(hit[1].replace(/,/g, '')), tol: spec.tol ?? C10_TOLERANCE });
   }
   return out;
 }
@@ -1136,8 +1163,10 @@ function runC10SelfTest() {
     let got;
     if (parsed === null) {
       got = null;
+    } else if (parsed.length === 0) {
+      got = 'EMPTY';                      // zero coverage — must never read as zero findings
     } else {
-      got = parsed.filter((b) => declared[b.key] != null && Math.abs(b.value - declared[b.key]) > C10_TOLERANCE).length;
+      got = parsed.filter((b) => declared[b.key] != null && Math.abs(b.value - declared[b.key]) > b.tol).length;
     }
     if (got !== expected) {
       failed += 1;
@@ -1178,10 +1207,14 @@ function checkFrameBaseLevels(windowsByDomain, frameTextByDomain, errors, warnin
       warnings.push(`${domain}/frame.md: C10 — no "Base levels" block found, so the frame's carried levels were NOT CHECKED against the newest settle. This is not a pass.`);
       continue;
     }
+    if (parsed.length === 0) {
+      warnings.push(`${domain}/frame.md: C10 — a "Base levels" block was found but NO index/value pair was recognised inside it, so NOTHING was checked. Zero findings here means zero coverage, not zero defects — this is the shape that let C10 report green over both live frames from 2026-08-26 to 08-27 while parsing an empty body. This is not a pass.`);
+      continue;
+    }
     for (const b of parsed) {
       const n = newest.get(b.key);
       if (!n) continue;                                  // never declared -> nothing to compare
-      if (Math.abs(b.value - n.close) <= C10_TOLERANCE) continue;
+      if (Math.abs(b.value - n.close) <= b.tol) continue;
       warnings.push(
         `${domain}/frame.md: C10 — base level ${b.key} ${b.value} does not match the newest DECLARED settle ${n.close} (${n.domain}, window ${n.window_start}). A frame's base levels are what the next window starts from, so a stale one propagates into every window that reads it. Note the frame STAMP can be newer than its NUMBERS — C8 measures the stamp and cannot see this.`
       );
