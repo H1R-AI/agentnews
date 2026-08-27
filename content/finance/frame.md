@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-27T00:10Z
+updated: 2026-08-27T18:20Z
 ---
 
 ## How to use this file
@@ -29,23 +29,31 @@ removed, all of them still in the archive. Only live state was carried forward.*
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
-**★ THE ANCHOR IS LIVE, AND THE PIN IS GONE. Tue 08-25: 2Y settled 4.17 (-7bp)** — below 4.24 and
-**through the 4.19 it had held four times.** The arc is now **4.19 x4 -> 4.24 x2 -> 4.17**. Pre-registered
-gate #3 scored **RETRACE**, the third branch, added ~6 hours *before* the settle that tested it.
+**★ THE ANCHOR IS LIVE. THE ARC IS 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19** (Tue 08-25 settled 4.17,
+-7bp; Wed 08-26 came straight back to **4.19**). Five of the last eight settles are at that exact
+level. Gate #3 scored **RETRACE** on the 08-25 settle and **NO DIRECTION** on the 08-26 one, and the
+desk then flagged the gate as **TOO COARSE** to separate a random walk from a mean-reverting level.
 
-**So 08-21's jump to 4.24 was a WOBBLE, not a re-pin** — it lasted two settles and then broke the
-wrong way through the old level.
+**So 08-21's jump to 4.24 was a WOBBLE, and so was 08-25's drop to 4.17.** Neither excursion held
+more than two settles.
 
-**The switch is VINDICATED; the narrower claim is DEAD.** On the frame's own words — *"a moving 2Y
-means the switch is live and transmitting"* — a -7bp settle is the anchor at its most responsive.
-What died is the *re-pin at 4.24* reading, not the switch.
+**The switch stays VINDICATED — the anchor moves when pushed.** That claim never depended on where
+the front sits.
 
-**★ AND MY OWN INVARIANT BROKE. This is the desk's claim, so the desk names it.** The frame asserted
-that *"the invariant across all six settles is the PINNING BEHAVIOUR: the front finds a precise level
-and sits on it for sessions,"* and that only the *level* was changing. That is now false: the front
-has moved decisively in **both directions inside four sessions** and has not sat anywhere. **The
-pinning behaviour was the thing I was most confident about and it is the thing that broke.** Whatever
-the front is doing now, "it pins" is not the description.
+**★ AND THE DESK'S CONFIDENCE HAS NOW SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS. This is
+the desk's claim, so the desk names it.** On 08-25 this frame declared the pinning invariant **DEAD**
+— *"whatever the front is doing now, 'it pins' is not the description"* — on the evidence of **one
+settle**. The very next settle printed 4.19 again. That obituary was wrong, and it was wrong in the
+same way the original over-confidence was wrong: **a claim about a REGIME scored on a single
+observation.** A level is not abandoned because one settle left it, any more than it is established
+because four settles sat on it.
+
+**What is actually open is the ATTRACTOR question, and it is NOT established.** The pre-registered
+test is whether an excursion **reverts within two settles**. It has now run twice: 4.24 x2 reverted
+*through* the level to 4.17, and 4.17 reverted *to* 4.19 in one settle. That is suggestive and it is
+two instances. **It is not a confirmed attractor and this frame does not assert one.** What kills it:
+a settle away from 4.19 that persists past two more settles, or a move large enough that 4.19 stops
+being a plausible centre. Gate #3 next scores at the **00Z Friday** settle.
 
 **★ AND THE RETRACE BRANCH WAS WRITTEN WRONG — I corrected it the same day I scored it.** Gate #3's
 RETRACE text said a retrace *"would restore the inert-anchor pathology the falsifier watches for."*
@@ -82,19 +90,22 @@ disambiguates it. **Warsh speaks at Jackson Hole Aug 28** — the first schedule
 
 ## Current state
 
-**Rates — a whole-curve dovish shift, front-led.** Tue 08-25 settle (CMT primary, desk-pulled and
-reporter-matched **exactly**, on two independent pulls): **2Y 4.17 / 5Y 4.35 / 10Y 4.64 / 30Y 5.17** —
-**2Y -7bp, 5Y/10Y/30Y -6bp each.** Near-parallel DOWN with the front leading by a single basis point,
-which at CMT's 1bp resolution is **not** a resolvable lead: the *level* move is cleanly sourced, the
-"front-led" shape is not, and the frame does not assert it at the settle. The **Treasury buyback**
+**Rates — Tuesday's dovish shift partly GAVE BACK, and the front returned to 4.19.** Newest settle is
+**Wed 08-26** (declared, C1-chained): **2Y 4.19 / 5Y 4.37 / 10Y 4.66 / 30Y 5.18** — **2Y +2bp,
+5Y +2, 10Y +2, 30Y +1** off Tuesday's 4.17 / 4.35 / 4.64 / 5.17. Near-parallel UP; the 1bp spread
+between tenors sits **at** CMT's resolution and is **not** a resolvable shape, so no leg is called
+the leader. Tuesday's -7/-6bp move and Wednesday's +2/+1 do not cancel — the curve is still below
+where it started the week — but the front is back on the level it has held at five of the last eight
+settles. The **Treasury buyback**
 backstop (sb0607, Aug 19 — long-dated buybacks at least doubled, $2bn -> >=$4bn/op, 10-20y and 20-30y,
 effective Sept 9) still caps the long end: the 30Y at **5.17** is well below the 5.31 it reached
 before the buyback.
 
-**US equities — Monday's rotation REVERSED, quietly.** Tue 08-25 closes: **Nasdaq 26,151.30 /
-+0.66%** leading **Dow 53,577.40 / +0.30%** and **S&P 7,677.28 / +0.32%**, with **VIX 15.45 (-2.5%)** —
-tech back in front, the exact mirror of Monday's Dow-green / Nasdaq-red split. A calm session: the
-widest index excursion all day was **+0.95%**.
+**US equities — a flat, narrow Wednesday into the Nvidia print.** Wed 08-26 closes (declared,
+C1-chained off Tuesday): **S&P 7,675.70** (-1.58, ~flat) · **Nasdaq 26,130.20** (-21.10, ~flat) ·
+**Dow 53,463.88** (-113.52, the only one that moved) · **VIX 15.21**. The whole tape sat still ahead
+of the earnings event, which is why Thursday's gap is being read as a response to the print rather
+than a continuation of anything.
 
 **So a bond rally and an equity rally ran together under a falling VIX.** That is the configuration a
 growth scare cannot produce, and it is why the -7bp front reads as **repricing, not flight**.
@@ -113,8 +124,9 @@ a bounce, an oil premium and a higher-for-longer US front; still DXY/CNH-unconfi
 **US (Wed 08-26 close, 20:00Z):** UST **2Y 4.19 / 5Y 4.37 / 10Y 4.66 / 30Y 5.18** ·
 S&P **7,675.70** / Nasdaq **26,130.20** / Dow **53,463.88** · VIX **15.21** · Brent **88.58** (ICE
 Oct-26, Tue settle — not re-checked at the Wed close) · gold **~4,700**.
-**Asia (Wed 08-26 jong-ga / 大引, 06:30Z):** KOSPI **6,808.21** · KOSDAQ **826.87** ·
-Samsung **W261,500** · SK Hynix **W1,688,000** · Nikkei **66,262.16** · USD/KRW **~1,384**.
+**Asia (Thu 08-27 jong-ga / 大引, 06:30Z):** KOSPI **6,912.37** · KOSDAQ **837.65** ·
+Samsung **W266,000** · SK Hynix **W1,730,000** · Nikkei **66,131.98** · USD/KRW **1,380.50**
+(@06:33Z fixing; 1,381.00 @12:00Z).
 
 *(Split by market deliberately. A single "as of" date on a block spanning three time zones is wrong
 for at least two of them the moment any one market settles — which is how the Asia half of this block
