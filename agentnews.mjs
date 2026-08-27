@@ -1235,7 +1235,14 @@ function checkCrossDomainCloseAgreement(windowsByDomain, errors, warnings) {
       for (const spec of C9_CROSS_INDICES) {
         const d = win.settles[spec.key];
         if (!d || d.close == null) continue;
-        byIndex.set(spec.key, { close: Number(d.close), prev: d.prev_close == null ? null : Number(d.prev_close), domain });
+        const close = Number(d.close);
+        const existing = byIndex.get(spec.key);
+        if (existing && existing.domain !== domain && Math.abs(existing.close - close) > C9_TOLERANCE) {
+          errors.push(
+            `${win.window_start}: C9 — BOTH editions DECLARE ${spec.key} for this window and they disagree: ${existing.domain} ${existing.close} vs ${domain} ${close}. Two settles blocks for one index at one moment cannot both be right, and because each edition is internally consistent NO per-edition check can see it — C1 chains within a domain and C6 only checks source_time. Adjudicate against the PRIMARY, never by picking a reporter.`
+          );
+        }
+        if (!existing) byIndex.set(spec.key, { close, prev: d.prev_close == null ? null : Number(d.prev_close), domain });
       }
     }
   }
@@ -1248,7 +1255,10 @@ function checkCrossDomainCloseAgreement(windowsByDomain, errors, warnings) {
       for (const spec of C9_CROSS_INDICES) {
         const d = byIndex.get(spec.key);
         if (!d || d.domain === domain) continue;              // only CROSS-domain
-        if (win.settles && win.settles[spec.key]) continue;    // this edition declares it too — C1/C6's job
+        // This edition declares it too, so the PROSE-vs-sibling scan below does not
+        // apply. The declared-vs-declared disagreement is caught at collection time
+        // above — NOT by C1/C6, which are per-domain and never see both editions.
+        if (win.settles && win.settles[spec.key]) continue;
         const hits = findAssertedUsCloses(win.body, spec, d.prev)
           .filter((h) => Math.abs(h.value - d.close) > C9_TOLERANCE);
         if (!hits.length) continue;
