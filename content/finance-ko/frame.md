@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-08-26T18:20Z
+updated: 2026-08-27T12:20Z
 ---
 
 ## How to use this file
@@ -97,8 +97,16 @@ foreign net buys; *confirms* if it fades **and** foreign keeps selling.
 >
 > On **08-21 the two legs SPLIT** — price held (+0.88%) while **foreign flipped to a net seller
 > (−₩176B)** — so neither branch was satisfied and nothing scored. **A metric can trip without the
-> condition it stands for being tested.** The demand question needs a **demand catalyst**; the first
-> real one is Micron's next print, late September.
+> condition it stands for being tested.**
+>
+> **★ 08-27 — the first real demand catalyst ARRIVED (Nvidia's beat-and-raise) and the gate was TESTED
+> at the jong-ga — but published NOT SCORED.** KOSPI +1.53%, but the gap-up FADED (open = the high; SK
+> Hynix +4.80% open → +2.49% close), and the two scoring legs (foreign flow, breadth count) were
+> date-contaminated and WITHHELD, so neither *reverse* branch was cleanly met. **The demand question
+> stays OPEN.** The US session is re-bidding the memory names into Friday (SKHY ADR +4.23% pre-market
+> 08-27), a positioning lean — but the gate scores at the KOREAN settle on a CLEAN foreign-flow read,
+> which Friday's jong-ga is the next chance to deliver. Micron's late-Sept print remains an independent
+> second read.
 
 **Oil-import channel.** Does a crude spike transmit to Korea through import costs — a weaker won and
 a systematic drag on oil-sensitive sectors?
@@ -115,40 +123,47 @@ a systematic drag on oil-sensitive sectors?
 
 ## Current state
 
-**★ Wed 08-26 KRX settle — the recovery EXTENDED a 3rd session but RE-CONCENTRATED in the mega-caps.**
-KOSPI **6,808.21 / +0.97%** (@08-26 06Z jong-ga; Naver marketStatus=CLOSE + C1-chain) — but **KOSDAQ
-was FLAT (−0.03%)** and **Samsung +1.75% / SK Hynix +0.60% carried it**, so this is a mega-cap
-re-concentration, **not** a third breadth-repair session (the 08-26 settle up/down count + flows were
-date-contamination-blocked and are DEFERRED, not asserted). The arc here: **08-24 −3.12%** (a mirror
-crash — index down but 579 names UP, the capital-return trade unwinding on Samsung's disappointing
-~₩90–110T shareholder-return reveal) → **08-25 +0.68%** (a violent V — down ~−4.3% intraday to ~6,409,
-bought back to a close at the high, breadth strengthening two sessions, an Apple-sourcing scare
-rejected intraday) → **08-26 +0.97%** (mega-cap-led). The two mirror days (08-21 index-up/market-down;
-08-24 index-down/market-up) proved the index is a **two-mega-cap mirage in both directions**.
+**★ Thu 08-27 KRX settle — recovery EXTENDED a 4th session (+1.53%) on Nvidia's beat; the demand gate
+was TESTED but published NOT SCORED.** KOSPI **6,912.37 / +1.53%** (@08-27 06Z jong-ga; Naver
+marketStatus=CLOSE + C1-chain to 6,808.21). Nvidia beat-and-raised (rev $96.2B, DC +117%, $279bn supply
+commitments much of it HBM), Korea gapped +2.53% — but the gap-up **FADED intraday** (open 6,996.12 = the
+HIGH → +1.53% close; SK Hynix +4.80% open → +2.49% close, gave back half). The desk published the demand
+gate **NOT scored**: the shape argued against a clean confirmation and the two legs that would score it
+(foreign flow, breadth count) were date-contaminated and WITHHELD. *(Correction carried: my 08-26 "mega-cap
+RE-CONCENTRATION" read was RETRACTED at 18Z — the count came clean at 585 up/275 down, a BROAD 3rd session,
+and foreign selling had collapsed to −₩116B; the KOSDAQ-flat proxy was the wrong breadth measure.)* The arc:
+**08-24 −3.12%** (mirror crash — index down, 579 names UP, capital-return unwinding on Samsung's disappointing
+~₩90–110T reveal) → **08-25 +0.68%** (violent V, bought off ~6,409 to a close at the high) → **08-26 +0.97%**
+(broad, foreign selling collapsed) → **08-27 +1.53%** (Nvidia, but the gap faded, gate not scored). The mirror
+days (08-21 index-up/market-down; 08-24 index-down/market-up) proved the index is a **two-mega-cap mirage in
+both directions**.
 
-**The Apple-CXMT threat — UNPINNED (4 windows), and the harder facts cut FOR Korea.** The memory scare
+**The Apple-CXMT threat — UNPINNED (7 windows), and the harder facts cut FOR Korea.** The memory scare
 that hit 08-24/25 traces to a **June-origin** FT "Apple SEEKS approval to buy CXMT memory" story
 (Apple the applicant, not the US granting), already undercut before it re-priced: **CXMT REJECTED
 Apple's price cut** (Aug 5 — a Korean pricing-power boon) and **US Commerce OPPOSES it** (Lutnick Aug
 14). The Aug 24 US move was real+dated but its catalyst stays UNPINNED; US memory settled STRONG into
-it (SK Hynix ADR +2.68% @08-25). **Nvidia (Wed 08-26 after the US close) is the nearer demand read**,
-reaching Korea Thursday — do NOT pre-score on positioning (expectations ≠ demand). Micron late Sept is
-the second, independent read.
+it (SK Hynix ADR +2.68% @08-25). **Nvidia (Wed 08-26) PRINTED a beat-and-raise and was tested at the
+08-27 jong-ga — gate published NOT scored** (the gap faded, flow/breadth withheld); the demand question
+stays open, re-testing at Friday's settle. Micron late Sept is the second, independent read.
 
-**Flows (as of 08-25; 08-26 settle flows unverified):** 08-25 foreign **−₩3.82T** (2nd session at
-scale) fully absorbed by institutions **+₩1.17T** and individuals **+₩1.05T** — a heavy foreign exit
-met a heavier domestic bid.
+**Flows:** the foreign exit COLLAPSED then the flow read broke down. 08-25 foreign **−₩3.82T** (2nd
+session at scale, absorbed by institutions +₩1.17T / individuals +₩1.05T) → 08-26 foreign **−₩116B**
+(the exit essentially ENDED; institutions +~₩2T led, buyback +₩1.6T, individuals −₩2.24T) → **08-27
+WITHHELD** (the settle flow was date-contaminated; the desk did not score the demand gate on it). The
+US pre-market is re-bidding the memory ADRs into Friday, but foreign flow scores only at the jong-ga.
 
 **US front repriced DOVISH.** Scout's 08-25 settle scored a **RETRACE** — 2Y **4.17** (−7bp, through
 the 4.19 pin) — so the "re-pin at 4.24" was a wobble; a front-led dovish move into **Warsh's Jackson
 Hole keynote (Fri 08-28)**. This removes a higher-for-longer headwind the won had been firming against.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**Korea (Wed 08-26 jong-ga, 06:30Z / 15:30 KST):** KOSPI **6,808.21** (chain 6,471.17 → 6,852.58 →
-6,912.95 → 6,696.96 → 6,742.74 → 6,808.21) · KOSDAQ **826.87** · Samsung **₩261,500** · SK Hynix
-**₩1,688,000** · USD/KRW **1,385.30** (@06:34Z fixing).
-**Japan (Wed 08-26 close, 06:00Z):** Nikkei **66,262.16** (Scout-declared).
-**US (Tue 08-25 settle, carried — no newer):** 2Y **4.17** (Scout).
+**Korea (Thu 08-27 jong-ga, 06:30Z / 15:30 KST):** KOSPI **6,912.37** (chain 6,471.17 → 6,852.58 →
+6,912.95 → 6,696.96 → 6,742.74 → 6,808.21 → 6,912.37) · KOSDAQ **837.65** · Samsung **₩266,000** ·
+SK Hynix **₩1,730,000** · USD/KRW **1,380.50** (@06:33Z fixing; 1,381.00 @12:00Z).
+**Japan (Thu 08-27 close, 06:00Z):** Nikkei **66,131.98** (Scout-declared; faded a +1.05% high to −0.20%).
+**US (Wed 08-26 settle, Scout):** 2Y **4.19** CMT (gate #3 scored NO DIRECTION — 4.19 a possible attractor,
+NOT established).
 
 **Carried from `finance` (Scout canonical, quoted from his window — not reconstructed):** the Fri
 08-21 US settle **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. **The anchor RESPONDED** — the 2Y moved
@@ -173,8 +188,11 @@ no-landing → higher-for-longer.** One settle is not a hawkish regime.
 4. **The WON — the live one.** Firming through a crash, a bounce, an oil premium *and* a
    higher-for-longer US front. A same-clock **DXY/CNH-flat** read is all that stands between this
    and a scored trip. Get the same-clock read.
-5. **The DEMAND question stays open and needs a demand catalyst** — Micron's next print, late
-   September. Nothing before then can answer it, and no amount of price action substitutes.
+5. **The DEMAND question stays open — its first catalyst (Nvidia) came and did NOT resolve it.** The
+   beat-and-raise was tested at the 08-27 jong-ga but published NOT scored (gap faded, flow/breadth
+   withheld). It re-tests at Friday's settle on a CLEAN foreign-flow read; the US is re-bidding the
+   memory names into it (SKHY ADR +4.23% pre-market 08-27), a positioning lean, not the score. Micron's
+   late-Sept print is the independent second read. No price action substitutes for the settle flow.
 
 ---
 
