@@ -195,8 +195,10 @@ the front — and a front that MOVES is what *prevents* the trip. So the same ev
 AI-inflation axis and decides the falsifier, in opposite directions.
 
 ⚠️ **Mind the weekend gap, because it bites exactly here.** Friday's cash close is **20:00Z Friday**,
-which lands in a **Saturday 00Z window that this desk does not publish** — Sat/Sun are hard skips, and
-the Friday 18Z window is drafted intraday and carries **no settle**. By standing practice the Friday
+which lands in a **Saturday 00Z window**. Weekends are a **standing skip — last weekend window
+published 2026-07-18, six consecutive weekends skipped since** (practice, not a structural
+impossibility: 19 weekend windows exist in the archive from June/July). And the Friday 18Z window is
+drafted intraday and carries **no settle**. By standing practice the Friday
 settle is declared in the **MONDAY 00Z** window (as 08-24 00Z declared the 08-21 close). So the
 falsifier will sit with **one fired antecedent and no resolution for three days**, and the 06Z/12Z
 windows must not read that silence as a does-not-trip. They can watch the Nasdaq against the 2Y and
