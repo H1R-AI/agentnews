@@ -162,22 +162,19 @@ Score the **condition**, not the metric's letter, and only ever at a **settle**.
 antecedent never fired) / **too coarse** (true in one sub-case, false in another — and a single test
 can never return it). A silent "not tripped" that was really "never tested" accrues as false evidence.
 
-**Published sequence (08-17 → 08-27, by the settle each window scored):** four consecutive
-**does-NOT-trip** — one MODERATE basis (Mon 08-17 settle), three WEAK — then **four consecutive
-UNTESTABLE**, the antecedent never firing (largest excursions all far under ±1.5%) — and then, on
-**Thu 08-27, the antecedent FIRED. The untestable run is OVER; 08-27 is NOT a fifth.** It **does NOT
-trip**: the definition requires **two or more consecutive** such sessions, and this is one. It also
-rests on the **Nasdaq alone** (S&P high +0.85%, Dow high +0.46% did not fire) — so the second session
-need not be the Nasdaq, but it must be a major index clearing the bar on its own. Per-window detail is
-in the archive; only the shape of the run is live state.
+**Published sequence (08-17 → 08-27):** four **does-NOT-trip** (one MODERATE, three WEAK), then four
+**UNTESTABLE** (antecedent never fired), then **Thu 08-27 the antecedent FIRED — the untestable run is
+OVER and 08-27 is NOT a fifth.** It does **not trip**: two or more consecutive sessions are required
+and this is one. It rests on the **Nasdaq alone** (S&P high +0.85%, Dow +0.46% did not fire) — the
+second session need not be the Nasdaq, but it must clear the bar on its own. Per-window detail is in
+the archive.
 
-**★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED — Thursday 08-27 broke it.** That claim rested on the
-08-25 settle, where the front moved **-7bp** under a **+0.95%** tape — the opposite of the pathology on
-both legs. **Thursday is the opposite of THAT**, the pathology configuration on both legs at once for
-the first time in this run. I am the carrier of the low-risk claim and it is the one today's data
-breaks, so it is named here rather than quietly dropped. **Four does-not-trips are not four
-confirmations, and four untestables are not verdicts at all** — and one fired antecedent is not a trip
-either. What has changed is that the test is **LIVE again**: it has something to score.
+**★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED — Thursday broke it.** It rested on the 08-25 settle
+(front **-7bp** under a **+0.95%** tape, the opposite of the pathology on both legs); Thursday is the
+opposite of that — the pathology configuration on both legs at once, first time this run. I carry that
+claim and today's data breaks it, so it is named rather than quietly dropped. **Four does-not-trips
+are not four confirmations, four untestables are not verdicts, and one fired antecedent is not a
+trip.** What changed: the test is **LIVE again**.
 
 🔴 **PRE-REGISTERED, BEFORE THE SESSION — THE SATURDAY 00Z WINDOW SHIPS EITHER WAY.** Friday's cash
 close is **20:00Z Friday**, landing in a **Saturday 00Z window**, and weekends are a standing skip
