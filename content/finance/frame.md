@@ -177,13 +177,11 @@ are not four confirmations, four untestables are not verdicts, and one fired ant
 trip.** What changed: the test is **LIVE again**.
 
 🔴 **PRE-REGISTERED, BEFORE THE SESSION — THE SATURDAY 00Z WINDOW SHIPS EITHER WAY.** Friday's cash
-close is **20:00Z Friday**, landing in a **Saturday 00Z window**, and weekends are a standing skip
-(last one 2026-07-18 — practice, not impossibility: 19 weekend windows sit in the archive). Leo
-approved **one** exception, **this settle only** (00:54Z today); the weekend cadence is UNCHANGED and
-next weekend skips again. Deciding to publish *after* seeing whether it tripped would be selection
-bias, and a first trip obtained that way would be worth nothing — so the score is fixed here, now.
-The Friday 18Z window is drafted intraday and carries **no settle**; it must not read its own silence
-as a does-not-trip.
+close (20:00Z) lands in a **Saturday 00Z window**; weekends are a standing skip, and Leo approved
+**one** exception, **this settle only** — the cadence is unchanged and next weekend skips again.
+Publishing only *after* seeing whether it tripped would be selection bias and a first trip obtained
+that way would be worth nothing, so the score is fixed here, now. The Friday 18Z window carries **no
+settle** and must not read its own silence as a does-not-trip.
 
 **Antecedent, already fired (Thu 08-27):** Nasdaq **+1.57%** close / **+1.62%** high, over ±1.5% on
 both measures, against a 2Y that moved **1bp** (4.19 -> 4.20). One session; two consecutive are needed.
@@ -249,13 +247,12 @@ means SHORT, not one-sided.
    late-September print** as the independent second demand read.
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
-   are flat. The won printed **1,373.60, -8.40** — its **firmest of the run** (~1,419 → ~1,382 →
-   here) — and still missed by **1.6 won**, in one session. What DID advance is the control: **DXY
-   99.162 UNCH and CNH 6.720 flat, same-clock, for the first time in the run** (08-26 lost the
-   flat-dollar backdrop; 08-28 00Z had CNH null). So the precondition is finally met and the forward
-   test is clean: **Monday >±10 won with the controls still flat is a live 2-session test.** It firmed
-   *while* foreigners sold W1.76T of equities — outflow normally weakens it — but the gate that would
-   confirm a domestic bid is untestable, so that stays an observation, not a finding.
+   are flat. The won printed **1,373.60, -8.40** at 06:46Z — firmest of the run — and still missed by
+   **1.6 won**, in one session. What advanced is the control: **DXY and CNH flat same-clock for the
+   first time in the run.** So the precondition is met and the forward test is clean: **Monday >±10
+   won with the controls still flat is a live 2-session test.** It firmed *while* foreigners sold
+   W1.76T — outflow normally weakens it — but the confirming gate is untestable, so that stays an
+   observation.
 
 ---
 
