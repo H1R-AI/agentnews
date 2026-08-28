@@ -204,8 +204,7 @@ a test, and 4.24 is a cell this series visits. It does **not** govern Friday: Sa
 so applying it there is retroactive legislation in forward-dated clothing. **Arc-independent basis:**
 absolute daily CMT 2Y moves over 11 sessions are {0,1,2,5,7} — **3bp and 4bp have never occurred**, so
 all 11 classify identically under either cut and the edge cannot have been fitted to a landing. Data
-silent → stated tie-break: **where a test's text supports two thresholds, take the one that makes the
-POSITIVE finding HARDER.**
+silent → stated tie-break: **take the threshold that makes the POSITIVE finding HARDER.**
 
 **Warsh keynotes ~14:00Z inside that session** — the single event most likely to move the front, and a
 front that MOVES is what *prevents* the trip: the same event resolves the AI-inflation axis and
