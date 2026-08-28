@@ -193,14 +193,13 @@ both measures, against a 2Y that moved **1bp** (4.19 -> 4.20). One session; two 
 
 **★ THE BAND EDGE.** `~3-4bp` is a RANGE, not an edge, in all three places it appears — so a settle
 exactly 4bp out is inside on one reading, outside on the other, and the threshold would be choosable
-*after* the print. Fixed **12:05Z 08-28, before the open and before the settle** (ops `544b3f7`; the
-git timestamp is the evidence). **Friday 08-28 only:** ≤3bp (4.17–4.23) = INSIDE, trips if the index
+*after* the print. Fixed **12:05Z 08-28, before the open and before the settle** (ops `544b3f7`). **Friday 08-28 only:** ≤3bp (4.17–4.23) = INSIDE, trips if the index
 leg fires · **exactly 4bp** (4.16 or 4.24) = **TOO COARSE**, a defect of the TEST — do not pick a side
 · ≥5bp = OUTSIDE, the anchor answered.
 
 **★ FORWARD, from settles MONDAY 2026-08-31** (ops `ef57a4e`, 12:08Z): **|Δ| ≤ 3bp = INERT, |Δ| ≥ 4bp
-= RESPONDED. No indeterminate cell** — one *cannot resolve* is honest, a standing one means it is not
-a test, and 4.24 is a cell this series visits. It does **not** govern Friday: Saturday scores Friday,
+= RESPONDED. No indeterminate cell** (a standing *cannot resolve* is not a test). It does **not**
+govern Friday: Saturday scores Friday,
 so applying it there is retroactive legislation in forward-dated clothing. **Arc-independent basis:**
 absolute daily CMT 2Y moves over 11 sessions are {0,1,2,5,7} — **3bp and 4bp have never occurred**, so
 all 11 classify identically under either cut and the edge cannot have been fitted to a landing. Data
