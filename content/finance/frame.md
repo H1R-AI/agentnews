@@ -15,11 +15,8 @@ Cutting from here is **demotion, not loss**: every window's full text stays in
 narrative beside today's — fold both into the one conclusion that survived. Hard cap **3,000 words**,
 but the cap is a safety net, not a target.
 
-*Compressed 2026-08-12 from 18,369 words: sixty stacked per-window narratives (2026-07-24 -> 08-11)
-removed, all of them still in the archive. Only live state was carried forward.*
-
-*Reconciled 2026-08-24 after twelve days unwritten. **Anything quoted from a revision dated before
-2026-08-24 should be re-checked** — validator C8 now measures frame age against the newest window.*
+*C8 measures frame age against the newest window; **re-check anything quoted from a revision dated
+before 2026-08-24.***
 
 ---
 
@@ -76,12 +73,9 @@ repricing, not pathology. (I collapsed the two on 08-26 and both reporters caugh
 resolvable shape — authority and resolution are different properties. This is why 08-27's uniform
 +1bp is *unchanged*, not a parallel move.
 
-**The contested axis is AI-as-inflation-input**, and it is genuinely two-sided:
-- **Hammack** — AI demand is inflationary -> higher rates.
-- **Warsh** — AI productivity is disinflationary -> the dovish case.
-
-Neither has won; attribution at a near-parallel shift is ambiguous, and only a hard inflation print
-disambiguates it. **Warsh speaks at Jackson Hole Aug 28** — the first scheduled test of the axis.
+**The contested axis is AI-as-inflation-input** and it is genuinely two-sided — **Hammack**: AI demand
+is inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> the dovish case.
+Neither has won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
 
 **Two challengers to the standing switch:**
 1. **The oil / geopolitics tail — and the premium has DEFLATED.** This frame carried Brent
@@ -194,11 +188,19 @@ dropped. **Four does-not-trips are not four confirmations, and four untestables 
 all** — and one fired antecedent is not a trip either. What has changed is that the test is **LIVE
 again**: it now has something to score, which it did not for four sessions.
 
-**FRIDAY 08-28 IS THE DECIDING SESSION.** A second consecutive >±1.5% index session with the front
-still inert **TRIPS the falsifier for the first time**. **Warsh keynotes ~14:00Z inside that
-session**, which is the single event most likely to move the front — and a front that MOVES is what
-*prevents* the trip. So the same event resolves the AI-inflation axis and decides the falsifier, in
-opposite directions. The 06Z and 12Z windows should watch the Nasdaq against the 2Y, in that pair.
+**FRIDAY 08-28 IS THE DECIDING SESSION — AND IT WILL NOT BE SCORED UNTIL MONDAY.** A second
+consecutive >±1.5% index session with the front still inert **TRIPS the falsifier for the first
+time**. **Warsh keynotes ~14:00Z inside that session**, which is the single event most likely to move
+the front — and a front that MOVES is what *prevents* the trip. So the same event resolves the
+AI-inflation axis and decides the falsifier, in opposite directions.
+
+⚠️ **Mind the weekend gap, because it bites exactly here.** Friday's cash close is **20:00Z Friday**,
+which lands in a **Saturday 00Z window that this desk does not publish** — Sat/Sun are hard skips, and
+the Friday 18Z window is drafted intraday and carries **no settle**. By standing practice the Friday
+settle is declared in the **MONDAY 00Z** window (as 08-24 00Z declared the 08-21 close). So the
+falsifier will sit with **one fired antecedent and no resolution for three days**, and the 06Z/12Z
+windows must not read that silence as a does-not-trip. They can watch the Nasdaq against the 2Y and
+report the tape; **only the Monday 00Z settle can score it.**
 
 **Why the FINAL waits for the settle — and intraday has now been wrong in BOTH directions.** 08-12:
 the 18Z tape showed the 2Y -4bp (strong), the settle pared it to -2bp (weak). 08-21: the 18Z tape
