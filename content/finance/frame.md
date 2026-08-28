@@ -118,10 +118,17 @@ part of the tape. **The intraday "AI split" did NOT survive the settle** — Mic
 to -3.36%, and closed **-0.32%**, i.e. flat; of the three names that closed red only Micron is memory,
 and three other receivers of the same spend were bought (AVGO +4.49%, TSM +2.30%, SMCI +2.86%; SOX
 +2.33%). **So "sell-the-spend fires at the RECEIVERS" is retired — the desk seeded that reading at 18Z
-and the closes do not support it.** What the tape discriminated on is unresolved; the live candidate
-is **volume vs MARGIN** (Marvell accelerated data-centre revenue and was sold ~7.9% after the bell on
-a ~90bp gross-margin step-down), and **SMCI — thin-margin and bought — is the counterexample that
-stops it being asserted.**
+and the closes do not support it.** The discrimination is real; **no proposed axis survives its own
+counterexample**, and three have now been tried:
+- *provider vs receiver* — dies on **AVGO +4.49 / TSM +2.30 / SMCI +2.86**, all receivers, all bought;
+- *volume vs MARGIN* (Marvell accelerated data-centre revenue and was sold ~7.9% after the bell on a
+  ~90bp gross-margin step-down) — dies on **SMCI**, the thinnest-margin name in the complex, bought;
+- *Nvidia SHARE* (pay the supply chain, sell the alternatives) — explains AMD -0.89 and MRVL -1.49,
+  dies on **AVGO**, a custom-silicon alternative, bought hardest of the three receivers.
+
+**So the honest state is: the tape discriminated and we cannot yet say on what.** That is a better
+carry than any of the three, because each is individually plausible and each would license a
+different call. Do not let a later window adopt one by default — name the counterexample with it.
 
 **Thursday's configuration is different and it is the one that matters: equities up, VIX down, and a
 front that did not move at all.** Not a bond rally against an equity rally — a **1bp** front under a
