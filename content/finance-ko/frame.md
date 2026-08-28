@@ -201,7 +201,7 @@ is decisive. Warsh's Jackson Hole keynote (Fri 08-28, ~14:00Z) is the next resol
 **Korea (Fri 08-28 jong-ga, 06:30Z / 15:34 KST):** KOSPI **6,788.88** / −1.79% (chain …6,742.74 →
 6,808.21 → 6,912.37 → 6,788.88; C1 EXACT −123.49, three publishers) · KOSDAQ **838.41** / +0.09% ·
 Samsung **₩257,000** · SK Hynix **₩1,653,000** · USD/KRW **1,373.60** (@06:46Z, Naver mobile FX — firmest of the run).
-**Japan (Thu 08-27 close, 06:00Z):** Nikkei **66,131.98** (Scout-declared; faded a +1.05% high to −0.20%).
+**Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
 **US (Thu 08-27 settle, Scout-declared 00Z):** 2Y **4.20** CMT (4.17→4.19→4.20; **gate #3 UNADJUDICATED**
 — 4.20≈4.19, 1bp/flat, no excursion to revert; 4.19–4.20 a possible attractor, NOT established). Full
 curve per Scout/desk: 5Y 4.38 / 10Y 4.67 / 30Y 5.19; SP500 7,730.99 / NASDAQ 26,541.35 / DOW 53,569.44 /
