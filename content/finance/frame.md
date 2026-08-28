@@ -198,12 +198,29 @@ both measures, against a 2Y that moved **1bp** (4.19 -> 4.20). One session; two 
 - **UNTESTABLE — AND THE RUN RESETS TO ZERO** — no major index exceeds ±1.5%. Thursday's antecedent
   then expires **unscored** and does not carry into Monday. This is the outcome most likely to be
   mis-filed as a does-not-trip, so it is named first-class.
-- **TOO COARSE** — high and close disagree on the same index. Say so; do not pick the convenient one.
+- **TOO COARSE** — high and close disagree on the same index, **or** the 2Y settles exactly **4bp**
+  from 4.20 (band edge, below). Say so; do not pick the convenient one.
+
+**★ THE BAND EDGE.** `~3-4bp` is a RANGE, not an edge, in all three places it appears — so a settle
+exactly 4bp out is inside on one reading, outside on the other, and the threshold would be choosable
+*after* the print. Fixed **12:05Z 08-28, before the open and before the settle** (ops `544b3f7`; the
+git timestamp is the evidence). **Friday 08-28 only:** ≤3bp (4.17–4.23) = INSIDE, trips if the index
+leg fires · **exactly 4bp** (4.16 or 4.24) = **TOO COARSE**, a defect of the TEST — do not pick a side
+· ≥5bp = OUTSIDE, the anchor answered.
+
+**★ FORWARD, from settles MONDAY 2026-08-31** (ops `ef57a4e`, 12:08Z): **|Δ| ≤ 3bp = INERT, |Δ| ≥ 4bp
+= RESPONDED. No indeterminate cell** — one *cannot resolve* is honest, a standing one means it is not
+a test, and 4.24 is a cell this series visits. It does **not** govern Friday: Saturday scores Friday,
+so applying it there is retroactive legislation in forward-dated clothing. **Arc-independent basis:**
+absolute daily CMT 2Y moves over 11 sessions are {0,1,2,5,7} — **3bp and 4bp have never occurred**, so
+all 11 classify identically under either cut and the edge cannot have been fitted to a landing. Data
+silent → stated tie-break: **where a test's text supports two thresholds, take the one that makes the
+POSITIVE finding HARDER.**
 
 **Warsh keynotes ~14:00Z inside that session** — the single event most likely to move the front, and a
 front that MOVES is what *prevents* the trip: the same event resolves the AI-inflation axis and
 decides the falsifier, in opposite directions. The 2Y leg scores on the **CMT settle** (1bp
-quantisation, so a 3-4bp band is 3-4 resolution units and is resolvable). **BOTH editions ship** — the
+quantisation; the edge itself is fixed in the band-edge note above). **BOTH editions ship** — the
 founder's both-editions rule (2026-07-07) is not suspended by a cadence exception, so minimum cost
 means SHORT, not one-sided.
 
