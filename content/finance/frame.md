@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-28T00:30Z
+updated: 2026-08-28T01:05Z
 ---
 
 ## How to use this file
@@ -171,53 +171,60 @@ can never return it). A silent "not tripped" that was really "never tested" accr
 
 **Published sequence (08-17 → 08-27, by the settle each window scored):** four consecutive
 **does-NOT-trip** — one MODERATE basis (Mon 08-17 settle), three WEAK — then **four consecutive
-UNTESTABLE**, the antecedent never firing (largest index excursion +0.98%, +0.43%, +0.26%, and on
-08-25 **+0.95%**, all far under ±1.5%) — and then, on **Thu 08-27, the antecedent FIRED.**
-**The untestable run is OVER; 08-27 is NOT a fifth.** The Nasdaq closed **+1.57%** with an intraday
-high of **+1.62%** — above ±1.5% on *both* measures, so the threshold call does not depend on which
-one the test means — against a 2Y that moved **4.19 -> 4.20, one basis point**. That is the
-configuration, on both legs at once. It **does NOT trip**: the definition requires **two or more
-consecutive** such sessions, and this is one. It also rests on the **Nasdaq alone** (S&P high
-+0.85%, Dow high +0.46% did not fire). Per-window detail is in the archive; only the shape of the
-run is live state.
+UNTESTABLE**, the antecedent never firing (largest excursions all far under ±1.5%) — and then, on
+**Thu 08-27, the antecedent FIRED. The untestable run is OVER; 08-27 is NOT a fifth.** It **does NOT
+trip**: the definition requires **two or more consecutive** such sessions, and this is one. It also
+rests on the **Nasdaq alone** (S&P high +0.85%, Dow high +0.46% did not fire) — so the second session
+need not be the Nasdaq, but it must be a major index clearing the bar on its own. Per-window detail is
+in the archive; only the shape of the run is live state.
 
 **★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED — Thursday 08-27 broke it.** That claim rested on the
-08-25 settle, where the front moved **-7bp** under a **+0.95%** tape: the opposite of the pathology on
-both legs at once. **Thursday is the opposite of THAT** — a **1bp** front under a **+1.57%** Nasdaq,
-the pathology configuration on both legs at once, for the first time in this run. I am the carrier of
-the low-risk claim and it is the one today's data breaks, so it is named here rather than quietly
-dropped. **Four does-not-trips are not four confirmations, and four untestables are not verdicts at
-all** — and one fired antecedent is not a trip either. What has changed is that the test is **LIVE
-again**: it now has something to score, which it did not for four sessions.
+08-25 settle, where the front moved **-7bp** under a **+0.95%** tape — the opposite of the pathology on
+both legs. **Thursday is the opposite of THAT**, the pathology configuration on both legs at once for
+the first time in this run. I am the carrier of the low-risk claim and it is the one today's data
+breaks, so it is named here rather than quietly dropped. **Four does-not-trips are not four
+confirmations, and four untestables are not verdicts at all** — and one fired antecedent is not a trip
+either. What has changed is that the test is **LIVE again**: it has something to score.
 
-**FRIDAY 08-28 IS THE DECIDING SESSION — AND IT WILL NOT BE SCORED UNTIL MONDAY.** A second
-consecutive >±1.5% index session with the front still inert **TRIPS the falsifier for the first
-time**. **Warsh keynotes ~14:00Z inside that session**, which is the single event most likely to move
-the front — and a front that MOVES is what *prevents* the trip. So the same event resolves the
-AI-inflation axis and decides the falsifier, in opposite directions.
+🔴 **PRE-REGISTERED, BEFORE THE SESSION — THE SATURDAY 00Z WINDOW SHIPS EITHER WAY.** Friday's cash
+close is **20:00Z Friday**, landing in a **Saturday 00Z window**, and weekends are a standing skip
+(last one 2026-07-18 — practice, not impossibility: 19 weekend windows sit in the archive). Leo
+approved **one** exception, **this settle only** (00:54Z today); the weekend cadence is UNCHANGED and
+next weekend skips again. Deciding to publish *after* seeing whether it tripped would be selection
+bias, and a first trip obtained that way would be worth nothing — so the score is fixed here, now.
+The Friday 18Z window is drafted intraday and carries **no settle**; it must not read its own silence
+as a does-not-trip.
 
-⚠️ **Mind the weekend gap, because it bites exactly here.** Friday's cash close is **20:00Z Friday**,
-which lands in a **Saturday 00Z window**. Weekends are a **standing skip — last weekend window
-published 2026-07-18, six consecutive weekends skipped since** (practice, not a structural
-impossibility: 19 weekend windows exist in the archive from June/July). And the Friday 18Z window is
-drafted intraday and carries **no settle**. By standing practice the Friday
-settle is declared in the **MONDAY 00Z** window (as 08-24 00Z declared the 08-21 close). So the
-falsifier will sit with **one fired antecedent and no resolution for three days**, and the 06Z/12Z
-windows must not read that silence as a does-not-trip. They can watch the Nasdaq against the 2Y and
-report the tape; **only the Monday 00Z settle can score it.**
+**Antecedent, already fired (Thu 08-27):** Nasdaq **+1.57%** close / **+1.62%** high, over ±1.5% on
+both measures, against a 2Y that moved **1bp** (4.19 -> 4.20). One session; two consecutive are needed.
 
-**Why the FINAL waits for the settle — and intraday has now been wrong in BOTH directions.** 08-12:
-the 18Z tape showed the 2Y -4bp (strong), the settle pared it to -2bp (weak). 08-21: the 18Z tape
-showed 4.234, the settle came in *higher* at 4.24. There is no 18Z settle; the score belongs to 00Z.
+**Friday 08-28 returns exactly one of these four, and the Saturday window publishes whichever it is:**
+- **TRIPS** — a major US index again exceeds ±1.5% on intraday high *and* close (same index) while the
+  2Y settles within **~3-4bp of 4.20**. First trip in the falsifier's life.
+- **DOES NOT TRIP** — the index fires, the 2Y settles outside that band. The anchor answered.
+- **UNTESTABLE — AND THE RUN RESETS TO ZERO** — no major index exceeds ±1.5%. Thursday's antecedent
+  then expires **unscored** and does not carry into Monday. This is the outcome most likely to be
+  mis-filed as a does-not-trip, so it is named first-class.
+- **TOO COARSE** — high and close disagree on the same index. Say so; do not pick the convenient one.
+
+**Warsh keynotes ~14:00Z inside that session** — the single event most likely to move the front, and a
+front that MOVES is what *prevents* the trip: the same event resolves the AI-inflation axis and
+decides the falsifier, in opposite directions. The 2Y leg scores on the **CMT settle** (1bp
+quantisation, so a 3-4bp band is 3-4 resolution units and is resolvable). **BOTH editions ship** — the
+founder's both-editions rule (2026-07-07) is not suspended by a cadence exception, so minimum cost
+means SHORT, not one-sided.
+
+**Why the FINAL waits for the settle — intraday has been wrong in BOTH directions.** 08-12: the 18Z
+tape showed the 2Y -4bp, the settle pared it to -2bp. 08-21: the 18Z tape showed 4.234, the settle
+came in *higher*. The score belongs to 00Z.
 
 ---
 
 ## Next gates
 
-1. **★ Jackson Hole — Warsh keynotes Fri Aug 28, ~10am ET / 14:00Z**, his first as chair and one of
-   the two named poles of the AI-inflation axis. It is also **inside the falsifier's deciding
-   session** (see Falsifier): the event most likely to move the front is the event that would
-   *prevent* the trip.
+1. **★ Jackson Hole — Warsh keynotes Fri Aug 28, ~14:00Z**, his first as chair and one of the two
+   named poles of the AI-inflation axis. Sits inside the falsifier's deciding session — see Falsifier
+   for the pre-registered score.
 2. **Sept 15-16 FOMC** — the durability catalyst.
 3. **The 4.19 attractor — UNADJUDICATED at the 08-27 settle (antecedent did not fire).** Full arc,
    status and the pre-registered test live in **The switch**; not repeated here. Standing shape: the
@@ -225,22 +232,17 @@ showed 4.234, the settle came in *higher* at 4.24. There is no 18Z settle; the s
    alike, which are opposite worlds. Next scores at the first settle a real excursion appears in
    front of it.
 
-4. **Korea: breadth, and the demand question — NVIDIA HAS NOW PRINTED.** Q2 FY27, from the company
-   release: revenue **$96.2bn** (+106% YoY), **Data Center $89.0bn (+117% YoY)**, and a Q3 guide of
-   **$108.0bn ±2%** that explicitly assumes **no** Data Center compute revenue from China. On its face
-   that is a large AI-demand confirmation.
-   **It does NOT score the demand question yet, and the reason is transmission.** What Nvidia sells is
-   evidence about *Nvidia's* demand. The claim in play is whether Korean memory has a demand turn, and
-   that runs through **HBM pull into Samsung and SK Hynix** — which shows up at the **Korean open**,
-   not in an after-hours tick. **Positioning into and immediately after a print is evidence about
-   expectations, not about demand**; that distinction has cost this desk before. The gate was corrected
-   on 08-25 to name Nvidia as the nearer catalyst than Micron. **Next scores at the FRI 08-28 06Z
-   jong-ga** (C1 chains off KOSPI 6,912.37), on whether the HBM names and breadth actually move.
-   **Thursday's US tape did not answer it** — Micron closed ~flat and Micron is the commodity-DRAM
-   proxy, not an HBM name; the deep-cash read is Samsung/SK Hynix at the jong-ga, `finance-ko`'s.
-   Micron's own late-September print is the second, independent read.
-   Still watch whether foreign buying broadens or stays chip-concentrated, and whether the prop holds
-   once the buybacks are priced.
+4. **Korea: breadth, and the demand question — NVIDIA HAS PRINTED** (Q2 FY27: revenue **$96.2bn**,
+   **Data Center $89.0bn +117% YoY**, Q3 guide **$108.0bn ±2%** assuming **no** China DC compute). On
+   its face a large AI-demand confirmation. **It does NOT score the demand question yet, and the
+   reason is transmission:** what Nvidia sells is evidence about *Nvidia's* demand. The claim in play
+   is whether Korean memory has a demand turn, which runs through **HBM pull into Samsung and SK
+   Hynix** — visible at the **Korean open**, not in an after-hours tick. **Positioning around a print
+   is evidence about expectations, not demand**; that distinction has cost this desk before. **Next
+   scores at the FRI 08-28 06Z jong-ga** (C1 chains off KOSPI 6,912.37). **Thursday's US tape did not
+   answer it** — Micron closed ~flat and is the commodity-DRAM proxy, not an HBM name; the deep-cash
+   read is Samsung/SK Hynix at the jong-ga, `finance-ko`'s. Micron's late-September print is the
+   second, independent read. Still watch whether foreign buying broadens or stays chip-concentrated.
 5. **The won.** Firming through everything for a week. A same-clock DXY/CNH-flat read trips the
    won-switch; without it, it stays the strongest unscored observation on the desk.
 
