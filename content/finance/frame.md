@@ -141,12 +141,9 @@ gold **~4,650** (futures print, not a settle).
 Samsung **W257,000** · SK Hynix **W1,653,000** · Nikkei **66,405.56** · USD/KRW **1,373.60**
 (@06:46Z, Naver FX API — the frame's series; NOT a bank posting).
 
-*(Split by market deliberately. A single "as of" date on a block spanning three time zones is wrong
-for at least two of them the moment any one market settles — which is how the Asia half of this block
-sat a session stale while the stamp looked current. Two corrections found by validator C10 on its
-first run over this file: the Asia levels were Tuesday's after Wednesday's jong-ga, and Brent was
-carried at ~89.0, which was an INTRADAY pull at 12:21Z Tuesday, not the 88.58 settle — an intraday
-snapshot filed as a settle base.)*
+*(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
+them the moment any market settles — that is how the Asia half once sat a session stale under a
+current-looking stamp. Never file an intraday pull as a settle base.)*
 
 ---
 
