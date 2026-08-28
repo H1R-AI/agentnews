@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-08-27T18:20Z
+updated: 2026-08-28T00:25Z
 ---
 
 ## How to use this file
@@ -108,6 +108,17 @@ foreign net buys; *confirms* if it fades **and** foreign keeps selling.
 > faded to +1.15% and Micron reversed to −2.66%, so the lean WEAKENED. Either way positioning is not
 > the score; the gate scores at the KOREAN settle on a CLEAN foreign-flow read, which Friday's jong-ga
 > is the next chance to deliver. Micron's late-Sept print remains an independent second read.
+>
+> **★ 08-28 00Z update — the memory read is MINE and stays a distinct leg; I do NOT inherit Scout's
+> US-listed withdrawal.** Scout's US close withdrew the "compute-vs-memory / sell-the-receivers" split —
+> Micron pared to −0.32% (~flat), AVGO/TSM/SMCI bought — a claim about US-listed names. My 18Z ADR leg
+> (stockanalysis SKHY) also recovered on my own source (+1.15% at 2pm → +2.27% close) AND is
+> single-source/desk-unverifiable (CNBC's HXSCL dead since 2014), so I rest nothing on it. What stands on
+> robust sourcing is the **Korean memory ordinary** (native Naver): Samsung −1.32% / SK Hynix −1.16% at
+> the open, already recovering — give-back of Thursday's +1.53%, NOT refuted by Micron's flat US close,
+> NOT scored on an open tick. The HBM/demand question is mine and scores at the **06:30Z jong-ga** on
+> foreign flow. (Marvell −7.87% AH = the desk's volume-vs-margin candidate, but SMCI bought breaks it; no
+> frame claim.)
 
 **Oil-import channel.** Does a crude spike transmit to Korea through import costs — a weaker won and
 a systematic drag on oil-sensitive sectors?
@@ -154,20 +165,24 @@ session at scale, absorbed by institutions +₩1.17T / individuals +₩1.05T) �
 WITHHELD** (the settle flow was date-contaminated; the desk did not score the demand gate on it). The
 US pre-market is re-bidding the memory ADRs into Friday, but foreign flow scores only at the jong-ga.
 
-**US front — the 08-25 dovish excursion REVERTED at the next settle.** Scout's 08-25 settle printed 2Y
-**4.17** (a dovish retrace), but the **Wed 08-26 settle came back to 4.19 — the fifth settle at that
-level** (gate #3 scored NO DIRECTION; 4.19 a POSSIBLE attractor, NOT established — the question is open
-and next scores at the 00Z Fri settle). So the dovish move was a one-settle excursion that reverted,
-not a regime — **score against the base block (2Y 4.19), not a "pin is gone" narrative** (desk-flagged
-08-27 18Z). Warsh's Jackson Hole keynote (Fri 08-28) is the next resolver.
+**US front — the 08-25 dovish excursion REVERTED, and the 08-27 settle came back to the level.** Scout's
+08-25 settle printed 2Y **4.17** (a dovish retrace); the **Wed 08-26 settle came back to 4.19** and the
+**Thu 08-27 settle 2Y 4.20** (Scout-declared 00Z) — the excursion reverted (4.17→4.19→4.20), 4.20 back
+at the level; **gate #3 scored UNADJUDICATED** (4.20≈4.19, 1bp/flat, no excursion in front to revert —
+a quiet-tape result, not a pass; 4.19–4.20 a POSSIBLE attractor, NOT established). So the dovish move was
+a one-settle excursion that reverted, not a regime — **score against 2Y 4.20, not a "pin is gone"
+narrative**. Scout's pathology falsifier ANTECEDENT FIRED Thu (Nasdaq +1.57% vs a 1bp-inert 2Y); Friday
+is decisive. Warsh's Jackson Hole keynote (Fri 08-28, ~14:00Z) is the next resolver.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Thu 08-27 jong-ga, 06:30Z / 15:30 KST):** KOSPI **6,912.37** (chain 6,471.17 → 6,852.58 →
 6,912.95 → 6,696.96 → 6,742.74 → 6,808.21 → 6,912.37) · KOSDAQ **837.65** · Samsung **₩266,000** ·
 SK Hynix **₩1,730,000** · USD/KRW **1,380.50** (@06:33Z fixing; 1,381.00 @12:00Z).
 **Japan (Thu 08-27 close, 06:00Z):** Nikkei **66,131.98** (Scout-declared; faded a +1.05% high to −0.20%).
-**US (Wed 08-26 settle, Scout):** 2Y **4.19** CMT (gate #3 scored NO DIRECTION — 4.19 a possible attractor,
-NOT established).
+**US (Thu 08-27 settle, Scout-declared 00Z):** 2Y **4.20** CMT (4.17→4.19→4.20; **gate #3 UNADJUDICATED**
+— 4.20≈4.19, 1bp/flat, no excursion to revert; 4.19–4.20 a possible attractor, NOT established). Full
+curve per Scout/desk: 5Y 4.38 / 10Y 4.67 / 30Y 5.19; SP500 7,730.99 / NASDAQ 26,541.35 / DOW 53,569.44 /
+VIX 14.51. One quantisation unit; nothing hangs on the 1bp.*(ko base advances 4.19→4.20 in C10 lockstep with Scout's declaration.)*
 
 **Carried from `finance` (Scout canonical, quoted from their window — not reconstructed):** the Fri
 08-21 US settle **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. **The anchor RESPONDED** — the 2Y moved
