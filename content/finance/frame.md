@@ -242,8 +242,8 @@ means SHORT, not one-sided.
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
    are flat. **1,373.60 / -8.40 was a 06:46Z SNAPSHOT, not the session** — the KRW tape was, and at
    18Z still is, **OPEN** (`marketStatus=OPEN`), so "firmest of the run" and "missed by 1.6 won" were
-   session claims resting on a mid-session tick. **There is no settled Friday won number**; by 18Z it
-   had given back to ~1,380 as Warsh firmed the dollar. **UNTESTABLE on every reading.** And the
+   session claims on a mid-session tick. **No settled Friday won number exists**; by 18Z it had given
+   back to ~1,380 as Warsh firmed the dollar. **UNTESTABLE on every reading.** And the
    precondition **BROKE**: DXY **+0.56% to 99.716**, outside the ±0.3% band. **Monday inherits no
    clean 2-session test** — the controls-flat window opened and shut inside one session.
 
