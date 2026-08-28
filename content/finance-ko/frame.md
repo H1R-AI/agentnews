@@ -111,12 +111,13 @@ foreign net buys; *confirms* if it fades **and** foreign keeps selling.
 >
 > **★ 08-28 00Z update — the memory read is MINE and stays a distinct leg; I do NOT inherit Scout's
 > US-listed withdrawal.** Scout's US close withdrew the "compute-vs-memory / sell-the-receivers" split —
-> Micron pared to −0.32% (~flat), AVGO/TSM/SMCI bought — a claim about US-listed names. My 18Z ADR leg
-> (stockanalysis SKHY) also recovered on my own source (+1.15% at 2pm → +2.27% close) AND is
-> single-source/desk-unverifiable (CNBC's HXSCL dead since 2014), so I rest nothing on it. What stands on
-> robust sourcing is the **Korean memory ordinary** (native Naver): Samsung −1.32% / SK Hynix −1.16% at
-> the open, already recovering — give-back of Thursday's +1.53%, NOT refuted by Micron's flat US close,
-> NOT scored on an open tick. The HBM/demand question is mine and scores at the **06:30Z jong-ga** on
+> Micron pared to −0.32% (~flat), AVGO/TSM/SMCI bought — a claim about US-listed names. My own instrument
+> retires it independently: **the SK Hynix ADR (SKHY, a NASDAQ DR) closed +2.27% — two-channel,
+> desk-verified** (stockanalysis + CNBC; nasdaq.com AH reconciles) — the US-listed Korean memory name was
+> BOUGHT Thursday, so the 18Z memory-sold leg is retired on my own instrument, not by borrowing Scout's.
+> What also stands, on native sourcing, is the **Korean memory ordinary** (Naver): Samsung −1.32% /
+> SK Hynix −1.16% **at the bell**, recovering by 00:39Z (desk: −1.03% / −0.98%, above the bell) —
+> give-back of Thursday's +1.53%, NOT refuted by Micron's flat US close, NOT scored on an open tick. The HBM/demand question is mine and scores at the **06:30Z jong-ga** on
 > foreign flow. (Marvell −7.87% AH = the desk's volume-vs-margin candidate, but SMCI bought breaks it; no
 > frame claim.)
 
