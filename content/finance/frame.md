@@ -138,8 +138,8 @@ Oct-26, **TUE** settle — now THREE sessions stale and deliberately NOT re-mark
 ~$2 apart and neither carries a settle label, so there is no number to move it to) ·
 gold **~4,650** (futures print, not a settle).
 **Asia (Fri 08-28 jong-ga / 大引, 06:30Z):** KOSPI **6,788.88** · KOSDAQ **838.41** ·
-Samsung **W257,000** · SK Hynix **W1,653,000** · Nikkei **66,405.56** · USD/KRW **1,373.60**
-(@06:46Z, Naver FX API — the frame's series; NOT a bank posting).
+Samsung **W257,000** · SK Hynix **W1,653,000** · Nikkei **66,405.56** · USD/KRW **unsettled**
+(06:46Z tick 1,373.60; ~1,380 by 18Z; no Friday close — Naver, the frame's series).
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
@@ -240,12 +240,12 @@ means SHORT, not one-sided.
    late-September print** as the independent second demand read.
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
-   are flat. The won printed **1,373.60, -8.40** at 06:46Z — firmest of the run — and still missed by
-   **1.6 won**, in one session. What advanced is the control: **DXY and CNH flat same-clock for the
-   first time in the run.** So the precondition is met and the forward test is clean: **Monday >±10
-   won with the controls still flat is a live 2-session test.** It firmed *while* foreigners sold
-   W1.76T — outflow normally weakens it — but the confirming gate is untestable, so that stays an
-   observation.
+   are flat. **1,373.60 / -8.40 was a 06:46Z SNAPSHOT, not the session** — the KRW tape was, and at
+   18Z still is, **OPEN** (`marketStatus=OPEN`), so "firmest of the run" and "missed by 1.6 won" were
+   session claims on a mid-session tick. **No settled Friday won number exists**; by 18Z it had given
+   back to ~1,380 as Warsh firmed the dollar. **UNTESTABLE on every reading.** And the
+   precondition **BROKE**: DXY **+0.56% to 99.716**, outside the ±0.3% band. **Monday inherits no
+   clean 2-session test** — the controls-flat window opened and shut inside one session.
 
 ---
 
