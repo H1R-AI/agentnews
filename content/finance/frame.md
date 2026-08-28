@@ -121,17 +121,15 @@ front that did not move at all.** Not a bond rally against an equity rally — a
 +1.57% Nasdaq. Risk-on with an inert anchor is precisely the shape the falsifier watches for, so this
 session is scored below rather than filed as calm.
 
-**Korea — the demand question got its first CLEAN flow read on Fri 08-28, and it is STILL
-UNADJUDICATED.** The chip complex de-rated hard at the jong-ga — **SK Hynix -4.45%, Samsung -3.38%,
-KOSPI -1.79%** on **foreign -W1.76T** — ~10h after the US *bought* the same names
-(SKHY +2.27%). **Transmission FAILED.** The signature is the evidence: KOSPI's session high
-**6,901.78** never reclaimed Thursday's **6,912.37** close, and SK Hynix's high 1,725,000 never
-reclaimed 1,730,000 — both gapped down, never traded green, closed at or near the low. But it does
-**not** score: `finance-ko`'s *confirms* branch needs foreign to KEEP selling (they BOUGHT the prior
-session — a FLIP), and to track a US DE-RATE (the US ROSE), and the **~W46T buyback still confounds
-the price**, as it did on 08-20 — a valuation event cannot answer a demand question. **The driver is a
-corroborated NULL**: the domestic press frames it as a fall *despite* Nvidia's beat and names no
-cause. **Not regional** — Tokyo +0.41% same session. Detail is `finance-ko`'s.
+**Korea — the demand question got its first CLEAN flow read on Fri 08-28 and is STILL UNADJUDICATED.**
+The chip complex de-rated at the jong-ga — **SK Hynix -4.45%, Samsung -3.38%, KOSPI -1.79%** on
+**foreign -W1.76T** — ~10h after the US *bought* the same names (SKHY +2.27%). **Transmission
+FAILED**, and the signature is the evidence: neither KOSPI nor SK Hynix ever reclaimed Thursday's
+close; both gapped down, never traded green, closed near the low. It does **not** score — the
+*confirms* branch needs foreign to KEEP selling (they had BOUGHT: a FLIP) and a US DE-RATE (the US
+ROSE), and the **~W46T buyback confounds the price**: a valuation event cannot answer a demand
+question. **Driver is a corroborated NULL** (domestic press names no cause), and **not regional** —
+Tokyo +0.41%. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Thu 08-27 close, 20:00Z):** UST **2Y 4.20 / 5Y 4.38 / 10Y 4.67 / 30Y 5.19** ·
@@ -143,12 +141,9 @@ gold **~4,650** (futures print, not a settle).
 Samsung **W257,000** · SK Hynix **W1,653,000** · Nikkei **66,405.56** · USD/KRW **1,373.60**
 (@06:46Z, Naver FX API — the frame's series; NOT a bank posting).
 
-*(Split by market deliberately. A single "as of" date on a block spanning three time zones is wrong
-for at least two of them the moment any one market settles — which is how the Asia half of this block
-sat a session stale while the stamp looked current. Two corrections found by validator C10 on its
-first run over this file: the Asia levels were Tuesday's after Wednesday's jong-ga, and Brent was
-carried at ~89.0, which was an INTRADAY pull at 12:21Z Tuesday, not the 88.58 settle — an intraday
-snapshot filed as a settle base.)*
+*(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
+them the moment any market settles — that is how the Asia half once sat a session stale under a
+current-looking stamp. Never file an intraday pull as a settle base.)*
 
 ---
 
@@ -162,31 +157,26 @@ Score the **condition**, not the metric's letter, and only ever at a **settle**.
 antecedent never fired) / **too coarse** (true in one sub-case, false in another — and a single test
 can never return it). A silent "not tripped" that was really "never tested" accrues as false evidence.
 
-**Published sequence (08-17 → 08-27, by the settle each window scored):** four consecutive
-**does-NOT-trip** — one MODERATE basis (Mon 08-17 settle), three WEAK — then **four consecutive
-UNTESTABLE**, the antecedent never firing (largest excursions all far under ±1.5%) — and then, on
-**Thu 08-27, the antecedent FIRED. The untestable run is OVER; 08-27 is NOT a fifth.** It **does NOT
-trip**: the definition requires **two or more consecutive** such sessions, and this is one. It also
-rests on the **Nasdaq alone** (S&P high +0.85%, Dow high +0.46% did not fire) — so the second session
-need not be the Nasdaq, but it must be a major index clearing the bar on its own. Per-window detail is
-in the archive; only the shape of the run is live state.
+**Published sequence (08-17 → 08-27):** four **does-NOT-trip** (one MODERATE, three WEAK), then four
+**UNTESTABLE** (antecedent never fired), then **Thu 08-27 the antecedent FIRED — the untestable run is
+OVER and 08-27 is NOT a fifth.** It does **not trip**: two or more consecutive sessions are required
+and this is one. It rests on the **Nasdaq alone** (S&P high +0.85%, Dow +0.46% did not fire) — the
+second session need not be the Nasdaq, but it must clear the bar on its own. Per-window detail is in
+the archive.
 
-**★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED — Thursday 08-27 broke it.** That claim rested on the
-08-25 settle, where the front moved **-7bp** under a **+0.95%** tape — the opposite of the pathology on
-both legs. **Thursday is the opposite of THAT**, the pathology configuration on both legs at once for
-the first time in this run. I am the carrier of the low-risk claim and it is the one today's data
-breaks, so it is named here rather than quietly dropped. **Four does-not-trips are not four
-confirmations, and four untestables are not verdicts at all** — and one fired antecedent is not a trip
-either. What has changed is that the test is **LIVE again**: it has something to score.
+**★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED — Thursday broke it.** It rested on the 08-25 settle
+(front **-7bp** under a **+0.95%** tape, the opposite of the pathology on both legs); Thursday is the
+opposite of that — the pathology configuration on both legs at once, first time this run. I carry that
+claim and today's data breaks it, so it is named rather than quietly dropped. **Four does-not-trips
+are not four confirmations, four untestables are not verdicts, and one fired antecedent is not a
+trip.** What changed: the test is **LIVE again**.
 
 🔴 **PRE-REGISTERED, BEFORE THE SESSION — THE SATURDAY 00Z WINDOW SHIPS EITHER WAY.** Friday's cash
-close is **20:00Z Friday**, landing in a **Saturday 00Z window**, and weekends are a standing skip
-(last one 2026-07-18 — practice, not impossibility: 19 weekend windows sit in the archive). Leo
-approved **one** exception, **this settle only** (00:54Z today); the weekend cadence is UNCHANGED and
-next weekend skips again. Deciding to publish *after* seeing whether it tripped would be selection
-bias, and a first trip obtained that way would be worth nothing — so the score is fixed here, now.
-The Friday 18Z window is drafted intraday and carries **no settle**; it must not read its own silence
-as a does-not-trip.
+close (20:00Z) lands in a **Saturday 00Z window**; weekends are a standing skip, and Leo approved
+**one** exception, **this settle only** — the cadence is unchanged and next weekend skips again.
+Publishing only *after* seeing whether it tripped would be selection bias and a first trip obtained
+that way would be worth nothing, so the score is fixed here, now. The Friday 18Z window carries **no
+settle** and must not read its own silence as a does-not-trip.
 
 **Antecedent, already fired (Thu 08-27):** Nasdaq **+1.57%** close / **+1.62%** high, over ±1.5% on
 both measures, against a 2Y that moved **1bp** (4.19 -> 4.20). One session; two consecutive are needed.
@@ -198,12 +188,27 @@ both measures, against a 2Y that moved **1bp** (4.19 -> 4.20). One session; two 
 - **UNTESTABLE — AND THE RUN RESETS TO ZERO** — no major index exceeds ±1.5%. Thursday's antecedent
   then expires **unscored** and does not carry into Monday. This is the outcome most likely to be
   mis-filed as a does-not-trip, so it is named first-class.
-- **TOO COARSE** — high and close disagree on the same index. Say so; do not pick the convenient one.
+- **TOO COARSE** — high and close disagree on the same index, **or** the 2Y settles exactly **4bp**
+  from 4.20 (band edge, below). Say so; do not pick the convenient one.
+
+**★ THE BAND EDGE.** `~3-4bp` is a RANGE, not an edge, in all three places it appears — so a settle
+exactly 4bp out is inside on one reading, outside on the other, and the threshold would be choosable
+*after* the print. Fixed **12:05Z 08-28, before the open and before the settle** (ops `544b3f7`). **Friday 08-28 only:** ≤3bp (4.17–4.23) = INSIDE, trips if the index
+leg fires · **exactly 4bp** (4.16 or 4.24) = **TOO COARSE**, a defect of the TEST — do not pick a side
+· ≥5bp = OUTSIDE, the anchor answered.
+
+**★ FORWARD, from settles MONDAY 2026-08-31** (ops `ef57a4e`, 12:08Z): **|Δ| ≤ 3bp = INERT, |Δ| ≥ 4bp
+= RESPONDED. No indeterminate cell** (a standing *cannot resolve* is not a test). It does **not**
+govern Friday: Saturday scores Friday,
+so applying it there is retroactive legislation in forward-dated clothing. **Arc-independent basis:**
+absolute daily CMT 2Y moves over 11 sessions are {0,1,2,5,7} — **3bp and 4bp have never occurred**, so
+all 11 classify identically under either cut and the edge cannot have been fitted to a landing. Data
+silent → stated tie-break: **take the threshold that makes the POSITIVE finding HARDER.**
 
 **Warsh keynotes ~14:00Z inside that session** — the single event most likely to move the front, and a
 front that MOVES is what *prevents* the trip: the same event resolves the AI-inflation axis and
 decides the falsifier, in opposite directions. The 2Y leg scores on the **CMT settle** (1bp
-quantisation, so a 3-4bp band is 3-4 resolution units and is resolvable). **BOTH editions ship** — the
+quantisation; the edge itself is fixed in the band-edge note above). **BOTH editions ship** — the
 founder's both-editions rule (2026-07-07) is not suspended by a cadence exception, so minimum cost
 means SHORT, not one-sided.
 
@@ -235,13 +240,12 @@ means SHORT, not one-sided.
    late-September print** as the independent second demand read.
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
-   are flat. The won printed **1,373.60, -8.40** — its **firmest of the run** (~1,419 → ~1,382 →
-   here) — and still missed by **1.6 won**, in one session. What DID advance is the control: **DXY
-   99.162 UNCH and CNH 6.720 flat, same-clock, for the first time in the run** (08-26 lost the
-   flat-dollar backdrop; 08-28 00Z had CNH null). So the precondition is finally met and the forward
-   test is clean: **Monday >±10 won with the controls still flat is a live 2-session test.** It firmed
-   *while* foreigners sold W1.76T of equities — outflow normally weakens it — but the gate that would
-   confirm a domestic bid is untestable, so that stays an observation, not a finding.
+   are flat. The won printed **1,373.60, -8.40** at 06:46Z — firmest of the run — and still missed by
+   **1.6 won**, in one session. What advanced is the control: **DXY and CNH flat same-clock for the
+   first time in the run.** So the precondition is met and the forward test is clean: **Monday >±10
+   won with the controls still flat is a live 2-session test.** It firmed *while* foreigners sold
+   W1.76T — outflow normally weakens it — but the confirming gate is untestable, so that stays an
+   observation.
 
 ---
 
