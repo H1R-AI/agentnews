@@ -121,17 +121,15 @@ front that did not move at all.** Not a bond rally against an equity rally — a
 +1.57% Nasdaq. Risk-on with an inert anchor is precisely the shape the falsifier watches for, so this
 session is scored below rather than filed as calm.
 
-**Korea — the demand question got its first CLEAN flow read on Fri 08-28, and it is STILL
-UNADJUDICATED.** The chip complex de-rated hard at the jong-ga — **SK Hynix -4.45%, Samsung -3.38%,
-KOSPI -1.79%** on **foreign -W1.76T** — ~10h after the US *bought* the same names
-(SKHY +2.27%). **Transmission FAILED.** The signature is the evidence: KOSPI's session high
-**6,901.78** never reclaimed Thursday's **6,912.37** close, and SK Hynix's high 1,725,000 never
-reclaimed 1,730,000 — both gapped down, never traded green, closed at or near the low. But it does
-**not** score: `finance-ko`'s *confirms* branch needs foreign to KEEP selling (they BOUGHT the prior
-session — a FLIP), and to track a US DE-RATE (the US ROSE), and the **~W46T buyback still confounds
-the price**, as it did on 08-20 — a valuation event cannot answer a demand question. **The driver is a
-corroborated NULL**: the domestic press frames it as a fall *despite* Nvidia's beat and names no
-cause. **Not regional** — Tokyo +0.41% same session. Detail is `finance-ko`'s.
+**Korea — the demand question got its first CLEAN flow read on Fri 08-28 and is STILL UNADJUDICATED.**
+The chip complex de-rated at the jong-ga — **SK Hynix -4.45%, Samsung -3.38%, KOSPI -1.79%** on
+**foreign -W1.76T** — ~10h after the US *bought* the same names (SKHY +2.27%). **Transmission
+FAILED**, and the signature is the evidence: neither KOSPI nor SK Hynix ever reclaimed Thursday's
+close; both gapped down, never traded green, closed near the low. It does **not** score — the
+*confirms* branch needs foreign to KEEP selling (they had BOUGHT: a FLIP) and a US DE-RATE (the US
+ROSE), and the **~W46T buyback confounds the price**: a valuation event cannot answer a demand
+question. **Driver is a corroborated NULL** (domestic press names no cause), and **not regional** —
+Tokyo +0.41%. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Thu 08-27 close, 20:00Z):** UST **2Y 4.20 / 5Y 4.38 / 10Y 4.67 / 30Y 5.19** ·
