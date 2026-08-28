@@ -1,19 +1,16 @@
 ---
 domain: finance
-updated: 2026-08-28T01:05Z
+updated: 2026-08-28T07:10Z
 ---
 
 ## How to use this file
 
 **This is a snapshot of what is true NOW. It is not a log.** The main write action each window is
-**compression and deletion**, not addition — the frame should usually come out of a window *smaller*
-than it went in. The test for every line is one question: **does this change today's judgement?** If
-not, cut it. Interesting, hard-won, and might-matter-later are not reasons to keep.
-
-Cutting from here is **demotion, not loss**: every window's full text stays in
-`content/finance/windows/**`, which is what makes it safe to be ruthless. Never stack yesterday's
-narrative beside today's — fold both into the one conclusion that survived. Hard cap **3,000 words**,
-but the cap is a safety net, not a target.
+**compression and deletion**, not addition. The test for every line: **does this change today's
+judgement?** If not, cut it — interesting and might-matter-later are not reasons to keep. Cutting is
+**demotion, not loss**: every window's full text stays in `content/finance/windows/**`, which is what
+makes it safe to be ruthless. Never stack yesterday's narrative beside today's. Hard cap **3,000
+words**, a safety net, not a target.
 
 *C8 measures frame age against the newest window; **re-check anything quoted from a revision dated
 before 2026-08-24.***
@@ -41,49 +38,40 @@ the falsifier antecedent that FIRED the same session. The switch claim below is 
 anchor responds **when pushed**; Thursday did not push it. Do not carry "the anchor is live" off a
 session in which it did nothing.
 
-**So 08-21's jump to 4.24 was a WOBBLE, and so was 08-25's drop to 4.17.** Neither excursion held
-more than two settles.
+**So 08-21's jump to 4.24 was a WOBBLE, and so was 08-25's drop to 4.17** — neither held more than
+two settles. **The switch stays VINDICATED: the anchor moves when pushed**, a claim that never
+depended on where the front sits.
 
-**The switch stays VINDICATED — the anchor moves when pushed.** That claim never depended on where
-the front sits.
+**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS.** On 08-25 this frame
+declared the pinning invariant **DEAD** on **one settle**; the next settle printed 4.19. **A claim
+about a REGIME scored on a single observation** is the recurring error. A level is not abandoned
+because one settle left it, any more than it is established because four sat on it.
 
-**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS — and did so again this
-week.** On 08-25 this frame declared the pinning invariant **DEAD** on the evidence of **one settle**;
-the very next settle printed 4.19. **A claim about a REGIME scored on a single observation** is the
-recurring error, and tonight's retirement of the "pathology risk is low" call (Falsifier) is the same
-shape caught earlier. A level is not abandoned because one settle left it, any more than it is
-established because four settles sat on it.
-
-**What is actually open is the ATTRACTOR question, and it is NOT established.** The pre-registered
-test is whether an excursion **reverts within two settles**. It has now run twice: 4.24 x2 reverted
-*through* the level to 4.17, and 4.17 reverted *to* 4.19 in one settle. That is suggestive and it is
-two instances. **It is not a confirmed attractor and this frame does not assert one.** What kills it:
-a settle away from 4.19 that persists past two more settles, or a move large enough that 4.19 stops
-being a plausible centre. **The 08-27 settle did not test it** — 4.20 is 1bp off 4.19, no excursion
-stood in front of the gate, so it returned UNADJUDICATED and the count of instances is still **two**.
-Note also what tonight did *not* do: the strict two-settle-reversion form is **NOT refuted** either.
-The 4.24 excursion held **exactly two** settles and then left, which does not meet the kill condition
-above (*persists past two MORE settles*). Gate #3 next scores at the first settle a real excursion
-appears in front of it.
+**What is actually open is the ATTRACTOR question, and it is NOT established.** Pre-registered test:
+does an excursion **revert within two settles**? Two instances so far — 4.24 x2 reverted *through* the
+level to 4.17, and 4.17 reverted *to* 4.19 in one. Suggestive, not confirmed, and this frame asserts
+nothing. **What kills it:** a settle away from 4.19 that **persists past two MORE settles**, or a move
+large enough that 4.19 stops being a plausible centre. **The 08-27 settle did not test it** (4.20 is
+1bp off; no excursion stood in front of the gate) — UNADJUDICATED, count still **two**. Nor is the
+strict form refuted: the 4.24 excursion held **exactly two** settles and left, which does not meet the
+kill condition. Gate #3 next scores at the first settle a real excursion appears in front of it.
 
 **Level/direction and inertness are ORTHOGONAL axes** — a retrace on a large move is a live anchor
-repricing, not pathology. (I collapsed the two on 08-26 and both reporters caught it before I did.)
+repricing, not pathology. (I collapsed the two on 08-26; both reporters caught it first.)
 
 **Read the instrument before the finding.** CMT prints to 1bp, so a 1bp difference is never a
 resolvable shape — authority and resolution are different properties. This is why 08-27's uniform
 +1bp is *unchanged*, not a parallel move.
 
-**The contested axis is AI-as-inflation-input** and it is genuinely two-sided — **Hammack**: AI demand
-is inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> the dovish case.
-Neither has won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
+**The contested axis is AI-as-inflation-input**, genuinely two-sided — **Hammack**: AI demand is
+inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> dovish. Neither has
+won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
 
 **Two challengers to the standing switch:**
-1. **The oil / geopolitics tail — and the premium has DEFLATED.** This frame carried Brent
-   *"~$93-94"* while its own base-levels block read **88.58**; the two contradicted each other by ~$5
-   and the prose was the stale half. Brent is now **high-80s and falling** (last labelled settle
-   88.58, Tue; unmarked since — see base levels). **The channel is TOO COARSE as one claim and must
-   be scored per market:** it operated in **Japan** (08-18, oil-shaped) and is **REFUTED for Korea on
-   the won** (08-21: the won FIRMED through the premium). Never score it as one Asia-wide claim.
+1. **The oil / geopolitics tail — the premium has DEFLATED.** Brent is **high-80s and falling** (last
+   labelled settle **88.58**, Tue; unmarked since — see base levels). **The channel is TOO COARSE as
+   one claim and must be scored per market:** it operated in **Japan** (08-18) and is **REFUTED for
+   Korea on the won** (08-21: the won FIRMED through the premium). Never score it Asia-wide.
 2. **AI valuation-vs-demand.** Demand keeps validating; the market repeatedly sells the spend. Every
    de-rate so far has been a **valuation/financing** event, not a demand break. **A third variable
    now confounds the pair: CAPITAL RETURN.** Keep all three separate.
@@ -115,30 +103,35 @@ and three other receivers of the same spend were bought (AVGO +4.49%, TSM +2.30%
 and the closes do not support it.** The discrimination is real; **no proposed axis survives its own
 counterexample**, and three have now been tried:
 - *provider vs receiver* — dies on **AVGO +4.49 / TSM +2.30 / SMCI +2.86**, all receivers, all bought,
-  and hardest on **SK Hynix's own DR (SKHY) +2.27%** — the purest HBM receiver there is, bought on the
-  very session the 18Z read called the receivers sold (NASDAQ-listed, 11.9m shares, two-channel);
-- *volume vs MARGIN* (Marvell accelerated data-centre revenue and was sold ~7.9% after the bell on a
-  ~90bp gross-margin step-down) — dies on **SMCI**, the thinnest-margin name in the complex, bought;
-- *Nvidia SHARE* (pay the supply chain, sell the alternatives) — explains AMD -0.89 and MRVL -1.49,
-  dies on **AVGO**, a custom-silicon alternative, bought hardest of the three receivers.
+  and hardest on **SKHY +2.27%**, the purest HBM receiver there is;
+- *volume vs MARGIN* (Marvell sold ~7.9% after the bell on a ~90bp gross-margin step-down) — dies on
+  **SMCI**, the thinnest-margin name in the complex, bought;
+- *Nvidia SHARE* (pay the chain, sell the alternatives) — explains AMD -0.89 / MRVL -1.49, dies on
+  **AVGO**, a custom-silicon alternative, bought hardest.
 
-**So the honest state is: the tape discriminated and we cannot yet say on what.** That is a better
-carry than any of the three, because each is individually plausible and each would license a
-different call. Do not let a later window adopt one by default — name the counterexample with it.
+**So the honest state is: the tape discriminated and we cannot yet say on what.** Each is plausible and
+each would license a different call, so do not let a later window adopt one by default — name the
+counterexample with it. **★ And note the VENUE/SESSION trap the next day exposed:** SKHY was bought in
+the US Thursday and the *same company* was sold -4.45% in Seoul on Friday. That is a **sequence, not a
+contradiction** — different sessions, ten hours apart — but it means **a name's listing is not
+interchangeable with the name**, and any axis built on one venue must say which venue it was built on.
 
 **Thursday's configuration is different and it is the one that matters: equities up, VIX down, and a
 front that did not move at all.** Not a bond rally against an equity rally — a **1bp** front under a
 +1.57% Nasdaq. Risk-on with an inert anchor is precisely the shape the falsifier watches for, so this
 session is scored below rather than filed as calm.
 
-**Korea — the demand question is UNADJUDICATED**, correcting an earlier revision's "the demand turn
-is CONFIRMED." The week ran a -5.80% de-rate, a +5.89% round-trip, then **+0.88% on 683 of 876 names
-DOWN** with **KOSDAQ -4.63%** — two mega-caps holding a green index over a falling market. **Both chip
-legs moved on CAPITAL RETURN, not demand** (SK Hynix's realised ~W40T buyback; Samsung on hopes for its
-own): a buyback is a valuation event and cannot answer a demand question. The decouple-break
-falsifier's legs then **SPLIT** — price held while foreign flipped to a net seller — so nothing scored.
-The **won has FIRMED for a week** (~1,385 from ~1,419); still DXY/CNH-unconfirmed. Detail is
-`finance-ko`'s.
+**Korea — the demand question got its first CLEAN flow read on Fri 08-28, and it is STILL
+UNADJUDICATED.** The chip complex de-rated hard at the jong-ga — **SK Hynix -4.45%, Samsung -3.38%,
+KOSPI -1.79%** on **foreign -W1.76T** — ~10h after the US *bought* the same names
+(SKHY +2.27%). **Transmission FAILED.** The signature is the evidence: KOSPI's session high
+**6,901.78** never reclaimed Thursday's **6,912.37** close, and SK Hynix's high 1,725,000 never
+reclaimed 1,730,000 — both gapped down, never traded green, closed at or near the low. But it does
+**not** score: `finance-ko`'s *confirms* branch needs foreign to KEEP selling (they BOUGHT the prior
+session — a FLIP), and to track a US DE-RATE (the US ROSE), and the **~W46T buyback still confounds
+the price**, as it did on 08-20 — a valuation event cannot answer a demand question. **The driver is a
+corroborated NULL**: the domestic press frames it as a fall *despite* Nvidia's beat and names no
+cause. **Not regional** — Tokyo +0.41% same session. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Thu 08-27 close, 20:00Z):** UST **2Y 4.20 / 5Y 4.38 / 10Y 4.67 / 30Y 5.19** ·
@@ -146,9 +139,9 @@ S&P **7,730.99** / Nasdaq **26,541.35** / Dow **53,569.44** · VIX **14.51** · 
 Oct-26, **TUE** settle — now THREE sessions stale and deliberately NOT re-marked: two channels sit
 ~$2 apart and neither carries a settle label, so there is no number to move it to) ·
 gold **~4,650** (futures print, not a settle).
-**Asia (Thu 08-27 jong-ga / 大引, 06:30Z):** KOSPI **6,912.37** · KOSDAQ **837.65** ·
-Samsung **W266,000** · SK Hynix **W1,730,000** · Nikkei **66,131.98** · USD/KRW **1,380.50**
-(@06:33Z fixing; 1,381.00 @12:00Z).
+**Asia (Fri 08-28 jong-ga / 大引, 06:30Z):** KOSPI **6,788.88** · KOSDAQ **838.41** ·
+Samsung **W257,000** · SK Hynix **W1,653,000** · Nikkei **66,405.56** · USD/KRW **1,373.60**
+(@06:46Z, Naver FX API — the frame's series; NOT a bank posting).
 
 *(Split by market deliberately. A single "as of" date on a block spanning three time zones is wrong
 for at least two of them the moment any one market settles — which is how the Asia half of this block
@@ -214,9 +207,8 @@ quantisation, so a 3-4bp band is 3-4 resolution units and is resolvable). **BOTH
 founder's both-editions rule (2026-07-07) is not suspended by a cadence exception, so minimum cost
 means SHORT, not one-sided.
 
-**Why the FINAL waits for the settle — intraday has been wrong in BOTH directions.** 08-12: the 18Z
-tape showed the 2Y -4bp, the settle pared it to -2bp. 08-21: the 18Z tape showed 4.234, the settle
-came in *higher*. The score belongs to 00Z.
+**Why the FINAL waits for the settle — intraday has been wrong in BOTH directions** (08-12: 18Z tape
+-4bp, settle -2bp; 08-21: 18Z 4.234, settle *higher*). The score belongs to 00Z.
 
 ---
 
@@ -232,19 +224,24 @@ came in *higher*. The score belongs to 00Z.
    alike, which are opposite worlds. Next scores at the first settle a real excursion appears in
    front of it.
 
-4. **Korea: breadth, and the demand question — NVIDIA HAS PRINTED** (Q2 FY27: revenue **$96.2bn**,
-   **Data Center $89.0bn +117% YoY**, Q3 guide **$108.0bn ±2%** assuming **no** China DC compute). On
-   its face a large AI-demand confirmation. **It does NOT score the demand question yet, and the
-   reason is transmission:** what Nvidia sells is evidence about *Nvidia's* demand. The claim in play
-   is whether Korean memory has a demand turn, which runs through **HBM pull into Samsung and SK
-   Hynix** — visible at the **Korean open**, not in an after-hours tick. **Positioning around a print
-   is evidence about expectations, not demand**; that distinction has cost this desk before. **Next
-   scores at the FRI 08-28 06Z jong-ga** (C1 chains off KOSPI 6,912.37). **Thursday's US tape did not
-   answer it** — Micron closed ~flat and is the commodity-DRAM proxy, not an HBM name; the deep-cash
-   read is Samsung/SK Hynix at the jong-ga, `finance-ko`'s. Micron's late-September print is the
-   second, independent read. Still watch whether foreign buying broadens or stays chip-concentrated.
-5. **The won.** Firming through everything for a week. A same-clock DXY/CNH-flat read trips the
-   won-switch; without it, it stays the strongest unscored observation on the desk.
+4. **Korea: the demand question — TRANSMISSION FAILED, and it still did not SCORE.** Nvidia printed
+   a large AI-demand confirmation (Q2 FY27 Data Center **$89.0bn +117% YoY**, Q3 guide **$108.0bn**);
+   the deep-cash test was Friday's jong-ga, and Korea **sold** the HBM names into it (full detail in
+   **Current state**). The gate returned **UNADJUDICATED** — the *confirms* branch fails on all three
+   of its own conditions (foreign FLIPPED rather than kept selling, no US de-rate to track, the
+   ~W46T buyback confounds the price). **So the clean signal is the FLOW, not the price**, and the
+   price if anything *understates* the weakness while corporates hold the floor. **Next reads: does
+   the foreign exit persist on Monday** (one session is a read, not a regime), and **Micron's
+   late-September print** as the independent second demand read.
+5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
+   frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
+   are flat. The won printed **1,373.60, -8.40** — its **firmest of the run** (~1,419 → ~1,382 →
+   here) — and still missed by **1.6 won**, in one session. What DID advance is the control: **DXY
+   99.162 UNCH and CNH 6.720 flat, same-clock, for the first time in the run** (08-26 lost the
+   flat-dollar backdrop; 08-28 00Z had CNH null). So the precondition is finally met and the forward
+   test is clean: **Monday >±10 won with the controls still flat is a live 2-session test.** It firmed
+   *while* foreigners sold W1.76T of equities — outflow normally weakens it — but the gate that would
+   confirm a domestic bid is untestable, so that stays an observation, not a finding.
 
 ---
 
