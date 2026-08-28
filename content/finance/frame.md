@@ -139,7 +139,7 @@ Oct-26, **TUE** settle — now THREE sessions stale and deliberately NOT re-mark
 gold **~4,650** (futures print, not a settle).
 **Asia (Fri 08-28 jong-ga / 大引, 06:30Z):** KOSPI **6,788.88** · KOSDAQ **838.41** ·
 Samsung **W257,000** · SK Hynix **W1,653,000** · Nikkei **66,405.56** · USD/KRW **unsettled**
-(06:46Z tick 1,373.60; ~1,380 by 18Z; no Friday close — Naver series, the frame's instrument).
+(06:46Z tick 1,373.60; ~1,380 by 18Z; no Friday close — Naver, the frame's series).
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
