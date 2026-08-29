@@ -171,25 +171,24 @@ claim and today's data breaks it, so it is named rather than quietly dropped. **
 are not four confirmations, four untestables are not verdicts, and one fired antecedent is not a
 trip.** What changed: the test is **LIVE again**.
 
-🔴 **PRE-REGISTERED, BEFORE THE SESSION — THE SATURDAY 00Z WINDOW SHIPS EITHER WAY.** Friday's cash
-close (20:00Z) lands in a **Saturday 00Z window**; weekends are a standing skip, and Leo approved
-**one** exception, **this settle only** — the cadence is unchanged and next weekend skips again.
-Publishing only *after* seeing whether it tripped would be selection bias and a first trip obtained
-that way would be worth nothing, so the score is fixed here, now. The Friday 18Z window carries **no
-settle** and must not read its own silence as a does-not-trip.
+**SCORED Sat 2026-08-29 00Z — the pre-registered Saturday window, published either way.** Friday
+08-28 returned **UNTESTABLE, AND THE RUN RESETS TO ZERO**: no major index exceeded ±1.5% (largest
+excursion anywhere **0.69%**, Nasdaq's low; S&P 0.52%, Dow 0.47%). **Thursday's antecedent expired
+UNSCORED and does not carry into Monday.** This is *not* a does-not-trip — the run is **zero**.
+Separately, and not the classification: the 2Y settled **4.34, +14bp**, **14bp outside** the band, so
+had the equity leg fired the result would have been DOES-NOT-TRIP. The band-edge rule below was
+therefore **never exercised** — armed, untested by traffic.
 
-**Antecedent, already fired (Thu 08-27):** Nasdaq **+1.57%** close / **+1.62%** high, over ±1.5% on
-both measures, against a 2Y that moved **1bp** (4.19 -> 4.20). One session; two consecutive are needed.
-
-**Friday 08-28 returns exactly one of these four, and the Saturday window publishes whichever it is:**
-- **TRIPS** — a major US index again exceeds ±1.5% on intraday high *and* close (same index) while the
-  2Y settles within **~3-4bp of 4.20**. First trip in the falsifier's life.
-- **DOES NOT TRIP** — the index fires, the 2Y settles outside that band. The anchor answered.
-- **UNTESTABLE — AND THE RUN RESETS TO ZERO** — no major index exceeds ±1.5%. Thursday's antecedent
-  then expires **unscored** and does not carry into Monday. This is the outcome most likely to be
-  mis-filed as a does-not-trip, so it is named first-class.
-- **TOO COARSE** — high and close disagree on the same index, **or** the 2Y settles exactly **4bp**
-  from 4.20 (band edge, below). Say so; do not pick the convenient one.
+**★ THE INDEX LEG HAS THE SAME TWO DEFECTS THE 2Y LEG HAD, and Friday exposed them.** *"A major US
+index"* never says **which**, and *"exceeds ±1.5%"* never says what happens **at** the number. The
+container has been carried silently: the operative set is **S&P 500, Nasdaq Composite, Dow** — and it
+must stay that set, because sector/breadth indices would **retroactively rescore the published run**
+(the four straight UNTESTABLE sessions were only untestable on broad indices). Friday made this live,
+not hypothetical: **SOX closed −3.47% (3.76% intraday)**, clearing the bar by more than double on the
+session scored UNTESTABLE. **FORWARD, from Monday 2026-08-31, not applied retroactively:** the index
+set is those **three**; sector and breadth indices are **excluded** and named as context only; and
+**"exceeds" is STRICT — exactly 1.50% does NOT fire** (the tie-break that makes the positive finding
+harder). Written 2026-08-29, before Monday's tape.
 
 **★ THE BAND EDGE.** `~3-4bp` is a RANGE, not an edge, in all three places it appears — so a settle
 exactly 4bp out is inside on one reading, outside on the other, and the threshold would be choosable
