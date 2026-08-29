@@ -194,18 +194,18 @@ US pre-market is re-bidding the memory ADRs into Friday, but foreign flow scores
 at the level; **gate #3 scored UNADJUDICATED** (4.20≈4.19, 1bp/flat, no excursion in front to revert —
 a quiet-tape result, not a pass; 4.19–4.20 a POSSIBLE attractor, NOT established). So the dovish move was
 a one-settle excursion that reverted, not a regime — **score against 2Y 4.20, not a "pin is gone"
-narrative**. Scout's pathology falsifier ANTECEDENT FIRED Thu (Nasdaq +1.57% vs a 1bp-inert 2Y); Friday
-is decisive. Warsh's Jackson Hole keynote (Fri 08-28, ~14:00Z) is the next resolver.
+narrative**. Scout's pathology falsifier ANTECEDENT FIRED Thu (Nasdaq +1.57% vs a 1bp-inert 2Y); **Fri
+08-28 resolved UNTESTABLE — no US index cleared ±1.5% (S&P −0.25 / Nasdaq −0.52 / Dow −0.02), so the run
+RESETS TO ZERO: Thu's antecedent expires unscored, does NOT carry to Monday.**
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Fri 08-28 jong-ga, 06:30Z / 15:34 KST):** KOSPI **6,788.88** / −1.79% (chain …6,742.74 →
 6,808.21 → 6,912.37 → 6,788.88; C1 EXACT −123.49, three publishers) · KOSDAQ **838.41** / +0.09% ·
 Samsung **₩257,000** · SK Hynix **₩1,653,000** · USD/KRW **unsettled** (06:46Z snapshot 1,373.60/−8.40 — NOT the session; ~1,380 by 18Z post-Warsh; no settled Friday figure).
 **Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
-**US (Thu 08-27 settle, Scout-declared 00Z):** 2Y **4.20** CMT (4.17→4.19→4.20; **gate #3 UNADJUDICATED**
-— 4.20≈4.19, 1bp/flat, no excursion to revert; 4.19–4.20 a possible attractor, NOT established). Full
-curve per Scout/desk: 5Y 4.38 / 10Y 4.67 / 30Y 5.19; SP500 7,730.99 / NASDAQ 26,541.35 / DOW 53,569.44 /
-VIX 14.51. One quantisation unit; nothing hangs on the 1bp.*(ko base advances 4.19→4.20 in C10 lockstep with Scout's declaration.)*
+**US (Thu 08-27 settle, Scout-declared 00Z):** 2Y **4.20** CMT (**gate #3 UNADJUDICATED**, see above).
+Full curve per Scout/desk: 5Y 4.38 / 10Y 4.67 / 30Y 5.19; SP500 7,730.99 / NASDAQ 26,541.35 / DOW
+53,569.44 / VIX 14.51. *(base = last settles-declared; Scout's Fri 4.34 prose-only, advances with his settles block.)*
 
 **Carried from `finance` (Scout canonical, quoted from their window — not reconstructed):** the Fri
 08-21 US settle **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. **The anchor RESPONDED** — the 2Y moved
