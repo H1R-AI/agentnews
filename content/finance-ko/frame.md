@@ -162,7 +162,7 @@ a systematic drag on oil-sensitive sectors?
 > another is **TOO COARSE** — a verdict about the claim's granularity, not about the world.
 >
 > **★ 08-31 12Z — TESTED LIVE under the run's largest crude shock, holds refuted for Korea.** Brent
-> ~+3.55% / WTI ~+3.78% (biggest single-session oil move of the run) yet the won FIRMED −0.92%
+> ~+3.27% / WTI ~+3.78% (biggest single-session oil move of the run) yet the won FIRMED −0.92%
 > (~1,368.3) with DXY flat (−0.16%) — idiosyncratic strength ~5–6× the dollar, against the channel.
 > A carried refutation and one confirmed under a live shock are different objects; this is the second.
 > Korea-only (per market), and provisional on an OPEN/overnight won print.
@@ -178,7 +178,7 @@ sell); but the scoring leg is FLOW and foreign KEPT SELLING (eased vs Friday's �
 RETAIL-led and large-cap-narrow (KOSDAQ −0.49%), the buyback the residual buyer — so the demand gate
 is **UNADJUDICATED a 3rd time** (see Decouple-break); gate 5's antecedent FIRED (session one, PROVISIONAL
 on an OPEN print — see Won-switch). Overnight (12Z) the won firmed further (~1,368.3 / −0.92%) through the
-run's largest crude shock (Brent +3.55%) with DXY flat — the oil channel TESTED LIVE, holds refuted (see
+run's largest crude shock (Brent +3.27%) with DXY flat — the oil channel TESTED LIVE, holds refuted (see
 Oil-import). Prior — Fri 08-28 broke the recovery (−1.79% to 6,788.88, foreign −₩1.76T, UNADJUDICATED);
 won settled flat 1,381.00/−1.00, gate 5 UNTESTABLE. Prior context ↓:
 
