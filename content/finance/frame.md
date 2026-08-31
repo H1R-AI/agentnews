@@ -245,8 +245,7 @@ means SHORT, not one-sided.
    and "firmest of the run" described an extreme, not a close. **The real shortfall against the ±10
    bar was 9.0 won, not 1.6** — not a near-miss, not close. **UNTESTABLE.** The precondition also
    **BROKE**: DXY **+0.56% to 99.716**, outside ±0.3%. So **Monday inherits no clean 2-session test on
-   either leg** — no near-miss first session existed to build on. **Standing lesson: a snapshot stated
-   as a session propagates into every figure derived from it.**
+   either leg** — no near-miss first session existed to build on.
 
 ---
 
