@@ -241,13 +241,12 @@ means SHORT, not one-sided.
    late-September print** as the independent second demand read.
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
-   are flat. **RESOLVED 08-31: Friday settled 1,381.00 / −1.00** (Naver series; 08-27 1,382.00 → 08-28
-   1,381.00; final because a later row, 08-31, now sits on top of it). **The published 1,373.60 /
-   −8.40 was a 06:46Z intraday tick that fully reverted** — it overstated the session by **7.4 won**,
-   and "firmest of the run" described an extreme, not a close. **The real shortfall against the ±10
-   bar was 9.0 won, not 1.6** — not a near-miss, not close. **UNTESTABLE.** The precondition also
-   **BROKE**: DXY **+0.56% to 99.716**, outside ±0.3%. So **Monday inherits no clean 2-session test on
-   either leg** — no near-miss first session existed to build on.
+   are flat. **★ ANTECEDENT FIRED Mon 08-31, first time in the run** — won **−11.80** (>±10) with
+   **DXY −0.09% and CNH −0.137%, both flat same-clock**. But **SESSION ONE OF TWO, not a trip**:
+   Friday settled **−1.00** (the published 1,373.60/−8.40 was a 06:46Z tick that reverted, overstating
+   the session ~8×), so Friday was not session one. **The live 2-session test is TUESDAY** — a second
+   consecutive >±10 with controls still flat. Today's won tape was still `OPEN` at the jong-ga, so
+   −11.80 is not yet final.
 
 ---
 
