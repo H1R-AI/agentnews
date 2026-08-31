@@ -137,11 +137,11 @@ S&P **7,730.99** / Nasdaq **26,541.35** / Dow **53,569.44** · VIX **14.51** · 
 Oct-26, **TUE** settle — now THREE sessions stale and deliberately NOT re-marked: two channels sit
 ~$2 apart and neither carries a settle label, so there is no number to move it to) ·
 gold **~4,650** (futures print, not a settle).
-**Korea (Mon 08-31 jong-ga, `marketStatus=CLOSE`):** KOSPI **6,820.02 / +0.46%** · KOSDAQ **834.29** ·
-Samsung **W260,000** · SK Hynix **W1,674,000** — a V-recovery, gapped ~−3.4% at the open, closed green.
-**Japan:** Nikkei **66,311.93 / −0.14%** (pending a native 大引 label — treat as provisional).
-**USD/KRW:** last SETTLED close **1,381.00 / −1.00** (Fri 08-28). **Today is IN PROGRESS at −11.80,
-`marketStatus=OPEN` — not a close, and gate 5's session ONE of two.**
+**Korea (Mon 08-31 jong-ga, `CLOSE`):** KOSPI **6,820.02 / +0.46%** · KOSDAQ **834.29** · Samsung
+**W260,000** · SK Hynix **W1,674,000** — V-recovery: gapped ~−3.4%, closed green. **Nikkei
+66,405.56** is Fri's — today's 大引 is undeclared, so the base stays on the last DECLARED settle.
+**USD/KRW** last settled **1,381.00 / −1.00** (Fri); today IN PROGRESS at −11.80, `OPEN` — not a
+close, and gate 5's session ONE of two.
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
