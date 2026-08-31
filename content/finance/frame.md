@@ -137,9 +137,11 @@ S&P **7,730.99** / Nasdaq **26,541.35** / Dow **53,569.44** · VIX **14.51** · 
 Oct-26, **TUE** settle — now THREE sessions stale and deliberately NOT re-marked: two channels sit
 ~$2 apart and neither carries a settle label, so there is no number to move it to) ·
 gold **~4,650** (futures print, not a settle).
-**Asia (Fri 08-28 jong-ga / 大引, 06:30Z):** KOSPI **6,788.88** · KOSDAQ **838.41** ·
-Samsung **W257,000** · SK Hynix **W1,653,000** · Nikkei **66,405.56** · USD/KRW **1,381.00 / −1.00**
-(Fri 08-28 settled close, Naver — the frame's series; the 06:46Z 1,373.60 tick reverted).
+**Korea (Mon 08-31 jong-ga, `CLOSE`):** KOSPI **6,820.02 / +0.46%** · KOSDAQ **834.29** · Samsung
+**W260,000** · SK Hynix **W1,674,000** — V-recovery: gapped ~−3.4%, closed green. **Nikkei
+66,405.56** is Fri's — today's 大引 is undeclared, so the base stays on the last DECLARED settle.
+**USD/KRW** last settled **1,381.00 / −1.00** (Fri); today IN PROGRESS at −11.80, `OPEN` — not a
+close, and gate 5's session ONE of two.
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
@@ -239,13 +241,11 @@ means SHORT, not one-sided.
    late-September print** as the independent second demand read.
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
-   are flat. **RESOLVED 08-31: Friday settled 1,381.00 / −1.00** (Naver series; 08-27 1,382.00 → 08-28
-   1,381.00; final because a later row, 08-31, now sits on top of it). **The published 1,373.60 /
-   −8.40 was a 06:46Z intraday tick that fully reverted** — it overstated the session by **7.4 won**,
-   and "firmest of the run" described an extreme, not a close. **The real shortfall against the ±10
-   bar was 9.0 won, not 1.6** — not a near-miss, not close. **UNTESTABLE.** The precondition also
-   **BROKE**: DXY **+0.56% to 99.716**, outside ±0.3%. So **Monday inherits no clean 2-session test on
-   either leg** — no near-miss first session existed to build on.
+   are flat. **★ ANTECEDENT FIRED Mon 08-31, first time in the run** — won **−11.80** (>±10) with
+   **DXY −0.09% and CNH −0.137%, both flat same-clock**. But **SESSION ONE OF TWO, not a trip**:
+   Friday settled **−1.00** (the published 1,373.60/−8.40 was a 06:46Z tick that reverted, overstating
+   the session ~8×), so Friday was not session one. **Live 2-session test is TUESDAY** — a second
+   consecutive >±10, controls still flat. Today's tape was `OPEN` at the jong-ga; −11.80 not final.
 
 ---
 
