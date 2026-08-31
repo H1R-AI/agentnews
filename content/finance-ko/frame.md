@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-08-31T12:20Z
+updated: 2026-08-31T18:20Z
 ---
 
 ## How to use this file
@@ -63,31 +63,25 @@ index is off the semiconductor-valuation switch → update the frame.
 > Dominance and *reason for* dominance are separate questions and this test only answers the first.
 
 **Won-switch test.** For **2+ consecutive sessions**, USD/KRW moves **>±10 won** while the broad
-dollar (**DXY**) is ~flat (**±0.3%**). Secondary control **CNH/USD** — the won often tracks the yuan
+dollar (**DXY**) is **flat — STRICT: |Δ| < 0.3%, so exactly 0.30% is NOT flat → the control FAILS**
+(edge fixed 08-31 18Z pre-settle, chosen to make a fired antecedent HARDER — symmetric with the
+falsifier's 2Y/index sweeps). Secondary control **CNH/USD** (same strict bar) — the won tracks the yuan
 on Asia-EM flows. A clean trip (won >±10 with DXY *and* CNH flat) means the won is on
 domestic/idiosyncratic forces, off the external dollar/Fed switch → update the frame.
-> **Status: still NOT SCORED — the strongest unscored observation on the desk.** The won FIRMED across
-> the run (~1,419 → ~1,381 Fri settle) through a −5.80% crash, a +5.89% bounce, an oil premium
-> **and** a higher-for-longer US front — direction *inverted* since this block last read "weakened
-> through the rally".
+> **Status: still NOT SCORED — the strongest unscored observation on the desk.** The won FIRMED across the
+> run (~1,419 → ~1,381 Fri) through a crash, a bounce, an oil premium **and** a higher-for-longer US front
+> — direction *inverted* since this block read "weakened through the rally".
 >
-> **★ 08-26 18Z — the flat-dollar backdrop first BROKE** (DXY 99.16 / +0.24%, won 1,386.30 same-clock):
-> a won move against a firming dollar is no longer presumptively idiosyncratic — **re-establish DXY
-> *and* CNH flat same-clock BEFORE reading any won move as the switch.**
+> **★ 08-26 18Z — the flat-dollar backdrop first BROKE** (DXY +0.24%, won 1,386.30): re-establish DXY
+> *and* CNH flat same-clock BEFORE reading any won move as the switch.
 >
-> **★ 08-28 SETTLED — Friday won 1,381.00 / −1.00, essentially FLAT; gate 5 NOT close.** The 06:46Z
-> **1,373.60 / −8.40** I first carried was an intraday extreme that fully reverted (finality by a LATER
-> 08-31 row on it, not by session hours): the true move was **−1.00**, shortfall vs ±10 **9.0 won**,
-> gate 5 **UNTESTABLE**. The lesson stands: read marketStatus AND require a later settled row.
-> The run also carries a second job: it is the **discriminator that REFUTED the oil channel for Korea**
-> (below), a real finding even though the switch itself has not scored.
+> **★ 08-28 SETTLED — Friday won 1,381.00 / −1.00, FLAT; gate 5 UNTESTABLE.** The 06:46Z −8.40 tick I
+> first carried fully reverted to −1.00 (finality by a LATER row, not session hours) — read marketStatus,
+> require a settled row. It also REFUTED the oil channel for Korea (below), a real finding.
 >
-> **★ 08-31 06Z — the ANTECEDENT FIRED for the first time in the run.** The won cleared ±10 (~−11 to
-> ~1,369.8, Naver) AND both controls were flat same-clock (**DXY 99.612 / −0.09%, CNH 6.721 / −0.14%**),
-> together for the first time. BUT Friday SETTLED −1.00 (not session one) and the print is intraday
-> (marketStatus OPEN): this is **SESSION ONE of two, NOT a trip**. The live 2-session test is **TUESDAY
-> — a second consecutive >±10 with controls still flat.** The single most tempting misfiling today; the
-> frame's own arithmetic (Friday = −1.00) forbids calling this the live test.
+> **★ 08-31 06Z — the ANTECEDENT FIRED for the first time in the run.** Won cleared ±10 (~−11, Naver),
+> both controls flat same-clock (DXY −0.09%, CNH −0.14%). BUT Friday SETTLED −1.00 and the print is
+> intraday: **SESSION ONE of two, NOT a trip.** Frame arithmetic (Friday −1.00) forbids calling it the live test.
 >
 > **★ 08-31 12Z — session one is PROVISIONAL, not locked.** Overnight the won read deeper past the bar
 > (~1,368.3 / −12.8, controls still flat: DXY −0.16%, CNH −0.14%) — favourable direction — but
@@ -95,6 +89,11 @@ domestic/idiosyncratic forces, off the external dollar/Fed switch → update the
 > 7.4-won reversion), a reversion of ~2.8 won by the fixing would drop this inside ±10 and session one
 > would not have happened, resetting the count to zero. **The antecedent fired on a reading that is not
 > yet a settle.**
+>
+> **★ 08-31 18Z — magnitude HOLDING, control AT THE EDGE; edge fixed pre-settle (above).** The won held
+> past the bar across THREE readings over ~11h (−11.80 → −12.80 → −12.10) — real evidence, unlike 08-28's
+> −8.40 collapse — but STILL OPEN, not a settle. Risk shifted to the CONTROL: DXY −0.29% (desk) sits
+> **0.01 inside** the strict <0.3% bar, CNH −0.18%. Re-check controls AT the settle, not carried.
 
 **Decouple-break test.** Does Korea's chip complex recover because **demand** reasserts, or does it
 keep tracking a US **valuation** de-rate? Score at the jong-ga: *reverses* if the bounce holds **and**
@@ -230,11 +229,11 @@ no-landing → higher-for-longer.** One settle is not a hawkish regime.
 3. **Does foreign buying return and BROADEN?** It flipped to selling on 08-21 and sold KOSDAQ
    throughout. Broad re-entry would be the first thing since the crash that is not a capital-return
    trade.
-4. **The WON — antecedent FIRED (08-31), SESSION ONE but PROVISIONAL.** The 08-31 jong-ga cleared ±10
-   (~−11) with DXY AND CNH flat same-clock — magnitude and controls good together for the first time in
-   the run — and 12Z it read deeper (~−12.8, controls still flat). But it fired on an OPEN, not-yet-settled
-   print, and Friday settled −1.00: **SESSION ONE of two, not a trip, and reversible.** The live 2-session
-   test is **Tuesday** — a second consecutive settled >±10 with controls flat.
+4. **The WON — antecedent FIRED (08-31), SESSION ONE but PROVISIONAL.** Cleared ±10 and held past the bar
+   across three readings over ~11h (−11.80 → −12.80 → −12.10), controls flat — but on OPEN, not-yet-settled
+   prints, and Friday settled −1.00: **SESSION ONE of two, not a trip, reversible.** The control is now at
+   the edge (DXY −0.29% vs the strict <0.3% bar) — **re-check DXY *and* CNH AT the settle, strict.** Live
+   2-session test is **Tuesday** — a second consecutive settled >±10 with controls strictly flat.
 5. **The DEMAND question stays open — UNADJUDICATED a THIRD time (08-31 jong-ga).** The price REVERSED
    up and memory LED (SK Hynix +1.27%), so on price the decouple converged toward the US hold — but
    *reverses* needs foreign net BUYING and foreign KEPT SELLING (eased vs Friday's −₩1.76T), the
