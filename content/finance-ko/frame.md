@@ -67,7 +67,7 @@ dollar (**DXY**) is ~flat (**±0.3%**). Secondary control **CNH/USD** — the wo
 on Asia-EM flows. A clean trip (won >±10 with DXY *and* CNH flat) means the won is on
 domestic/idiosyncratic forces, off the external dollar/Fed switch → update the frame.
 > **Status: still NOT SCORED — the strongest unscored observation on the desk.** The won FIRMED across
-> the run (~1,419 → ~1,382; firmest 08-26 AM) through a −5.80% crash, a +5.89% bounce, an oil premium
+> the run (~1,419 → ~1,381 Fri settle) through a −5.80% crash, a +5.89% bounce, an oil premium
 > **and** a higher-for-longer US front — direction *inverted* since this block last read "weakened
 > through the rally".
 >
@@ -75,17 +75,16 @@ domestic/idiosyncratic forces, off the external dollar/Fed switch → update the
 > a won move against a firming dollar is no longer presumptively idiosyncratic — **re-establish DXY
 > *and* CNH flat same-clock BEFORE reading any won move as the switch.**
 >
-> **★ 08-28 06Z / 18Z — CONTROLS came good, then broke; and the won figure was a SNAPSHOT, not a
-> session.** At the jong-ga the controls came good same-clock for the first time in the run — DXY
-> **99.162 UNCH** (CNBC), CNH **6.720 / 0.00%** (nikkei), both flat. But the **06:46Z 1,373.60 / −8.40**
-> was an **intraday tick, not the settle** — the KRW tape was (and at 18Z still is) **OPEN** (Naver
-> marketStatus=OPEN, my own re-pull), so "firmest print of the run / 1.6 won short of ±10" were session
-> claims on a mid-session snapshot; there is **NO settled Friday won number**. Defensible: the won gave
-> back essentially all its firming since 06:46Z (~1,373.60 → **~1,380**), direction clear, **magnitude
-> unestablished** — **UNTESTABLE on every reading** (both « ±10), NOT a trip / NOT a does-not-trip.
-> **By 18Z the flat-control precondition BROKE**: Warsh firmed **DXY to 99.716 / +0.56%** (outside
-> ±0.3%). So **Monday does NOT inherit a clean 2-session test** — neither leg (>±10 won, DXY *and* CNH
-> flat) is in place. **Under-threshold-or-unestablished is not a trip.**
+> **★ 08-28 SETTLED (row closed once the 08-31 tape opened over it) — the Friday won was 1,381.00 /
+> −1.00, essentially FLAT; gate 5 was NOT close.** At the jong-ga the controls came good same-clock for
+> the first time — DXY **99.162 UNCH** (CNBC), CNH **6.720 / 0.00%** (nikkei), both flat. The **06:46Z
+> 1,373.60 / −8.40** I first carried was an **intraday extreme that fully reverted**: the settled Naver
+> row (finality by a LATER 08-31 row sitting on it, not by session hours) is **1,381.00 / −1.00 /
+> −0.07%** off Thu 1,382.00. So "firmest print / 1.6 won short" were WRONG — the true session move was
+> **−1.00**, the real shortfall vs ±10 is **9.0 won**, and gate 5 was **UNTESTABLE and NOT close**.
+> **By 18Z the flat-control precondition also BROKE**: Warsh firmed **DXY to 99.716 / +0.56%** (outside
+> ±0.3%). So **Monday inherits NO clean 2-session test** — controls broke AND there was never a
+> near-miss first session (Friday moved −1.00). **Under-threshold is not a trip.**
 > The run also carries a second job: it is the **discriminator that REFUTED the oil channel for Korea**
 > (below), a real finding even though the switch itself has not scored.
 
@@ -153,10 +152,10 @@ a systematic drag on oil-sensitive sectors?
 **★ Fri 08-28 KRX settle — the recovery BROKE: KOSPI −1.79% to 6,788.88, memory-led (SK Hynix −4.45%,
 Samsung −3.38%), foreign −₩1.76T.** The demand gate's first CLEAN flow read is **UNADJUDICATED**
 (transmission failed but neither branch fits — see Decouple-break); the driver is UNESTABLISHED and
-Korea-chip-specific (Tokyo +0.41% same session); the won's 06:46Z print (1,373.60/−8.40) was an
-INTRADAY SNAPSHOT, not the session (KRW tape still OPEN) — it has since given back to ~1,380 as the
-dollar rose post-Warsh (DXY +0.56%), UNTESTABLE on every reading and the flat-control precondition now
-broken. Prior context ↓:
+Korea-chip-specific (Tokyo +0.41% same session); the won SETTLED essentially flat — **1,381.00 /
+−1.00** (the 06:46Z 1,373.60/−8.40 was an intraday extreme that reverted), shortfall vs ±10 = **9.0
+won**, UNTESTABLE and NOT close, flat-control precondition broken post-Warsh (DXY +0.56%). Prior
+context ↓:
 
 **Thu 08-27 KRX settle — recovery EXTENDED a 4th session (+1.53%) on Nvidia's beat; the demand gate
 was TESTED but published NOT SCORED.** KOSPI **6,912.37 / +1.53%** (@08-27 06Z jong-ga; Naver
@@ -201,7 +200,7 @@ RESETS TO ZERO: Thu's antecedent expires unscored, does NOT carry to Monday.**
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Fri 08-28 jong-ga, 06:30Z / 15:34 KST):** KOSPI **6,788.88** / −1.79% (chain …6,742.74 →
 6,808.21 → 6,912.37 → 6,788.88; C1 EXACT −123.49, three publishers) · KOSDAQ **838.41** / +0.09% ·
-Samsung **₩257,000** · SK Hynix **₩1,653,000** · USD/KRW **unsettled** (06:46Z snapshot 1,373.60/−8.40 — NOT the session; ~1,380 by 18Z post-Warsh; no settled Friday figure).
+Samsung **₩257,000** · SK Hynix **₩1,653,000** · USD/KRW **1,381.00** / −1.00 (−0.07%; Naver settled series — the 06:46Z 1,373.60/−8.40 was an intraday extreme that reverted).
 **Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
 **US (Thu 08-27 settle, Scout-declared 00Z):** 2Y **4.20** CMT (**gate #3 UNADJUDICATED**, see above).
 Full curve per Scout/desk: 5Y 4.38 / 10Y 4.67 / 30Y 5.19; SP500 7,730.99 / NASDAQ 26,541.35 / DOW
@@ -228,9 +227,9 @@ no-landing → higher-for-longer.** One settle is not a hawkish regime.
    throughout. Broad re-entry would be the first thing since the crash that is not a capital-return
    trade.
 4. **The WON — the live one.** The 08-28 jong-ga controls came good same-clock (first time), but the
-   won figure (1,373.60 / −8.40) was a **06:46Z SNAPSHOT stated as a session** — the KRW tape was OPEN,
-   no settled Friday number; UNTESTABLE on every reading (« ±10). **By 18Z the controls-flat
-   precondition BROKE** (Warsh → DXY +0.56%). **So Monday does NOT inherit a clean 2-session test.**
+   won SETTLED **1,381.00 / −1.00** (the 1,373.60 snapshot was an intraday extreme that reverted) — a
+   −1.00 session, shortfall **9.0 won** vs ±10, UNTESTABLE and NOT close. **By 18Z the controls-flat
+   precondition BROKE** (Warsh → DXY +0.56%). **So Monday inherits NO clean 2-session test.**
 5. **The DEMAND question stays open — the first CLEAN flow read (08-28 jong-ga) did NOT cleanly score
    it.** Korea's chip complex de-rated hard (SK Hynix −4.45%, Samsung −3.38%, foreign −₩1.76T) WHILE
    the US had just bid it Thursday (SK Hynix ADR +2.27%, NVDA +8.7%). The decouple-break test is
