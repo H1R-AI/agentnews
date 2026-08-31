@@ -138,8 +138,8 @@ Oct-26, **TUE** settle — now THREE sessions stale and deliberately NOT re-mark
 ~$2 apart and neither carries a settle label, so there is no number to move it to) ·
 gold **~4,650** (futures print, not a settle).
 **Asia (Fri 08-28 jong-ga / 大引, 06:30Z):** KOSPI **6,788.88** · KOSDAQ **838.41** ·
-Samsung **W257,000** · SK Hynix **W1,653,000** · Nikkei **66,405.56** · USD/KRW **unsettled**
-(06:46Z tick 1,373.60; ~1,380 by 18Z; no Friday close — Naver, the frame's series).
+Samsung **W257,000** · SK Hynix **W1,653,000** · Nikkei **66,405.56** · USD/KRW **1,381.00 / −1.00**
+(Fri 08-28 settled close, Naver — the frame's series; the 06:46Z 1,373.60 tick reverted).
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
@@ -239,12 +239,14 @@ means SHORT, not one-sided.
    late-September print** as the independent second demand read.
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
-   are flat. **1,373.60 / -8.40 was a 06:46Z SNAPSHOT, not the session** — the KRW tape was, and at
-   18Z still is, **OPEN** (`marketStatus=OPEN`), so "firmest of the run" and "missed by 1.6 won" were
-   session claims on a mid-session tick. **No settled Friday won number exists**; by 18Z it had given
-   back to ~1,380 as Warsh firmed the dollar. **UNTESTABLE on every reading.** And the
-   precondition **BROKE**: DXY **+0.56% to 99.716**, outside the ±0.3% band. **Monday inherits no
-   clean 2-session test** — the controls-flat window opened and shut inside one session.
+   are flat. **RESOLVED 08-31: Friday settled 1,381.00 / −1.00** (Naver series; 08-27 1,382.00 → 08-28
+   1,381.00; final because a later row, 08-31, now sits on top of it). **The published 1,373.60 /
+   −8.40 was a 06:46Z intraday tick that fully reverted** — it overstated the session by **7.4 won**,
+   and "firmest of the run" described an extreme, not a close. **The real shortfall against the ±10
+   bar was 9.0 won, not 1.6** — not a near-miss, not close. **UNTESTABLE.** The precondition also
+   **BROKE**: DXY **+0.56% to 99.716**, outside ±0.3%. So **Monday inherits no clean 2-session test on
+   either leg** — no near-miss first session existed to build on. **Standing lesson: a snapshot stated
+   as a session propagates into every figure derived from it.**
 
 ---
 
