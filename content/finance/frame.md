@@ -244,9 +244,8 @@ means SHORT, not one-sided.
    are flat. **★ ANTECEDENT FIRED Mon 08-31, first time in the run** — won **−11.80** (>±10) with
    **DXY −0.09% and CNH −0.137%, both flat same-clock**. But **SESSION ONE OF TWO, not a trip**:
    Friday settled **−1.00** (the published 1,373.60/−8.40 was a 06:46Z tick that reverted, overstating
-   the session ~8×), so Friday was not session one. **The live 2-session test is TUESDAY** — a second
-   consecutive >±10 with controls still flat. Today's won tape was still `OPEN` at the jong-ga, so
-   −11.80 is not yet final.
+   the session ~8×), so Friday was not session one. **Live 2-session test is TUESDAY** — a second
+   consecutive >±10, controls still flat. Today's tape was `OPEN` at the jong-ga; −11.80 not final.
 
 ---
 
