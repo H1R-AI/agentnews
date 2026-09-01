@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-01T07:05Z
+updated: 2026-09-01T07:20Z
 ---
 
 ## How to use this file
@@ -167,7 +167,7 @@ a systematic drag on oil-sensitive sectors?
 ## Current state
 
 **★ Tue 09-01 KRX settle — BOTH LIVE TESTS RESOLVED TO THE PRE-STATED NULL BRANCHES.** KOSPI **+0.23% to
-6,835.80** off a −0.52% open / −1.29% intraday low — a full V, memory-led (SK Hynix +1.14%) — but NARROW:
+6,835.80** off a −0.52% open / −1.28% intraday low — a full V, memory-led (SK Hynix +1.14%) — but NARROW:
 KOSDAQ **−1.56%**, foreign a net seller again (−₩0.49T), the +15.78 carried by an other-corp/buyback bid
 (+₩1.67T). **GATE 5:** Tuesday won near-flat **+0.6→+2.0 won intraday** (OPEN row, ~8 inside ±10) — session two did NOT fire, session
 one EXPIRES, the run **RESETS to ZERO — UNTESTABLE, branch (b), not a does-not-trip**; the strict control leg was
