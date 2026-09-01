@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-01T06:40Z
+updated: 2026-09-01T07:05Z
 ---
 
 ## How to use this file
@@ -129,7 +129,7 @@ foreign net buys; *confirms* if it fades **and** foreign keeps selling.
 > frame claim.)
 >
 > **★ 08-28 06Z — the clean flow read ARRIVED and the test does NOT cleanly score: UNADJUDICATED.**
-> The 06:30Z jong-ga settled a heavy de-rate (SK Hynix −4.45%, Samsung −3.38%, foreign −₩1.76T, series
+> The 06:30Z jong-ga settled a heavy de-rate (SK Hynix −4.45%, Samsung −3.38%, foreign −₩0.85T, series
 > validated to the digit against my 08-20/08-21 anchors) — but *confirms* fails three ways: foreign
 > FLIPPED from +1,333 eok (08-27), there was no US de-rate to track (the US ROSE Thursday), and the
 > ₩46T buyback still confounds the price (the 08-20 rule, now muting a fall). *Reverses* refuted.
@@ -190,7 +190,7 @@ pricing-power boon) and **US Commerce OPPOSES it** (Lutnick Aug 14). US memory s
 (SK Hynix ADR +2.68% @08-25). Micron late Sept is the independent second read.
 
 **Flows into the run:** 08-25 −₩3.82T → 08-26 −₩116B (exit essentially ended, buyback +₩1.6T) → 08-27
-WITHHELD → **08-28 −₩1.76T** (foreign FLIPPED back to heavy selling) → **08-31 kept selling, eased** (all
+WITHHELD → **08-28 −₩0.85T** (foreign FLIPPED back to selling) → **08-31 kept selling, eased** (all
 three types net sold, buyback the residual buyer). Foreign flow scores only at the jong-ga.
 
 **US front (Scout's).** The 08-25 dovish excursion (2Y **4.17**) REVERTED to **4.20** by 08-27; gate #3
