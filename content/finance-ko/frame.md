@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-01T12:20Z
+updated: 2026-09-01T12:31Z
 ---
 
 ## How to use this file
@@ -137,17 +137,18 @@ foreign net buys; *confirms* if it fades **and** foreign keeps selling.
 > the null; not regional — Tokyo +0.41%). The demand question stays OPEN; transmission FAILED; the
 > clean signal is FLOW, not price.
 >
-> **★ 08-31 06Z — UNADJUDICATED a THIRD time, now with the PRICE reversing UP.** From a −2.58%
-> memory-led open the jong-ga CLOSED +0.46%, memory LEADING (SK Hynix +1.27%): on price the
-> sign-reversed decouple CONVERGED (the US hold did not fade to Korea's sell). But *reverses* needs
-> foreign net BUYING and foreign KEPT SELLING (eased vs Friday); the recovery was RETAIL-led, the
-> buyback the residual buyer (08-20 confound); *confirms* refuted (price rose). Price-convergence,
-> flow-non-confirmation — the clean signal (FLOW) says the foreign exit persists, demand not yet
-> reasserted. Three consecutive UNADJUDICATED; the Tuesday jong-ga re-tests the flow.
+> **★ 08-31 06Z — UNADJUDICATED a THIRD time, price reversing UP.** Jong-ga closed **+0.46%**
+> memory-led off a −2.58% open, so on price the sign-reversed decouple CONVERGED; but *reverses*
+> needs foreign net BUYING and foreign KEPT SELLING, recovery retail-led with the buyback the
+> residual buyer. **Price-convergence, flow-non-confirmation: the foreign exit persists.** 
+> Four consecutive UNADJUDICATED; **Wednesday's** jong-ga re-tests the flow.
 
 **Oil-import channel.** Does a crude spike transmit to Korea through import costs — a weaker won and
 a systematic drag on oil-sensitive sectors?
-> **Status: REFUTED for Korea, on the WON (08-21).** The won **firmed** through a ~+2–3% premium, and
+> **Status: UNDER TEST (09-01) — was REFUTED on the WON (08-21).** Today reverses the basis:
+> premium re-inflated *while* the won weakened +5.2. **Visible only across the pair** — this
+> edition held the won, finance the crude. Scores Wednesday's jong-ga at a settle, controls
+> checked AT it. The 08-21 basis: the won **firmed** through a ~+2–3% premium, and
 > against the **median stock** — not the index — the oil-sensitive set showed no systematic fuel drag
 > (Korean Air even rose). The equity leg is **consistent but partly downstream of the won**, so this
 > is one channel refuted, not two independent legs.
@@ -193,8 +194,7 @@ pricing-power boon) and **US Commerce OPPOSES it** (Lutnick Aug 14). US memory s
 WITHHELD → **08-28 −₩0.85T** (foreign FLIPPED back to selling) → **08-31 kept selling, eased** (all
 three types net sold, buyback the residual buyer). Foreign flow scores only at the jong-ga.
 
-**US front (Scout's).** The 08-25 dovish excursion (2Y **4.17**) REVERTED to **4.20** by 08-27; gate #3
-UNADJUDICATED. Scout's pathology falsifier **stays at ZERO** — Mon 08-31 cash settle resolved UNTESTABLE (no big-three
+**US front (Scout's).** Gate #3 CLOSED 09-01: Friday's **+14bp** excursion killed the 4.19 attractor on its own pre-registered condition. Scout's pathology falsifier **stays at ZERO** — Mon 08-31 cash settle resolved UNTESTABLE (no big-three
 index near ±1.5%, max excursion ~0.81%), antecedent never fired; the CMT 2Y settled 4.34 (INERT, unexercised).
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
