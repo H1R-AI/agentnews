@@ -1180,6 +1180,28 @@ function runC10SelfTest() {
   console.log(`OK — ${C10_FIXTURES.length} C10 fixtures passed.`);
 }
 
+// ── C11: cross-domain assertion container ───────────────────────────────────
+// NOT IMPLEMENTED. This is a placeholder that REPORTS ITS OWN ABSENCE on every
+// run, and it exists because the finding it stands for is LATENT: found
+// 2026-09-01 in desk review, with no incident to anchor its urgency. A latent
+// finding parked behind "I will build it after the merge" has a trigger that is
+// an event nobody notices NOT happening — so the trigger lives here instead,
+// where every window's validation must either run the container or say it does
+// not exist yet.
+//
+// The hole: C7_OWNER_DOMAIN is 'finance' (US indices) and C5 is KOSPI in
+// finance-ko. An instrument asserted OUTSIDE its owning domain — e.g. a KOSPI
+// close or a USD/KRW print inside the finance edition — is in NEITHER container.
+// Unchecked while looking checked. FX appears to have no owner in either domain.
+// Design + constraints: agentnews-ops/DESIGN-cross-domain-assertion-container.md
+function checkCrossDomainAssertionContainer(windowsByDomain, errors, warnings) {
+  const C11_HARD_FAIL_FROM = '2026-09-08';   // self-imposed; blocks the merge gate if still unbuilt
+  const msg = 'C11 — cross-domain assertion container NOT IMPLEMENTED. An instrument asserted outside its owning domain (a KOSPI close or an FX print inside the finance edition) is checked by NO container: C7 owns US indices in finance, C5 owns KOSPI in finance-ko, and FX has no owner in either. These assertions are UNCHECKED while the window validates clean. Zero findings here means zero coverage, not zero defects — this is NOT a pass. Design: agentnews-ops/DESIGN-cross-domain-assertion-container.md';
+  const today = new Date().toISOString().slice(0, 10);
+  if (today >= C11_HARD_FAIL_FROM) errors.push(`${msg} — HARD FAIL from ${C11_HARD_FAIL_FROM}, self-imposed deadline reached.`);
+  else warnings.push(`${msg} (hard-fails from ${C11_HARD_FAIL_FROM}).`);
+}
+
 function checkFrameBaseLevels(windowsByDomain, frameTextByDomain, errors, warnings) {
   // Newest declared close per index, across ALL domains, with the window it came from.
   const newest = new Map();
@@ -1386,6 +1408,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
   }
   checkCrossDomainCloseAgreement(windowsByDomain, errors, warnings);
   checkFrameBaseLevels(windowsByDomain, frameTextByDomain, errors, warnings);
+  checkCrossDomainAssertionContainer(windowsByDomain, errors, warnings);
   if (warnings.length) {
     console.log(`${warnings.length} warning(s):`);
     for (const warning of warnings) console.log(`  ! ${warning}`);
