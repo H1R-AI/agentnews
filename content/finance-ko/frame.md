@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-01T12:31Z
+updated: 2026-09-01T18:25Z
 ---
 
 ## How to use this file
@@ -71,21 +71,16 @@ domestic/idiosyncratic forces, off the external dollar/Fed switch → update the
 > **Status: NOT SCORED, but session one now STANDS on SETTLED data (below).** The won FIRMED across the run
 > (~1,419 → ~1,381 Fri → 1,369.50 Mon) through a crash, a bounce, an oil premium and a higher-for-longer US front.
 >
-> **★ 08-26 18Z — the flat-dollar backdrop first BROKE** (DXY +0.24%, won 1,386.30): re-establish DXY
-> *and* CNH flat same-clock BEFORE reading any won move as the switch.
->
-> **★ 08-28 SETTLED — Friday won 1,381.00 / −1.00, FLAT; gate 5 UNTESTABLE.** The 06:46Z −8.40 tick I
-> first carried fully reverted to −1.00 (finality by a LATER row, not session hours) — read marketStatus,
-> require a settled row. It also REFUTED the oil channel for Korea (below), a real finding.
->
-> **★ 08-31 — the antecedent fired, held PROVISIONAL across the overnight** (06Z ~−11 → 12Z/18Z −12.8/−12.10,
-> controls flat but OPEN not a settle; magnitude held past the bar three readings/~11h, risk migrated to the
-> CONTROL — 18Z DXY −0.29%, 0.01 inside strict). Provisional-was-right; controls re-checked AT the settle, not carried.
+> **★ Run history (methods that stand):** the flat-dollar backdrop broke 08-26 (DXY +0.24%) — re-establish DXY
+> *and* CNH flat same-clock before reading any won move as the switch. 08-28 Friday settled FLAT (1,381.00/−1.00),
+> gate 5 UNTESTABLE — a 06:46Z −8.40 tick reverted by a LATER row, so read marketStatus and require a settled row.
+> 08-31 fired and held provisional overnight, magnitude past the bar ~11h with the live risk on the CONTROL —
+> controls re-checked AT the settle, never carried.
 >
 > **★ 08-31→09-01 — THE FIRST GENUINE 2-SESSION TEST RESOLVED, AND THE RUN RESET TO ZERO.** Session one stood on
 > settled data (Mon **1,369.50 / −11.50**, >10, controls AT the settle DXY −0.01%/CNH −0.0045%, far inside strict).
-> Tuesday's won ran **near-flat, +0.6→+2.0 won intraday** (Naver current-day row, marketStatus OPEN — NOT a settle;
-> Scout's +1.40 pull sits inside), ~8 inside ±10: **session two did NOT fire, so session one
+> Tuesday's won SETTLED **+5.50 weaker (1,375.00)** — it drifted from near-flat at the 15:30 equity close to the
+> 02:00 KST tape close (a 09-02 row now sits on top = final), still sub-±10: **session two did NOT fire, so session one
 > EXPIRES with no consecutive partner and the count returns to ZERO.** This is **UNTESTABLE, the pre-stated branch
 > (b) — NOT a does-not-trip** (the four-state logic). The magnitude leg failed first, so the strict control leg was
 > never reached (MOOT). A fresh sequence must re-start from session one at the next >±10 settle — controls
@@ -106,27 +101,13 @@ foreign net buys; *confirms* if it fades **and** foreign keeps selling.
 > (−₩176B)** — so neither branch was satisfied and nothing scored. **A metric can trip without the
 > condition it stands for being tested.**
 >
-> **★ 08-27 — the first real demand catalyst ARRIVED (Nvidia's beat-and-raise) and the gate was TESTED
-> at the jong-ga — but published NOT SCORED.** KOSPI +1.53%, but the gap-up FADED (open = the high; SK
-> Hynix +4.80% open → +2.49% close), and the two scoring legs (foreign flow, breadth count) were
-> date-contaminated and WITHHELD, so neither *reverse* branch was cleanly met. **The demand question
-> stays OPEN.** At 12Z the US pre-open re-bid the memory names (SKHY ADR +4.23% pre-market, a
-> positioning lean into Friday); by 18Z the US CASH session FADED them — NVDA ripped (+8.88%) but SKHY
-> faded to +1.15% and Micron reversed to −2.66%, so the lean WEAKENED. Either way positioning is not
-> the score; the gate scores at the KOREAN settle on a CLEAN foreign-flow read, which Friday's jong-ga
-> is the next chance to deliver. Micron's late-Sept print remains an independent second read.
->
-> **★ 08-28 00Z update — the memory read is MINE and stays a distinct leg; I do NOT inherit Scout's
-> US-listed withdrawal.** Scout's US close withdrew the "compute-vs-memory / sell-the-receivers" split —
-> Micron pared to −0.32% (~flat), AVGO/TSM/SMCI bought — a claim about US-listed names. My own instrument
-> retires it independently: **the SK Hynix ADR (SKHY, a NASDAQ DR) closed +2.27% — two-channel,
-> desk-verified** (stockanalysis + CNBC; nasdaq.com AH reconciles) — the US-listed Korean memory name was
-> BOUGHT Thursday, so the 18Z memory-sold leg is retired on my own instrument, not by borrowing Scout's.
-> What also stands, on native sourcing, is the **Korean memory ordinary** (Naver): Samsung −1.32% /
-> SK Hynix −1.16% **at the bell**, recovering by 00:39Z (desk: −1.03% / −0.98%, above the bell) —
-> give-back of Thursday's +1.53%, NOT refuted by Micron's flat US close, NOT scored on an open tick. The HBM/demand question is mine and scores at the **06:30Z jong-ga** on
-> foreign flow. (Marvell −7.87% AH = the desk's volume-vs-margin candidate, but SMCI bought breaks it; no
-> frame claim.)
+> **★ 08-27→08-28 — Nvidia's beat-and-raise was the first real demand catalyst; the gate TESTED and published
+> NOT SCORED.** KOSPI +1.53% but the gap-up FADED (open = the high) and the scoring legs (foreign flow, breadth)
+> were date-contaminated / WITHHELD — neither *reverse* branch cleanly met, the demand question stays OPEN.
+> **Positioning (pre-open ADR bids) is not the score; the gate scores at the KOREAN jong-ga on a CLEAN
+> foreign-flow read.** The memory read is MINE and stays distinct from Scout's US-listed names (my instrument: the
+> SK Hynix ADR closed +2.27% Thu, bought — I retire the memory-sold leg on my own instrument, not by borrowing his).
+> Micron's late-Sept print is the independent second read.
 >
 > **★ 08-28 06Z — the clean flow read ARRIVED and the test does NOT cleanly score: UNADJUDICATED.**
 > The 06:30Z jong-ga settled a heavy de-rate (SK Hynix −4.45%, Samsung −3.38%, foreign −₩0.85T, series
@@ -146,7 +127,7 @@ foreign net buys; *confirms* if it fades **and** foreign keeps selling.
 **Oil-import channel.** Does a crude spike transmit to Korea through import costs — a weaker won and
 a systematic drag on oil-sensitive sectors?
 > **Status: UNDER TEST (09-01) — was REFUTED on the WON (08-21).** Today reverses the basis:
-> premium re-inflated *while* the won weakened +5.2. **Visible only across the pair** — this
+> premium re-inflated *while* the won weakened, Tue SETTLED **+5.50**. **Visible only across the pair** — this
 > edition held the won, finance the crude. Scores Wednesday's jong-ga at a settle, controls
 > checked AT it. The 08-21 basis: the won **firmed** through a ~+2–3% premium, and
 > against the **median stock** — not the index — the oil-sensitive set showed no systematic fuel drag
@@ -170,7 +151,7 @@ a systematic drag on oil-sensitive sectors?
 **★ Tue 09-01 KRX settle — BOTH LIVE TESTS RESOLVED TO THE PRE-STATED NULL BRANCHES.** KOSPI **+0.23% to
 6,835.80** off a −0.52% open / −1.28% intraday low — a full V, memory-led (SK Hynix +1.14%) — but NARROW:
 KOSDAQ **−1.56%**, foreign a net seller again (−₩0.49T), the +15.78 carried by an other-corp/buyback bid
-(+₩1.67T). **GATE 5:** Tuesday won near-flat **+0.6→+2.0 won intraday** (OPEN row, ~8 inside ±10) — session two did NOT fire, session
+(+₩1.67T). **GATE 5:** Tuesday won SETTLED **+5.50 weaker** (1,375.00; drifted from near-flat at the equity close to the 02:00 KST tape close, sub-±10) — session two did NOT fire, session
 one EXPIRES, the run **RESETS to ZERO — UNTESTABLE, branch (b), not a does-not-trip**; the strict control leg was
 never reached (MOOT). **GATE 4:** the break-antecedent (foreign net BUYER + breadth BROADENING) did NOT fire —
 **UNADJUDICATED a 4th time**; new nuance — foreign net sales DECELERATING three sessions (−₩0.85T → −₩0.64T →
@@ -200,18 +181,13 @@ index near ±1.5%, max excursion ~0.81%), antecedent never fired; the CMT 2Y set
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Tue 09-01 jong-ga, 06:30Z / 15:34 KST; two-sourced Naver + asiae):** KOSPI **6,835.80** / +0.23%
 (+15.78; path O 6,784.29 → L 6,732.47 → C 6,835.80, a memory-led V) · KOSDAQ **821.25** / −1.56% (narrow) ·
-Samsung **₩261,000** / +0.38% · SK Hynix **₩1,693,000** / +1.14% · USD/KRW **1,374.70** (+5.2 vs Mon, 21:00 KST — REVERSED softer, OPEN/provisional, NOT a settle; sub-±10, gate-5 run stays ZERO, see Won-switch). Flow: foreign −₩0.49T, other-corp +₩1.67T.
+Samsung **₩261,000** / +0.38% · SK Hynix **₩1,693,000** / +1.14% · USD/KRW **1,375.00** / +5.50 (Tue SETTLED vs Mon 1,369.50, weaker — 09-02 row on top = final; sub-±10, no fresh gate-5 session one, run stays ZERO, see Won-switch). Flow: foreign −₩0.49T, other-corp +₩1.67T.
 **Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
 **US (Mon 08-31 settle, Scout-declared 09-01 00Z):** 2Y **4.34** CMT (**+0bp, 2nd non-reverting settle**; gate #3 Vera's).
 Full curve per Scout/desk: 5Y 4.49 / 10Y 4.75 / 30Y 5.25 (long-led steepener, 2Y flat); SP500 7,686.14 / NASDAQ 26,370.89 / DOW
 53,185.90 / VIX 14.92. *(base = last settles-declared, Scout's 09-01 00Z.)*
 
-**Carried from `finance` (Scout canonical, quoted from their window — not reconstructed):** the Fri
-08-21 US settle **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. **The anchor RESPONDED** — the 2Y moved
-+5bp after four consecutive settles at exactly 4.19, which on the frame's own words *vindicates* the
-switch rather than breaking it, with the inert-anchor pathology releasing benignly. Equities closed
-green and Dow-led (S&P +0.43%, Nasdaq +0.44%, Dow +0.98%), VIX 15.13. Read: **reflation /
-no-landing → higher-for-longer.** One settle is not a hawkish regime.
+**US read (Scout's, carried):** **reflation / no-landing → higher-for-longer** — the 2Y anchor RESPONDED (+5bp off four 4.19 settles, releasing the inert-anchor pathology benignly) and gate #3 has since CLOSED 09-01. One settle is not a regime.
 
 ---
 
@@ -226,8 +202,8 @@ no-landing → higher-for-longer.** One settle is not a hawkish regime.
    throughout. Broad re-entry would be the first thing since the crash that is not a capital-return
    trade.
 4. **The WON — THE FIRST 2-SESSION TEST RESOLVED, run RESET to ZERO (09-01).** Session one stood on settled data
-   (Mon 1,369.50/−11.50, controls flat), but Tuesday's won ran near-flat **+0.6→+2.0 won intraday** (OPEN row, NOT a
-   settle; ~8 inside ±10) — session two did NOT fire, session one EXPIRES unpartnered, count returns to ZERO. **UNTESTABLE, the pre-stated branch (b),
+   (Mon 1,369.50/−11.50, controls flat), but Tuesday's won SETTLED **+5.50 weaker** (1,375.00, sub-±10) — session two
+   did NOT fire, session one EXPIRES unpartnered, count returns to ZERO. **UNTESTABLE, the pre-stated branch (b),
    NOT a does-not-trip;** magnitude failed first so the strict control leg was MOOT. A fresh sequence must re-start
    from session one at the next >±10 settle (controls re-checked, not carried).
 5. **The DEMAND question stays open — UNADJUDICATED a 4th time (09-01 jong-ga).** Korea closed +0.23% (memory-led
