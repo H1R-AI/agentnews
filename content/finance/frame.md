@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-01T00:21Z
+updated: 2026-09-01T06:40Z
 ---
 
 ## How to use this file
@@ -139,8 +139,8 @@ no settle label, so there is no number to move it to) · gold **~4,650** (future
 **Korea (Mon 08-31 jong-ga, `CLOSE`):** KOSPI **6,820.02 / +0.46%** · KOSDAQ **834.29** · Samsung
 **W260,000** · SK Hynix **W1,674,000** — V-recovery: gapped ~−3.4%, closed green. **Nikkei
 66,405.56** is Fri's — today's 大引 is undeclared, so the base stays on the last DECLARED settle.
-**USD/KRW** last settled **1,381.00 / −1.00** (Fri); today IN PROGRESS at −11.80, `OPEN` — not a
-close, and gate 5's session ONE of two.
+**USD/KRW** settled Mon **1,369.50 / −11.50** (a 09-01 row now sits on top, so it is structurally
+final — the earlier −11.80 was an `OPEN` in-progress read). Gate 5's session ONE of two STANDS.
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
@@ -172,13 +172,13 @@ claim and today's data breaks it, so it is named rather than quietly dropped. **
 are not four confirmations, four untestables are not verdicts, and one fired antecedent is not a
 trip.** What changed: the test is **LIVE again**.
 
-**SCORED Sat 2026-08-29 00Z — the pre-registered Saturday window, published either way.** Friday
-08-28 returned **UNTESTABLE, AND THE RUN RESETS TO ZERO**: no major index exceeded ±1.5% (largest
-excursion anywhere **0.69%**, Nasdaq's low; S&P 0.52%, Dow 0.47%). **Thursday's antecedent expired
-UNSCORED and does not carry into Monday.** This is *not* a does-not-trip — the run is **zero**.
-Separately, and not the classification: the 2Y settled **4.34, +14bp**, **14bp outside** the band, so
-had the equity leg fired the result would have been DOES-NOT-TRIP. The band-edge rule below was
-therefore **never exercised** — armed, untested by traffic.
+**SCORED Sat 08-29** (pre-registered, published either way): Friday returned **UNTESTABLE and the
+run RESET TO ZERO** — largest excursion 0.69%, and Thursday's antecedent expired UNSCORED. Not a
+does-not-trip. **SCORED AGAIN Mon 09-01 00Z: UNTESTABLE, and the run now STAYS at zero** — max
+excursion S&P 0.61% / Nasdaq 0.58% / Dow 0.81% against the strict 1.50% bar. A RESET (a fired
+antecedent expiring) and a STAY (already zero) are different histories of the same number, so they are
+named differently. The 2Y settled **4.34, 0bp** — `ef57a4e` returns INERT but the index leg was
+binding and failed, so the grid **decided nothing and remains unexercised by traffic**.
 
 **★ THE INDEX LEG HAS THE SAME TWO DEFECTS THE 2Y LEG HAD, and Friday exposed them.** *"A major US
 index"* never says **which**, and *"exceeds ±1.5%"* never says what happens **at** the number. The
@@ -191,11 +191,9 @@ set is those **three**; sector and breadth indices are **excluded** and named as
 **"exceeds" is STRICT — exactly 1.50% does NOT fire** (the tie-break that makes the positive finding
 harder). Written 2026-08-29, before Monday's tape.
 
-**★ THE BAND EDGE.** `~3-4bp` is a RANGE, not an edge, in all three places it appears — so a settle
-exactly 4bp out is inside on one reading, outside on the other, and the threshold would be choosable
-*after* the print. Fixed **12:05Z 08-28, before the open and before the settle** (ops `544b3f7`). **Friday 08-28 only:** ≤3bp (4.17–4.23) = INSIDE, trips if the index
-leg fires · **exactly 4bp** (4.16 or 4.24) = **TOO COARSE**, a defect of the TEST — do not pick a side
-· ≥5bp = OUTSIDE, the anchor answered.
+**★ THE BAND EDGE.** `~3-4bp` was a RANGE, not an edge, so the threshold was choosable *after* the
+print. Fixed **12:05Z 08-28, pre-open and pre-settle** (ops `544b3f7`) for **Friday 08-28 only** —
+superseded by the forward rule below, retained here as provenance.
 
 **★ FORWARD, from settles MONDAY 2026-08-31** (ops `ef57a4e`, 12:08Z): **|Δ| ≤ 3bp = INERT, |Δ| ≥ 4bp
 = RESPONDED. No indeterminate cell** (a standing *cannot resolve* is not a test). It does **not**
@@ -205,12 +203,7 @@ absolute daily CMT 2Y moves over 11 sessions are {0,1,2,5,7} — **3bp and 4bp h
 all 11 classify identically under either cut and the edge cannot have been fitted to a landing. Data
 silent → stated tie-break: **take the threshold that makes the POSITIVE finding HARDER.**
 
-**Warsh keynotes ~14:00Z inside that session** — the single event most likely to move the front, and a
-front that MOVES is what *prevents* the trip: the same event resolves the AI-inflation axis and
-decides the falsifier, in opposite directions. The 2Y leg scores on the **CMT settle** (1bp
-quantisation; the edge itself is fixed in the band-edge note above). **BOTH editions ship** — the
-founder's both-editions rule (2026-07-07) is not suspended by a cadence exception, so minimum cost
-means SHORT, not one-sided.
+The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday print.
 
 **Why the FINAL waits for the settle — intraday has been wrong in BOTH directions** (08-12: 18Z tape
 -4bp, settle -2bp; 08-21: 18Z 4.234, settle *higher*). The score belongs to 00Z.
@@ -240,11 +233,15 @@ means SHORT, not one-sided.
    late-September print** as the independent second demand read.
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
-   are flat. **★ ANTECEDENT FIRED Mon 08-31, first time in the run** — won **−11.80** (>±10) with
-   **DXY −0.09% and CNH −0.137%, both flat same-clock**. But **SESSION ONE OF TWO, not a trip**:
-   Friday settled **−1.00** (the published 1,373.60/−8.40 was a 06:46Z tick that reverted, overstating
-   the session ~8×), so Friday was not session one. **Live 2-session test is TUESDAY** — a second
-   consecutive >±10, controls still flat. Today's tape was `OPEN` at the jong-ga; −11.80 not final.
+   are flat, where **flat is STRICT: |Δ| < 0.3%, so exactly 0.30% is NOT flat and the control FAILS**
+   (the bar is `finance-ko/frame.md`'s, fixed 08-31 pre-settle; it is transcribed here because the two
+   editions were stating ONE gate with different leg definitions). **★ ANTECEDENT FIRED Mon 08-31,
+   first time in the run, and it STANDS on SETTLED data** — won **1,369.50 / −11.50** (>±10) with
+   controls re-read **AT the settle: DXY −0.01%, CNH −0.0045%**, both far inside the strict bar. The
+   provisional −11.80 / −0.09% / −0.137% was an in-progress read and is superseded. But **SESSION ONE
+   OF TWO, not a trip**: Friday settled **−1.00** (the published 1,373.60/−8.40 was a 06:46Z tick that
+   reverted, overstating the session ~8×), so Friday was not session one. **The live 2-session test is
+   TODAY, Tue 09-01** — a second consecutive settled >±10 with both controls strictly flat.
 
 ---
 
