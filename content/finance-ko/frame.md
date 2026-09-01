@@ -198,17 +198,17 @@ WITHHELD → **08-28 −₩1.76T** (foreign FLIPPED back to heavy selling) → *
 three types net sold, buyback the residual buyer). Foreign flow scores only at the jong-ga.
 
 **US front (Scout's).** The 08-25 dovish excursion (2Y **4.17**) REVERTED to **4.20** by 08-27; gate #3
-UNADJUDICATED. Scout's pathology falsifier fired Thu then **Fri 08-28 resolved UNTESTABLE** (no US index
-cleared ±1.5%), so the run **RESETS TO ZERO** — it scores next on the US Monday cash settle (tonight).
+UNADJUDICATED. Scout's pathology falsifier **stays at ZERO** — Mon 08-31 cash settle resolved UNTESTABLE (no big-three
+index near ±1.5%, max excursion ~0.81%), antecedent never fired; the CMT 2Y settled 4.34 (INERT, unexercised).
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Mon 08-31 jong-ga, 06:30Z / 15:35 KST):** KOSPI **6,820.02** / +0.46% (chain …6,912.37 →
 6,788.88 → 6,820.02; C1 EXACT +31.14, three publishers) · KOSDAQ **834.29** / −0.49% ·
-Samsung **₩260,000** · SK Hynix **₩1,674,000** · USD/KRW **~1,369.8** / ~−11 intraday (Naver, marketStatus OPEN — gate-5 SESSION ONE, not a finalized fixing).
+Samsung **₩260,000** · SK Hynix **₩1,674,000** · USD/KRW **1,369.50** / −11.50 (Mon settle; gate-5 SESSION ONE STANDS, controls flat at settle — see Won-switch).
 **Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
-**US (Thu 08-27 settle, Scout-declared 00Z):** 2Y **4.20** CMT (**gate #3 UNADJUDICATED**, see above).
-Full curve per Scout/desk: 5Y 4.38 / 10Y 4.67 / 30Y 5.19; SP500 7,730.99 / NASDAQ 26,541.35 / DOW
-53,569.44 / VIX 14.51. *(base = last settles-declared; Scout's Fri 4.34 prose-only, advances with his settles block.)*
+**US (Mon 08-31 settle, Scout-declared 09-01 00Z):** 2Y **4.34** CMT (**+0bp, 2nd non-reverting settle**; gate #3 Vera's).
+Full curve per Scout/desk: 5Y 4.49 / 10Y 4.75 / 30Y 5.25 (long-led steepener, 2Y flat); SP500 7,686.14 / NASDAQ 26,370.89 / DOW
+53,185.90 / VIX 14.92. *(base = last settles-declared, Scout's 09-01 00Z.)*
 
 **Carried from `finance` (Scout canonical, quoted from their window — not reconstructed):** the Fri
 08-21 US settle **2Y 4.24 / 5Y 4.43 / 10Y 4.74 / 30Y 5.27**. **The anchor RESPONDED** — the 2Y moved
