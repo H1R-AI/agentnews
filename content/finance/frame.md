@@ -123,7 +123,7 @@ session is scored below rather than filed as calm.
 
 **Korea — the demand question got its first CLEAN flow read on Fri 08-28 and is STILL UNADJUDICATED.**
 The chip complex de-rated at the jong-ga — **SK Hynix -4.45%, Samsung -3.38%, KOSPI -1.79%** on
-**foreign -W1.76T** — ~10h after the US *bought* the same names (SKHY +2.27%). **Transmission
+**foreign -W0.85T** — ~10h after the US *bought* the same names (SKHY +2.27%). **Transmission
 FAILED**, and the signature is the evidence: neither KOSPI nor SK Hynix ever reclaimed Thursday's
 close; both gapped down, never traded green, closed near the low. It does **not** score — the
 *confirms* branch needs foreign to KEEP selling (they had BOUGHT: a FLIP) and a US DE-RATE (the US
