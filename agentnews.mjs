@@ -270,7 +270,13 @@ const C7_OWNER_DOMAIN = 'finance';
 const C7_US_INDICES = [
   // Bare "S&P" must match: the editions write "S&P 7,785.76", not "S&P 500
   // 7,785.76". Requiring the 500 made the detector catch nothing on real content.
-  { key: 'SP500',  mention: /S&P(?:\s*500)?|\bSPX\b/i,                min: 1000,  max: 20000 },
+  // "SP500" (no ampersand) is a THIRD surface form the editions actually use — it
+  // is how the settles KEY is spelled, and prose copies the key. It defeated this
+  // regex silently: measured 2026-09-01, the form appears in 14 published files.
+  // It cost nothing so far only because every finance window using it also DECLARES
+  // SP500 (so C7 correctly skips); the first one that asserts it in prose undeclared
+  // would have got silence. Enumerate the surface forms, do not patch one at a time.
+  { key: 'SP500',  mention: /S&P(?:\s*500)?|\bSPX\b|\bSP500\b/i,     min: 1000,  max: 20000 },
   { key: 'NASDAQ', mention: /\bNasdaq(?:\s+Composite)?\b/i,           min: 5000,  max: 60000 },
   { key: 'DOW',    mention: /\bDow(?:\s+Jones)?(?:\s+Industrials?)?\b/i, min: 10000, max: 100000 },
 ];
@@ -459,6 +465,24 @@ const C7_FIXTURES = [
   // bind to it.
   ['company name, not the index',
     'Reddit closed higher after S&P Dow Jones Indices said it would join the index.', 'SP500', null, false],
+  // FORWARD cross-index binding. The fixture above guards the BACKWARD direction
+  // only, and passes for a reason that does not generalise: numSlice never looks
+  // back, so the S&P level is simply out of view. Forward is the direction that
+  // was actually broken. Same construction as the backward case — lastClose strips
+  // the CORRECT hit via the continuity exemption, so any surviving hit can only be
+  // the neighbour's. That is exactly C9's live shape: it filters out the matching
+  // value, leaving the mis-attributed one as the sole survivor.
+  ['cross-index binding FORWARD — Nasdaq must not take the Dow level',
+    'US stocks closed lower — Nasdaq 26,370.89 / -0.12%, Dow 53,185.90 / -0.70%.', 'NASDAQ', 26370.89, false],
+  // (An SP500-takes-the-Nasdaq-level fixture was drafted here and DELETED: it
+  // passes against the broken code too, because 26,370.89 is above SP500's 20,000
+  // band ceiling, so the band rejects it and the cut is never what saves us. It
+  // would have been a guard that cannot fail, padding the fixture count with
+  // coverage we do not have. The two directions are not symmetric because the
+  // BANDS are not: NASDAQ's 5,000-60,000 swallows Dow levels, SP500's does not.)
+  // The third surface form must actually reach the detector.
+  ['SP500 surface form (no ampersand) is an assertion',
+    'US stocks closed lower Monday — SP500 7,686.14 / -0.33%.', 'SP500', null, true],
 ];
 
 // parseSettles fixtures. A SILENT parser failure hid four ghost UST blocks for a
@@ -1099,7 +1123,26 @@ function findAssertedUsCloses(body, spec, lastClose) {
     // sits inside the Nasdaq band, so the band would not catch the swap.
     const ctxSlice = text.slice(Math.max(0, m.index - C7_CONTEXT_LOOKBACK), m.index + C5_CONTEXT_CHARS);
     if (!C5_CLOSE_CONTEXT.test(ctxSlice)) continue;
-    const slice = text.slice(m.index, m.index + C5_CONTEXT_CHARS);
+    // ATTRIBUTION CUT — stop the forward scan at the NEXT index's mention. The
+    // comment above reasoned about the BACKWARD direction of this swap and
+    // stopped there; FORWARD has the identical property and was unguarded, so
+    // "NASDAQ 26,370.89 / DOW 53,185.90" bound the DOW level to NASDAQ (53,185.9
+    // sits inside NASDAQ's 5,000-60,000 band, so the band cannot catch it). Live
+    // consequence was in C9, which FILTERS hits by distance from the sibling's
+    // declared close: the correct hit matches and is filtered OUT, so the only
+    // SURVIVOR is the mis-attributed neighbour — C9 fires a contradiction its own
+    // parser manufactured, naming a real number under the wrong index's name.
+    // A plausibility band that admits a neighbour's values is not an attribution.
+    // (Vera, 2026-09-01, after Leo's credential-check sweep.)
+    let slice = text.slice(m.index, m.index + C5_CONTEXT_CHARS);
+    for (const other of C7_US_INDICES) {
+      if (other.key === spec.key) continue;
+      const om = new RegExp(other.mention.source, 'gi');
+      let o;
+      while ((o = om.exec(slice)) !== null) {
+        if (o.index > 0) { slice = slice.slice(0, o.index); break; }
+      }
+    }
     const re = /(.?)\b(\d{1,3},\d{3}\.\d{1,2}|\d{4,5}\.\d{1,2})\b/g;
     let n;
     while ((n = re.exec(slice)) !== null) {
