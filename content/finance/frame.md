@@ -238,8 +238,8 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
    (the bar is `finance-ko/frame.md`'s, fixed 08-31 pre-settle; it is transcribed here because the two
    editions were stating ONE gate with different leg definitions). **★ ANTECEDENT FIRED Mon 08-31,
    first time in the run, and it STANDS on SETTLED data** — won **1,369.50 / −11.50** (>±10) with
-   controls re-read **AT the settle: DXY −0.01%, CNH −0.0045%**, both far inside the strict bar. The
-   provisional −11.80 / −0.09% / −0.137% was an in-progress read and is superseded. **★ SCORED Tue
+   controls re-read **AT the settle: DXY −0.01%, CNH −0.0045%**, both far inside the strict bar
+   (the provisional −11.80 read is superseded). **★ SCORED Tue
    09-01, the first genuine 2-session test in the run's life: session two did NOT fire** — the won ran
    near-flat all afternoon (**~+1 to +2**, ~8 inside ±10, `marketStatus` still `OPEN`), so session one
    **EXPIRES unpartnered and the count returns to ZERO. UNTESTABLE — not a does-not-trip.** The
