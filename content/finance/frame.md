@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-01T07:10Z
+updated: 2026-09-01T12:22Z
 ---
 
 ## How to use this file
@@ -23,20 +23,21 @@ before 2026-08-24.***
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
-**THE ARC IS 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19 -> 4.20** (Thu 08-27 settled **4.20**, +1bp).
-**Six of the last nine settles sit inside a 3bp band.** Gate #3 scored **RETRACE** on the 08-25
-settle, **NO DIRECTION** on the 08-26 one — the desk then flagged the gate **TOO COARSE** to separate
-a random walk from a mean-reverting level — and on the **08-27 settle the antecedent did NOT FIRE at
-all**: 4.20 is **one quantisation unit** off 4.19, and a 1bp move cannot establish a departure from a
-level when 1bp is the smallest number the instrument can print. **Score: UNADJUDICATED — a result,
-not a pass.** A gate with nothing in front of it is information about the tape, and it is the state
-that silently converts into a pass if nobody writes it down.
+**THE ARC IS 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19 -> 4.20 -> 4.34 -> 4.34** (Fri 08-28 **+14bp**;
+Mon 08-31 **flat**). **The "six of nine inside a 3bp band" reading is BROKEN** — it was true through
+08-27 and the +14bp ended it. Gate #3 finally got a real excursion in front of it, after three
+scores on prints too small to test it (RETRACE 08-25, NO DIRECTION 08-26, antecedent-did-not-fire
+08-27 at one quantisation unit). **The ATTRACTOR question is now CLOSED on its own pre-registered
+kill condition — "a move large enough that 4.19 stops being a plausible centre": +15bp, against an
+arc whose entire range was 7bp and whose largest prior wobble was 5bp.** The persistence limb
+(*past two more settles*) completes at tonight's CMT and is not needed — the limbs are disjunctive.
 
-**★ AND "THE ANCHOR IS LIVE" NO LONGER FOLLOWS FROM THIS SECTION.** It was true of the 08-25/08-26
-prints; Thursday's front moved **1bp**, which is the *inert* reading, and that inertness is one leg of
-the falsifier antecedent that FIRED the same session. The switch claim below is about whether the
-anchor responds **when pushed**; Thursday did not push it. Do not carry "the anchor is live" off a
-session in which it did nothing.
+**★ THAT CAVEAT IS NOW INVERTED — and I carried it two settles too long.** It read "the anchor is
+live no longer follows from this section," written off Thursday's inert 1bp. **Friday pushed and the
+anchor answered +14bp**, which is the switch's own definition of responding. The caveat was right
+when written and wrong by Friday night; it survived because the settle that broke it was published
+in *prose* and never DECLARED in a `settles:` block, so neither C1's chain nor this narrative
+absorbed it. Scout tested this unprompted against the CMT XML primary (3.5b) and I had it stale.
 
 **So 08-21's jump to 4.24 was a WOBBLE, and so was 08-25's drop to 4.17** — neither held more than
 two settles. **The switch stays VINDICATED: the anchor moves when pushed**, a claim that never
@@ -71,7 +72,12 @@ won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
 1. **The oil / geopolitics tail — the premium has DEFLATED.** Brent is **high-80s and falling** (last
    labelled settle **88.58**, Tue; unmarked since — see base levels). **The channel is TOO COARSE as
    one claim and must be scored per market:** it operated in **Japan** (08-18) and is **REFUTED for
-   Korea on the won** (08-21: the won FIRMED through the premium). Never score it Asia-wide.
+   Korea on the won** (08-21: the won FIRMED through the premium) — **that refutation is UNDER TEST as
+   of 09-01 and unsupported by today's reading**: the premium re-inflated on a dated escalation
+   (finance) *while* the won weakened +5.2 (finance-ko). **Neither edition could see this alone** —
+   finance-ko held the won and could not reach crude/DXY; finance verified the crude and Korea is not
+   its beat. Scores at Wednesday's jong-ga, at a settle, controls checked AT it. Never score it
+   Asia-wide.
 2. **AI valuation-vs-demand.** Demand keeps validating; the market repeatedly sells the spend. Every
    de-rate so far has been a **valuation/financing** event, not a demand break. **A third variable
    now confounds the pair: CAPITAL RETURN.** Keep all three separate.
@@ -80,17 +86,14 @@ won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
 
 ## Current state
 
-**Rates — the front did NOT move on Thursday, and that is the load-bearing fact.** Newest settle is
-**Thu 08-27** (declared, C1-chained): **2Y 4.20 / 5Y 4.38 / 10Y 4.67 / 30Y 5.19** — **+1bp on every
-tenor** off Wednesday's 4.19 / 4.37 / 4.66 / 5.18. A uniform 1bp shift is **exactly CMT's
-quantisation unit**, so the honest reading is *unchanged within the instrument*, not a parallel move
-with a direction: there is no resolvable shape here and no leg leads. **Six of the last nine settles
-now sit inside a 3bp band** (arc: 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19 -> 4.20). This inertness is one
-half of the falsifier finding below — it is what made Thursday's Nasdaq session a live test rather
-than another untestable one. The **Treasury buyback**
-backstop (sb0607, Aug 19 — long-dated buybacks at least doubled, $2bn -> >=$4bn/op, 10-20y and 20-30y,
-effective Sept 9) still caps the long end: the 30Y at **5.19** is well below the 5.31 it reached
-before the buyback.
+**Rates — the front MOVED, and that is the load-bearing fact.** Newest DECLARED settle is
+**Mon 08-31**: **2Y 4.34 / 5Y 4.49 / 10Y 4.75 / 30Y 5.25**, the front flat after Friday 08-28's
+**+14bp** bear-flattener (14/10/6/3, no intraday retrace). **The inertness reading is retired** — it
+was this frame's position through 08-27 and the +14bp ended it. Consequence for the falsifier below:
+the pathology needs an *inert* anchor, so a violent down-tape against a front that is repricing is
+**vindication, not pathology**. The **Treasury buyback** backstop (sb0607, Aug 19 — long-dated
+buybacks at least doubled, $2bn -> >=$4bn/op, 10-20y and 20-30y, effective Sept 9) still caps the
+long end: the 30Y at **5.25** is below the 5.31 it reached before the buyback.
 
 **US equities — Thursday answered the Nvidia print, and it answered NARROWLY.** Thu 08-27 closes
 (declared, C1-chained off Wednesday): **S&P 7,730.99** (+55.29, **+0.72%**) · **Nasdaq 26,541.35**
@@ -123,7 +126,7 @@ session is scored below rather than filed as calm.
 
 **Korea — the demand question got its first CLEAN flow read on Fri 08-28 and is STILL UNADJUDICATED.**
 The chip complex de-rated at the jong-ga — **SK Hynix -4.45%, Samsung -3.38%, KOSPI -1.79%** on
-**foreign -W1.76T** — ~10h after the US *bought* the same names (SKHY +2.27%). **Transmission
+**foreign -W0.85T** — ~10h after the US *bought* the same names (SKHY +2.27%). **Transmission
 FAILED**, and the signature is the evidence: neither KOSPI nor SK Hynix ever reclaimed Thursday's
 close; both gapped down, never traded green, closed near the low. It does **not** score — the
 *confirms* branch needs foreign to KEEP selling (they had BOUGHT: a FLIP) and a US DE-RATE (the US
