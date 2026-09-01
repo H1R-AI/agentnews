@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-01T06:40Z
+updated: 2026-09-01T07:10Z
 ---
 
 ## How to use this file
@@ -136,11 +136,12 @@ Tokyo +0.41%. Detail is `finance-ko`'s.
 0bp, long-led +3bp) · S&P **7,686.14** / Nasdaq **26,370.89** / Dow **53,185.90** · VIX **14.92** ·
 Brent **88.58** (ICE Oct-26 **TUE 08-25** settle — deliberately NOT re-marked: the live channels carry
 no settle label, so there is no number to move it to) · gold **~4,650** (futures print, not a settle).
-**Korea (Mon 08-31 jong-ga, `CLOSE`):** KOSPI **6,820.02 / +0.46%** · KOSDAQ **834.29** · Samsung
-**W260,000** · SK Hynix **W1,674,000** — V-recovery: gapped ~−3.4%, closed green. **Nikkei
-66,405.56** is Fri's — today's 大引 is undeclared, so the base stays on the last DECLARED settle.
-**USD/KRW** settled Mon **1,369.50 / −11.50** (a 09-01 row now sits on top, so it is structurally
-final — the earlier −11.80 was an `OPEN` in-progress read). Gate 5's session ONE of two STANDS.
+**Korea (Tue 09-01 jong-ga, `CLOSE`):** KOSPI **6,835.80 / +0.23%** · KOSDAQ **821.25 / −1.56%** ·
+Samsung **W261,000** · SK Hynix **W1,693,000** — a second V (low −1.29% → green close) but NARROW:
+KOSDAQ red, all three investor types net sellers, the bid an other-corporations/buyback **+W1.67T**.
+**Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
+**USD/KRW** Tue is near-flat and still `OPEN` (**~+1 to +2** off Mon's **1,369.50 / −11.50**), so
+gate 5's session two did NOT fire: session ONE **EXPIRES and the count returns to ZERO**.
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
@@ -238,10 +239,12 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
    editions were stating ONE gate with different leg definitions). **★ ANTECEDENT FIRED Mon 08-31,
    first time in the run, and it STANDS on SETTLED data** — won **1,369.50 / −11.50** (>±10) with
    controls re-read **AT the settle: DXY −0.01%, CNH −0.0045%**, both far inside the strict bar. The
-   provisional −11.80 / −0.09% / −0.137% was an in-progress read and is superseded. But **SESSION ONE
-   OF TWO, not a trip**: Friday settled **−1.00** (the published 1,373.60/−8.40 was a 06:46Z tick that
-   reverted, overstating the session ~8×), so Friday was not session one. **The live 2-session test is
-   TODAY, Tue 09-01** — a second consecutive settled >±10 with both controls strictly flat.
+   provisional −11.80 / −0.09% / −0.137% was an in-progress read and is superseded. **★ SCORED Tue
+   09-01, the first genuine 2-session test in the run's life: session two did NOT fire** — the won ran
+   near-flat all afternoon (**~+1 to +2**, ~8 inside ±10, `marketStatus` still `OPEN`), so session one
+   **EXPIRES unpartnered and the count returns to ZERO. UNTESTABLE — not a does-not-trip.** The
+   magnitude leg fails first, so the strict control leg was **never reached: MOOT**, not passed. A
+   fresh sequence must restart from session one at the next >±10 settle.
 
 ---
 
