@@ -181,16 +181,13 @@ antecedent expiring) and a STAY (already zero) are different histories of the sa
 named differently. The 2Y settled **4.34, 0bp** — `ef57a4e` returns INERT but the index leg was
 binding and failed, so the grid **decided nothing and remains unexercised by traffic**.
 
-**★ THE INDEX LEG HAS THE SAME TWO DEFECTS THE 2Y LEG HAD, and Friday exposed them.** *"A major US
-index"* never says **which**, and *"exceeds ±1.5%"* never says what happens **at** the number. The
-container has been carried silently: the operative set is **S&P 500, Nasdaq Composite, Dow** — and it
-must stay that set, because sector/breadth indices would **retroactively rescore the published run**
-(the four straight UNTESTABLE sessions were only untestable on broad indices). Friday made this live,
-not hypothetical: **SOX closed −3.47% (3.76% intraday)**, clearing the bar by more than double on the
-session scored UNTESTABLE. **FORWARD, from Monday 2026-08-31, not applied retroactively:** the index
-set is those **three**; sector and breadth indices are **excluded** and named as context only; and
-**"exceeds" is STRICT — exactly 1.50% does NOT fire** (the tie-break that makes the positive finding
-harder). Written 2026-08-29, before Monday's tape.
+**★ THE INDEX LEG'S TWO DEFECTS, fixed 2026-08-29 before Monday's tape.** *"A major US index"* never
+said **which**, and *"exceeds ±1.5%"* never said what happens **at** the number. **FORWARD from Mon
+08-31, not retroactive:** the container is **S&P 500 / Nasdaq Composite / Dow**, and it must stay that
+set — sector/breadth indices would retroactively rescore the published run, so they are context only.
+Friday made it live, not hypothetical: **SOX −3.47%** cleared the bar by double on a session scored
+UNTESTABLE. **"Exceeds" is STRICT — exactly 1.50% does NOT fire**, the tie-break that makes the
+positive finding harder.
 
 **★ THE BAND EDGE.** `~3-4bp` was a RANGE, not an edge, so the threshold was choosable *after* the
 print. Fixed **12:05Z 08-28, pre-open and pre-settle** (ops `544b3f7`) for **Friday 08-28 only** —
