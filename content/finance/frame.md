@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-08-31T12:11Z
+updated: 2026-09-01T00:21Z
 ---
 
 ## How to use this file
@@ -132,11 +132,10 @@ question. **Driver is a corroborated NULL** (domestic press names no cause), and
 Tokyo +0.41%. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Thu 08-27 close, 20:00Z):** UST **2Y 4.20 / 5Y 4.38 / 10Y 4.67 / 30Y 5.19** ·
-S&P **7,730.99** / Nasdaq **26,541.35** / Dow **53,569.44** · VIX **14.51** · Brent **88.58** (ICE
-Oct-26, **TUE** settle — now THREE sessions stale and deliberately NOT re-marked: two channels sit
-~$2 apart and neither carries a settle label, so there is no number to move it to) ·
-gold **~4,650** (futures print, not a settle).
+**US (Mon 08-31 close, 20:00Z):** UST **2Y 4.34 / 5Y 4.49 / 10Y 4.75 / 30Y 5.25** (CMT; 2Y flat at
+0bp, long-led +3bp) · S&P **7,686.14** / Nasdaq **26,370.89** / Dow **53,185.90** · VIX **14.92** ·
+Brent **88.58** (ICE Oct-26 **TUE 08-25** settle — deliberately NOT re-marked: the live channels carry
+no settle label, so there is no number to move it to) · gold **~4,650** (futures print, not a settle).
 **Korea (Mon 08-31 jong-ga, `CLOSE`):** KOSPI **6,820.02 / +0.46%** · KOSDAQ **834.29** · Samsung
 **W260,000** · SK Hynix **W1,674,000** — V-recovery: gapped ~−3.4%, closed green. **Nikkei
 66,405.56** is Fri's — today's 大引 is undeclared, so the base stays on the last DECLARED settle.
