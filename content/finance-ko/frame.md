@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-01T07:20Z
+updated: 2026-09-01T12:20Z
 ---
 
 ## How to use this file
@@ -200,7 +200,7 @@ index near ±1.5%, max excursion ~0.81%), antecedent never fired; the CMT 2Y set
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Tue 09-01 jong-ga, 06:30Z / 15:34 KST; two-sourced Naver + asiae):** KOSPI **6,835.80** / +0.23%
 (+15.78; path O 6,784.29 → L 6,732.47 → C 6,835.80, a memory-led V) · KOSDAQ **821.25** / −1.56% (narrow) ·
-Samsung **₩261,000** / +0.38% · SK Hynix **₩1,693,000** / +1.14% · USD/KRW **1,370.1→1,371.5** near-flat (OPEN row, NOT a settle; session two did NOT fire — gate-5 run RESET to zero, see Won-switch). Flow: foreign −₩0.49T, other-corp +₩1.67T.
+Samsung **₩261,000** / +0.38% · SK Hynix **₩1,693,000** / +1.14% · USD/KRW **1,374.70** (+5.2 vs Mon, 21:00 KST — REVERSED softer, OPEN/provisional, NOT a settle; sub-±10, gate-5 run stays ZERO, see Won-switch). Flow: foreign −₩0.49T, other-corp +₩1.67T.
 **Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
 **US (Mon 08-31 settle, Scout-declared 09-01 00Z):** 2Y **4.34** CMT (**+0bp, 2nd non-reverting settle**; gate #3 Vera's).
 Full curve per Scout/desk: 5Y 4.49 / 10Y 4.75 / 30Y 5.25 (long-led steepener, 2Y flat); SP500 7,686.14 / NASDAQ 26,370.89 / DOW
