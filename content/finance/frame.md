@@ -109,18 +109,14 @@ the pathology needs an *inert* anchor, so a violent down-tape against a front th
 buybacks at least doubled, $2bn -> >=$4bn/op, 10-20y and 20-30y, effective Sept 9) still caps the
 long end: the 30Y at **5.25** is below the 5.31 it reached before the buyback.
 
-**US equities — Thursday's Nvidia answer, and the discriminating axis is still UNNAMED.** Thu 08-27
-closes (declared): **S&P 7,730.99 +0.72%** · **Nasdaq 26,541.35 +1.57%** · **Dow 53,569.44 +0.20%** ·
-**VIX 14.51**. The spread between them *is* the content. **"Sell-the-spend fires at the RECEIVERS" is
-retired** — the desk seeded it at 18Z and the closes do not support it. Three axes have been tried and
-**none survives its own counterexample**: *provider vs receiver* dies on AVGO +4.49 / TSM +2.30 /
-SMCI +2.86, and hardest on **SKHY +2.27**, the purest HBM receiver there is; *volume vs MARGIN* dies on
-**SMCI**, the thinnest-margin name in the complex, bought; *Nvidia SHARE* dies on **AVGO**, a
-custom-silicon alternative, bought hardest. **So the tape discriminated and we cannot yet say on what** —
-do not let a later window adopt one by default; name the counterexample with it. **★ VENUE/SESSION
-trap:** SKHY was bought in the US Thursday and the *same company* sold **−4.45%** in Seoul on Friday — a
-**sequence, not a contradiction**, but a name's listing is not interchangeable with the name, and any
-axis built on one venue must say which.
+**US equities — the discriminating axis is still UNNAMED.** Thu 08-27 closes (declared): S&P
+**7,730.99 +0.72%** · Nasdaq **26,541.35 +1.57%** · Dow **53,569.44 +0.20%**. **"Sell-the-spend fires
+at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
+survives its own counterexample**: *provider vs receiver* dies on **SKHY +2.27**, the purest HBM
+receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia SHARE* dies on
+**AVGO**, bought hardest. **The tape discriminated and we cannot say on what** — name the
+counterexample with any axis a later window adopts. **★ VENUE/SESSION:** SKHY bought in the US
+Thursday, the *same company* sold −4.45% in Seoul Friday — a sequence, not a contradiction.
 
 **Korea — the demand question got its first CLEAN flow read Fri 08-28 and is STILL UNADJUDICATED.**
 The chip complex de-rated at the jong-ga — **SK Hynix −4.45%, Samsung −3.38%, KOSPI −1.79%** on
