@@ -1383,7 +1383,24 @@ function checkSettles(windows, domain, errors, warnings) {
         }
       }
       // C1 — HARD: this window's prev_close must equal the last close we published.
-      if (s.prev_close == null) continue;
+      // A MISSING prev_close SILENTLY DISABLES THREE CHECKS, and C1 announces its OTHER skip
+      // ("no earlier published close — not applicable") while taking this one without a word.
+      // Guard present in one branch, absent in its sibling — the same shape I had just found in
+      // length-gate.sh, where an unreadable FRAME was "not a pass" and an unreadable EDITION
+      // printed a green tick. Measured across the live corpus before writing this: 150 declared
+      // settles entries carry a close and 150 of them carry a prev_close, so the hole has NEVER
+      // been used. That makes it a habit, not a gate — nothing has been lost yet and nothing
+      // stops it being lost tomorrow.
+      // WARN, never error: for a genuinely first observation the prior close may not exist, and
+      // a gate that can only be satisfied by inventing a number is worse than no gate — the C1
+      // lesson from 08-18, sitting twenty lines below this. So it names what it disables and
+      // leaves the judgement with the reporter.
+      if (s.prev_close == null) {
+        if (s.close != null) {
+          warnings.push(`${win.rel}: settles.${index} declares a close (${s.close}) but NO prev_close — C1 continuity, C2 self-consistency and C3 breaker math are ALL skipped for this index, silently until now. Declare it, or say in the window why the prior close is unavailable.`);
+        }
+        continue;
+      }
       let prior = null;
       for (let j = i - 1; j >= 0; j -= 1) {
         const cand = declared[j].settles[index];
