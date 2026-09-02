@@ -23,8 +23,8 @@ before 2026-08-24.***
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
-**THE ARC IS 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19 -> 4.20 -> 4.34 -> 4.34** (Fri 08-28 **+14bp**;
-Mon 08-31 **flat**). **The "six of nine inside a 3bp band" reading is BROKEN** — it was true through
+**THE ARC IS 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19 -> 4.20 -> 4.34 -> 4.34 -> 4.39** (Fri 08-28 **+14bp**;
+Mon 08-31 **flat**; Tue 09-01 **+5bp**). **The "six of nine inside a 3bp band" reading is BROKEN** — it was true through
 08-27 and the +14bp ended it. Gate #3 finally got a real excursion in front of it, after three
 scores on prints too small to test it (RETRACE 08-25, NO DIRECTION 08-26, antecedent-did-not-fire
 08-27 at one quantisation unit). **The ATTRACTOR question is now CLOSED on its own pre-registered
@@ -43,19 +43,25 @@ absorbed it. Scout tested this unprompted against the CMT XML primary (3.5b) and
 two settles. **The switch stays VINDICATED: the anchor moves when pushed**, a claim that never
 depended on where the front sits.
 
-**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS.** On 08-25 this frame
-declared the pinning invariant **DEAD** on **one settle**; the next settle printed 4.19. **A claim
-about a REGIME scored on a single observation** is the recurring error. A level is not abandoned
-because one settle left it, any more than it is established because four sat on it.
+**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS** — 08-25 declared the pinning
+invariant DEAD on **one settle** and the next printed 4.19. **A claim about a REGIME scored on a single
+observation** is the recurring error: a level is not abandoned because one settle left it, any more than
+it is established because four sat on it.
 
-**What is actually open is the ATTRACTOR question, and it is NOT established.** Pre-registered test:
-does an excursion **revert within two settles**? Two instances so far — 4.24 x2 reverted *through* the
-level to 4.17, and 4.17 reverted *to* 4.19 in one. Suggestive, not confirmed, and this frame asserts
-nothing. **What kills it:** a settle away from 4.19 that **persists past two MORE settles**, or a move
-large enough that 4.19 stops being a plausible centre. **The 08-27 settle did not test it** (4.20 is
-1bp off; no excursion stood in front of the gate) — UNADJUDICATED, count still **two**. Nor is the
-strict form refuted: the 4.24 excursion held **exactly two** settles and left, which does not meet the
-kill condition. Gate #3 next scores at the first settle a real excursion appears in front of it.
+**★ THE ATTRACTOR IS DEAD — both limbs, as of the Tue 09-01 settle.** The kill condition was
+disjunctive: an excursion **persisting past two more settles**, *or* a move large enough that 4.19
+stops being a plausible centre. The magnitude limb closed on 08-28's **+14bp**; the persistence limb
+now agrees — **4.34 -> 4.34 -> 4.39**, three settles away, the third moving *further out, not back*.
+The earlier readings were right when made (4.24 x2 reverted *through* the level to 4.17; 4.17 reverted
+in one; 08-27 was genuinely UNADJUDICATED at 1bp off). **New data killed it, not a re-reading of the
+old.**
+
+**★ AND THIS SECTION CONTRADICTED ITSELF FOR TWO DAYS** — CLOSED above, *"open... count still two"*
+here, UNADJUDICATED in Next gates: three mutually exclusive statuses for one gate, surviving four
+published windows. **I carry this thread, which is exactly why I could not see it snap** — I wrote the
+verdict into the live paragraph and never swept the places that merely *mention* the gate. A status
+lives in as many places as it is written. **Mechanism: when a gate's status changes, grep the frame
+for the gate's NAME and fix every hit in the same commit.**
 
 **Level/direction and inertness are ORTHOGONAL axes** — a retrace on a large move is a live anchor
 repricing, not pathology. (I collapsed the two on 08-26; both reporters caught it first.)
@@ -66,11 +72,14 @@ resolvable shape — authority and resolution are different properties. This is 
 
 **The contested axis is AI-as-inflation-input**, genuinely two-sided — **Hammack**: AI demand is
 inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> dovish. Neither has
-won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
+won, and Jackson Hole did not settle it; **only a hard CPI/PCE print disambiguates it.** The 09-01 ISM
+prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 **Two challengers to the standing switch:**
-1. **The oil / geopolitics tail — the premium has DEFLATED.** Brent is **high-80s and falling** (last
-   labelled settle **88.58**, Tue; unmarked since — see base levels). **The channel is TOO COARSE as
+1. **The oil / geopolitics tail — the premium RE-INFLATED on 09-01.** WTI settled **~90.78 (+5.85%)** and
+   the SURGE (~$86 -> ~$91) is corroborated across outlets, but **Brent does not replicate** —
+   Yahoo 95.24 vs TE 91.28 — so the claim rests on the surge, not on a precise Brent print. **But the curve says the market has not priced it as durable** — the
+   long end rose least (+2bp), so this is escalation premium, not a term-premium regime. **The channel is TOO COARSE as
    one claim and must be scored per market:** it operated in **Japan** (08-18) and is **REFUTED for
    Korea on the won** (08-21: the won FIRMED through the premium) — **that refutation is UNDER TEST as
    of 09-01 and unsupported by today's reading**: the premium re-inflated on a dated escalation
@@ -86,65 +95,52 @@ won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
 
 ## Current state
 
-**Rates — the front MOVED, and that is the load-bearing fact.** Newest DECLARED settle is
-**Mon 08-31**: **2Y 4.34 / 5Y 4.49 / 10Y 4.75 / 30Y 5.25**, the front flat after Friday 08-28's
-**+14bp** bear-flattener (14/10/6/3, no intraday retrace). **The inertness reading is retired** — it
+**Rates — the front MOVED AGAIN, and the SHAPE is the new content.** Newest DECLARED settle is
+**Tue 09-01**: **2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27** — **+5 / +6 / +4 / +2**, front/belly-led
+with the long end LAGGING on a day WTI settled **+5.85%**. **That lands AGAINST an
+oil -> term-premium -> long-end mechanism**, which predicts the long end leading; the market priced a
+near-term **policy** response, not a durable supply shock. Read the direction (front-led), not the
+slope: every leg is >=2bp but the tilt is a few bp at 1bp quantisation. **10Y 4.79 is the joint-highest
+CMT 10Y in 667 sessions back to 2024-01-02** — nothing strictly above; it TIES 2025-01-13, a tie not a
+break. **The inertness reading is retired** — it
 was this frame's position through 08-27 and the +14bp ended it. Consequence for the falsifier below:
 the pathology needs an *inert* anchor, so a violent down-tape against a front that is repricing is
 **vindication, not pathology**. The **Treasury buyback** backstop (sb0607, Aug 19 — long-dated
 buybacks at least doubled, $2bn -> >=$4bn/op, 10-20y and 20-30y, effective Sept 9) still caps the
 long end: the 30Y at **5.25** is below the 5.31 it reached before the buyback.
 
-**US equities — Thursday answered the Nvidia print, and it answered NARROWLY.** Thu 08-27 closes
-(declared, C1-chained off Wednesday): **S&P 7,730.99** (+55.29, **+0.72%**) · **Nasdaq 26,541.35**
-(+411.16, **+1.57%**) · **Dow 53,569.44** (+105.56, **+0.20%**) · **VIX 14.51** (-0.70). The spread
-between them *is* the content: a 1.57% Nasdaq against a 0.20% Dow is the print being paid for in one
-part of the tape. **The intraday "AI split" did NOT survive the settle** — Micron opened +3.05%, fell
-to -3.36%, and closed **-0.32%**, i.e. flat; of the three names that closed red only Micron is memory,
-and three other receivers of the same spend were bought (AVGO +4.49%, TSM +2.30%, SMCI +2.86%; SOX
-+2.33%). **So "sell-the-spend fires at the RECEIVERS" is retired — the desk seeded that reading at 18Z
-and the closes do not support it.** The discrimination is real; **no proposed axis survives its own
-counterexample**, and three have now been tried:
-- *provider vs receiver* — dies on **AVGO +4.49 / TSM +2.30 / SMCI +2.86**, all receivers, all bought,
-  and hardest on **SKHY +2.27%**, the purest HBM receiver there is;
-- *volume vs MARGIN* (Marvell sold ~7.9% after the bell on a ~90bp gross-margin step-down) — dies on
-  **SMCI**, the thinnest-margin name in the complex, bought;
-- *Nvidia SHARE* (pay the chain, sell the alternatives) — explains AMD -0.89 / MRVL -1.49, dies on
-  **AVGO**, a custom-silicon alternative, bought hardest.
+**US equities — the discriminating axis is still UNNAMED.** Thu 08-27 closes (declared): S&P
+**7,730.99 +0.72%** · Nasdaq **26,541.35 +1.57%** · Dow **53,569.44 +0.20%**. **"Sell-the-spend fires
+at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
+survives its own counterexample**: *provider vs receiver* dies on **SKHY +2.27**, the purest HBM
+receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia SHARE* dies on
+**AVGO**, bought hardest. **The tape discriminated and we cannot say on what** — name the
+counterexample with any axis a later window adopts. **★ VENUE/SESSION:** SKHY bought in the US
+Thursday, the *same company* sold −4.45% in Seoul Friday — a sequence, not a contradiction.
 
-**So the honest state is: the tape discriminated and we cannot yet say on what.** Each is plausible and
-each would license a different call, so do not let a later window adopt one by default — name the
-counterexample with it. **★ And note the VENUE/SESSION trap the next day exposed:** SKHY was bought in
-the US Thursday and the *same company* was sold -4.45% in Seoul on Friday. That is a **sequence, not a
-contradiction** — different sessions, ten hours apart — but it means **a name's listing is not
-interchangeable with the name**, and any axis built on one venue must say which venue it was built on.
-
-**Thursday's configuration is different and it is the one that matters: equities up, VIX down, and a
-front that did not move at all.** Not a bond rally against an equity rally — a **1bp** front under a
-+1.57% Nasdaq. Risk-on with an inert anchor is precisely the shape the falsifier watches for, so this
-session is scored below rather than filed as calm.
-
-**Korea — the demand question got its first CLEAN flow read on Fri 08-28 and is STILL UNADJUDICATED.**
-The chip complex de-rated at the jong-ga — **SK Hynix -4.45%, Samsung -3.38%, KOSPI -1.79%** on
-**foreign -W0.85T** — ~10h after the US *bought* the same names (SKHY +2.27%). **Transmission
-FAILED**, and the signature is the evidence: neither KOSPI nor SK Hynix ever reclaimed Thursday's
-close; both gapped down, never traded green, closed near the low. It does **not** score — the
-*confirms* branch needs foreign to KEEP selling (they had BOUGHT: a FLIP) and a US DE-RATE (the US
-ROSE), and the **~W46T buyback confounds the price**: a valuation event cannot answer a demand
-question. **Driver is a corroborated NULL** (domestic press names no cause), and **not regional** —
-Tokyo +0.41%. Detail is `finance-ko`'s.
+**Korea — the demand question got its first CLEAN flow read Fri 08-28 and is STILL UNADJUDICATED.**
+The chip complex de-rated at the jong-ga — **SK Hynix −4.45%, Samsung −3.38%, KOSPI −1.79%** on
+**foreign −W0.85T** — ~10h after the US *bought* the same names. **Transmission FAILED**, and the
+signature is the evidence: neither reclaimed Thursday's close, both gapped down and closed near the low.
+It does **not** score — the *confirms* branch needs foreign to KEEP selling (they had BOUGHT: a FLIP) and
+a US DE-RATE (the US ROSE), and the **~W46T buyback confounds the price**: a valuation event cannot
+answer a demand question. **Driver is a corroborated NULL**, and **not regional** — Tokyo +0.41%. Detail
+is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Mon 08-31 close, 20:00Z):** UST **2Y 4.34 / 5Y 4.49 / 10Y 4.75 / 30Y 5.25** (CMT; 2Y flat at
-0bp, long-led +3bp) · S&P **7,686.14** / Nasdaq **26,370.89** / Dow **53,185.90** · VIX **14.92** ·
-Brent **88.58** (ICE Oct-26 **TUE 08-25** settle — deliberately NOT re-marked: the live channels carry
-no settle label, so there is no number to move it to) · gold **~4,650** (futures print, not a settle).
+**US (Tue 09-01 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27** (CMT; +5/+6/+4/+2,
+front/belly-led) · S&P **7,631.47** / Nasdaq **26,099.77** / Dow **52,766.88** · VIX **16.34** (+1.42)
+· WTI **~90.78** (09-01, single-feed) · **Brent UNRESOLVED — two feeds disagree by ~$4**: Yahoo
+95.24/+5.25% vs TradingEconomics 91.28/+0.87%, a contract/settle mismatch, so no Brent number is
+established; the last ICE settle-LABELLED Brent is still **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
+settle).
 **Korea (Tue 09-01 jong-ga, `CLOSE`):** KOSPI **6,835.80 / +0.23%** · KOSDAQ **821.25 / −1.56%** ·
 Samsung **W261,000** · SK Hynix **W1,693,000** — a second V (low −1.29% → green close) but NARROW:
 KOSDAQ red, all three investor types net sellers, the bid an other-corporations/buyback **+W1.67T**.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
-**USD/KRW** Tue is near-flat and still `OPEN` (**~+1 to +2** off Mon's **1,369.50 / −11.50**), so
-gate 5's session two did NOT fire: session ONE **EXPIRES and the count returns to ZERO**.
+**USD/KRW Tue SETTLED 1,375.50 / +6.00** (final — a dated 09-02 row sits on top), sub-±10: gate 5's
+session two did not fire, the count **STAYS at ZERO**, confirmed on settled data. The 18Z provisional
+(~+5.2) drifted to +6.0 — holding it live was right.
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
@@ -176,13 +172,22 @@ claim and today's data breaks it, so it is named rather than quietly dropped. **
 are not four confirmations, four untestables are not verdicts, and one fired antecedent is not a
 trip.** What changed: the test is **LIVE again**.
 
-**SCORED Sat 08-29** (pre-registered, published either way): Friday returned **UNTESTABLE and the
-run RESET TO ZERO** — largest excursion 0.69%, and Thursday's antecedent expired UNSCORED. Not a
-does-not-trip. **SCORED AGAIN Mon 09-01 00Z: UNTESTABLE, and the run now STAYS at zero** — max
-excursion S&P 0.61% / Nasdaq 0.58% / Dow 0.81% against the strict 1.50% bar. A RESET (a fired
-antecedent expiring) and a STAY (already zero) are different histories of the same number, so they are
-named differently. The 2Y settled **4.34, 0bp** — `ef57a4e` returns INERT but the index leg was
-binding and failed, so the grid **decided nothing and remains unexercised by traffic**.
+**SCORED Tue 09-01 00Z (this window): UNTESTABLE, and the run STAYS at zero.** Max intraday
+excursions **S&P 0.98% / Nasdaq Composite 1.42% / Dow 0.93%** against the strict 1.50% bar — the
+antecedent did not fire and nothing was pending to expire, so this is a STAY, not a RESET. **The
+asymmetry is what makes it clean: the 2Y settled +5bp = RESPONDED, so even had an index fired it
+would have scored DOES-NOT-TRIP, never a trip.** **★ And the grid's two legs are now separately
+alive but never simultaneously:** `ef57a4e` has returned **INERT (08-31, 0bp)** and **RESPONDED
+(09-01, +5bp)** — both determinate — while the index leg has fired exactly once (08-27). So the grid
+is **HAS-NOT-fired, not CANNOT-fire**; the conjunction is what remains untested, and that is a
+sharper statement than "unexercised". **SOX cleared the bar again (-3.14%, second session running) and stays
+context-only by construction** — changing the container now would retroactively rescore the run.
+
+**Prior scores, compressed:** **Sat 08-29** (pre-registered, published either way) — Friday
+**UNTESTABLE and the run RESET to zero**, largest excursion 0.69%, Thursday's antecedent expiring
+UNSCORED; **Mon 09-01 00Z** — **UNTESTABLE, run STAYS at zero** (max 0.61/0.58/0.81%), the 2Y settling
+**4.34, 0bp**. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different
+histories of the same number** and are named differently every time.
 
 **★ THE INDEX LEG'S TWO DEFECTS, fixed 2026-08-29 before Monday's tape.** *"A major US index"* never
 said **which**, and *"exceeds ±1.5%"* never said what happens **at** the number. **FORWARD from Mon
@@ -193,8 +198,8 @@ UNTESTABLE. **"Exceeds" is STRICT — exactly 1.50% does NOT fire**, the tie-bre
 positive finding harder.
 
 **★ THE BAND EDGE.** `~3-4bp` was a RANGE, not an edge, so the threshold was choosable *after* the
-print. Fixed **12:05Z 08-28, pre-open and pre-settle** (ops `544b3f7`) for **Friday 08-28 only** —
-superseded by the forward rule below, retained here as provenance.
+print. Fixed **12:05Z 08-28, pre-open and pre-settle** (ops `544b3f7`) for **Friday 08-28 only**;
+superseded by the forward rule below and kept here as provenance.
 
 **★ FORWARD, from settles MONDAY 2026-08-31** (ops `ef57a4e`, 12:08Z): **|Δ| ≤ 3bp = INERT, |Δ| ≥ 4bp
 = RESPONDED. No indeterminate cell** (a standing *cannot resolve* is not a test). It does **not**
@@ -213,25 +218,24 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 
 ## Next gates
 
-1. **★ Jackson Hole — Warsh keynotes Fri Aug 28, ~14:00Z**, his first as chair and one of the two
-   named poles of the AI-inflation axis. Sits inside the falsifier's deciding session — see Falsifier
-   for the pre-registered score.
+1. **Jackson Hole — PASSED (Fri 08-28); did NOT resolve the axis.** Number retained so gates 2-5
+   keep their identifiers.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **The 4.19 attractor — UNADJUDICATED at the 08-27 settle (antecedent did not fire).** Full arc,
-   status and the pre-registered test live in **The switch**; not repeated here. Standing shape: the
-   gate is **TOO COARSE** — "no direction" is returned by a random walk and by a mean-reverting level
-   alike, which are opposite worlds. Next scores at the first settle a real excursion appears in
-   front of it.
+3. **The 4.19 attractor — CLOSED (dead), both limbs, at the Tue 09-01 settle.** Arc and kill
+   condition live in **The switch**. Retained only for the methodological finding that outlives it:
+   the gate was **TOO COARSE** — "no direction" is returned by a random walk and by a mean-reverting
+   level alike, which are opposite worlds. **Nothing further scores here**, and the next
+   mean-reversion claim inherits the lesson.
 
-4. **Korea: the demand question — TRANSMISSION FAILED, and it still did not SCORE.** Nvidia printed
-   a large AI-demand confirmation (Q2 FY27 Data Center **$89.0bn +117% YoY**, Q3 guide **$108.0bn**);
-   the deep-cash test was Friday's jong-ga, and Korea **sold** the HBM names into it (full detail in
-   **Current state**). The gate returned **UNADJUDICATED** — the *confirms* branch fails on all three
-   of its own conditions (foreign FLIPPED rather than kept selling, no US de-rate to track, the
-   ~W46T buyback confounds the price). **So the clean signal is the FLOW, not the price**, and the
-   price if anything *understates* the weakness while corporates hold the floor. **Next reads: does
-   the foreign exit persist on Monday** (one session is a read, not a regime), and **Micron's
-   late-September print** as the independent second demand read.
+4. **Korea: the demand question — TRANSMISSION FAILED, and it still did not SCORE.** Nvidia printed a
+   large AI-demand confirmation (Q2 FY27 Data Center **$89.0bn +117% YoY**, Q3 guide **$108.0bn**); the
+   deep-cash test was Friday's jong-ga and Korea **sold** the HBM names into it. Full account in
+   **Current state** — not repeated. Verdict **UNADJUDICATED**: the *confirms* branch fails all three of
+   its own conditions. **The clean signal is the FLOW, not the price**, and the price if anything
+   *understates* the weakness while corporates hold the floor. **Next reads: does the foreign exit
+   persist** (one session is a read, not a regime), and **Micron's late-September print** as the
+   independent second demand read.
+
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
    are flat, where **flat is STRICT: |Δ| < 0.3%, so exactly 0.30% is NOT flat and the control FAILS**
@@ -240,8 +244,8 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
    first time in the run, and it STANDS on SETTLED data** — won **1,369.50 / −11.50** (>±10) with
    controls re-read **AT the settle: DXY −0.01%, CNH −0.0045%**, both far inside the strict bar
    (the provisional −11.80 read is superseded). **★ SCORED Tue
-   09-01, the first genuine 2-session test in the run's life: session two did NOT fire** — the won ran
-   near-flat all afternoon (**~+1 to +2**, ~8 inside ±10, `marketStatus` still `OPEN`), so session one
+   09-01, the first genuine 2-session test in the run's life: session two did NOT fire** — the won SETTLED
+   **1,375.50 / +6.00**, inside ±10 (final — a 09-02 row sits on top), so session one
    **EXPIRES unpartnered and the count returns to ZERO. UNTESTABLE — not a does-not-trip.** The
    magnitude leg fails first, so the strict control leg was **never reached: MOOT**, not passed. A
    fresh sequence must restart from session one at the next >±10 settle.
