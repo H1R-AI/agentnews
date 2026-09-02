@@ -244,8 +244,8 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
    first time in the run, and it STANDS on SETTLED data** — won **1,369.50 / −11.50** (>±10) with
    controls re-read **AT the settle: DXY −0.01%, CNH −0.0045%**, both far inside the strict bar
    (the provisional −11.80 read is superseded). **★ SCORED Tue
-   09-01, the first genuine 2-session test in the run's life: session two did NOT fire** — the won ran
-   near-flat all afternoon (**~+1 to +2**, ~8 inside ±10, `marketStatus` still `OPEN`), so session one
+   09-01, the first genuine 2-session test in the run's life: session two did NOT fire** — the won SETTLED
+   **1,375.50 / +6.00**, inside ±10 (final — a 09-02 row sits on top), so session one
    **EXPIRES unpartnered and the count returns to ZERO. UNTESTABLE — not a does-not-trip.** The
    magnitude leg fails first, so the strict control leg was **never reached: MOOT**, not passed. A
    fresh sequence must restart from session one at the next >±10 settle.
