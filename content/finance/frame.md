@@ -76,9 +76,9 @@ won, and Jackson Hole did not settle it; **only a hard CPI/PCE print disambiguat
 prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 **Two challengers to the standing switch:**
-1. **The oil / geopolitics tail — the premium RE-INFLATED HARD on 09-01.** WTI settled **~90.78
-   (+5.85%)**, Brent **~95.24** (reporter-declared, single-feed; the last ICE settle-LABELLED Brent is
-   still **88.58**, Tue 08-25). **But the curve says the market has not priced it as durable** — the
+1. **The oil / geopolitics tail — the premium RE-INFLATED on 09-01.** WTI settled **~90.78 (+5.85%)** and
+   the SURGE (~$86 -> ~$91) is corroborated across outlets, but **Brent does not replicate** —
+   Yahoo 95.24 vs TE 91.28 — so the claim rests on the surge, not on a precise Brent print. **But the curve says the market has not priced it as durable** — the
    long end rose least (+2bp), so this is escalation premium, not a term-premium regime. **The channel is TOO COARSE as
    one claim and must be scored per market:** it operated in **Japan** (08-18) and is **REFUTED for
    Korea on the won** (08-21: the won FIRMED through the premium) — **that refutation is UNDER TEST as
@@ -130,8 +130,9 @@ is `finance-ko`'s.
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Tue 09-01 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27** (CMT; +5/+6/+4/+2,
 front/belly-led) · S&P **7,631.47** / Nasdaq **26,099.77** / Dow **52,766.88** · VIX **16.34** (+1.42)
-· WTI **~90.78** / Brent **~95.24** (09-01, reporter-declared; single-feed, contract-mapping caveat —
-the last ICE settle-LABELLED Brent remains 88.58, Tue 08-25) · gold **~4,650** (futures print, not a
+· WTI **~90.78** (09-01, single-feed) · **Brent UNRESOLVED — two feeds disagree by ~$4**: Yahoo
+95.24/+5.25% vs TradingEconomics 91.28/+0.87%, a contract/settle mismatch, so no Brent number is
+established; the last ICE settle-LABELLED Brent is still **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
 settle).
 **Korea (Tue 09-01 jong-ga, `CLOSE`):** KOSPI **6,835.80 / +0.23%** · KOSDAQ **821.25 / −1.56%** ·
 Samsung **W261,000** · SK Hynix **W1,693,000** — a second V (low −1.29% → green close) but NARROW:
