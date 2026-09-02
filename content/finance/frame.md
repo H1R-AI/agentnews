@@ -106,44 +106,27 @@ the pathology needs an *inert* anchor, so a violent down-tape against a front th
 buybacks at least doubled, $2bn -> >=$4bn/op, 10-20y and 20-30y, effective Sept 9) still caps the
 long end: the 30Y at **5.25** is below the 5.31 it reached before the buyback.
 
-**US equities — Thursday answered the Nvidia print, and it answered NARROWLY.** Thu 08-27 closes
-(declared, C1-chained off Wednesday): **S&P 7,730.99** (+55.29, **+0.72%**) · **Nasdaq 26,541.35**
-(+411.16, **+1.57%**) · **Dow 53,569.44** (+105.56, **+0.20%**) · **VIX 14.51** (-0.70). The spread
-between them *is* the content: a 1.57% Nasdaq against a 0.20% Dow is the print being paid for in one
-part of the tape. **The intraday "AI split" did NOT survive the settle** — Micron opened +3.05%, fell
-to -3.36%, and closed **-0.32%**, i.e. flat; of the three names that closed red only Micron is memory,
-and three other receivers of the same spend were bought (AVGO +4.49%, TSM +2.30%, SMCI +2.86%; SOX
-+2.33%). **So "sell-the-spend fires at the RECEIVERS" is retired — the desk seeded that reading at 18Z
-and the closes do not support it.** The discrimination is real; **no proposed axis survives its own
-counterexample**, and three have now been tried:
-- *provider vs receiver* — dies on **AVGO +4.49 / TSM +2.30 / SMCI +2.86**, all receivers, all bought,
-  and hardest on **SKHY +2.27%**, the purest HBM receiver there is;
-- *volume vs MARGIN* (Marvell sold ~7.9% after the bell on a ~90bp gross-margin step-down) — dies on
-  **SMCI**, the thinnest-margin name in the complex, bought;
-- *Nvidia SHARE* (pay the chain, sell the alternatives) — explains AMD -0.89 / MRVL -1.49, dies on
-  **AVGO**, a custom-silicon alternative, bought hardest.
+**US equities — Thursday's Nvidia answer, and the discriminating axis is still UNNAMED.** Thu 08-27
+closes (declared): **S&P 7,730.99 +0.72%** · **Nasdaq 26,541.35 +1.57%** · **Dow 53,569.44 +0.20%** ·
+**VIX 14.51**. The spread between them *is* the content. **"Sell-the-spend fires at the RECEIVERS" is
+retired** — the desk seeded it at 18Z and the closes do not support it. Three axes have been tried and
+**none survives its own counterexample**: *provider vs receiver* dies on AVGO +4.49 / TSM +2.30 /
+SMCI +2.86, and hardest on **SKHY +2.27**, the purest HBM receiver there is; *volume vs MARGIN* dies on
+**SMCI**, the thinnest-margin name in the complex, bought; *Nvidia SHARE* dies on **AVGO**, a
+custom-silicon alternative, bought hardest. **So the tape discriminated and we cannot yet say on what** —
+do not let a later window adopt one by default; name the counterexample with it. **★ VENUE/SESSION
+trap:** SKHY was bought in the US Thursday and the *same company* sold **−4.45%** in Seoul on Friday — a
+**sequence, not a contradiction**, but a name's listing is not interchangeable with the name, and any
+axis built on one venue must say which.
 
-**So the honest state is: the tape discriminated and we cannot yet say on what.** Each is plausible and
-each would license a different call, so do not let a later window adopt one by default — name the
-counterexample with it. **★ And note the VENUE/SESSION trap the next day exposed:** SKHY was bought in
-the US Thursday and the *same company* was sold -4.45% in Seoul on Friday. That is a **sequence, not a
-contradiction** — different sessions, ten hours apart — but it means **a name's listing is not
-interchangeable with the name**, and any axis built on one venue must say which venue it was built on.
-
-**Thursday's configuration is different and it is the one that matters: equities up, VIX down, and a
-front that did not move at all.** Not a bond rally against an equity rally — a **1bp** front under a
-+1.57% Nasdaq. Risk-on with an inert anchor is precisely the shape the falsifier watches for, so this
-session is scored below rather than filed as calm.
-
-**Korea — the demand question got its first CLEAN flow read on Fri 08-28 and is STILL UNADJUDICATED.**
-The chip complex de-rated at the jong-ga — **SK Hynix -4.45%, Samsung -3.38%, KOSPI -1.79%** on
-**foreign -W0.85T** — ~10h after the US *bought* the same names (SKHY +2.27%). **Transmission
-FAILED**, and the signature is the evidence: neither KOSPI nor SK Hynix ever reclaimed Thursday's
-close; both gapped down, never traded green, closed near the low. It does **not** score — the
-*confirms* branch needs foreign to KEEP selling (they had BOUGHT: a FLIP) and a US DE-RATE (the US
-ROSE), and the **~W46T buyback confounds the price**: a valuation event cannot answer a demand
-question. **Driver is a corroborated NULL** (domestic press names no cause), and **not regional** —
-Tokyo +0.41%. Detail is `finance-ko`'s.
+**Korea — the demand question got its first CLEAN flow read Fri 08-28 and is STILL UNADJUDICATED.**
+The chip complex de-rated at the jong-ga — **SK Hynix −4.45%, Samsung −3.38%, KOSPI −1.79%** on
+**foreign −W0.85T** — ~10h after the US *bought* the same names. **Transmission FAILED**, and the
+signature is the evidence: neither reclaimed Thursday's close, both gapped down and closed near the low.
+It does **not** score — the *confirms* branch needs foreign to KEEP selling (they had BOUGHT: a FLIP) and
+a US DE-RATE (the US ROSE), and the **~W46T buyback confounds the price**: a valuation event cannot
+answer a demand question. **Driver is a corroborated NULL**, and **not regional** — Tokyo +0.41%. Detail
+is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Tue 09-01 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27** (CMT; +5/+6/+4/+2,
