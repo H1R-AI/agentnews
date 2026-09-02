@@ -43,10 +43,10 @@ absorbed it. Scout tested this unprompted against the CMT XML primary (3.5b) and
 two settles. **The switch stays VINDICATED: the anchor moves when pushed**, a claim that never
 depended on where the front sits.
 
-**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS.** On 08-25 this frame
-declared the pinning invariant **DEAD** on **one settle**; the next settle printed 4.19. **A claim
-about a REGIME scored on a single observation** is the recurring error. A level is not abandoned
-because one settle left it, any more than it is established because four sat on it.
+**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS** — 08-25 declared the pinning
+invariant DEAD on **one settle** and the next printed 4.19. **A claim about a REGIME scored on a single
+observation** is the recurring error: a level is not abandoned because one settle left it, any more than
+it is established because four sat on it.
 
 **★ THE ATTRACTOR IS DEAD — both limbs, as of the Tue 09-01 settle.** The kill condition was
 disjunctive: an excursion **persisting past two more settles**, *or* a move large enough that 4.19
@@ -183,13 +183,11 @@ sharper statement than "unexercised". **SOX cleared the bar again (-3.14% intrad
 running) and is context-only by construction** — changing the container now would retroactively
 rescore the published run.
 
-**SCORED Sat 08-29** (pre-registered, published either way): Friday returned **UNTESTABLE and the
-run RESET TO ZERO** — largest excursion 0.69%, and Thursday's antecedent expired UNSCORED. Not a
-does-not-trip. **SCORED AGAIN Mon 09-01 00Z: UNTESTABLE, and the run now STAYS at zero** — max
-excursion S&P 0.61% / Nasdaq 0.58% / Dow 0.81% against the strict 1.50% bar. A RESET (a fired
-antecedent expiring) and a STAY (already zero) are different histories of the same number, so they are
-named differently. The 2Y settled **4.34, 0bp** — `ef57a4e` returns INERT but the index leg was
-binding and failed, so the grid **decided nothing and remains unexercised by traffic**.
+**Prior scores, compressed:** **Sat 08-29** (pre-registered, published either way) — Friday
+**UNTESTABLE and the run RESET to zero**, largest excursion 0.69%, Thursday's antecedent expiring
+UNSCORED; **Mon 09-01 00Z** — **UNTESTABLE, run STAYS at zero** (max 0.61/0.58/0.81%), the 2Y settling
+**4.34, 0bp**. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different
+histories of the same number** and are named differently every time.
 
 **★ THE INDEX LEG'S TWO DEFECTS, fixed 2026-08-29 before Monday's tape.** *"A major US index"* never
 said **which**, and *"exceeds ±1.5%"* never said what happens **at** the number. **FORWARD from Mon
