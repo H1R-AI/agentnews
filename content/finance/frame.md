@@ -198,8 +198,8 @@ UNTESTABLE. **"Exceeds" is STRICT — exactly 1.50% does NOT fire**, the tie-bre
 positive finding harder.
 
 **★ THE BAND EDGE.** `~3-4bp` was a RANGE, not an edge, so the threshold was choosable *after* the
-print. Fixed **12:05Z 08-28, pre-open and pre-settle** (ops `544b3f7`) for **Friday 08-28 only** —
-superseded by the forward rule below, retained here as provenance.
+print. Fixed **12:05Z 08-28, pre-open and pre-settle** (ops `544b3f7`) for **Friday 08-28 only**;
+superseded by the forward rule below and kept here as provenance.
 
 **★ FORWARD, from settles MONDAY 2026-08-31** (ops `ef57a4e`, 12:08Z): **|Δ| ≤ 3bp = INERT, |Δ| ≥ 4bp
 = RESPONDED. No indeterminate cell** (a standing *cannot resolve* is not a test). It does **not**
