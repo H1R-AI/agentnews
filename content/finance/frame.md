@@ -118,7 +118,7 @@ receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia 
 counterexample with any axis a later window adopts. **★ VENUE/SESSION:** SKHY bought in the US
 Thursday, the *same company* sold −4.45% in Seoul Friday — a sequence, not a contradiction.
 
-**Korea — the demand question got its first CLEAN flow read Fri 08-28 and is STILL UNADJUDICATED.**
+**Korea — the decouple-break SCORED `confirms` Wed 09-02, its first clean read after four UNADJUDICATED.**
 The chip complex de-rated at the jong-ga — **SK Hynix −4.45%, Samsung −3.38%, KOSPI −1.79%** on
 **foreign −W0.85T** — ~10h after the US *bought* the same names. **Transmission FAILED**, and the
 signature is the evidence: neither reclaimed Thursday's close, both gapped down and closed near the low.
@@ -134,9 +134,9 @@ front/belly-led) · S&P **7,631.47** / Nasdaq **26,099.77** / Dow **52,766.88** 
 95.24/+5.25% vs TradingEconomics 91.28/+0.87%, a contract/settle mismatch, so no Brent number is
 established; the last ICE settle-LABELLED Brent is still **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
 settle).
-**Korea (Tue 09-01 jong-ga, `CLOSE`):** KOSPI **6,835.80 / +0.23%** · KOSDAQ **821.25 / −1.56%** ·
-Samsung **W261,000** · SK Hynix **W1,693,000** — a second V (low −1.29% → green close) but NARROW:
-KOSDAQ red, all three investor types net sellers, the bid an other-corporations/buyback **+W1.67T**.
+**Korea (Wed 09-02 jong-ga, `CLOSE`):** KOSPI **6,562.72 / −3.99%** · KOSDAQ **803.98 / −2.10%** ·
+Samsung **W250,500 / −4.02%** · SK Hynix **W1,613,000 / −4.73%** — the down-open did NOT round-trip:
+faded a bounce to −2.07% and closed on the low, foreign AND institutions heavy sellers.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 **USD/KRW Tue SETTLED 1,375.50 / +6.00** (final — a dated 09-02 row sits on top), sub-±10: gate 5's
 session two did not fire, the count **STAYS at ZERO**, confirmed on settled data. The 18Z provisional
