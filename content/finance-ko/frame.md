@@ -183,9 +183,8 @@ index near ±1.5%, max excursion ~0.81%), antecedent never fired; the CMT 2Y set
 (+15.78; path O 6,784.29 → L 6,732.47 → C 6,835.80, a memory-led V) · KOSDAQ **821.25** / −1.56% (narrow) ·
 Samsung **₩261,000** / +0.38% · SK Hynix **₩1,693,000** / +1.14% · USD/KRW **1,375.50** / +6.00 (Tue SETTLED, final — dated 09-02 row on top; sub-±10, gate-5 STAYS ZERO, now confirmed on settled data); Wed 09-02 LIVE ~1,372.7 / −2.8 firming (OPEN, pulled 00:03Z, NOT a settle). Flow: foreign −₩0.49T, other-corp +₩1.67T.
 **Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
-**US (Mon 08-31 settle, Scout-declared 09-01 00Z):** 2Y **4.34** CMT (**+0bp, 2nd non-reverting settle**; gate #3 Vera's).
-Full curve per Scout/desk: 5Y 4.49 / 10Y 4.75 / 30Y 5.25 (long-led steepener, 2Y flat); SP500 7,686.14 / NASDAQ 26,370.89 / DOW
-53,185.90 / VIX 14.92. *(base = last settles-declared, Scout's 09-01 00Z.)*
+**US (Tue 09-01 settle, Scout-declared 09-02 00Z):** 2Y **4.39** CMT (+5bp on the escalation reflation; gate #3 CLOSED, Vera's).
+Full curve per Scout: 5Y 4.55 / 10Y 4.79 / 30Y 5.27; SP500 7,631.47 / NASDAQ 26,099.77 / DOW 52,766.88 (all lower — risk-off). *(base = last settles-declared, Scout's 09-02 00Z.)*
 
 **US read (Scout's, carried):** **reflation / no-landing → higher-for-longer** — the 2Y anchor RESPONDED (+5bp off four 4.19 settles, releasing the inert-anchor pathology benignly) and gate #3 has since CLOSED 09-01. One settle is not a regime.
 
