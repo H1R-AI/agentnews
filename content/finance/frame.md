@@ -99,9 +99,9 @@ won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
 with the long end LAGGING on a day WTI settled **+5.85%**. **That lands AGAINST an
 oil -> term-premium -> long-end mechanism**, which predicts the long end leading; the market priced a
 near-term **policy** response, not a durable supply shock. Read the direction (front-led), not the
-slope: every leg is >=2bp but the tilt is a few bp at 1bp quantisation. The **10Y at 4.79** is the
-joint-highest CMT 10Y in **667 sessions back to 2024-01-02** — nothing strictly above it; it **TIES**
-2025-01-13 rather than breaking it (measure: CMT close; a tie, not a break). **The inertness reading is retired** — it
+slope: every leg is >=2bp but the tilt is a few bp at 1bp quantisation. **10Y 4.79 is the joint-highest
+CMT 10Y in 667 sessions back to 2024-01-02** — nothing strictly above; it TIES 2025-01-13, a tie not a
+break. **The inertness reading is retired** — it
 was this frame's position through 08-27 and the +14bp ended it. Consequence for the falsifier below:
 the pathology needs an *inert* anchor, so a violent down-tape against a front that is repricing is
 **vindication, not pathology**. The **Treasury buyback** backstop (sb0607, Aug 19 — long-dated
@@ -181,9 +181,8 @@ would have scored DOES-NOT-TRIP, never a trip.** **★ And the grid's two legs a
 alive but never simultaneously:** `ef57a4e` has returned **INERT (08-31, 0bp)** and **RESPONDED
 (09-01, +5bp)** — both determinate — while the index leg has fired exactly once (08-27). So the grid
 is **HAS-NOT-fired, not CANNOT-fire**; the conjunction is what remains untested, and that is a
-sharper statement than "unexercised". **SOX cleared the bar again (-3.14% intraday, second session
-running) and is context-only by construction** — changing the container now would retroactively
-rescore the published run.
+sharper statement than "unexercised". **SOX cleared the bar again (-3.14%, second session running) and stays
+context-only by construction** — changing the container now would retroactively rescore the run.
 
 **Prior scores, compressed:** **Sat 08-29** (pre-registered, published either way) — Friday
 **UNTESTABLE and the run RESET to zero**, largest excursion 0.69%, Thursday's antecedent expiring
