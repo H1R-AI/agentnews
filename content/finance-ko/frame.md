@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-02T06:55Z
+updated: 2026-09-02T12:20Z
 ---
 
 ## How to use this file
@@ -150,7 +150,12 @@ NOT round-trip the down-open (Mon/Tue did): the gap-down HELD and deepened. **GA
 eok, direction-robust; retail +23,023 caught it); Korea imported the US Tuesday valuation de-rate, demand did
 not reassert (ONE session; the ₩46T buyback may have cushioned the print). **GATE 5:** the won was ~FLAT at the
 15:30 onshore fixing (**~1,368.7 / −1.7**, same-clock), sub-±10 → **STAYS ZERO**, no settle declared (row not final
-+ fixing-vs-24h gap). **Semi-switch** RECONFIRMS ON (chip-led de-rate). Prior — Tue 09-01 settled +0.23% to
++ fixing-vs-24h gap). **Semi-switch** RECONFIRMS ON (chip-led de-rate). **12Z after-hours (US-session set-up, no
+new settle):** the won is FIRMING idiosyncratically — the Hana evening series **~1,362.5** (LIVE, 21:00 KST), ~6
+below the 15:30 fixing, strengthening THROUGH the −3.99% crash and the foreign sell (switch-① override); LIVE and
+not same-clock → gate 5 unmoved (Scout's yen ~159.6 bid = part dollar-softness, the won's larger move leaves
+some idiosyncratic). The US Wednesday cash session (13:30Z, Scout's) is the pivot — at the pre-open the de-rate
+is NOT transmitting back (US futures ~flat, Scout), a tentative lean to repair; crude premium fading. Prior — Tue 09-01 settled +0.23% to
 6,835.80 (memory-led V, narrow: KOSDAQ −1.56%, foreign −₩0.49T, other-corp/buyback +₩1.67T); gate 5 reset to
 zero (Tue won +6.00, sub-±10); the won firmed through the run's largest crude shock 08-31 (Brent +3.27%, DXY
 flat — oil channel refuted-for-Korea, see Oil-import). Prior context ↓:
