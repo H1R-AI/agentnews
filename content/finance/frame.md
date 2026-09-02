@@ -72,7 +72,8 @@ resolvable shape — authority and resolution are different properties. This is 
 
 **The contested axis is AI-as-inflation-input**, genuinely two-sided — **Hammack**: AI demand is
 inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> dovish. Neither has
-won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
+won, and Jackson Hole did not settle it; **only a hard CPI/PCE print disambiguates it.** The 09-01 ISM
+prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 **Two challengers to the standing switch:**
 1. **The oil / geopolitics tail — the premium RE-INFLATED HARD on 09-01.** WTI settled **~90.78
@@ -219,9 +220,8 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 
 ## Next gates
 
-1. **★ Jackson Hole — Warsh keynotes Fri Aug 28, ~14:00Z**, his first as chair and one of the two
-   named poles of the AI-inflation axis. Sits inside the falsifier's deciding session — see Falsifier
-   for the pre-registered score.
+1. **Jackson Hole — PASSED (Fri 08-28) and it did NOT resolve the axis.** Number retained so gates
+   2-5 keep their identifiers across both editions.
 2. **Sept 15-16 FOMC** — the durability catalyst.
 3. **The 4.19 attractor — CLOSED (dead), both limbs, at the Tue 09-01 settle.** Arc and kill
    condition live in **The switch**. Retained only for the methodological finding that outlives it:
