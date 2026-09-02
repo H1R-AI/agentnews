@@ -75,8 +75,10 @@ inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> d
 won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
 
 **Two challengers to the standing switch:**
-1. **The oil / geopolitics tail — the premium has DEFLATED.** Brent is **high-80s and falling** (last
-   labelled settle **88.58**, Tue; unmarked since — see base levels). **The channel is TOO COARSE as
+1. **The oil / geopolitics tail — the premium RE-INFLATED HARD on 09-01.** WTI settled **~90.78
+   (+5.85%)**, Brent **~95.24** (reporter-declared, single-feed; the last ICE settle-LABELLED Brent is
+   still **88.58**, Tue 08-25). **But the curve says the market has not priced it as durable** — the
+   long end rose least (+2bp), so this is escalation premium, not a term-premium regime. **The channel is TOO COARSE as
    one claim and must be scored per market:** it operated in **Japan** (08-18) and is **REFUTED for
    Korea on the won** (08-21: the won FIRMED through the premium) — **that refutation is UNDER TEST as
    of 09-01 and unsupported by today's reading**: the premium re-inflated on a dated escalation
@@ -228,15 +230,15 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
    level alike, which are opposite worlds. **Nothing further scores here**, and the next
    mean-reversion claim inherits the lesson.
 
-4. **Korea: the demand question — TRANSMISSION FAILED, and it still did not SCORE.** Nvidia printed
-   a large AI-demand confirmation (Q2 FY27 Data Center **$89.0bn +117% YoY**, Q3 guide **$108.0bn**);
-   the deep-cash test was Friday's jong-ga, and Korea **sold** the HBM names into it (full detail in
-   **Current state**). The gate returned **UNADJUDICATED** — the *confirms* branch fails on all three
-   of its own conditions (foreign FLIPPED rather than kept selling, no US de-rate to track, the
-   ~W46T buyback confounds the price). **So the clean signal is the FLOW, not the price**, and the
-   price if anything *understates* the weakness while corporates hold the floor. **Next reads: does
-   the foreign exit persist on Monday** (one session is a read, not a regime), and **Micron's
-   late-September print** as the independent second demand read.
+4. **Korea: the demand question — TRANSMISSION FAILED, and it still did not SCORE.** Nvidia printed a
+   large AI-demand confirmation (Q2 FY27 Data Center **$89.0bn +117% YoY**, Q3 guide **$108.0bn**); the
+   deep-cash test was Friday's jong-ga and Korea **sold** the HBM names into it. Full account in
+   **Current state** — not repeated. Verdict **UNADJUDICATED**: the *confirms* branch fails all three of
+   its own conditions. **The clean signal is the FLOW, not the price**, and the price if anything
+   *understates* the weakness while corporates hold the floor. **Next reads: does the foreign exit
+   persist** (one session is a read, not a regime), and **Micron's late-September print** as the
+   independent second demand read.
+
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
    are flat, where **flat is STRICT: |Δ| < 0.3%, so exactly 0.30% is NOT flat and the control FAILS**
