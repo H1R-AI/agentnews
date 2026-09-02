@@ -23,8 +23,8 @@ before 2026-08-24.***
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
-**THE ARC IS 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19 -> 4.20 -> 4.34 -> 4.34** (Fri 08-28 **+14bp**;
-Mon 08-31 **flat**). **The "six of nine inside a 3bp band" reading is BROKEN** — it was true through
+**THE ARC IS 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19 -> 4.20 -> 4.34 -> 4.34 -> 4.39** (Fri 08-28 **+14bp**;
+Mon 08-31 **flat**; Tue 09-01 **+5bp**). **The "six of nine inside a 3bp band" reading is BROKEN** — it was true through
 08-27 and the +14bp ended it. Gate #3 finally got a real excursion in front of it, after three
 scores on prints too small to test it (RETRACE 08-25, NO DIRECTION 08-26, antecedent-did-not-fire
 08-27 at one quantisation unit). **The ATTRACTOR question is now CLOSED on its own pre-registered
@@ -48,14 +48,20 @@ declared the pinning invariant **DEAD** on **one settle**; the next settle print
 about a REGIME scored on a single observation** is the recurring error. A level is not abandoned
 because one settle left it, any more than it is established because four sat on it.
 
-**What is actually open is the ATTRACTOR question, and it is NOT established.** Pre-registered test:
-does an excursion **revert within two settles**? Two instances so far — 4.24 x2 reverted *through* the
-level to 4.17, and 4.17 reverted *to* 4.19 in one. Suggestive, not confirmed, and this frame asserts
-nothing. **What kills it:** a settle away from 4.19 that **persists past two MORE settles**, or a move
-large enough that 4.19 stops being a plausible centre. **The 08-27 settle did not test it** (4.20 is
-1bp off; no excursion stood in front of the gate) — UNADJUDICATED, count still **two**. Nor is the
-strict form refuted: the 4.24 excursion held **exactly two** settles and left, which does not meet the
-kill condition. Gate #3 next scores at the first settle a real excursion appears in front of it.
+**★ THE ATTRACTOR IS DEAD — both limbs, as of the Tue 09-01 settle.** The kill condition was
+disjunctive: an excursion **persisting past two more settles**, *or* a move large enough that 4.19
+stops being a plausible centre. The magnitude limb closed on 08-28's **+14bp**; the persistence limb
+now agrees — **4.34 -> 4.34 -> 4.39**, three settles away, the third moving *further out, not back*.
+The earlier readings were right when made (4.24 x2 reverted *through* the level to 4.17; 4.17 reverted
+in one; 08-27 was genuinely UNADJUDICATED at 1bp off). **New data killed it, not a re-reading of the
+old.**
+
+**★ AND THIS SECTION CONTRADICTED ITSELF FOR TWO DAYS** — CLOSED above, *"open... count still two"*
+here, UNADJUDICATED in Next gates: three mutually exclusive statuses for one gate, surviving four
+published windows. **I carry this thread, which is exactly why I could not see it snap** — I wrote the
+verdict into the live paragraph and never swept the places that merely *mention* the gate. A status
+lives in as many places as it is written. **Mechanism: when a gate's status changes, grep the frame
+for the gate's NAME and fix every hit in the same commit.**
 
 **Level/direction and inertness are ORTHOGONAL axes** — a retrace on a large move is a live anchor
 repricing, not pathology. (I collapsed the two on 08-26; both reporters caught it first.)
@@ -86,9 +92,14 @@ won; only a hard inflation print disambiguates it. First scheduled test: gate 1.
 
 ## Current state
 
-**Rates — the front MOVED, and that is the load-bearing fact.** Newest DECLARED settle is
-**Mon 08-31**: **2Y 4.34 / 5Y 4.49 / 10Y 4.75 / 30Y 5.25**, the front flat after Friday 08-28's
-**+14bp** bear-flattener (14/10/6/3, no intraday retrace). **The inertness reading is retired** — it
+**Rates — the front MOVED AGAIN, and the SHAPE is the new content.** Newest DECLARED settle is
+**Tue 09-01**: **2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27** — **+5 / +6 / +4 / +2**, front/belly-led
+with the long end LAGGING on a day WTI settled **+5.85%**. **That lands AGAINST an
+oil -> term-premium -> long-end mechanism**, which predicts the long end leading; the market priced a
+near-term **policy** response, not a durable supply shock. Read the direction (front-led), not the
+slope: every leg is >=2bp but the tilt is a few bp at 1bp quantisation. The **10Y at 4.79** is the
+joint-highest CMT 10Y in **667 sessions back to 2024-01-02** — nothing strictly above it; it **TIES**
+2025-01-13 rather than breaking it (measure: CMT close; a tie, not a break). **The inertness reading is retired** — it
 was this frame's position through 08-27 and the +14bp ended it. Consequence for the falsifier below:
 the pathology needs an *inert* anchor, so a violent down-tape against a front that is repricing is
 **vindication, not pathology**. The **Treasury buyback** backstop (sb0607, Aug 19 — long-dated
@@ -135,10 +146,11 @@ question. **Driver is a corroborated NULL** (domestic press names no cause), and
 Tokyo +0.41%. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Mon 08-31 close, 20:00Z):** UST **2Y 4.34 / 5Y 4.49 / 10Y 4.75 / 30Y 5.25** (CMT; 2Y flat at
-0bp, long-led +3bp) · S&P **7,686.14** / Nasdaq **26,370.89** / Dow **53,185.90** · VIX **14.92** ·
-Brent **88.58** (ICE Oct-26 **TUE 08-25** settle — deliberately NOT re-marked: the live channels carry
-no settle label, so there is no number to move it to) · gold **~4,650** (futures print, not a settle).
+**US (Tue 09-01 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27** (CMT; +5/+6/+4/+2,
+front/belly-led) · S&P **7,631.47** / Nasdaq **26,099.77** / Dow **52,766.88** · VIX **16.34** (+1.42)
+· WTI **~90.78** / Brent **~95.24** (09-01, reporter-declared; single-feed, contract-mapping caveat —
+the last ICE settle-LABELLED Brent remains 88.58, Tue 08-25) · gold **~4,650** (futures print, not a
+settle).
 **Korea (Tue 09-01 jong-ga, `CLOSE`):** KOSPI **6,835.80 / +0.23%** · KOSDAQ **821.25 / −1.56%** ·
 Samsung **W261,000** · SK Hynix **W1,693,000** — a second V (low −1.29% → green close) but NARROW:
 KOSDAQ red, all three investor types net sellers, the bid an other-corporations/buyback **+W1.67T**.
@@ -175,6 +187,18 @@ opposite of that — the pathology configuration on both legs at once, first tim
 claim and today's data breaks it, so it is named rather than quietly dropped. **Four does-not-trips
 are not four confirmations, four untestables are not verdicts, and one fired antecedent is not a
 trip.** What changed: the test is **LIVE again**.
+
+**SCORED Tue 09-01 00Z (this window): UNTESTABLE, and the run STAYS at zero.** Max intraday
+excursions **S&P 0.98% / Nasdaq Composite 1.42% / Dow 0.93%** against the strict 1.50% bar — the
+antecedent did not fire and nothing was pending to expire, so this is a STAY, not a RESET. **The
+asymmetry is what makes it clean: the 2Y settled +5bp = RESPONDED, so even had an index fired it
+would have scored DOES-NOT-TRIP, never a trip.** **★ And the grid's two legs are now separately
+alive but never simultaneously:** `ef57a4e` has returned **INERT (08-31, 0bp)** and **RESPONDED
+(09-01, +5bp)** — both determinate — while the index leg has fired exactly once (08-27). So the grid
+is **HAS-NOT-fired, not CANNOT-fire**; the conjunction is what remains untested, and that is a
+sharper statement than "unexercised". **SOX cleared the bar again (-3.14% intraday, second session
+running) and is context-only by construction** — changing the container now would retroactively
+rescore the published run.
 
 **SCORED Sat 08-29** (pre-registered, published either way): Friday returned **UNTESTABLE and the
 run RESET TO ZERO** — largest excursion 0.69%, and Thursday's antecedent expired UNSCORED. Not a
@@ -217,11 +241,11 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
    named poles of the AI-inflation axis. Sits inside the falsifier's deciding session — see Falsifier
    for the pre-registered score.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **The 4.19 attractor — UNADJUDICATED at the 08-27 settle (antecedent did not fire).** Full arc,
-   status and the pre-registered test live in **The switch**; not repeated here. Standing shape: the
-   gate is **TOO COARSE** — "no direction" is returned by a random walk and by a mean-reverting level
-   alike, which are opposite worlds. Next scores at the first settle a real excursion appears in
-   front of it.
+3. **The 4.19 attractor — CLOSED (dead), both limbs, at the Tue 09-01 settle.** Arc and kill
+   condition live in **The switch**. Retained only for the methodological finding that outlives it:
+   the gate was **TOO COARSE** — "no direction" is returned by a random walk and by a mean-reverting
+   level alike, which are opposite worlds. **Nothing further scores here**, and the next
+   mean-reversion claim inherits the lesson.
 
 4. **Korea: the demand question — TRANSMISSION FAILED, and it still did not SCORE.** Nvidia printed
    a large AI-demand confirmation (Q2 FY27 Data Center **$89.0bn +117% YoY**, Q3 guide **$108.0bn**);
