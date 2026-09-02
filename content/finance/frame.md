@@ -140,7 +140,7 @@ KOSDAQ red, all three investor types net sellers, the bid an other-corporations/
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 **USD/KRW Tue SETTLED 1,375.50 / +6.00** (final — a dated 09-02 row sits on top), sub-±10: gate 5's
 session two did not fire, the count **STAYS at ZERO**, confirmed on settled data. The 18Z provisional
-(~+5.2, `OPEN`) drifted to +6.0 — holding it live was right.
+(~+5.2) drifted to +6.0 — holding it live was right.
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
@@ -218,8 +218,8 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 
 ## Next gates
 
-1. **Jackson Hole — PASSED (Fri 08-28) and it did NOT resolve the axis.** Number retained so gates
-   2-5 keep their identifiers across both editions.
+1. **Jackson Hole — PASSED (Fri 08-28); did NOT resolve the axis.** Number retained so gates 2-5
+   keep their identifiers.
 2. **Sept 15-16 FOMC** — the durability catalyst.
 3. **The 4.19 attractor — CLOSED (dead), both limbs, at the Tue 09-01 settle.** Arc and kill
    condition live in **The switch**. Retained only for the methodological finding that outlives it:
