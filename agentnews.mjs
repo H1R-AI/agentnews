@@ -84,6 +84,12 @@ const SETTLE_CLOSE_UTC = [
   // by asking of every remaining row: what makes this number true, and when does it stop?
   { match: /^(SPX|SP500|NASDAQ|NDX|DOW|DJIA)/, et: '16:00', tz: 'US cash 16:00 ET' },
   { match: /^(UST|TREASURY|CMT)/,       et: '15:30', tz: 'CMT ~15:30 ET' },
+  // The onshore KRW session closes with the KRX cash session; the settle is the
+  // dated daily row, and the finality test is a LATER DATED ROW sitting on top of
+  // it, not a later timestamp on a live endpoint. Without this row C6 could not
+  // tell an intraday won tick from the settle — which is the exact discrimination
+  // gate 5 turns on.
+  { match: /^(USDKRW|KRW)/,             utc: '06:30', tz: 'Seoul onshore FX 15:30 KST' },
 ];
 const C6_HARD_FAIL_FROM = '2026-08-21';   // adoption grace: warn first, then hard-fail
 
@@ -203,6 +209,13 @@ const SETTLE_SOURCES = [
   { match: /^(SPX|SP500|NASDAQ|NDX|DOW|DJIA)/, hosts: ['nyse.com','nasdaq.com','cmegroup.com','apnews.com','reuters.com','bloomberg.com','wsj.com','cnbc.com'] },
   { match: /^(UST|TREASURY|CMT)/, hosts: ['home.treasury.gov','fred.stlouisfed.org'] },
   { match: /^(BRENT|WTI|OIL)/, hosts: ['ice.com','theice.com','cmegroup.com','apnews.com','reuters.com'], roll: true },
+  // FX — added 2026-09-02 WITH C11, not after it. C11 tells a reporter to declare
+  // the won settle it flags; before this row the only declaration path warned
+  // "no host allowlist" and SILENTLY SKIPPED C6 for that instrument. A gate whose
+  // demanded remedy is half-checked teaches people the remedy is theatre. Naver is
+  // the native primary already cited for the won's dated daily series in
+  // finance-ko; the 종가 row on the exchange series is the settle.
+  { match: /^(USDKRW|KRW|DXY|USDCNH|CNH|USDJPY)/, hosts: ['stock.naver.com','api.stock.naver.com','m.stock.naver.com','finance.naver.com','koreaexim.go.kr','bok.or.kr'], tokens: ['close','closing','종가','마감'] },
 ];
 
 // C5 close-assertion detection — same reason as above: declared before the
@@ -532,6 +545,424 @@ const C5_FIXTURES = [
 ];
 
 
+// ── C11: unowned instrument assertions — FX · UST yields · commodities ──────
+// BUILT 2026-09-02, replacing the placeholder that had reported its own absence
+// since 09-01. WHAT IT CHECKS CHANGED DURING THE BUILD, and the change is the
+// finding. The placeholder described a CROSS-DOMAIN hole (a KOSPI close inside
+// finance) because that is the instance I happened to find. Enumerating the
+// ownership table off THIS FILE instead — every instrument TYPE an edition can
+// assert, against the container that owns it — says the cross-domain half is
+// the small half:
+//
+//   US indices SP500/NASDAQ/DOW   prose: C7 (finance only)     cross: C9
+//   KOSPI                         prose: C5 (finance-ko only)  cross: C9
+//   KOSDAQ / NIKKEI               prose: none                  cross: C9
+//   UST 2Y/5Y/10Y/30Y             prose: NONE                  cross: NONE
+//   FX  USD/KRW · DXY · CNH       prose: NONE                  cross: NONE
+//   Commodities Brent/WTI/gold    prose: NONE                  cross: NONE
+//
+// USTs are asserted in nearly every finance window, about finance's OWN
+// load-bearing instrument, and no container has ever looked at them. That is
+// not cross-domain at all. So C11 is scoped by INSTRUMENT TYPE, not by domain,
+// and priority inverts to FX and USTs first. A patch aimed at the trigger would
+// have built the cross-domain half and left the yields hole standing — which is
+// the design doc's own constraint 3 landing on the document that states it.
+// Design + all four constraints: agentnews-ops/DESIGN-cross-domain-assertion-container.md
+//
+// THE RULE: a window that asserts a SETTLED level for one of these instruments
+// must RESOLVE it — against its own declared settles block, or against the
+// sibling edition's block for the SAME window_start, matching instrument AND
+// VALUE. Attribution as free text ("per finance-ko") is not resolution: the
+// cheapest way to pass a gate must not be writing a phrase (constraint 1).
+//
+// THREE OUTCOMES, NOT TWO (constraint 2). Nothing declares the instrument at
+// this window_start AND the sibling edition has no window there yet => the
+// attribution CANNOT resolve, which is COULD-NOT-MEASURE — counted on its own
+// row, never folded into the pass. An unmeasured window and a verified one must
+// not print the same green.
+const C11_EFFECTIVE_FROM = '2026-09-02';
+// INHERITED from the placeholder, deliberately. The self-imposed deadline was
+// for a container that GATES, not one that merely exists — shipping the code
+// and resetting the clock would be the check passing itself. Same warn-then-
+// fail adoption as C5 (5 days) and C7 (4 days): 6 days of live traffic first.
+const C11_HARD_FAIL_FROM = '2026-09-08';
+const C11_TOL = { yield: 0.0051, fx: 0.011, usd: 0.011 };
+// Values are quoted differently per instrument type and the differences are
+// load-bearing, not cosmetic: a $ prefix means the LEVEL for crude and a
+// different security for an index; a % suffix means the UNIT for a yield and a
+// CHANGE for everything else. One generic number rule cannot hold both.
+const C11_INSTRUMENTS = [
+  { key: 'USDKRW', label: 'USD/KRW', unit: 'fx',    mention: /USD\s*\/\s*KRW|\bUSDKRW\b|\bwon\b/i,      min: 900,  max: 2000 },
+  { key: 'DXY',    label: 'DXY',     unit: 'fx',    mention: /\bDXY\b|\bdollar index\b/i,               min: 70,   max: 130 },
+  { key: 'USDCNH', label: 'USD/CNH', unit: 'fx',    mention: /\bCNH\b|USD\s*\/\s*CNH/i,                 min: 5.5,  max: 8.5 },
+  { key: 'UST2Y',  label: 'UST 2Y',  unit: 'yield', mention: /\b2Y\b|\b2-year\b|\btwo-year\b/i,         min: 2.0,  max: 8.0 },
+  { key: 'UST5Y',  label: 'UST 5Y',  unit: 'yield', mention: /\b5Y\b|\b5-year\b|\bfive-year\b/i,        min: 2.0,  max: 8.0 },
+  { key: 'UST10Y', label: 'UST 10Y', unit: 'yield', mention: /\b10Y\b|\b10-year\b|\bten-year\b/i,       min: 2.0,  max: 8.0 },
+  { key: 'UST30Y', label: 'UST 30Y', unit: 'yield', mention: /\b30Y\b|\b30-year\b|\bthirty-year\b/i,    min: 2.0,  max: 8.0 },
+  { key: 'BRENT',  label: 'Brent',   unit: 'usd',   mention: /\bBrent\b/i,                              min: 20,   max: 250 },
+  { key: 'WTI',    label: 'WTI',     unit: 'usd',   mention: /\bWTI\b/i,                                min: 20,   max: 250 },
+  { key: 'GOLD',   label: 'gold',    unit: 'usd',   mention: /\bgold\b/i,                               min: 800,  max: 6000 },
+];
+// Every instrument name that can END another instrument's number scan. C7's
+// ATTRIBUTION CUT, generalised: a plausibility band that admits a NEIGHBOUR's
+// value is not an attribution, and the C11 bands overlap far more than C7's did
+// (every yield shares one 0.5–9.99 band, so 2Y's scan running into "5Y 4.55"
+// would bind the 5Y level to the 2Y and the band could never catch it).
+const C11_CUT_MENTIONS = [
+  ...C11_INSTRUMENTS.map((s) => s.mention),
+  /\bS&P\b|\bSP500\b|\bS&P 500\b/i, /\bNasdaq\b|\bNDX\b/i, /\bDow\b|\bDJIA\b/i,
+  /\bKOSPI\b/i, /\bKOSDAQ\b/i, /\bNIKKEI\b/i, /\bVIX\b/i,
+  // TENORS WE DO NOT TRACK still end an attribution. Measured over 382 published
+  // windows: the dominant false positive was "2Y 4.25 (−3bp), 3Y 4.32 (−2)" — the
+  // 3Y is not a C11 instrument, so nothing stopped the 2Y scan and 4.32 was
+  // reported as prose contradicting the declared 2Y. Every tenor in the band is a
+  // cut, tracked or not; a cut list built only from the instruments we OWN is
+  // blind to exactly the neighbour most likely to be quoted beside them.
+  /\b1Y\b/i, /\b3Y\b/i, /\b7Y\b/i, /\b20Y\b/i, /\b3M\b/i, /\b6M\b/i, /\b1M\b/i,
+];
+// What the figure IS, when it is not a settle. Extends C5_NOT_A_CLOSE with the
+// LIVE/APPROXIMATE vocabulary this desk actually writes — read off published
+// windows, not invented: "10Y ~4.78%", "WTI to ~$90", "Wednesday 09-02 LIVE
+// 1,372.70", "opened −3.09%". Every one of those is correctly NOT a settle, and
+// a container that flagged them would be untrue to the desk's own discipline.
+const C11_NOT_A_SETTLE = /breaker|sidecar|intraday|session (?:low|high)|day range|open(?:ed|ing|s)?\b|open tick|gap(?:ped)?|futures?|pre-?market|pre-?open|target|proxy|ADR|\blive\b|\btick\b|estimate|forecast|consensus|approx|roughly|\babout\b|\baround\b|\bnear\b|\bold\b|\bformer\b|\bprior\b|\bprevious\b|\bback (?:in|at)\b|\bcentre\b|\bcenter\b|\bversus\b|\bvs\.?\b|\bfrom\b|\d+-?(?:yr|year)s?\s+(?:high|low)/i;
+// TIGHT, and cut at the clause. C5 looks back 50 chars flat; at that width the
+// real sentence "the settle printed and confirmed the intraday lean. Full CMT
+// curve 2Y 4.39" disqualifies a genuine settle on the word "intraday" from the
+// PREVIOUS clause. A disqualifier has to be about THIS figure.
+const C11_RANGE = /\d+\.\d{1,3}\s+(?:to|-|\u2013|\u2212)\s*$/;
+const C11_CURVE_TUPLE = /\d+\.\d{1,3}\s*\/\s*\d+\.\d{1,3}\s*\/\s*\d+\.\d{1,3}/;
+const C11_LOOKBEHIND_CHARS = 30;
+const C11_CONTEXT_CHARS = 200;
+const C11_CONTEXT_LOOKBACK = 160;
+
+function c11ClauseBefore(text, idx) {
+  const raw = text.slice(Math.max(0, idx - C11_LOOKBEHIND_CHARS), idx);
+  const cut = raw.search(/[.;\n—·]|\*\*(?![^*]*$)/);
+  const lastStop = Math.max(raw.lastIndexOf('. '), raw.lastIndexOf('\n'), raw.lastIndexOf('; '), raw.lastIndexOf('— '), raw.lastIndexOf(' · '));
+  return lastStop === -1 ? raw : raw.slice(lastStop + 1);
+}
+
+// Same two-signal design as C5/C7 — the close LABEL narrows to settle context,
+// the BAND and the unit grammar decide which figure belongs to this instrument.
+function findAssertedLevels(body, spec) {
+  const found = [];
+  const text = stripUrls(body);
+  const mention = new RegExp(spec.mention.source, 'gi');
+  let m;
+  while ((m = mention.exec(text)) !== null) {
+    const ctxSlice = text.slice(Math.max(0, m.index - C11_CONTEXT_LOOKBACK), m.index + C11_CONTEXT_CHARS);
+    if (!C5_CLOSE_CONTEXT.test(ctxSlice)) continue;
+    let slice = text.slice(m.index, m.index + C11_CONTEXT_CHARS);
+    // SENTENCE CUT, on top of C7's attribution cut. C5/C7 scan a flat 200 chars
+    // forward, which in this desk's prose runs clean into the NEXT sentence about
+    // a different subject: the 2Y mention in "…2Y +5bp). This is the settle-and-
+    // score window… no big-three index cleared the strict ±1.5%" reached "1.5"
+    // and reported the falsifier's THRESHOLD as a contradicting 2Y yield. The
+    // neighbouring-instrument cut cannot see it — "big-three index" names no
+    // instrument. A number in a later sentence is not bound to this mention.
+    // Clause separators count, not just sentence ones: "30Y 5.25; Friday Aug 7:
+    // 4.19 / 4.35 / 4.65 / 5.19" is a labelled level followed by a POSITIONAL
+    // curve tuple for four different tenors, and proximity attributed all four to
+    // the 30Y. A semicolon or colon ends the attribution the same way a full stop
+    // does — the clause is the unit a figure belongs to.
+    // NOT the em dash, and the reason is measured, not stylistic. Adding it for
+    // symmetry with c11ClauseBefore removed 1 false positive and 13 correctly
+    // RESOLVED detections — this desk writes "2Y 4.39 — up 5bp" mid-clause, so an
+    // em dash is not a subject boundary here. A guard is not free: it buys quiet
+    // on the firing side and pays for it on the side that reports nothing, which
+    // is the invisible one. 13:1 against is a bad trade, so the FP it was aimed
+    // at (a 2Y settle quoted next to a 10Y) is fixed at the root instead — see
+    // the cross-tenor continuity exemption below.
+    const stop = slice.slice(1).search(/(?:[.!?;:](?:\s|\*)|\n)/);
+    if (stop !== -1) slice = slice.slice(0, stop + 2);
+    for (const other of C11_CUT_MENTIONS) {
+      if (other.source === spec.mention.source) continue;
+      const om = new RegExp(other.source, 'gi');
+      let o;
+      while ((o = om.exec(slice)) !== null) {
+        if (o.index > 0) { slice = slice.slice(0, o.index); break; }
+      }
+    }
+    const re = /([$₩€£~≈±><+\u2212\u2013-]?)\s?(\d{1,3}(?:,\d{3})+(?:\.\d{1,3})?|\d+\.\d{1,3})\s?(%|bps?\b)?/g;
+    let n;
+    while ((n = re.exec(slice)) !== null) {
+      const [, prefix, digits, pct] = n;
+      if (prefix === '~' || prefix === '≈') continue;            // approximate: a live read, not a settle
+      if (prefix === '±' || prefix === '>' || prefix === '<') continue;  // a BAR the tape must clear, not a level it printed
+      // A SIGNED figure is a move, not a level: "30Y +4.9", "10Y +3.6" are bp
+      // moves whose bare numbers sit squarely inside the yield band, so no band
+      // can separate them — only the sign can. Same for an explicit bp unit.
+      if (prefix === '+' || prefix === '-' || prefix === '\u2212' || prefix === '\u2013') continue;
+      if (pct && /^bp/.test(pct)) continue;
+      if (pct === '%' && spec.unit !== 'yield') continue;        // a % on FX or crude is a CHANGE, not a level
+      if (prefix === '$' && spec.unit !== 'usd') continue;       // a $ figure next to a yield is a different instrument
+      if (prefix === '₩' || prefix === '€' || prefix === '£') continue;
+      if (C11_NOT_A_SETTLE.test(c11ClauseBefore(slice, n.index))) continue;
+      // A POSITIONAL CURVE TUPLE — "(4.19/4.39/4.69/5.23)", "off Friday
+      // 4.34/4.48/4.73/5.22" — is four tenors in fixed order with no labels at
+      // all. Proximity binds every one of them to whichever tenor was named
+      // before the tuple, and each value is inside the shared yield band, so
+      // neither the band nor the neighbour cut can see it. Attribution here is
+      // POSITIONAL, which this detector does not do, so it must decline rather
+      // than guess: three or more slash-separated numbers is a tuple.
+      if (C11_CURVE_TUPLE.test(slice.slice(Math.max(0, n.index - 24), n.index + 24))) continue;
+      // A RANGE ("30Y 5.1 to 5.21", "10Y 4.61 to 4.69") states a span, and both
+      // endpoints are in band. Neither endpoint is the settle.
+      if (C11_RANGE.test(slice.slice(Math.max(0, n.index - 20), n.index + 1))) continue;
+      const value = Number(digits.replace(/,/g, ''));
+      if (value < spec.min || value > spec.max) continue;
+      found.push({ key: spec.key, value, snippet: slice.split('\n')[0].trim().slice(0, 120) });
+    }
+  }
+  return found;
+}
+
+// The classification, shared by the validator and the fixtures so they cannot
+// drift. Returns one of six states — and the two that are NOT findings and NOT
+// passes are the whole point of constraint 2.
+function classifyC11Hit(value, { own, sib, prior, siblingWindowExists }, tol) {
+  const near = (a, b) => a != null && b != null && Math.abs(a - b) <= tol;
+  // ORDER IS THE LOGIC, and getting it wrong is not a tuning miss. Nesting the
+  // continuity test INSIDE each declaration branch — the obvious shape — means a
+  // window that declares the instrument can never reach the history exemption, so
+  // the arc line "4.20 → 4.34 → 4.34 → 4.39" was reported as prose contradicting
+  // its own block on 4.20: a value THIS REPOSITORY published as a settle twice.
+  // Every RESOLUTION first, then every CONTINUITY, and only then a contradiction.
+  if (own && near(value, own.close)) return 'declared';
+  if (sib && near(value, sib.close)) return 'attributed';
+  if (own && near(value, own.prev)) return 'continuity';
+  if (sib && near(value, sib.prev)) return 'continuity';
+  // ANY close we have already published, not just the most recent. The frame and
+  // the windows name old levels constantly ("three settles away from the old 4.19
+  // centre"), and with 1bp quantisation a yield reference repeats often. Exempting
+  // only the LAST close reported every historical reference as a contradiction.
+  // This DOES weaken the yield rows — a genuinely new assertion that happens to
+  // equal an old close is exempted too — so the exemption is COUNTED on the
+  // continuity row rather than being silently applied.
+  if (prior && prior.some((c) => near(value, c))) return 'continuity';
+  if (own && own.close != null) return 'contradicts-own';
+  if (sib && sib.close != null) return 'contradicts-sibling';
+  return siblingWindowExists ? 'unowned' : 'unmeasurable';
+}
+
+const C11_FIXTURES = [
+  // ── PASS PATH — the half people skip (constraint 4). All from live traffic. ──
+  ['09-02 finance: own settle, declared', 'The CMT 2Y settled **4.39, +5bp off Monday’s 4.34**.', 'UST2Y', true],
+  ['09-02 finance-ko: quotes the sibling’s declared block', 'his DECLARED Tuesday 09-01 settle: SP500 7,631.47 / 2Y 4.39 (all lower)', 'UST2Y', true],
+  ['09-02 finance-ko: the won settle nothing owns', 'the Tuesday won SETTLED 1,375.50 / +6.00 / +0.44%', 'USDKRW', true],
+  ['09-02 finance: crude settles nothing owns', 'WTI settled **$90.78 (+5.85%)**', 'WTI', true],
+  // ── NO-HIT PATH — every one of these is correct desk practice ──────────────
+  ['18Z intraday tilde is not a settle', 'Yields intraday UP: 10Y ~4.78%, a ~20-month high', 'UST10Y', false],
+  ['18Z approximate crude is not a settle', 'pushed **WTI to ~$90 (+~5%)** up hard from 12Z', 'WTI', false],
+  ['a LIVE row is not a settle', 'Wednesday 09-02 LIVE 1,372.70 / −2.80 (won firming, OPEN, pulled 00:03Z)', 'USDKRW', false],
+  ['a change figure is not a level', 'the won closed +6.00 on the session', 'USDKRW', false],
+  ['no settle context at all', 'the won is idiosyncratic, not a risk-off proxy, and 1,375.50 is beside the point', 'USDKRW', false],
+  // ── THRESHOLD / NEXT-SENTENCE REGRESSION — the FP this container shipped with ──
+  ['a falsifier bar in the next sentence is not a 2Y yield', 'the 2Y answered +5bp. This is the settle-and-score window: no big-three index cleared the strict ±1.5% intraday bar', 'UST2Y', false],
+  ['a bare threshold is not a level', 'the 2Y settles within ±0.03 of the anchor', 'UST2Y', false],
+  ['a named OLD level is a reference, not an assertion', 'the 2Y settled 4.39, three settles away from the old 4.19 centre', 'UST2Y', true],
+  // ── WORD-BOUNDARY REGRESSION — the \bDOW\b-inside-WIN-DOW class ────────────
+  ['“won” the verb does not summon an FX level', 'Samsung won the contract; the KOSPI closed 6,835.80', 'USDKRW', false],
+  ['“gold” must not match “golden”', 'a golden cross printed and the index closed 6,835.80', 'GOLD', false],
+  // ── ATTRIBUTION CUT — the neighbour’s value must not bind to this key ──
+  // Real 09-02 00Z sentence, kept VERBATIM: it also carries “intraday” in the
+  // PREVIOUS clause, which a flat 50-char lookbehind reads as a disqualifier and
+  // drops a genuine settle. That false negative is why c11ClauseBefore cuts.
+  ['the 5Y level does not bind to the 2Y', 'Changed since 18Z — the settle printed and confirmed the intraday lean. Full CMT curve 2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27 (+5 / +6 / +4 / +2).', 'UST2Y', true],
+];
+
+function runC11SelfTest() {
+  let failed = 0;
+  for (const [name, body, key, expectHit] of C11_FIXTURES) {
+    const spec = C11_INSTRUMENTS.find((s) => s.key === key);
+    const hits = findAssertedLevels(body, spec);
+    const got = hits.length > 0;
+    if (got !== expectHit) {
+      failed += 1;
+      console.error(`  FAIL ${name}: expected ${expectHit ? 'a hit' : 'no hit'}, got ${JSON.stringify(hits)}`);
+    }
+  }
+  // The attribution cut needs its VALUE checked, not just its hit count: binding
+  // 5Y's 4.55 to the 2Y produces a hit either way, so a hit/no-hit fixture is
+  // blind to exactly the defect the cut exists to prevent.
+  const cut = findAssertedLevels('Changed since 18Z — the settle printed and confirmed the intraday lean. Full CMT curve 2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27 (+5 / +6 / +4 / +2).', C11_INSTRUMENTS.find((s) => s.key === 'UST2Y'));
+  if (!cut.length || cut.some((h) => Math.abs(h.value - 4.39) > 0.0051)) {
+    failed += 1;
+    console.error(`  FAIL attribution cut binds a neighbour's level to UST2Y: ${JSON.stringify(cut)}`);
+  }
+  // Hit/no-hit is blind here too: 4.39 is a real assertion in the same sentence,
+  // so the fixture passes whether or not 4.19 was also picked up. Check the VALUES.
+  const hist = findAssertedLevels('the 2Y settled 4.39, three settles away from the old 4.19 centre', C11_INSTRUMENTS.find((s) => s.key === 'UST2Y'));
+  if (hist.some((h) => Math.abs(h.value - 4.19) < 0.0051)) {
+    failed += 1;
+    console.error(`  FAIL a named OLD level was read as an assertion: ${JSON.stringify(hist)}`);
+  }
+  // Classification fixtures — six states, each exercised, because a three-outcome
+  // check whose third outcome is never tested has two outcomes.
+  const T = 0.0051;
+  const cases = [
+    ['declared',            4.39, { own: { close: 4.39, prev: 4.34 }, siblingWindowExists: true }],
+    ['continuity',          4.34, { own: { close: 4.39, prev: 4.34 }, siblingWindowExists: true }],
+    ['contradicts-own',     4.41, { own: { close: 4.39, prev: 4.34 }, siblingWindowExists: true }],
+    // The ordering regression: a declaring window must still reach the history
+    // exemption. Nested-branch ordering returns 'contradicts-own' here.
+    ['continuity',          4.20, { own: { close: 4.39, prev: 4.34 }, prior: [4.19, 4.20, 4.34], siblingWindowExists: true }],
+    ['attributed',          4.39, { sib: { close: 4.39, prev: 4.34 }, siblingWindowExists: true }],
+    ['contradicts-sibling', 4.41, { sib: { close: 4.39, prev: 4.34 }, siblingWindowExists: true }],
+    ['unowned',          1375.50, { siblingWindowExists: true }],
+    ['unmeasurable',     1375.50, { siblingWindowExists: false }],
+  ];
+  for (const [expected, value, ctx] of cases) {
+    const got = classifyC11Hit(value, ctx, expected === 'unowned' || expected === 'unmeasurable' ? 0.011 : T);
+    if (got !== expected) { failed += 1; console.error(`  FAIL classify ${expected}: got ${got}`); }
+  }
+  if (failed) {
+    console.error(`${failed} C11 fixture(s) failed.`);
+    process.exit(1);
+  }
+  console.log(`OK — ${C11_FIXTURES.length + 10} C11 fixtures passed.`);
+}
+
+// SURVEY MODE. The validator only ever sees windows on or after C11_EFFECTIVE_FROM
+// — two of them the day it shipped — and a detector measured on two windows has an
+// evidence set two cases wide. This runs the SAME detector over any date range and
+// prints every hit with its state, so the false-positive rate is measured against
+// 380 published windows instead of asserted from the ones I happened to read.
+// `node agentnews.mjs c11-scan 2026-01-01`
+function c11Scan(since) {
+  const domains = listDomains();
+  const windowsByDomain = {};
+  for (const domain of domains) windowsByDomain[domain] = listWindows(domain);
+  const rows = [];
+  const counts = {};
+  const saved = C11_SCAN_SINCE.value;
+  C11_SCAN_SINCE.value = since;
+  C11_SCAN_SINCE.sink = rows;
+  checkUnownedInstrumentAssertions(windowsByDomain, [], []);
+  C11_SCAN_SINCE.value = saved;
+  C11_SCAN_SINCE.sink = null;
+  for (const r of rows) counts[r.state] = (counts[r.state] || 0) + 1;
+  for (const r of rows) console.log(`${r.state.padEnd(20)} ${r.rel} ${r.key} ${r.value}  "${r.snippet.slice(0, 90)}"`);
+  console.log(`\n${rows.length} candidate(s) since ${since} across ${domains.reduce((n, d) => n + windowsByDomain[d].length, 0)} window(s):`);
+  for (const k of Object.keys(counts).sort()) console.log(`  ${k.padEnd(20)} ${counts[k]}`);
+}
+// Scan mode overrides the effective-from date and captures every classified hit.
+// A plain object, not a parameter, so the validator's call site stays untouched —
+// the surveyed detector and the gating detector must be the SAME code path or the
+// survey measures something the gate does not run.
+const C11_SCAN_SINCE = { value: null, sink: null };
+
+function checkUnownedInstrumentAssertions(windowsByDomain, errors, warnings) {
+  const domains = Object.keys(windowsByDomain);
+  // window_start -> key -> {close, prev, domain}
+  const declared = new Map();
+  const windowStarts = new Map();   // window_start -> Set(domain)
+  // Newest close per key BEFORE a given window, for the continuity exemption.
+  const history = [];
+  for (const domain of domains) {
+    for (const win of windowsByDomain[domain]) {
+      if (win.status === 'example' || !win.window_start) continue;
+      if (!windowStarts.has(win.window_start)) windowStarts.set(win.window_start, new Set());
+      windowStarts.get(win.window_start).add(domain);
+      if (!win.settles) continue;
+      if (!declared.has(win.window_start)) declared.set(win.window_start, new Map());
+      for (const spec of C11_INSTRUMENTS) {
+        const d = win.settles[spec.key];
+        if (!d || d.close == null) continue;
+        const rec = { close: Number(d.close), prev: d.prev_close == null ? null : Number(d.prev_close), domain };
+        if (!declared.get(win.window_start).has(spec.key)) declared.get(win.window_start).set(spec.key, rec);
+        history.push({ key: spec.key, at: String(win.window_start), close: Number(d.close) });
+      }
+    }
+  }
+  // CROSS-TENOR for yields. "10Y 4.649 (+1bp) — holding the dovish 4.17-settle
+  // level" quotes the 2Y's published settle beside a 10Y mention, and a per-key
+  // history calls it an unowned 10Y assertion. A yield level THIS REPOSITORY has
+  // published for any tenor is a published number, not a new base. Weakens the
+  // yield rows a little more, and like the same-key exemption it is COUNTED on
+  // the continuity row rather than applied in silence.
+  const yieldKeys = new Set(C11_INSTRUMENTS.filter((s) => s.unit === 'yield').map((s) => s.key));
+  const priorCloses = (key, at) => history
+    .filter((h) => h.at < at && (yieldKeys.has(key) ? yieldKeys.has(h.key) : h.key === key))
+    .map((h) => h.close);
+
+  // THE BANDS ARE AN ERA ASSUMPTION, AND ERAS END. Every band here was drawn
+  // around 2026 levels — yields 2.0–8.0, USD/KRW 900–2000, crude 20–250. If the
+  // tape leaves a band, this detector does not fail: it goes SILENT on that
+  // instrument, and silence is the one outcome no reader can distinguish from
+  // clean. So the corpus audits the constant, not a comment asking someone to
+  // remember. A DECLARED close outside its own band is proof the band aged out.
+  // (Leo flagged the same shape in pane-state.sh's EMPTY_HINT list, and my own
+  // DONE_RE verb literal was this exact failure caught only by traffic — a
+  // literal that ages is worth mechanising the moment you notice it, not noting.)
+  for (const spec of C11_INSTRUMENTS) {
+    const out = history.filter((h) => h.key === spec.key && (h.close < spec.min || h.close > spec.max));
+    if (!out.length) continue;
+    warnings.push(`C11 — BAND AGED OUT for ${spec.label}: ${out.length} DECLARED close(s) sit outside the detector's own band [${spec.min}, ${spec.max}] (e.g. ${out[0].close} at ${out[0].at}). Outside its band C11 does not fail on this instrument, it goes SILENT — indistinguishable from clean. Widen the band and re-measure the false-positive rate; do not widen it without re-measuring, because the band is what separates a level from a percentage.`);
+  }
+  const rows = { declared: 0, attributed: 0, continuity: 0, 'contradicts-own': 0, 'contradicts-sibling': 0, unowned: 0, unmeasurable: 0 };
+  let mentionsScanned = 0;
+  let windowsInScope = 0;
+  const reported = new Set();
+  for (const domain of domains) {
+    for (const win of windowsByDomain[domain]) {
+      if (win.status === 'example' || !win.window_start) continue;
+      if (String(win.window_start).slice(0, 10) < (C11_SCAN_SINCE.value || C11_EFFECTIVE_FROM)) continue;
+      windowsInScope += 1;
+      const sibs = windowStarts.get(win.window_start) || new Set();
+      const siblingWindowExists = [...sibs].some((d) => d !== domain);
+      for (const spec of C11_INSTRUMENTS) {
+        const hits = findAssertedLevels(win.body, spec);
+        mentionsScanned += hits.length;
+        const byStart = declared.get(win.window_start);
+        const decl = byStart ? byStart.get(spec.key) : null;
+        const own = win.settles && win.settles[spec.key] && win.settles[spec.key].close != null
+          ? { close: Number(win.settles[spec.key].close), prev: win.settles[spec.key].prev_close == null ? null : Number(win.settles[spec.key].prev_close) }
+          : null;
+        const sib = decl && decl.domain !== domain ? decl : null;
+        const prior = priorCloses(spec.key, String(win.window_start));
+        const tol = C11_TOL[spec.unit];
+        for (const hit of hits) {
+          const state = classifyC11Hit(hit.value, { own, sib, prior, siblingWindowExists }, tol);
+          rows[state] += 1;
+          if (C11_SCAN_SINCE.sink) { C11_SCAN_SINCE.sink.push({ state, rel: win.rel, key: spec.key, value: hit.value, snippet: hit.snippet }); continue; }
+          const tag = `${win.rel}:${spec.key}:${state}`;
+          if (reported.has(tag)) continue;
+          const day = String(win.window_start).slice(0, 10);
+          const hard = day >= C11_HARD_FAIL_FROM;
+          const note = hard ? `[hard fail since ${C11_HARD_FAIL_FROM}]` : `[warn · hard fail from ${C11_HARD_FAIL_FROM}]`;
+          if (state === 'unowned') {
+            reported.add(tag);
+            const msg = `${domain}/${win.rel}: C11 — asserts a SETTLED ${spec.label} level (${hit.value}) that NO settles block declares — not this window's, not the sibling edition's for this window_start. C1 cannot chain it, C6 never checks its source_time, the host allowlist never runs: it is unchecked while the window validates clean. Declare it, or write it as the intraday/live read it is. ${note} — "${hit.snippet}"`;
+            (hard ? errors : warnings).push(msg);
+          } else if (state === 'contradicts-own' || state === 'contradicts-sibling') {
+            reported.add(tag);
+            const src = state === 'contradicts-own' ? 'this window’s own settles block' : `the sibling edition (${sib.domain})`;
+            const val = state === 'contradicts-own' ? own.close : sib.close;
+            const msg = `${domain}/${win.rel}: C11 — prose asserts ${spec.label} ${hit.value} but ${src} declares ${val}. A prose figure and a declared figure for one instrument at one moment cannot both be right; the declared block is the machine-checked copy, so the prose is the one to fix — unless the block is wrong, in which case adjudicate against the PRIMARY, never by picking a reporter. ${note} — "${hit.snippet}"`;
+            (hard ? errors : warnings).push(msg);
+          } else if (state === 'unmeasurable') {
+            reported.add(tag);
+            warnings.push(`${domain}/${win.rel}: C11 — COULD NOT MEASURE ${spec.label} ${hit.value}: nothing declares it at this window_start and the sibling edition has no window there, so the attribution cannot resolve either way. This is NOT a pass — it is the row that keeps an unmeasured window from printing the same green as a verified one. — "${hit.snippet}"`);
+          }
+        }
+      }
+    }
+  }
+  // Constraint 6: "cleared" hides two different things. Resolved-against-a-block
+  // and resolved-by-continuity are both legitimate and are not the same evidence.
+  // And zero findings over zero candidates is zero COVERAGE — the C10 empty-block
+  // shape, which read green over both live frames for two days.
+  if (windowsInScope === 0) {
+    warnings.push(`C11 — NOTHING IN SCOPE: no window is dated on or after ${C11_EFFECTIVE_FROM}, so the container ran over nothing. Zero findings here means zero coverage, not zero defects.`);
+  } else if (mentionsScanned === 0) {
+    warnings.push(`C11 — NO CANDIDATE FOUND in ${windowsInScope} window(s) in scope. Across ${C11_INSTRUMENTS.length} instruments this desk asserts constantly, zero candidates is far more likely to be a broken detector than a clean corpus. Zero findings here means zero coverage, not zero defects — this is NOT a pass.`);
+  } else {
+    warnings.push(`C11 — coverage: ${mentionsScanned} asserted level(s) across ${windowsInScope} window(s) since ${C11_EFFECTIVE_FROM} · resolved-by-own-block ${rows.declared} · resolved-by-sibling-attribution ${rows.attributed} · continuity-reference ${rows.continuity} · CONTRADICTION ${rows['contradicts-own'] + rows['contradicts-sibling']} · UNOWNED ${rows.unowned} · could-not-measure ${rows.unmeasurable}. Warn-only until ${C11_HARD_FAIL_FROM}. This container has NEVER BITTEN in production traffic: sample size on its findings is what these rows say it is, and a clean run is unknown, not proven.`);
+  }
+}
+
 switch (cmd) {
   case 'init-finance':
     initFinance();
@@ -547,6 +978,12 @@ switch (cmd) {
     break;
   case 'c7-selftest':
     runC7SelfTest();
+    break;
+  case 'c11-selftest':
+    runC11SelfTest();
+    break;
+  case 'c11-scan':
+    c11Scan(process.argv[3] || '2026-01-01');
     break;
   case 'check':
     checkAll();
@@ -851,10 +1288,13 @@ function checkSettleProvenance(win, index, s, errors, warnings) {
     // Fix when it does: warn but FALL THROUGH to the timestamp checks that do not
     // depend on the host allowlist — a missing allowlist should not disable the
     // checks it has nothing to do with.
-    warnings.push(`${win.rel}: settles.${index} has no host allowlist for this index — provenance only partly checked, and the C6 source_time check is SKIPPED for this index; add an entry to SETTLE_SOURCES`);
-    return;
+    // FALL THROUGH, as this comment pre-registered. C11 makes an unlisted index
+    // reachable in ONE STEP — a reporter declaring the crude or FX settle it flags
+    // — so "it does not bite today" expired. A missing host allowlist now warns and
+    // the timestamp checks below, which have nothing to do with hosts, still run.
+    warnings.push(`${win.rel}: settles.${index} has no host allowlist for this index — the HOST was not checked (the source may be an aggregator or a re-publisher); add an entry to SETTLE_SOURCES. The timestamp checks below still ran.`);
   }
-  if (!hostMatches(host, rule.hosts)) {
+  if (rule && !hostMatches(host, rule.hosts)) {
     errors.push(`${win.rel}: settles.${index}.source host ${host} is not a native primary for ${index} (allowed: ${rule.hosts.join(', ')})`);
     return;
   }
@@ -892,7 +1332,7 @@ function checkSettleProvenance(win, index, s, errors, warnings) {
 
   // Not a check, a prompt at the moment of use: the continuous feed is a derived
   // series, and mistaking it for the settle is the same shape as the errors above.
-  if (rule.roll) {
+  if (rule && rule.roll) {
     warnings.push(`${win.rel}: settles.${index} — confirm this is the front-month settle, not the continuous series (roll gap)`);
   }
 }
@@ -1223,28 +1663,6 @@ function runC10SelfTest() {
   console.log(`OK — ${C10_FIXTURES.length} C10 fixtures passed.`);
 }
 
-// ── C11: cross-domain assertion container ───────────────────────────────────
-// NOT IMPLEMENTED. This is a placeholder that REPORTS ITS OWN ABSENCE on every
-// run, and it exists because the finding it stands for is LATENT: found
-// 2026-09-01 in desk review, with no incident to anchor its urgency. A latent
-// finding parked behind "I will build it after the merge" has a trigger that is
-// an event nobody notices NOT happening — so the trigger lives here instead,
-// where every window's validation must either run the container or say it does
-// not exist yet.
-//
-// The hole: C7_OWNER_DOMAIN is 'finance' (US indices) and C5 is KOSPI in
-// finance-ko. An instrument asserted OUTSIDE its owning domain — e.g. a KOSPI
-// close or a USD/KRW print inside the finance edition — is in NEITHER container.
-// Unchecked while looking checked. FX appears to have no owner in either domain.
-// Design + constraints: agentnews-ops/DESIGN-cross-domain-assertion-container.md
-function checkCrossDomainAssertionContainer(windowsByDomain, errors, warnings) {
-  const C11_HARD_FAIL_FROM = '2026-09-08';   // self-imposed; blocks the merge gate if still unbuilt
-  const msg = 'C11 — cross-domain assertion container NOT IMPLEMENTED. An instrument asserted outside its owning domain (a KOSPI close or an FX print inside the finance edition) is checked by NO container: C7 owns US indices in finance, C5 owns KOSPI in finance-ko, and FX has no owner in either. These assertions are UNCHECKED while the window validates clean. Zero findings here means zero coverage, not zero defects — this is NOT a pass. Design: agentnews-ops/DESIGN-cross-domain-assertion-container.md';
-  const today = new Date().toISOString().slice(0, 10);
-  if (today >= C11_HARD_FAIL_FROM) errors.push(`${msg} — HARD FAIL from ${C11_HARD_FAIL_FROM}, self-imposed deadline reached.`);
-  else warnings.push(`${msg} (hard-fails from ${C11_HARD_FAIL_FROM}).`);
-}
-
 function checkFrameBaseLevels(windowsByDomain, frameTextByDomain, errors, warnings) {
   // Newest declared close per index, across ALL domains, with the window it came from.
   const newest = new Map();
@@ -1375,6 +1793,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
   runC6CloseTimeSelfTest();
   runC9SelfTest();
   runC10SelfTest();
+  runC11SelfTest();
   const errors = [];
   const warnings = [];
   // A pass must state its SCOPE. With no domain.yml anywhere, listDomains() returns [], the loop
@@ -1451,7 +1870,7 @@ function validateAll({ exit = false, requireWindowCount = false } = {}) {
   }
   checkCrossDomainCloseAgreement(windowsByDomain, errors, warnings);
   checkFrameBaseLevels(windowsByDomain, frameTextByDomain, errors, warnings);
-  checkCrossDomainAssertionContainer(windowsByDomain, errors, warnings);
+  checkUnownedInstrumentAssertions(windowsByDomain, errors, warnings);
   if (warnings.length) {
     console.log(`${warnings.length} warning(s):`);
     for (const warning of warnings) console.log(`  ! ${warning}`);
