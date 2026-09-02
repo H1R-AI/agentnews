@@ -138,8 +138,9 @@ settle).
 Samsung **W261,000** · SK Hynix **W1,693,000** — a second V (low −1.29% → green close) but NARROW:
 KOSDAQ red, all three investor types net sellers, the bid an other-corporations/buyback **+W1.67T**.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
-**USD/KRW** Tue is near-flat and still `OPEN` (**~+1 to +2** off Mon's **1,369.50 / −11.50**), so
-gate 5's session two did NOT fire: session ONE **EXPIRES and the count returns to ZERO**.
+**USD/KRW Tue SETTLED 1,375.50 / +6.00** (final — a dated 09-02 row sits on top), sub-±10: gate 5's
+session two did not fire, the count **STAYS at ZERO**, confirmed on settled data. The 18Z provisional
+(~+5.2, `OPEN`) drifted to +6.0 — holding it live was right.
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
