@@ -625,7 +625,7 @@ const C11_CUT_MENTIONS = [
 // windows, not invented: "10Y ~4.78%", "WTI to ~$90", "Wednesday 09-02 LIVE
 // 1,372.70", "opened −3.09%". Every one of those is correctly NOT a settle, and
 // a container that flagged them would be untrue to the desk's own discipline.
-const C11_NOT_A_SETTLE = /breaker|sidecar|intraday|session (?:low|high)|day range|open(?:ed|ing|s)?\b|open tick|gap(?:ped)?|futures?|pre-?market|pre-?open|target|proxy|ADR|\blive\b|\btick\b|estimate|forecast|consensus|approx|roughly|\babout\b|\baround\b|\bnear\b|\bold\b|\bformer\b|\bprior\b|\bprevious\b|\bback (?:in|at)\b|\bcentre\b|\bcenter\b|\bversus\b|\bvs\.?\b|\bfrom\b|\d+-?(?:yr|year)s?\s+(?:high|low)/i;
+const C11_NOT_A_SETTLE = /breaker|sidecar|intraday|session (?:low|high)|day range|open(?:ed|ing|s)?\b|open tick|gap(?:ped)?|futures?|pre-?market|pre-?open|target|proxy|ADR|\blive\b|\btick\b|estimate|forecast|consensus|approx|roughly|\babout\b|\baround\b|\bnear\b|\bold\b|\bformer\b|\bprior\b|\bprevious\b|\bback (?:in|at)\b|\bcentre\b|\bcenter\b|\bversus\b|\bvs\.?\b|\bfrom\b|\d+-?(?:yr|year)s?\s+(?:high|low)|after-?hours?|after-?market|\bevening\b|\bposted-?rate\b|\bposting\b|\bunsettled\b|still updating/i;
 // TIGHT, and cut at the clause. C5 looks back 50 chars flat; at that width the
 // real sentence "the settle printed and confirmed the intraday lean. Full CMT
 // curve 2Y 4.39" disqualifies a genuine settle on the word "intraday" from the
@@ -751,6 +751,28 @@ const C11_FIXTURES = [
   ['09-02 finance: own settle, declared', 'The CMT 2Y settled **4.39, +5bp off Monday’s 4.34**.', 'UST2Y', true],
   ['09-02 finance-ko: quotes the sibling’s declared block', 'his DECLARED Tuesday 09-01 settle: SP500 7,631.47 / 2Y 4.39 (all lower)', 'UST2Y', true],
   ['09-02 finance-ko: the won settle nothing owns', 'the Tuesday won SETTLED 1,375.50 / +6.00 / +0.44%', 'USDKRW', true],
+  // ⚠️ THE REMEDY THE MESSAGE DEMANDS MUST ACTUALLY CLEAR THE GATE. 2026-09-02-12: Suri wrote the
+  // won as "LIVE … NOT a settle and NOT same-clock" and DECLINED the settles block on purpose —
+  // exactly what "write it as the intraday/live read it is" asks — and C11 fired anyway. Measured
+  // rather than guessed: NOT_A_SETTLE is tested only against c11ClauseBefore, so her qualifiers,
+  // which FOLLOW the number, were invisible; and the vocabulary a careful FX writer actually uses
+  // for a non-fixing tick — after-hours, evening, posted-rate, posting, same-clock — was absent
+  // from the pattern altogether. C11 is scoped FX-first by its own design note and could not read
+  // the commonest FX non-settle case.
+  // On 2026-09-08 this becomes a HARD FAIL, and a correctly written live-FX read would then block
+  // publication with the only escape being to declare a settles block for something that is not a
+  // settle. That is a gate passable only by falsifying data, which is worse than no gate.
+  // These two strings are VERBATIM from the window that produced it, not fixtures of the same shape.
+  // ⚠️ `same-clock` WAS ADDED AND THEN REMOVED, deliberately. It silenced four more rows (08-25-12,
+  // 08-31-06) that are genuinely not settles, so by outcome it looked like a win. But the term does
+  // NOT mark a number as unsettled: gate 5 requires a same-clock comparison OF A SETTLED FIXING, so
+  // "the 15:30 same-clock fixing SETTLED at …" would have been disqualified — a real settle silenced
+  // by a word the settle discipline itself uses. A disqualifier must name NON-FINALITY, not the
+  // method of comparison. Those four rows are the DIRECTION gap (their qualifiers — "tape still
+  // OPEN", "not final" — follow the number and c11ClauseBefore cannot see them), which is a separate
+  // and riskier fix, not a vocabulary one. Filed, not smuggled in here.
+  ['09-02-12 won after-hours posting is NOT a settle', 'the won FIRMED in the after-hours (1,362.50, below the ~1,368.7 fixing)', 'USDKRW', false],
+  ['09-02-12 evening row on the dated series is NOT a settle', 'USD/KRW Hana dated series, 09-02 evening row 1,362.50 / −13.00, localTradedAt 20:59 KST', 'USDKRW', false],
   ['09-02 finance: crude settles nothing owns', 'WTI settled **$90.78 (+5.85%)**', 'WTI', true],
   // ── NO-HIT PATH — every one of these is correct desk practice ──────────────
   ['18Z intraday tilde is not a settle', 'Yields intraday UP: 10Y ~4.78%, a ~20-month high', 'UST10Y', false],
