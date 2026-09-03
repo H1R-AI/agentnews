@@ -161,10 +161,11 @@ no block, fixing-vs-dated reconciliation OPEN). **Semi-switch NA** (sub-±2%) �
 first non-semi-led green since the crash (color, not a scored switch). *The US pathology falsifier is NOT evaluated this
 window — no US settle occurs (next ~20:00Z); the 09-02 settle resolved UNTESTABLE, carried to 00Z.*
 **★ 09-03 12Z carry (no settle — nothing scores):** the hollow green STANDS unrevised (base holds 6,579.48); the won
-firmed further but partly soft dollar (above); the fresh overnight thread is a **US–Japan divergence** (Scout's —
-Washington pressing Tokyo toward a BoJ Sept hike as the Fed leans to ease, yen firmed ~0.9%), whose **Korea
-transmission is the SOFT DOLLAR** firming the won via FX/rates, not the chip bid; a firmer yen is a regional-FX
-tailwind. The US falsifier is NOT EVALUATED (next settle ~20:00Z tonight). Prior — **09-02**
+firmed further but partly soft dollar (above); the fresh thread is a **US–Japan divergence** (Scout's — Washington
+pressing Tokyo toward a BoJ Sept hike as the Fed leans to ease; yen firmed ~1.6% on TWO legs — rate divergence AND
+intervention risk), whose **Korea transmission is the SOFT DOLLAR** firming the won via FX/rates, not the chip bid.
+Crude RE-FIRMED intraday (~+2%, near a 5-wk high — Scout's): the won firmed through a re-firming premium (08-21
+refutation direction), confounded/non-settle. The US falsifier is NOT EVALUATED (next settle ~20:00Z). Prior — **09-02**
 the −3.99% crash (6,562.72, memory-led, foreign+inst heavy sellers) scored gate 4's FIRST confirms (detail above); Tue 09-01 settled +0.23% to
 6,835.80 (memory-led V, narrow: KOSDAQ −1.56%, foreign −₩0.49T, other-corp/buyback +₩1.67T); gate 5 reset to
 zero (Tue won +6.00, sub-±10); the won firmed through the run's largest crude shock 08-31 (Brent +3.27%, DXY
@@ -194,7 +195,7 @@ KOSDAQ **790.21** / −1.71% · Samsung **₩250,000** / −0.20% · SK Hynix **
 (dated 09-03 row, −1.20, sub-±10 — NOT declared, fixing-vs-dated reconciliation open). Flow (Naver /trend,
 DIRECTION-only): foreign −4,234 / institutional −2,152 / personal −9,550 eok — ALL THREE net sellers, foreign
 moderated from the crash but did NOT flip.
-**Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
+**Japan (Fri 08-28 close):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + laggard buying, NOT chips — the control making Korea's chip de-rate idiosyncratic, not regional).
 **US (Wed 09-02 settle, Scout-declared 09-03 00Z):** 2Y **4.39** CMT (unchanged; gate #3 CLOSED, Vera's).
 Full curve per Scout: 5Y 4.54 / 10Y 4.79 / 30Y 5.27 (10Y 2nd settle at 4.79, round-tripped its ~4.81% high — consolidation); SP500 7,666.60 / NASDAQ 26,217.83 / DOW 53,061.95 (modestly GREEN — 3-day streak snapped; VIX 15.20). *(base = Scout's 09-03 00Z.)*
 
