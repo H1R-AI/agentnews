@@ -135,8 +135,8 @@ flat) · S&P **7,666.60** / Nasdaq **26,217.83** / Dow **53,061.95** · VIX **15
 established; the last ICE settle-LABELLED Brent is still **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
 settle).
 **Korea (Thu 09-03 jong-ga, `CLOSE`):** KOSPI **6,579.48 / +0.26%** · KOSDAQ **790.21 / −1.71%** ·
-Samsung **W250,500 / −4.02%** · SK Hynix **W1,613,000 / −4.73%** — the down-open did NOT round-trip:
-faded a bounce to −2.07% and closed on the low, foreign AND institutions heavy sellers.
+Samsung **W250,000 / −0.20%** · SK Hynix **W1,596,000 / −1.05%** — a HOLLOW green: the +1.1% open faded,
+semis closed RED below the index, and all three cohorts net sold.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 **USD/KRW Tue SETTLED 1,375.50 / +6.00** (final — a dated 09-02 row sits on top), sub-±10: gate 5's
 session two did not fire, the count **STAYS at ZERO**, confirmed on settled data. The 18Z provisional
