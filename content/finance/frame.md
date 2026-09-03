@@ -101,8 +101,8 @@ with the long end LAGGING on a day crude ran **~+6%**. **That lands AGAINST an
 oil -> term-premium -> long-end mechanism**, which predicts the long end leading; the market priced a
 near-term **policy** response, not a durable supply shock. Read the direction (front-led), not the
 slope: every leg is >=2bp but the tilt is a few bp at 1bp quantisation. **10Y 4.79 is the joint-highest
-CMT 10Y in 667 sessions back to 2024-01-02** — nothing strictly above; it TIES 2025-01-13, a tie not a
-break. **The inertness reading is retired** — it
+CMT 10Y in 667 sessions back to 2024-01-02** — nothing strictly above; it TIES 2025-01-13 and holds there a
+SECOND settle (09-01, 09-02) — still a tie, not a break. **The inertness reading is retired** — it
 was this frame's position through 08-27 and the +14bp ended it. Consequence for the falsifier below:
 the pathology needs an *inert* anchor, so a violent down-tape against a front that is repricing is
 **vindication, not pathology**. The **Treasury buyback** backstop (sb0607, Aug 19 — long-dated
@@ -128,8 +128,8 @@ answer a demand question. **Driver is a corroborated NULL**, and **not regional*
 is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Tue 09-01 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27** (CMT; +5/+6/+4/+2,
-front/belly-led) · S&P **7,631.47** / Nasdaq **26,099.77** / Dow **52,766.88** · VIX **16.34** (+1.42)
+**US (Wed 09-02 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.54 / 10Y 4.79 / 30Y 5.27** (CMT; 0/−1/0/0,
+flat) · S&P **7,666.60** / Nasdaq **26,217.83** / Dow **53,061.95** · VIX **15.20** (−1.14)
 · WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — two feeds disagree by ~$4**: Yahoo
 95.24/+5.25% vs TradingEconomics 91.28/+0.87%, a contract/settle mismatch, so no Brent number is
 established; the last ICE settle-LABELLED Brent is still **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
@@ -172,21 +172,21 @@ claim and today's data breaks it, so it is named rather than quietly dropped. **
 are not four confirmations, four untestables are not verdicts, and one fired antecedent is not a
 trip.** What changed: the test is **LIVE again**.
 
-**SCORED Tue 09-01 00Z (this window): UNTESTABLE, and the run STAYS at zero.** Max intraday
-excursions **S&P 0.98% / Nasdaq Composite 1.42% / Dow 0.93%** against the strict 1.50% bar — the
-antecedent did not fire and nothing was pending to expire, so this is a STAY, not a RESET. **The
-asymmetry is what makes it clean: the 2Y settled +5bp = RESPONDED, so even had an index fired it
-would have scored DOES-NOT-TRIP, never a trip.** **★ And the grid's two legs are now separately
-alive but never simultaneously:** `ef57a4e` has returned **INERT (08-31, 0bp)** and **RESPONDED
-(09-01, +5bp)** — both determinate — while the index leg has fired exactly once (08-27). So the grid
-is **HAS-NOT-fired, not CANNOT-fire**; the conjunction is what remains untested, and that is a
-sharper statement than "unexercised". **SOX cleared the bar again (-3.14%, second session running) and stays
-context-only by construction** — changing the container now would retroactively rescore the run.
+**SCORED Wed 09-02 00Z (this window): UNTESTABLE, and the run STAYS at zero.** Max intraday
+excursions **S&P 0.65% / Nasdaq Composite 0.56% / Dow 0.87%** against the strict 1.50% bar — the
+antecedent did not fire and nothing was pending to expire, so this is a STAY, not a RESET.
+**★ But the asymmetry INVERTED: the 2Y settled 4.39, 0bp = INERT** — the pathology-ENABLING leg,
+where 09-01's +5bp RESPONDED would have forced DOES-NOT-TRIP. So today an index firing would have
+been **the conjunction itself, for the first time this run**, and it did not fire. `ef57a4e` has now
+returned **INERT (08-31, 09-02)** and **RESPONDED (09-01)** — all determinate — while the index leg
+has fired exactly once (08-27). The grid stays **HAS-NOT-fired, not CANNOT-fire**, and it came one
+leg closer. **SOX stays context-only by construction** — changing the container now would
+retroactively rescore the run.
 
 **Prior scores, compressed:** **Sat 08-29** (pre-registered, published either way) — Friday
-**UNTESTABLE and the run RESET to zero**, largest excursion 0.69%, Thursday's antecedent expiring
-UNSCORED; **Mon 09-01 00Z** — **UNTESTABLE, run STAYS at zero** (max 0.61/0.58/0.81%), the 2Y settling
-**4.34, 0bp**. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different
+**UNTESTABLE, run RESET to zero**, largest excursion 0.69%, Thursday's antecedent expiring
+UNSCORED; **Mon 08-31** — **UNTESTABLE, STAYS** (max 0.61/0.58/0.81%), 2Y **4.34, 0bp**; **Tue 09-01
+00Z** — **UNTESTABLE, STAYS** (max 0.98/1.42/0.93%), 2Y **+5bp RESPONDED**. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different
 histories of the same number** and are named differently every time.
 
 **★ THE INDEX LEG'S TWO DEFECTS, fixed 2026-08-29 before Monday's tape.** *"A major US index"* never

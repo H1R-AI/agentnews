@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-02T18:25Z
+updated: 2026-09-03T00:20Z
 ---
 
 ## How to use this file
@@ -138,13 +138,11 @@ a systematic drag on oil-sensitive sectors?
 > so this can TEST the channel but not SETTLE it. The input grade caps the verdict: a weak input tests, it does
 > not resolve.
 >
-> **★ 09-02 18Z — the 12Z "fading" basis is CORRECTED: a SPLIT, not a clean break.** The intraday FADE ENDED and
-> reversed — crude up ~1.1–1.3% on the day (two-sourced: AP Brent back above ~$95 up ~1.3% + CNBC +1.07%), so the "fading" half
-> of the 12Z line is WRONG; but it did NOT re-spike ("relatively steady" vs the prior two days of surges), so the
-> basis moved fading → steady-to-firmer, not to a shock. A won firming through it would be a MODERATE test of the
-> 08-21 refutation, but the dollar is simultaneously broadly soft (DXY/yen firmer) — part of the won firming is
-> dollar, not an oil-channel override, so the test is CONFOUNDED. Crude a non-settle intraday read, won not
-> same-clock: TESTS, does not settle.
+> **★ 09-02 18Z→09-03 — crude basis is a SPLIT: fading BROKE, "not re-spiking" HOLDS.** The intraday fade
+> reversed (crude up ~1.1–1.3% on the day, two-sourced AP+CNBC), but no re-spike ("relatively steady" vs the prior
+> surges) — basis moved fading → steady-to-firmer, not to a shock. A won firming through it MODERATELY tests the
+> 08-21 refutation, but a broadly soft dollar CONFOUNDS it (part dollar, not an oil override); non-settle read,
+> won not same-clock — TESTS, does not settle. Judge at the settled won fixing (06:30Z).
 
 ---
 
@@ -158,13 +156,16 @@ NOT round-trip the down-open (Mon/Tue did): the gap-down HELD and deepened. **GA
 eok, direction-robust; retail +23,023 caught it); Korea imported the US Tuesday valuation de-rate, demand did
 not reassert (ONE session; the ₩46T buyback may have cushioned the print). **GATE 5:** the won was ~FLAT at the
 15:30 onshore fixing (**~1,368.7 / −1.7**, same-clock), sub-±10 → **STAYS ZERO**, no settle declared (row not final
-+ fixing-vs-24h gap). **Semi-switch** RECONFIRMS ON (chip-led de-rate). **18Z US-session read-through (no new
-settle):** the US Wednesday cash session (the pivot, Scout's) REVERSED UP intraday (S&P ~+0.4%, two-sourced AP+CNBC
-via desk) — the de-rate stopped at the water and TURNED, a repair lean for Korea's Thursday, but INTRADAY (settles
-~20:00Z) so UNADJUDICATED. The won firmed further after-hours (**~1,358.7** LIVE, 03:00 KST, ~10 below the 15:30
-fixing) but now alongside a broadly SOFT dollar (desk: DXY ~99.6 / yen ~158.9 firmer) = PART dollar, the
-idiosyncratic residual smaller than the flat-through-the-crash fixing; LIVE / not same-clock → gate 5 unmoved.
-Prior — Tue 09-01 settled +0.23% to
++ fixing-vs-24h gap). **Semi-switch** RECONFIRMS ON (chip-led de-rate). **09-03 00Z open — THE REPAIR ARRIVED, but nothing scores.**
+The US Wednesday session (the 18Z pivot) SETTLED modestly GREEN (big three ~+0.5%, three-day streak SNAPPED;
+rates consolidated, the 10Y round-tripping its ~4.81% high back to ~flat) — the de-rate "stopped at the water"
+and turned. Korea OPENED **~+1.1%** (6,635.02, semis leading — SK Hynix +1.80% / Samsung +1.40% above the index,
+KOSDAQ +1.17%), a semi-led bounce mirroring the crash. But INTRADAY (settle = 06:30Z jong-ga) and, on thin
+first-minute flow, RETAIL-led — foreign + inst still net sellers (foreign −455 eok); the demand reassertion that
+re-opens *reverses* is NOT yet visible (a fade HARDENS gate 4, a hold with foreign BUYING re-opens *reverses*).
+The won firming SETTLED ~**1,360.3** on the dated series (from Tue ~1,375.5, ~−1.1%), ~flat at the open — 24h
+series / intraday, NOT the fixing → gate 5 unmoved. **Falsifier antecedent never fired** (green but max intraday
+excursion ~0.87% Dow, sub-±1.5% bar) — UNTESTABLE, run STAYS zero (a stay, not a reset), not a pass. Prior — Tue 09-01 settled +0.23% to
 6,835.80 (memory-led V, narrow: KOSDAQ −1.56%, foreign −₩0.49T, other-corp/buyback +₩1.67T); gate 5 reset to
 zero (Tue won +6.00, sub-±10); the won firmed through the run's largest crude shock 08-31 (Brent +3.27%, DXY
 flat — oil channel refuted-for-Korea, see Oil-import). Prior context ↓:
@@ -185,8 +186,9 @@ pricing-power boon) and **US Commerce OPPOSES it** (Lutnick Aug 14). US memory s
 WITHHELD → **08-28 −₩0.85T** (foreign FLIPPED back to selling) → **08-31 kept selling, eased** (all
 three types net sold, buyback the residual buyer). Foreign flow scores only at the jong-ga.
 
-**US front (Scout's).** Gate #3 CLOSED 09-01: Friday's **+14bp** excursion killed the 4.19 attractor on its own pre-registered condition. Scout's pathology falsifier **stays at ZERO** — Mon 08-31 cash settle resolved UNTESTABLE (no big-three
-index near ±1.5%, max excursion ~0.81%), antecedent never fired; the CMT 2Y settled 4.34 (INERT, unexercised).
+**US front (Scout's).** Gate #3 CLOSED 09-01: Friday's **+14bp** excursion killed the 4.19 attractor on its own pre-registered condition. Scout's pathology falsifier **stays at ZERO** — the 09-02 Wednesday cash settle again resolved UNTESTABLE (US
+green but max intraday excursion ~0.87% Dow, sub-±1.5% bar, antecedent never fired — an untriggered test says
+nothing); Mon 08-31 likewise (max ~0.81%).
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Wed 09-02 jong-ga, 06:30Z / 15:35 KST; three-sourced Naver CLOSE + yna + asiae):** KOSPI **6,562.72** /
@@ -196,10 +198,10 @@ index near ±1.5%, max excursion ~0.81%), antecedent never fired; the CMT 2Y set
 Naver live OPEN, pulled 06:35Z). Flow (Naver mobile /trend, DIRECTION-only): foreign −19,094 / institutional
 −20,434 / personal +23,023 eok — foreign + inst heavy sellers, retail caught it; ~−₩1.9T foreign not magnitude-reliable.
 **Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
-**US (Tue 09-01 settle, Scout-declared 09-02 00Z):** 2Y **4.39** CMT (+5bp on the escalation reflation; gate #3 CLOSED, Vera's).
-Full curve per Scout: 5Y 4.55 / 10Y 4.79 / 30Y 5.27; SP500 7,631.47 / NASDAQ 26,099.77 / DOW 52,766.88 (all lower — risk-off). *(base = last settles-declared, Scout's 09-02 00Z.)*
+**US (Wed 09-02 settle, Scout-declared 09-03 00Z):** 2Y **4.39** CMT (unchanged; gate #3 CLOSED, Vera's).
+Full curve per Scout: 5Y 4.54 / 10Y 4.79 / 30Y 5.27 (10Y 2nd settle at 4.79, round-tripped its ~4.81% high — consolidation); SP500 7,666.60 / NASDAQ 26,217.83 / DOW 53,061.95 (modestly GREEN — 3-day streak snapped; VIX 15.20). *(base = Scout's 09-03 00Z.)*
 
-**US read (Scout's, carried):** **reflation / no-landing → higher-for-longer** — the 2Y anchor RESPONDED (+5bp off four 4.19 settles, releasing the inert-anchor pathology benignly) and gate #3 has since CLOSED 09-01. One settle is not a regime.
+**US read (Scout's, carried):** **reflation / no-landing → higher-for-longer** — the 2Y anchor RESPONDED (+5bp off the 4.19 attractor) and gate #3 has since CLOSED 09-01. One settle is not a regime.
 
 ---
 
