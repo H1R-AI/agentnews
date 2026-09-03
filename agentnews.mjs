@@ -360,7 +360,15 @@ const C10_INDICES = [
   { key: 'KOSPI',  label: /KOSPI/i },
   { key: 'KOSDAQ', label: /KOSDAQ/i },
   { key: 'NIKKEI', label: /Nikkei/i },
-  { key: 'SP500',  label: /S&P(?:\s*500)?/i },
+  // ⚠️ `SP500` — THE SETTLES-BLOCK KEY ITSELF — WAS NOT MATCHED UNTIL 2026-09-03. The pattern
+  // required the ampersand, so a frame writing the same spelling the declaration uses defeated the
+  // check. Found because Suri fixed a stale SP500 base on finance-ko/frame.md that C10 had NOT
+  // flagged while flagging NASDAQ, DOW and UST5Y ON THE SAME LINE — and I had already seen 3 fire
+  // where 4 were stale and filed it as "interesting but not critical". Three of four is the most
+  // dangerous coverage there is: it looks like the check ran.
+  // The label must accept every spelling the newsroom actually writes, and the FIRST one to accept
+  // is the key the settles block declares.
+  { key: 'SP500',  label: /S&P(?:\s*500)?|\bSP500\b|\bSPX\b/i },
   { key: 'NASDAQ', label: /Nasdaq/i },
   { key: 'DOW',    label: /Dow/i },
   // Yields print to 1bp and the frame's whole front-end argument is built on 1bp
@@ -419,7 +427,14 @@ function parseFrameBaseLevels(frameText) {
   const block = m[1];
   const out = [];
   for (const spec of C10_INDICES) {
-    const re = new RegExp(spec.label.source + '[^0-9\\n]{0,24}?(\\d{1,3}(?:,\\d{3})*(?:\\.\\d{1,2})?)', 'i');
+    // ⚠️ THE LABEL IS WRAPPED, AND THAT IS LOAD-BEARING. This concatenates spec.label.source into a
+    // larger pattern, so a label containing a TOP-LEVEL ALTERNATION binds the value-capture to its
+    // LAST branch only — the earlier branches then match with no capture group and hit[1] is
+    // undefined. I introduced exactly that on 2026-09-03 by adding |SP500|SPX to the S&P label, and
+    // the validator crashed on its own fixture. Wrapping here fixes it for EVERY future label
+    // instead of requiring each author to remember to group their own — the guard belongs at the
+    // point of composition, not in a convention.
+    const re = new RegExp('(?:' + spec.label.source + ')' + '[^0-9\\n]{0,24}?(\\d{1,3}(?:,\\d{3})*(?:\\.\\d{1,2})?)', 'i');
     const hit = block.match(re);
     if (!hit) continue;
     out.push({ key: spec.key, value: Number(hit[1].replace(/,/g, '')), tol: spec.tol ?? C10_TOLERANCE });
