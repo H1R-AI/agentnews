@@ -134,7 +134,7 @@ flat) · S&P **7,666.60** / Nasdaq **26,217.83** / Dow **53,061.95** · VIX **15
 95.24/+5.25% vs TradingEconomics 91.28/+0.87%, a contract/settle mismatch, so no Brent number is
 established; the last ICE settle-LABELLED Brent is still **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
 settle).
-**Korea (Wed 09-02 jong-ga, `CLOSE`):** KOSPI **6,562.72 / −3.99%** · KOSDAQ **803.98 / −2.10%** ·
+**Korea (Thu 09-03 jong-ga, `CLOSE`):** KOSPI **6,579.48 / +0.26%** · KOSDAQ **790.21 / −1.71%** ·
 Samsung **W250,500 / −4.02%** · SK Hynix **W1,613,000 / −4.73%** — the down-open did NOT round-trip:
 faded a bounce to −2.07% and closed on the low, foreign AND institutions heavy sellers.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
