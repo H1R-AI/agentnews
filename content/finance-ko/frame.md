@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-03T12:20Z
+updated: 2026-09-03T18:25Z
 ---
 
 ## How to use this file
@@ -92,9 +92,10 @@ domestic/idiosyncratic forces, off the external dollar/Fed switch → update the
 > **★ 09-02 → 09-03 — STAYS ZERO; count still not started.** 09-02: on the run's biggest de-rate (KOSPI −3.99%) the
 > won was ~FLAT at the 15:30 fixing (**~1,368.7 / −1.7**, same-clock), sub-±10 — no session one, block not declared.
 > **09-03 06Z: firmed marginally** (~1,359.1 dated row, −1.20, sub-±10), idiosyncratic through a green-ish tape;
-> **12Z: firmed ~1.5 further to ~1,357.6** on the extended evening tape, but partly SOFT dollar (DXY ~99.4) so less
-> cleanly idiosyncratic — STAYS ZERO, no block. Reconciliation OPEN (Vera's, before 09-08): the same-clock instrument
-> is the 15:30 fixing, NOT this dated/extended row — any won figure must name WHICH instrument.
+> **12Z: firmed ~1.5 further to ~1,357.6**; **18Z: ~1 further to ~1,356.6** (24h evening tape, partly SOFT dollar — the
+> yen at a one-month high, the US long end easing) so less cleanly idiosyncratic — STAYS ZERO, no block. Reconciliation
+> OPEN (Vera's, before 09-08): the same-clock instrument is the 15:30 fixing, NOT this dated/extended row (~2.5-won gap on
+> a firming day) — any won figure must name WHICH instrument.
 
 **Decouple-break test.** Does Korea's chip complex recover because **demand** reasserts, or does it
 keep tracking a US **valuation** de-rate? Score at the jong-ga: *reverses* if the bounce holds **and**
@@ -122,27 +123,22 @@ a systematic drag on oil-sensitive sectors?
 > (Korean Air even rose). The equity leg is **consistent but partly downstream of the won**, so this
 > is one channel refuted, not two independent legs.
 >
-> **★ Scope it per market and never Asia-wide again.** The same claim **operated in Japan** (08-18,
-> oil-shaped, native attribution) while Korea refuted it. A claim true in one market and false in
-> another is **TOO COARSE** — a verdict about the claim's granularity, not about the world.
+> **★ Scope per market, never Asia-wide.** The same claim **operated in Japan** (08-18) while Korea refuted it — true in
+> one market and false in another is **TOO COARSE**, a verdict about the claim's granularity, not the world.
 >
 > **★ 08-31 12Z — TESTED LIVE under the run's largest crude shock, holds refuted for Korea.** Brent
 > ~+3.27% / WTI ~+3.78% (biggest single-session oil move of the run) yet the won FIRMED −0.92%
 > (~1,368.3) with DXY flat (−0.16%) — idiosyncratic strength ~5–6× the dollar, against the channel.
-> A carried refutation and one confirmed under a live shock are different objects; this is the second.
-> Korea-only (per market), and provisional on an OPEN/overnight won print.
+> A carried refutation and one confirmed under a live shock differ; this is the second. Korea-only, provisional on an overnight won print.
 >
-> **★ 09-02 06Z — STILL UNDER TEST, on a WEAK test.** The won stayed idiosyncratically ~flat at the fixing
-> (−1.7) through a persistent premium while equities crashed −3.99% — consistent with the 08-21 Korea refutation
-> — but the crude leg is a NON-SETTLE read (WTI ~91 single-feed, Brent unresolved) and DXY/CNH are unreachable,
-> so this can TEST the channel but not SETTLE it. The input grade caps the verdict: a weak input tests, it does
-> not resolve.
+> **★ 09-02 → 09-03 — carried UNDER TEST on WEAK/non-settle reads.** Through the crash and after, the won stayed
+> idiosyncratic-to-firming through a persistent-then-fading premium (consistent with 08-21), but every crude read was
+> NON-SETTLE and a soft dollar CONFOUNDS the won leg — a weak input tests, it does not resolve (input grade caps the verdict).
 >
-> **★ 09-02 18Z→09-03 — crude basis is a SPLIT: fading BROKE, "not re-spiking" HOLDS.** The intraday fade
-> reversed (crude up ~1.1–1.3% on the day, two-sourced AP+CNBC), but no re-spike ("relatively steady" vs the prior
-> surges) — basis moved fading → steady-to-firmer, not to a shock. A won firming through it MODERATELY tests the
-> 08-21 refutation, but a broadly soft dollar CONFOUNDS it (part dollar, not an oil override); non-settle read,
-> won not same-clock — TESTS, does not settle. Judge at the settled won fixing (06:30Z).
+> **★ 09-03 12Z→18Z — the oil leg re-firmed then FADED; weaker as an alternative driver.** 12Z crude re-firmed (~+2%);
+> by 18Z the DAY leg round-tripped toward flat (Brent ~flat, desk intraday) while the WEEK regime (~+11%) holds and the
+> long end eased — so no fresh intraday premium for the won to firm through; the won firmed on the SOFT DOLLAR, not oil.
+> More clearly confounded than 12Z → TESTS, does not resolve.
 
 ---
 
@@ -160,33 +156,31 @@ refuted, hardened not deepened. **GATE 5** STAYS ZERO — the won firmed margina
 no block, fixing-vs-dated reconciliation OPEN). **Semi-switch NA** (sub-±2%) — but red semis under a green index are the
 first non-semi-led green since the crash (color, not a scored switch). *The US pathology falsifier is NOT evaluated this
 window — no US settle occurs (next ~20:00Z); the 09-02 settle resolved UNTESTABLE, carried to 00Z.*
-**★ 09-03 12Z carry (no settle — nothing scores):** the hollow green STANDS unrevised (base holds 6,579.48); the won
-firmed further but partly soft dollar (above); the fresh thread is a **US–Japan divergence** (Scout's — Washington
-pressing Tokyo toward a BoJ Sept hike as the Fed leans to ease; yen firmed ~1.6% on TWO legs — rate divergence AND
-intervention risk), whose **Korea transmission is the SOFT DOLLAR** firming the won via FX/rates, not the chip bid.
-Crude RE-FIRMED intraday (~+2%, near a 5-wk high — Scout's): the won firmed through a re-firming premium (08-21
-refutation direction), confounded/non-settle. The US falsifier is NOT EVALUATED (next settle ~20:00Z). Prior — **09-02**
-the −3.99% crash (6,562.72, memory-led, foreign+inst heavy sellers) scored gate 4's FIRST confirms (detail above); Tue 09-01 settled +0.23% to
-6,835.80 (memory-led V, narrow: KOSDAQ −1.56%, foreign −₩0.49T, other-corp/buyback +₩1.67T); gate 5 reset to
-zero (Tue won +6.00, sub-±10); the won firmed through the run's largest crude shock 08-31 (Brent +3.27%, DXY
-flat — oil channel refuted-for-Korea, see Oil-import). Prior context ↓:
+**★ 09-03 12Z→18Z carry (no settle — nothing scores, but 18Z SETS UP the first fired falsifier antecedent since 08-27).**
+The hollow green STANDS unrevised (base holds 6,579.48). The won firmed further into the small hours (12Z ~1,357.6 → 18Z
+~1,356.6, LIVE tape) but partly SOFT dollar. The macro texture is a **US–Japan divergence** (Scout's — Washington pressing
+Tokyo toward a BoJ Sept hike as the Fed leans to ease; the yen firmed further to a one-month high on TWO legs, rate
+divergence AND intervention risk), whose **Korea transmission is the SOFT DOLLAR** firming the won via FX, not the chip
+bid. Oil: 12Z crude re-firmed, but by 18Z the DAY leg round-tripped toward flat while the WEEK regime (~+11%) holds and the
+long end eased — no fresh intraday premium; the won firmed on the DOLLAR, not oil (oil-import WEAKER, see channel).
+**★ THE 18Z SET-UP:** Scout's US-pathology falsifier — its INDEX LEG is set to fire at tonight's ~20:00Z settle (NASDAQ
+excursion ~1.55–1.57% > the 1.50% bar, two feeds; S&P/Dow below), the first since 08-27. But tonight CANNOT TRIP: the 2Y
+anchor reads RESPONDED (~−5bp, ≥4bp, OUTSIDE the ~3-4bp range-bound band), so tonight is NOT a both-legs pathology session
+and does not start a sequence (run reset to zero 08-29; unlike 08-27, which had both legs). A trip needs 2+ CONSECUTIVE
+both-legs sessions → earliest completion is a Friday(NFP)+following pair; NFP a potential SESSION ONE, not a trip-completer.
+Does-not-trip at 00Z (Scout's — CMT 19:30Z, frame governs, I do not pre-score). Prior — **09-02** the −3.99% crash scored gate 4's
+FIRST confirms (detail below). Prior context ↓:
 
-**The recovery arc (08-24→08-27) — the index is a two-mega-cap mirage in both directions.** 08-24 −3.12% (mirror
-crash — index down, 579 names UP, capital-return unwind) → 08-25/26 +0.68/+0.97% (foreign selling collapsed) →
-**08-27 +1.53% to 6,912.37** on Nvidia's beat, but the gap-up FADED (open = the HIGH), demand gate NOT SCORED.
+**Prior context (pre-crash, compressed — full in the archive).** Recovery arc 08-24→08-27: a two-mega-cap mirage both ways
+(08-24 −3.12% with 579 names UP → 08-27 +1.53% to 6,912.37 on Nvidia but the gap-up FADED, demand gate NOT SCORED). The
+Apple-CXMT memory scare is UNPINNED (June-origin FT "Apple SEEKS CXMT memory") and the harder facts cut FOR Korea (CXMT
+REJECTED Apple's price cut Aug 5; US Commerce OPPOSES it; US memory settled STRONG, SK Hynix ADR +2.68% @08-25); Micron
+late-Sept the independent 2nd read. Pre-crash flows ran negative (foreign selling, buyback cushioning), scoring only at the
+jong-ga.
 
-**The Apple-CXMT threat — UNPINNED (no dated primary), and the harder facts cut FOR Korea.** The
-08-24/25 memory scare traces to a **June-origin** FT "Apple SEEKS to buy CXMT memory" story (Apple the
-applicant), undercut before it re-priced: **CXMT REJECTED Apple's price cut** (Aug 5, a Korean
-pricing-power boon) and **US Commerce OPPOSES it** (Lutnick Aug 14). US memory settled STRONG into it
-(SK Hynix ADR +2.68% @08-25). Micron late Sept is the independent second read.
-
-**Flows into the run:** 08-25 −₩3.82T → 08-26 −₩116B (exit ended, buyback +₩1.6T) → 08-28 −₩0.85T (foreign
-flipped back to selling) → 08-31 kept selling, eased. Foreign flow scores only at the jong-ga.
-
-**US front (Scout's).** Gate #3 CLOSED 09-01: Friday's **+14bp** excursion killed the 4.19 attractor on its own pre-registered condition. Scout's pathology falsifier **stays at ZERO** — the 09-02 Wednesday cash settle again resolved UNTESTABLE (US
-green but max intraday excursion ~0.87% Dow, sub-±1.5% bar, antecedent never fired — an untriggered test says
-nothing); Mon 08-31 likewise (max ~0.81%).
+**US front (Scout's).** Gate #3 CLOSED 09-01 (Friday's +14bp killed the 4.19 attractor). Pathology falsifier at ZERO by
+carry; **09-03 18Z the index leg is set to fire (~20:00Z, first since 08-27) but does-not-trip** — 2Y ~−5bp RESPONDED, so
+not a both-legs pathology session; earliest trip a Friday(NFP)+following pair (see the 18Z set-up). Prior settles UNTESTABLE (09-02 ~0.87% Dow, 08-31 ~0.81%).
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Thu 09-03 jong-ga, 06:30Z / 15:35 KST; two-sourced Naver CLOSE + asiae):** KOSPI **6,579.48** / +0.26%
