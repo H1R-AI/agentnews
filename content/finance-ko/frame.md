@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-03T00:20Z
+updated: 2026-09-03T06:40Z
 ---
 
 ## How to use this file
@@ -53,7 +53,9 @@ print.
 consecutive such sessions** semis are *not* the dominant contributor — a non-chip sector leads — the
 index is off the semiconductor-valuation switch → update the frame.
 > **Status: CONFIRMED / ON — reconfirmed repeatedly, most recently 09-02** (−3.99% de-rate, SK Hynix
-> −4.73% / Samsung −4.02% both below the index, memory-led — a chip-led de-rate, like 08-18). Scored in both
+> −4.73% / Samsung −4.02% both below the index, memory-led — a chip-led de-rate, like 08-18). **09-03 did NOT test**
+> (KOSPI +0.26%, sub-±2%) — but semis closed RED under a green index, the first non-semi-led green since the crash:
+> a watch item, not a scored break. Scored in both
 > directions: on the **08-18 de-rate** (KOSPI −5.80%, semis dominant — the index is still a chip
 > index, it had just been de-rated) and on the **08-20 round-trip** (+5.89%, SK Hynix +12.73% and
 > Samsung +9.49% carrying it while KOSDAQ lagged +1.99%). **Fri 08-21 did NOT test** (+0.88%, under
@@ -87,30 +89,28 @@ domestic/idiosyncratic forces, off the external dollar/Fed switch → update the
 > never reached (MOOT). A fresh sequence must re-start from session one at the next >±10 settle — controls
 > re-checked, not carried. *Both Tuesday branches were pre-registered before the settle; the null was not chosen after.*
 >
-> **★ 09-02 06Z — STAYS ZERO; count still not started.** On the run's biggest equity de-rate (KOSPI −3.99%) the
-> won was ~FLAT at the 15:30 onshore fixing (**~1,368.7 / −1.7**, same-clock with the KOSPI close), sub-±10 — no
-> session one. **Settles block NOT declared** (the Naver dated row is marketStatus OPEN / not final at the cut, and
-> the onshore-fixing vs 24h-extended series carry a ~1-won gap — declined, not forgotten; the −7.9 vs Tuesday's
-> 24h close is the later-print artifact the same-clock rule guards against). Won idiosyncratic again — flat, not
-> selling off with the tape.
+> **★ 09-02 → 09-03 — STAYS ZERO; count still not started.** 09-02: on the run's biggest de-rate (KOSPI −3.99%) the
+> won was ~FLAT at the 15:30 onshore fixing (**~1,368.7 / −1.7**, same-clock), sub-±10 — no session one; block NOT
+> declared (dated row not final at cut + fixing-vs-24h ~1-won gap). **09-03 06Z: firmed marginally** (~1,359.1 dated
+> 09-03 row, −1.20 vs 09-02, sub-±10), idiosyncratic through a green-ish tape — STAYS ZERO, no block. The fixing-vs-
+> dated-series reconciliation is still OPEN (Vera's, before 09-08); any won figure must name WHICH instrument — this is
+> the dated row, not the 15:30 fixing.
 
 **Decouple-break test.** Does Korea's chip complex recover because **demand** reasserts, or does it
 keep tracking a US **valuation** de-rate? Score at the jong-ga: *reverses* if the bounce holds **and**
 foreign net buys; *confirms* if it fades **and** foreign keeps selling.
-> **Status: CONFIRMS — the FIRST clean score (09-02 06Z), after four consecutive UNADJUDICATED.** The
-> *confirms* branch (the bounce FADES **and** foreign KEEPS SELLING) met cleanly: KOSPI settled **−3.99%
-> (6,562.72)** on the session low after a bounce to −2.07% failed, SK Hynix −4.73% / Samsung −4.02%
-> memory-led, **foreign AND institutions both heavy net sellers** (−19,094 / −20,434 eok, direction-robust;
-> retail +23,023 caught it). It scores because the three prior confounds were absent: there WAS a US
-> valuation de-rate to track (Tuesday risk-off), and a buyback bid cannot manufacture a down-day-with-
-> foreign-selling. **Korea imported the US valuation de-rate; demand did not reassert.** Caveat: ONE session
-> — the demand thesis is dented not refuted, and the ₩46T buyback may have cushioned the print. *Machinery
-> that stands:* a buyback is a valuation event and cannot answer a demand question (the 08-20 rule); the gate
-> scores at the KOREAN jong-ga on a CLEAN foreign-flow read, never on positioning; the memory read is MINE,
-> distinct from Scout's US-listed names; Micron's late-Sept print is the independent second read. *The four
-> UNADJUDICATED (08-20/21 legs split on capital return; 08-28 no US de-rate to track + buyback confound;
-> 08-31 price reversed UP) are archived in the windows — a metric can trip without its condition being tested;
-> today the condition WAS tested and met.*
+> **Status: CONFIRMS — HARDENED to 2 consecutive (09-02 first clean score after four UNADJUDICATED; 09-03 06Z 2nd).**
+> The *confirms* branch (bounce FADES **and** foreign KEEPS SELLING) met on **09-02**: KOSPI −3.99% (6,562.72) on the
+> low, SK Hynix −4.73% / Samsung −4.02% memory-led, **foreign AND institutions heavy net sellers** (−19,094 / −20,434
+> eok; retail +23,023 caught it) — confounds absent (a real US de-rate to track; a buyback can't cause a down-day
+> foreign-sell). **09-03 06Z HARDENED it:** the US handed Korea a green lead (Wednesday settled green) yet the +1.1%
+> open FADED to **+0.26% (6,579.48)**, semis closed RED (SK Hynix −1.05% / Samsung −0.20%, below the index), KOSDAQ
+> −1.71%, ALL THREE cohorts net SOLD (foreign −4,234 — moderated from the crash but did NOT flip) — a favorable tape
+> produced no demand reassertion. Dented not refuted (2 sessions; ₩46T buyback may cushion). *Machinery that stands:*
+> a buyback can't answer a demand question (08-20 rule); the gate scores at the KOREAN jong-ga on a CLEAN foreign-flow
+> read; the memory read is MINE, distinct from Scout's US names; Micron late-Sept is the independent 2nd read. The four
+> prior UNADJUDICATED (08-20/21 capital-return split; 08-28 no de-rate + buyback; 08-31 price reversed up) are archived
+> — condition-not-tested, unlike 09-02/03.
 
 **Oil-import channel.** Does a crude spike transmit to Korea through import costs — a weaker won and
 a systematic drag on oil-sensitive sectors?
@@ -148,24 +148,19 @@ a systematic drag on oil-sensitive sectors?
 
 ## Current state
 
-**★ 09-02 KRX settle — THE DE-RATE HELD; GATE 4 SCORES CONFIRMS (1st, after 4 UNADJUDICATED).** KOSPI SETTLED
-**−3.99% to 6,562.72** (−273.08) on the session LOW after a bounce to −2.07% failed — memory-led (SK Hynix
-**−4.73%**, Samsung **−4.02%** both below the index), KOSDAQ −2.10% outperforming. The two-mega-cap mirage did
-NOT round-trip the down-open (Mon/Tue did): the gap-down HELD and deepened. **GATE 4** (decouple-break): the
-*confirms* branch met — the bounce FADED **and** foreign KEPT SELLING (foreign −19,094 / institutional −20,434
-eok, direction-robust; retail +23,023 caught it); Korea imported the US Tuesday valuation de-rate, demand did
-not reassert (ONE session; the ₩46T buyback may have cushioned the print). **GATE 5:** the won was ~FLAT at the
-15:30 onshore fixing (**~1,368.7 / −1.7**, same-clock), sub-±10 → **STAYS ZERO**, no settle declared (row not final
-+ fixing-vs-24h gap). **Semi-switch** RECONFIRMS ON (chip-led de-rate). **09-03 00Z open — THE REPAIR ARRIVED, but nothing scores.**
-The US Wednesday session (the 18Z pivot) SETTLED modestly GREEN (big three ~+0.5%, three-day streak SNAPPED;
-rates consolidated, the 10Y round-tripping its ~4.81% high back to ~flat) — the de-rate "stopped at the water"
-and turned. Korea OPENED **~+1.1%** (6,635.02, semis leading — SK Hynix +1.80% / Samsung +1.40% above the index,
-KOSDAQ +1.17%), a semi-led bounce mirroring the crash. But INTRADAY (settle = 06:30Z jong-ga) and, on thin
-first-minute flow, RETAIL-led — foreign + inst still net sellers (foreign −455 eok); the demand reassertion that
-re-opens *reverses* is NOT yet visible (a fade HARDENS gate 4, a hold with foreign BUYING re-opens *reverses*).
-The won firming SETTLED ~**1,360.3** on the dated series (from Tue ~1,375.5, ~−1.1%), ~flat at the open — 24h
-series / intraday, NOT the fixing → gate 5 unmoved. **Falsifier antecedent never fired** (green but max intraday
-excursion ~0.87% Dow, sub-±1.5% bar) — UNTESTABLE, run STAYS zero (a stay, not a reset), not a pass. Prior — Tue 09-01 settled +0.23% to
+**★ 09-03 06Z KRX settle — THE REPAIR WAS A HOLLOW GREEN; GATE 4 HARDENS the confirms (2nd consecutive).** KOSPI
+SETTLED **+0.26% to 6,579.48** (+16.76) — a 2nd green day at the index level (streak-snap holds), but the +1.1% open
+FADED and the internals REFUTE a demand reassertion: the semis that led the open closed RED (SK Hynix **−1.05%** /
+Samsung **−0.20%**, both below the index), KOSDAQ **−1.71%** (790.21, a ~2.9% intraday reversal — small-caps took the
+fade), and ALL THREE cohorts net SOLD (foreign −4,234 / institutional −2,152 / personal −9,550 eok, direction-robust;
+foreign selling MODERATED from the crash's −19,094 but did NOT flip). The KOSPI–KOSDAQ gap (+0.26 vs −1.71) is the
+story. **GATE 4** *confirms* met a 2nd session: the US handed Korea a green lead (Wednesday settled green — Scout's)
+and demand did not reassert — the *reverses* branch (a held bounce with foreign BUYING) never triggered; dented not
+refuted, hardened not deepened. **GATE 5** STAYS ZERO — the won firmed marginally (~1,359.1 dated 09-03, −1.20, sub-±10;
+no block, fixing-vs-dated reconciliation OPEN). **Semi-switch NA** (sub-±2%) — but red semis under a green index are the
+first non-semi-led green since the crash (color, not a scored switch). *The US pathology falsifier is NOT evaluated this
+window — no US settle occurs (next ~20:00Z); the 09-02 settle resolved UNTESTABLE, carried to 00Z.* Prior — **09-02**
+the −3.99% crash (6,562.72, memory-led, foreign+inst heavy sellers) scored gate 4's FIRST confirms (detail above); Tue 09-01 settled +0.23% to
 6,835.80 (memory-led V, narrow: KOSDAQ −1.56%, foreign −₩0.49T, other-corp/buyback +₩1.67T); gate 5 reset to
 zero (Tue won +6.00, sub-±10); the won firmed through the run's largest crude shock 08-31 (Brent +3.27%, DXY
 flat — oil channel refuted-for-Korea, see Oil-import). Prior context ↓:
@@ -191,12 +186,12 @@ green but max intraday excursion ~0.87% Dow, sub-±1.5% bar, antecedent never fi
 nothing); Mon 08-31 likewise (max ~0.81%).
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**Korea (Wed 09-02 jong-ga, 06:30Z / 15:35 KST; three-sourced Naver CLOSE + yna + asiae):** KOSPI **6,562.72** /
-−3.99% (−273.08; path O 6,625.47 → H 6,694.57 → L 6,558.30 → C 6,562.72, faded on the low) · KOSDAQ **803.98** /
-−2.10% · Samsung **₩250,500** / −4.02% · SK Hynix **₩1,613,000** / −4.73% · USD/KRW onshore 15:30 fixing **~1,368.7**
-/ −1.7 (~flat, same-clock, sub-±10 — NOT declared: row not final at cut + fixing-vs-24h gap; 24h tape ~1,367.60,
-Naver live OPEN, pulled 06:35Z). Flow (Naver mobile /trend, DIRECTION-only): foreign −19,094 / institutional
-−20,434 / personal +23,023 eok — foreign + inst heavy sellers, retail caught it; ~−₩1.9T foreign not magnitude-reliable.
+**Korea (Thu 09-03 jong-ga, 06:30Z / 15:35 KST; two-sourced Naver CLOSE + asiae):** KOSPI **6,579.48** / +0.26%
+(+16.76; path O 6,650.33 → H 6,682.97 → L 6,439.49 → C 6,579.48, whippy — sold to −1.88%, closed just green) ·
+KOSDAQ **790.21** / −1.71% · Samsung **₩250,000** / −0.20% · SK Hynix **₩1,596,000** / −1.05% · USD/KRW **~1,359.1**
+(dated 09-03 row, −1.20, sub-±10 — NOT declared, fixing-vs-dated reconciliation open). Flow (Naver /trend,
+DIRECTION-only): foreign −4,234 / institutional −2,152 / personal −9,550 eok — ALL THREE net sellers, foreign
+moderated from the crash but did NOT flip.
 **Japan (Fri 08-28 close, 06:00Z):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + thin-volume laggard buying, NOT chips — the control that makes Korea's chip de-rate idiosyncratic, not regional).
 **US (Wed 09-02 settle, Scout-declared 09-03 00Z):** 2Y **4.39** CMT (unchanged; gate #3 CLOSED, Vera's).
 Full curve per Scout: 5Y 4.54 / 10Y 4.79 / 30Y 5.27 (10Y 2nd settle at 4.79, round-tripped its ~4.81% high — consolidation); SP500 7,666.60 / NASDAQ 26,217.83 / DOW 53,061.95 (modestly GREEN — 3-day streak snapped; VIX 15.20). *(base = Scout's 09-03 00Z.)*
@@ -215,16 +210,16 @@ Full curve per Scout: 5Y 4.54 / 10Y 4.79 / 30Y 5.27 (10Y 2nd settle at 4.79, rou
 3. **Does foreign buying return and BROADEN?** It flipped to selling on 08-21 and sold KOSDAQ
    throughout. Broad re-entry would be the first thing since the crash that is not a capital-return
    trade.
-4. **The WON — run at ZERO, count not started (09-02).** No fresh session one: the won was ~flat at the 15:30
-   fixing (~1,368.7 / −1.7), sub-±10, and not on settled data (no block declared). A fresh sequence needs a >±10
-   SETTLED move with DXY *and* CNH strictly flat AT the settle (controls re-checked, not carried). Open reconciliation:
-   the same-clock instrument is the **onshore 15:30 fixing**, not the Naver 24h/extended print — they carry a ~1-won gap.
-5. **The DEMAND question — GATE 4 scored CONFIRMS (09-02), first time.** Korea imported the US valuation de-rate:
-   KOSPI −3.99% on the low, the bounce FADED **and** foreign KEPT SELLING (foreign + institutions both heavy net
-   sellers, retail caught it). Confounds absent (a US de-rate to track; a buyback can't cause a down-day sell). But
-   ONE session — the demand thesis is dented, not refuted, and the buyback may have cushioned the print. Watch:
-   a 2nd consecutive heavy foreign sell hardens it; a flip to BUYING would be the first demand signal since the crash.
-   Micron's late-Sept print is the independent second read.
+4. **The WON — run at ZERO, count not started (09-03).** No fresh session one: the won firmed marginally
+   (~1,359.1 dated 09-03, −1.20), sub-±10, and not on the fixing. A fresh sequence needs a >±10 SETTLED move with
+   DXY *and* CNH strictly flat AT the settle (controls re-checked, not carried). Open reconciliation: the same-clock
+   instrument is the **onshore 15:30 fixing**, not the Naver dated/24h print — a ~1-won gap; resolves before 09-08
+   (Vera's), no won settle till then — any figure must name WHICH instrument.
+5. **The DEMAND question — GATE 4 HARDENED to 2 consecutive confirms (09-02, 09-03).** 09-02 imported the US
+   de-rate (−3.99%, foreign+inst heavy sellers); 09-03 06Z hardened it — a favorable US green lead produced only a
+   hollow +0.26% (semis red, KOSDAQ −1.71%, all three cohorts net sold, foreign moderated but did NOT flip). Dented
+   not refuted (2 sessions; buyback may cushion). Watch: a 3rd heavy foreign sell hardens further; a flip to BUYING is
+   the first demand signal since the crash (re-opens *reverses*). Micron's late-Sept print is the independent 2nd read.
 
 ---
 
