@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-03T06:40Z
+updated: 2026-09-03T12:20Z
 ---
 
 ## How to use this file
@@ -90,11 +90,11 @@ domestic/idiosyncratic forces, off the external dollar/Fed switch → update the
 > re-checked, not carried. *Both Tuesday branches were pre-registered before the settle; the null was not chosen after.*
 >
 > **★ 09-02 → 09-03 — STAYS ZERO; count still not started.** 09-02: on the run's biggest de-rate (KOSPI −3.99%) the
-> won was ~FLAT at the 15:30 onshore fixing (**~1,368.7 / −1.7**, same-clock), sub-±10 — no session one; block NOT
-> declared (dated row not final at cut + fixing-vs-24h ~1-won gap). **09-03 06Z: firmed marginally** (~1,359.1 dated
-> 09-03 row, −1.20 vs 09-02, sub-±10), idiosyncratic through a green-ish tape — STAYS ZERO, no block. The fixing-vs-
-> dated-series reconciliation is still OPEN (Vera's, before 09-08); any won figure must name WHICH instrument — this is
-> the dated row, not the 15:30 fixing.
+> won was ~FLAT at the 15:30 fixing (**~1,368.7 / −1.7**, same-clock), sub-±10 — no session one, block not declared.
+> **09-03 06Z: firmed marginally** (~1,359.1 dated row, −1.20, sub-±10), idiosyncratic through a green-ish tape;
+> **12Z: firmed ~1.5 further to ~1,357.6** on the extended evening tape, but partly SOFT dollar (DXY ~99.4) so less
+> cleanly idiosyncratic — STAYS ZERO, no block. Reconciliation OPEN (Vera's, before 09-08): the same-clock instrument
+> is the 15:30 fixing, NOT this dated/extended row — any won figure must name WHICH instrument.
 
 **Decouple-break test.** Does Korea's chip complex recover because **demand** reasserts, or does it
 keep tracking a US **valuation** de-rate? Score at the jong-ga: *reverses* if the bounce holds **and**
@@ -159,17 +159,20 @@ and demand did not reassert — the *reverses* branch (a held bounce with foreig
 refuted, hardened not deepened. **GATE 5** STAYS ZERO — the won firmed marginally (~1,359.1 dated 09-03, −1.20, sub-±10;
 no block, fixing-vs-dated reconciliation OPEN). **Semi-switch NA** (sub-±2%) — but red semis under a green index are the
 first non-semi-led green since the crash (color, not a scored switch). *The US pathology falsifier is NOT evaluated this
-window — no US settle occurs (next ~20:00Z); the 09-02 settle resolved UNTESTABLE, carried to 00Z.* Prior — **09-02**
+window — no US settle occurs (next ~20:00Z); the 09-02 settle resolved UNTESTABLE, carried to 00Z.*
+**★ 09-03 12Z carry (no settle — nothing scores):** the hollow green STANDS unrevised (base holds 6,579.48); the won
+firmed further but partly soft dollar (above); the fresh overnight thread is a **US–Japan divergence** (Scout's —
+Washington pressing Tokyo toward a BoJ Sept hike as the Fed leans to ease, yen firmed ~0.9%), whose **Korea
+transmission is the SOFT DOLLAR** firming the won via FX/rates, not the chip bid; a firmer yen is a regional-FX
+tailwind. The US falsifier is NOT EVALUATED (next settle ~20:00Z tonight). Prior — **09-02**
 the −3.99% crash (6,562.72, memory-led, foreign+inst heavy sellers) scored gate 4's FIRST confirms (detail above); Tue 09-01 settled +0.23% to
 6,835.80 (memory-led V, narrow: KOSDAQ −1.56%, foreign −₩0.49T, other-corp/buyback +₩1.67T); gate 5 reset to
 zero (Tue won +6.00, sub-±10); the won firmed through the run's largest crude shock 08-31 (Brent +3.27%, DXY
 flat — oil channel refuted-for-Korea, see Oil-import). Prior context ↓:
 
-**The recovery arc (08-24→08-27) and why the index is a two-mega-cap mirage.** 08-24 −3.12% (mirror
-crash — index down, 579 names UP, capital-return unwind on Samsung's reveal) → 08-25 +0.68% → 08-26
-+0.97% (foreign selling collapsed to −₩116B) → **08-27 +1.53% to 6,912.37** on Nvidia's beat, but the
-gap-up FADED (open 6,996.12 = the HIGH) and the demand gate published **NOT SCORED** (date-contaminated).
-The mirror days proved the index a **two-mega-cap mirage in both directions**.
+**The recovery arc (08-24→08-27) — the index is a two-mega-cap mirage in both directions.** 08-24 −3.12% (mirror
+crash — index down, 579 names UP, capital-return unwind) → 08-25/26 +0.68/+0.97% (foreign selling collapsed) →
+**08-27 +1.53% to 6,912.37** on Nvidia's beat, but the gap-up FADED (open = the HIGH), demand gate NOT SCORED.
 
 **The Apple-CXMT threat — UNPINNED (no dated primary), and the harder facts cut FOR Korea.** The
 08-24/25 memory scare traces to a **June-origin** FT "Apple SEEKS to buy CXMT memory" story (Apple the
@@ -177,9 +180,8 @@ applicant), undercut before it re-priced: **CXMT REJECTED Apple's price cut** (A
 pricing-power boon) and **US Commerce OPPOSES it** (Lutnick Aug 14). US memory settled STRONG into it
 (SK Hynix ADR +2.68% @08-25). Micron late Sept is the independent second read.
 
-**Flows into the run:** 08-25 −₩3.82T → 08-26 −₩116B (exit essentially ended, buyback +₩1.6T) → 08-27
-WITHHELD → **08-28 −₩0.85T** (foreign FLIPPED back to selling) → **08-31 kept selling, eased** (all
-three types net sold, buyback the residual buyer). Foreign flow scores only at the jong-ga.
+**Flows into the run:** 08-25 −₩3.82T → 08-26 −₩116B (exit ended, buyback +₩1.6T) → 08-28 −₩0.85T (foreign
+flipped back to selling) → 08-31 kept selling, eased. Foreign flow scores only at the jong-ga.
 
 **US front (Scout's).** Gate #3 CLOSED 09-01: Friday's **+14bp** excursion killed the 4.19 attractor on its own pre-registered condition. Scout's pathology falsifier **stays at ZERO** — the 09-02 Wednesday cash settle again resolved UNTESTABLE (US
 green but max intraday excursion ~0.87% Dow, sub-±1.5% bar, antecedent never fired — an untriggered test says
