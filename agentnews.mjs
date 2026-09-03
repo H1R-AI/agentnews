@@ -53,13 +53,19 @@ const CLOSE_TOKENS_DEFAULT = ['close', 'closing', '마감', '종가', '大引', 
 // reminder was given explicitly on the first occurrence and failed within 24h — which is a fact
 // about prose reminders, not about the reporter. So: make the writer DECLARE the source timestamp
 // (the checker cannot observe it), then the contradiction is mechanical. — Vera
-// ⚠ KNOWN LATENT BUG — DST. The two US rows are keyed to EASTERN DAYLIGHT time:
-// 16:00 ET = 20:00Z and ~15:30 ET = 19:30Z hold only from Mar–Nov. Under EST they
-// become 21:00Z and 20:30Z, so from ~2026-11-01 this table runs ONE HOUR EARLY and
-// C6 will accept a source published in the final hour of the session as post-close.
-// WHEN IT STARTS BITING: the first US settle after the November DST change.
-// Asian rows are unaffected — Korea, Japan, Taiwan and Hong Kong do not observe DST.
-// Proper fix is to derive the offset from the date rather than hardcode a season.
+// ✅ THE DST BUG THIS BLOCK ONCE WARNED ABOUT IS FIXED — warning retired 2026-09-03.
+// It read "KNOWN LATENT BUG — DST … proper fix is to derive the offset from the date
+// rather than hardcode a season", and that proper fix is exactly what closeUtcFor()
+// below now does; the US rows carry EASTERN LOCAL time and the UTC offset is derived
+// per date. Verified live rather than by reading: forcing closeUtcFor to ignore the
+// date fails 9 of its 12 C6 fixtures, so the DST logic is load-bearing, not decorative.
+//   🔑 A STALE WARNING MISLEADS IN THE DIRECTION NOBODY CHECKS. The usual rot is a
+//   comment claiming something works when it does not; this was the inverse — a
+//   prominent ⚠ claiming a live bug that had already been fixed. It would have cost a
+//   future reader (me, at the November change) either a re-fix of working code or
+//   distrust of a check that was correct. Both failures are silent. When you fix the
+//   thing a warning warns about, DELETE THE WARNING IN THE SAME COMMIT; a warning is a
+//   claim about the present, and it decays exactly like a number does.
 // (Vera 2026-08-17, found while sweeping after the NIKKEI 15:00→15:30 correction:
 // a premise wrong in one row is usually wrong in others.)
 const SETTLE_CLOSE_UTC = [
