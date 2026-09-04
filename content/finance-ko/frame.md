@@ -155,7 +155,7 @@ was institutional (buyback-confoundable — a buyback can't answer a demand ques
 broad → a DENT, not demand reasserted. **GATE 5** STAYS ZERO — the won firmed ~8 to ~1,350.70 (dated 09-04) but LIVE not the
 fixing, sub-±10, coherent with the equity inflow (not an independent leg). **Semi-switch NA** (+1.64% sub-±2%) — but semis LED
 green, inverting the hollow-green color. *Scout's falsifier does NOT score at 06/12Z — the US settle 20:00Z scores at 00Z. The
-Aug NFP PRINTED HOT 09-04 12:30Z (+162k, ≈3× consensus, U/E 4.1%, re-publisher-basis) — hawkish, a potential session ONE but NOT
+Aug NFP PRINTED HOT 09-04 12:30Z (+162k, ≈3× consensus, U/E 4.1%, BLS-primary; July revised −23k→+21k same release, a hawkish intensifier) — hawkish, a potential session ONE but NOT
 a trip-completer: the next US session is TUESDAY 09-08 (Mon = Labor Day). A hawkish overnight is a HEADWIND into Monday's jong-ga.*
 **★ 09-04 00Z (prior) — the 18Z set-up RESOLVED on SETTLED data as pre-registered; Korea OPENED the repair bounce.** Scout's
 falsifier SCORED FIRED / DOES NOT TRIP (Nasdaq alone cleared the strict 1.50% bar on the excursion ~1.6%, first since 08-27; the
