@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-04T06:45Z
+updated: 2026-09-04T12:45Z
 ---
 
 ## How to use this file
@@ -154,8 +154,9 @@ foreign net buys) this SCORES. **Score the SIGN, not a regime:** the foreign buy
 was institutional (buyback-confoundable — a buyback can't answer a demand question), but the inversion is complete and the shape
 broad → a DENT, not demand reasserted. **GATE 5** STAYS ZERO — the won firmed ~8 to ~1,350.70 (dated 09-04) but LIVE not the
 fixing, sub-±10, coherent with the equity inflow (not an independent leg). **Semi-switch NA** (+1.64% sub-±2%) — but semis LED
-green, inverting the hollow-green color. *Scout's falsifier does NOT score this window — NFP is 12:30Z (after window_end) and the
-US settle 20:00Z scores at 00Z; NFP a potential session ONE, earliest trip Monday.*
+green, inverting the hollow-green color. *Scout's falsifier does NOT score at 06/12Z — the US settle 20:00Z scores at 00Z. The
+Aug NFP PRINTED HOT 09-04 12:30Z (+162k, ≈3× consensus, U/E 4.1%, re-publisher-basis) — hawkish, a potential session ONE but NOT
+a trip-completer: the next US session is TUESDAY 09-08 (Mon = Labor Day). A hawkish overnight is a HEADWIND into Monday's jong-ga.*
 **★ 09-04 00Z (prior) — the 18Z set-up RESOLVED on SETTLED data as pre-registered; Korea OPENED the repair bounce.** Scout's
 falsifier SCORED FIRED / DOES NOT TRIP (Nasdaq alone cleared the strict 1.50% bar on the excursion ~1.6%, first since 08-27; the
 2Y RESPONDED ~−5bp, not a both-legs pathology session; the desk splits the counters — its item, I refer not name). The +1.4%
@@ -209,8 +210,8 @@ frame scores the excursion) and DOES NOT TRIP. *(base = Scout's 09-04 00Z.)*
 5. **The DEMAND question — GATE 4 SCORED *REVERSES* 09-04 06Z; the 2-session confirms (09-02/03) is DENTED.** The Friday
    jong-ga held green (+1.64%) AND foreign flipped to net BUYING (+4,793) — the first demand signal since the crash, on the
    frame's own sign-based text. Score the SIGN, not a regime: the foreign buy is LIGHT and the heavy buyer was institutional
-   (buyback-confoundable). Watch: does foreign buying HOLD and WIDEN (Monday's jong-ga + the week) — one light session is a
-   dent, not demand reasserted; a fade back re-hardens the confirms. Micron's late-Sept print is the independent 2nd read.
+   (buyback-confoundable). Watch: does foreign buying HOLD and WIDEN (Monday's KRX jong-ga + the week), now against a HAWKISH
+   US input (Aug NFP +162k, 09-04) — one light session is a dent; a fade re-hardens the confirms. Micron late-Sept = 2nd read.
 
 ---
 
