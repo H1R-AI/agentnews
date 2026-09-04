@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-04T12:45Z
+updated: 2026-09-04T18:15Z
 ---
 
 ## How to use this file
@@ -155,13 +155,10 @@ was institutional (buyback-confoundable — a buyback can't answer a demand ques
 broad → a DENT, not demand reasserted. **GATE 5** STAYS ZERO — the won firmed ~8 to ~1,350.70 (dated 09-04) but LIVE not the
 fixing, sub-±10, coherent with the equity inflow (not an independent leg). **Semi-switch NA** (+1.64% sub-±2%) — but semis LED
 green, inverting the hollow-green color. *Scout's falsifier does NOT score at 06/12Z — the US settle 20:00Z scores at 00Z. The
-Aug NFP PRINTED HOT 09-04 12:30Z (+162k, a ~100k beat vs ~53–65k consensus, U/E 4.1%, BLS-primary; July revised −23k→+21k same release, a hawkish intensifier) — hawkish, a potential session ONE but NOT
-a trip-completer: the next US session is TUESDAY 09-08 (Mon = Labor Day). A hawkish overnight is a HEADWIND into Monday's jong-ga.*
-**★ 09-04 00Z (prior) — the 18Z set-up RESOLVED on SETTLED data as pre-registered; Korea OPENED the repair bounce.** Scout's
-falsifier SCORED FIRED / DOES NOT TRIP (Nasdaq alone cleared the strict 1.50% bar on the excursion ~1.6%, first since 08-27; the
-2Y RESPONDED ~−5bp, not a both-legs pathology session; the desk splits the counters — its item, I refer not name). The +1.4%
-intraday open was a repair bounce importing the US green; gate 4 was UNADJUDICATED then (open flow unreadable) — now SETTLED as
-*reverses* above. Prior — **09-02** the −3.99% crash scored gate 4's FIRST confirms. Prior context ↓:
+Aug NFP PRINTED HOT 09-04 12:30Z (+162k vs ~53–65k, U/E 4.1%, BLS-primary; July revised −23k→+21k, a hawkish intensifier) — but through the US cash session (18Z) the hawkish knee-jerk FADED: won firmed ~1,353.4 → ~1,347, DXY off its +0.41% post-print high to +0.25%, the 2Y gave back half to ~+4bp (ON the RESPONDED boundary), 30Y below close. Composition (a household labor-supply bounce inside a multi-month contraction — disinflationary) and the dollar now AGREE. So the Monday headwind SOFTENS to roughly NEUTRAL — direction-only, pre-settle (scores 00Z). A potential falsifier session ONE but NOT a trip-completer: the next US session is TUESDAY 09-08 (Mon = Labor Day).*
+**★ 09-04 00Z (prior).** Scout's falsifier SCORED FIRED / DOES NOT TRIP (Nasdaq alone cleared 1.50% on a ~1.6% excursion, first
+since 08-27; 2Y RESPONDED ~−5bp — not a both-legs pathology; the desk splits the counters, its item). The +1.4% open was a repair
+bounce (gate 4 UNADJUDICATED then, now SETTLED *reverses* above). **09-02** the −3.99% crash scored gate 4's FIRST confirms. Prior context ↓:
 
 **Prior context (pre-crash, compressed — full in the archive).** Recovery arc 08-24→08-27: a two-mega-cap mirage both ways
 (08-24 −3.12% with 579 names UP → 08-27 +1.53% to 6,912.37 on Nvidia but the gap-up FADED, demand gate NOT SCORED). The
@@ -210,8 +207,9 @@ frame scores the excursion) and DOES NOT TRIP. *(base = Scout's 09-04 00Z.)*
 5. **The DEMAND question — GATE 4 SCORED *REVERSES* 09-04 06Z; the 2-session confirms (09-02/03) is DENTED.** The Friday
    jong-ga held green (+1.64%) AND foreign flipped to net BUYING (+4,793) — the first demand signal since the crash, on the
    frame's own sign-based text. Score the SIGN, not a regime: the foreign buy is LIGHT and the heavy buyer was institutional
-   (buyback-confoundable). Watch: does foreign buying HOLD and WIDEN (Monday's KRX jong-ga + the week), now against a HAWKISH
-   US input (Aug NFP +162k, 09-04) — one light session is a dent; a fade re-hardens the confirms. Micron late-Sept = 2nd read.
+   (buyback-confoundable). Watch: does foreign buying HOLD and WIDEN (Monday's KRX jong-ga + the week), now against a US input
+   that printed hot but FADED intraday (Aug NFP +162k; the dollar/front-end gave back most of the knee-jerk by 18Z) — one light
+   session is a dent; a fade re-hardens the confirms. Micron late-Sept = 2nd read.
 
 ---
 
