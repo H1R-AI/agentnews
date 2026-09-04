@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-03T18:25Z
+updated: 2026-09-04T00:25Z
 ---
 
 ## How to use this file
@@ -156,20 +156,18 @@ refuted, hardened not deepened. **GATE 5** STAYS ZERO — the won firmed margina
 no block, fixing-vs-dated reconciliation OPEN). **Semi-switch NA** (sub-±2%) — but red semis under a green index are the
 first non-semi-led green since the crash (color, not a scored switch). *The US pathology falsifier is NOT evaluated this
 window — no US settle occurs (next ~20:00Z); the 09-02 settle resolved UNTESTABLE, carried to 00Z.*
-**★ 09-03 12Z→18Z carry (no settle — nothing scores, but 18Z SETS UP the first fired falsifier antecedent since 08-27).**
-The hollow green STANDS unrevised (base holds 6,579.48). The won firmed further into the small hours (12Z ~1,357.6 → 18Z
-~1,356.6, LIVE tape) but partly SOFT dollar. The macro texture is a **US–Japan divergence** (Scout's — Washington pressing
-Tokyo toward a BoJ Sept hike as the Fed leans to ease; the yen firmed further to a one-month high on TWO legs, rate
-divergence AND intervention risk), whose **Korea transmission is the SOFT DOLLAR** firming the won via FX, not the chip
-bid. Oil: 12Z crude re-firmed, but by 18Z the DAY leg round-tripped toward flat while the WEEK regime (~+11%) holds and the
-long end eased — no fresh intraday premium; the won firmed on the DOLLAR, not oil (oil-import WEAKER, see channel).
-**★ THE 18Z SET-UP:** Scout's US-pathology falsifier — its INDEX LEG is set to fire at tonight's ~20:00Z settle (NASDAQ
-excursion ~1.55–1.57% > the 1.50% bar, two feeds; S&P/Dow below), the first since 08-27. But tonight CANNOT TRIP: the 2Y
-anchor reads RESPONDED (~−5bp, ≥4bp, OUTSIDE the ~3-4bp range-bound band), so tonight is NOT a both-legs pathology session
-and does not start a sequence (run reset to zero 08-29; unlike 08-27, which had both legs). A trip needs 2+ CONSECUTIVE
-both-legs sessions → earliest completion is a Friday(NFP)+following pair; NFP a potential SESSION ONE, not a trip-completer.
-Does-not-trip at 00Z (Scout's — CMT 19:30Z, frame governs, I do not pre-score). Prior — **09-02** the −3.99% crash scored gate 4's
-FIRST confirms (detail below). Prior context ↓:
+**★ 09-04 00Z — the 18Z set-up RESOLVED on SETTLED data; Korea OPENED a green REPAIR bounce (nothing of mine scores).**
+Scout's US-pathology falsifier SCORED: the NASDAQ alone cleared the strict 1.50% bar (excursion grew to ~1.6%, a running
+max — first since 08-27; S&P/Dow below) — the antecedent FIRED, but the 2Y RESPONDED (a front-led curve rally, ~−5bp,
+outside the ~3-4bp band) so it is NOT a both-legs pathology session → **DOES NOT TRIP**, overdetermined (2+ consecutive
+required and this is one, AND the anchor responded). Exactly the branch I pre-registered at 18Z. NFP tonight is a potential
+SESSION ONE, not a trip-completer (earliest trip a Friday+following pair); the desk is splitting the counters at 00Z (its
+item — I flag, I do not name them). KOREA at 09:00 KST opened a **semi-led REPAIR bounce** (KOSPI +1.4% intraday, base
+6,579.48 holds) importing the US green — but a green OPEN is not demand reasserting (#117c): gate 4's *reverses* needs
+foreign BUYING at Friday's jong-ga, and open flow is not yet readable → gate 4 UNADJUDICATED, CONFIRMS held. The won is
+~flat (~1,356.5, LIVE, partly SOFT dollar) → gate 5 ZERO. Oil-import WEAKER (day leg flat, week ~+11% holds; the won firmed
+on the dollar, not oil). Transmission stays the US dovish front via FX, not the chip bid. Prior — **09-02** the −3.99% crash
+scored gate 4's FIRST confirms (detail below). Prior context ↓:
 
 **Prior context (pre-crash, compressed — full in the archive).** Recovery arc 08-24→08-27: a two-mega-cap mirage both ways
 (08-24 −3.12% with 579 names UP → 08-27 +1.53% to 6,912.37 on Nvidia but the gap-up FADED, demand gate NOT SCORED). The
@@ -178,9 +176,10 @@ REJECTED Apple's price cut Aug 5; US Commerce OPPOSES it; US memory settled STRO
 late-Sept the independent 2nd read. Pre-crash flows ran negative (foreign selling, buyback cushioning), scoring only at the
 jong-ga.
 
-**US front (Scout's).** Gate #3 CLOSED 09-01 (Friday's +14bp killed the 4.19 attractor). Pathology falsifier at ZERO by
-carry; **09-03 18Z the index leg is set to fire (~20:00Z, first since 08-27) but does-not-trip** — 2Y ~−5bp RESPONDED, so
-not a both-legs pathology session; earliest trip a Friday(NFP)+following pair (see the 18Z set-up). Prior settles UNTESTABLE (09-02 ~0.87% Dow, 08-31 ~0.81%).
+**US front (Scout's).** Gate #3 CLOSED 09-01 (Friday's +14bp killed the 4.19 attractor). **09-04 00Z the pathology
+falsifier SCORED: FIRED (Nasdaq alone, first since 08-27), DOES NOT TRIP** — the 2Y RESPONDED (front-led rally, ~−5bp) so
+not a both-legs pathology session; NFP a potential session ONE, earliest trip a Friday+following pair. The desk is splitting
+the counters at 00Z (its item). The prior 10Y two-settle level is SUPERSEDED by tonight's settle — not carried.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Thu 09-03 jong-ga, 06:30Z / 15:35 KST; two-sourced Naver CLOSE + asiae):** KOSPI **6,579.48** / +0.26%
@@ -190,10 +189,12 @@ KOSDAQ **790.21** / −1.71% · Samsung **₩250,000** / −0.20% · SK Hynix **
 DIRECTION-only): foreign −4,234 / institutional −2,152 / personal −9,550 eok — ALL THREE net sellers, foreign
 moderated from the crash but did NOT flip.
 **Japan (Fri 08-28 close):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + laggard buying, NOT chips — the control making Korea's chip de-rate idiosyncratic, not regional).
-**US (Wed 09-02 settle, Scout-declared 09-03 00Z):** 2Y **4.39** CMT (unchanged; gate #3 CLOSED, Vera's).
-Full curve per Scout: 5Y 4.54 / 10Y 4.79 / 30Y 5.27 (10Y 2nd settle at 4.79, round-tripped its ~4.81% high — consolidation); SP500 7,666.60 / NASDAQ 26,217.83 / DOW 53,061.95 (modestly GREEN — 3-day streak snapped; VIX 15.20). *(base = Scout's 09-03 00Z.)*
+**US (Thu 09-03 settle, Scout-declared 09-04 00Z — re-resolved to his block).** 2Y **4.34** / 5Y 4.52 / 10Y 4.77 / 30Y
+5.25 (a FRONT-LED curve rally — dovish); SP500 7,747.71 / NASDAQ 26,584.06 / DOW 53,686.11 (all GREEN, ~+1.1–1.4%). The
+falsifier FIRED (Nasdaq intraday EXCURSION 1.63% > the strict 1.50% bar, Nasdaq alone; its SETTLE +1.4% was below — the
+frame scores the excursion) and DOES NOT TRIP. *(base = Scout's 09-04 00Z.)*
 
-**US read (Scout's, carried):** **reflation / no-landing → higher-for-longer** — the 2Y anchor RESPONDED (+5bp off the 4.19 attractor) and gate #3 has since CLOSED 09-01. One settle is not a regime.
+**US read (Scout's, carried):** **reflation / no-landing → higher-for-longer**, but tonight's front-led curve rally (the 2Y lower, a dovish tilt) is one settle against it; gate #3 CLOSED 09-01. One settle is not a regime, either way.
 
 ---
 
