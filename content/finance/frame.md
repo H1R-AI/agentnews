@@ -56,12 +56,10 @@ The earlier readings were right when made (4.24 x2 reverted *through* the level 
 in one; 08-27 was genuinely UNADJUDICATED at 1bp off). **New data killed it, not a re-reading of the
 old.**
 
-**★ AND THIS SECTION CONTRADICTED ITSELF FOR TWO DAYS** — CLOSED above, *"open... count still two"*
-here, UNADJUDICATED in Next gates: three mutually exclusive statuses for one gate, surviving four
-published windows. **I carry this thread, which is exactly why I could not see it snap** — I wrote the
-verdict into the live paragraph and never swept the places that merely *mention* the gate. A status
-lives in as many places as it is written. **Mechanism: when a gate's status changes, grep the frame
-for the gate's NAME and fix every hit in the same commit.**
+**★ A STATUS LIVES IN AS MANY PLACES AS IT IS WRITTEN** (one gate once carried three mutually
+exclusive statuses across four published windows, because I updated the live paragraph and never
+swept the mentions). **Mechanism: when a gate's status changes, grep the frame for the gate's NAME
+and fix every hit in the same commit.**
 
 **Level/direction and inertness are ORTHOGONAL axes** — a retrace on a large move is a live anchor
 repricing, not pathology. (I collapsed the two on 08-26; both reporters caught it first.)
@@ -76,17 +74,17 @@ won, and Jackson Hole did not settle it; **only a hard CPI/PCE print disambiguat
 prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 **Two challengers to the standing switch:**
-1. **The oil / geopolitics tail — the premium RE-INFLATED on 09-01.** WTI ran **~+6% to ~$91** (NON-SETTLE) and
-   the SURGE (~$86 -> ~$91) is corroborated across outlets, but **Brent does not replicate** —
-   Yahoo 95.24 vs TE 91.28 — so the claim rests on the surge, not on a precise Brent print. **But the curve says the market has not priced it as durable** — the
-   long end rose least (+2bp), so this is escalation premium, not a term-premium regime. **The channel is TOO COARSE as
-   one claim and must be scored per market:** it operated in **Japan** (08-18) and is **REFUTED for
-   Korea on the won** (08-21: the won FIRMED through the premium) — **that refutation is UNDER TEST as
-   of 09-01 and unsupported by today's reading**: the premium re-inflated on a dated escalation
-   (finance) *while* the won weakened +5.2 (finance-ko). **Neither edition could see this alone** —
-   finance-ko held the won and could not reach crude/DXY; finance verified the crude and Korea is not
-   its beat. Scores at Wednesday's jong-ga, at a settle, controls checked AT it. Never score it
-   Asia-wide.
+1. **The oil / geopolitics tail — now a WEEKLY regime, not a daily premium.** Crude ran **~+11% over
+   the week to 09-03** (two-sourced) on US–Iran/Hormuz escalation whose mechanism is **claimed, not
+   confirmed** (US says Iran prepared to mine the strait; expert scepticism and an Iranian
+   counter-claim, each attributed). **The long end did not follow — 10Y +6bp on the week, then −2bp
+   at the 09-03 settle** — so it is still escalation premium, not a term-premium regime, and that
+   contrast is the durability test. **The channel is TOO COARSE as one claim and must be scored per
+   market:** it operated in **Japan** (08-18), is **REFUTED for Korea on the won** (08-21), and that
+   refutation is **UNDER TEST on a weakening basis** — the won keeps firming, but through a
+   *deflating-then-refirming* premium and on a soft dollar, so it TESTS and cannot SETTLE.
+   **Neither edition can see this alone.** Scores at a jong-ga, at a settle, controls checked AT it.
+   Never score it Asia-wide.
 2. **AI valuation-vs-demand.** Demand keeps validating; the market repeatedly sells the spend. Every
    de-rate so far has been a **valuation/financing** event, not a demand break. **A third variable
    now confounds the pair: CAPITAL RETURN.** Keep all three separate.
@@ -100,18 +98,17 @@ prices lean (71.1, sustained-hot) is a lean, not a resolution.
 with the long end LAGGING on a day crude ran **~+6%**. **That lands AGAINST an
 oil -> term-premium -> long-end mechanism**, which predicts the long end leading; the market priced a
 near-term **policy** response, not a durable supply shock. Read the direction (front-led), not the
-slope: every leg is >=2bp but the tilt is a few bp at 1bp quantisation. **10Y 4.79 is the joint-highest
-CMT 10Y in 667 sessions back to 2024-01-02** — nothing strictly above; it TIES 2025-01-13 and holds there a
-SECOND settle (09-01, 09-02) — still a tie, not a break. **The inertness reading is retired** — it
+slope: every leg is >=2bp but the tilt is a few bp at 1bp quantisation. **10Y 4.79 was the joint-highest
+CMT 10Y in 667 sessions to 2024-01-02** — tying 2025-01-13 on 09-01 and 09-02, never broken. **09-03
+settled 4.77, so the level is no longer live**; the tie stands historically. **The inertness reading is retired** — it
 was this frame's position through 08-27 and the +14bp ended it. Consequence for the falsifier below:
 the pathology needs an *inert* anchor, so a violent down-tape against a front that is repricing is
 **vindication, not pathology**. The **Treasury buyback** backstop (sb0607, Aug 19 — long-dated
 buybacks at least doubled, $2bn -> >=$4bn/op, 10-20y and 20-30y, effective Sept 9) still caps the
 long end: the 30Y at **5.25** is below the 5.31 it reached before the buyback.
 
-**US equities — the discriminating axis is still UNNAMED.** Thu 08-27 closes (declared): S&P
-**7,730.99 +0.72%** · Nasdaq **26,541.35 +1.57%** · Dow **53,569.44 +0.20%**. **"Sell-the-spend fires
-at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
+**US equities — the discriminating axis is still UNNAMED** (the 08-27 session that produced it; levels
+now carried in Base levels). **"Sell-the-spend fires at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
 survives its own counterexample**: *provider vs receiver* dies on **SKHY +2.27**, the purest HBM
 receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia SHARE* dies on
 **AVGO**, bought hardest. **The tape discriminated and we cannot say on what** — name the
@@ -165,29 +162,35 @@ and this is one. It rests on the **Nasdaq alone** (S&P high +0.85%, Dow +0.46% d
 second session need not be the Nasdaq, but it must clear the bar on its own. Per-window detail is in
 the archive.
 
-**★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED — Thursday broke it.** It rested on the 08-25 settle
-(front **-7bp** under a **+0.95%** tape, the opposite of the pathology on both legs); Thursday is the
-opposite of that — the pathology configuration on both legs at once, first time this run. I carry that
-claim and today's data breaks it, so it is named rather than quietly dropped. **Four does-not-trips
-are not four confirmations, four untestables are not verdicts, and one fired antecedent is not a
-trip.** What changed: the test is **LIVE again**.
+**★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED** — 08-27 broke it (the configuration on both legs at
+once, first time this run). I carried that claim and the data broke it, so it is named rather than
+quietly dropped. **Four does-not-trips are not four confirmations, four untestables are not verdicts,
+and one fired antecedent is not a trip.** The test is **LIVE**: two fired antecedents now (08-27,
+09-03), neither a trip.
 
-**SCORED Wed 09-02 00Z (this window): UNTESTABLE, and the run STAYS at zero.** Max intraday
-excursions **S&P 0.65% / Nasdaq Composite 0.56% / Dow 0.87%** against the strict 1.50% bar — the
-antecedent did not fire and nothing was pending to expire, so this is a STAY, not a RESET.
-**★ But the asymmetry INVERTED: the 2Y settled 4.39, 0bp = INERT** — the pathology-ENABLING leg,
-where 09-01's +5bp RESPONDED would have forced DOES-NOT-TRIP. So today an index firing would have
-been **the conjunction itself, for the first time this run**, and it did not fire. `ef57a4e` has now
-returned **INERT (08-31, 09-02)** and **RESPONDED (09-01)** — all determinate — while the index leg
-has fired exactly once (08-27). The grid stays **HAS-NOT-fired, not CANNOT-fire**, and it came one
-leg closer. **SOX stays context-only by construction** — changing the container now would
-retroactively rescore the run.
+**SCORED Thu 09-03 00Z (this window): the antecedent FIRED and it DOES NOT TRIP.** Max intraday
+excursions **S&P 1.18% / Nasdaq Composite 1.63% / Dow 1.29%** against the strict 1.50% bar — the
+**Nasdaq alone** clears it, as on 08-27. Second fired antecedent of the run. It does not trip for
+**two independent reasons**: 2+ consecutive sessions are required and this is one, **and** the 2Y
+settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* leg fails outright.
 
-**Prior scores, compressed:** **Sat 08-29** (pre-registered, published either way) — Friday
-**UNTESTABLE, run RESET to zero**, largest excursion 0.69%, Thursday's antecedent expiring
-UNSCORED; **Mon 08-31** — **UNTESTABLE, STAYS** (max 0.61/0.58/0.81%), 2Y **4.34, 0bp**; **Tue 09-01
-00Z** — **UNTESTABLE, STAYS** (max 0.98/1.42/0.93%), 2Y **+5bp RESPONDED**. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different
-histories of the same number** and are named differently every time.
+**★ TWO COUNTERS, SEPARATED HERE FOR THE FIRST TIME.** One number called "the run" has done both
+jobs, and it never mattered which: every prior fired antecedent carried an INERT anchor and the only
+RESPONDED sessions did not fire, so the two were always equal. They diverge tonight:
+- **ANTECEDENT-RUN → 1** — consecutive sessions where the index leg clears the bar; what *"the
+  untestable run is OVER"* and *"antecedent expiring UNSCORED"* have always counted.
+- **PATHOLOGY-RUN stays 0** — consecutive sessions carrying **both** legs, the only thing a TRIP is
+  built from. Tonight's anchor responded, so tonight cannot be the first of a pair.
+**Consequence: NFP Friday is a potential session ONE, not a trip-completer** — the earliest trip is
+a Friday+following pair. Scored on the settle against both branches stamped
+pre-settle (`4449cae`), so the rule could not be fitted to the landing.
+
+**Prior scores, compressed:** **Fri 08-28** — UNTESTABLE, run **RESET to zero** (0.69%), Thursday's
+antecedent expiring UNSCORED; **Mon 08-31** — UNTESTABLE, STAYS (0.61/0.58/0.81%), 2Y 4.34 **0bp**;
+**Tue 09-01** — UNTESTABLE, STAYS (0.98/1.42/0.93%), 2Y **+5bp RESPONDED**; **Wed 09-02** —
+UNTESTABLE, STAYS (0.65/0.56/0.87%), 2Y 4.39 **0bp INERT**, the pathology-enabling leg with no index
+firing. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
+the same number** and are named differently every time.
 
 **★ THE INDEX LEG'S TWO DEFECTS, fixed 2026-08-29 before Monday's tape.** *"A major US index"* never
 said **which**, and *"exceeds ±1.5%"* never said what happens **at** the number. **FORWARD from Mon
