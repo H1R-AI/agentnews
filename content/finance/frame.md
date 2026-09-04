@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-01T12:22Z
+updated: 2026-09-04T18:26Z
 ---
 
 ## How to use this file
@@ -93,14 +93,15 @@ prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 ## Current state
 
-**Rates — the anchor RESPONDED to hard data; the pathology reading is retired.** Newest DECLARED
-settle is **Thu 09-03**: **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (−5/−2/−2/−2). **Fri 09-04, NFP:
-the front repriced HAWKISH on the print** — 2Y ~**+8bp** in the immediate reaction, front-led (desk's
-own 12:46Z pull **+7.6bp** vs the 09-03 settle; intraday, **the score is the 20:00Z CMT at 00Z**).
-**The inertness reading is retired** — it was this frame's position through 08-27 and the +14bp ended
-it. Consequence for the falsifier: the pathology needs an *inert* anchor, so a violent down-tape
-against a front that is repricing is **vindication, not pathology**. Read direction (front-led), not
-slope: CMT prints to 1bp, so a few-bp tilt is at quantisation. The **Treasury buyback** backstop
+**Rates — the anchor responded INTRADAY then gave half of it back; the classification is LIVE at the
+settle.** Newest DECLARED settle **Thu 09-03**: **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (−5/−2/−2/−2).
+**Fri 09-04 NFP — repriced hawkish, then FADED:** 2Y ~+8bp immediately (desk 12:46Z **+7.6bp**), by 18:01Z
+only **+4.0bp**; 10Y +1.4; 30Y **−0.5**, below its prior close. **That is exactly ON the boundary**
+(≤3bp INERT / ≥4bp RESPONDED) — **a +3bp settle scores INERT and the vindication reading fails as
+written.** Intraday CNBC-basis, **not CMT; the score is the 20:00Z CMT at 00Z.** The frame's
+*structural* inertness position died on 08-27's +14bp — a different question from today's
+classification, which is open. The pathology needs an INERT anchor, so a violent down-tape against a
+**repricing** front is vindication; a faded front weakens that defence. The **Treasury buyback** backstop
 (sb0607, Aug 19 — long-dated buybacks at least doubled, $2bn -> >=$4bn/op, effective **Sept 9**, now
 days away) still caps the long end: the 30Y at **5.25** is below the 5.31 it reached before it.
 
