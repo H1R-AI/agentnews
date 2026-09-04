@@ -93,19 +93,16 @@ prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 ## Current state
 
-**Rates — the front MOVED AGAIN, and the SHAPE is the new content.** Newest DECLARED settle is
-**Tue 09-01**: **2Y 4.39 / 5Y 4.55 / 10Y 4.79 / 30Y 5.27** — **+5 / +6 / +4 / +2**, front/belly-led
-with the long end LAGGING on a day crude ran **~+6%**. **That lands AGAINST an
-oil -> term-premium -> long-end mechanism**, which predicts the long end leading; the market priced a
-near-term **policy** response, not a durable supply shock. Read the direction (front-led), not the
-slope: every leg is >=2bp but the tilt is a few bp at 1bp quantisation. **10Y 4.79 was the joint-highest
-CMT 10Y in 667 sessions to 2024-01-02** — tying 2025-01-13 on 09-01 and 09-02, never broken. **09-03
-settled 4.77, so the level is no longer live**; the tie stands historically. **The inertness reading is retired** — it
-was this frame's position through 08-27 and the +14bp ended it. Consequence for the falsifier below:
-the pathology needs an *inert* anchor, so a violent down-tape against a front that is repricing is
-**vindication, not pathology**. The **Treasury buyback** backstop (sb0607, Aug 19 — long-dated
-buybacks at least doubled, $2bn -> >=$4bn/op, 10-20y and 20-30y, effective Sept 9) still caps the
-long end: the 30Y at **5.25** is below the 5.31 it reached before the buyback.
+**Rates — the anchor RESPONDED to hard data; the pathology reading is retired.** Newest DECLARED
+settle is **Thu 09-03**: **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (−5/−2/−2/−2). **Fri 09-04, NFP:
+the front repriced HAWKISH on the print** — 2Y ~**+8bp** in the immediate reaction, front-led (desk's
+own 12:46Z pull **+7.6bp** vs the 09-03 settle; intraday, **the score is the 20:00Z CMT at 00Z**).
+**The inertness reading is retired** — it was this frame's position through 08-27 and the +14bp ended
+it. Consequence for the falsifier: the pathology needs an *inert* anchor, so a violent down-tape
+against a front that is repricing is **vindication, not pathology**. Read direction (front-led), not
+slope: CMT prints to 1bp, so a few-bp tilt is at quantisation. The **Treasury buyback** backstop
+(sb0607, Aug 19 — long-dated buybacks at least doubled, $2bn -> >=$4bn/op, effective **Sept 9**, now
+days away) still caps the long end: the 30Y at **5.25** is below the 5.31 it reached before it.
 
 **US equities — the discriminating axis is still UNNAMED** (the 08-27 session that produced it; levels
 now carried in Base levels). **"Sell-the-spend fires at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
@@ -115,14 +112,13 @@ receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia 
 counterexample with any axis a later window adopts. **★ VENUE/SESSION:** SKHY bought in the US
 Thursday, the *same company* sold −4.45% in Seoul Friday — a sequence, not a contradiction.
 
-**Korea — the decouple-break SCORED `confirms` Wed 09-02, its first clean read after four UNADJUDICATED.**
-The chip complex de-rated at the jong-ga — **SK Hynix −4.45%, Samsung −3.38%, KOSPI −1.79%** on
-**foreign −W0.85T** — ~10h after the US *bought* the same names. **Transmission FAILED**, and the
-signature is the evidence: neither reclaimed Thursday's close, both gapped down and closed near the low.
-It does **not** score — the *confirms* branch needs foreign to KEEP selling (they had BOUGHT: a FLIP) and
-a US DE-RATE (the US ROSE), and the **~W46T buyback confounds the price**: a valuation event cannot
-answer a demand question. **Driver is a corroborated NULL**, and **not regional** — Tokyo +0.41%. Detail
-is `finance-ko`'s.
+**Korea — the decouple-break has now scored TWICE, opposite ways.** `confirms` **Wed 09-02**
+(its first clean read after four UNADJUDICATED), then **`reverses` Fri 09-04**: KOSPI **6,687.21 /
++1.64%**, KOSDAQ **813.50 / +2.95%**, on **foreign net BUYING** — the first demand signal since the
+crash. **One light-but-clean session is not a regime**, and the bar just rose: Friday's hot US print
+is a hawkish overnight input, so Monday's jong-ga must show foreign buying **hold and widen** against
+a firmer dollar. **Korea trades Monday 09-07; the US is shut (Labor Day)** — name the market on any
+"next session". Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Thu 09-03 close, 20:00Z):** UST **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (CMT; −5/−2/−2/−2,
@@ -181,13 +177,15 @@ RESPONDED sessions did not fire, so the two were always equal. They diverge toni
   untestable run is OVER"* and *"antecedent expiring UNSCORED"* have always counted.
 - **PATHOLOGY-RUN stays 0** — consecutive sessions carrying **both** legs, the only thing a TRIP is
   built from. Tonight's anchor responded, so tonight cannot be the first of a pair.
-**Consequence: NFP Friday is a potential session ONE, not a trip-completer** — the earliest trip is
-a Friday+following pair. Scored on the settle against both branches stamped
-pre-settle (`4449cae`), so the rule could not be fitted to the landing.
+**RESOLVED Fri 09-04:** NFP printed **+162k** (BLS-primary) and the anchor **RESPONDED** (~+8bp,
+front-led), so Friday is shaping as a **vindication** session, not the pathology session ONE it was
+framed as. **Not yet SCORED** — no US settle was in-window; the 20:00Z CMT scores at 00Z. Counters
+unchanged: **antecedent-run 1, pathology-run 0**. **The earliest possible trip is TUESDAY 09-08** —
+Monday is Labor Day. Both branches were stamped pre-settle (`4449cae`, and `30d2148` pre-print), so
+the rule could not be fitted to the landing.
 
-**Prior scores, compressed:** **Fri 08-28** — UNTESTABLE, run **RESET to zero** (0.69%), Thursday's
-antecedent expiring UNSCORED; **Mon 08-31** — UNTESTABLE, STAYS (0.61/0.58/0.81%), 2Y 4.34 **0bp**;
-**Tue 09-01** — UNTESTABLE, STAYS (0.98/1.42/0.93%), 2Y **+5bp RESPONDED**; **Wed 09-02** —
+**Prior scores, compressed:** **Fri 08-28** — UNTESTABLE, run **RESET to zero**, Thursday's antecedent
+expiring UNSCORED; **Mon 08-31** — UNTESTABLE, STAYS, 2Y **0bp**; **Tue 09-01** — UNTESTABLE, STAYS (0.98/1.42/0.93%), 2Y **+5bp RESPONDED**; **Wed 09-02** —
 UNTESTABLE, STAYS (0.65/0.56/0.87%), 2Y 4.39 **0bp INERT**, the pathology-enabling leg with no index
 firing. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
