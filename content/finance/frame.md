@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-01T12:22Z
+updated: 2026-09-04T18:26Z
 ---
 
 ## How to use this file
