@@ -125,8 +125,8 @@ answer a demand question. **Driver is a corroborated NULL**, and **not regional*
 is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Wed 09-02 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.54 / 10Y 4.79 / 30Y 5.27** (CMT; 0/−1/0/0,
-flat) · S&P **7,666.60** / Nasdaq **26,217.83** / Dow **53,061.95** · VIX **15.20** (−1.14)
+**US (Thu 09-03 close, 20:00Z):** UST **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (CMT; −5/−2/−2/−2,
+front-led) · S&P **7,747.71** / Nasdaq **26,584.06** / Dow **53,686.11** · VIX **14.32** (−0.88)
 · WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — two feeds disagree by ~$4**: Yahoo
 95.24/+5.25% vs TradingEconomics 91.28/+0.87%, a contract/settle mismatch, so no Brent number is
 established; the last ICE settle-LABELLED Brent is still **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
