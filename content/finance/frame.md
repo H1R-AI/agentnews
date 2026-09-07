@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-07T00:12Z
+updated: 2026-09-07T06:56Z
 ---
 
 ## How to use this file
@@ -109,16 +109,17 @@ now carried in Base levels). **"Sell-the-spend fires at the RECEIVERS" is retire
 survives its own counterexample**: *provider vs receiver* dies on **SKHY +2.27**, the purest HBM
 receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia SHARE* dies on
 **AVGO**, bought hardest. **The tape discriminated and we cannot say on what** — name the
-counterexample with any axis a later window adopts. **★ VENUE/SESSION:** SKHY bought in the US
-Thursday, the *same company* sold −4.45% in Seoul Friday — a sequence, not a contradiction.
+counterexample with any axis a later window adopts. 
 
-**Korea — the decouple-break has now scored TWICE, opposite ways.** `confirms` **Wed 09-02**
-(its first clean read after four UNADJUDICATED), then **`reverses` Fri 09-04**: KOSPI **6,687.21 /
-+1.64%**, KOSDAQ **813.50 / +2.95%**, on **foreign net BUYING** — the first demand signal since the
-crash. **One light-but-clean session is not a regime**, and the bar just rose: Friday's hot US print
-is a hawkish overnight input, so Monday's jong-ga must show foreign buying **hold and widen** against
-a firmer dollar. **Korea trades Monday 09-07; the US is shut (Labor Day)** — name the market on any
-"next session". Detail is `finance-ko`'s.
+**Korea — the decouple-break has now scored THREE times.** `confirms` **Wed 09-02**, `reverses`
+**Fri 09-04**, and **`reverses` again Mon 09-07 — a SECOND session, and emphatic (levels in Base
+below). But HOLD and WIDEN are two claims and only one passed.** KOSDAQ closed **+1.07%**, so the breadth gap **widened to ~3.54pp** — and that INVERTS
+Friday, when KOSDAQ (+2.95%) *led* KOSPI (+1.64%). **The cause is known and it is narrow:** Friday's
+US session (after Seoul had already closed) saw a **memory-specific** bid — Micron **+6.10%**,
+SanDisk **+11.90%**, SOX +3.37%, while **Nvidia managed +0.84%** — on OpenAI's GPT-6 "Astra" launch.
+Korea's HBM proxies transmitted it Monday (SK Hynix **+8.26%**, Samsung **+5.68%**). So the concentration is a narrow
+catalyst hitting its narrow proxy — **not** the breadth fragility watched since 08-27, Nvidia flat
+as the control. Exposure stands: a two-name index unwinds if Astra demand fades. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Fri 09-04 close, 20:00Z):** UST **2Y 4.37 / 5Y 4.54 / 10Y 4.78 / 30Y 5.24** (CMT; +3/+2/+1/−1)
@@ -126,9 +127,10 @@ a firmer dollar. **Korea trades Monday 09-07; the US is shut (Labor Day)** — n
 · WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — feeds disagree ~$4**
 (contract/settle mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
 settle).
-**Korea (Fri 09-04 jong-ga, `CLOSE`):** KOSPI **6,687.21 / +1.64%** · KOSDAQ **813.50 / +2.95%** ·
-Samsung **W255,500 / +2.20%** · SK Hynix **W1,647,000 / +3.20%** — the inversion of Thursday: SEMI-LED
-and broad, and foreign flipped to net BUYING (+4,793), scoring gate 4 *reverses*.
+**Korea (Mon 09-07 jong-ga, `CLOSE`, 마감):** KOSPI **6,995.39 / +4.61%** (record close, at the high)
+· KOSDAQ **822.19 / +1.07%** · Samsung **W270,000 / +5.68%** · SK Hynix **W1,783,000 / +8.26%** —
+memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,341.30 / −8.20**,
+sub-±10 → gate 5 STAYS ZERO.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 **USD/KRW Tue SETTLED 1,375.50 / +6.00** (final — a dated 09-02 row sits on top), sub-±10: gate 5's
 session two did not fire, the count **STAYS at ZERO**, confirmed on settled data. The 18Z provisional
@@ -229,14 +231,11 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
    level alike, which are opposite worlds. **Nothing further scores here**, and the next
    mean-reversion claim inherits the lesson.
 
-4. **Korea: the demand question — TRANSMISSION FAILED, and it still did not SCORE.** Nvidia printed a
-   large AI-demand confirmation (Q2 FY27 Data Center **$89.0bn +117% YoY**, Q3 guide **$108.0bn**); the
-   deep-cash test was Friday's jong-ga and Korea **sold** the HBM names into it. Full account in
-   **Current state** — not repeated. Verdict **UNADJUDICATED**: the *confirms* branch fails all three of
-   its own conditions. **The clean signal is the FLOW, not the price**, and the price if anything
-   *understates* the weakness while corporates hold the floor. **Next reads: does the foreign exit
-   persist** (one session is a read, not a regime), and **Micron's late-September print** as the
-   independent second demand read.
+4. **Korea: the demand question — OVERTAKEN, kept for its method.** The **Fri 08-28** deep-cash test
+   (Korea **sold** the HBM names into Nvidia's Q2 FY27 confirmation — SKHY −4.45%, foreign −₩0.85T)
+   scored **UNADJUDICATED**; gate 4 has since scored `confirms` 09-02 and `reverses` 09-04, so the
+   *does-the-exit-persist* question is answered. What survives is the method: **the clean signal is
+   the FLOW, not the price.** Next independent demand read: **Micron's late-September print**.
 
 5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
    frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
