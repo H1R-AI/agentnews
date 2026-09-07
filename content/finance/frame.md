@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-04T18:26Z
+updated: 2026-09-07T00:12Z
 ---
 
 ## How to use this file
@@ -93,8 +93,7 @@ prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 ## Current state
 
-**Rates — the anchor responded INTRADAY then gave half of it back; the classification is LIVE at the
-settle.** Newest DECLARED settle **Thu 09-03**: **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (−5/−2/−2/−2).
+**Rates — the intraday response FADED to nothing at the settle: the anchor scored INERT.** Newest DECLARED settle **Thu 09-03**: **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (−5/−2/−2/−2).
 **Fri 09-04 NFP — repriced hawkish, then FADED:** 2Y ~+8bp immediately (desk 12:46Z **+7.6bp**), by 18:01Z
 only **+4.0bp**; 10Y +1.4; 30Y **−0.5**, below its prior close. **That is exactly ON the boundary**
 (≤3bp INERT / ≥4bp RESPONDED) — **a +3bp settle scores INERT and the vindication reading fails as
@@ -122,11 +121,10 @@ a firmer dollar. **Korea trades Monday 09-07; the US is shut (Labor Day)** — n
 "next session". Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Thu 09-03 close, 20:00Z):** UST **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (CMT; −5/−2/−2/−2,
-front-led) · S&P **7,747.71** / Nasdaq **26,584.06** / Dow **53,686.11** · VIX **14.32** (−0.88)
-· WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — two feeds disagree by ~$4**: Yahoo
-95.24/+5.25% vs TradingEconomics 91.28/+0.87%, a contract/settle mismatch, so no Brent number is
-established; the last ICE settle-LABELLED Brent is still **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
+**US (Fri 09-04 close, 20:00Z):** UST **2Y 4.37 / 5Y 4.54 / 10Y 4.78 / 30Y 5.24** (CMT; +3/+2/+1/−1)
+· S&P **7,718.60** / Nasdaq **26,506.99** / Dow **53,414.25** · VIX **14.53** (+0.21)
+· WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — feeds disagree ~$4**
+(contract/settle mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
 settle).
 **Korea (Fri 09-04 jong-ga, `CLOSE`):** KOSPI **6,687.21 / +1.64%** · KOSDAQ **813.50 / +2.95%** ·
 Samsung **W255,500 / +2.20%** · SK Hynix **W1,647,000 / +3.20%** — the inversion of Thursday: SEMI-LED
@@ -171,22 +169,24 @@ excursions **S&P 1.18% / Nasdaq Composite 1.63% / Dow 1.29%** against the strict
 **two independent reasons**: 2+ consecutive sessions are required and this is one, **and** the 2Y
 settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* leg fails outright.
 
-**★ TWO COUNTERS, SEPARATED HERE FOR THE FIRST TIME.** One number called "the run" has done both
-jobs, and it never mattered which: every prior fired antecedent carried an INERT anchor and the only
-RESPONDED sessions did not fire, so the two were always equal. They diverge tonight:
-- **ANTECEDENT-RUN → 1** — consecutive sessions where the index leg clears the bar; what *"the
-  untestable run is OVER"* and *"antecedent expiring UNSCORED"* have always counted.
-- **PATHOLOGY-RUN stays 0** — consecutive sessions carrying **both** legs, the only thing a TRIP is
-  built from. Tonight's anchor responded, so tonight cannot be the first of a pair.
-**RESOLVED Fri 09-04:** NFP printed **+162k** (BLS-primary) and the anchor **RESPONDED** (~+8bp,
-front-led), so Friday is shaping as a **vindication** session, not the pathology session ONE it was
-framed as. **Not yet SCORED** — no US settle was in-window; the 20:00Z CMT scores at 00Z. Counters
-unchanged: **antecedent-run 1, pathology-run 0**. **The earliest possible trip is TUESDAY 09-08** —
-Monday is Labor Day. Both branches were stamped pre-settle (`4449cae`, and `30d2148` pre-print), so
-the rule could not be fitted to the landing.
+**★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
+clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
+is built from. They read identically until 09-03 (every earlier fired antecedent carried an INERT
+anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Friday's reset.
+**SCORED Fri 09-04 at Mon 09-07 00Z — the established weekend carry-forward: UNTESTABLE, and the
+anchor came in INERT.** NFP printed **+162k** and the front repriced ~+8bp
+intraday — but the **CMT settle is the scoring instrument**, and it printed **2Y 4.37, +3bp = INERT**
+(≤3bp). **Index leg did NOT fire:** max excursions **0.537 / 0.524 / 0.738%** (S&P/Nasdaq/Dow) vs the
+1.50% bar — 2.03× short, and the Friday high/low were already set by 18:01Z. So: **antecedent-run
+RESETS to 0** (Thursday's fired antecedent expired without a second consecutive firing session — a
+RESET, not a STAY), **pathology-run stays 0**. The INERT anchor is the pathology-enabling leg **with
+no index firing**, exactly the Wed 09-02 shape. **★ CORRECTION: our 12Z window called the switch
+"vindicated, hard" off the INTRADAY. The settle says INERT — that claim does not survive, and scoring
+the anchor off an intraday violated this frame's own rule.** Branches were stamped pre-settle
+(`4449cae`, `30d2148`, `d477e9c`), so nothing was fitted. **Earliest trip TUESDAY 09-08** (Mon 09-07
+is Labor Day, US shut; Korea trades).
 
-**Prior scores, compressed:** **Fri 08-28** — UNTESTABLE, run **RESET to zero**, Thursday's antecedent
-expiring UNSCORED; **Mon 08-31** — UNTESTABLE, STAYS, 2Y **0bp**; **Tue 09-01** — UNTESTABLE, STAYS (0.98/1.42/0.93%), 2Y **+5bp RESPONDED**; **Wed 09-02** —
+**Prior scores, compressed:** **Tue 09-01** — UNTESTABLE, STAYS, 2Y **+5bp RESPONDED**; **Wed 09-02** —
 UNTESTABLE, STAYS (0.65/0.56/0.87%), 2Y 4.39 **0bp INERT**, the pathology-enabling leg with no index
 firing. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
