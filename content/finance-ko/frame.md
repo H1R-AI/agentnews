@@ -187,8 +187,8 @@ KOSDAQ **813.50** / +2.95% · Samsung **₩255,500** / +2.20% · SK Hynix **₩1
 foreign flipped to net BUYING (gate 4 *reverses*, score the sign — light foreign, heavy institutional).
 **Japan (Fri 08-28 close):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + laggard buying, NOT chips — the control making Korea's chip de-rate idiosyncratic, not regional).
 **US (re-resolved to Scout's DECLARED blocks).** USTs (his 09-07-00Z, Friday 09-04 CMT settle): 2Y **4.37** (+3bp, INERT) / 5Y
-4.54 / 10Y 4.78 / 30Y **5.24** (−1bp) — the front end did NOT respond at the settle (scored INERT above). Equities (his 09-04-00Z,
-not redeclared): SP500 7,747.71 / NASDAQ 26,584.06 / DOW 53,686.11. US SHUT today (Labor Day).
+4.54 / 10Y 4.78 / 30Y **5.24** (−1bp) — the front end did NOT respond at the settle (scored INERT above). Equities (his 09-07-00Z,
+Friday 09-04 CNBC settle): SP500 7,718.60 / NASDAQ 26,506.99 / DOW 53,414.25 (modestly red — the index leg did not fire). US SHUT today (Labor Day).
 
 **US read (Scout's, carried):** **reflation / no-landing → higher-for-longer**, but tonight's front-led curve rally (the 2Y lower, a dovish tilt) is one settle against it; gate #3 CLOSED 09-01. One settle is not a regime, either way.
 
