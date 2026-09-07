@@ -977,7 +977,7 @@ function checkUnownedInstrumentAssertions(windowsByDomain, errors, warnings) {
           const note = hard ? `[hard fail since ${C11_HARD_FAIL_FROM}]` : `[warn · hard fail from ${C11_HARD_FAIL_FROM}]`;
           if (state === 'unowned') {
             reported.add(tag);
-            const msg = `${domain}/${win.rel}: C11 — asserts a SETTLED ${spec.label} level (${hit.value}) that NO settles block declares — not this window's, not the sibling edition's for this window_start. C1 cannot chain it, C6 never checks its source_time, the host allowlist never runs: it is unchecked while the window validates clean. Declare it, or write it as the intraday/live read it is. ${note} — "${hit.snippet}"`;
+            const msg = `${domain}/${win.rel}: C11 — asserts a SETTLED ${spec.label} level (${hit.value}) that NO settles block declares — not this window's, not the sibling edition's for this window_start. C1 cannot chain it, C6 never checks its source_time, the host allowlist never runs: it is unchecked while the window validates clean. Declare it, or write it as the intraday/live read it is — and put that qualifier IMMEDIATELY BEFORE THE NUMBER (write: won live/offshore 1,353.4). C11 reads only the clause PRECEDING the figure, so a label that follows it — or sits earlier in the sentence — is invisible: 'offshore won 1,353.4' still fires. Do NOT fuzz the figure with a tilde to escape this; that degrades a precise number to buy a green. ${note} — "${hit.snippet}"`;
             (hard ? errors : warnings).push(msg);
           } else if (state === 'contradicts-own' || state === 'contradicts-sibling') {
             reported.add(tag);
