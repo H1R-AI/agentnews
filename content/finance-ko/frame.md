@@ -107,8 +107,11 @@ foreign net buys; *confirms* if it fades **and** foreign keeps selling.
 > *REVERSES* AGAIN, emphatic:** SETTLED **+4.61%** (6,995.39, record close at the high), foreign **+25,533** net bought — SURVIVED
 > (institutions +26,327 a hair ahead, retail −68,212; direction-only); semis LED (SK Hynix +8.26% / Samsung +5.68%). **HELD but
 > did NOT WIDEN** — KOSDAQ +1.07% LAGGED, breadth NARROWED (inverting Friday's KOSDAQ lead), so the live WIDEN test answered NO.
-> Driver VERIFIED: the OpenAI-Astra US memory surge (SOX +3.38%) → Korea HBM — the concentration is catalyst-faithful, not prima
-> facie fragility; it bites only if Astra demand fades (US Tue 09-08). *Machinery that stands:* scores at the KOREAN jong-ga on a
+> Driver VERIFIED (CNBC/Yahoo primary): the OpenAI-Astra US MEMORY surge — Micron +6.1% / SanDisk +11.9% (SOX +3.4%) → Korea HBM.
+> **CONTROL: Nvidia only +0.84% Friday (I verified at Yahoo) while memory ripped — a NARROW catalyst hitting its narrow proxy, NOT
+> a broad AI rally.** The TIMING explains the inversion: the US surge was Friday's cash session (13:30–20:00Z), AFTER Seoul's Friday
+> 06:30Z close, so Monday is Korea's FIRST pricing of it — which is why Friday was KOSDAQ-led and today memory-led. So the
+> concentration is catalyst-faithful, not prima facie fragility; it bites only if Astra demand fades (US Tue 09-08). *Machinery that stands:* scores at the KOREAN jong-ga on a
 > clean foreign-flow read; the memory read is MINE, distinct from Scout's US names; Micron late-Sept the 2nd read. **Two *reverses*
 > sessions now, demand real and two-sided — but broadening still ABSENT; the WIDEN test remains the open question.**
 
