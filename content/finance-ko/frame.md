@@ -156,8 +156,8 @@ far above the index), not broadening. **The catalyst is now VERIFIED and it refr
 launch (Sept 3, AGI-era AI-agent capabilities) drove a US MEMORY-chip surge (Micron +6.1%, SanDisk +11.9%, SOX +3.38%) and Korea's
 HBM proxies transmitted it — so the concentration is the EXPECTED signature of a memory-specific catalyst faithfully transmitting,
 NOT prima facie the breadth fragility watched since 08-27; the two-name exposure bites only if Astra demand FADES (US Tue 09-08).
-Semi-switch FIRES (+4.61% >±2%, semis dominant). Gate 5 STAYS ZERO (won ~1,341.3 / −0.6%, firmed ~7–8, sub-±10; US shut → no
-same-clock DXY; dated row date-only, not provably the 15:30 fixing). US SHUT (Labor Day); Scout's falsifier no new score (Friday
+Semi-switch FIRES (+4.61% >±2%, semis dominant). Gate 5 STAYS ZERO (09-07 won settled 1,347.00 / −0.19%, firmed ~2.5 vs Friday,
+sub-±10; US shut → no same-clock DXY). US SHUT (Labor Day); Scout's falsifier no new score (Friday
 INERT). The 00Z open (~+3.2→+3.5%, foreign-led, KOSDAQ lagging ~+1.3%) prefigured this exactly.
 
 **★ 09-04 06Z (prior) — gate 4's FIRST *reverses* (a DENT).** Friday SETTLED **+1.64% (6,687.21)**, KOSDAQ +2.95% OUTPERFORMED,
@@ -206,7 +206,7 @@ Friday 09-04 CNBC settle): SP500 7,718.60 / NASDAQ 26,506.99 / DOW 53,414.25 (mo
 3. **Does foreign buying return and BROADEN?** It flipped to selling on 08-21 and sold KOSDAQ
    throughout. Broad re-entry would be the first thing since the crash that is not a capital-return
    trade.
-4. **The WON — run at ZERO, count not started.** The 09-07 jong-ga won firmed ~7–8 (~1,341.3), sub-±10, and US-shut means no
+4. **The WON — run at ZERO, count not started.** The 09-07 jong-ga won settled 1,347.00, firmed ~2.5, sub-±10, and US-shut means no
    same-clock DXY control. A fresh sequence needs a >±10 SETTLED move with DXY *and* CNH strictly flat AT the settle (controls
    re-checked, not carried). Open reconciliation: the same-clock instrument is the **onshore 15:30 fixing**, not the Naver
    dated/24h print (date-only row, ~1-won gap); resolves before 09-08 (Vera's) — any figure must name WHICH instrument.
