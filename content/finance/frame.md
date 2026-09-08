@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-07T06:56Z
+updated: 2026-09-08T06:50Z
 ---
 
 ## How to use this file
@@ -112,14 +112,18 @@ receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia 
 counterexample with any axis a later window adopts. 
 
 **Korea — the decouple-break has now scored THREE times.** `confirms` **Wed 09-02**, `reverses`
-**Fri 09-04**, and **`reverses` again Mon 09-07 — a SECOND session, and emphatic (levels in Base
-below). But HOLD and WIDEN are two claims and only one passed.** KOSDAQ closed **+1.07%**, so the breadth gap **widened to ~3.54pp** — and that INVERTS
-Friday, when KOSDAQ (+2.95%) *led* KOSPI (+1.64%). **The cause is known and it is narrow:** Friday's
-US session (after Seoul had already closed) saw a **memory-specific** bid — Micron **+6.10%**,
-SanDisk **+11.90%**, SOX +3.37%, while **Nvidia managed +0.84%** — on OpenAI's GPT-6 "Astra" launch.
-Korea's HBM proxies transmitted it Monday (SK Hynix **+8.26%**, Samsung **+5.68%**). So the concentration is a narrow
-catalyst hitting its narrow proxy — **not** the breadth fragility watched since 08-27, Nvidia flat
-as the control. Exposure stands: a two-name index unwinds if Astra demand fades. Detail is `finance-ko`'s.
+**Fri 09-04**, **`reverses` Mon 09-07** (emphatic, +4.61%), and
+**Tue 09-08 — WIDEN answers NO.** The index closed **RED** (−0.58%) and KOSDAQ did **worse**
+(−1.25%), so Tuesday's leading-KOSDAQ *open* did not survive its own session. Scored on the
+red-close branch, **not** on the narrowed gap: it narrowed only because both fell and KOSDAQ fell
+harder — **you cannot widen a rally that did not happen.** **But not a demand break:** foreign
+**+6,449** and institutions **+6,496** both BOUGHT into the fall (retail sold), so the flow signal
+held for a third session while the price consolidated after a parabolic Monday. **The cause of that Monday is known and
+narrow:** Friday's US session (after Seoul closed) carried a **memory-specific** bid on OpenAI's
+GPT-6 "Astra" — Micron +6.10%, SanDisk +11.90%, **Nvidia +0.84% as the control** — which Korea's HBM
+proxies transmitted Monday. A narrow catalyst hitting its narrow proxy, **not** the breadth fragility
+watched since 08-27. **Exposure stands: a two-name index unwinds if Astra demand fades — and the
+second-session test is US cash TONIGHT.** Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Fri 09-04 close, 20:00Z):** UST **2Y 4.37 / 5Y 4.54 / 10Y 4.78 / 30Y 5.24** (CMT; +3/+2/+1/−1)
@@ -127,10 +131,10 @@ as the control. Exposure stands: a two-name index unwinds if Astra demand fades.
 · WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — feeds disagree ~$4**
 (contract/settle mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
 settle).
-**Korea (Mon 09-07 jong-ga, `CLOSE`, 마감):** KOSPI **6,995.39 / +4.61%** (record close, at the high)
-· KOSDAQ **822.19 / +1.07%** · Samsung **W270,000 / +5.68%** · SK Hynix **W1,783,000 / +8.26%** —
-memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,341.30 / −8.20**,
-sub-±10 → gate 5 STAYS ZERO.
+**Korea (Tue 09-08 jong-ga, `CLOSE`, 마감):** KOSPI **6,954.52 / −0.58%** · KOSDAQ **811.88 / −1.25%**
+· Samsung **W269,500 / −0.19%** · SK Hynix **W1,793,000 / +0.56%** —
+memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,347.00 / −2.50** (corrected 09-08 —
+we published 1,341.30, an intraday tick, not the settled fixing), sub-±10 → gate 5 STAYS ZERO.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 **USD/KRW Tue SETTLED 1,375.50 / +6.00** (final — a dated 09-02 row sits on top), sub-±10: gate 5's
 session two did not fire, the count **STAYS at ZERO**, confirmed on settled data. The 18Z provisional
@@ -237,19 +241,13 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
    *does-the-exit-persist* question is answered. What survives is the method: **the clean signal is
    the FLOW, not the price.** Next independent demand read: **Micron's late-September print**.
 
-5. **The won — UNTESTABLE on Fri 08-28, and that is NOT a does-not-trip.** The bar (`finance-ko`
-   frame, verbatim): USD/KRW moves **>±10 won for 2+ consecutive sessions** while **DXY *and* CNH**
-   are flat, where **flat is STRICT: |Δ| < 0.3%, so exactly 0.30% is NOT flat and the control FAILS**
-   (the bar is `finance-ko/frame.md`'s, fixed 08-31 pre-settle; it is transcribed here because the two
-   editions were stating ONE gate with different leg definitions). **★ ANTECEDENT FIRED Mon 08-31,
-   first time in the run, and it STANDS on SETTLED data** — won **1,369.50 / −11.50** (>±10) with
-   controls re-read **AT the settle: DXY −0.01%, CNH −0.0045%**, both far inside the strict bar
-   (the provisional −11.80 read is superseded). **★ SCORED Tue
-   09-01, the first genuine 2-session test in the run's life: session two did NOT fire** — the won SETTLED
-   **1,375.50 / +6.00**, inside ±10 (final — a 09-02 row sits on top), so session one
-   **EXPIRES unpartnered and the count returns to ZERO. UNTESTABLE — not a does-not-trip.** The
-   magnitude leg fails first, so the strict control leg was **never reached: MOOT**, not passed. A
-   fresh sequence must restart from session one at the next >±10 settle.
+5. **The won — count at ZERO; the bar, kept verbatim because the two editions once stated one gate
+   with different leg definitions.** `finance-ko`'s bar: USD/KRW moves **>±10 won for 2+ consecutive
+   sessions** while **DXY *and* CNH** are flat, where **flat is STRICT: |Δ| < 0.3%, so exactly 0.30%
+   is NOT flat and the control FAILS**. **SCORED Tue 09-01 UNTESTABLE — not a does-not-trip:**
+   session one (Mon 08-31, −11.50) expired unpartnered when session two came in inside ±10, so the
+   count returned to ZERO. The magnitude leg fails first, so the strict control leg was **never
+   reached: MOOT**, not passed. A fresh sequence restarts from session one at the next >±10 settle.
 
 ---
 
