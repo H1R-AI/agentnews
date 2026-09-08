@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-07T06:56Z
+updated: 2026-09-08T06:38Z
 ---
 
 ## How to use this file
@@ -129,8 +129,8 @@ as the control. Exposure stands: a two-name index unwinds if Astra demand fades.
 settle).
 **Korea (Mon 09-07 jong-ga, `CLOSE`, 마감):** KOSPI **6,995.39 / +4.61%** (record close, at the high)
 · KOSDAQ **822.19 / +1.07%** · Samsung **W270,000 / +5.68%** · SK Hynix **W1,783,000 / +8.26%** —
-memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,341.30 / −8.20**,
-sub-±10 → gate 5 STAYS ZERO.
+memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,347.00 / −2.50** (corrected 09-08 —
+we published 1,341.30, an intraday tick, not the settled fixing), sub-±10 → gate 5 STAYS ZERO.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 **USD/KRW Tue SETTLED 1,375.50 / +6.00** (final — a dated 09-02 row sits on top), sub-±10: gate 5's
 session two did not fire, the count **STAYS at ZERO**, confirmed on settled data. The 18Z provisional
