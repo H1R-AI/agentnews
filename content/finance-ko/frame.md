@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-07T06:45Z
+updated: 2026-09-08T06:56Z
 ---
 
 ## How to use this file
@@ -99,21 +99,22 @@ domestic/idiosyncratic forces, off the external dollar/Fed switch → update the
 **Decouple-break test.** Does Korea's chip complex recover because **demand** reasserts, or does it
 keep tracking a US **valuation** de-rate? Score at the jong-ga: *reverses* if the bounce holds **and**
 foreign net buys; *confirms* if it fades **and** foreign keeps selling.
-> **Status: *REVERSES* SCORED TWICE — 09-04 06Z (a DENT) then 09-07 06Z (EXTENDS, emphatic but chip-concentrated).** The gate
-> scores each session at the jong-ga on a CLEAN foreign-flow read. **09-02/03 CONFIRMS** (bounce fades AND foreign keeps selling):
-> 09-02 −3.99% (6,562.72), memory-led, foreign+institutions heavy sellers; 09-03 a hollow +0.26% (6,579.48), semis RED, all three
-> cohorts sold. **09-04 06Z *REVERSES* (a DENT):** +1.64% (6,687.21), held all day, KOSDAQ +2.95% OUTPERFORMED, flow INVERTED —
-> foreign +4,793 net BOUGHT (LIGHT), heavy buyer institutional (buyback-confoundable) → one light-but-clean session. **09-07 06Z
+> **Status: *REVERSES* SCORED — 09-04 DENT, 09-07 EXTENDS (emphatic, chip-concentrated), then 09-08 PAUSED (red −0.58%, extension stopped).** The gate
+> scores each session at the jong-ga on a CLEAN foreign-flow read. **09-02/03 CONFIRMS** (bounce fades, foreign keeps selling):
+> 09-02 −3.99% and 09-03 a hollow +0.26%, all cohorts sold. **09-04 *REVERSES* (a DENT):** +1.64% (6,687.21), KOSDAQ +2.95%
+> OUTPERFORMED, foreign +4,793 net BOUGHT (LIGHT, institutional-heavy, buyback-confoundable). **09-07 06Z
 > *REVERSES* AGAIN, emphatic:** SETTLED **+4.61%** (6,995.39, record close at the high), foreign **+25,533** net bought — SURVIVED
 > (institutions +26,327 a hair ahead, retail −68,212; direction-only); semis LED (SK Hynix +8.26% / Samsung +5.68%). **HELD but
-> did NOT WIDEN** — KOSDAQ +1.07% LAGGED, breadth NARROWED (inverting Friday's KOSDAQ lead), so the live WIDEN test answered NO.
+> did NOT WIDEN** — KOSDAQ +1.07% LAGGED, breadth NARROWED (inverting Friday).
 > Driver VERIFIED (CNBC/Yahoo primary): the OpenAI-Astra US MEMORY surge — Micron +6.1% / SanDisk +11.9% (SOX +3.4%) → Korea HBM.
 > **CONTROL: Nvidia only +0.84% Friday (I verified at Yahoo) while memory ripped — a NARROW catalyst hitting its narrow proxy, NOT
-> a broad AI rally.** The TIMING explains the inversion: the US surge was Friday's cash session (13:30–20:00Z), AFTER Seoul's Friday
-> 06:30Z close, so Monday is Korea's FIRST pricing of it — which is why Friday was KOSDAQ-led and today memory-led. So the
+> a broad AI rally.** The TIMING explains the inversion: the US surge was Friday's cash session, AFTER Seoul's Friday close, so
+> Monday was Korea's FIRST pricing of it — Friday KOSDAQ-led, Monday memory-led. So the
 > concentration is catalyst-faithful, not prima facie fragility; it bites only if Astra demand fades (US Tue 09-08). *Machinery that stands:* scores at the KOREAN jong-ga on a
-> clean foreign-flow read; the memory read is MINE, distinct from Scout's US names; Micron late-Sept the 2nd read. **Two *reverses*
-> sessions now, demand real and two-sided — but broadening still ABSENT; the WIDEN test remains the open question.**
+> clean foreign-flow read; the memory read is MINE, distinct from Scout's US names. **09-08 PAUSED — the red close gave back the
+> record, but NOT a demand break: memory held green, foreign + institutions accumulated it into the dip while retail sold —
+> consolidation, chip-concentration reasserted. Broadening still ABSENT (KOSDAQ lagged worse); WIDEN answered NO on the red close,
+> not the breadth gap. Durability test = US cash tonight; a 2nd red session with memory rolling over is the break.**
 
 **Oil-import channel.** Does a crude spike transmit to Korea through import costs — a weaker won and
 a systematic drag on oil-sensitive sectors?
@@ -179,12 +180,13 @@ the hot-NFP hawkish input did NOT materialise at the level that scores. The prio
 the run that has now reset. US SHUT today (Labor Day).
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**Korea (Mon 09-07 jong-ga, 06:30Z / 15:35 KST; Naver CLOSE two-sourced by the asiae close-wrap + an independent native pull):**
-KOSPI **6,995.39** / +4.61% (+308.18; path O 6,910.78 → H 6,995.40 → L 6,867.91 → C 6,995.39 — record close AT the high) ·
-KOSDAQ **822.19** / +1.07% (LAGGED — breadth narrowed) · Samsung **₩270,000** / +5.68% · SK Hynix **₩1,783,000** / +8.26% ·
-SK Square **₩1,125,000** / +8.07% · USD/KRW **~1,341.3** (−0.6%, firmed ~7–8, sub-±10 — NOT declared, dated row date-only, not the
-15:30 fixing). Flow (Naver /trend, DIRECTION-only): foreign **+25,533** / institutional **+26,327** / personal **−68,212** — foreign
-net-buying SURVIVED (gate 4 *reverses* again), institutions a hair ahead.
+**Korea (Tue 09-08 jong-ga, 06:30Z / 15:30 KST; Naver CLOSE two-sourced by the asiae close-wrap + an independent native pull):**
+KOSPI **6,954.52** / −0.58% (−40.87 — red close, gave back the record; *reverses* extension PAUSED) ·
+KOSDAQ **811.88** / −1.25% (LAGGED WORSE — breadth narrowed again) · Samsung **₩269,500** / −0.19% · SK Hynix **₩1,793,000** / +0.56% ·
+SK Square **₩1,131,000** / +0.53% (memory the ONLY green). USD/KRW: Monday's settled fixing **1,347.00** (corrected — prior ~1,341.3
+was an intraday tick); today live/offshore **~1,344.6**, still oscillating, sub-±10 — NOT declared.
+Flow (Naver /trend, DIRECTION-only): foreign **+6,449** / institutional **+6,496** / personal **−30,534** — foreign + institutions
+BOUGHT the down session (accumulating memory), retail sold the broad tape.
 **Japan (Fri 08-28 close):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + laggard buying, NOT chips — the control making Korea's chip de-rate idiosyncratic, not regional).
 **US (re-resolved to Scout's DECLARED blocks).** USTs (his 09-07-00Z, Friday 09-04 CMT settle): 2Y **4.37** (+3bp, INERT) / 5Y
 4.54 / 10Y 4.78 / 30Y **5.24** (−1bp) — the front end did NOT respond at the settle (scored INERT above). Equities (his 09-07-00Z,
