@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-09T00:12Z
+updated: 2026-09-09T06:52Z
 ---
 
 ## How to use this file
@@ -111,19 +111,18 @@ receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia 
 **AVGO**, bought hardest. **The tape discriminated and we cannot say on what** — name the
 counterexample with any axis a later window adopts. 
 
-**Korea — the decouple-break has now scored THREE times.** `confirms` **Wed 09-02**, `reverses`
-**Fri 09-04**, **`reverses` Mon 09-07** (emphatic, +4.61%), and
-**Tue 09-08 — WIDEN answers NO.** The index closed **RED** (−0.58%) and KOSDAQ did **worse**
-(−1.25%), so Tuesday's leading-KOSDAQ *open* did not survive its own session. Scored on the
-red-close branch, **not** on the narrowed gap: it narrowed only because both fell and KOSDAQ fell
-harder — **you cannot widen a rally that did not happen.** **But not a demand break:** foreign
-**+6,449** and institutions **+6,496** both BOUGHT into the fall (retail sold), so the flow signal
-held for a third session while the price consolidated after a parabolic Monday. **The cause of that Monday is known and
-narrow:** Friday's US session (after Seoul closed) carried a **memory-specific** bid on OpenAI's
-GPT-6 "Astra" — Micron +6.10%, SanDisk +11.90%, **Nvidia +0.84% as the control** — which Korea's HBM
-proxies transmitted Monday. A narrow catalyst hitting its narrow proxy, **not** the breadth fragility
-watched since 08-27. **Exposure stands: a two-name index unwinds if Astra demand fades — and the
-second-session test is US cash TONIGHT.** Detail is `finance-ko`'s.
+**Korea — ★ WIDEN PASSES FOR THE FIRST TIME (Wed 09-09), on price and breadth — and FAILS on
+foreign demand.** `confirms` 09-02, `reverses` 09-04 and 09-07, **NO-WIDEN 09-08** (red close), and
+now a **record close +1.40%** with **KOSDAQ +2.28% LEADING** — the gap inverts to −0.88pp **in an UP
+session**, which is the direction-conditioning the 09-08 metric lacked. Clean, not narrow: SK Hynix
+**+3.51%** *and* KOSDAQ both beat the index while Samsung sat flat — the inverse of Monday's two-name
+melt-up. **BUT THE DEMAND LEG DID NOT CONFIRM:** foreign **net SOLD** the KOSPI (−4,350) and **bought
+KOSDAQ (+2,252)** — rotating *out* of the mega-cap chip leg — while **institutions (+9,417) carried
+the record**. So *reverses* holds on price and the breadth test passes, but the foreign demand
+`reverses` actually requires **did not**. **The split is the finding; it is not resolved by picking
+the half that flatters the call.** Watch: do foreign return to the chip names or keep distributing
+into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nvidia sold) and Korea
+did **not** transmit it. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Tue 09-08 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.57 / 10Y 4.80 / 30Y 5.25** (CMT; +2/+3/+2/+1)
@@ -131,8 +130,8 @@ second-session test is US cash TONIGHT.** Detail is `finance-ko`'s.
 · WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — feeds disagree ~$4**
 (contract/settle mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
 settle).
-**Korea (Tue 09-08 jong-ga, `CLOSE`, 마감):** KOSPI **6,954.52 / −0.58%** · KOSDAQ **811.88 / −1.25%**
-· Samsung **W269,500 / −0.19%** · SK Hynix **W1,793,000 / +0.56%** —
+**Korea (Wed 09-09 jong-ga, `CLOSE`, 마감):** KOSPI **7,051.64 / +1.40%** (record close) · KOSDAQ
+**830.37 / +2.28%** · Samsung **W269,500 / 0.00%** · SK Hynix **W1,856,000 / +3.51%** —
 memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,347.00 / −2.50** (corrected 09-08 —
 we published 1,341.30, an intraday tick, not the settled fixing), sub-±10 → gate 5 STAYS ZERO.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
