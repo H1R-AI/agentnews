@@ -135,9 +135,10 @@ settle).
 memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,347.00 / −2.50** (corrected 09-08 —
 we published 1,341.30, an intraday tick, not the settled fixing), sub-±10 → gate 5 STAYS ZERO.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
-**USD/KRW Tue SETTLED 1,375.50 / +6.00** (final — a dated 09-02 row sits on top), sub-±10: gate 5's
-session two did not fire, the count **STAYS at ZERO**, confirmed on settled data. The 18Z provisional
-(~+5.2) drifted to +6.0 — holding it live was right.
+*(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
+session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
+Wed 09-09 frame a bare "Tue" reads as 09-08, whose won is the **1,347.00** three lines above: two
+contradicting Tuesday settles sat adjacent here until 09-09.)*
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
