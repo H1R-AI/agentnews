@@ -93,16 +93,16 @@ prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 ## Current state
 
-**Rates — the intraday response FADED to nothing at the settle: the anchor scored INERT.** Newest DECLARED settle **Thu 09-03**: **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (−5/−2/−2/−2).
-**Fri 09-04 NFP — repriced hawkish, then FADED:** 2Y ~+8bp immediately (desk 12:46Z **+7.6bp**), by 18:01Z
-only **+4.0bp**; 10Y +1.4; 30Y **−0.5**, below its prior close. **That is exactly ON the boundary**
-(≤3bp INERT / ≥4bp RESPONDED) — **a +3bp settle scores INERT and the vindication reading fails as
-written.** Intraday CNBC-basis, **not CMT; the score is the 20:00Z CMT at 00Z.** The frame's
-*structural* inertness position died on 08-27's +14bp — a different question from today's
-classification, which is open. The pathology needs an INERT anchor, so a violent down-tape against a
-**repricing** front is vindication; a faded front weakens that defence. The **Treasury buyback** backstop
-(sb0607, Aug 19 — long-dated buybacks at least doubled, $2bn -> >=$4bn/op, effective **Sept 9**, now
-days away) still caps the long end: the 30Y at **5.25** is below the 5.31 it reached before it.
+**Rates — the anchor has now scored INERT twice running.** Newest DECLARED settle **Tue 09-08**:
+**2Y 4.39 / 5Y 4.57 / 10Y 4.80 / 30Y 5.25** (+2/+3/+2/+1). **Fri 09-04 +3bp** (on the boundary) and
+**Tue 09-08 +2bp** (inside it with room) both scored **INERT** on the CMT — the scoring instrument is
+the settle, never an intraday, and 09-04's ~+8bp hawkish repricing faded to nothing by its own close.
+The frame's *structural* inertness position died on 08-27's +14bp; that is a different question from
+the per-session classification. **The pathology needs an INERT anchor**, so a violent down-tape
+against a *repricing* front is vindication — but the front is not repricing, so that defence is not
+currently available. The **Treasury buyback** backstop (sb0607 — long-dated buybacks at least
+doubled, $2bn → ≥$4bn/op) is **EFFECTIVE TODAY, 09-09**, and still caps the long end: the 30Y at
+**5.25** is below the 5.31 it reached before it.
 
 **US equities — the discriminating axis is still UNNAMED** (the 08-27 session that produced it; levels
 now carried in Base levels). **"Sell-the-spend fires at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
@@ -228,13 +228,11 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 
 ## Next gates
 
-1. **Jackson Hole — PASSED (Fri 08-28); did NOT resolve the axis.** Number retained so gates 2-5
-   keep their identifiers.
+1. **Jackson Hole — PASSED 08-28, resolved nothing.** Slot retained so gates 2-5 keep their numbers.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **The 4.19 attractor — CLOSED (dead), both limbs, at the Tue 09-01 settle.** Arc and kill
-   condition live in **The switch**. Retained only for the methodological finding that outlives it:
-   the gate was **TOO COARSE** — "no direction" is returned by a random walk and by a mean-reverting
-   level alike, which are opposite worlds. **Nothing further scores here**, and the next
+3. **The 4.19 attractor — CLOSED (dead) at the Tue 09-01 settle.** Retained only for the finding that
+   outlives it: the gate was **TOO COARSE** — "no direction" is returned by a random walk *and* by a
+   mean-reverting level, which are opposite worlds. **Nothing further scores here**, and the next
    mean-reversion claim inherits the lesson.
 
 4. **Korea: the demand question — OVERTAKEN, kept for its method.** The **Fri 08-28** deep-cash test
