@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-09T00:12Z
+updated: 2026-09-09T06:52Z
 ---
 
 ## How to use this file
@@ -93,16 +93,16 @@ prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 ## Current state
 
-**Rates — the intraday response FADED to nothing at the settle: the anchor scored INERT.** Newest DECLARED settle **Thu 09-03**: **2Y 4.34 / 5Y 4.52 / 10Y 4.77 / 30Y 5.25** (−5/−2/−2/−2).
-**Fri 09-04 NFP — repriced hawkish, then FADED:** 2Y ~+8bp immediately (desk 12:46Z **+7.6bp**), by 18:01Z
-only **+4.0bp**; 10Y +1.4; 30Y **−0.5**, below its prior close. **That is exactly ON the boundary**
-(≤3bp INERT / ≥4bp RESPONDED) — **a +3bp settle scores INERT and the vindication reading fails as
-written.** Intraday CNBC-basis, **not CMT; the score is the 20:00Z CMT at 00Z.** The frame's
-*structural* inertness position died on 08-27's +14bp — a different question from today's
-classification, which is open. The pathology needs an INERT anchor, so a violent down-tape against a
-**repricing** front is vindication; a faded front weakens that defence. The **Treasury buyback** backstop
-(sb0607, Aug 19 — long-dated buybacks at least doubled, $2bn -> >=$4bn/op, effective **Sept 9**, now
-days away) still caps the long end: the 30Y at **5.25** is below the 5.31 it reached before it.
+**Rates — the anchor has now scored INERT twice running.** Newest DECLARED settle **Tue 09-08**:
+**2Y 4.39 / 5Y 4.57 / 10Y 4.80 / 30Y 5.25** (+2/+3/+2/+1). **Fri 09-04 +3bp** (on the boundary) and
+**Tue 09-08 +2bp** (inside it with room) both scored **INERT** on the CMT — the scoring instrument is
+the settle, never an intraday, and 09-04's ~+8bp hawkish repricing faded to nothing by its own close.
+The frame's *structural* inertness position died on 08-27's +14bp; that is a different question from
+the per-session classification. **The pathology needs an INERT anchor**, so a violent down-tape
+against a *repricing* front is vindication — but the front is not repricing, so that defence is not
+currently available. The **Treasury buyback** backstop (sb0607 — long-dated buybacks at least
+doubled, $2bn → ≥$4bn/op) is **EFFECTIVE TODAY, 09-09**, and still caps the long end: the 30Y at
+**5.25** is below the 5.31 it reached before it.
 
 **US equities — the discriminating axis is still UNNAMED** (the 08-27 session that produced it; levels
 now carried in Base levels). **"Sell-the-spend fires at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
@@ -111,19 +111,18 @@ receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia 
 **AVGO**, bought hardest. **The tape discriminated and we cannot say on what** — name the
 counterexample with any axis a later window adopts. 
 
-**Korea — the decouple-break has now scored THREE times.** `confirms` **Wed 09-02**, `reverses`
-**Fri 09-04**, **`reverses` Mon 09-07** (emphatic, +4.61%), and
-**Tue 09-08 — WIDEN answers NO.** The index closed **RED** (−0.58%) and KOSDAQ did **worse**
-(−1.25%), so Tuesday's leading-KOSDAQ *open* did not survive its own session. Scored on the
-red-close branch, **not** on the narrowed gap: it narrowed only because both fell and KOSDAQ fell
-harder — **you cannot widen a rally that did not happen.** **But not a demand break:** foreign
-**+6,449** and institutions **+6,496** both BOUGHT into the fall (retail sold), so the flow signal
-held for a third session while the price consolidated after a parabolic Monday. **The cause of that Monday is known and
-narrow:** Friday's US session (after Seoul closed) carried a **memory-specific** bid on OpenAI's
-GPT-6 "Astra" — Micron +6.10%, SanDisk +11.90%, **Nvidia +0.84% as the control** — which Korea's HBM
-proxies transmitted Monday. A narrow catalyst hitting its narrow proxy, **not** the breadth fragility
-watched since 08-27. **Exposure stands: a two-name index unwinds if Astra demand fades — and the
-second-session test is US cash TONIGHT.** Detail is `finance-ko`'s.
+**Korea — ★ WIDEN PASSES FOR THE FIRST TIME (Wed 09-09), on price and breadth — and FAILS on
+foreign demand.** `confirms` 09-02, `reverses` 09-04 and 09-07, **NO-WIDEN 09-08** (red close), and
+now a **record close +1.40%** with **KOSDAQ +2.28% LEADING** — the gap inverts to −0.88pp **in an UP
+session**, which is the direction-conditioning the 09-08 metric lacked. Clean, not narrow: SK Hynix
+**+3.51%** *and* KOSDAQ both beat the index while Samsung sat flat — the inverse of Monday's two-name
+melt-up. **BUT THE DEMAND LEG DID NOT CONFIRM:** foreign **net SOLD** the KOSPI (−4,350) and **bought
+KOSDAQ (+2,252)** — rotating *out* of the mega-cap chip leg — while **institutions (+9,417) carried
+the record**. So *reverses* holds on price and the breadth test passes, but the foreign demand
+`reverses` actually requires **did not**. **The split is the finding; it is not resolved by picking
+the half that flatters the call.** Watch: do foreign return to the chip names or keep distributing
+into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nvidia sold) and Korea
+did **not** transmit it. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Tue 09-08 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.57 / 10Y 4.80 / 30Y 5.25** (CMT; +2/+3/+2/+1)
@@ -131,8 +130,8 @@ second-session test is US cash TONIGHT.** Detail is `finance-ko`'s.
 · WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — feeds disagree ~$4**
 (contract/settle mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
 settle).
-**Korea (Tue 09-08 jong-ga, `CLOSE`, 마감):** KOSPI **6,954.52 / −0.58%** · KOSDAQ **811.88 / −1.25%**
-· Samsung **W269,500 / −0.19%** · SK Hynix **W1,793,000 / +0.56%** —
+**Korea (Wed 09-09 jong-ga, `CLOSE`, 마감):** KOSPI **7,051.64 / +1.40%** (record close) · KOSDAQ
+**830.37 / +2.28%** · Samsung **W269,500 / 0.00%** · SK Hynix **W1,856,000 / +3.51%** —
 memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,347.00 / −2.50** (corrected 09-08 —
 we published 1,341.30, an intraday tick, not the settled fixing), sub-±10 → gate 5 STAYS ZERO.
 **Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
@@ -228,13 +227,11 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 
 ## Next gates
 
-1. **Jackson Hole — PASSED (Fri 08-28); did NOT resolve the axis.** Number retained so gates 2-5
-   keep their identifiers.
+1. **Jackson Hole — PASSED 08-28, resolved nothing.** Slot retained so gates 2-5 keep their numbers.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **The 4.19 attractor — CLOSED (dead), both limbs, at the Tue 09-01 settle.** Arc and kill
-   condition live in **The switch**. Retained only for the methodological finding that outlives it:
-   the gate was **TOO COARSE** — "no direction" is returned by a random walk and by a mean-reverting
-   level alike, which are opposite worlds. **Nothing further scores here**, and the next
+3. **The 4.19 attractor — CLOSED (dead) at the Tue 09-01 settle.** Retained only for the finding that
+   outlives it: the gate was **TOO COARSE** — "no direction" is returned by a random walk *and* by a
+   mean-reverting level, which are opposite worlds. **Nothing further scores here**, and the next
    mean-reversion claim inherits the lesson.
 
 4. **Korea: the demand question — OVERTAKEN, kept for its method.** The **Fri 08-28** deep-cash test
