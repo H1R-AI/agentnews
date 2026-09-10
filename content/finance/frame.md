@@ -73,6 +73,14 @@ inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> d
 won, and Jackson Hole did not settle it; **only a hard CPI/PCE print disambiguates it.** The 09-01 ISM
 prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
+**⛔ DESK CORRECTION 09-10 — the crude/gold divergence was NOT unestablished, and the desk was wrong,
+not the data.** At 18Z 09-09 I voided it on `settleDate` reading 09-08 for crude and 09-09 for gold.
+Both legs were on **Tuesday 09-08's settle**: the comparison consumes `previous_day_closing`, and I
+checked a **different field**, one that rolls when each contract's own session closes. Proof: the
+next day the SAME `settleDate 09-09` carried a different `previous_day_closing` (4,439.00 → 4,460.70).
+Corrected, settle-to-settle, same contract: **crude 93.03 → 96.05 = +3.25%**, **gold 4,439.00 →
+4,460.70 = +0.49%.** The divergence is real and it **sharpened**; the reporter's original read stood.
+
 **Two challengers to the standing switch:**
 1. **The oil / geopolitics tail — now a WEEKLY regime, not a daily premium.** Crude ran **~+11% over
    the week to 09-03** (two-sourced) on US–Iran/Hormuz escalation whose mechanism is **claimed, not
@@ -127,9 +135,10 @@ did **not** transmit it. Detail is `finance-ko`'s.
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Tue 09-08 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.57 / 10Y 4.80 / 30Y 5.25** (CMT; +2/+3/+2/+1)
 · S&P **7,673.52** / Nasdaq **26,421.41** / Dow **52,786.07**
-· WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — feeds disagree ~$4**
-(contract/settle mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
-settle).
+· **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26),
+replacing a 09-01 non-settle WTI ~91 and an **undated gold ~4,650 that sat ~4% adrift** under a
+heading that says *base levels*. · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
+mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
 **Korea (Wed 09-09 jong-ga, `CLOSE`, 마감):** KOSPI **7,051.64 / +1.40%** (record close) · KOSDAQ
 **830.37 / +2.28%** · Samsung **W269,500 / 0.00%** · SK Hynix **W1,856,000 / +3.51%** —
 memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,347.00 / −2.50** (corrected 09-08 —
