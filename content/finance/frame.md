@@ -121,9 +121,8 @@ did **not** transmit it. Detail is `finance-ko`'s.
 **US (Wed 09-09 close, 20:00Z — DECLARED by the reporter at 2026-09-10 00Z):** UST **2Y 4.43 / 5Y 4.61 /
 10Y 4.83 / 30Y 5.28** (CMT; +4/+4/+3/+3) · S&P **7,636.36** / Nasdaq **26,253.34** / Dow **52,380.66**
 (Nasdaq two-sourced to api.nasdaq.com to the cent; S&P and Dow single-sourced)
-· **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26),
-replacing a 09-01 non-settle WTI ~91 and an **undated gold ~4,650 that sat ~4% adrift** under a
-heading that says *base levels*. · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
+· **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26).
+· **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
 **Korea (Thu 09-10 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **7,033.92 / −0.25%**
 — the 09-09 record **7,051.64 did NOT extend**, base steps back · KOSDAQ **836.92 / +0.79%** ·
