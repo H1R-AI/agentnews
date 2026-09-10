@@ -129,7 +129,7 @@ mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**
 **830.37 / +2.28%** · Samsung **W269,500 / 0.00%** · SK Hynix **W1,856,000 / +3.51%** —
 memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,347.00 / −2.50** (corrected 09-08 —
 we published 1,341.30, an intraday tick, not the settled fixing), sub-±10 → gate 5 STAYS ZERO.
-**Nikkei 66,405.56** is Fri's — the 大引 is undeclared, so the base stays on the last DECLARED settle.
+**Nikkei 66,405.56** is **Fri 08-28's** (13 sessions back — a bare "Fri" here read as 09-04) — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 *(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
 session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
 Wed 09-09 frame a bare "Tue" reads as 09-08, whose won is the **1,347.00** three lines above: two
@@ -175,7 +175,7 @@ clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs 
 is built from. They read identically until 09-03 (every earlier fired antecedent carried an INERT
 anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Fri 09-04's reset.
 **SCORED Tue 09-08 (Mon 09-07 was Labor Day): UNTESTABLE — the anchor was INERT again and the index
-leg did NOT fire.** CMT **2Y 4.37 → 4.39 = +2bp**, inside the ≤3bp band with room (Friday's +3bp sat
+leg did NOT fire.** CMT **2Y 4.37 → 4.39 = +2bp**, inside the ≤3bp band with room (Fri 09-04's +3bp sat
 on the boundary; this does not). Max excursions **0.669 / 0.626 / 1.297%** (S&P/Nasdaq/Dow) vs the
 1.50% bar — the **Dow 0.203pp short**, its low 108.58 points above the line and **set before 18:00Z,
 never extending in the final two hours**, so 18Z's UNRESOLVED resolved to *not-fired* rather than to a
