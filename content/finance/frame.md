@@ -130,7 +130,12 @@ SK Hynix **W1,853,000 / −0.16%** · Samsung **W269,000 / −0.19%** — **chip
 **gate 4 flips to *confirms*** (foreign net SOLD a second session and sold **BOTH boards**, so not
 rotation; institutions absorbed both). **WIDEN is UNTESTABLE** — the spec fires only in an UP session
 and KOSPI closed down. **USD/KRW: NO fixing declared today** (live series non-converging ~1,338.3,
-sub-±10 → gate 5 STAYS ZERO). Last DECLARED fixing is **Mon 09-07's 1,347.00**.
+sub-±10 → gate 5 STAYS ZERO). ⚠️ **NO won fixing has EVER been declared** — verified by enumerating
+every key in every `settles:` block: finance-ko has only **KOSPI** (31 windows), no FX key under any
+name. So gate 5's ±10 has always been measured **live-against-live**, and the instrument its own rule
+names (a settled onshore 15:30 fixing) has never once been obtained. The 09-07 **1,347.00** was a
+live/offshore read, not a declaration — I called it "the last DECLARED fixing" yesterday, which was a
+correction carrying its own fresh error.
 **Nikkei 66,405.56** is **Fri 08-28's** (13 sessions back — a bare "Fri" here read as 09-04) — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 *(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
 session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
