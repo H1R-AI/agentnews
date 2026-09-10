@@ -23,38 +23,22 @@ before 2026-08-24.***
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
-**THE ARC IS 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19 -> 4.20 -> 4.34 -> 4.34 -> 4.39** (Fri 08-28 **+14bp**;
-Mon 08-31 **flat**; Tue 09-01 **+5bp**). **The "six of nine inside a 3bp band" reading is BROKEN** — it was true through
-08-27 and the +14bp ended it. Gate #3 finally got a real excursion in front of it, after three
-scores on prints too small to test it (RETRACE 08-25, NO DIRECTION 08-26, antecedent-did-not-fire
-08-27 at one quantisation unit). **The ATTRACTOR question is now CLOSED on its own pre-registered
-kill condition — "a move large enough that 4.19 stops being a plausible centre": +15bp, against an
-arc whose entire range was 7bp and whose largest prior wobble was 5bp.** The persistence limb
-(*past two more settles*) completes at tonight's CMT and is not needed — the limbs are disjunctive.
+**★ THE ATTRACTOR IS DEAD — both limbs, as of the Tue 09-01 settle**, and the question stays closed.
+The arc ran **4.19 ×4 → 4.24 ×2 → 4.17 → 4.19 → 4.20 → 4.34 ×2 → 4.39**; the kill condition was
+disjunctive and both limbs closed — magnitude on 08-28's **+14bp** (against an arc whose entire range
+was 7bp), persistence on three settles away moving *further out, not back*. **New data killed it, not
+a re-reading of the old**, and the earlier readings were right when made. **The switch stays
+VINDICATED: the anchor moves when pushed** — a claim that never depended on where the front sits.
 
-**★ THAT CAVEAT IS NOW INVERTED — and I carried it two settles too long.** It read "the anchor is
-live no longer follows from this section," written off Thursday's inert 1bp. **Friday pushed and the
-anchor answered +14bp**, which is the switch's own definition of responding. The caveat was right
-when written and wrong by Friday night; it survived because the settle that broke it was published
-in *prose* and never DECLARED in a `settles:` block, so neither C1's chain nor this narrative
-absorbed it. Scout tested this unprompted against the CMT XML primary (3.5b) and I had it stale.
+**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS** (08-25 declared the pinning
+invariant dead on **one settle**; the next printed 4.19). **A claim about a REGIME scored on a single
+observation** is the recurring error: a level is not abandoned because one settle left it, any more
+than it is established because four sat on it.
 
-**So 08-21's jump to 4.24 was a WOBBLE, and so was 08-25's drop to 4.17** — neither held more than
-two settles. **The switch stays VINDICATED: the anchor moves when pushed**, a claim that never
-depended on where the front sits.
-
-**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS** — 08-25 declared the pinning
-invariant DEAD on **one settle** and the next printed 4.19. **A claim about a REGIME scored on a single
-observation** is the recurring error: a level is not abandoned because one settle left it, any more than
-it is established because four sat on it.
-
-**★ THE ATTRACTOR IS DEAD — both limbs, as of the Tue 09-01 settle.** The kill condition was
-disjunctive: an excursion **persisting past two more settles**, *or* a move large enough that 4.19
-stops being a plausible centre. The magnitude limb closed on 08-28's **+14bp**; the persistence limb
-now agrees — **4.34 -> 4.34 -> 4.39**, three settles away, the third moving *further out, not back*.
-The earlier readings were right when made (4.24 x2 reverted *through* the level to 4.17; 4.17 reverted
-in one; 08-27 was genuinely UNADJUDICATED at 1bp off). **New data killed it, not a re-reading of the
-old.**
+**★ AND THE SETTLE THAT BROKE THE OLD CAVEAT WAS PUBLISHED IN PROSE, NEVER DECLARED** in a `settles:`
+block — so neither C1's chain nor this narrative absorbed it, and I carried an inverted caveat two
+settles too long. **A number that is not declared cannot be chained, and prose does not correct a
+frame.**
 
 **★ A STATUS LIVES IN AS MANY PLACES AS IT IS WRITTEN** (one gate once carried three mutually
 exclusive statuses across four published windows, because I updated the live paragraph and never
@@ -72,6 +56,14 @@ resolvable shape — authority and resolution are different properties. This is 
 inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> dovish. Neither has
 won, and Jackson Hole did not settle it; **only a hard CPI/PCE print disambiguates it.** The 09-01 ISM
 prices lean (71.1, sustained-hot) is a lean, not a resolution.
+
+**⛔ DESK CORRECTION 09-10 — the crude/gold divergence was NOT unestablished, and the desk was wrong,
+not the data.** At 18Z 09-09 I voided it on `settleDate` reading 09-08 for crude and 09-09 for gold.
+Both legs were on **Tuesday 09-08's settle**: the comparison consumes `previous_day_closing`, and I
+checked a **different field**, one that rolls when each contract's own session closes. Proof: the
+next day the SAME `settleDate 09-09` carried a different `previous_day_closing` (4,439.00 → 4,460.70).
+Corrected, settle-to-settle, same contract: **crude 93.03 → 96.05 = +3.25%**, **gold 4,439.00 →
+4,460.70 = +0.49%.** The divergence is real and it **sharpened**; the reporter's original read stood.
 
 **Two challengers to the standing switch:**
 1. **The oil / geopolitics tail — now a WEEKLY regime, not a daily premium.** Crude ran **~+11% over
@@ -93,16 +85,17 @@ prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
 ## Current state
 
-**Rates — the anchor has now scored INERT twice running.** Newest DECLARED settle **Tue 09-08**:
-**2Y 4.39 / 5Y 4.57 / 10Y 4.80 / 30Y 5.25** (+2/+3/+2/+1). **Fri 09-04 +3bp** (on the boundary) and
-**Tue 09-08 +2bp** (inside it with room) both scored **INERT** on the CMT — the scoring instrument is
-the settle, never an intraday, and 09-04's ~+8bp hawkish repricing faded to nothing by its own close.
-The frame's *structural* inertness position died on 08-27's +14bp; that is a different question from
-the per-session classification. **The pathology needs an INERT anchor**, so a violent down-tape
-against a *repricing* front is vindication — but the front is not repricing, so that defence is not
-currently available. The **Treasury buyback** backstop (sb0607 — long-dated buybacks at least
-doubled, $2bn → ≥$4bn/op) is **EFFECTIVE TODAY, 09-09**, and still caps the long end: the 30Y at
-**5.25** is below the 5.31 it reached before it.
+**Rates — ★ THE ANCHOR RESPONDED at the Wed 09-09 settle, ending the INERT run at two.** Newest
+DECLARED settle **Wed 09-09**: **2Y 4.43 / 5Y 4.61 / 10Y 4.83 / 30Y 5.28** (+4/+4/+3/+3). Under the
+**forward rule** (|Δ| ≤3bp INERT, ≥4bp RESPONDED, fixed 08-31 *before* any 3 or 4 had ever printed)
+**+4bp is RESPONDED** — no indeterminate cell, and the first response since 09-03. It ends the
+Fri 09-04 (+3bp) / Tue 09-08 (+2bp) inert pair. **The scoring instrument is the settle, never an
+intraday** — and this session is the case for that rule: the live 2Y read ~+1.7bp, *inert*, and the
+settle reversed it. **The pathology needs an INERT anchor**, so a violent down-tape against a
+*repricing* front is vindication — and with the front repricing again that defence **is** available,
+on one session. The **Treasury buyback** backstop (sb0607 — long-dated buybacks at least doubled,
+$2bn → ≥$4bn/op), **effective 09-09**, still caps the long end: the 30Y at **5.28** is below the
+5.31 it reached before it.
 
 **US equities — the discriminating axis is still UNNAMED** (the 08-27 session that produced it; levels
 now carried in Base levels). **"Sell-the-spend fires at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
@@ -115,7 +108,7 @@ counterexample with any axis a later window adopts.
 foreign demand.** `confirms` 09-02, `reverses` 09-04 and 09-07, **NO-WIDEN 09-08** (red close), and
 now a **record close +1.40%** with **KOSDAQ +2.28% LEADING** — the gap inverts to −0.88pp **in an UP
 session**, which is the direction-conditioning the 09-08 metric lacked. Clean, not narrow: SK Hynix
-**+3.51%** *and* KOSDAQ both beat the index while Samsung sat flat — the inverse of Monday's two-name
+**+3.51%** *and* KOSDAQ both beat the index while Samsung sat flat — the inverse of Mon 09-07's two-name
 melt-up. **BUT THE DEMAND LEG DID NOT CONFIRM:** foreign **net SOLD** the KOSPI (−4,350) and **bought
 KOSDAQ (+2,252)** — rotating *out* of the mega-cap chip leg — while **institutions (+9,417) carried
 the record**. So *reverses* holds on price and the breadth test passes, but the foreign demand
@@ -125,11 +118,13 @@ into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nv
 did **not** transmit it. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Tue 09-08 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.57 / 10Y 4.80 / 30Y 5.25** (CMT; +2/+3/+2/+1)
-· S&P **7,673.52** / Nasdaq **26,421.41** / Dow **52,786.07**
-· WTI **~91** (09-01, single-feed, non-settle) · **Brent UNRESOLVED — feeds disagree ~$4**
-(contract/settle mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25 · gold **~4,650** (futures print, not a
-settle).
+**US (Wed 09-09 close, 20:00Z — DECLARED by the reporter at 2026-09-10 00Z):** UST **2Y 4.43 / 5Y 4.61 /
+10Y 4.83 / 30Y 5.28** (CMT; +4/+4/+3/+3) · S&P **7,636.36** / Nasdaq **26,253.34** / Dow **52,380.66**
+(Nasdaq two-sourced to api.nasdaq.com to the cent; S&P and Dow single-sourced)
+· **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26),
+replacing a 09-01 non-settle WTI ~91 and an **undated gold ~4,650 that sat ~4% adrift** under a
+heading that says *base levels*. · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
+mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
 **Korea (Wed 09-09 jong-ga, `CLOSE`, 마감):** KOSPI **7,051.64 / +1.40%** (record close) · KOSDAQ
 **830.37 / +2.28%** · Samsung **W269,500 / 0.00%** · SK Hynix **W1,856,000 / +3.51%** —
 memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,347.00 / −2.50** (corrected 09-08 —
@@ -169,7 +164,7 @@ quietly dropped. **Four does-not-trips are not four confirmations, four untestab
 and one fired antecedent is not a trip.** The test is **LIVE**: two fired antecedents now (08-27,
 09-03), neither a trip.
 
-**SCORED Thu 09-03 00Z (this window): the antecedent FIRED and it DOES NOT TRIP.** Max intraday
+**SCORED Thu 09-03 00Z: the antecedent FIRED and it DOES NOT TRIP.** Max intraday
 excursions **S&P 1.18% / Nasdaq Composite 1.63% / Dow 1.29%** against the strict 1.50% bar — the
 **Nasdaq alone** clears it, as on 08-27. Second fired antecedent of the run. It does not trip for
 **two independent reasons**: 2+ consecutive sessions are required and this is one, **and** the 2Y
@@ -178,7 +173,7 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
 is built from. They read identically until 09-03 (every earlier fired antecedent carried an INERT
-anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Friday's reset.
+anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Fri 09-04's reset.
 **SCORED Tue 09-08 (Mon 09-07 was Labor Day): UNTESTABLE — the anchor was INERT again and the index
 leg did NOT fire.** CMT **2Y 4.37 → 4.39 = +2bp**, inside the ≤3bp band with room (Friday's +3bp sat
 on the boundary; this does not). Max excursions **0.669 / 0.626 / 1.297%** (S&P/Nasdaq/Dow) vs the
