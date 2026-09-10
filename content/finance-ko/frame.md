@@ -70,7 +70,7 @@ dollar (**DXY**) is **flat — STRICT: |Δ| < 0.3%, so exactly 0.30% is NOT flat
 falsifier's 2Y/index sweeps). Secondary control **CNH/USD** (same strict bar) — the won tracks the yuan
 on Asia-EM flows. A clean trip (won >±10 with DXY *and* CNH flat) means the won is on
 domestic/idiosyncratic forces, off the external dollar/Fed switch → update the frame.
-> **Status: NOT SCORED — and the deeper problem, established 09-10, is that the INSTRUMENT IS NOT PINNED, not that nothing happened.** The test names the onshore **15:30 fixing**, and that fixing has NEVER been obtained here — no won has ever been declared in a settles block. The candidate series measure DIFFERENT quantities and DISAGREE by about the gate's own ±10 band: the Naver dated row (09-09 1,341.00), the **BOK base rate** (ECOS 731Y001, a central-bank rate that runs +8–10 above the Naver dated row on 09-04/09-07), and bank posting rates (Hana ~1,343.8 on the 09-10 evening tape). So every past sub-±10 read was made on an UNPINNED basis; the honest status is INSTRUMENT NOT PINNED, distinct from measured-zero. Adopting one candidate (e.g. the BOK rate) does not *pin* the fixing — it CHANGES what the gate measures, a forward-dated spec rewrite (Next gates #4). No number moves (nothing was declared); the status word does. *Desk-aligned 09-10-12Z — Scout tested obtainability, both frames reframed together.*
+> **Status: NOT SCORED — and the deeper problem, established 09-10, is that the INSTRUMENT IS NOT PINNED, not that nothing happened.** The test names the onshore **15:30 fixing**, and that fixing has NEVER been obtained here — no won has ever been declared in a settles block. The candidate series measure DIFFERENT quantities and DISAGREE by about the gate's own ±10 band: the Naver dated row (09-09 1,341.00), the **BOK base rate** (ECOS 731Y001, a central-bank rate I verified at primary — ecos.bok: it ran +10 above the Naver dated row on 09-04 but the gap is NOT fixed, narrowing to near-zero and inverting to −3 by 09-10), and bank posting rates (Hana ~1,343.8 on the 09-10 evening tape). So every past sub-±10 read was made on an UNPINNED basis; the honest status is INSTRUMENT NOT PINNED, distinct from measured-zero. Adopting one candidate (e.g. the BOK rate) does not *pin* the fixing — it CHANGES what the gate measures, a forward-dated spec rewrite (Next gates #4). No number moves (nothing was declared); the status word does. *Desk-aligned 09-10-12Z — Scout tested obtainability, both frames reframed together.*
 >
 > **★ Methods that stand (date-by-date run history archived).** Same-clock rule: pair the KOSPI 15:30 close with the won's 15:30 fixing, never a 24h FX print. Re-establish DXY *and* CNH flat (strict |Δ|<0.3%) AT the settle, never carried. A fired antecedent whose count expires for want of a consecutive partner is UNTESTABLE (pre-stated branch b), NOT a does-not-trip (four-state logic). The run has stood at ZERO since the 08-31→09-01 test (session one settled Mon 1,369.50/−11.50 but Tuesday's +6.00 was sub-±10, leaving no partner); 09-02/03 stayed idiosyncratic-to-firming, sub-±10, on non-settle reads — not declared.
 
@@ -151,10 +151,12 @@ DOW 52,380.66 (mildly red — index leg did NOT fire, max Nasdaq 0.90% vs ±1.50
    throughout. Broad re-entry would be the first thing since the crash that is not a capital-return
    trade.
 4. **The WON — INSTRUMENT NOT PINNED (not merely zero).** Candidate series exist but measure DIFFERENT quantities and disagree
-   by ~±10 (the BOK base rate runs +8–10 above the Naver dated row), and NONE is established as the onshore **15:30 fixing** the
-   test names — so pinning is not a source choice among competing reads of one number; adopting one CHANGES what the gate measures
-   = a forward-dated spec rewrite. **NEXT (mine):** verify the BOK ECOS base rate at primary myself (endpoint + what TIME it is
-   struck), then decide between rewriting the instrument to it or sourcing a true 15:30 fixing. Until pinned, no won move scores;
+   by up to the full ±10 band on some sessions (BOK-vs-Naver-dated ran +10 on 09-04, near-zero and inverted by 09-10 — my primary
+   pull), and NONE is established as the onshore **15:30 fixing** the test names — so pinning is not a source choice among competing
+   reads of one number; adopting one CHANGES what the gate measures = a forward-dated spec rewrite. **NEXT (mine):** numbers now
+   verified at primary (ecos.bok, item 0000001); what remains is the STRIKE TIME — daily rows carry no intraday time, so same-day
+   fixing vs next-morning prior-day average is undetermined — then decide between rewriting the instrument to it or a true 15:30
+   fixing. Until pinned, no won move scores;
    a fresh >±10 sequence also needs DXY *and* CNH strictly flat AT the settle (controls re-checked, not carried).
 5. **The DEMAND question — GATE 4 SCORED *REVERSES* TWICE (09-04 a DENT, 09-07 EXTENDS emphatically); it HELD but did NOT WIDEN.**
    The 09-07 jong-ga settled +4.61% on foreign net-buying that SURVIVED — but KOSDAQ +1.07% LAGGED, so breadth NARROWED and the
