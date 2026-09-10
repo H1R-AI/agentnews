@@ -120,7 +120,7 @@ did **not** transmit it. Detail is `finance-ko`'s.
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Wed 09-09 close, 20:00Z — DECLARED by the reporter at 2026-09-10 00Z):** UST **2Y 4.43 / 5Y 4.61 /
 10Y 4.83 / 30Y 5.28** (CMT; +4/+4/+3/+3) · S&P **7,636.36** / Nasdaq **26,253.34** / Dow **52,380.66**
-(all three two-sourced to the cent — Nasdaq via api.nasdaq.com, all three via Yahoo `^GSPC/^DJI/^IXIC`)
+(all three two-sourced to the cent, Yahoo + api.nasdaq.com)
 · **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26).
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
