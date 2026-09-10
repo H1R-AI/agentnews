@@ -130,14 +130,16 @@ SK Hynix **W1,853,000 / −0.16%** · Samsung **W269,000 / −0.19%** — **chip
 **gate 4 flips to *confirms*** (foreign net SOLD a second session and sold **BOTH boards**, so not
 rotation; institutions absorbed both). **WIDEN is UNTESTABLE** — the spec fires only in an UP session
 and KOSPI closed down. **USD/KRW: NO fixing declared today** (live series non-converging ~1,338.3,
-sub-±10 → gate 5 STAYS ZERO). Last DECLARED fixing is **Mon 09-07's 1,347.00**.
-**Nikkei 66,405.56** is **Fri 08-28's** (13 sessions back — a bare "Fri" here read as 09-04) — the 大引 is undeclared, so the base stays on the last DECLARED settle.
+sub-±10 → gate 5 STAYS ZERO). ⚠️ **NO won fixing has EVER been declared** — every `settles:` key
+enumerated: finance-ko carries only **KOSPI** (×31). So gate 5's ±10 has always been **live-vs-live**
+and the settled 15:30 fixing its rule names has never been obtained. 09-07's **1,347.00** was a live
+read, not a declaration.
+**Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 *(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
 session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
-a bare weekday here rots. ⚠️ AND THIS NOTE CARRIED ITS OWN WRONG DATE: it called the 1,347.00
-fixing 09-08's. It is **Mon 09-07's** (finance-ko's frame, corroborated — that note records US-shut,
-and 09-07 was Labor Day). **A correction that embeds a fresh wrong date is worse than the defect it
-fixes**, because it reads as already-audited.)*
+a bare weekday rots. ⚠️ This note twice carried its OWN error — first dating 1,347.00 to 09-08
+(it is **Mon 09-07's**), then calling it *declared* when nothing ever was. **A correction inherits
+the halo of having been audited, so it gets LESS scrutiny than the text it replaces.**)*
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
