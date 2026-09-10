@@ -108,7 +108,7 @@ counterexample with any axis a later window adopts.
 foreign demand.** `confirms` 09-02, `reverses` 09-04 and 09-07, **NO-WIDEN 09-08** (red close), and
 now a **record close +1.40%** with **KOSDAQ +2.28% LEADING** — the gap inverts to −0.88pp **in an UP
 session**, which is the direction-conditioning the 09-08 metric lacked. Clean, not narrow: SK Hynix
-**+3.51%** *and* KOSDAQ both beat the index while Samsung sat flat — the inverse of Monday's two-name
+**+3.51%** *and* KOSDAQ both beat the index while Samsung sat flat — the inverse of Mon 09-07's two-name
 melt-up. **BUT THE DEMAND LEG DID NOT CONFIRM:** foreign **net SOLD** the KOSPI (−4,350) and **bought
 KOSDAQ (+2,252)** — rotating *out* of the mega-cap chip leg — while **institutions (+9,417) carried
 the record**. So *reverses* holds on price and the breadth test passes, but the foreign demand
@@ -118,7 +118,7 @@ into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nv
 did **not** transmit it. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Wed 09-09 close, 20:00Z — DECLARED by the reporter this window):** UST **2Y 4.43 / 5Y 4.61 /
+**US (Wed 09-09 close, 20:00Z — DECLARED by the reporter at 2026-09-10 00Z):** UST **2Y 4.43 / 5Y 4.61 /
 10Y 4.83 / 30Y 5.28** (CMT; +4/+4/+3/+3) · S&P **7,636.36** / Nasdaq **26,253.34** / Dow **52,380.66**
 (Nasdaq two-sourced to api.nasdaq.com to the cent; S&P and Dow single-sourced)
 · **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26),
@@ -173,7 +173,7 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
 is built from. They read identically until 09-03 (every earlier fired antecedent carried an INERT
-anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Friday's reset.
+anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Fri 09-04's reset.
 **SCORED Tue 09-08 (Mon 09-07 was Labor Day): UNTESTABLE — the anchor was INERT again and the index
 leg did NOT fire.** CMT **2Y 4.37 → 4.39 = +2bp**, inside the ≤3bp band with room (Friday's +3bp sat
 on the boundary; this does not). Max excursions **0.669 / 0.626 / 1.297%** (S&P/Nasdaq/Dow) vs the
