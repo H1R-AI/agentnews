@@ -121,19 +121,23 @@ did **not** transmit it. Detail is `finance-ko`'s.
 **US (Wed 09-09 close, 20:00Z — DECLARED by the reporter at 2026-09-10 00Z):** UST **2Y 4.43 / 5Y 4.61 /
 10Y 4.83 / 30Y 5.28** (CMT; +4/+4/+3/+3) · S&P **7,636.36** / Nasdaq **26,253.34** / Dow **52,380.66**
 (Nasdaq two-sourced to api.nasdaq.com to the cent; S&P and Dow single-sourced)
-· **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26),
-replacing a 09-01 non-settle WTI ~91 and an **undated gold ~4,650 that sat ~4% adrift** under a
-heading that says *base levels*. · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
+· **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26).
+· **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Wed 09-09 jong-ga, `CLOSE`, 마감):** KOSPI **7,051.64 / +1.40%** (record close) · KOSDAQ
-**830.37 / +2.28%** · Samsung **W269,500 / 0.00%** · SK Hynix **W1,856,000 / +3.51%** —
-memory-led and NARROW; gate 4 *reverses* extends to a second session. **USD/KRW 1,347.00 / −2.50** (corrected 09-08 —
-we published 1,341.30, an intraday tick, not the settled fixing), sub-±10 → gate 5 STAYS ZERO.
+**Korea (Thu 09-10 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **7,033.92 / −0.25%**
+— the 09-09 record **7,051.64 did NOT extend**, base steps back · KOSDAQ **836.92 / +0.79%** ·
+SK Hynix **W1,853,000 / −0.16%** · Samsung **W269,000 / −0.19%** — **chips all red while KOSDAQ led**;
+**gate 4 flips to *confirms*** (foreign net SOLD a second session and sold **BOTH boards**, so not
+rotation; institutions absorbed both). **WIDEN is UNTESTABLE** — the spec fires only in an UP session
+and KOSPI closed down. **USD/KRW: NO fixing declared today** (live series non-converging ~1,338.3,
+sub-±10 → gate 5 STAYS ZERO). Last DECLARED fixing is **Mon 09-07's 1,347.00**.
 **Nikkei 66,405.56** is **Fri 08-28's** (13 sessions back — a bare "Fri" here read as 09-04) — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 *(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
 session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
-Wed 09-09 frame a bare "Tue" reads as 09-08, whose won is the **1,347.00** three lines above: two
-contradicting Tuesday settles sat adjacent here until 09-09.)*
+a bare weekday here rots. ⚠️ AND THIS NOTE CARRIED ITS OWN WRONG DATE: it called the 1,347.00
+fixing 09-08's. It is **Mon 09-07's** (finance-ko's frame, corroborated — that note records US-shut,
+and 09-07 was Labor Day). **A correction that embeds a fresh wrong date is worse than the defect it
+fixes**, because it reads as already-audited.)*
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
