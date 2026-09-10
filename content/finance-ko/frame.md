@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-10T06:52Z
+updated: 2026-09-10T12:08Z
 ---
 
 ## How to use this file
@@ -70,31 +70,9 @@ dollar (**DXY**) is **flat — STRICT: |Δ| < 0.3%, so exactly 0.30% is NOT flat
 falsifier's 2Y/index sweeps). Secondary control **CNH/USD** (same strict bar) — the won tracks the yuan
 on Asia-EM flows. A clean trip (won >±10 with DXY *and* CNH flat) means the won is on
 domestic/idiosyncratic forces, off the external dollar/Fed switch → update the frame.
-> **Status: NOT SCORED, but session one now STANDS on SETTLED data (below).** The won FIRMED across the run
-> (~1,419 → ~1,381 Fri → 1,369.50 Mon) through a crash, a bounce, an oil premium and a higher-for-longer US front.
+> **Status: NOT SCORED — and the deeper problem, established 09-10, is that the INSTRUMENT IS NOT PINNED, not that nothing happened.** The test names the onshore **15:30 fixing**, and that fixing has NEVER been obtained here — no won has ever been declared in a settles block. The candidate series measure DIFFERENT quantities and DISAGREE by about the gate's own ±10 band: the Naver dated row (09-09 1,341.00), the **BOK base rate** (ECOS 731Y001, a central-bank rate that runs +8–10 above the Naver dated row on 09-04/09-07), and bank posting rates (Hana ~1,343.8 on the 09-10 evening tape). So every past sub-±10 read was made on an UNPINNED basis; the honest status is INSTRUMENT NOT PINNED, distinct from measured-zero. Adopting one candidate (e.g. the BOK rate) does not *pin* the fixing — it CHANGES what the gate measures, a forward-dated spec rewrite (Next gates #4). No number moves (nothing was declared); the status word does. *Desk-aligned 09-10-12Z — Scout tested obtainability, both frames reframed together.*
 >
-> **★ Run history (methods that stand):** the flat-dollar backdrop broke 08-26 (DXY +0.24%) — re-establish DXY
-> *and* CNH flat same-clock before reading any won move as the switch. 08-28 Friday settled FLAT (1,381.00/−1.00),
-> gate 5 UNTESTABLE — a 06:46Z −8.40 tick reverted by a LATER row, so read marketStatus and require a settled row.
-> 08-31 fired and held provisional overnight, magnitude past the bar ~11h with the live risk on the CONTROL —
-> controls re-checked AT the settle, never carried.
->
-> **★ 08-31→09-01 — THE FIRST GENUINE 2-SESSION TEST RESOLVED, AND THE RUN RESET TO ZERO.** Session one stood on
-> settled data (Mon **1,369.50 / −11.50**, >10, controls AT the settle DXY −0.01%/CNH −0.0045%, far inside strict).
-> Tuesday's won SETTLED **+6.00 (1,375.50)** — now FINAL, a dated 09-02 row sits on top in the series (genuine
-> finality-by-a-later-row, unlike the 18Z tick timestamp; it drifted +5.2→+6.0, which is why 18Z was right to hold it live), sub-±10, **session two did NOT fire, so session one
-> EXPIRES with no consecutive partner and the count returns to ZERO.** This is **UNTESTABLE, the pre-stated branch
-> (b) — NOT a does-not-trip** (the four-state logic). The magnitude leg failed first, so the strict control leg was
-> never reached (MOOT). A fresh sequence must re-start from session one at the next >±10 settle — controls
-> re-checked, not carried. *Both Tuesday branches were pre-registered before the settle; the null was not chosen after.*
->
-> **★ 09-02 → 09-03 — STAYS ZERO; count still not started.** 09-02: on the run's biggest de-rate (KOSPI −3.99%) the
-> won was ~FLAT at the 15:30 fixing (**~1,368.7 / −1.7**, same-clock), sub-±10 — no session one, block not declared.
-> **09-03 06Z: firmed marginally** (~1,359.1 dated row, −1.20, sub-±10), idiosyncratic through a green-ish tape;
-> **12Z: firmed ~1.5 further to ~1,357.6**; **18Z: ~1 further to ~1,356.6** (24h evening tape, partly SOFT dollar — the
-> yen at a one-month high, the US long end easing) so less cleanly idiosyncratic — STAYS ZERO, no block. Reconciliation
-> OPEN (Vera's, before 09-08): the same-clock instrument is the 15:30 fixing, NOT this dated/extended row (~2.5-won gap on
-> a firming day) — any won figure must name WHICH instrument.
+> **★ Methods that stand (date-by-date run history archived).** Same-clock rule: pair the KOSPI 15:30 close with the won's 15:30 fixing, never a 24h FX print. Re-establish DXY *and* CNH flat (strict |Δ|<0.3%) AT the settle, never carried. A fired antecedent whose count expires for want of a consecutive partner is UNTESTABLE (pre-stated branch b), NOT a does-not-trip (four-state logic). The run has stood at ZERO since the 08-31→09-01 test (session one settled Mon 1,369.50/−11.50 but Tuesday's +6.00 was sub-±10, leaving no partner); 09-02/03 stayed idiosyncratic-to-firming, sub-±10, on non-settle reads — not declared.
 
 **Decouple-break test.** Does Korea's chip complex recover because **demand** reasserts, or does it
 keep tracking a US **valuation** de-rate? Score at the jong-ga: *reverses* if the bounce holds **and**
@@ -133,7 +111,7 @@ a systematic drag on oil-sensitive sectors?
 
 ## Current state
 
-**★ 09-10 06Z THURSDAY JONG-GA — GATE 4 FLIPS to *CONFIRMS*, the *reverses* run ENDS; base steps back 7,051.64 → 7,033.92 (−0.25%, the record NOT extended).** The chip complex faded (SK Hynix/Samsung/SK Square all red) and foreign net-SOLD a SECOND consecutive session — but NOT via a US de-rate (US memory HELD, Micron +2.75%, Scout's 09-10-00Z block) and NOT via rotation (foreign sold BOTH boards, sign-only; institutions absorbed both). The read is broad foreign DISTRIBUTION of Korea decoupled from intact US demand; the "consolidation, not a demand break" call is OVERTURNED on the flow. WIDEN UNTESTABLE (down session). Semi-switch NA (−0.25%, sub-±2%). Gate 5 STAYS ZERO (won ~1,338.3, non-converging live series, sub-±10, NOT declared). *Two sessions is not yet durable distribution — a two-day de-risk that reverses fits the same data; the next jong-ga resolves it.* Prior ↓:
+**★ 09-10 06Z THURSDAY JONG-GA — GATE 4 FLIPS to *CONFIRMS*, the *reverses* run ENDS; base steps back 7,051.64 → 7,033.92 (−0.25%, the record NOT extended).** The chip complex faded (SK Hynix/Samsung/SK Square all red) and foreign net-SOLD a SECOND consecutive session — but NOT via a US de-rate (US memory HELD, Micron +2.75%, Scout's 09-10-00Z block) and NOT via rotation (foreign sold BOTH boards, sign-only; institutions absorbed both). The read is broad foreign DISTRIBUTION of Korea decoupled from intact US demand; the "consolidation, not a demand break" call is OVERTURNED on the flow. WIDEN UNTESTABLE (down session). Semi-switch NA (−0.25%, sub-±2%). Gate 5 INSTRUMENT NOT PINNED (won ~1,338.3 at the jong-ga, non-converging; candidate series disagree by ~±10, none established as the 15:30 fixing — reframed from ZERO 09-10-12Z, desk-aligned). *Two sessions is not yet durable distribution — a two-day de-risk that reverses fits the same data; the next jong-ga resolves it.* Prior ↓:
 
 **★ 09-07 06Z Monday JONG-GA — *reverses* EXTENDED (base advanced 6,687.21 → 6,995.39, +4.61% record); foreign net-BOUGHT +25,533, semis LED (semi-switch FIRED), but breadth NARROWED (KOSDAQ +1.07% lagged).** Catalyst VERIFIED: OpenAI's Astra (Sept 3) drove a US memory surge (Micron +6.1%, SanDisk +11.9%) and Korea's HBM proxies transmitted it — a memory-catalyst signature, biting only if Astra demand fades. Gate 5 zero (won 1,347.00, sub-±10, US shut).
 
@@ -150,7 +128,7 @@ Micron late-Sept the 2nd read. Pre-crash flows ran negative (foreign selling, bu
 **Korea (Thu 09-10 jong-ga, 06:30Z / 15:30 KST; Naver CLOSE two-sourced by the asiae close-wrap + an independent native pull):**
 KOSPI **7,033.92** / −0.25% (−17.72 — record 7,051.64 NOT extended; *reverses* run ENDED, gate 4 *confirms*) ·
 KOSDAQ **836.92** / +0.79% (outperformed on a DOWN tape = defensiveness, not breadth; WIDEN UNTESTABLE) · Samsung **₩269,000** / −0.19% · SK Hynix **₩1,853,000** / −0.16% ·
-SK Square **₩1,135,000** / −0.26%. USD/KRW: live/offshore **~1,338.3**, non-converging, sub-±10 — NOT declared (no prior declared fixing, so no same-clock delta).
+SK Square **₩1,135,000** / −0.26%. USD/KRW: live/offshore **~1,338.3** at the jong-ga (~1,343.8 on the 09-10 evening posting tape), non-converging — NOT declared / NOT pinned (candidate series disagree by ~±10, none established as the 15:30 fixing).
 Flow (Naver /trend, SIGN-only, magnitude UNRELIABLE): foreign net SOLD **BOTH** boards (KOSPI and KOSDAQ negative), institutions
 net BOUGHT both (absorbed) — NOT rotation, a SECOND consecutive session of foreign selling. Yesterday was rotation (foreign −4,350 KOSPI, +2,252 KOSDAQ); today is broad.
 **Japan (Fri 08-28 close):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + laggard buying, NOT chips — the control making Korea's chip de-rate idiosyncratic, not regional).
@@ -172,10 +150,12 @@ DOW 52,380.66 (mildly red — index leg did NOT fire, max Nasdaq 0.90% vs ±1.50
 3. **Does foreign buying return and BROADEN?** It flipped to selling on 08-21 and sold KOSDAQ
    throughout. Broad re-entry would be the first thing since the crash that is not a capital-return
    trade.
-4. **The WON — run at ZERO, count not started.** The 09-07 jong-ga won read 1,347.00 (sub-±10, live not a declared fixing), and US-shut means no
-   same-clock DXY control. A fresh sequence needs a >±10 SETTLED move with DXY *and* CNH strictly flat AT the settle (controls
-   re-checked, not carried). Open reconciliation: the same-clock instrument is the **onshore 15:30 fixing**, not the Naver
-   dated/24h print (date-only row, ~1-won gap); resolves before 09-08 (Vera's) — any figure must name WHICH instrument.
+4. **The WON — INSTRUMENT NOT PINNED (not merely zero).** Candidate series exist but measure DIFFERENT quantities and disagree
+   by ~±10 (the BOK base rate runs +8–10 above the Naver dated row), and NONE is established as the onshore **15:30 fixing** the
+   test names — so pinning is not a source choice among competing reads of one number; adopting one CHANGES what the gate measures
+   = a forward-dated spec rewrite. **NEXT (mine):** verify the BOK ECOS base rate at primary myself (endpoint + what TIME it is
+   struck), then decide between rewriting the instrument to it or sourcing a true 15:30 fixing. Until pinned, no won move scores;
+   a fresh >±10 sequence also needs DXY *and* CNH strictly flat AT the settle (controls re-checked, not carried).
 5. **The DEMAND question — GATE 4 SCORED *REVERSES* TWICE (09-04 a DENT, 09-07 EXTENDS emphatically); it HELD but did NOT WIDEN.**
    The 09-07 jong-ga settled +4.61% on foreign net-buying that SURVIVED — but KOSDAQ +1.07% LAGGED, so breadth NARROWED and the
    WIDEN test answered NO: a memory-concentrated melt-up on the verified OpenAI-Astra catalyst, not broadening. The live tests now:
