@@ -137,10 +137,9 @@ read, not a declaration.
 **Nikkei 66,405.56** is **Fri 08-28's** (13 sessions back — a bare "Fri" here read as 09-04) — the 大引 is undeclared, so the base stays on the last DECLARED settle.
 *(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
 session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
-a bare weekday here rots. ⚠️ AND THIS NOTE CARRIED ITS OWN WRONG DATE: it called the 1,347.00
-fixing 09-08's. It is **Mon 09-07's** (finance-ko's frame, corroborated — that note records US-shut,
-and 09-07 was Labor Day). **A correction that embeds a fresh wrong date is worse than the defect it
-fixes**, because it reads as already-audited.)*
+a bare weekday rots. ⚠️ This note twice carried its OWN error — first dating 1,347.00 to 09-08
+(it is **Mon 09-07's**), then calling it *declared* when nothing ever was. **A correction inherits
+the halo of having been audited, so it gets LESS scrutiny than the text it replaces.**)*
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
