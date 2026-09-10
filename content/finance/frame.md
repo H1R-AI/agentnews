@@ -23,12 +23,9 @@ before 2026-08-24.***
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
-**★ THE ATTRACTOR IS DEAD — both limbs, as of the Tue 09-01 settle**, and the question stays closed.
-The arc ran **4.19 ×4 → 4.24 ×2 → 4.17 → 4.19 → 4.20 → 4.34 ×2 → 4.39**; the kill condition was
-disjunctive and both limbs closed — magnitude on 08-28's **+14bp** (against an arc whose entire range
-was 7bp), persistence on three settles away moving *further out, not back*. **New data killed it, not
-a re-reading of the old**, and the earlier readings were right when made. **The switch stays
-VINDICATED: the anchor moves when pushed** — a claim that never depended on where the front sits.
+**★ THE ATTRACTOR IS DEAD — both limbs, Tue 09-01; closed, and closed by NEW DATA rather than a
+re-reading of the old.** **The switch stays VINDICATED: the anchor moves when pushed** — a claim that
+never depended on where the front sits.
 
 **★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS** (08-25 declared the pinning
 invariant dead on **one settle**; the next printed 4.19). **A claim about a REGIME scored on a single
@@ -130,10 +127,12 @@ SK Hynix **W1,853,000 / −0.16%** · Samsung **W269,000 / −0.19%** — **chip
 **gate 4 flips to *confirms*** (foreign net SOLD a second session and sold **BOTH boards**, so not
 rotation; institutions absorbed both). **WIDEN is UNTESTABLE** — the spec fires only in an UP session
 and KOSPI closed down. **USD/KRW: NO fixing declared today** (live series non-converging ~1,338.3,
-sub-±10 → gate 5 STAYS ZERO). ⚠️ **NO won fixing has EVER been declared** — every `settles:` key
-enumerated: finance-ko carries only **KOSPI** (×31). So gate 5's ±10 has always been **live-vs-live**
-and the settled 15:30 fixing its rule names has never been obtained. 09-07's **1,347.00** was a live
-read, not a declaration.
+sub-±10 → gate 5 STAYS ZERO). ⚠️ **Gate 5: INSTRUMENT NOT PINNED** (finance-ko's word, adopted). Every
+`settles:` key enumerated — finance-ko carries only **KOSPI** (×31), so no won fixing was ever
+declared and the ±10 has always been **live-vs-live**. Candidate series DO exist (BOK ECOS `731Y001`;
+Naver dated) — simply not established as the 15:30 onshore fixing, and they disagree by **8.2–10.0
+won against a ±10 bar**, so the source choice dominates the reading. Not *unobtainable*: **not
+pinned.** 09-07's **1,347.00** was a live read.
 **Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 *(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
 session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
