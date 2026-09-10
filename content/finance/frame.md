@@ -85,16 +85,17 @@ Corrected, settle-to-settle, same contract: **crude 93.03 → 96.05 = +3.25%**, 
 
 ## Current state
 
-**Rates — the anchor has now scored INERT twice running.** Newest DECLARED settle **Tue 09-08**:
-**2Y 4.39 / 5Y 4.57 / 10Y 4.80 / 30Y 5.25** (+2/+3/+2/+1). **Fri 09-04 +3bp** (on the boundary) and
-**Tue 09-08 +2bp** (inside it with room) both scored **INERT** on the CMT — the scoring instrument is
-the settle, never an intraday, and 09-04's ~+8bp hawkish repricing faded to nothing by its own close.
-The frame's *structural* inertness position died on 08-27's +14bp; that is a different question from
-the per-session classification. **The pathology needs an INERT anchor**, so a violent down-tape
-against a *repricing* front is vindication — but the front is not repricing, so that defence is not
-currently available. The **Treasury buyback** backstop (sb0607 — long-dated buybacks at least
-doubled, $2bn → ≥$4bn/op) is **EFFECTIVE TODAY, 09-09**, and still caps the long end: the 30Y at
-**5.25** is below the 5.31 it reached before it.
+**Rates — ★ THE ANCHOR RESPONDED at the Wed 09-09 settle, ending the INERT run at two.** Newest
+DECLARED settle **Wed 09-09**: **2Y 4.43 / 5Y 4.61 / 10Y 4.83 / 30Y 5.28** (+4/+4/+3/+3). Under the
+**forward rule** (|Δ| ≤3bp INERT, ≥4bp RESPONDED, fixed 08-31 *before* any 3 or 4 had ever printed)
+**+4bp is RESPONDED** — no indeterminate cell, and the first response since 09-03. It ends the
+Fri 09-04 (+3bp) / Tue 09-08 (+2bp) inert pair. **The scoring instrument is the settle, never an
+intraday** — and this session is the case for that rule: the live 2Y read ~+1.7bp, *inert*, and the
+settle reversed it. **The pathology needs an INERT anchor**, so a violent down-tape against a
+*repricing* front is vindication — and with the front repricing again that defence **is** available,
+on one session. The **Treasury buyback** backstop (sb0607 — long-dated buybacks at least doubled,
+$2bn → ≥$4bn/op), **effective 09-09**, still caps the long end: the 30Y at **5.28** is below the
+5.31 it reached before it.
 
 **US equities — the discriminating axis is still UNNAMED** (the 08-27 session that produced it; levels
 now carried in Base levels). **"Sell-the-spend fires at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
@@ -117,8 +118,9 @@ into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nv
 did **not** transmit it. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Tue 09-08 close, 20:00Z):** UST **2Y 4.39 / 5Y 4.57 / 10Y 4.80 / 30Y 5.25** (CMT; +2/+3/+2/+1)
-· S&P **7,673.52** / Nasdaq **26,421.41** / Dow **52,786.07**
+**US (Wed 09-09 close, 20:00Z — DECLARED by the reporter this window):** UST **2Y 4.43 / 5Y 4.61 /
+10Y 4.83 / 30Y 5.28** (CMT; +4/+4/+3/+3) · S&P **7,636.36** / Nasdaq **26,253.34** / Dow **52,380.66**
+(Nasdaq two-sourced to api.nasdaq.com to the cent; S&P and Dow single-sourced)
 · **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26),
 replacing a 09-01 non-settle WTI ~91 and an **undated gold ~4,650 that sat ~4% adrift** under a
 heading that says *base levels*. · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
