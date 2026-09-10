@@ -172,7 +172,7 @@ DOW 52,380.66 (mildly red — index leg did NOT fire, max Nasdaq 0.90% vs ±1.50
 3. **Does foreign buying return and BROADEN?** It flipped to selling on 08-21 and sold KOSDAQ
    throughout. Broad re-entry would be the first thing since the crash that is not a capital-return
    trade.
-4. **The WON — run at ZERO, count not started.** The 09-07 jong-ga won read 1,347.00 (~2.5 firmer, sub-±10, live not a declared fixing), and US-shut means no
+4. **The WON — run at ZERO, count not started.** The 09-07 jong-ga won read 1,347.00 (sub-±10, live not a declared fixing), and US-shut means no
    same-clock DXY control. A fresh sequence needs a >±10 SETTLED move with DXY *and* CNH strictly flat AT the settle (controls
    re-checked, not carried). Open reconciliation: the same-clock instrument is the **onshore 15:30 fixing**, not the Naver
    dated/24h print (date-only row, ~1-won gap); resolves before 09-08 (Vera's) — any figure must name WHICH instrument.
