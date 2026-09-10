@@ -134,7 +134,7 @@ sub-±10 → gate 5 STAYS ZERO). ⚠️ **NO won fixing has EVER been declared**
 enumerated: finance-ko carries only **KOSPI** (×31). So gate 5's ±10 has always been **live-vs-live**
 and the settled 15:30 fixing its rule names has never been obtained. 09-07's **1,347.00** was a live
 read, not a declaration.
-**Nikkei 66,405.56** is **Fri 08-28's** (13 sessions back — a bare "Fri" here read as 09-04) — the 大引 is undeclared, so the base stays on the last DECLARED settle.
+**Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 *(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
 session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
 a bare weekday rots. ⚠️ This note twice carried its OWN error — first dating 1,347.00 to 09-08
