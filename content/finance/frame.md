@@ -23,38 +23,22 @@ before 2026-08-24.***
 vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
 an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
 
-**THE ARC IS 4.19 x4 -> 4.24 x2 -> 4.17 -> 4.19 -> 4.20 -> 4.34 -> 4.34 -> 4.39** (Fri 08-28 **+14bp**;
-Mon 08-31 **flat**; Tue 09-01 **+5bp**). **The "six of nine inside a 3bp band" reading is BROKEN** — it was true through
-08-27 and the +14bp ended it. Gate #3 finally got a real excursion in front of it, after three
-scores on prints too small to test it (RETRACE 08-25, NO DIRECTION 08-26, antecedent-did-not-fire
-08-27 at one quantisation unit). **The ATTRACTOR question is now CLOSED on its own pre-registered
-kill condition — "a move large enough that 4.19 stops being a plausible centre": +15bp, against an
-arc whose entire range was 7bp and whose largest prior wobble was 5bp.** The persistence limb
-(*past two more settles*) completes at tonight's CMT and is not needed — the limbs are disjunctive.
+**★ THE ATTRACTOR IS DEAD — both limbs, as of the Tue 09-01 settle**, and the question stays closed.
+The arc ran **4.19 ×4 → 4.24 ×2 → 4.17 → 4.19 → 4.20 → 4.34 ×2 → 4.39**; the kill condition was
+disjunctive and both limbs closed — magnitude on 08-28's **+14bp** (against an arc whose entire range
+was 7bp), persistence on three settles away moving *further out, not back*. **New data killed it, not
+a re-reading of the old**, and the earlier readings were right when made. **The switch stays
+VINDICATED: the anchor moves when pushed** — a claim that never depended on where the front sits.
 
-**★ THAT CAVEAT IS NOW INVERTED — and I carried it two settles too long.** It read "the anchor is
-live no longer follows from this section," written off Thursday's inert 1bp. **Friday pushed and the
-anchor answered +14bp**, which is the switch's own definition of responding. The caveat was right
-when written and wrong by Friday night; it survived because the settle that broke it was published
-in *prose* and never DECLARED in a `settles:` block, so neither C1's chain nor this narrative
-absorbed it. Scout tested this unprompted against the CMT XML primary (3.5b) and I had it stale.
+**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS** (08-25 declared the pinning
+invariant dead on **one settle**; the next printed 4.19). **A claim about a REGIME scored on a single
+observation** is the recurring error: a level is not abandoned because one settle left it, any more
+than it is established because four sat on it.
 
-**So 08-21's jump to 4.24 was a WOBBLE, and so was 08-25's drop to 4.17** — neither held more than
-two settles. **The switch stays VINDICATED: the anchor moves when pushed**, a claim that never
-depended on where the front sits.
-
-**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS** — 08-25 declared the pinning
-invariant DEAD on **one settle** and the next printed 4.19. **A claim about a REGIME scored on a single
-observation** is the recurring error: a level is not abandoned because one settle left it, any more than
-it is established because four sat on it.
-
-**★ THE ATTRACTOR IS DEAD — both limbs, as of the Tue 09-01 settle.** The kill condition was
-disjunctive: an excursion **persisting past two more settles**, *or* a move large enough that 4.19
-stops being a plausible centre. The magnitude limb closed on 08-28's **+14bp**; the persistence limb
-now agrees — **4.34 -> 4.34 -> 4.39**, three settles away, the third moving *further out, not back*.
-The earlier readings were right when made (4.24 x2 reverted *through* the level to 4.17; 4.17 reverted
-in one; 08-27 was genuinely UNADJUDICATED at 1bp off). **New data killed it, not a re-reading of the
-old.**
+**★ AND THE SETTLE THAT BROKE THE OLD CAVEAT WAS PUBLISHED IN PROSE, NEVER DECLARED** in a `settles:`
+block — so neither C1's chain nor this narrative absorbed it, and I carried an inverted caveat two
+settles too long. **A number that is not declared cannot be chained, and prose does not correct a
+frame.**
 
 **★ A STATUS LIVES IN AS MANY PLACES AS IT IS WRITTEN** (one gate once carried three mutually
 exclusive statuses across four published windows, because I updated the live paragraph and never
@@ -178,7 +162,7 @@ quietly dropped. **Four does-not-trips are not four confirmations, four untestab
 and one fired antecedent is not a trip.** The test is **LIVE**: two fired antecedents now (08-27,
 09-03), neither a trip.
 
-**SCORED Thu 09-03 00Z (this window): the antecedent FIRED and it DOES NOT TRIP.** Max intraday
+**SCORED Thu 09-03 00Z: the antecedent FIRED and it DOES NOT TRIP.** Max intraday
 excursions **S&P 1.18% / Nasdaq Composite 1.63% / Dow 1.29%** against the strict 1.50% bar — the
 **Nasdaq alone** clears it, as on 08-27. Second fired antecedent of the run. It does not trip for
 **two independent reasons**: 2+ consecutive sessions are required and this is one, **and** the 2Y
