@@ -150,7 +150,7 @@ Micron late-Sept the 2nd read. Pre-crash flows ran negative (foreign selling, bu
 **Korea (Thu 09-10 jong-ga, 06:30Z / 15:30 KST; Naver CLOSE two-sourced by the asiae close-wrap + an independent native pull):**
 KOSPI **7,033.92** / −0.25% (−17.72 — record 7,051.64 NOT extended; *reverses* run ENDED, gate 4 *confirms*) ·
 KOSDAQ **836.92** / +0.79% (outperformed on a DOWN tape = defensiveness, not breadth; WIDEN UNTESTABLE) · Samsung **₩269,000** / −0.19% · SK Hynix **₩1,853,000** / −0.16% ·
-SK Square **₩1,135,000** / −0.26%. USD/KRW: today live/offshore **~1,338.3**, non-converging, sub-±10 — NOT declared (no prior declared fixing, so no same-clock delta).
+SK Square **₩1,135,000** / −0.26%. USD/KRW: live/offshore **~1,338.3**, non-converging, sub-±10 — NOT declared (no prior declared fixing, so no same-clock delta).
 Flow (Naver /trend, SIGN-only, magnitude UNRELIABLE): foreign net SOLD **BOTH** boards (KOSPI and KOSDAQ negative), institutions
 net BOUGHT both (absorbed) — NOT rotation, a SECOND consecutive session of foreign selling. Yesterday was rotation (foreign −4,350 KOSPI, +2,252 KOSDAQ); today is broad.
 **Japan (Fri 08-28 close):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + laggard buying, NOT chips — the control making Korea's chip de-rate idiosyncratic, not regional).
