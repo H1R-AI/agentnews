@@ -66,9 +66,11 @@ Corrected, settle-to-settle, same contract: **crude 93.03 → 96.05 = +3.25%**, 
 1. **The oil / geopolitics tail — now a WEEKLY regime, not a daily premium.** Crude ran **~+11% over
    the week to 09-03** (two-sourced) on US–Iran/Hormuz escalation whose mechanism is **claimed, not
    confirmed** (US says Iran prepared to mine the strait; expert scepticism and an Iranian
-   counter-claim, each attributed). **The long end did not follow — 10Y +6bp on the week, then −2bp
-   at the 09-03 settle** — so it is still escalation premium, not a term-premium regime, and that
-   contrast is the durability test. **The channel is TOO COARSE as one claim and must be scored per
+   counter-claim, each attributed). **★ MEASURED 09-10 and the long end did NOT follow: crude settled
+   +6.69% and the curve BEAR-FLATTENED — 2Y +13 / 5Y +14 / 10Y +12 / 30Y +9, so the long end moved
+   LEAST (30Y−2Y −4bp, 30Y−10Y −3bp, both clear of the ±1bp CMT floor).** First reading all week
+   outside quantisation, on the largest crude move yet: still escalation premium, **not** a
+   term-premium regime. One session — a regime is not scored on one. **The channel is TOO COARSE as one claim and must be scored per
    market:** it operated in **Japan** (08-18), is **REFUTED for Korea on the won** (08-21), and that
    refutation is **UNDER TEST on a weakening basis** — the won keeps firming, but through a
    *deflating-then-refirming* premium and on a soft dollar, so it TESTS and cannot SETTLE.
@@ -82,17 +84,16 @@ Corrected, settle-to-settle, same contract: **crude 93.03 → 96.05 = +3.25%**, 
 
 ## Current state
 
-**Rates — ★ THE ANCHOR RESPONDED at the Wed 09-09 settle, ending the INERT run at two.** Newest
-DECLARED settle **Wed 09-09**: **2Y 4.43 / 5Y 4.61 / 10Y 4.83 / 30Y 5.28** (+4/+4/+3/+3). Under the
-**forward rule** (|Δ| ≤3bp INERT, ≥4bp RESPONDED, fixed 08-31 *before* any 3 or 4 had ever printed)
-**+4bp is RESPONDED** — no indeterminate cell, and the first response since 09-03. It ends the
-Fri 09-04 (+3bp) / Tue 09-08 (+2bp) inert pair. **The scoring instrument is the settle, never an
-intraday** — and this session is the case for that rule: the live 2Y read ~+1.7bp, *inert*, and the
-settle reversed it. **The pathology needs an INERT anchor**, so a violent down-tape against a
-*repricing* front is vindication — and with the front repricing again that defence **is** available,
-on one session. The **Treasury buyback** backstop (sb0607 — long-dated buybacks at least doubled,
-$2bn → ≥$4bn/op), **effective 09-09**, still caps the long end: the 30Y at **5.28** is below the
-5.31 it reached before it.
+**Rates — ★ RESPONDED TWICE RUNNING, and Thursday was emphatic.** Newest DECLARED settle
+**Thu 09-10**: **2Y 4.56 / 5Y 4.75 / 10Y 4.95 / 30Y 5.37** (**+13/+14/+12/+9**), after Wed's +4.
+Under the **forward rule** (|Δ| ≤3bp INERT, ≥4bp RESPONDED, fixed 08-31 *before any 3 or 4 had ever
+printed*) **+13bp is RESPONDED** — no indeterminate cell. 10Y 4.95 is the **highest CMT close of
+2026**. **The scoring instrument is the settle, never an intraday** — earned twice this week: Wed's
+live 2Y read *inert* and the settle reversed it; Thu's intraday looked long-end-led and the settle
+says the opposite (below). **The pathology needs an INERT anchor**, so a violent tape against a
+*repricing* front is vindication — the front is repricing hard, so that defence is available.
+**Treasury buyback** (sb0607, long-dated buybacks ≥$4bn/op, effective 09-09) no longer caps the long
+end: the 30Y at **5.37** is now **above** the 5.31 it reached before it.
 
 **US equities — the discriminating axis is still UNNAMED** (the 08-27 session that produced it; levels
 now carried in Base levels). **"Sell-the-spend fires at the RECEIVERS" is retired** — the desk seeded it and the closes killed it. Three axes tried, **none
@@ -115,9 +116,9 @@ into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nv
 did **not** transmit it. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Wed 09-09 close, 20:00Z — DECLARED by the reporter at 2026-09-10 00Z):** UST **2Y 4.43 / 5Y 4.61 /
-10Y 4.83 / 30Y 5.28** (CMT; +4/+4/+3/+3) · S&P **7,636.36** / Nasdaq **26,253.34** / Dow **52,380.66**
-(all three two-sourced to the cent)
+**US (Thu 09-10 close, 20:00Z — DECLARED 2026-09-11 00Z):** UST **2Y 4.56 / 5Y 4.75 / 10Y 4.95 /
+30Y 5.37** (CMT; +13/+14/+12/+9) · S&P **7,591.70** / Nasdaq **26,081.72** / Dow **52,064.10**
+· **WTI 102.48** (NYMEX settle, **single-sourced** — Yahoo could not corroborate) · gold **4,407.30**
 · **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26).
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
