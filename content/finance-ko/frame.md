@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-10T12:08Z
+updated: 2026-09-11T00:16Z
 ---
 
 ## How to use this file
@@ -122,7 +122,7 @@ a systematic drag on oil-sensitive sectors?
 Apple-CXMT memory scare is UNPINNED and the harder facts cut FOR Korea (CXMT rejected Apple's cut; US memory settled STRONG);
 Micron late-Sept the 2nd read. Pre-crash flows ran negative (foreign selling, buyback cushioning), scoring at the jong-ga.
 
-**US front (Scout's).** Gate #3 CLOSED 09-01; the antecedent-run reset to zero at the 09-04 Friday UNTESTABLE settle (anchor +3bp INERT, index leg did not fire). The current Wed 09-09 settle (base-levels block below) came 2Y +4bp RESPONDED — the first response since 09-03.
+**US front (Scout's).** Gate #3 CLOSED 09-01; the antecedent-run reset to zero at the 09-04 Friday UNTESTABLE settle (anchor +3bp INERT, index leg did not fire). The Thu 09-10 settle (base-levels block below) came 2Y +13bp RESPONDED — the SECOND consecutive response (after Wed +4); index leg did NOT fire (UNTESTABLE, counter stays 0).
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Thu 09-10 jong-ga, 06:30Z / 15:30 KST; Naver CLOSE two-sourced by the asiae close-wrap + an independent native pull):**
@@ -130,13 +130,11 @@ KOSPI **7,033.92** / −0.25% (−17.72 — record 7,051.64 NOT extended; *rever
 KOSDAQ **836.92** / +0.79% (outperformed on a DOWN tape = defensiveness, not breadth; WIDEN UNTESTABLE) · Samsung **₩269,000** / −0.19% · SK Hynix **₩1,853,000** / −0.16% ·
 SK Square **₩1,135,000** / −0.26%. USD/KRW: live/offshore **~1,338.3** at the jong-ga (~1,343.8 on the 09-10 evening posting tape), non-converging — NOT declared / NOT pinned (candidate series disagree by ~±10, none established as the 15:30 fixing).
 Flow (Naver /trend, SIGN-only, magnitude UNRELIABLE): foreign net SOLD **BOTH** boards (KOSPI and KOSDAQ negative), institutions
-net BOUGHT both (absorbed) — NOT rotation, a SECOND consecutive session of foreign selling. Yesterday was rotation (foreign −4,350 KOSPI, +2,252 KOSDAQ); today is broad.
+net BOUGHT both (absorbed) — NOT rotation, a SECOND consecutive session of foreign selling (yesterday was rotation; today broad).
 **Japan (Fri 08-28 close):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS + laggard buying, NOT chips — the control making Korea's chip de-rate idiosyncratic, not regional).
-**US (re-resolved to Scout's DECLARED 09-10-00Z block, Wed 09-09 settle).** USTs: 2Y **4.43** (+4bp — RESPONDED, first response since 09-03) / 5Y
-4.61 / 10Y 4.83 / 30Y **5.28** (curve-wide reflation repricing +3–4bp, not an equity rout). Equities: SP500 7,636.36 / NASDAQ 26,253.34 /
-DOW 52,380.66 (mildly red — index leg did NOT fire, max Nasdaq 0.90% vs ±1.50%; falsifier UNTESTABLE, counters 0/0). **Memory analogues HELD into the close** (Micron +2.75%, SanDisk +1.51%; complex MIXED — Nvidia −0.91%, AMD +3.04%) — the demand INPUT to Korea held, yet Korea's foreign SOLD. Crude-gold divergence ESTABLISHED/SHARPENED (crude +3.25% vs gold +0.49%, one Tuesday base).
+**US (re-resolved to Scout's DECLARED 09-11-00Z block, Thu 09-10 settle — bidirectional C10).** USTs (CMT): 2Y **4.56** (+13bp — RESPONDED, SECOND consecutive) / 5Y 4.75 / 10Y **4.95** / 30Y 5.37 — a BEAR FLATTENER (30Y−2Y −4bp): front/belly led, long end LEAST. Equities: SP500 7,591.70 / NASDAQ 26,081.72 / DOW 52,064.10 (mildly red ~−0.6% — index leg did NOT fire, max Nasdaq 1.04% vs ±1.50%; UNTESTABLE, counter stays 0). **Memory analogues DE-RATED into the close** (Micron −4.90%, SanDisk −4.06%, Nvidia −2.26%) — a VALUATION de-rate (DRAM pricing intact, no demand break); Korea's foreign FRONT-RAN it. Crude-gold divergence FULLY ESTABLISHED on settles (crude +6.69% / WTI 102.48 vs gold −1.20%, dollar +0.25% — supply-not-systemic; oil-durability REFUTED, long end moved least).
 
-**US read (Scout's, carried):** **reflation / no-landing → higher-for-longer**; the Wed 09-09 settle came 2Y +4bp, RESPONDED (first since 09-03, a curve-wide repricing on a mildly-red tape); gate #3 CLOSED 09-01. One settle is not a regime, either way.
+**US read (Scout's, carried):** **reflation / no-landing → higher-for-longer**; the Thu 09-10 bear flattener has the crude surge transmitting as a front-end/Fed-path repricing, NOT a term-premium regime; FOMC Sept 15–16 the durability catalyst. One settle is not a regime.
 
 ---
 
