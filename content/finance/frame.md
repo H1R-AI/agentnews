@@ -150,8 +150,7 @@ current-looking stamp. Never file an intraday pull as a settle base.)*
 
 **Definition:** two or more consecutive sessions in which a major US index moves **>±1.5% intraday**
 while the 2Y is **INERT as the forward rule defines it (|Δ| ≤3bp; ≥4bp is RESPONDED)** — i.e. a
-violent equity tape against an inert anchor. *(This line read "range-bound (~3-4bp)" until 09-11 — the
-superseded phrasing, which disagreed with the rule at exactly 4bp.)*
+violent equity tape against an inert anchor.
 Score the **condition**, not the metric's letter, and only ever at a **settle**.
 
 **A score has FOUR states, not two:** trips / does-not-trip / **untestable this session** (the
@@ -219,8 +218,7 @@ govern Friday: Saturday scores Friday,
 so applying it there is retroactive legislation in forward-dated clothing. **Arc-independent basis:**
 absolute daily CMT 2Y moves over the 11 sessions **to 08-31** were {0,1,2,5,7} — **3bp and 4bp had
 never occurred *at the time the rule was fixed***, so all 11 classified identically under either cut
-and the edge cannot have been fitted to a landing. **(4bp has occurred SINCE — Wed 09-09 — which is
-the rule working, not a problem with it: the edge was set before the case arrived.)** Data
+and the edge cannot have been fitted to a landing. (4bp printed since, Wed 09-09 — the edge was set before the case arrived.) Data
 silent → stated tie-break: **take the threshold that makes the POSITIVE finding HARDER.**
 
 The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday print.
