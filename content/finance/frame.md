@@ -131,8 +131,8 @@ absorbed Wed/Thu, then sold Friday; **retail** is the marginal buyer, a thinner 
 `settles:` key enumerated — finance-ko carries only **KOSPI** (×31), so no won fixing was ever
 declared and the ±10 has always been **live-vs-live**. Candidate series DO exist (BOK ECOS `731Y001`;
 Naver dated) — simply not established as the 15:30 onshore fixing, and the gap between them **VARIES
-AND CHANGES SIGN** (−1.9 to +10.9 across settled days, N=9), spanning the band — so neither can be
-calibrated to the other. Not *unobtainable*: **not pinned.**
+AND CHANGES SIGN** across settled days, spanning the band — so neither can be calibrated to the
+other. *(No range figure: it is a rolling window, so any range is a fact plus a date.)* Not *unobtainable*: **not pinned.**
 **Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 
 
