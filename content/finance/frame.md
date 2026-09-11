@@ -121,24 +121,20 @@ did **not** transmit it. Detail is `finance-ko`'s.
 · **WTI 102.48** (NYMEX settle, **single-sourced** — Yahoo could not corroborate) · gold **4,407.30**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Thu 09-10 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **7,033.92 / −0.25%**
-— the 09-09 record **7,051.64 did NOT extend**, base steps back · KOSDAQ **836.92 / +0.79%** ·
-SK Hynix **W1,853,000 / −0.16%** · Samsung **W269,000 / −0.19%** — **chips all red while KOSDAQ led**;
-**gate 4 flips to *confirms*** (foreign net SOLD a second session and sold **BOTH boards**, so not
-rotation; institutions absorbed both). **WIDEN is UNTESTABLE** — the spec fires only in an UP session
-and KOSPI closed down. **USD/KRW: no fixing declared** (live series non-converging).
+**Korea (Fri 09-11 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,909.91 / −1.76%**
+· KOSDAQ **820.64 / −1.95%** · SK Hynix **W1,812,000 / −2.21%** · Samsung **W259,500 / −3.53%** —
+chip-led, pared from a ~−3.1% open. **Gate 4 *confirms* (2nd), 3rd straight foreign net-selling
+session, both boards** — the front-run was not bought back. ★ **The absorbing bid changed hands** — institutions
+absorbed Wed/Thu, then sold Friday; **retail** is the marginal buyer, a thinner backstop.
+**Semi-switch NA** (armed at the open, close sub-2 — armed is not fired). **USD/KRW: no fixing declared** (live series non-converging).
 ⚠️ **Gate 5: INSTRUMENT NOT PINNED — not ZERO** (finance-ko's word, adopted). Every
 `settles:` key enumerated — finance-ko carries only **KOSPI** (×31), so no won fixing was ever
 declared and the ±10 has always been **live-vs-live**. Candidate series DO exist (BOK ECOS `731Y001`;
-Naver dated) — simply not established as the 15:30 onshore fixing, and they disagree by **8.2–10.0
-won against a ±10 bar**, so the source choice dominates the reading. Not *unobtainable*: **not
-pinned.** 09-07's **1,347.00** was a live read.
+Naver dated) — simply not established as the 15:30 onshore fixing, and the gap between them **VARIES
+AND CHANGES SIGN** across settled days, spanning the band — so neither can be calibrated to the
+other. *(No range figure: it is a rolling window, so any range is a fact plus a date.)* Not *unobtainable*: **not pinned.**
 **Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
-*(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
-session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
-a bare weekday rots. ⚠️ This note twice carried its OWN error — first dating 1,347.00 to 09-08
-(it is **Mon 09-07's**), then calling it *declared* when nothing ever was. **A correction inherits
-the halo of having been audited, so it gets LESS scrutiny than the text it replaces.**)*
+
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
