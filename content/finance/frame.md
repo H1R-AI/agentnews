@@ -121,12 +121,13 @@ did **not** transmit it. Detail is `finance-ko`'s.
 · **WTI 102.48** (NYMEX settle, **single-sourced** — Yahoo could not corroborate) · gold **4,407.30**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Thu 09-10 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **7,033.92 / −0.25%**
-— the 09-09 record **7,051.64 did NOT extend**, base steps back · KOSDAQ **836.92 / +0.79%** ·
-SK Hynix **W1,853,000 / −0.16%** · Samsung **W269,000 / −0.19%** — **chips all red while KOSDAQ led**;
-**gate 4 flips to *confirms*** (foreign net SOLD a second session and sold **BOTH boards**, so not
-rotation; institutions absorbed both). **WIDEN is UNTESTABLE** — the spec fires only in an UP session
-and KOSPI closed down. **USD/KRW: no fixing declared** (live series non-converging).
+**Korea (Fri 09-11 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,909.91 / −1.76%**
+· KOSDAQ **820.64 / −1.95%** · SK Hynix **W1,812,000 / −2.21%** · Samsung **W259,500 / −3.53%** —
+chip-led, pared from a ~−3.1% open. **Gate 4 *confirms* (2nd consecutive), 3rd straight foreign
+net-selling session, both boards** — the front-run was not bought back. ★ **The absorbing bid changed
+hands**: institutions absorbed Wed/Thu, then **sold** Friday (−12,236) with **retail** the marginal
+buyer (+18,658) — a thinner backstop. **Semi-switch NA** (armed at the >±2% open, close −1.76% is
+sub-2 — armed is not fired). **USD/KRW: no fixing declared** (live series non-converging).
 ⚠️ **Gate 5: INSTRUMENT NOT PINNED — not ZERO** (finance-ko's word, adopted). Every
 `settles:` key enumerated — finance-ko carries only **KOSPI** (×31), so no won fixing was ever
 declared and the ±10 has always been **live-vs-live**. Candidate series DO exist (BOK ECOS `731Y001`;
