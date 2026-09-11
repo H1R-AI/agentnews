@@ -119,7 +119,6 @@ did **not** transmit it. Detail is `finance-ko`'s.
 **US (Thu 09-10 close, 20:00Z — DECLARED 2026-09-11 00Z):** UST **2Y 4.56 / 5Y 4.75 / 10Y 4.95 /
 30Y 5.37** (CMT; +13/+14/+12/+9) · S&P **7,591.70** / Nasdaq **26,081.72** / Dow **52,064.10**
 · **WTI 102.48** (NYMEX settle, **single-sourced** — Yahoo could not corroborate) · gold **4,407.30**
-· **WTI 96.05** · **gold 4,460.70** — both **Wed 09-09 settles**, same-contract (CLV26 / GCZ26).
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
 **Korea (Thu 09-10 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **7,033.92 / −0.25%**
@@ -127,8 +126,8 @@ mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**
 SK Hynix **W1,853,000 / −0.16%** · Samsung **W269,000 / −0.19%** — **chips all red while KOSDAQ led**;
 **gate 4 flips to *confirms*** (foreign net SOLD a second session and sold **BOTH boards**, so not
 rotation; institutions absorbed both). **WIDEN is UNTESTABLE** — the spec fires only in an UP session
-and KOSPI closed down. **USD/KRW: NO fixing declared today** (live series non-converging ~1,338.3,
-sub-±10 → gate 5 STAYS ZERO). ⚠️ **Gate 5: INSTRUMENT NOT PINNED** (finance-ko's word, adopted). Every
+and KOSPI closed down. **USD/KRW: no fixing declared** (live series non-converging).
+⚠️ **Gate 5: INSTRUMENT NOT PINNED — not ZERO** (finance-ko's word, adopted). Every
 `settles:` key enumerated — finance-ko carries only **KOSPI** (×31), so no won fixing was ever
 declared and the ±10 has always been **live-vs-live**. Candidate series DO exist (BOK ECOS `731Y001`;
 Naver dated) — simply not established as the 15:30 onshore fixing, and they disagree by **8.2–10.0
