@@ -130,15 +130,11 @@ absorbed Wed/Thu, then sold Friday; **retail** is the marginal buyer, a thinner 
 ⚠️ **Gate 5: INSTRUMENT NOT PINNED — not ZERO** (finance-ko's word, adopted). Every
 `settles:` key enumerated — finance-ko carries only **KOSPI** (×31), so no won fixing was ever
 declared and the ±10 has always been **live-vs-live**. Candidate series DO exist (BOK ECOS `731Y001`;
-Naver dated) — simply not established as the 15:30 onshore fixing, and they disagree by **8.2–10.0
-won against a ±10 bar**, so the source choice dominates the reading. Not *unobtainable*: **not
-pinned.** 09-07's **1,347.00** was a live read.
+Naver dated) — simply not established as the 15:30 onshore fixing, and the gap between them **VARIES
+AND CHANGES SIGN** (−1.9 to +10.9 across settled days, N=9), spanning the band — so neither can be
+calibrated to the other. Not *unobtainable*: **not pinned.**
 **Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
-*(Gate 5's last scored sequence closed on **Tue 09-01**'s settled **1,375.50 / +6.00** — sub-±10, so
-session two did not fire and the count **STAYS at ZERO**. The date is spelled out because under a
-a bare weekday rots. ⚠️ This note twice carried its OWN error — first dating 1,347.00 to 09-08
-(it is **Mon 09-07's**), then calling it *declared* when nothing ever was. **A correction inherits
-the halo of having been audited, so it gets LESS scrutiny than the text it replaces.**)*
+
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
 them the moment any market settles — that is how the Asia half once sat a session stale under a
