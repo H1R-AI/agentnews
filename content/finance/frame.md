@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-14T12:13Z
+updated: 2026-09-14T18:07Z
 ---
 
 ## How to use this file
@@ -27,10 +27,9 @@ an inert 2Y under a violent equity tape is the pathology the falsifier watches f
 re-reading of the old.** **The switch stays VINDICATED: the anchor moves when pushed** — a claim that
 never depended on where the front sits.
 
-**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS** (08-25 declared the pinning
-invariant dead on **one settle**; the next printed 4.19). **A claim about a REGIME scored on a single
-observation** is the recurring error: a level is not abandoned because one settle left it, any more
-than it is established because four sat on it.
+**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS.** **A claim about a REGIME
+scored on a single observation** is the recurring error: a level is not abandoned because one settle
+left it, any more than it is established because four sat on it.
 
 **★ AND THE SETTLE THAT BROKE THE OLD CAVEAT WAS PUBLISHED IN PROSE, NEVER DECLARED** in a `settles:`
 block — so neither C1's chain nor this narrative absorbed it, and I carried an inverted caveat two
@@ -54,11 +53,10 @@ inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> d
 won, and Jackson Hole did not settle it; **only a hard CPI/PCE print disambiguates it.** The 09-01 ISM
 prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
-**⛔ DESK CORRECTION 09-10 — the crude/gold divergence was NOT unestablished; the desk was wrong,
-not the data.** I voided it on `settleDate` (09-08 crude / 09-09 gold) when the comparison consumes
-`previous_day_closing` — both legs were on Tuesday 09-08's settle. **The field I checked was not the
-field the comparison used.** Verify a basis by PRICING against a known dated settle, never by reading
-a neighbouring metadata field.
+**⛔ DESK CORRECTION 09-10 — the crude/gold divergence was real; the desk was wrong, not the data.**
+I voided it on `settleDate` when the comparison consumes `previous_day_closing`. **The field I checked
+was not the field the comparison used.** Verify a basis by PRICING against a known dated settle, never
+by reading a neighbouring metadata field.
 
 **Two challengers to the standing switch:**
 1. **The oil / geopolitics tail — now a WEEKLY regime, not a daily premium.** Crude ran **~+11% over
@@ -127,7 +125,14 @@ recovery). **Gate 4 *confirms* (3rd), a 4th straight foreign net-selling session
 (−32,875)** — the front-run still not bought back; **retail** remains the lone marginal buyer
 (+29,722) with institutions selling again (−11,715). ★ **But the selling CONCENTRATED in KOSPI while
 KOSDAQ was spared (−931)** — 09-10 sold both boards; a macro risk-off hits both, so the breadth says
-**chip-SPECIFIC within a macro backdrop**, not macro-broad. ★ **Semi-switch FIRED DOWN — the first
+**chip-SPECIFIC within a macro backdrop**, not macro-broad — **but PROVISIONAL, under its first
+out-of-sample test.** Derived entirely inside Korea; scored **Tue 00Z at the settle** against a bar
+fixed pre-session (`50e4ee9`+`37e1425`+`08b3f11`). **The 12Z pre-open looked cleanly chip-specific
+(memory ~−6% vs a GREEN Dow future); by 18Z it had MATERIALLY FADED** — memory ~−4.0%, Dow red, gap
+~5.4pp → ~3.7pp. Partly thin-book exaggeration, as both reporters warned, and the desk's "unusually
+clean" read was overconfident. **Nothing is established either way**: a LEVEL bar is not monotone, so
+no intraday reading decides it. The gate-4 *confirms* SCORE is a flow fact regardless — only the WHY
+is under test. ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **USD/KRW: no fixing
 declared**; the won's +0.24% weakening is **entirely the dollar** (DXY +0.32%), no idiosyncratic
 move, so the **oil-import channel is UNTESTED** this session — not supported, not refuted.
@@ -230,15 +235,14 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 
 ## Next gates
 
-1. **Jackson Hole — PASSED 08-28, resolved nothing.** Slot kept so 2-5 keep their numbers.
+1. **Jackson Hole — PASSED 08-28, resolved nothing.** Slot kept for numbering.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **The 4.19 attractor — CLOSED (dead), Tue 09-01 settle. Nothing further scores here.** Kept for
-   the surviving finding: the gate was **TOO COARSE** — "no direction" is returned by a random walk
-   *and* by a mean-reverting level, opposite worlds. The next mean-reversion claim inherits it.
+3. **The 4.19 attractor — CLOSED (dead), Tue 09-01. Nothing further scores here.** Surviving finding:
+   the gate was **TOO COARSE** — "no direction" is returned by a random walk *and* by mean reversion,
+   opposite worlds. The next mean-reversion claim inherits it.
 
-4. **Korea: the demand question — OVERTAKEN (gate 4 has since scored both ways), kept for its
-   method: the clean signal is the FLOW, not the price.** Next independent demand read: **Micron's
-   late-September print**.
+4. **Korea: the demand question — OVERTAKEN (gate 4 has scored both ways), kept for its method: the
+   clean signal is the FLOW, not the price.** Next demand read: **Micron's late-September print**.
 
 5. **The won — count at ZERO; the bar, kept verbatim because the two editions once stated one gate
    with different leg definitions.** `finance-ko`'s bar: USD/KRW moves **>±10 won for 2+ consecutive
