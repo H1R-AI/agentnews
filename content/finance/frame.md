@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-14T00:18Z
+updated: 2026-09-14T07:10Z
 ---
 
 ## How to use this file
@@ -122,12 +122,17 @@ Dow **52,573.29** · **WTI 100.05** (NYMEX settle, now **two-sourced** — the c
 matches) · gold **4,408.90**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Fri 09-11 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,909.91 / −1.76%**
-· KOSDAQ **820.64 / −1.95%** · SK Hynix **W1,812,000 / −2.21%** · Samsung **W259,500 / −3.53%** —
-chip-led, pared from a ~−3.1% open. **Gate 4 *confirms* (2nd), 3rd straight foreign net-selling
-session, both boards** — the front-run was not bought back. ★ **The absorbing bid changed hands** — institutions
-absorbed Wed/Thu, then sold Friday; **retail** is the marginal buyer, a thinner backstop.
-**Semi-switch NA** (armed at the open, close sub-2 — armed is not fired). **USD/KRW: no fixing declared** (live series non-converging).
+**Korea (Mon 09-14 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,684.37 / −3.26%**
+· KOSDAQ **806.79 / −1.69%** · SK Hynix **W1,697,000 / −6.35%** · Samsung **W249,000 / −4.05%** ·
+SK Square **W1,000,000 / −8.17%** — chip-led, and unlike Friday it **HELD the down open** (no
+recovery). **Gate 4 *confirms* (3rd), a 4th straight foreign net-selling session and the largest
+(−32,875)** — the front-run still not bought back; **retail** remains the lone marginal buyer
+(+29,722) with institutions selling again (−11,715). ★ **But the selling CONCENTRATED in KOSPI while
+KOSDAQ was spared (−931)** — 09-10 sold both boards; a macro risk-off hits both, so the breadth says
+**chip-SPECIFIC within a macro backdrop**, not macro-broad. ★ **Semi-switch FIRED DOWN — the first
+±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **USD/KRW: no fixing
+declared**; the won's +0.24% weakening is **entirely the dollar** (DXY +0.32%), no idiosyncratic
+move, so the **oil-import channel is UNTESTED** this session — not supported, not refuted.
 ⚠️ **Gate 5: INSTRUMENT NOT PINNED — not ZERO** (finance-ko's word, adopted). Every
 `settles:` key enumerated — finance-ko carries only **KOSPI** (×31), so no won fixing was ever
 declared and the ±10 has always been **live-vs-live**. Candidate series DO exist (BOK ECOS `731Y001`;
@@ -227,18 +232,15 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 
 ## Next gates
 
-1. **Jackson Hole — PASSED 08-28, resolved nothing.** Slot retained so gates 2-5 keep their numbers.
+1. **Jackson Hole — PASSED 08-28, resolved nothing.** Slot kept so 2-5 keep their numbers.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **The 4.19 attractor — CLOSED (dead) at the Tue 09-01 settle.** Retained only for the finding that
-   outlives it: the gate was **TOO COARSE** — "no direction" is returned by a random walk *and* by a
-   mean-reverting level, which are opposite worlds. **Nothing further scores here**, and the next
-   mean-reversion claim inherits the lesson.
+3. **The 4.19 attractor — CLOSED (dead), Tue 09-01 settle. Nothing further scores here.** Kept for
+   the surviving finding: the gate was **TOO COARSE** — "no direction" is returned by a random walk
+   *and* by a mean-reverting level, opposite worlds. The next mean-reversion claim inherits it.
 
-4. **Korea: the demand question — OVERTAKEN, kept for its method.** The **Fri 08-28** deep-cash test
-   (Korea **sold** the HBM names into Nvidia's Q2 FY27 confirmation — SKHY −4.45%, foreign −₩0.85T)
-   scored **UNADJUDICATED**; gate 4 has since scored `confirms` 09-02 and `reverses` 09-04, so the
-   *does-the-exit-persist* question is answered. What survives is the method: **the clean signal is
-   the FLOW, not the price.** Next independent demand read: **Micron's late-September print**.
+4. **Korea: the demand question — OVERTAKEN (gate 4 has since scored both ways), kept for its
+   method: the clean signal is the FLOW, not the price.** Next independent demand read: **Micron's
+   late-September print**.
 
 5. **The won — count at ZERO; the bar, kept verbatim because the two editions once stated one gate
    with different leg definitions.** `finance-ko`'s bar: USD/KRW moves **>±10 won for 2+ consecutive
