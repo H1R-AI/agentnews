@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-14T07:10Z
+updated: 2026-09-14T12:13Z
 ---
 
 ## How to use this file
@@ -54,13 +54,11 @@ inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> d
 won, and Jackson Hole did not settle it; **only a hard CPI/PCE print disambiguates it.** The 09-01 ISM
 prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
-**⛔ DESK CORRECTION 09-10 — the crude/gold divergence was NOT unestablished, and the desk was wrong,
-not the data.** At 18Z 09-09 I voided it on `settleDate` reading 09-08 for crude and 09-09 for gold.
-Both legs were on **Tuesday 09-08's settle**: the comparison consumes `previous_day_closing`, and I
-checked a **different field**, one that rolls when each contract's own session closes. Proof: the
-next day the SAME `settleDate 09-09` carried a different `previous_day_closing` (4,439.00 → 4,460.70).
-Corrected, settle-to-settle, same contract: **crude 93.03 → 96.05 = +3.25%**, **gold 4,439.00 →
-4,460.70 = +0.49%.** The divergence is real and it **sharpened**; the reporter's original read stood.
+**⛔ DESK CORRECTION 09-10 — the crude/gold divergence was NOT unestablished; the desk was wrong,
+not the data.** I voided it on `settleDate` (09-08 crude / 09-09 gold) when the comparison consumes
+`previous_day_closing` — both legs were on Tuesday 09-08's settle. **The field I checked was not the
+field the comparison used.** Verify a basis by PRICING against a known dated settle, never by reading
+a neighbouring metadata field.
 
 **Two challengers to the standing switch:**
 1. **The oil / geopolitics tail — now a WEEKLY regime, not a daily premium.** Crude ran **~+11% over
