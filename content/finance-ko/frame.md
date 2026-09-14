@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-14T06:55Z
+updated: 2026-09-14T18:15Z
 ---
 
 ## How to use this file
@@ -71,7 +71,7 @@ domestic/idiosyncratic forces, off the external dollar/Fed switch → update the
 **Decouple-break test.** Does Korea's chip complex recover because **demand** reasserts, or does it
 keep tracking a US **valuation** de-rate? Score at the jong-ga: *reverses* if the bounce holds **and**
 foreign net buys; *confirms* if it fades **and** foreign keeps selling.
-> **Status: *CONFIRMS* — 09-14 06Z scores a THIRD consecutive; the sharpest of the three.** KOSPI FADED **6,684.37 / −3.26%** (off 6,909.91; chips led — SK Square −8.17% / SK Hynix −6.35% / Samsung −4.05%) and — UNLIKE 09-10/09-11 — the down open HELD to the close (NO recovery) AND foreign net-SOLD the LARGEST of the run (−32,875, a FOURTH consecutive selling session) → *confirms*, front-run NOT bought back. **THE MECHANISM IS CHIP-SPECIFIC, not the macro/oil composite the 00Z open feared:** the KOSDAQ-flow discriminator — foreign sold KOSPI −32,875 but KOSDAQ only −931 (vs 09-10's −24,797 / −10,745, both boards) — shows the selling CONCENTRATED in the large-cap chip index while small-caps were spared; a broad Hormuz/oil risk-off would hit BOTH boards, so the dominant leg is memory-de-rate distribution and the risk-off backdrop is context, not the flow driver. The SEMI-SWITCH also CLEARED at the close (first time in the run). **WIDEN UNTESTABLE** (down session). **Prior:** 09-11 06Z SECOND *confirms* (−1.76%, recovered off a −3.1% open; the absorbing bid flipped institutions→RETAIL; Nikkei co-moved down ~−2%, so that session looked regional) → 09-10 06Z FIRST *confirms* (−0.25%, ended the *reverses* run; distribution decoupled from intact US demand). **Prior *reverses* run (archived):** 09-04 DENT → 09-07 EXTENDS (+4.61% record, foreign +25,533, Astra memory surge) → 09-08 PAUSED → 09-09 survived on price (foreign SOLD, institutions carried). Scores at the jong-ga on a CLEAN foreign-flow read; the memory read is MINE, distinct from Scout's US names.
+> **Status: *CONFIRMS* — 09-14 06Z scores a THIRD consecutive; the sharpest of the three.** KOSPI FADED **6,684.37 / −3.26%** (off 6,909.91; chips led — SK Square −8.17% / SK Hynix −6.35% / Samsung −4.05%) and — UNLIKE 09-10/09-11 — the down open HELD to the close (NO recovery) AND foreign net-SOLD the LARGEST of the run (−32,875, a FOURTH consecutive selling session) → *confirms*, front-run NOT bought back. **The *confirms* SCORE is a settled flow fact. THE MECHANISM READ — chip-specific, not the macro/oil composite the 00Z open feared — is PROVISIONAL, under its first OUT-OF-SAMPLE test (US-memory-vs-broad-tape at the 20:00Z Mon 09-14 settle, scored Tuesday 00Z against the desk's pre-registered bar; if the US sells broadly with memory in line, KOSDAQ-being-spared was a Korea-specific flow quirk and the WHY is wrong — the score is unaffected).** The intra-Korea evidence for chip-specific — the KOSDAQ-flow discriminator — foreign sold KOSPI −32,875 but KOSDAQ only −931 (vs 09-10's −24,797 / −10,745, both boards) — shows the selling CONCENTRATED in the large-cap chip index while small-caps were spared; a broad Hormuz/oil risk-off would hit BOTH boards, so the dominant leg is memory-de-rate distribution and the risk-off backdrop is context, not the flow driver. The SEMI-SWITCH also CLEARED at the close (first time in the run). **WIDEN UNTESTABLE** (down session). **Prior:** 09-11 06Z SECOND *confirms* (−1.76%, recovered off a −3.1% open; the absorbing bid flipped institutions→RETAIL; Nikkei co-moved down ~−2%, so that session looked regional) → 09-10 06Z FIRST *confirms* (−0.25%, ended the *reverses* run; distribution decoupled from intact US demand). **Prior *reverses* run (archived):** 09-04 DENT → 09-07 EXTENDS (+4.61% record, foreign +25,533, Astra memory surge) → 09-08 PAUSED → 09-09 survived on price (foreign SOLD, institutions carried). Scores at the jong-ga on a CLEAN foreign-flow read; the memory read is MINE, distinct from Scout's US names.
 
 **Oil-import channel.** Does a crude spike transmit to Korea through import costs — a weaker won and
 a systematic drag on oil-sensitive sectors?
@@ -86,25 +86,18 @@ a systematic drag on oil-sensitive sectors?
 > **★ Scope per market, never Asia-wide.** The same claim **operated in Japan** (08-18) while Korea refuted it — true in
 > one market and false in another is **TOO COARSE**, a verdict about the claim's granularity, not the world.
 >
-> **★ 08-31 12Z — TESTED LIVE under the run's largest crude shock, holds refuted for Korea.** Brent
-> ~+3.27% / WTI ~+3.78% (biggest single-session oil move of the run) yet the won FIRMED −0.92%
-> (~1,368.3) with DXY flat (−0.16%) — idiosyncratic strength ~5–6× the dollar, against the channel.
-> A carried refutation and one confirmed under a live shock differ; this is the second. Korea-only, provisional on an overnight won print.
->
-> **★ 09-02 → 09-03 — carried UNDER TEST on WEAK/non-settle reads.** Through the crash and after, the won stayed
-> idiosyncratic-to-firming through a persistent-then-fading premium (consistent with 08-21), but every crude read was
-> NON-SETTLE and a soft dollar CONFOUNDS the won leg — a weak input tests, it does not resolve (input grade caps the verdict).
->
-> **★ 09-03 12Z→18Z — the oil leg re-firmed then FADED; weaker as an alternative driver.** 12Z crude re-firmed (~+2%);
-> by 18Z the DAY leg round-tripped toward flat (Brent ~flat, desk intraday) while the WEEK regime (~+11%) holds and the
-> long end eased — so no fresh intraday premium for the won to firm through; the won firmed on the SOFT DOLLAR, not oil.
-> More clearly confounded than 12Z → TESTS, does not resolve.
+> **★ Live-shock + subsequent reads, all Korea-only (date-by-date archived in windows).** 08-31 12Z TESTED LIVE
+> under the run's largest crude shock (Brent ~+3.27% / WTI ~+3.78%) yet the won FIRMED −0.92% with DXY flat (−0.16%)
+> — idiosyncratic strength ~5–6× the dollar, AGAINST the channel (a live-shock refutation, distinct from a carried one).
+> Across 09-02→09-03 the won stayed idiosyncratic-to-firming through a persistent-then-fading premium (consistent with
+> 08-21), but every crude read was NON-SETTLE with a soft dollar CONFOUNDING the won leg → a weak input TESTS, does not
+> resolve (input grade caps the verdict).
 
 ---
 
 ## Current state
 
-**★ 09-14 06Z MONDAY JONG-GA — GATE 4 *CONFIRMS* a THIRD consecutive (the sharpest of the three); base steps 6,909.91 → 6,684.37 (−3.26%, −225.54).** The chip-led down open HELD to the close (NO recovery, unlike 09-10/09-11 which halved their losses by the jong-ga) and foreign net-SOLD the LARGEST of the run (−32,875, a FOURTH consecutive session). **MECHANISM CHIP-SPECIFIC, not the 00Z macro/oil composite:** the KOSDAQ-flow discriminator — foreign KOSPI −32,875 vs KOSDAQ only −931 (09-10 sold both, −24,797 / −10,745) — shows the selling concentrated in the chip index, not both boards, so the memory de-rate is the driver and the risk-off backdrop (Hormuz crude gap + US futures down) is context. The SEMI-SWITCH CLEARED at the close (first time in the run; −3.26% >±2%, chips dominant, DOWN). Gate 5 INSTRUMENT NOT PINNED (won WEAKER ~+3.2 to ~1,347.0, sub-±10; ECOS re-count N=9 −13.1 to +10.9). Prior ↓:
+**★ 09-14 06Z MONDAY JONG-GA — GATE 4 *CONFIRMS* a THIRD consecutive (the sharpest of the three); base steps 6,909.91 → 6,684.37 (−3.26%, −225.54).** The chip-led down open HELD to the close (NO recovery, unlike 09-10/09-11 which halved their losses by the jong-ga) and foreign net-SOLD the LARGEST of the run (−32,875, a FOURTH consecutive session). **MECHANISM CHIP-SPECIFIC (PROVISIONAL — under its first out-of-sample test tonight, scored Tuesday; the *confirms* score is a flow fact and unaffected, only the WHY is under test):** the KOSDAQ-flow discriminator — foreign KOSPI −32,875 vs KOSDAQ only −931 (09-10 sold both, −24,797 / −10,745) — shows the selling concentrated in the chip index, not both boards, so the memory de-rate is the LIKELY driver and the risk-off backdrop (Hormuz crude gap + US futures down) is context — but that inference was drawn ENTIRELY within the Korean market and awaits the US-memory check. The SEMI-SWITCH CLEARED at the close (first time in the run; −3.26% >±2%, chips dominant, DOWN). Gate 5 INSTRUMENT NOT PINNED (won WEAKER ~+3.2 to ~1,347.0, sub-±10; ECOS re-count N=9 −13.1 to +10.9). Prior ↓:
 
 **★ 09-11 06Z FRIDAY JONG-GA — GATE 4 *CONFIRMS* a SECOND consecutive; base 7,033.92 → 6,909.91 (−1.76%, recovered off a ~−3.1% open).** Foreign kept selling BOTH boards; the absorbing bid FLIPPED institutions→RETAIL, and Japan co-moved down ~−2% so that session looked REGIONAL. Semi-switch NA (armed-at-open didn't clear). Prior ↓:
 
