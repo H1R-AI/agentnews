@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-09T06:52Z
+updated: 2026-09-14T00:18Z
 ---
 
 ## How to use this file
@@ -84,8 +84,8 @@ Corrected, settle-to-settle, same contract: **crude 93.03 → 96.05 = +3.25%**, 
 
 ## Current state
 
-**Rates — ★ RESPONDED TWICE RUNNING, and Thursday was emphatic.** Newest DECLARED settle
-**Thu 09-10**: **2Y 4.56 / 5Y 4.75 / 10Y 4.95 / 30Y 5.37** (**+13/+14/+12/+9**), after Wed's +4.
+**Rates — ★ RESPONDED THREE SESSIONS RUNNING.** Newest DECLARED settle **Fri 09-11**:
+**2Y 4.63 / 5Y 4.78 / 10Y 4.96 / 30Y 5.35** (**+7/+3/+1/−2**), after Wed +4 and Thu +13.
 Under the **forward rule** (|Δ| ≤3bp INERT, ≥4bp RESPONDED, fixed 08-31 *before any 3 or 4 had ever
 printed*) **+13bp is RESPONDED** — no indeterminate cell. 10Y 4.95 is the **highest CMT close of
 2026**. **The scoring instrument is the settle, never an intraday** — earned twice this week: Wed's
@@ -116,9 +116,10 @@ into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nv
 did **not** transmit it. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Thu 09-10 close, 20:00Z — DECLARED 2026-09-11 00Z):** UST **2Y 4.56 / 5Y 4.75 / 10Y 4.95 /
-30Y 5.37** (CMT; +13/+14/+12/+9) · S&P **7,591.70** / Nasdaq **26,081.72** / Dow **52,064.10**
-· **WTI 102.48** (NYMEX settle, **single-sourced** — Yahoo could not corroborate) · gold **4,407.30**
+**US (Fri 09-11 close, 20:00Z — DECLARED 2026-09-14 00Z):** UST **2Y 4.63 / 5Y 4.78 / 10Y 4.96 /
+30Y 5.35** (CMT; **+7/+3/+1/−2** — the long end FELL) · S&P **7,656.98** / Nasdaq **26,333.04** /
+Dow **52,573.29** · **WTI 100.05** (NYMEX settle, now **two-sourced** — the completed Yahoo bar
+matches) · gold **4,408.90**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
 **Korea (Fri 09-11 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,909.91 / −1.76%**
