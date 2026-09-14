@@ -86,19 +86,12 @@ a systematic drag on oil-sensitive sectors?
 > **★ Scope per market, never Asia-wide.** The same claim **operated in Japan** (08-18) while Korea refuted it — true in
 > one market and false in another is **TOO COARSE**, a verdict about the claim's granularity, not the world.
 >
-> **★ 08-31 12Z — TESTED LIVE under the run's largest crude shock, holds refuted for Korea.** Brent
-> ~+3.27% / WTI ~+3.78% (biggest single-session oil move of the run) yet the won FIRMED −0.92%
-> (~1,368.3) with DXY flat (−0.16%) — idiosyncratic strength ~5–6× the dollar, against the channel.
-> A carried refutation and one confirmed under a live shock differ; this is the second. Korea-only, provisional on an overnight won print.
->
-> **★ 09-02 → 09-03 — carried UNDER TEST on WEAK/non-settle reads.** Through the crash and after, the won stayed
-> idiosyncratic-to-firming through a persistent-then-fading premium (consistent with 08-21), but every crude read was
-> NON-SETTLE and a soft dollar CONFOUNDS the won leg — a weak input tests, it does not resolve (input grade caps the verdict).
->
-> **★ 09-03 12Z→18Z — the oil leg re-firmed then FADED; weaker as an alternative driver.** 12Z crude re-firmed (~+2%);
-> by 18Z the DAY leg round-tripped toward flat (Brent ~flat, desk intraday) while the WEEK regime (~+11%) holds and the
-> long end eased — so no fresh intraday premium for the won to firm through; the won firmed on the SOFT DOLLAR, not oil.
-> More clearly confounded than 12Z → TESTS, does not resolve.
+> **★ Live-shock + subsequent reads, all Korea-only (date-by-date archived in windows).** 08-31 12Z TESTED LIVE
+> under the run's largest crude shock (Brent ~+3.27% / WTI ~+3.78%) yet the won FIRMED −0.92% with DXY flat (−0.16%)
+> — idiosyncratic strength ~5–6× the dollar, AGAINST the channel (a live-shock refutation, distinct from a carried one).
+> Across 09-02→09-03 the won stayed idiosyncratic-to-firming through a persistent-then-fading premium (consistent with
+> 08-21), but every crude read was NON-SETTLE with a soft dollar CONFOUNDING the won leg → a weak input TESTS, does not
+> resolve (input grade caps the verdict).
 
 ---
 
