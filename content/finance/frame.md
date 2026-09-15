@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-15T00:47Z
+updated: 2026-09-15T07:14Z
 ---
 
 ## How to use this file
@@ -108,10 +108,9 @@ counterexample with any axis a later window adopts.
 
 **Korea — ★ WIDEN PASSES FOR THE FIRST TIME (Wed 09-09), on price and breadth — and FAILS on
 foreign demand.** `confirms` 09-02, `reverses` 09-04 and 09-07, **NO-WIDEN 09-08** (red close), and
-then a **record close +1.40%, KOSDAQ +2.28% LEADING** — breadth passed in an UP session. **BUT THE
-DEMAND LEG DID NOT CONFIRM:** foreign net SOLD the KOSPI and BOUGHT KOSDAQ, rotating *out* of the
-mega-cap chip leg, while institutions carried the record. **The split is the finding; it is not
-resolved by picking the half that flatters the call.** Watch: do foreign return to the chip names or keep distributing
+then a **record close +1.40%** on which **the demand leg did NOT confirm** — foreign sold the KOSPI
+and bought KOSDAQ. **The split is the finding; it is not resolved by picking the half that flatters
+the call.** Watch: do foreign return to the chip names or keep distributing
 into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nvidia sold) and Korea
 did **not** transmit it. Detail is `finance-ko`'s.
 
@@ -124,26 +123,28 @@ is on the settle-block host allowlist, so no Monday absolute is DECLARED). **A p
 base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Mon 09-14 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,684.37 / −3.26%**
-· KOSDAQ **806.79 / −1.69%** · SK Hynix **W1,697,000 / −6.35%** · Samsung **W249,000 / −4.05%** ·
-SK Square **W1,000,000 / −8.17%** — chip-led, and unlike Friday it **HELD the down open** (no
-recovery). **Gate 4 *confirms* (3rd), a 4th straight foreign net-selling session and the largest
-(−32,875)** — the front-run still not bought back; **retail** remains the lone marginal buyer
-(+29,722) with institutions selling again (−11,715). ★ **But the selling CONCENTRATED in KOSPI while
-KOSDAQ was spared (−931)** — 09-10 sold both boards; a macro risk-off hits both, so the breadth says
-**chip-SPECIFIC within a macro backdrop**, not macro-broad — **SCORED 09-15 00Z against a bar fixed
-pre-session: CONFIRMED BY 1.28 INDEX POINTS. Held, not established.** Never write the label without
-the margin. Legs: S&P **−0.4832%** vs the −0.50% line (**+0.0168pp** — the −0.50% level sat at
-7,618.70, the close 7,619.98); memory mean **−4.92%** (Micron −5.25 / SanDisk −4.98 / WDC −4.53),
-**3 of 3** past −2.0; Nvidia control −3.36. **★ The two MAGNITUDE legs passed comfortably; the BROAD
-leg — made the discriminating one deliberately, since both hypotheses predict memory-down — landed on
-the boundary.** So a sharp threshold on a continuous quantity gave a crisp verdict whose crispness is
-an artifact: −0.48% and −0.52% are not substantively different and score oppositely. Pre-registered:
-a CONFIRM here is the LOW-INFORMATION outcome (branch 1 was expected). Also pre-accepted: just-outside
-fails, so just-inside passes — not re-argued. **Level-bar discipline VINDICATED empirically:** at 18Z
-leg 1 had 0.22pp of room and closed with 0.017pp; banking the intraday would have logged a comfortable
-pass where the truth was a hair. The gate-4 *confirms* SCORE is a flow fact regardless — only the WHY
-was under test. ★ **Semi-switch FIRED DOWN — the first
+**Korea (Tue 09-15 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,627.26 / −0.85%**
+· KOSDAQ **812.41 / +0.70%** · SK Hynix **W1,690,000 / −0.41%** · Samsung **W248,500 / −0.20%** ·
+SK Square **W1,000,000 / 0.00%**. **Gate 4 *confirms* (4th) on the metric — a 5th straight foreign
+net-selling session — but DECELERATING** (foreign −15,711, roughly half Monday's −32,875; the index
+fell a quarter of Monday's move). **★ AND THE *confirms*' OWN MECHANISM CLAUSE IS FALSE TODAY: the
+CHIPS OUTPERFORMED** a −0.85% index, all three, even as US memory settled −4.92% — so the fade was
+NON-CHIP large-cap outflow, with foreign **BUYING** the KOSDAQ (+238). **★ THIS EXPOSES A HOLE IN THE
+DESK'S OWN DISCRIMINATOR:** the KOSPI-vs-KOSDAQ flow split is **large-cap-vs-small-cap as much as
+chip-vs-non-chip** — both predict the same flow. Monday's chip PRICE leadership is what actually
+identified the mechanism; **the flow leg took credit for work the price leg did.** Flow breadth is
+NECESSARY, NOT SUFFICIENT: chip-specific needs the chip complex to underperform in the same session.
+So Monday's reading (below) rests on **one** good observation — the US settle — not two.
+(`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Monday's breadth said
+**chip-SPECIFIC within a macro backdrop** — **SCORED 09-15 00Z against a pre-session bar: CONFIRMED
+BY 1.28 INDEX POINTS. Held, not established.** Never write the label without the margin. Legs: S&P
+**−0.4832%** vs the −0.50% line (**+0.0168pp**; the line sat at 7,618.70, the close 7,619.98); memory
+mean **−4.92%**, **3 of 3** past −2.0; Nvidia −3.36. **★ The MAGNITUDE legs passed comfortably; the
+BROAD leg — the discriminating one by design — landed on the boundary.** A sharp threshold on a
+continuous quantity gives a crisp verdict whose crispness is an **artifact**. Pre-registered: a
+CONFIRM here is the **LOW-INFORMATION** outcome; and just-outside fails, so just-inside passes —
+not re-argued. **Level-bar discipline VINDICATED:** at 18Z leg 1 had 0.22pp of room and closed with
+0.017pp. The gate-4 SCORE is a flow fact regardless — only the WHY was under test. ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **USD/KRW: no fixing
 declared**; the won's +0.24% weakening is **entirely the dollar** (DXY +0.32%), no idiosyncratic
 move, so the **oil-import channel is UNTESTED** this session — not supported, not refuted.
@@ -196,12 +197,9 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
 is built from. They read identically until 09-03 (every earlier fired antecedent carried an INERT
 anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Fri 09-04's reset.
-**SCORED Tue 09-08: UNTESTABLE — anchor INERT (+2bp), index leg did NOT fire.** **Counters STAY at 0
-— a STAY, not a RESET:** a RESET is a *fired* antecedent expiring; nothing was pending. **The
-pathology-enabling leg keeps being present; the falsifier waits on the INDEX leg, not the anchor.**
-**Fri 09-04's correction still stands: a 12Z window called the switch "vindicated, hard" off an
-INTRADAY, which this frame forbids — the settle said INERT.** Branches stamped pre-settle, so nothing
-was fitted. **Earliest trip TUESDAY 09-08** (Mon 09-07
+**Counters STAY at 0 — a STAY, not a RESET:** a RESET is a *fired* antecedent expiring; nothing was
+pending. **The falsifier waits on the INDEX leg, not the anchor.** **A 12Z window once called the
+switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **Earliest trip TUESDAY 09-08** (Mon 09-07
 is Labor Day, US shut; Korea trades).
 
 **Prior scores, compressed:** **Tue 09-01** — UNTESTABLE, STAYS, 2Y **+5bp RESPONDED**; **Wed 09-02** —
