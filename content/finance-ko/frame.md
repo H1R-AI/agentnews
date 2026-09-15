@@ -52,7 +52,7 @@ print.
 %-move) for **Samsung + SK Hynix + SK Square** against total index net points. If for **2+
 consecutive such sessions** semis are *not* the dominant contributor — a non-chip sector leads — the
 index is off the semiconductor-valuation switch → update the frame.
-> **Status: CONFIRMED / ON — FIRED again 09-14 06Z (DOWN).** Prior fires both directions: 09-07 (+4.61%, semis dominant SK Hynix +8.26% / Samsung +5.68%, the Astra melt-up UP), 09-02 (−3.99% de-rate DOWN, memory-led), 08-18 (−5.80% de-rate) and 08-20 (+5.89% round-trip, SK Hynix +12.73% carrying it). Did-NOT-test (sub-±2%): 08-21 (+0.88%), 09-03 (+0.26%, semis red under a green index — watch, not a break), 09-09 (+1.40%, SK Hynix +3.51% led). **09-11 did NOT test** (−1.76% close; ARMED at the >±2% open but did NOT clear = untested, NOT nearly-tripped). **★ 09-14 06Z FIRED DOWN — the first ±2%-clearing close since 09-07** (−3.26% >±2%; chips dominant — SK Square −8.17% / SK Hynix −6.35% / Samsung −4.05%) → semis the dominant contributor = switch CONFIRMED intact; Friday only armed-at-open then failed, today arms AND clears at the close (which is what scores it). **09-15 06Z did NOT test** (−0.85% close, nowhere near ±2% — not a near-miss); FIRED-DOWN status stands, un-retested.
+> **Status: CONFIRMED / ON — FIRED 09-14 06Z (DOWN).** Prior fires both directions: 09-07 (+4.61%, semis dominant, Astra melt-up UP), 09-02 (−3.99% DOWN, memory-led), 08-18 (−5.80%), 08-20 (+5.89% round-trip). Did-NOT-test (sub-±2%): 09-03 (semis red under a green index — watch), 09-09 (+1.40%, SK Hynix led), 09-11 (−1.76%, ARMED at the open but did NOT clear = untested). **★ 09-14 FIRED DOWN** — first ±2%-clearing close since 09-07 (−3.26%; chips dominant SK Square −8.17 / SK Hynix −6.35 / Samsung −4.05) → semis dominant = CONFIRMED intact. **09-15 did NOT test** (−0.85%, nowhere near ±2% — not a near-miss); FIRED-DOWN stands.
 >
 > **★ The switch is intact but the mechanism underneath it CHANGED.** Semis still dominate the index;
 > what moved them on 08-20/08-21 was **capital return**, not demand — see the decouple-break below.
@@ -86,7 +86,7 @@ a systematic drag on oil-sensitive sectors?
 > **★ Scope per market, never Asia-wide.** The same claim **operated in Japan** (08-18) while Korea refuted it — true in
 > one market and false in another is **TOO COARSE**, a verdict about the claim's granularity, not the world.
 >
-> **★ Live-shock (archived).** 08-31 12Z under the largest crude shock (Brent ~+3.27%) the won FIRMED −0.92% with DXY flat — idiosyncratic strength AGAINST the channel; 09-02→09-03 stayed idiosyncratic-to-firming on non-settle reads — a weak input TESTS, does not resolve.
+> **★ Live-shock (archived).** 08-31 12Z under the largest crude shock (Brent ~+3.27%) the won FIRMED −0.92% with DXY flat — idiosyncratic strength AGAINST the channel; 09-02→09-03 stayed idiosyncratic-to-firming on non-settle reads — a weak input TESTS, does not resolve. **★ 09-15: the FIRST idiosyncratic weakening in the channel's PREDICTED direction — won +0.81% vs dollar +0.28% = ~0.53pp residual, crude firm — but an OBSERVATION not a test (no crude settle to pair, different clocks); do NOT upgrade. Mirror of 09-14's −0.16pp dollar-only null.**
 
 ---
 
