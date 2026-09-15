@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-15T07:14Z
+updated: 2026-09-15T12:05Z
 ---
 
 ## How to use this file
@@ -61,15 +61,15 @@ by reading a neighbouring metadata field.
 **Two challengers to the standing switch:**
 1. **The oil / geopolitics tail — now a WEEKLY regime, not a daily premium.** Crude ran **~+11% over
    the week to 09-03** (two-sourced) on US–Iran/Hormuz escalation whose mechanism is **claimed, not
-   confirmed** (US says Iran prepared to mine the strait; expert scepticism and an Iranian
-   counter-claim, each attributed). **★ MEASURED 09-10 and the long end did NOT follow: crude settled
-   +6.69% and the curve BEAR-FLATTENED — 2Y +13 / 5Y +14 / 10Y +12 / 30Y +9, so the long end moved
-   LEAST (30Y−2Y −4bp, 30Y−10Y −3bp, both clear of the ±1bp CMT floor).** First reading all week
-   outside quantisation, on the largest crude move yet: still escalation premium, **not** a
-   term-premium regime. One session — a regime is not scored on one. **The channel is TOO COARSE as one claim and must be scored per
+   confirmed**. **★ MEASURED 09-10: the long end did NOT follow — crude settled +6.69% and the curve
+   BEAR-FLATTENED (30Y−2Y −4bp, 30Y−10Y −3bp, clear of the ±1bp CMT floor).** Outside quantisation,
+   on the largest crude move yet: still escalation premium, **not** a term-premium regime. **Durability
+   now 3 readings (crude up / down / up), the curve flattening through all three — read as FED-PATH,
+   crude-direction-independent; the 3rd was FOMC-eve, so: unchanged, confound noted, NOT an upgrade.** **The channel is TOO COARSE as one claim and must be scored per
    market:** it operated in **Japan** (08-18), is **REFUTED for Korea on the won** (08-21), and that
-   refutation is **UNDER TEST on a weakening basis** — the won keeps firming, but through a
-   *deflating-then-refirming* premium and on a soft dollar, so it TESTS and cannot SETTLE.
+   refutation is **UNDER TEST, and 09-15 REVERSED the sign** — the won had kept firming through the
+   run; it has now weakened **idiosyncratically** (+0.53pp beyond the dollar) for the first time,
+   which is the channel's predicted direction. One unpaired observation: it TESTS nothing yet.
    **Neither edition can see this alone.** Scores at a jong-ga, at a settle, controls checked AT it.
    Never score it Asia-wide.
 2. **AI valuation-vs-demand.** Demand keeps validating; the market repeatedly sells the spend. Every
@@ -106,13 +106,9 @@ receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia 
 **AVGO**, bought hardest. **The tape discriminated and we cannot say on what** — name the
 counterexample with any axis a later window adopts. 
 
-**Korea — ★ WIDEN PASSES FOR THE FIRST TIME (Wed 09-09), on price and breadth — and FAILS on
-foreign demand.** `confirms` 09-02, `reverses` 09-04 and 09-07, **NO-WIDEN 09-08** (red close), and
-then a **record close +1.40%** on which **the demand leg did NOT confirm** — foreign sold the KOSPI
-and bought KOSDAQ. **The split is the finding; it is not resolved by picking the half that flatters
-the call.** Watch: do foreign return to the chip names or keep distributing
-into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nvidia sold) and Korea
-did **not** transmit it. Detail is `finance-ko`'s.
+**Korea — WIDEN passed once (09-09) on price and breadth and FAILED on foreign demand:** the record
+close came with foreign selling the KOSPI and buying KOSDAQ. **The split is the finding; it is not
+resolved by picking the half that flatters the call.** Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Mon 09-14 close, 20:00Z — DECLARED 2026-09-15 00Z):** UST **2Y 4.65 / 5Y 4.80 / 10Y 4.97 /
@@ -145,9 +141,11 @@ continuous quantity gives a crisp verdict whose crispness is an **artifact**. Pr
 CONFIRM here is the **LOW-INFORMATION** outcome; and just-outside fails, so just-inside passes —
 not re-argued. **Level-bar discipline VINDICATED:** at 18Z leg 1 had 0.22pp of room and closed with
 0.017pp. The gate-4 SCORE is a flow fact regardless — only the WHY was under test. ★ **Semi-switch FIRED DOWN — the first
-±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **USD/KRW: no fixing
-declared**; the won's +0.24% weakening is **entirely the dollar** (DXY +0.32%), no idiosyncratic
-move, so the **oil-import channel is UNTESTED** this session — not supported, not refuted.
+±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — THE THREAD REVERSED 09-15.** The onshore fixing moved **+10.90 (1,348.50 → 1,359.40),
++0.808%**, the **first >±10 of the run**, against a dollar of **+0.28%** — a **+0.53pp IDIOSYNCRATIC
+weakening**, the mirror of 09-14's −0.16pp dollar-only null and the first move in the oil channel's
+**predicted** direction. **Observation, not test** (no crude settle to pair, clocks differ): the
+channel stays **UNTESTED, not refuted**.
 ⚠️ **Gate 5: INSTRUMENT NOT PINNED — not ZERO** (finance-ko's word, adopted). Every
 `settles:` key enumerated — finance-ko carries only **KOSPI** (×31), so no won fixing was ever
 declared and the ±10 has always been **live-vs-live**. Candidate series DO exist (BOK ECOS `731Y001`;
@@ -246,11 +244,13 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 4. **Korea: the demand question — OVERTAKEN (gate 4 has scored both ways), kept for its method: the
    clean signal is the FLOW, not the price.** Next demand read: **Micron's late-September print**.
 
-5. **The won — count at ZERO; the bar kept verbatim because the two editions once stated one gate
-   with different leg definitions.** `finance-ko`'s bar: USD/KRW **>±10 won for 2+ consecutive
-   sessions** with **DXY *and* CNH** flat, **STRICT: |Δ| < 0.3%, so exactly 0.30% is NOT flat and the
-   control FAILS**. Scored 09-01 **UNTESTABLE, not a does-not-trip** — session one expired unpartnered,
-   so the magnitude leg failed first and the control leg was **never reached: MOOT**, not passed.
+5. **The won — ★ SESSION ONE IS LIVE (09-15), count no longer ZERO.** Bar (kept verbatim; the two
+   editions once stated this gate with different leg definitions): USD/KRW **>±10 won for 2+
+   consecutive sessions** with **DXY *and* CNH** flat, **STRICT: |Δ| < 0.3%; exactly 0.30% is NOT
+   flat**. 09-15 fired the magnitude leg (+10.90) with the **DXY leg INSIDE the bar** (+0.28%, by
+   0.02pp) but the control **INCOMPLETE** — not measured AT the fixing, CNH unverified — so
+   **UNTESTABLE, not failed**. **A 2nd consecutive >±10 fixing Wednesday with controls established
+   AT it is the run's FIRST TRIP since 08-31.**
 
 ---
 
