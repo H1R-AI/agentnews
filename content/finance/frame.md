@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-15T00:08Z
+updated: 2026-09-15T00:44Z
 ---
 
 ## How to use this file
@@ -80,14 +80,22 @@ by reading a neighbouring metadata field.
 
 ## Current state
 
-**Rates — ★ RESPONDED THREE SESSIONS RUNNING.** Newest DECLARED settle **Fri 09-11**:
-**2Y 4.63 / 5Y 4.78 / 10Y 4.96 / 30Y 5.35** (**+7/+3/+1/−2**), after Wed +4 and Thu +13.
-Under the **forward rule** (|Δ| ≤3bp INERT, ≥4bp RESPONDED, fixed 08-31 *before any 3 or 4 had ever
-printed*) **+13bp is RESPONDED** — no indeterminate cell. 10Y 4.95 is the **highest CMT close of
-2026**. **The scoring instrument is the settle, never an intraday** — earned twice this week: Wed's
-live 2Y read *inert* and the settle reversed it; Thu's intraday looked long-end-led and the settle
-says the opposite (below). **The pathology needs an INERT anchor**, so a violent tape against a
-*repricing* front is vindication — the front is repricing hard, so that defence is available.
+**Rates — ★ THE ANCHOR WENT INERT; the three-session RESPONDED run ENDS.** Newest DECLARED settle
+**Mon 09-14**: **2Y 4.65 / 5Y 4.80 / 10Y 4.97 / 30Y 5.34** (**+2/+2/+1/−1**) — **+2bp is INERT**
+(≤3bp), after Wed +4 / Thu +13 / Fri +7. **10Y 4.97 a fresh 2026 CMT high.** One INERT print after
+three RESPONDED is the front quiet into the FOMC, **not a regime turn — a claim about a regime scored
+on a single observation is this frame's recurring error.** Curve bear-flattened a third time
+(30Y−2Y −3bp, 30Y−10Y −2bp, both clear of the 1bp floor; **2s10s moved exactly 1bp = AT the floor =
+UNRESOLVED, not flatter**) while crude was UP — the third oil-durability reading, **FOMC-eve
+confounded: unchanged, confound noted, NOT an upgrade.** **US equities Mon 09-14: S&P 7,619.98 /
+Dow 52,421.20 / Nasdaq 26,186.41.** **Falsifier index leg DID NOT FIRE** on a complete 79-bar session
+(max excursions 0.84 / 0.56 / 1.28% vs the strict >1.50% bar) — **UNTESTABLE, counters STAY at 0.**
+Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
+no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice:
+a live 2Y read said *inert* and the settle reversed it; an intraday looked long-end-led and the settle
+said the opposite. **★ The pathology needs an INERT anchor — and as of 09-14 the anchor IS inert, so
+the "front is repricing hard" defence is no longer available.** The enabling leg is present; the
+falsifier now waits entirely on the INDEX leg.
 **Treasury buyback** (sb0607, long-dated buybacks ≥$4bn/op, effective 09-09) no longer caps the long
 end: the 30Y at **5.37** is now **above** the 5.31 it reached before it.
 
@@ -121,14 +129,19 @@ recovery). **Gate 4 *confirms* (3rd), a 4th straight foreign net-selling session
 (−32,875)** — the front-run still not bought back; **retail** remains the lone marginal buyer
 (+29,722) with institutions selling again (−11,715). ★ **But the selling CONCENTRATED in KOSPI while
 KOSDAQ was spared (−931)** — 09-10 sold both boards; a macro risk-off hits both, so the breadth says
-**chip-SPECIFIC within a macro backdrop**, not macro-broad — **but PROVISIONAL, under its first
-out-of-sample test.** Derived entirely inside Korea; scored **Tue 00Z at the settle** against a bar
-fixed pre-session (`50e4ee9`+`37e1425`+`08b3f11`). **The 12Z pre-open looked cleanly chip-specific
-(memory ~−6% vs a GREEN Dow future); by 18Z it had MATERIALLY FADED** — memory ~−4.0%, Dow red, gap
-~5.4pp → ~3.7pp. Partly thin-book exaggeration, as both reporters warned, and the desk's "unusually
-clean" read was overconfident. **Nothing is established either way**: a LEVEL bar is not monotone, so
-no intraday reading decides it. The gate-4 *confirms* SCORE is a flow fact regardless — only the WHY
-is under test. ★ **Semi-switch FIRED DOWN — the first
+**chip-SPECIFIC within a macro backdrop**, not macro-broad — **SCORED 09-15 00Z against a bar fixed
+pre-session: CONFIRMED BY 1.28 INDEX POINTS. Held, not established.** Never write the label without
+the margin. Legs: S&P **−0.4832%** vs the −0.50% line (**+0.0168pp** — the −0.50% level sat at
+7,618.70, the close 7,619.98); memory mean **−4.92%** (Micron −5.25 / SanDisk −4.98 / WDC −4.53),
+**3 of 3** past −2.0; Nvidia control −3.36. **★ The two MAGNITUDE legs passed comfortably; the BROAD
+leg — made the discriminating one deliberately, since both hypotheses predict memory-down — landed on
+the boundary.** So a sharp threshold on a continuous quantity gave a crisp verdict whose crispness is
+an artifact: −0.48% and −0.52% are not substantively different and score oppositely. Pre-registered:
+a CONFIRM here is the LOW-INFORMATION outcome (branch 1 was expected). Also pre-accepted: just-outside
+fails, so just-inside passes — not re-argued. **Level-bar discipline VINDICATED empirically:** at 18Z
+leg 1 had 0.22pp of room and closed with 0.017pp; banking the intraday would have logged a comfortable
+pass where the truth was a hair. The gate-4 *confirms* SCORE is a flow fact regardless — only the WHY
+was under test. ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **USD/KRW: no fixing
 declared**; the won's +0.24% weakening is **entirely the dollar** (DXY +0.32%), no idiosyncratic
 move, so the **oil-import channel is UNTESTED** this session — not supported, not refuted.
@@ -233,13 +246,11 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 4. **Korea: the demand question — OVERTAKEN (gate 4 has scored both ways), kept for its method: the
    clean signal is the FLOW, not the price.** Next demand read: **Micron's late-September print**.
 
-5. **The won — count at ZERO; the bar, kept verbatim because the two editions once stated one gate
-   with different leg definitions.** `finance-ko`'s bar: USD/KRW moves **>±10 won for 2+ consecutive
-   sessions** while **DXY *and* CNH** are flat, where **flat is STRICT: |Δ| < 0.3%, so exactly 0.30%
-   is NOT flat and the control FAILS**. **SCORED Tue 09-01 UNTESTABLE — not a does-not-trip:**
-   session one (Mon 08-31, −11.50) expired unpartnered when session two came in inside ±10, so the
-   count returned to ZERO. The magnitude leg fails first, so the strict control leg was **never
-   reached: MOOT**, not passed. A fresh sequence restarts from session one at the next >±10 settle.
+5. **The won — count at ZERO; the bar kept verbatim because the two editions once stated one gate
+   with different leg definitions.** `finance-ko`'s bar: USD/KRW **>±10 won for 2+ consecutive
+   sessions** with **DXY *and* CNH** flat, **STRICT: |Δ| < 0.3%, so exactly 0.30% is NOT flat and the
+   control FAILS**. Scored 09-01 **UNTESTABLE, not a does-not-trip** — session one expired unpartnered,
+   so the magnitude leg failed first and the control leg was **never reached: MOOT**, not passed.
 
 ---
 
