@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-14T18:07Z
+updated: 2026-09-15T00:08Z
 ---
 
 ## How to use this file
@@ -100,14 +100,10 @@ counterexample with any axis a later window adopts.
 
 **Korea — ★ WIDEN PASSES FOR THE FIRST TIME (Wed 09-09), on price and breadth — and FAILS on
 foreign demand.** `confirms` 09-02, `reverses` 09-04 and 09-07, **NO-WIDEN 09-08** (red close), and
-now a **record close +1.40%** with **KOSDAQ +2.28% LEADING** — the gap inverts to −0.88pp **in an UP
-session**, which is the direction-conditioning the 09-08 metric lacked. Clean, not narrow: SK Hynix
-**+3.51%** *and* KOSDAQ both beat the index while Samsung sat flat — the inverse of Mon 09-07's two-name
-melt-up. **BUT THE DEMAND LEG DID NOT CONFIRM:** foreign **net SOLD** the KOSPI (−4,350) and **bought
-KOSDAQ (+2,252)** — rotating *out* of the mega-cap chip leg — while **institutions (+9,417) carried
-the record**. So *reverses* holds on price and the breadth test passes, but the foreign demand
-`reverses` actually requires **did not**. **The split is the finding; it is not resolved by picking
-the half that flatters the call.** Watch: do foreign return to the chip names or keep distributing
+then a **record close +1.40%, KOSDAQ +2.28% LEADING** — breadth passed in an UP session. **BUT THE
+DEMAND LEG DID NOT CONFIRM:** foreign net SOLD the KOSPI and BOUGHT KOSDAQ, rotating *out* of the
+mega-cap chip leg, while institutions carried the record. **The split is the finding; it is not
+resolved by picking the half that flatters the call.** Watch: do foreign return to the chip names or keep distributing
 into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nvidia sold) and Korea
 did **not** transmit it. Detail is `finance-ko`'s.
 
@@ -185,19 +181,12 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
 is built from. They read identically until 09-03 (every earlier fired antecedent carried an INERT
 anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Fri 09-04's reset.
-**SCORED Tue 09-08 (Mon 09-07 was Labor Day): UNTESTABLE — the anchor was INERT again and the index
-leg did NOT fire.** CMT **2Y 4.37 → 4.39 = +2bp**, inside the ≤3bp band with room (Fri 09-04's +3bp sat
-on the boundary; this does not). Max excursions **0.669 / 0.626 / 1.297%** (S&P/Nasdaq/Dow) vs the
-1.50% bar — the **Dow 0.203pp short**, its low 108.58 points above the line and **set before 18:00Z,
-never extending in the final two hours**, so 18Z's UNRESOLVED resolved to *not-fired* rather than to a
-late spike. **Counters STAY at 0 — a STAY, not a RESET:** a RESET is a *fired* antecedent expiring and
-nothing was pending. **★ THE RUN'S SHAPE: 3 of the last 4 trading sessions are INERT-anchor + no-fire**
-(09-02, 09-04, 09-08), with **09-03 the lone exception** where the anchor RESPONDED *and* the index
-FIRED. **The pathology-enabling leg keeps being present; the falsifier is waiting on the INDEX leg,
-not the anchor.** Description of the run so far, not a forecast. **Fri 09-04's own score stands
-(UNTESTABLE, +3bp INERT), and so does the correction it carried: our 12Z window called the switch
-"vindicated, hard" off an INTRADAY, which this frame's rule forbids — the settle said INERT.** Branches were stamped pre-settle
-(`4449cae`, `30d2148`, `d477e9c`), so nothing was fitted. **Earliest trip TUESDAY 09-08** (Mon 09-07
+**SCORED Tue 09-08: UNTESTABLE — anchor INERT (+2bp), index leg did NOT fire.** **Counters STAY at 0
+— a STAY, not a RESET:** a RESET is a *fired* antecedent expiring; nothing was pending. **The
+pathology-enabling leg keeps being present; the falsifier waits on the INDEX leg, not the anchor.**
+**Fri 09-04's correction still stands: a 12Z window called the switch "vindicated, hard" off an
+INTRADAY, which this frame forbids — the settle said INERT.** Branches stamped pre-settle, so nothing
+was fitted. **Earliest trip TUESDAY 09-08** (Mon 09-07
 is Labor Day, US shut; Korea trades).
 
 **Prior scores, compressed:** **Tue 09-01** — UNTESTABLE, STAYS, 2Y **+5bp RESPONDED**; **Wed 09-02** —
