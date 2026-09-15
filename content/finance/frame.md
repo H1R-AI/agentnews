@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-15T00:44Z
+updated: 2026-09-15T00:47Z
 ---
 
 ## How to use this file
@@ -27,9 +27,9 @@ an inert 2Y under a violent equity tape is the pathology the falsifier watches f
 re-reading of the old.** **The switch stays VINDICATED: the anchor moves when pushed** — a claim that
 never depended on where the front sits.
 
-**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS.** **A claim about a REGIME
-scored on a single observation** is the recurring error: a level is not abandoned because one settle
-left it, any more than it is established because four sat on it.
+**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS.** **A REGIME claim scored on
+a single observation** is the recurring error: a level is not abandoned because one settle left it,
+any more than established because four sat on it.
 
 **★ AND THE SETTLE THAT BROKE THE OLD CAVEAT WAS PUBLISHED IN PROSE, NEVER DECLARED** in a `settles:`
 block — so neither C1's chain nor this narrative absorbed it, and I carried an inverted caveat two
@@ -42,11 +42,11 @@ swept the mentions). **Mechanism: when a gate's status changes, grep the frame f
 and fix every hit in the same commit.**
 
 **Level/direction and inertness are ORTHOGONAL axes** — a retrace on a large move is a live anchor
-repricing, not pathology. (I collapsed the two on 08-26; both reporters caught it first.)
+repricing, not pathology. (Collapsed on 08-26; both reporters caught it first.)
 
 **Read the instrument before the finding.** CMT prints to 1bp, so a 1bp difference is never a
-resolvable shape — authority and resolution are different properties. This is why 08-27's uniform
-+1bp is *unchanged*, not a parallel move.
+resolvable shape — authority and resolution differ. 08-27's uniform +1bp is *unchanged*, not a
+parallel move.
 
 **The contested axis is AI-as-inflation-input**, genuinely two-sided — **Hammack**: AI demand is
 inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> dovish. Neither has
@@ -116,12 +116,14 @@ into strength. The Astra bid faded in the US (Micron flat, SanDisk gave back, Nv
 did **not** transmit it. Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Fri 09-11 close, 20:00Z — DECLARED 2026-09-14 00Z):** UST **2Y 4.63 / 5Y 4.78 / 10Y 4.96 /
-30Y 5.35** (CMT; **+7/+3/+1/−2** — the long end FELL) · S&P **7,656.98** / Nasdaq **26,333.04** /
-Dow **52,573.29** · **WTI 100.05** (NYMEX settle, now **two-sourced** — the completed Yahoo bar
-matches) · gold **4,408.90**
+**US (Mon 09-14 close, 20:00Z — DECLARED 2026-09-15 00Z):** UST **2Y 4.65 / 5Y 4.80 / 10Y 4.97 /
+30Y 5.34** (CMT; **+2/+2/+1/−1** — anchor INERT, long end FELL again) · S&P **7,619.98** / Nasdaq
+**26,186.41** / Dow **52,421.20**. **WTI and gold carry FRIDAY's declared absolutes — WTI 100.05,
+gold 4,408.90** — because Monday's moves were reported as percentages only (~+1.3% / ~−1.3%; neither
+is on the settle-block host allowlist, so no Monday absolute is DECLARED). **A percentage is not a
+base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
-mismatch), so no Brent number is established; last ICE settle-LABELLED **88.58**, Tue 08-25.
+mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
 **Korea (Mon 09-14 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,684.37 / −3.26%**
 · KOSDAQ **806.79 / −1.69%** · SK Hynix **W1,697,000 / −6.35%** · Samsung **W249,000 / −4.05%** ·
 SK Square **W1,000,000 / −8.17%** — chip-led, and unlike Friday it **HELD the down open** (no
@@ -237,7 +239,7 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 
 ## Next gates
 
-1. **Jackson Hole — PASSED 08-28, resolved nothing.** Slot kept for numbering.
+1. **Jackson Hole — PASSED 08-28, resolved nothing.** Numbering only.
 2. **Sept 15-16 FOMC** — the durability catalyst.
 3. **The 4.19 attractor — CLOSED (dead), Tue 09-01. Nothing further scores here.** Surviving finding:
    the gate was **TOO COARSE** — "no direction" is returned by a random walk *and* by mean reversion,
