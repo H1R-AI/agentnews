@@ -127,16 +127,15 @@ foreign-demand return. **The split is the finding, not the half that flatters th
 **★ GATE 5 — THE SEQUENCE EXPIRED, sub-±10 on BOTH candidate bases** (+8.90 vs the fixing; +4.60 vs
 the dated series), so the verdict does not turn on which is right. Count → **ZERO: UNTESTABLE /
 branch b, NOT a does-not-trip** (magnitude failed first, control MOOT). **★ INSTRUMENT IDENTIFIED:**
-a native FX wrap publishes an explicit **"15:30 reference rate" = 1,359.40**; the Naver dated row
+a native FX wrap names an explicit **"15:30 reference rate" = 1,359.40**; the Naver dated row
 (1,363.70) is the **evening/24h** series. The gate is written on the **fixing** — never chain across
-the two. The won stays a **labeled read**, not a declarable settle (the endpoint reads OPEN).
+the two. The won stays a **labeled read** (the endpoint reads OPEN).
 **★★ OIL-IMPORT CHANNEL — FIRST SUPPORTIVE READING SINCE 08-21**, on the first clean
 crude-settle-beside-won-fixing pairing in four weeks: **won +0.655% weaker** against a **dollar of
 −0.063%** = **idiosyncratic residual +0.72pp**, above resolving power. **SUPPORTIVE, NOT overturned** — one reading against a
 refutation standing since 08-21.
 **★ METHOD: the control AT the fixing is routine** — `DX-Y.NYB` at `interval=5m`, the bar at/before
-06:30Z; the daily bar cannot, which is why that leg kept returning INCOMPLETE. CNH unverified →
-control not yet COMPLETE.
+06:30Z; the daily bar cannot, which is why that leg kept returning INCOMPLETE. CNH unverified.
 **★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
 chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE leg identifies.
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Monday's breadth said
