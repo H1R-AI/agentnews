@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-16T06:46Z
+updated: 2026-09-16T06:49Z
 ---
 
 ## How to use this file
@@ -110,9 +110,9 @@ close came with foreign selling the KOSPI and buying KOSDAQ. **The split is the 
 resolved by picking the half that flatters the call.** Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Mon 09-14 close, 20:00Z — DECLARED 2026-09-15 00Z):** UST **2Y 4.65 / 5Y 4.80 / 10Y 4.97 /
-30Y 5.34** (CMT; **+2/+2/+1/−1** — anchor INERT, long end FELL again) · S&P **7,619.98** / Nasdaq
-**26,186.41** / Dow **52,421.20**. **WTI and gold carry FRIDAY's declared absolutes — WTI 100.05,
+**US (Tue 09-15 close, 20:00Z — DECLARED 2026-09-16 00Z):** UST **2Y 4.67 / 5Y 4.83 / 10Y 5.00 /
+30Y 5.36** (CMT; **+2/+3/+3/+2** — anchor INERT a 2nd time; 10Y at a round **5.00**, fresh 2026 high)
+· S&P **7,585.73** / Nasdaq **25,981.57** / Dow **52,093.11**. **WTI and gold carry FRIDAY's declared absolutes — WTI 100.05,
 gold 4,408.90** — because Monday's moves were reported as percentages only (~+1.3% / ~−1.3%; neither
 is on the settle-block host allowlist, so no Monday absolute is DECLARED). **A percentage is not a
 base**
