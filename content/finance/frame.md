@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-15T12:05Z
+updated: 2026-09-16T00:06Z
 ---
 
 ## How to use this file
@@ -59,13 +59,16 @@ was not the field the comparison used.** Verify a basis by PRICING against a kno
 by reading a neighbouring metadata field.
 
 **Two challengers to the standing switch:**
-1. **The oil / geopolitics tail — now a WEEKLY regime, not a daily premium.** Crude ran **~+11% over
-   the week to 09-03** (two-sourced) on US–Iran/Hormuz escalation whose mechanism is **claimed, not
-   confirmed**. **★ MEASURED 09-10: the long end did NOT follow — crude settled +6.69% and the curve
-   BEAR-FLATTENED (30Y−2Y −4bp, 30Y−10Y −3bp, clear of the ±1bp CMT floor).** Outside quantisation,
-   on the largest crude move yet: still escalation premium, **not** a term-premium regime. **Durability
-   now 3 readings (crude up / down / up), the curve flattening through all three — read as FED-PATH,
-   crude-direction-independent; the 3rd was FOMC-eve, so: unchanged, confound noted, NOT an upgrade.** **The channel is TOO COARSE as one claim and must be scored per
+1. **The oil / geopolitics tail — a WEEKLY regime, not a daily premium.** **★ The catalyst is no
+   longer only CLAIMED:** the earlier Hormuz-mining *intent* was claimed-not-confirmed, but Saudi's
+   **East-West pipeline is physically OFFLINE** — a reported supply removal, a different epistemic
+   object, and it must not inherit the old caveat. **★ DURABILITY — 4 readings, and the 4th BROKE the
+   pattern.** Readings 1-3 (crude up/down/up) all bear-flattened (−4/−3/−3bp, clear of the floor),
+   read as FED-PATH and crude-direction-independent. **09-15: crude settled sharply UP and the curve
+   did NOT flatten — 2s10s +1bp, 2s30s 0bp, BOTH AT/BELOW the 1bp CMT floor = UNRESOLVED,** not
+   steepened and not flattened. **The flattening did not CONTINUE** — a break in the sequence, not yet
+   a reading against; FOMC-eve positioning dominated. This is the pre-registered against-case
+   arriving on the only reading that could produce it. **The channel is TOO COARSE as one claim and must be scored per
    market:** it operated in **Japan** (08-18), is **REFUTED for Korea on the won** (08-21), and that
    refutation is **UNDER TEST, and 09-15 REVERSED the sign** — the won had kept firming through the
    run; it has now weakened **idiosyncratically** (+0.53pp beyond the dollar) for the first time,
@@ -81,15 +84,13 @@ by reading a neighbouring metadata field.
 ## Current state
 
 **Rates — ★ THE ANCHOR WENT INERT; the three-session RESPONDED run ENDS.** Newest DECLARED settle
-**Mon 09-14**: **2Y 4.65 / 5Y 4.80 / 10Y 4.97 / 30Y 5.34** (**+2/+2/+1/−1**) — **+2bp is INERT**
-(≤3bp), after Wed +4 / Thu +13 / Fri +7. **10Y 4.97 a fresh 2026 CMT high.** One INERT print after
-three RESPONDED is the front quiet into the FOMC, **not a regime turn — a claim about a regime scored
-on a single observation is this frame's recurring error.** Curve bear-flattened a third time
-(30Y−2Y −3bp, 30Y−10Y −2bp, both clear of the 1bp floor; **2s10s moved exactly 1bp = AT the floor =
-UNRESOLVED, not flatter**) while crude was UP — the third oil-durability reading, **FOMC-eve
-confounded: unchanged, confound noted, NOT an upgrade.** **US equities Mon 09-14: S&P 7,619.98 /
-Dow 52,421.20 / Nasdaq 26,186.41.** **Falsifier index leg DID NOT FIRE** on a complete 79-bar session
-(max excursions 0.84 / 0.56 / 1.28% vs the strict >1.50% bar) — **UNTESTABLE, counters STAY at 0.**
+**Tue 09-15**: **2Y 4.67 / 5Y 4.83 / 10Y 5.00 / 30Y 5.36** (**+2/+3/+3/+2**) — **+2bp is INERT, the
+SECOND consecutive**, after Wed +4 / Thu +13 / Fri +7 then Mon +2. **10Y 5.00 — a round number and a
+fresh 2026 CMT high.** Two INERT prints into the decision is the front quiet, **not a regime turn — a
+claim about a regime scored on one or two observations is this frame's recurring error.** **US
+equities Tue 09-15: S&P 7,585.73 / Dow 52,093.11 / Nasdaq 25,981.57.** **Falsifier index leg DID NOT
+FIRE** on a complete 79-bar session (max 0.62 / 1.04 / 0.93% vs the strict >1.50% bar) —
+**UNTESTABLE, counters STAY at 0** (a STAY, not a RESET).
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice:
 a live 2Y read said *inert* and the settle reversed it; an intraday looked long-end-led and the settle
@@ -134,13 +135,18 @@ So Monday's reading (below) rests on **one** good observation — the US settle 
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Monday's breadth said
 **chip-SPECIFIC within a macro backdrop** — **SCORED 09-15 00Z against a pre-session bar: CONFIRMED
 BY 1.28 INDEX POINTS. Held, not established.** Never write the label without the margin. Legs: S&P
-**−0.4832%** vs the −0.50% line (**+0.0168pp**; the line sat at 7,618.70, the close 7,619.98); memory
-mean **−4.92%**, **3 of 3** past −2.0; Nvidia −3.36. **★ The MAGNITUDE legs passed comfortably; the
-BROAD leg — the discriminating one by design — landed on the boundary.** A sharp threshold on a
-continuous quantity gives a crisp verdict whose crispness is an **artifact**. Pre-registered: a
-CONFIRM here is the **LOW-INFORMATION** outcome; and just-outside fails, so just-inside passes —
-not re-argued. **Level-bar discipline VINDICATED:** at 18Z leg 1 had 0.22pp of room and closed with
-0.017pp. The gate-4 SCORE is a flow fact regardless — only the WHY was under test. ★ **Semi-switch FIRED DOWN — the first
+**−0.4832%** vs the −0.50% line — **+0.0168pp**, i.e. 1.28 index points; memory mean −4.92%, 3 of 3
+past −2.0. **★ The discriminating BROAD leg landed on the boundary: a sharp threshold on a continuous
+quantity gives a crisp verdict whose crispness is an ARTIFACT.** Pre-registered as the
+**LOW-INFORMATION** outcome, and just-outside-fails means just-inside-passes, not re-argued.
+**★ 09-15 PERSISTENCE TEST — UNRESOLVED, and it did NOT get a second reading.** Scored against a
+*relative* instrument fixed pre-settle (memory mean − S&P; PERSISTS ≤ −2.5pp, BREAKS if memory leads;
+2.5pp **derived** from the original bar's implied gap, relative because it is immune to a tape the
+FOMC floats): **gap −1.04pp** (Micron **+0.39** / SanDisk −1.36 / WDC −3.51, mean −1.49; S&P −0.45) —
+1.46pp short of PERSISTS, 1.04pp short of BREAKS, near neither line. **★ And the complex is
+DISPERSING: member spread 3.90pp, 5× Monday's 0.72pp, with Micron GREEN on a red tape.** A claim
+about a CLASS needs the class to behave as one. **Chip-specific stays HELD, not established, on ONE
+reading.** ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — THE THREAD REVERSED 09-15.** The onshore fixing moved **+10.90 (1,348.50 → 1,359.40),
 +0.808%**, the **first >±10 of the run**, against a dollar of **+0.28%** — a **+0.53pp IDIOSYNCRATIC
 weakening**, the mirror of 09-14's −0.16pp dollar-only null and the first move in the oil channel's
@@ -244,13 +250,12 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 4. **Korea: the demand question — OVERTAKEN (gate 4 has scored both ways), kept for its method: the
    clean signal is the FLOW, not the price.** Next demand read: **Micron's late-September print**.
 
-5. **The won — ★ SESSION ONE IS LIVE (09-15), count no longer ZERO.** Bar (kept verbatim; the two
-   editions once stated this gate with different leg definitions): USD/KRW **>±10 won for 2+
-   consecutive sessions** with **DXY *and* CNH** flat, **STRICT: |Δ| < 0.3%; exactly 0.30% is NOT
-   flat**. 09-15 fired the magnitude leg (+10.90) with the **DXY leg INSIDE the bar** (+0.28%, by
-   0.02pp) but the control **INCOMPLETE** — not measured AT the fixing, CNH unverified — so
-   **UNTESTABLE, not failed**. **A 2nd consecutive >±10 fixing Wednesday with controls established
-   AT it is the run's FIRST TRIP since 08-31.**
+5. **The won — ★ SESSION ONE IS LIVE (09-15).** Bar: USD/KRW **>±10 for 2+ consecutive sessions**
+   with **DXY *and* CNH** flat, **STRICT |Δ| < 0.3%**. 09-15 fired the magnitude leg (+10.90) with the
+   **DXY leg INSIDE the bar** (+0.28%, by 0.02pp) but the control **INCOMPLETE** — not measured AT the
+   fixing, CNH unverified — so **UNTESTABLE, not failed**. **A 2nd consecutive >±10 fixing Wednesday
+   with controls established AT it is the run's FIRST TRIP since 08-31** — and the 06:30Z fixing
+   **precedes** both US events, so it is the cleanest read on a doubly-confounded day.
 
 ---
 
