@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-16T00:09Z
+updated: 2026-09-16T06:44Z
 ---
 
 ## How to use this file
@@ -69,10 +69,9 @@ by reading a neighbouring metadata field.
    steepened and not flattened. **The flattening did not CONTINUE** — a break in the sequence, not yet
    a reading against; FOMC-eve positioning dominated. This is the pre-registered against-case
    arriving on the only reading that could produce it. **The channel is TOO COARSE as one claim and must be scored per
-   market:** it operated in **Japan** (08-18), is **REFUTED for Korea on the won** (08-21), and that
-   refutation is **UNDER TEST, and 09-15 REVERSED the sign** — the won had kept firming through the
-   run; it has now weakened **idiosyncratically** (+0.53pp beyond the dollar) for the first time,
-   which is the channel's predicted direction. One unpaired observation: it TESTS nothing yet.
+   market:** it operated in **Japan** (08-18) and is **REFUTED for Korea on the won** (08-21) — a
+   refutation now **UNDER TEST**: 09-15 reversed the sign and **09-16 supplied the first clean
+   PAIRING and the first supportive reading** (Korea row above).
    **Neither edition can see this alone.** Scores at a jong-ga, at a settle, controls checked AT it.
    Never score it Asia-wide.
 2. **AI valuation-vs-demand.** Demand keeps validating; the market repeatedly sells the spend. Every
@@ -120,29 +119,38 @@ is on the settle-block host allowlist, so no Monday absolute is DECLARED). **A p
 base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Tue 09-15 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,627.26 / −0.85%**
-· KOSDAQ **812.41 / +0.70%** · SK Hynix **W1,690,000 / −0.41%** · Samsung **W248,500 / −0.20%** ·
-SK Square **W1,000,000 / 0.00%**. **Gate 4 *confirms* (4th) on the metric — a 5th straight foreign
-net-selling session — but DECELERATING** (foreign −15,711, roughly half Monday's −32,875; the index
-fell a quarter of Monday's move). **★ AND THE *confirms*' OWN MECHANISM CLAUSE IS FALSE TODAY: the
-CHIPS OUTPERFORMED** a −0.85% index, all three, even as US memory settled −4.92% — so the fade was
-NON-CHIP large-cap outflow, with foreign **BUYING** the KOSDAQ (+238). **★ THIS EXPOSES A HOLE IN THE
-DESK'S OWN DISCRIMINATOR:** the KOSPI-vs-KOSDAQ flow split is **large-cap-vs-small-cap as much as
-chip-vs-non-chip** — both predict the same flow. Monday's chip PRICE leadership is what actually
-identified the mechanism; **the flow leg took credit for work the price leg did.** Flow breadth is
-NECESSARY, NOT SUFFICIENT: chip-specific needs the chip complex to underperform in the same session.
+**Korea (Wed 09-16 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,717.97 / +1.37%**
+· KOSDAQ **815.98 / +0.44%** — **the run's FIRST up-close, chip-LED, the complex moving as a UNIT**
+(the mirror of Tuesday's US dispersion). **But foreign net-SOLD a SIXTH straight session** and
+institutions drove it — **foreign distributing into strength. The split is the finding; it is not
+resolved by picking the half that flatters the call** (as on 09-09).
+**★ GATE 5 — THE SEQUENCE EXPIRED.** Today's fixing came **sub-±10**: **+8.90** vs the 09-15 fixing
+1,359.40, **+4.60** vs the dated series' 1,363.70 — **sub-±10 on BOTH bases, so the verdict does not
+turn on which is right.** Count returns to **ZERO: UNTESTABLE / branch b, NOT a does-not-trip** — the
+magnitude leg failed first, so the control leg was **MOOT, never reached**.
+⚠ **Two live values for 09-15** — onshore **fixing 1,359.40** vs **dated 24h series 1,363.70**:
+*different instruments*, and the gate is written on the **fixing**. Never chain a base from one to a
+close from the other. finance-ko to reconcile.
+**★★ OIL-IMPORT CHANNEL — FIRST SUPPORTIVE READING SINCE 08-21**, on the first clean
+crude-settle-beside-won-fixing pairing in four weeks. Fixing-to-fixing: **won +0.655% weaker** against
+a **dollar of −0.063%** — flat, far inside the strict 0.3% bar — an **idiosyncratic residual +0.72pp**
+(≈+0.40pp on the other base), well above resolving power. **SUPPORTIVE, NOT overturned:** one reading
+against a refutation standing since 08-21. **★ METHOD — the control AT the fixing is now routine:**
+`DX-Y.NYB` at `interval=5m`, the bar at/just before 06:30Z. The daily bar cannot do it, which is why
+that leg kept returning INCOMPLETE. CNH still unverified, so the control is not yet COMPLETE.
+**★ 09-15's discriminator HOLE stands:** the KOSPI-vs-KOSDAQ flow split is
+**large-cap-vs-small-cap as much as chip-vs-non-chip**; the chip PRICE leg is the identifier, and
+**the flow leg took credit for work the price leg did.** Flow breadth is NECESSARY, NOT SUFFICIENT.
 So Monday's reading (below) rests on **one** good observation — the US settle — not two.
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Monday's breadth said
 **chip-SPECIFIC within a macro backdrop** — **SCORED 09-15 00Z against a pre-session bar: CONFIRMED
 BY 1.28 INDEX POINTS. Held, not established.** Never write the label without the margin. Legs: S&P
-**−0.4832%** vs the −0.50% line — **+0.0168pp**, i.e. 1.28 index points; memory mean −4.92%, 3 of 3
-past −2.0. **★ The discriminating BROAD leg landed on the boundary: a sharp threshold on a continuous
-quantity gives a crisp verdict whose crispness is an ARTIFACT.** Pre-registered as the
-**LOW-INFORMATION** outcome, and just-outside-fails means just-inside-passes, not re-argued.
+**−0.4832%** vs the −0.50% line — **1.28 index points**; memory mean −4.92%. **★ The discriminating
+BROAD leg landed on the boundary: a sharp threshold on a continuous quantity gives a crisp verdict
+whose crispness is an ARTIFACT.** Pre-registered as the **LOW-INFORMATION** outcome.
 **★ 09-15 PERSISTENCE TEST — UNRESOLVED; no second reading.** Relative instrument fixed pre-settle
-(memory mean − S&P; PERSISTS ≤ −2.5pp, BREAKS if memory leads; the 2.5pp **derived** from this bar's
-implied gap, relative because it is immune to a tape the FOMC floats): **gap −1.04pp** (Micron
-**+0.39** / SanDisk −1.36 / WDC −3.51; S&P −0.45) — near neither line. **★ The complex is DISPERSING:
+(memory mean − S&P; PERSISTS ≤ −2.5pp, BREAKS if memory leads; 2.5pp **derived** from this bar's
+implied gap): **gap −1.04pp** (Micron **+0.39** / SanDisk −1.36 / WDC −3.51; S&P −0.45). **★ The complex is DISPERSING:
 spread 3.90pp, 5× Monday's 0.72pp, Micron GREEN on a red tape.** A claim about a CLASS needs the class
 to behave as one. **Chip-specific stays HELD, not established, on ONE reading.** ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — THE THREAD REVERSED 09-15.** The onshore fixing moved **+10.90 (1,348.50 → 1,359.40),
