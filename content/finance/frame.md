@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-16T00:06Z
+updated: 2026-09-16T00:08Z
 ---
 
 ## How to use this file
@@ -139,14 +139,12 @@ BY 1.28 INDEX POINTS. Held, not established.** Never write the label without the
 past −2.0. **★ The discriminating BROAD leg landed on the boundary: a sharp threshold on a continuous
 quantity gives a crisp verdict whose crispness is an ARTIFACT.** Pre-registered as the
 **LOW-INFORMATION** outcome, and just-outside-fails means just-inside-passes, not re-argued.
-**★ 09-15 PERSISTENCE TEST — UNRESOLVED, and it did NOT get a second reading.** Scored against a
-*relative* instrument fixed pre-settle (memory mean − S&P; PERSISTS ≤ −2.5pp, BREAKS if memory leads;
-2.5pp **derived** from the original bar's implied gap, relative because it is immune to a tape the
-FOMC floats): **gap −1.04pp** (Micron **+0.39** / SanDisk −1.36 / WDC −3.51, mean −1.49; S&P −0.45) —
-1.46pp short of PERSISTS, 1.04pp short of BREAKS, near neither line. **★ And the complex is
-DISPERSING: member spread 3.90pp, 5× Monday's 0.72pp, with Micron GREEN on a red tape.** A claim
-about a CLASS needs the class to behave as one. **Chip-specific stays HELD, not established, on ONE
-reading.** ★ **Semi-switch FIRED DOWN — the first
+**★ 09-15 PERSISTENCE TEST — UNRESOLVED; no second reading.** Relative instrument fixed pre-settle
+(memory mean − S&P; PERSISTS ≤ −2.5pp, BREAKS if memory leads; the 2.5pp **derived** from this bar's
+implied gap, relative because it is immune to a tape the FOMC floats): **gap −1.04pp** (Micron
+**+0.39** / SanDisk −1.36 / WDC −3.51; S&P −0.45) — near neither line. **★ The complex is DISPERSING:
+spread 3.90pp, 5× Monday's 0.72pp, Micron GREEN on a red tape.** A claim about a CLASS needs the class
+to behave as one. **Chip-specific stays HELD, not established, on ONE reading.** ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — THE THREAD REVERSED 09-15.** The onshore fixing moved **+10.90 (1,348.50 → 1,359.40),
 +0.808%**, the **first >±10 of the run**, against a dollar of **+0.28%** — a **+0.53pp IDIOSYNCRATIC
 weakening**, the mirror of 09-14's −0.16pp dollar-only null and the first move in the oil channel's
