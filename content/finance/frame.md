@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-16T07:05Z
+updated: 2026-09-16T12:06Z
 ---
 
 ## How to use this file
@@ -149,17 +149,14 @@ whose crispness is an ARTIFACT.** Pre-registered as the **LOW-INFORMATION** outc
 (Micron **+0.39** / SanDisk −1.36 / WDC −3.51; S&P −0.45). **★ The complex is DISPERSING:
 spread 3.90pp, 5× Monday's 0.72pp, Micron GREEN on a red tape.** A claim about a CLASS needs the class
 to behave as one. **Chip-specific stays HELD, not established, on ONE reading.** ★ **Semi-switch FIRED DOWN — the first
-±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — THE THREAD REVERSED 09-15.** The onshore fixing moved **+10.90 (1,348.50 → 1,359.40),
-+0.808%**, the **first >±10 of the run**, against a dollar of **+0.28%** — a **+0.53pp IDIOSYNCRATIC
-weakening**, the mirror of 09-14's −0.16pp dollar-only null and the first move in the oil channel's
-**predicted** direction. **Observation, not test** (no crude settle to pair, clocks differ): the
-channel stays **UNTESTED, not refuted**.
-⚠️ **Gate 5: INSTRUMENT NOT PINNED — not ZERO** (finance-ko's word, adopted). Every
-`settles:` key enumerated — finance-ko carries only **KOSPI** (×31), so no won fixing was ever
-declared and the ±10 has always been **live-vs-live**. Candidate series DO exist (BOK ECOS `731Y001`;
-Naver dated) — simply not established as the 15:30 onshore fixing, and the gap between them **VARIES
-AND CHANGES SIGN** across settled days, spanning the band — so neither can be calibrated to the
-other. *(No range figure: it is a rolling window, so any range is a fact plus a date.)* Not *unobtainable*: **not pinned.**
+±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic, the mirror of
+09-14's dollar-only null) and **09-16 supplied the PAIRING** — see the Korea row.
+✅ **Gate 5 — THE INSTRUMENT IS NO LONGER UNPINNED.** A native FX wrap names an explicit **"15:30
+reference rate"**, which is the onshore fixing the gate is written on; the Naver dated row is the
+**evening/24h** series, a different quantity (they varied and changed sign precisely because they
+measure different things). **Still NOT DECLARABLE** — the endpoint reads OPEN and the settles
+allowlist points at the wrong series — so the won remains a **labeled read**. *Identifying what a
+number IS does not make it declarable.*
 **Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 
 
