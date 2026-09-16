@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-16T06:44Z
+updated: 2026-09-16T06:46Z
 ---
 
 ## How to use this file
@@ -59,21 +59,20 @@ was not the field the comparison used.** Verify a basis by PRICING against a kno
 by reading a neighbouring metadata field.
 
 **Two challengers to the standing switch:**
-1. **The oil / geopolitics tail — a WEEKLY regime, not a daily premium.** **★ The catalyst is no
-   longer only CLAIMED:** the Hormuz-mining *intent* was claimed-not-confirmed; Saudi's **East-West
-   pipeline is physically OFFLINE**, a reported supply removal and a different epistemic object that
-   must not inherit that caveat. **★ DURABILITY — 4 readings, and the 4th BROKE the
-   pattern.** Readings 1-3 (crude up/down/up) all bear-flattened (−4/−3/−3bp, clear of the floor),
-   read as FED-PATH and crude-direction-independent. **09-15: crude settled sharply UP and the curve
-   did NOT flatten — 2s10s +1bp, 2s30s 0bp, BOTH AT/BELOW the 1bp CMT floor = UNRESOLVED,** not
-   steepened and not flattened. **The flattening did not CONTINUE** — a break in the sequence, not yet
-   a reading against; FOMC-eve positioning dominated. This is the pre-registered against-case
-   arriving on the only reading that could produce it. **The channel is TOO COARSE as one claim and must be scored per
+1. **The oil / geopolitics tail — a WEEKLY regime, not a daily premium.** **★ The catalyst is no longer only CLAIMED:** the
+   Hormuz-mining *intent* was claimed-not-confirmed; Saudi's **East-West pipeline is physically
+   OFFLINE** — a reported supply removal, a different epistemic object that must not inherit that
+   caveat. **★ DURABILITY — 4 readings, the 4th BROKE the
+   pattern.** Readings 1-3 (crude up/down/up) all bear-flattened (−4/−3/−3bp, clear of the floor) —
+   read as FED-PATH, crude-direction-independent. **09-15: crude settled sharply UP and the curve did
+   NOT flatten (2s10s +1bp, 2s30s 0bp, both AT/BELOW the 1bp floor = UNRESOLVED).** The flattening
+   did not CONTINUE — a break in the sequence, not yet a reading against; FOMC-eve dominated. The
+   pre-registered against-case, on the only reading that could produce it. **The channel is TOO COARSE as one claim and must be scored per
    market:** it operated in **Japan** (08-18) and is **REFUTED for Korea on the won** (08-21) — a
    refutation now **UNDER TEST**: 09-15 reversed the sign and **09-16 supplied the first clean
    PAIRING and the first supportive reading** (Korea row above).
-   **Neither edition can see this alone.** Scores at a jong-ga, at a settle, controls checked AT it.
-   Never score it Asia-wide.
+   **Neither edition sees this alone.** Scores at a jong-ga/settle, controls checked AT it; never
+   Asia-wide.
 2. **AI valuation-vs-demand.** Demand keeps validating; the market repeatedly sells the spend. Every
    de-rate so far has been a **valuation/financing** event, not a demand break. **A third variable
    now confounds the pair: CAPITAL RETURN.** Keep all three separate.
@@ -121,27 +120,24 @@ base**
 mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
 **Korea (Wed 09-16 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,717.97 / +1.37%**
 · KOSDAQ **815.98 / +0.44%** — **the run's FIRST up-close, chip-LED, the complex moving as a UNIT**
-(the mirror of Tuesday's US dispersion). **But foreign net-SOLD a SIXTH straight session** and
-institutions drove it — **foreign distributing into strength. The split is the finding; it is not
-resolved by picking the half that flatters the call** (as on 09-09).
-**★ GATE 5 — THE SEQUENCE EXPIRED.** Today's fixing came **sub-±10**: **+8.90** vs the 09-15 fixing
-1,359.40, **+4.60** vs the dated series' 1,363.70 — **sub-±10 on BOTH bases, so the verdict does not
-turn on which is right.** Count returns to **ZERO: UNTESTABLE / branch b, NOT a does-not-trip** — the
-magnitude leg failed first, so the control leg was **MOOT, never reached**.
-⚠ **Two live values for 09-15** — onshore **fixing 1,359.40** vs **dated 24h series 1,363.70**:
-*different instruments*, and the gate is written on the **fixing**. Never chain a base from one to a
-close from the other. finance-ko to reconcile.
+(mirroring Tuesday's US dispersion). **But foreign net-SOLD a SIXTH straight session**, institutions
+drove it — **distributing into strength. The split is the finding, not resolved by picking the half
+that flatters the call.**
+**★ GATE 5 — THE SEQUENCE EXPIRED, sub-±10** (+8.90 vs the 09-15 **fixing** 1,359.40; +4.60 vs the
+**dated 24h series** 1,363.70 — **sub-±10 on BOTH, so the verdict does not turn on which is right**).
+Count → **ZERO: UNTESTABLE / branch b, NOT a does-not-trip** (magnitude failed first, control MOOT).
+⚠ Those two 09-15 values are **different instruments**; the gate is written on the **fixing**. Never
+chain a base from one to a close from the other.
 **★★ OIL-IMPORT CHANNEL — FIRST SUPPORTIVE READING SINCE 08-21**, on the first clean
-crude-settle-beside-won-fixing pairing in four weeks. Fixing-to-fixing: **won +0.655% weaker** against
-a **dollar of −0.063%** — flat, far inside the strict 0.3% bar — an **idiosyncratic residual +0.72pp**
-(≈+0.40pp on the other base), well above resolving power. **SUPPORTIVE, NOT overturned:** one reading
-against a refutation standing since 08-21. **★ METHOD — the control AT the fixing is now routine:**
-`DX-Y.NYB` at `interval=5m`, the bar at/just before 06:30Z. The daily bar cannot do it, which is why
-that leg kept returning INCOMPLETE. CNH still unverified, so the control is not yet COMPLETE.
-**★ 09-15's discriminator HOLE stands:** the KOSPI-vs-KOSDAQ flow split is
-**large-cap-vs-small-cap as much as chip-vs-non-chip**; the chip PRICE leg is the identifier, and
-**the flow leg took credit for work the price leg did.** Flow breadth is NECESSARY, NOT SUFFICIENT.
-So Monday's reading (below) rests on **one** good observation — the US settle — not two.
+crude-settle-beside-won-fixing pairing in four weeks: **won +0.655% weaker** against a **dollar of
+−0.063%** (flat, far inside the 0.3% bar) = **idiosyncratic residual +0.72pp**, above resolving power.
+**SUPPORTIVE, NOT overturned** — one reading against a refutation standing since 08-21.
+**★ METHOD: the control AT the fixing is now routine** — `DX-Y.NYB` at `interval=5m`, the bar
+at/before 06:30Z; the daily bar cannot, which is why that leg kept returning INCOMPLETE. CNH still
+unverified → control not yet COMPLETE.
+**★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
+chip-vs-non-chip**, so flow breadth is **NECESSARY, NOT SUFFICIENT** and the chip PRICE leg is the
+identifier. Monday's reading rests on **one** observation, not two.
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Monday's breadth said
 **chip-SPECIFIC within a macro backdrop** — **SCORED 09-15 00Z against a pre-session bar: CONFIRMED
 BY 1.28 INDEX POINTS. Held, not established.** Never write the label without the margin. Legs: S&P
@@ -256,12 +252,10 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 4. **Korea: the demand question — OVERTAKEN (gate 4 has scored both ways), kept for its method: the
    clean signal is the FLOW, not the price.** Next demand read: **Micron's late-September print**.
 
-5. **The won — ★ SESSION ONE IS LIVE (09-15).** Bar: USD/KRW **>±10 for 2+ consecutive sessions**
-   with **DXY *and* CNH** flat, **STRICT |Δ| < 0.3%**. 09-15 fired the magnitude leg (+10.90) with the
-   **DXY leg INSIDE the bar** (+0.28%, by 0.02pp) but the control **INCOMPLETE** — not measured AT the
-   fixing, CNH unverified — so **UNTESTABLE, not failed**. **A 2nd consecutive >±10 fixing Wednesday
-   with controls established AT it is the run's FIRST TRIP since 08-31** — and the 06:30Z fixing
-   **precedes** both US events, so it is the cleanest read on a doubly-confounded day.
+5. **The won — count back at ZERO; the 09-15 sequence EXPIRED at the 09-16 fixing (see Korea row).**
+   Bar: USD/KRW **>±10 for 2+ consecutive sessions** with **DXY *and* CNH** flat, **STRICT |Δ| < 0.3%**.
+   A fresh sequence restarts from session one at the next >±10 fixing. The 06:30Z fixing **precedes**
+   both US events, so it is the cleanest Korean instrument on a US-event day.
 
 ---
 
