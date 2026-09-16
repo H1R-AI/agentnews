@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-16T00:08Z
+updated: 2026-09-16T00:09Z
 ---
 
 ## How to use this file
@@ -60,9 +60,9 @@ by reading a neighbouring metadata field.
 
 **Two challengers to the standing switch:**
 1. **The oil / geopolitics tail — a WEEKLY regime, not a daily premium.** **★ The catalyst is no
-   longer only CLAIMED:** the earlier Hormuz-mining *intent* was claimed-not-confirmed, but Saudi's
-   **East-West pipeline is physically OFFLINE** — a reported supply removal, a different epistemic
-   object, and it must not inherit the old caveat. **★ DURABILITY — 4 readings, and the 4th BROKE the
+   longer only CLAIMED:** the Hormuz-mining *intent* was claimed-not-confirmed; Saudi's **East-West
+   pipeline is physically OFFLINE**, a reported supply removal and a different epistemic object that
+   must not inherit that caveat. **★ DURABILITY — 4 readings, and the 4th BROKE the
    pattern.** Readings 1-3 (crude up/down/up) all bear-flattened (−4/−3/−3bp, clear of the floor),
    read as FED-PATH and crude-direction-independent. **09-15: crude settled sharply UP and the curve
    did NOT flatten — 2s10s +1bp, 2s30s 0bp, BOTH AT/BELOW the 1bp CMT floor = UNRESOLVED,** not
@@ -86,8 +86,8 @@ by reading a neighbouring metadata field.
 **Rates — ★ THE ANCHOR WENT INERT; the three-session RESPONDED run ENDS.** Newest DECLARED settle
 **Tue 09-15**: **2Y 4.67 / 5Y 4.83 / 10Y 5.00 / 30Y 5.36** (**+2/+3/+3/+2**) — **+2bp is INERT, the
 SECOND consecutive**, after Wed +4 / Thu +13 / Fri +7 then Mon +2. **10Y 5.00 — a round number and a
-fresh 2026 CMT high.** Two INERT prints into the decision is the front quiet, **not a regime turn — a
-claim about a regime scored on one or two observations is this frame's recurring error.** **US
+fresh 2026 CMT high.** Two INERT prints into the decision is the front quiet, **not a regime turn — a regime
+claim scored on one or two observations is this frame's recurring error.** **US
 equities Tue 09-15: S&P 7,585.73 / Dow 52,093.11 / Nasdaq 25,981.57.** **Falsifier index leg DID NOT
 FIRE** on a complete 79-bar session (max 0.62 / 1.04 / 0.93% vs the strict >1.50% bar) —
 **UNTESTABLE, counters STAY at 0** (a STAY, not a RESET).
