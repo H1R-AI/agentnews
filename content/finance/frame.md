@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-16T06:49Z
+updated: 2026-09-16T07:05Z
 ---
 
 ## How to use this file
@@ -119,25 +119,26 @@ base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
 **Korea (Wed 09-16 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,717.97 / +1.37%**
-· KOSDAQ **815.98 / +0.44%** — **the run's FIRST up-close, chip-LED, the complex moving as a UNIT**
-(mirroring Tuesday's US dispersion). **But foreign net-SOLD a SIXTH straight session**, institutions
-drove it — **distributing into strength. The split is the finding, not resolved by picking the half
-that flatters the call.**
-**★ GATE 5 — THE SEQUENCE EXPIRED, sub-±10** (+8.90 vs the 09-15 **fixing** 1,359.40; +4.60 vs the
-**dated 24h series** 1,363.70 — **sub-±10 on BOTH, so the verdict does not turn on which is right**).
-Count → **ZERO: UNTESTABLE / branch b, NOT a does-not-trip** (magnitude failed first, control MOOT).
-⚠ Those two 09-15 values are **different instruments**; the gate is written on the **fixing**. Never
-chain a base from one to a close from the other.
+· KOSDAQ **815.98 / +0.44%** — **the run's FIRST up-close, chip-LED, the complex as a UNIT**
+(mirroring Tuesday's US dispersion). **★ GATE 4 — the four-session *confirms* run ENDS** (index bounced, no fade)
+**but does NOT flip to *reverses***: **foreign net-SOLD a SIXTH straight** (−16,825) while
+institutions (+12,104) drove it. **Price and flow DECOUPLED — a SPLIT**: domestic recovery, not a
+foreign-demand return. **The split is the finding, not the half that flatters the call.**
+**★ GATE 5 — THE SEQUENCE EXPIRED, sub-±10 on BOTH candidate bases** (+8.90 vs the fixing; +4.60 vs
+the dated series), so the verdict does not turn on which is right. Count → **ZERO: UNTESTABLE /
+branch b, NOT a does-not-trip** (magnitude failed first, control MOOT). **★ INSTRUMENT IDENTIFIED:**
+a native FX wrap publishes an explicit **"15:30 reference rate" = 1,359.40**; the Naver dated row
+(1,363.70) is the **evening/24h** series. The gate is written on the **fixing** — never chain across
+the two. The won stays a **labeled read**, not a declarable settle (the endpoint reads OPEN).
 **★★ OIL-IMPORT CHANNEL — FIRST SUPPORTIVE READING SINCE 08-21**, on the first clean
 crude-settle-beside-won-fixing pairing in four weeks: **won +0.655% weaker** against a **dollar of
-−0.063%** (flat, far inside the 0.3% bar) = **idiosyncratic residual +0.72pp**, above resolving power.
-**SUPPORTIVE, NOT overturned** — one reading against a refutation standing since 08-21.
-**★ METHOD: the control AT the fixing is now routine** — `DX-Y.NYB` at `interval=5m`, the bar
-at/before 06:30Z; the daily bar cannot, which is why that leg kept returning INCOMPLETE. CNH still
-unverified → control not yet COMPLETE.
+−0.063%** = **idiosyncratic residual +0.72pp**, above resolving power. **SUPPORTIVE, NOT overturned** — one reading against a
+refutation standing since 08-21.
+**★ METHOD: the control AT the fixing is routine** — `DX-Y.NYB` at `interval=5m`, the bar at/before
+06:30Z; the daily bar cannot, which is why that leg kept returning INCOMPLETE. CNH unverified →
+control not yet COMPLETE.
 **★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
-chip-vs-non-chip**, so flow breadth is **NECESSARY, NOT SUFFICIENT** and the chip PRICE leg is the
-identifier. Monday's reading rests on **one** observation, not two.
+chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE leg identifies.
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Monday's breadth said
 **chip-SPECIFIC within a macro backdrop** — **SCORED 09-15 00Z against a pre-session bar: CONFIRMED
 BY 1.28 INDEX POINTS. Held, not established.** Never write the label without the margin. Legs: S&P
@@ -145,8 +146,8 @@ BY 1.28 INDEX POINTS. Held, not established.** Never write the label without the
 BROAD leg landed on the boundary: a sharp threshold on a continuous quantity gives a crisp verdict
 whose crispness is an ARTIFACT.** Pre-registered as the **LOW-INFORMATION** outcome.
 **★ 09-15 PERSISTENCE TEST — UNRESOLVED; no second reading.** Relative instrument fixed pre-settle
-(memory mean − S&P; PERSISTS ≤ −2.5pp, BREAKS if memory leads; 2.5pp **derived** from this bar's
-implied gap): **gap −1.04pp** (Micron **+0.39** / SanDisk −1.36 / WDC −3.51; S&P −0.45). **★ The complex is DISPERSING:
+(memory mean − S&P; PERSISTS ≤ −2.5pp, BREAKS if memory leads): **gap −1.04pp**
+(Micron **+0.39** / SanDisk −1.36 / WDC −3.51; S&P −0.45). **★ The complex is DISPERSING:
 spread 3.90pp, 5× Monday's 0.72pp, Micron GREEN on a red tape.** A claim about a CLASS needs the class
 to behave as one. **Chip-specific stays HELD, not established, on ONE reading.** ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — THE THREAD REVERSED 09-15.** The onshore fixing moved **+10.90 (1,348.50 → 1,359.40),
