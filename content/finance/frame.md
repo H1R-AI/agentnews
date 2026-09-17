@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-17T00:25Z
+updated: 2026-09-17T06:40Z
 ---
 
 ## How to use this file
@@ -83,17 +83,15 @@ by reading a neighbouring metadata field.
 
 **Rates — ★ THE ANCHOR WENT INERT; the three-session RESPONDED run ENDS.** Newest DECLARED settle
 **★ THE FED HIKED 09-16 — +25bp to 3.75%–4.00%**, statement approved for release by a **12–0 vote**,
-hawkish (*"Inflation remains elevated"*). **Wed 09-16 CMT: 2Y 4.74 / 5Y 4.86 / 10Y 5.01 / 30Y 5.35**
-(**+7/+3/+1/−1**) — **+7bp = RESPONDED**, ending two straight INERT. Curve **bear-flattened hard**
-(2s10s −6bp, 2s30s −8bp, both clear of the floor). **US equities Wed 09-16: S&P 7,551.81 / Dow
-51,461.90 / Nasdaq 25,978.42.**
-**★★ FALSIFIER — THE INDEX LEG FIRED, FIRST TIME IN THE RUN:** Dow max excursion **−1.74%** past the
-strict >1.50% bar (two-sourced), on a complete 79-bar session. The anchor **RESPONDED**, so the
-pathology — *an inert 2Y under a violent equity tape* — **did NOT occur** and the switch is
-**VINDICATED**. ⚠ **But on a session that could not have falsified it:** the Fed hiked, and a 2Y moves
-on a policy change **by construction**, so the anchor was going to respond whether or not equities
-convulsed. **Score mechanical and STANDS; information content near ZERO.** Attribution unavailable
-(retail sales + decision both hit the front).
+hawkish. **Wed 09-16 CMT: 2Y 4.74 / 5Y 4.86 / 10Y 5.01 / 30Y 5.35** (**+7/+3/+1/−1**) — **+7bp =
+RESPONDED**, ending two straight INERT; curve **bear-flattened hard** (2s10s −6bp, 2s30s −8bp).
+**US equities: S&P 7,551.81 / Dow 51,461.90 / Nasdaq 25,978.42.**
+**★★ FALSIFIER — INDEX LEG FIRED, FIRST TIME IN THE RUN:** Dow **−1.74%** past the strict >1.50% bar
+(two-sourced), complete session. The anchor **RESPONDED**, so the pathology — *an inert 2Y under a
+violent equity tape* — **did NOT occur**: **VINDICATED**. ⚠ **On a session that could not have
+falsified it** — the Fed hiked and a 2Y moves on a policy change **by construction**. **Score STANDS;
+information content near ZERO.** Attribution unavailable. **The next genuinely testable session is one
+where equities convulse with NO scheduled Fed move.**
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice:
 a live 2Y read said *inert* and the settle reversed it; an intraday looked long-end-led and the settle
@@ -128,23 +126,25 @@ mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
 **but does NOT flip to *reverses***: **foreign net-SOLD a SIXTH straight** (−16,825) while
 institutions (+12,104) drove it. **Price and flow DECOUPLED — a SPLIT**: domestic recovery, not a
 foreign-demand return. **The split is the finding, not the half that flatters the call.**
-**★ GATE 5 — sequence EXPIRED sub-±10 (both candidate bases agree). Count → ZERO: UNTESTABLE /
-branch b, NOT a does-not-trip** (magnitude failed first, control MOOT). **★ INSTRUMENT IDENTIFIED:** a
+**★ GATE 5 — sequence EXPIRED sub-±10 ON THE FIXING (+8.90), the basis the gate is written on. Count
+→ ZERO: UNTESTABLE / branch b, NOT a does-not-trip** (magnitude failed first, control MOOT).
+⚠ **Correction:** I claimed both bases agreed; they did not. I read a **FORMING** dated row (1,368.30)
+that finalised at **1,377.50 = +13.80, ABOVE the bar**. **A dated FX row is provisional until its own
+24h session closes** — a final-vs-forming comparison is a baseline mismatch. Verdict stands on the
+fixing; the robustness claim does not. **★ INSTRUMENT IDENTIFIED:** a
 native FX wrap names an explicit **"15:30 reference rate"**; the Naver dated row is the **evening/24h**
 series. The gate is written on the **fixing** — never chain across the two; the won stays a **labeled
 read**.
-**★★ OIL-IMPORT CHANNEL — FIRST SUPPORTIVE READING SINCE 08-21** on the first clean pairing in four
-weeks: **won +0.655%** against a **dollar of −0.063%** = **residual +0.72pp**, above resolving power.
-**SUPPORTIVE, NOT overturned** — one reading against a standing refutation. **★ METHOD:** `DX-Y.NYB` at
-`interval=5m` gives the control **AT** the fixing; the daily bar cannot, which is why that leg kept
-returning INCOMPLETE. CNH unverified. **★ A residual is only as good as the SMALLER leg** — state both.
+**★★ OIL-IMPORT CHANNEL — FIRST SUPPORTIVE READING SINCE 08-21** (09-16: won **+0.655%** vs a dollar
+of **−0.063%** = **residual +0.72pp**). **SUPPORTIVE, NOT overturned** — one reading against a standing
+refutation. **★ METHOD:** `DX-Y.NYB` at `interval=5m` gives the control **AT** the fixing; the daily
+bar cannot. **★ A residual is only as good as the SMALLER leg** — state both.
 **★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
 chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE leg identifies.
-**★★ THREE CONFOUNDS THIS WEEK ALL RAN THE WAY THAT FLATTERS THIS FRAME** — chip-specific's broad leg
-cleared by 1.28 points on an FOMC-supported tape; oil-durability's 3rd reading was FOMC-eve, where
-flattening is over-determined; the falsifier fired on a **hike day**, where the anchor moves anyway.
-Individually caveats; together a **SELECTION EFFECT**. **Mild support accumulates into false
-confidence precisely because no single instance is worth arguing about.**
+**★★ THREE CONFOUNDS THIS WEEK ALL RAN THE WAY THAT FLATTERS THIS FRAME** — the chip broad leg on an
+FOMC-supported tape, oil-durability's FOMC-eve reading, the falsifier on a **hike day**. Individually
+caveats; together a **SELECTION EFFECT**. **Mild support accumulates into false confidence precisely
+because no single instance is worth arguing about.**
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Monday's breadth said
 **chip-SPECIFIC within a macro backdrop — ★ NOW CONTESTED, not held.** Scored 09-15 00Z **CONFIRMED
 by 1.28 index points** (the discriminating BROAD leg landed on the boundary — *a sharp threshold on a
