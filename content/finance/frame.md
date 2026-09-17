@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-16T12:06Z
+updated: 2026-09-17T00:06Z
 ---
 
 ## How to use this file
@@ -82,13 +82,18 @@ by reading a neighbouring metadata field.
 ## Current state
 
 **Rates — ★ THE ANCHOR WENT INERT; the three-session RESPONDED run ENDS.** Newest DECLARED settle
-**Tue 09-15**: **2Y 4.67 / 5Y 4.83 / 10Y 5.00 / 30Y 5.36** (**+2/+3/+3/+2**) — **+2bp is INERT, the
-SECOND consecutive**, after Wed +4 / Thu +13 / Fri +7 then Mon +2. **10Y 5.00 — a round number and a
-fresh 2026 CMT high.** Two INERT prints into the decision is the front quiet, **not a regime turn — a regime
-claim scored on one or two observations is this frame's recurring error.** **US
-equities Tue 09-15: S&P 7,585.73 / Dow 52,093.11 / Nasdaq 25,981.57.** **Falsifier index leg DID NOT
-FIRE** on a complete 79-bar session (max 0.62 / 1.04 / 0.93% vs the strict >1.50% bar) —
-**UNTESTABLE, counters STAY at 0** (a STAY, not a RESET).
+**★ THE FED HIKED 09-16 — +25bp to 3.75%–4.00%**, statement approved for release by a **12–0 vote**,
+hawkish (*"Inflation remains elevated"*). **Wed 09-16 CMT: 2Y 4.74 / 5Y 4.86 / 10Y 5.01 / 30Y 5.35**
+(**+7/+3/+1/−1**) — **+7bp = RESPONDED**, ending two straight INERT. Curve **bear-flattened hard**
+(2s10s −6bp, 2s30s −8bp, both clear of the floor). **US equities Wed 09-16: S&P 7,551.81 / Dow
+51,461.90 / Nasdaq 25,978.42.**
+**★★ FALSIFIER — THE INDEX LEG FIRED, FIRST TIME IN THE RUN:** Dow max excursion **−1.74%** past the
+strict >1.50% bar (two-sourced), on a complete 79-bar session. The anchor **RESPONDED**, so the
+pathology — *an inert 2Y under a violent equity tape* — **did NOT occur** and the switch is
+**VINDICATED**. ⚠ **But on a session that could not have falsified it:** the Fed hiked, and a 2Y moves
+on a policy change **by construction**, so the anchor was going to respond whether or not equities
+convulsed. **Score mechanical and STANDS; information content near ZERO.** Attribution unavailable
+(retail sales + decision both hit the front).
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice:
 a live 2Y read said *inert* and the settle reversed it; an intraday looked long-end-led and the settle
@@ -105,14 +110,13 @@ receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia 
 **AVGO**, bought hardest. **The tape discriminated and we cannot say on what** — name the
 counterexample with any axis a later window adopts. 
 
-**Korea — WIDEN passed once (09-09) on price and breadth and FAILED on foreign demand:** the record
-close came with foreign selling the KOSPI and buying KOSDAQ. **The split is the finding; it is not
-resolved by picking the half that flatters the call.** Detail is `finance-ko`'s.
+**Korea — WIDEN passed once (09-09) on price/breadth, FAILED on foreign demand. The split is the
+finding, not the half that flatters the call.** Detail is `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Tue 09-15 close, 20:00Z — DECLARED 2026-09-16 00Z):** UST **2Y 4.67 / 5Y 4.83 / 10Y 5.00 /
-30Y 5.36** (CMT; **+2/+3/+3/+2** — anchor INERT a 2nd time; 10Y at a round **5.00**, fresh 2026 high)
-· S&P **7,585.73** / Nasdaq **25,981.57** / Dow **52,093.11**. **WTI and gold carry FRIDAY's declared absolutes — WTI 100.05,
+**US (Wed 09-16 close, 20:00Z — DECLARED 2026-09-17 00Z):** UST **2Y 4.74 / 5Y 4.86 / 10Y 5.01 /
+30Y 5.35** (CMT; **+7/+3/+1/−1** — anchor **RESPONDED** on the hike) · S&P **7,551.81** / Nasdaq
+**25,978.42** / Dow **51,461.90**. **WTI and gold carry FRIDAY's declared absolutes — WTI 100.05,
 gold 4,408.90** — because Monday's moves were reported as percentages only (~+1.3% / ~−1.3%; neither
 is on the settle-block host allowlist, so no Monday absolute is DECLARED). **A percentage is not a
 base**
@@ -124,29 +128,32 @@ mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
 **but does NOT flip to *reverses***: **foreign net-SOLD a SIXTH straight** (−16,825) while
 institutions (+12,104) drove it. **Price and flow DECOUPLED — a SPLIT**: domestic recovery, not a
 foreign-demand return. **The split is the finding, not the half that flatters the call.**
-**★ GATE 5 — THE SEQUENCE EXPIRED, sub-±10 on BOTH candidate bases** (+8.90 vs the fixing; +4.60 vs
-the dated series), so the verdict does not turn on which is right. Count → **ZERO: UNTESTABLE /
-branch b, NOT a does-not-trip** (magnitude failed first, control MOOT). **★ INSTRUMENT IDENTIFIED:**
-a native FX wrap names an explicit **"15:30 reference rate" = 1,359.40**; the Naver dated row
-(1,363.70) is the **evening/24h** series. The gate is written on the **fixing** — never chain across
-the two. The won stays a **labeled read** (the endpoint reads OPEN).
-**★★ OIL-IMPORT CHANNEL — FIRST SUPPORTIVE READING SINCE 08-21**, on the first clean
-crude-settle-beside-won-fixing pairing in four weeks: **won +0.655% weaker** against a **dollar of
-−0.063%** = **idiosyncratic residual +0.72pp**, above resolving power. **SUPPORTIVE, NOT overturned** — one reading against a
-refutation standing since 08-21.
-**★ METHOD: the control AT the fixing is routine** — `DX-Y.NYB` at `interval=5m`, the bar at/before
-06:30Z; the daily bar cannot, which is why that leg kept returning INCOMPLETE. CNH unverified.
+**★ GATE 5 — sequence EXPIRED sub-±10 (both candidate bases agree). Count → ZERO: UNTESTABLE /
+branch b, NOT a does-not-trip** (magnitude failed first, control MOOT). **★ INSTRUMENT IDENTIFIED:** a
+native FX wrap names an explicit **"15:30 reference rate"**; the Naver dated row is the **evening/24h**
+series. The gate is written on the **fixing** — never chain across the two; the won stays a **labeled
+read**.
+**★★ OIL-IMPORT CHANNEL — FIRST SUPPORTIVE READING SINCE 08-21** on the first clean pairing in four
+weeks: **won +0.655%** against a **dollar of −0.063%** = **residual +0.72pp**, above resolving power.
+**SUPPORTIVE, NOT overturned** — one reading against a standing refutation. **★ METHOD:** `DX-Y.NYB` at
+`interval=5m` gives the control **AT** the fixing; the daily bar cannot, which is why that leg kept
+returning INCOMPLETE. CNH unverified. **★ A residual is only as good as the SMALLER leg** — state both.
 **★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
 chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE leg identifies.
+**★★ THREE CONFOUNDS THIS WEEK ALL RAN THE WAY THAT FLATTERS THIS FRAME** — chip-specific's broad leg
+cleared by 1.28 points on an FOMC-supported tape; oil-durability's 3rd reading was FOMC-eve, where
+flattening is over-determined; the falsifier fired on a **hike day**, where the anchor moves anyway.
+Individually caveats; together a **SELECTION EFFECT**. **Mild support accumulates into false
+confidence precisely because no single instance is worth arguing about.**
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Monday's breadth said
-**chip-SPECIFIC within a macro backdrop** — **SCORED 09-15 00Z against a pre-session bar: CONFIRMED
-BY 1.28 INDEX POINTS. Held, not established.** Never write the label without the margin. Legs: S&P
-**−0.4832%** vs the −0.50% line — **1.28 index points**; memory mean −4.92%. **★ The discriminating
-BROAD leg landed on the boundary: a sharp threshold on a continuous quantity gives a crisp verdict
-whose crispness is an ARTIFACT.** Pre-registered as the **LOW-INFORMATION** outcome.
-**★ 09-15 PERSISTENCE TEST — UNRESOLVED; no second reading.** Relative instrument fixed pre-settle
-(memory mean − S&P; PERSISTS ≤ −2.5pp, BREAKS if memory leads): **gap −1.04pp**
-(Micron **+0.39** / SanDisk −1.36 / WDC −3.51; S&P −0.45). **★ The complex is DISPERSING:
+**chip-SPECIFIC within a macro backdrop — ★ NOW CONTESTED, not held.** Scored 09-15 00Z **CONFIRMED
+by 1.28 index points** (the discriminating BROAD leg landed on the boundary — *a sharp threshold on a
+continuous quantity gives a crisp verdict whose crispness is an ARTIFACT*), pre-registered as the
+**LOW-INFORMATION** outcome. Persistence then ran **UNRESOLVED** (09-15, gap −1.04pp) and
+**★ BROKE 09-16**: memory mean **+0.13%** vs S&P **−0.45%** = **+0.58pp — memory OUTPERFORMED**, the
+pre-registered BREAKS branch (WDC **+1.22** after −3.51; Dow −1.21 while Nasdaq −0.01 — the inverse
+shape). **One reading FOR, one AGAINST, same instrument, later session.** Not refuted either — that
+would be a regime claim on one observation. **★ The complex is DISPERSING:
 spread 3.90pp, 5× Monday's 0.72pp, Micron GREEN on a red tape.** A claim about a CLASS needs the class
 to behave as one. **Chip-specific stays HELD, not established, on ONE reading.** ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic, the mirror of
@@ -200,8 +207,7 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
 is built from. They read identically until 09-03 (every earlier fired antecedent carried an INERT
 anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Fri 09-04's reset.
-**Counters STAY at 0 — a STAY, not a RESET:** a RESET is a *fired* antecedent expiring; nothing was
-pending. **The falsifier waits on the INDEX leg, not the anchor.** **A 12Z window once called the
+**A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **Earliest trip TUESDAY 09-08** (Mon 09-07
 is Labor Day, US shut; Korea trades).
 
@@ -242,9 +248,8 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 
 1. **Jackson Hole — PASSED 08-28, resolved nothing.** Numbering only.
 2. **Sept 15-16 FOMC** — the durability catalyst.
-3. **The 4.19 attractor — CLOSED (dead), Tue 09-01. Nothing further scores here.** Surviving finding:
-   the gate was **TOO COARSE** — "no direction" is returned by a random walk *and* by mean reversion,
-   opposite worlds. The next mean-reversion claim inherits it.
+3. **The 4.19 attractor — CLOSED (dead), 09-01.** Surviving finding: the gate was **TOO COARSE** —
+   "no direction" is returned by a random walk *and* by mean reversion, opposite worlds.
 
 4. **Korea: the demand question — OVERTAKEN (gate 4 has scored both ways), kept for its method: the
    clean signal is the FLOW, not the price.** Next demand read: **Micron's late-September print**.
