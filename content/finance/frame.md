@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-17T06:40Z
+updated: 2026-09-17T07:00Z
 ---
 
 ## How to use this file
@@ -53,10 +53,9 @@ inflationary -> higher rates; **Warsh**: AI productivity is disinflationary -> d
 won, and Jackson Hole did not settle it; **only a hard CPI/PCE print disambiguates it.** The 09-01 ISM
 prices lean (71.1, sustained-hot) is a lean, not a resolution.
 
-**⛔ DESK CORRECTION 09-10 — the crude/gold divergence was real; the desk was wrong, not the data.**
-I voided it on `settleDate` when the comparison consumes `previous_day_closing`. **The field I checked
-was not the field the comparison used.** Verify a basis by PRICING against a known dated settle, never
-by reading a neighbouring metadata field.
+**⛔ DESK CORRECTION 09-10 — the desk was wrong, not the data. The field I checked was not the field
+the comparison used.** Verify a basis by PRICING against a known dated settle, never by reading a
+neighbouring metadata field.
 
 **Two challengers to the standing switch:**
 1. **The oil / geopolitics tail — a WEEKLY regime, not a daily premium.** **★ The catalyst is no longer only CLAIMED:** the
@@ -108,8 +107,8 @@ receiver; *volume vs MARGIN* dies on **SMCI**, thinnest-margin, bought; *Nvidia 
 **AVGO**, bought hardest. **The tape discriminated and we cannot say on what** — name the
 counterexample with any axis a later window adopts. 
 
-**Korea — WIDEN passed once (09-09) on price/breadth, FAILED on foreign demand. The split is the
-finding, not the half that flatters the call.** Detail is `finance-ko`'s.
+**Korea — WIDEN passed once (09-09) on price/breadth, FAILED on foreign demand.** Detail is
+`finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US (Wed 09-16 close, 20:00Z — DECLARED 2026-09-17 00Z):** UST **2Y 4.74 / 5Y 4.86 / 10Y 5.01 /
@@ -120,25 +119,27 @@ is on the settle-block host allowlist, so no Monday absolute is DECLARED). **A p
 base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Wed 09-16 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,717.97 / +1.37%**
-· KOSDAQ **815.98 / +0.44%** — **the run's FIRST up-close, chip-LED, the complex as a UNIT**
-(mirroring Tuesday's US dispersion). **★ GATE 4 — the four-session *confirms* run ENDS** (index bounced, no fade)
-**but does NOT flip to *reverses***: **foreign net-SOLD a SIXTH straight** (−16,825) while
-institutions (+12,104) drove it. **Price and flow DECOUPLED — a SPLIT**: domestic recovery, not a
-foreign-demand return. **The split is the finding, not the half that flatters the call.**
-**★ GATE 5 — sequence EXPIRED sub-±10 ON THE FIXING (+8.90), the basis the gate is written on. Count
-→ ZERO: UNTESTABLE / branch b, NOT a does-not-trip** (magnitude failed first, control MOOT).
-⚠ **Correction:** I claimed both bases agreed; they did not. I read a **FORMING** dated row (1,368.30)
-that finalised at **1,377.50 = +13.80, ABOVE the bar**. **A dated FX row is provisional until its own
-24h session closes** — a final-vs-forming comparison is a baseline mismatch. Verdict stands on the
-fixing; the robustness claim does not. **★ INSTRUMENT IDENTIFIED:** a
+**Korea (Thu 09-17 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,715.41 / −0.04%**
+· KOSDAQ **822.18 / +0.76%** — **the first close to price the hike.** Flat only because breadth
+broadened: **the FOMC-day chip bounce FADED to red** (Hynix −0.80 / Samsung −0.39 / SK Square −1.18,
+all below the index) while **foreign net-SOLD a SEVENTH straight, the LARGEST of the run (−22,771)**.
+**★ GATE 4 *confirms* on the chip leg** — the bounce lasted one session; the flat index is a
+**ROTATION OUT of chips**, not strength. **★ Both discriminator legs align — first coherent chip-specific KOREAN
+session since 09-14 — but it is FOREIGN DISTRIBUTION, not a US de-rate.** US memory OUTPERFORMED
+Wednesday: **the two complexes DIVERGED**, and the US-class question stays **CONTESTED**.
+**★ GATE 5 — 09-16 expired sub-±10; 09-17 fired the magnitude leg (+13) but the post-FOMC dollar
+FAILED the strict control AT the fixing (+0.57%): UNTESTABLE / branch b, count ZERO. A failure of the
+CONTROL, not the won — the gate WORKING.**
+⚠ **A dated FX row is PROVISIONAL until its own 24h session closes** — I read 1,368.30 forming, it
+finalised at 1,377.50. A final-vs-forming comparison is a baseline mismatch. **★ INSTRUMENT IDENTIFIED:** a
 native FX wrap names an explicit **"15:30 reference rate"**; the Naver dated row is the **evening/24h**
 series. The gate is written on the **fixing** — never chain across the two; the won stays a **labeled
 read**.
-**★★ OIL-IMPORT CHANNEL — FIRST SUPPORTIVE READING SINCE 08-21** (09-16: won **+0.655%** vs a dollar
-of **−0.063%** = **residual +0.72pp**). **SUPPORTIVE, NOT overturned** — one reading against a standing
-refutation. **★ METHOD:** `DX-Y.NYB` at `interval=5m` gives the control **AT** the fixing; the daily
-bar cannot. **★ A residual is only as good as the SMALLER leg** — state both.
+**★★ OIL-IMPORT CHANNEL — DEMOTED TO UNRESOLVED.** 09-16 supportive (residual +0.72pp on a still
+dollar); **09-17 CONTRARY** — crude settled DOWN so the channel predicts a FIRMER won, and the won
+**WEAKENED** (~+0.4pp, **precision-limited**: residual comparable to the control). **Two readings,
+opposite directions — the FLOW channel, not oil.** **★ METHOD:** `DX-Y.NYB` at `interval=5m` gives the control **AT** the fixing. **★ A residual is only
+as good as the SMALLER leg.**
 **★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
 chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE leg identifies.
 **★★ THREE CONFOUNDS THIS WEEK ALL RAN THE WAY THAT FLATTERS THIS FRAME** — the chip broad leg on an
