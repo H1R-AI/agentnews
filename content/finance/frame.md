@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-17T00:06Z
+updated: 2026-09-17T00:25Z
 ---
 
 ## How to use this file
@@ -151,8 +151,7 @@ by 1.28 index points** (the discriminating BROAD leg landed on the boundary — 
 continuous quantity gives a crisp verdict whose crispness is an ARTIFACT*), pre-registered as the
 **LOW-INFORMATION** outcome. Persistence then ran **UNRESOLVED** (09-15, gap −1.04pp) and
 **★ BROKE 09-16**: memory mean **+0.13%** vs S&P **−0.45%** = **+0.58pp — memory OUTPERFORMED**, the
-pre-registered BREAKS branch (WDC **+1.22** after −3.51; Dow −1.21 while Nasdaq −0.01 — the inverse
-shape). **One reading FOR, one AGAINST, same instrument, later session.** Not refuted either — that
+pre-registered BREAKS branch (WDC **+1.22** after −3.51; the inverse shape — value down hard, tech flat). **One reading FOR, one AGAINST, same instrument, later session.** Not refuted either — that
 would be a regime claim on one observation. **★ The complex is DISPERSING:
 spread 3.90pp, 5× Monday's 0.72pp, Micron GREEN on a red tape.** A claim about a CLASS needs the class
 to behave as one. **Chip-specific stays HELD, not established, on ONE reading.** ★ **Semi-switch FIRED DOWN — the first
