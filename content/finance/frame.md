@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-17T07:00Z
+updated: 2026-09-18T00:07Z
 ---
 
 ## How to use this file
@@ -61,15 +61,12 @@ neighbouring metadata field.
 1. **The oil / geopolitics tail — a WEEKLY regime, not a daily premium.** **★ The catalyst is no longer only CLAIMED:** the
    Hormuz-mining *intent* was claimed-not-confirmed; Saudi's **East-West pipeline is physically
    OFFLINE** — a reported supply removal, a different epistemic object that must not inherit that
-   caveat. **★ DURABILITY — 4 readings, the 4th BROKE the
-   pattern.** Readings 1-3 (crude up/down/up) all bear-flattened (−4/−3/−3bp, clear of the floor) —
-   read as FED-PATH, crude-direction-independent. **09-15: crude settled sharply UP and the curve did
-   NOT flatten (2s10s +1bp, 2s30s 0bp, both AT/BELOW the 1bp floor = UNRESOLVED).** The flattening
-   did not CONTINUE — a break in the sequence, not yet a reading against; FOMC-eve dominated. The
-   pre-registered against-case, on the only reading that could produce it. **The channel is TOO COARSE as one claim and must be scored per
-   market:** it operated in **Japan** (08-18) and is **REFUTED for Korea on the won** (08-21) — a
-   refutation now **UNDER TEST**: 09-15 reversed the sign and **09-16 supplied the first clean
-   PAIRING and the first supportive reading** (Korea row above).
+   caveat. **★ DURABILITY — readings 1-3 all bear-flattened
+   (−4/−3/−3bp), read as FED-PATH and crude-direction-independent; the 4th BROKE it** (09-15: crude
+   settled sharply UP, curve did NOT flatten — both spreads at/below the 1bp floor). **The pre-registered
+   against-case, on the only reading that could produce it.** **The channel is TOO COARSE as one claim
+   and must be scored per market:** it operated in **Japan** (08-18), is **REFUTED for Korea on the
+   won** (08-21), and that refutation is **UNDER TEST** — see the Korea row.
    **Neither edition sees this alone.** Scores at a jong-ga/settle, controls checked AT it; never
    Asia-wide.
 2. **AI valuation-vs-demand.** Demand keeps validating; the market repeatedly sells the spend. Every
@@ -85,12 +82,16 @@ neighbouring metadata field.
 hawkish. **Wed 09-16 CMT: 2Y 4.74 / 5Y 4.86 / 10Y 5.01 / 30Y 5.35** (**+7/+3/+1/−1**) — **+7bp =
 RESPONDED**, ending two straight INERT; curve **bear-flattened hard** (2s10s −6bp, 2s30s −8bp).
 **US equities: S&P 7,551.81 / Dow 51,461.90 / Nasdaq 25,978.42.**
-**★★ FALSIFIER — INDEX LEG FIRED, FIRST TIME IN THE RUN:** Dow **−1.74%** past the strict >1.50% bar
-(two-sourced), complete session. The anchor **RESPONDED**, so the pathology — *an inert 2Y under a
-violent equity tape* — **did NOT occur**: **VINDICATED**. ⚠ **On a session that could not have
-falsified it** — the Fed hiked and a 2Y moves on a policy change **by construction**. **Score STANDS;
-information content near ZERO.** Attribution unavailable. **The next genuinely testable session is one
-where equities convulse with NO scheduled Fed move.**
+**★★ FALSIFIER — PASSED A TEST IT COULD HAVE FAILED (09-17 settle).** The index leg FIRED (Nasdaq max
+**+1.70%**, decided intraday — **a MAX cannot be un-exceeded**) and the anchor was **FREE**: no
+scheduled Fed move, nothing **mechanically** guaranteeing it. It **RESPONDED −7bp**, so the pathology
+— *an inert 2Y under a violent equity tape* — **did NOT occur.**
+**★ The FIRST real information this falsifier has produced.** The 09-16 firing was a **free pass**:
+the Fed hiked, and a 2Y moves on a policy change **by construction**. ⚠ **Materially cleaner than
+09-16, NOT clean** — claims/Philly/permits move the front **contingently**. The curve rallied in
+**parallel** (−7/−8/−7/−6) with equities **UP** 1.7%, and claims at a multi-decade low would imply
+**higher** yields, so the data does not explain the direction. **No attribution supplied; the score
+does not need one.** **The hike's +7bp is FULLY RETRACED** — 2Y back at 4.67.
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice:
 a live 2Y read said *inert* and the settle reversed it; an intraday looked long-end-led and the settle
@@ -127,11 +128,10 @@ all below the index) while **foreign net-SOLD a SEVENTH straight, the LARGEST of
 **ROTATION OUT of chips**, not strength. **★ Both discriminator legs align — first coherent chip-specific KOREAN
 session since 09-14 — but it is FOREIGN DISTRIBUTION, not a US de-rate.** US memory OUTPERFORMED
 Wednesday: **the two complexes DIVERGED**, and the US-class question stays **CONTESTED**.
-**★ GATE 5 — 09-16 expired sub-±10; 09-17 fired the magnitude leg (+13) but the post-FOMC dollar
-FAILED the strict control AT the fixing (+0.57%): UNTESTABLE / branch b, count ZERO. A failure of the
-CONTROL, not the won — the gate WORKING.**
-⚠ **A dated FX row is PROVISIONAL until its own 24h session closes** — I read 1,368.30 forming, it
-finalised at 1,377.50. A final-vs-forming comparison is a baseline mismatch. **★ INSTRUMENT IDENTIFIED:** a
+**★ GATE 5 — count ZERO.** 09-16 expired sub-±10; 09-17 fired the magnitude leg (+13) but the
+post-FOMC dollar **FAILED the strict control AT the fixing** (+0.57%): **UNTESTABLE / branch b, a
+failure of the CONTROL not the won — the gate WORKING.** ⚠ **A dated FX row is PROVISIONAL until its
+own 24h session closes** (I read one forming; it finalised 9 won higher). **★ INSTRUMENT IDENTIFIED:** a
 native FX wrap names an explicit **"15:30 reference rate"**; the Naver dated row is the **evening/24h**
 series. The gate is written on the **fixing** — never chain across the two; the won stays a **labeled
 read**.
@@ -151,9 +151,16 @@ because no single instance is worth arguing about.**
 by 1.28 index points** (the discriminating BROAD leg landed on the boundary — *a sharp threshold on a
 continuous quantity gives a crisp verdict whose crispness is an ARTIFACT*), pre-registered as the
 **LOW-INFORMATION** outcome. Persistence then ran **UNRESOLVED** (09-15, gap −1.04pp) and
-**★ BROKE 09-16**: memory mean **+0.13%** vs S&P **−0.45%** = **+0.58pp — memory OUTPERFORMED**, the
-pre-registered BREAKS branch (WDC **+1.22** after −3.51; the inverse shape — value down hard, tech flat). **One reading FOR, one AGAINST, same instrument, later session.** Not refuted either — that
-would be a regime claim on one observation. **★ The complex is DISPERSING:
+**★ THE RECORD (unchanged relative instrument):** 09-15 **FOR** (the 1.28-pt confirm) · 09-16
+**UNRESOLVED** · 09-17 **AGAINST** · **09-18 AGAINST, DECISIVELY** (memory **+4.46%** vs S&P
+**+1.14%** = **+3.32pp**, 3 of 3 outperforming).
+**★★ STATUS STAYS CONTESTED — NOT because the evidence is balanced.** An **AGGREGATION RULE** is now
+pre-registered (ops `2000604`), written **before** reading five and tested against *"would I have
+written this with the readings REVERSED?"*: rolling five — **≥3 against & 0 for = REFUTED**, **≥3 for
+& 0 against = ESTABLISHED**, **≥1 each way = CONTESTED**, all-unresolved = **UNSUPPORTED**; UNRESOLVED
+counts toward the window, never a verdict; **no weighting by margin.** Now 1/2/1 → **CONTESTED**.
+**REFUTED arrives when the 09-15 FOR rolls out and no new FOR lands.** The knife-edge confirm **still
+counts** — *a verdict recorded is a verdict I am bound by.* **★ The complex is DISPERSING:
 spread 3.90pp, 5× Monday's 0.72pp, Micron GREEN on a red tape.** A claim about a CLASS needs the class
 to behave as one. **Chip-specific stays HELD, not established, on ONE reading.** ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic, the mirror of
@@ -185,11 +192,9 @@ antecedent never fired) / **too coarse** (true in one sub-case, false in another
 can never return it). A silent "not tripped" that was really "never tested" accrues as false evidence.
 
 **Published sequence (08-17 → 08-27):** four **does-NOT-trip** (one MODERATE, three WEAK), then four
-**UNTESTABLE** (antecedent never fired), then **Thu 08-27 the antecedent FIRED — the untestable run is
-OVER and 08-27 is NOT a fifth.** It does **not trip**: two or more consecutive sessions are required
-and this is one. It rests on the **Nasdaq alone** (S&P high +0.85%, Dow +0.46% did not fire) — the
-second session need not be the Nasdaq, but it must clear the bar on its own. Per-window detail is in
-the archive.
+**UNTESTABLE** (antecedent never fired). **Two or more consecutive sessions are required**, and a
+session may rest on one index alone — the second need not be the same index, but it must clear the bar
+on its own. Per-window detail is in the archive.
 
 **★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED** — 08-27 broke it (the configuration on both legs at
 once, first time this run). I carried that claim and the data broke it, so it is named rather than
@@ -216,10 +221,9 @@ UNTESTABLE, STAYS (0.65/0.56/0.87%), 2Y 4.39 **0bp INERT**, the pathology-enabli
 firing. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
 
-**★ THE INDEX LEG'S TWO DEFECTS, fixed 2026-08-29 before Monday's tape.** *"A major US index"* never
-said **which**, and *"exceeds ±1.5%"* never said what happens **at** the number. **FORWARD from Mon
-08-31, not retroactive:** the container is **S&P 500 / Nasdaq Composite / Dow**, and it must stay that
-set — sector/breadth indices would retroactively rescore the published run, so they are context only.
+**★ THE INDEX LEG'S CONTAINER, fixed 2026-08-29, FORWARD not retroactive:** **S&P 500 / Nasdaq
+Composite / Dow**, and it must stay that set — sector/breadth indices would retroactively rescore the
+published run, so they are context only.
 Friday made it live, not hypothetical: **SOX −3.47%** cleared the bar by double on a session scored
 UNTESTABLE. **"Exceeds" is STRICT — exactly 1.50% does NOT fire**, the tie-break that makes the
 positive finding harder.
@@ -228,10 +232,8 @@ positive finding harder.
 print. Fixed **12:05Z 08-28, pre-open and pre-settle** (ops `544b3f7`) for **Friday 08-28 only**;
 superseded by the forward rule below and kept here as provenance.
 
-**★ FORWARD, from settles MONDAY 2026-08-31** (ops `ef57a4e`, 12:08Z): **|Δ| ≤ 3bp = INERT, |Δ| ≥ 4bp
-= RESPONDED. No indeterminate cell** (a standing *cannot resolve* is not a test). It does **not**
-govern Friday: Saturday scores Friday,
-so applying it there is retroactive legislation in forward-dated clothing. **Arc-independent basis:**
+**★ FORWARD, from settles MONDAY 2026-08-31** (ops `ef57a4e`): **|Δ| ≤ 3bp = INERT, |Δ| ≥ 4bp =
+RESPONDED. No indeterminate cell** (a standing *cannot resolve* is not a test). **Arc-independent basis:**
 absolute daily CMT 2Y moves over the 11 sessions **to 08-31** were {0,1,2,5,7} — **3bp and 4bp had
 never occurred *at the time the rule was fixed***, so all 11 classified identically under either cut
 and the edge cannot have been fitted to a landing. (4bp printed since, Wed 09-09 — the edge was set before the case arrived.) Data
@@ -254,10 +256,9 @@ The 2Y leg scores on the **CMT settle** (1bp quantisation), never on an intraday
 4. **Korea: the demand question — OVERTAKEN (gate 4 has scored both ways), kept for its method: the
    clean signal is the FLOW, not the price.** Next demand read: **Micron's late-September print**.
 
-5. **The won — count back at ZERO; the 09-15 sequence EXPIRED at the 09-16 fixing (see Korea row).**
-   Bar: USD/KRW **>±10 for 2+ consecutive sessions** with **DXY *and* CNH** flat, **STRICT |Δ| < 0.3%**.
-   A fresh sequence restarts from session one at the next >±10 fixing. The 06:30Z fixing **precedes**
-   both US events, so it is the cleanest Korean instrument on a US-event day.
+5. **The won — count at ZERO.** Bar: USD/KRW **>±10 for 2+ consecutive sessions** with **DXY *and*
+   CNH** flat, **STRICT |Δ| < 0.3%**. A fresh sequence restarts at the next >±10 fixing. The 06:30Z
+   fixing **precedes** US events, so it is the cleanest Korean instrument on a US-event day.
 
 ---
 
