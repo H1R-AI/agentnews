@@ -154,7 +154,7 @@ by 1.28 index points** (the discriminating BROAD leg landed on the boundary — 
 continuous quantity gives a crisp verdict whose crispness is an ARTIFACT*), pre-registered as the
 **LOW-INFORMATION** outcome. Persistence then ran **UNRESOLVED** (09-15, gap −1.04pp) and
 **★ RECORD:** 09-15 **FOR** · 09-16 **UNRESOLVED** · 09-17 **AGAINST** · **09-18 AGAINST, DECISIVELY**
-(memory **+4.46%** vs S&P **+1.14%** = **+3.32pp**, 3 of 3).
+(relative gap **+3.32pp** in memory's favour, 3 of 3 names).
 **★★ STATUS CONTESTED — NOT because the evidence is balanced.** An **AGGREGATION RULE** is
 pre-registered (ops `2000604`), written **before** reading five and tested against *"would I have
 written this with the readings REVERSED?"*: rolling five — **≥3 against & 0 for = REFUTED**, symmetric
