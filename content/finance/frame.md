@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-18T00:07Z
+updated: 2026-09-18T07:03Z
 ---
 
 ## How to use this file
@@ -86,12 +86,11 @@ RESPONDED**, ending two straight INERT; curve **bear-flattened hard** (2s10s −
 **+1.70%**, decided intraday — **a MAX cannot be un-exceeded**) and the anchor was **FREE**: no
 scheduled Fed move, nothing **mechanically** guaranteeing it. It **RESPONDED −7bp**, so the pathology
 — *an inert 2Y under a violent equity tape* — **did NOT occur.**
-**★ The FIRST real information this falsifier has produced.** The 09-16 firing was a **free pass**:
-the Fed hiked, and a 2Y moves on a policy change **by construction**. ⚠ **Materially cleaner than
-09-16, NOT clean** — claims/Philly/permits move the front **contingently**. The curve rallied in
-**parallel** (−7/−8/−7/−6) with equities **UP** 1.7%, and claims at a multi-decade low would imply
-**higher** yields, so the data does not explain the direction. **No attribution supplied; the score
-does not need one.** **The hike's +7bp is FULLY RETRACED** — 2Y back at 4.67.
+**★ The FIRST real information this falsifier has produced.** 09-16 was a **free pass** — the Fed
+hiked and a 2Y moves on a policy change **by construction**. ⚠ **Materially cleaner than 09-16, NOT
+clean.** The curve rallied in **parallel** with equities **UP** 1.7%, and claims at a multi-decade low
+would imply **higher** yields, so the data does not explain the direction. **No attribution supplied;
+the score does not need one.**
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice:
 a live 2Y read said *inert* and the settle reversed it; an intraday looked long-end-led and the settle
@@ -112,26 +111,29 @@ counterexample with any axis a later window adopts.
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Wed 09-16 close, 20:00Z — DECLARED 2026-09-17 00Z):** UST **2Y 4.74 / 5Y 4.86 / 10Y 5.01 /
-30Y 5.35** (CMT; **+7/+3/+1/−1** — anchor **RESPONDED** on the hike) · S&P **7,551.81** / Nasdaq
-**25,978.42** / Dow **51,461.90**. **WTI and gold carry FRIDAY's declared absolutes — WTI 100.05,
+**US (Thu 09-17 close, 20:00Z — DECLARED 2026-09-18 00Z):** UST **2Y 4.67 / 5Y 4.78 / 10Y 4.94 /
+30Y 5.29** (CMT; **−7/−8/−7/−6** — a parallel rally; **the hike's +7bp fully retraced**) · S&P
+**7,637.76** / Nasdaq **26,418.30** / Dow **51,778.04**. **WTI and gold carry FRIDAY's declared absolutes — WTI 100.05,
 gold 4,408.90** — because Monday's moves were reported as percentages only (~+1.3% / ~−1.3%; neither
 is on the settle-block host allowlist, so no Monday absolute is DECLARED). **A percentage is not a
 base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Thu 09-17 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,715.41 / −0.04%**
-· KOSDAQ **822.18 / +0.76%** — **the first close to price the hike.** Flat only because breadth
-broadened: **the FOMC-day chip bounce FADED to red** (Hynix −0.80 / Samsung −0.39 / SK Square −1.18,
-all below the index) while **foreign net-SOLD a SEVENTH straight, the LARGEST of the run (−22,771)**.
-**★ GATE 4 *confirms* on the chip leg** — the bounce lasted one session; the flat index is a
-**ROTATION OUT of chips**, not strength. **★ Both discriminator legs align — first coherent chip-specific KOREAN
-session since 09-14 — but it is FOREIGN DISTRIBUTION, not a US de-rate.** US memory OUTPERFORMED
-Wednesday: **the two complexes DIVERGED**, and the US-class question stays **CONTESTED**.
-**★ GATE 5 — count ZERO.** 09-16 expired sub-±10; 09-17 fired the magnitude leg (+13) but the
-post-FOMC dollar **FAILED the strict control AT the fixing** (+0.57%): **UNTESTABLE / branch b, a
-failure of the CONTROL not the won — the gate WORKING.** ⚠ **A dated FX row is PROVISIONAL until its
-own 24h session closes** (I read one forming; it finalised 9 won higher). **★ INSTRUMENT IDENTIFIED:** a
+**Korea (Fri 09-18 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,894.23 / +2.66%**
+· KOSDAQ **827.12 / +0.60%** — chip-LED hard (SK Hynix **+6.42** / SK Square **+7.04** / Samsung
+**+3.37**, all far above the index). **★★ GATE 4 SCORES *reverses* — the FIRST since 09-07, ending the
+*confirms* run.** Both legs fire: the bounce **HELD** and **foreign FLIPPED to net-BUY (+4,245) after
+SEVEN straight sells**; **retail** was the seller (−35,872), the mirror of the prior week.
+**★ Semi-switch FIRES UP** (cleared ±2%, chips dominant — the mirror of 09-14's DOWN fire).
+⚠ **NARROW, ONE session:** KOSDAQ lagged and foreign **SOLD** it (−437), so the flip did **not**
+broaden, and the won did not firm on the inflow. **One *reverses* ends a run; it does not establish a
+demand regime** — short-covering is not excluded.
+**★ Korea tracking the US rip is NON-DISCRIMINATING** — **context, not a reading.**
+**★ GATE 5 — count ZERO.** 09-17's magnitude leg fired (+13) but the post-FOMC dollar **FAILED the
+strict control AT the fixing** — *a failure of the CONTROL, not the won: the gate WORKING*. **09-18
+sub-±10, nothing starts — but the same-clock DXY printed +0.109%, INSIDE the strict bar for the first
+time** (reconnaissance, not a score: the control is now obtainable). CNH unverified → **PARTIAL**.
+⚠ **A dated FX row is PROVISIONAL until its own 24h session closes.** **★ INSTRUMENT IDENTIFIED:** a
 native FX wrap names an explicit **"15:30 reference rate"**; the Naver dated row is the **evening/24h**
 series. The gate is written on the **fixing** — never chain across the two; the won stays a **labeled
 read**.
@@ -151,16 +153,14 @@ because no single instance is worth arguing about.**
 by 1.28 index points** (the discriminating BROAD leg landed on the boundary — *a sharp threshold on a
 continuous quantity gives a crisp verdict whose crispness is an ARTIFACT*), pre-registered as the
 **LOW-INFORMATION** outcome. Persistence then ran **UNRESOLVED** (09-15, gap −1.04pp) and
-**★ THE RECORD (unchanged relative instrument):** 09-15 **FOR** (the 1.28-pt confirm) · 09-16
-**UNRESOLVED** · 09-17 **AGAINST** · **09-18 AGAINST, DECISIVELY** (memory **+4.46%** vs S&P
-**+1.14%** = **+3.32pp**, 3 of 3 outperforming).
-**★★ STATUS STAYS CONTESTED — NOT because the evidence is balanced.** An **AGGREGATION RULE** is now
+**★ RECORD:** 09-15 **FOR** · 09-16 **UNRESOLVED** · 09-17 **AGAINST** · **09-18 AGAINST, DECISIVELY**
+(memory **+4.46%** vs S&P **+1.14%** = **+3.32pp**, 3 of 3).
+**★★ STATUS CONTESTED — NOT because the evidence is balanced.** An **AGGREGATION RULE** is
 pre-registered (ops `2000604`), written **before** reading five and tested against *"would I have
-written this with the readings REVERSED?"*: rolling five — **≥3 against & 0 for = REFUTED**, **≥3 for
-& 0 against = ESTABLISHED**, **≥1 each way = CONTESTED**, all-unresolved = **UNSUPPORTED**; UNRESOLVED
-counts toward the window, never a verdict; **no weighting by margin.** Now 1/2/1 → **CONTESTED**.
-**REFUTED arrives when the 09-15 FOR rolls out and no new FOR lands.** The knife-edge confirm **still
-counts** — *a verdict recorded is a verdict I am bound by.* **★ The complex is DISPERSING:
+written this with the readings REVERSED?"*: rolling five — **≥3 against & 0 for = REFUTED**, symmetric
+for ESTABLISHED, **≥1 each way = CONTESTED**; UNRESOLVED counts toward the window, never a verdict;
+**no weighting by margin.** Now 1/2/1 → **CONTESTED**; **REFUTED when the 09-15 FOR rolls out and no
+new FOR lands.** The knife-edge confirm **still counts** — *a recorded verdict binds.* **★ The complex is DISPERSING:
 spread 3.90pp, 5× Monday's 0.72pp, Micron GREEN on a red tape.** A claim about a CLASS needs the class
 to behave as one. **Chip-specific stays HELD, not established, on ONE reading.** ★ **Semi-switch FIRED DOWN — the first
 ±2%-clearing close since 09-07** (chips dominant → switch CONFIRMED intact). **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic, the mirror of
