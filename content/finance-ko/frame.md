@@ -97,11 +97,11 @@ a systematic drag on oil-sensitive sectors?
 
 **★ 09-16 06Z WEDNESDAY — GATE 4's *confirms* run ENDS at FOUR as a SPLIT (+1.37%).** Chip-led bounce but foreign SOLD a 6th (−16,825), institutions drove it, KOSDAQ lagged = a domestic recovery, DECOUPLED. GATE 5 sub-±10 UNTESTABLE, instrument PINNED. OIL first clean pairing SUPPORTIVE (later demoted). Prior ↓:
 
-**★ 09-15 06Z TUESDAY — GATE 4 *confirms* a FOURTH (−0.85%), DECELERATING; THE HOLE exposed (the discriminator needs the chip PRICE leg, absent here — now FILLED 09-17). Won +10.90 to 1,359.40 = first >±10. Prior ↓:**
+**★ 09-15 06Z TUESDAY — GATE 4 *confirms* a FOURTH (−0.85%), DECELERATING; THE HOLE exposed (missing chip-PRICE leg, FILLED 09-17). Won +10.90 = first >±10. Prior ↓:**
 
 **★ 09-14 06Z MONDAY — GATE 4 *CONFIRMS* a THIRD (the sharpest, −3.26%); base 6,909.91 → 6,684.37.** Chip-led open HELD to the close, foreign net-SOLD −32,875 (4th, largest then). Chip-specific scored 09-15 00Z CONFIRMED-but-WEAK by 1.28 index points (held-not-established). Semi-switch CLEARED (>±2%, chips dominant, DOWN). Prior ↓:
 
-**★ 09-11 SECOND *confirms* (−1.76%, off a −3.1% open); foreign sold BOTH boards, bid→RETAIL, Japan co-moved = REGIONAL. → 09-10 FIRST *confirms* (−0.25%, ended the *reverses* run). → 09-07 *reverses* EXTENDED (+4.61% record 6,995.39; foreign +25,533, semis LED) but breadth NARROWED (KOSDAQ +1.07%) — the Astra memory surge, biting only if Astra demand fades.** Prior ↓:
+**★ 09-11 SECOND *confirms* (−1.76%); foreign sold BOTH boards, Japan co-moved = REGIONAL. → 09-10 FIRST *confirms* (−0.25%, ended the *reverses* run). → 09-07 *reverses* EXTENDED (+4.61% record 6,995.39; foreign +25,533, semis LED) but breadth NARROWED (KOSDAQ +1.07%) — the Astra memory surge.** Prior ↓:
 
 **★ 09-04 06Z — gate 4's FIRST *reverses* (a DENT):** +1.64%, KOSDAQ +2.95%, foreign +4,793 LIGHT-bought. **09-02** the −3.99% crash scored gate 4's FIRST *confirms*. (Pre-crash arc 08-24→08-27 archived in windows/; Micron late-Sept the 2nd demand read.)
 
