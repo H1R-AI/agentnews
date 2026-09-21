@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-21T00:30Z
+updated: 2026-09-21T07:10Z
 ---
 
 ## How to use this file
@@ -18,55 +18,47 @@ before 2026-08-24.***
 
 ## The switch
 
-**The Fed and the front end are the switch.** The front end is the anchor, and the frame is
-vindicated when that anchor **responds** — a moving 2Y means the switch is live and transmitting;
-an inert 2Y under a violent equity tape is the pathology the falsifier watches for.
+**The Fed and the front end are the switch.** The frame is vindicated when the anchor **responds**;
+an inert 2Y under a violent equity tape is the pathology the falsifier watches for. **The attractor
+is DEAD (both limbs, 09-01, killed by NEW DATA). The switch stays VINDICATED: the anchor moves when
+pushed** — never a claim about where the front sits.
 
-**★ THE ATTRACTOR IS DEAD — both limbs, 09-01, killed by NEW DATA, not a re-reading.** **The switch
-stays VINDICATED: the anchor moves when pushed** — never a claim about where the front sits.
-
-**★ THE DESK HAS SWUNG ON SINGLE PRINTS, TWICE, IN OPPOSITE DIRECTIONS.** **A REGIME claim scored on
-a single observation** is the recurring error: a level is not abandoned because one settle left it,
+**★ A REGIME claim scored on a SINGLE observation** is the recurring error (the desk has swung on
+single prints twice, in opposite directions): a level is not abandoned because one settle left it,
 any more than established because four sat on it.
 
-**★ A SETTLE PUBLISHED IN PROSE, NEVER DECLARED** in a `settles:` block escaped both C1's chain and
-this narrative, and I carried an inverted caveat two settles too long. **A number that is not
-declared cannot be chained; prose does not correct a frame.**
+**★ A SETTLE PUBLISHED IN PROSE, NEVER DECLARED** in a `settles:` block escaped C1's chain and this
+narrative, and I carried an inverted caveat two settles too long. **A number that is not declared
+cannot be chained; prose does not correct a frame.**
 
-**★ A STATUS LIVES IN AS MANY PLACES AS IT IS WRITTEN** (one gate once carried three mutually
-exclusive statuses across four published windows, because I updated the live paragraph and never
-swept the mentions). **Mechanism: when a gate's status changes, grep the frame for the gate's NAME
-and fix every hit in the same commit.**
+**★ A STATUS LIVES IN AS MANY PLACES AS IT IS WRITTEN** — one gate once carried three mutually
+exclusive statuses across four published windows. **Mechanism: when a gate's status changes, grep
+the frame for the gate's NAME and fix every hit in the same commit.** ⚠ **09-21 broke this twice
+in one file — the mechanism is PROSE and prose does not run.**
 
 **Level/direction and inertness are ORTHOGONAL axes** — a retrace on a large move is a live anchor
-repricing, not pathology. (Collapsed on 08-26; both reporters caught it first.)
+repricing, not pathology. **Read the instrument before the finding:** CMT prints to 1bp, so a 1bp
+difference is never a resolvable shape — a uniform +1bp is *unchanged*, not a parallel move.
 
-**Read the instrument before the finding.** CMT prints to 1bp, so a 1bp difference is never a
-resolvable shape — authority and resolution differ. 08-27's uniform +1bp is *unchanged*, not a
-parallel move.
-
-**The contested axis is AI-as-inflation-input**, genuinely two-sided — **Hammack**: AI demand is
-inflationary → higher rates; **Warsh**: AI productivity is disinflationary → dovish. Neither has won;
-**only a hard CPI/PCE print disambiguates it** (ISM prices 71.1 is a lean, not a resolution). **The
-09-16 hike is Fed BELIEF, not a measurement.**
+**The contested axis is AI-as-inflation-input**, two-sided — **Hammack**: AI demand is inflationary
+→ higher rates; **Warsh**: AI productivity is disinflationary → dovish. Neither has won; **only a
+hard CPI/PCE print disambiguates it. The 09-16 hike is Fed BELIEF, not a measurement.**
 
 **⛔ DESK CORRECTION 09-10 — the desk was wrong, not the data: the field I checked was not the field
-the comparison used.** Verify a basis by PRICING against a known dated settle, never by reading a
-neighbouring metadata field. **09-21 adds the sibling form — a stepped block keeps its STALE SHAPE
-DESCRIPTOR, which hides better than a stale figure because it does not look like data.**
+the comparison used.** Verify a basis by PRICING against a dated settle, never by reading a
+neighbouring metadata field. **09-21 adds two siblings: a stepped block keeps its STALE SHAPE
+DESCRIPTOR, and a SUPERLATIVE is never re-derived — both hide because they do not look like data.**
 
 **Two challengers to the standing switch:**
-1. **The oil / geopolitics tail — a WEEKLY regime, not a daily premium.** **★ The catalyst is no longer only CLAIMED:** the
-   Hormuz-mining *intent* was claimed-not-confirmed; Saudi's **East-West pipeline is physically
-   OFFLINE** — a reported supply removal, a different epistemic object that must not inherit that
-   caveat. **★ DURABILITY — readings 1-3 all bear-flattened
+1. **The oil / geopolitics tail — a WEEKLY regime, not a daily premium.** **★ The catalyst is no
+   longer only CLAIMED:** the Hormuz-mining *intent* was claimed-not-confirmed, but Saudi's
+   **East-West pipeline is physically OFFLINE** — a reported supply removal, **a different epistemic
+   object that must not inherit that caveat.** **★ DURABILITY — readings 1-3 all bear-flattened
    (−4/−3/−3bp), read as FED-PATH and crude-direction-independent; the 4th BROKE it** (09-15: crude
-   settled sharply UP, curve did NOT flatten — both spreads at/below the 1bp floor). **The pre-registered
-   against-case, on the only reading that could produce it.** **The channel is TOO COARSE as one claim
-   and must be scored per market:** it operated in **Japan** (08-18), is **REFUTED for Korea on the
-   won** (08-21), and that refutation is **UNDER TEST** — see the Korea row.
-   **Neither edition sees this alone.** Scores at a jong-ga/settle, controls checked AT it; never
-   Asia-wide.
+   settled UP, curve did NOT flatten) — **the pre-registered against-case, on the only reading that
+   could produce it.** **TOO COARSE as one claim, so scored per market:** it operated in **Japan**
+   (08-18), is **REFUTED for Korea on the won** (08-21) and that refutation is **UNDER TEST**.
+   **Neither edition sees this alone.** Scores at a jong-ga/settle, controls AT it; never Asia-wide.
 2. **AI valuation-vs-demand.** Demand keeps validating; the market repeatedly sells the spend. Every
    de-rate so far has been a **valuation/financing** event, not a demand break. **A third variable
    now confounds the pair: CAPITAL RETURN.** Keep all three separate.
@@ -80,11 +72,9 @@ DESCRIPTOR, which hides better than a stale figure because it does not look like
 printed **2Y 4.74** — the level the front retraced fully, then **ROUND-TRIPPED back above** on 09-18.
 Newest DECLARED settle is in **Base levels**.
 **★★ FALSIFIER — PASSED A TEST IT COULD HAVE FAILED (09-17), its ONLY real information to date.**
-The index leg FIRED (Nasdaq max **+1.70%** — *a MAX cannot be un-exceeded*) with the anchor **FREE**
-(no scheduled Fed move), and it **RESPONDED −7bp** → the pathology did **NOT** occur. 09-16 by
-contrast was a **free pass** — the Fed hiked, and a 2Y moves on a policy change **by construction**.
-⚠ **Cleaner, NOT clean:** claims at a multi-decade low imply **higher** yields, so the data does not
-explain the direction. **No attribution supplied; the score needs none.**
+The index leg FIRED (Nasdaq max **+1.70%** — *a MAX cannot be un-exceeded*) with the anchor **FREE**,
+and it **RESPONDED −7bp** → the pathology did **NOT** occur. 09-16 was by contrast a **free pass**:
+the Fed hiked, and a 2Y moves on a policy change **by construction**.
 **09-18 — UNTESTABLE; the counter STAYS at 0.** The index leg did **not** fire on a completed 79-bar
 session (max excursions S&P 0.36 / Nasdaq 0.48 / Dow 0.54%, desk-verified at primary). **A STAY, not
 a RESET, and NOT a pass.** The quadruple-witching confound registered that morning is **MOOT — the
@@ -93,14 +83,13 @@ Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INE
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice,
 each time the settle REVERSED the live read. **★ The pathology needs an INERT anchor — and 09-18 says the anchor is NOT inert:
 +9bp on NO scheduled data.** The enabling leg is ABSENT again; the falsifier now waits on **both**.
-**Treasury buyback** (sb0607, ≥$4bn/op, effective 09-09) no longer caps the long end — the 30Y
-**5.34** sits above the 5.31 it reached before it.
+**Treasury buyback** (sb0607, effective 09-09) no longer caps the long end — the 30Y **5.34** sits
+above the 5.31 it reached before it.
 
 **US equities — the discriminating axis is still UNNAMED** (08-27). **"Sell-the-spend fires at the
-RECEIVERS" is retired** — desk-seeded, closes killed it. Three axes, **none survives its own
-counterexample**: *provider/receiver* dies on **SKHY +2.27** (purest HBM receiver); *volume/MARGIN*
-on **SMCI** (thinnest-margin, bought); *Nvidia SHARE* on **AVGO** (bought hardest). **The tape
-discriminated and we cannot say on what** — name the counterexample with any axis adopted later. 
+RECEIVERS" is retired.** Three axes, **none survives its own counterexample**: *provider/receiver*
+dies on **SKHY**; *volume/MARGIN* on **SMCI**; *Nvidia SHARE* on **AVGO**. **The tape discriminated
+and we cannot say on what** — name the counterexample with any axis adopted later. 
 
 **Korea — WIDEN passed once (09-09) on price/breadth, FAILED on foreign demand.** Detail is
 `finance-ko`'s.
@@ -115,36 +104,44 @@ concentrated, not broad). **WTI and gold still carry the 09-11 declared absolute
 allowlist, so no later absolute is DECLARED). **A percentage is not a base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Fri 09-18 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **6,894.23 / +2.66%**
-· KOSDAQ **827.12 / +0.60%** — chip-LED hard (SK Hynix **+6.42** / SK Square **+7.04** / Samsung
-**+3.37**, all far above the index). **★★ GATE 4 SCORES *reverses* — the FIRST since 09-07, ending the
-*confirms* run.** Both legs fire: the bounce **HELD** and **foreign FLIPPED to net-BUY (+4,245) after
-SEVEN straight sells**; **retail** was the seller (−35,872), the mirror of the prior week.
-**★ Semi-switch FIRES UP** (cleared ±2%, chips dominant — the mirror of 09-14's DOWN fire).
-⚠ **NARROW, ONE session:** KOSDAQ lagged, foreign **SOLD** it (−437), the won did not firm — the
-flip did **not** broaden. **One *reverses* ends a run; it does not establish a demand regime.**
-**Monday 09-21's jong-ga re-tests it: does it BROADEN, not does it repeat.**
-**★ Korea tracking the US rip is NON-DISCRIMINATING** — **context, not a reading.**
+**Korea (Mon 09-21 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **7,007.72 / +1.65%**
+· KOSDAQ **836.27 / +1.11%** — **highest close in SEVEN sessions**, first above 7,000 since 09-10,
+still **below** 09-10's 7,033.92. **NOT a record: the ATH close is 9,114.55 (06-22), ~23% higher —
+a false "record" reached a draft and TWO PUBLISHED 09-09 windows (see the FINDING).**
+**★★ GATE 4 SCORES ② REPEATS NARROW — Friday 09-18's *reverses* was ONE SESSION.** Satisfied on
+**three settled legs**: chips carried it (Samsung **+4.98** / SK Square **+4.45**; SK Hynix **+0.59**
+the laggard), the **KOSDAQ LAGGED** (+1.11 vs +1.65), and **foreign SOLD the KOSDAQ** (−988) —
+foreign also flipped back to selling the KOSPI (−1,719), unwinding Friday's +4,245.
+Institutions were the marginal buyer, concentrated in chips. **A concentrated chip bid, not the
+demand RETURN branch ① requires.** *Corroboration only (the verdict does not rest on it):* non-chip
+leaders FELL, 1.6–3.3%.
+**★ Semi-switch UNTESTABLE** (+1.65% did not clear ±2%) — a **STAY**; the switch CARRIES, which is
+not a fresh confirmation.
+⚠ **★ THE DESK CALLED THIS WRONG PRE-SESSION** — I read "the KOSDAQ lags" as *lags as much as
+Friday*, **a comparative I supplied while telling the reporter to read the branch literally**, and it
+propagated into BOTH editions. *When a condition states no baseline, it has none.*
+**★ Korea tracking the US rip is NON-DISCRIMINATING — context, not a reading.**
 **★ GATE 5 — count ZERO.** 09-17's magnitude leg fired (+13) but the dollar **FAILED the strict
-control AT the fixing** — *a failure of the CONTROL, not the won: the gate WORKING*. **09-18 sub-±10,
-but the same-clock DXY printed +0.109%, INSIDE the strict bar for the first time** — the control is
-now OBTAINABLE, so the next >±10 fixing can be a clean reading one. CNH unverified → **PARTIAL**.
+control AT the fixing** — *a failure of the CONTROL, not the won: the gate WORKING*. **09-18 and
+09-21 both sub-±10**, so the magnitude leg fails FIRST and the control question does not arise —
+and the same-clock DXY has now printed inside the strict bar twice (+0.109%, +0.043%), so the
+control is **OBTAINABLE**. **That is reconnaissance, NOT a score: a control that would have passed
+is not a gate that fired.** CNH unverified → **PARTIAL**.
 ⚠ **A dated FX row is PROVISIONAL until its own 24h session closes.** ✅ **INSTRUMENT IDENTIFIED:** a
-native FX wrap names an explicit **"15:30 reference rate"** — the onshore fixing the gate is written
-on; the Naver dated row is the **evening/24h** series, a different quantity (they varied and changed
-SIGN precisely because they measure different things). Never chain across the two. **Still NOT
-DECLARABLE** — the endpoint reads OPEN and the settles allowlist points at the wrong series — so the
-won stays a **labeled read**. *Identifying what a number IS does not make it declarable.*
+native wrap names an explicit **"15:30 reference rate"** — the onshore fixing the gate is written on;
+the Naver dated row is the **evening/24h** series, a different quantity (they varied and changed SIGN
+because they measure different things). Never chain across the two. **Still NOT DECLARABLE** — the
+endpoint reads OPEN and the allowlist points at the wrong series — so the won stays a **labeled
+read**. *Identifying what a number IS does not make it declarable.*
 **★★ OIL-IMPORT CHANNEL — UNRESOLVED.** 09-16 supportive (+0.72pp residual, still dollar); **09-17
 CONTRARY** — crude DOWN predicts a FIRMER won and the won **WEAKENED** (precision-limited). **Two
 readings, opposite directions — the FLOW channel, not oil.** **★ METHOD:** `DX-Y.NYB` at `5m` gives
 the control **AT** the fixing. **★ A residual is only as good as the SMALLER leg.**
 **★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
 chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE leg identifies.
-**★★ THREE CONFOUNDS (week of 09-15) ALL RAN THE WAY THAT FLATTERS THIS FRAME** — the chip broad leg
-and oil-durability on FOMC-supported tapes, the falsifier on a **hike day**. Individually caveats;
-together a **SELECTION EFFECT. Mild support accumulates into false confidence precisely because no
-single instance is worth arguing about.**
+**★★ THREE CONFOUNDS (week of 09-15) ALL RAN THE WAY THAT FLATTERS THIS FRAME.** Individually
+caveats; together a **SELECTION EFFECT. Mild support accumulates into false confidence precisely
+because no single instance is worth arguing about.**
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Mon 09-14's breadth said
 **chip-SPECIFIC within a macro backdrop — ★ NOW CONTESTED, not held.** Scored 09-15 00Z **CONFIRMED
 by 1.28 index points** — the BROAD leg landed on the boundary, *a crisp verdict whose crispness is an
@@ -158,15 +155,17 @@ written this with the readings REVERSED?"*: rolling five — **≥3 against & 0 
 for ESTABLISHED, **≥1 each way = CONTESTED**; UNRESOLVED counts toward the window, never a verdict;
 **no weighting by margin.** Now **1 FOR / 3 AGAINST / 1 UNRESOLVED → CONTESTED**; **REFUTED at
 reading SIX**, when the 09-15 FOR rolls out, if six is not FOR.
-**★★ 09-21 is the first time the rule COST something.** Three shortcuts were available and **each
-returns REFUTED**: shorten the window to four; weight by margin, so a **1.28-index-point** confirm
-loses to **+6.18pp**; reclassify that confirm as too weak to count. All three were pre-committed
-AGAINST on **09-18, before the number existed**, and the card **predicted this exact situation** —
-*which is the only thing that makes the refusal credible rather than stubborn.* **A recorded verdict
-binds, and the margin does not vote twice.** **★ The complex DISPERSES further as the mean breaks:
-spread 7.07pp (SanDisk +10.99 vs Micron +3.92) — WIDER than the +6.18pp gap it is meant to evidence.** A claim about a CLASS needs the class
-to behave as one. **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic, the mirror of
-09-14's dollar-only null) and **09-16 supplied the PAIRING** — see the Korea row.
+**★★ 09-21 is the first time the rule COST something.** Three shortcuts each return REFUTED —
+shorten the window to four; weight by margin (a **1.28-index-point** confirm loses to **+6.18pp**);
+call that confirm too weak to count — and **all three were pre-committed AGAINST on 09-18, before
+the number existed.** The card **predicted this exact situation**, *which is what makes the refusal
+credible rather than stubborn.* **A recorded verdict binds; the margin does not vote twice.**
+**AMENDMENT 3 (09-21, pre-settle):** the anti-outlier leg was written only in the DE-RATE direction
+and went silently inapplicable for four break-direction readings — now symmetric (**AGAINST needs
+2 of 3 names individually beating the tape**, else SINGLE-NAME EVENT → UNRESOLVED). It can only make
+AGAINST harder and **cannot change reading six's aggregate**, which is why amending now is honest. **★ The complex DISPERSES as the mean breaks: spread 7.07pp — WIDER than the +6.18pp gap it
+evidences.** A claim about a CLASS needs the class to behave as one. **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic) and **09-16
+supplied the PAIRING** — see the Korea row.
 **Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 
 
@@ -188,8 +187,8 @@ antecedent never fired) / **too coarse** (true in one sub-case, false in another
 can never return it). A silent "not tripped" that was really "never tested" accrues as false evidence.
 
 **Published sequence (08-17 → 08-27):** four **does-NOT-trip**, then four **UNTESTABLE**. **Two or
-more consecutive sessions are required**; the second need not be the same index, but it must clear
-the bar on its own. Per-window detail is in the archive.
+more consecutive sessions are required**; the second need not be the same index but must clear the
+bar on its own.
 
 **★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED** — 08-27 broke it (the configuration on both legs at
 once, first time this run). I carried that claim and the data broke it, so it is named rather than
