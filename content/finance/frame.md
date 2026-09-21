@@ -76,7 +76,7 @@ The index leg FIRED (Nasdaq max **+1.70%** — *a MAX cannot be un-exceeded*) wi
 and it **RESPONDED −7bp** → the pathology did **NOT** occur. 09-16 was by contrast a **free pass**:
 the Fed hiked, and a 2Y moves on a policy change **by construction**.
 **09-18 — UNTESTABLE; the counter STAYS at 0.** The index leg did **not** fire on a completed 79-bar
-session (max excursions S&P 0.36 / Nasdaq 0.48 / Dow 0.54%, desk-verified at primary). **A STAY, not
+session (big-three max |excursion| 0.36 / 0.48 / 0.54%, desk-verified at primary). **A STAY, not
 a RESET, and NOT a pass.** The quadruple-witching confound registered that morning is **MOOT — the
 leg never fired, so it never arose. A caveat that costs nothing is what a symmetric one looks like.**
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
@@ -196,9 +196,9 @@ quietly dropped. **Four does-not-trips are not four confirmations, four untestab
 and one fired antecedent is not a trip.** The test is **LIVE**: two fired antecedents now (08-27,
 09-03), neither a trip.
 
-**SCORED Thu 09-03 00Z: the antecedent FIRED and it DOES NOT TRIP.** Max intraday
-excursions **S&P 1.18% / Nasdaq Composite 1.63% / Dow 1.29%** against the strict 1.50% bar — the
-**Nasdaq alone** clears it, as on 08-27. Second fired antecedent of the run. It does not trip for
+**SCORED Thu 09-03 00Z: the antecedent FIRED and it DOES NOT TRIP.** Big-three max
+intraday excursions **1.18 / 1.63 / 1.29%** against the strict 1.50% bar — the **Composite alone**
+clears it, as on 08-27. Second fired antecedent of the run. It does not trip for
 **two independent reasons**: 2+ consecutive sessions are required and this is one, **and** the 2Y
 settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* leg fails outright.
 
