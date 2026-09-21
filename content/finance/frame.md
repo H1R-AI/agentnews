@@ -111,14 +111,14 @@ a false "record" reached a draft and TWO PUBLISHED 09-09 windows (see the FINDIN
 **★★ GATE 4 SCORES ② REPEATS NARROW — Friday 09-18's *reverses* was ONE SESSION.** Satisfied on
 **three settled legs**: chips carried it (Samsung **+4.98** / SK Square **+4.45**; SK Hynix **+0.59**
 the laggard), the **KOSDAQ LAGGED** (+1.11 vs +1.65), and **foreign SOLD the KOSDAQ** (−988) —
-foreign also flipped back to selling the KOSPI (−1,719), unwinding Friday's +4,245.
+foreign also flipped back to selling the KOSPI (−1,719), unwinding Fri 09-18's +4,245.
 Institutions were the marginal buyer, concentrated in chips. **A concentrated chip bid, not the
 demand RETURN branch ① requires.** *Corroboration only (the verdict does not rest on it):* non-chip
 leaders FELL, 1.6–3.3%.
 **★ Semi-switch UNTESTABLE** (+1.65% did not clear ±2%) — a **STAY**; the switch CARRIES, which is
 not a fresh confirmation.
 ⚠ **★ THE DESK CALLED THIS WRONG PRE-SESSION** — I read "the KOSDAQ lags" as *lags as much as
-Friday*, **a comparative I supplied while telling the reporter to read the branch literally**, and it
+Fri 09-18*, **a comparative I supplied while telling the reporter to read the branch literally**, and it
 propagated into BOTH editions. *When a condition states no baseline, it has none.*
 **★ Korea tracking the US rip is NON-DISCRIMINATING — context, not a reading.**
 **★ GATE 5 — count ZERO.** 09-17's magnitude leg fired (+13) but the dollar **FAILED the strict
@@ -139,9 +139,9 @@ readings, opposite directions — the FLOW channel, not oil.** **★ METHOD:** `
 the control **AT** the fixing. **★ A residual is only as good as the SMALLER leg.**
 **★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
 chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE leg identifies.
-**★★ THREE CONFOUNDS (week of 09-15) ALL RAN THE WAY THAT FLATTERS THIS FRAME.** Individually
-caveats; together a **SELECTION EFFECT. Mild support accumulates into false confidence precisely
-because no single instance is worth arguing about.**
+**★★ THREE CONFOUNDS (week of 09-15) ALL RAN THE WAY THAT FLATTERS THIS FRAME** — together a
+**SELECTION EFFECT. Mild support accumulates into false confidence precisely because no single
+instance is worth arguing about.**
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Mon 09-14's breadth said
 **chip-SPECIFIC within a macro backdrop — ★ NOW CONTESTED, not held.** Scored 09-15 00Z **CONFIRMED
 by 1.28 index points** — the BROAD leg landed on the boundary, *a crisp verdict whose crispness is an
