@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-21T06:50Z
+updated: 2026-09-21T12:15Z
 ---
 
 ## How to use this file
@@ -103,7 +103,7 @@ a systematic drag on oil-sensitive sectors?
 
 **★ 09-14 06Z MONDAY — GATE 4 *CONFIRMS* a THIRD (the sharpest, −3.26%); base 6,909.91 → 6,684.37.** Chip-led open HELD to the close, foreign net-SOLD −32,875 (4th, largest then). Chip-specific scored 09-15 00Z CONFIRMED-but-WEAK by 1.28 index points (held-not-established). Semi-switch CLEARED (>±2%, chips dominant, DOWN). Prior ↓:
 
-**★ 09-11 SECOND *confirms* (−1.76%); foreign sold BOTH boards, Japan co-moved = REGIONAL. → 09-10 FIRST *confirms* (−0.25%, ended the *reverses* run). → 09-07 *reverses* EXTENDED (+4.61% record 6,995.39; foreign +25,533, semis LED) but breadth NARROWED (KOSDAQ +1.07%) — the Astra memory surge.** Prior ↓:
+**★ 09-11 SECOND *confirms* (−1.76%); foreign sold BOTH boards, Japan co-moved = REGIONAL. → 09-10 FIRST *confirms* (−0.25%, ended the *reverses* run). → 09-07 *reverses* EXTENDED (+4.61% to 6,995.39; foreign +25,533, semis LED) but breadth NARROWED (KOSDAQ +1.07%) — the Astra memory surge.** Prior ↓:
 
 **★ 09-04 06Z — gate 4's FIRST *reverses* (a DENT):** +1.64%, KOSDAQ +2.95%, foreign +4,793 LIGHT-bought. **09-02** the −3.99% crash scored gate 4's FIRST *confirms*. (Pre-crash arc 08-24→08-27 archived in windows/; Micron late-Sept the 2nd demand read.)
 
