@@ -123,7 +123,7 @@ SEVEN straight sells**; **retail** was the seller (−35,872), the mirror of the
 **★ Semi-switch FIRES UP** (cleared ±2%, chips dominant — the mirror of 09-14's DOWN fire).
 ⚠ **NARROW, ONE session:** KOSDAQ lagged, foreign **SOLD** it (−437), the won did not firm — the
 flip did **not** broaden. **One *reverses* ends a run; it does not establish a demand regime.**
-**Monday's jong-ga re-tests it, and the question is does it BROADEN, not does it repeat.**
+**Monday 09-21's jong-ga re-tests it: does it BROADEN, not does it repeat.**
 **★ Korea tracking the US rip is NON-DISCRIMINATING** — **context, not a reading.**
 **★ GATE 5 — count ZERO.** 09-17's magnitude leg fired (+13) but the dollar **FAILED the strict
 control AT the fixing** — *a failure of the CONTROL, not the won: the gate WORKING*. **09-18 sub-±10,
@@ -145,7 +145,7 @@ chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE l
 and oil-durability on FOMC-supported tapes, the falsifier on a **hike day**. Individually caveats;
 together a **SELECTION EFFECT. Mild support accumulates into false confidence precisely because no
 single instance is worth arguing about.**
-(`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Monday's breadth said
+(`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Mon 09-14's breadth said
 **chip-SPECIFIC within a macro backdrop — ★ NOW CONTESTED, not held.** Scored 09-15 00Z **CONFIRMED
 by 1.28 index points** — the BROAD leg landed on the boundary, *a crisp verdict whose crispness is an
 ARTIFACT*, pre-registered as the **LOW-INFORMATION** outcome.
@@ -219,7 +219,7 @@ the same number** and are named differently every time.
 **★ THE INDEX LEG'S CONTAINER, fixed 2026-08-29, FORWARD not retroactive:** **S&P 500 / Nasdaq
 Composite / Dow**, and it must stay that set — sector/breadth indices would retroactively rescore the
 published run, so they are context only.
-Friday made it live, not hypothetical: **SOX −3.47%** cleared the bar by double on a session scored
+Fri 08-28 made it live, not hypothetical: **SOX −3.47%** cleared the bar by double on a session scored
 UNTESTABLE. **"Exceeds" is STRICT — exactly 1.50% does NOT fire**, the tie-break that makes the
 positive finding harder.
 
