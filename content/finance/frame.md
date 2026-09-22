@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-21T07:10Z
+updated: 2026-09-22T00:20Z
 ---
 
 ## How to use this file
@@ -72,7 +72,7 @@ DESCRIPTOR, and a SUPERLATIVE is never re-derived — both hide because they do 
 printed **2Y 4.74** — the level the front retraced fully, then **ROUND-TRIPPED back above** on 09-18.
 Newest DECLARED settle is in **Base levels**.
 **★★ FALSIFIER — PASSED A TEST IT COULD HAVE FAILED (09-17), its ONLY real information to date.**
-The index leg FIRED (Nasdaq max **+1.70%** — *a MAX cannot be un-exceeded*) with the anchor **FREE**,
+The index leg FIRED (a **+1.70%** Composite max — *a MAX cannot be un-exceeded*) with the anchor **FREE**,
 and it **RESPONDED −7bp** → the pathology did **NOT** occur. 09-16 was by contrast a **free pass**:
 the Fed hiked, and a 2Y moves on a policy change **by construction**.
 **09-18 — UNTESTABLE; the counter STAYS at 0.** The index leg did **not** fire on a completed 79-bar
@@ -81,8 +81,18 @@ a RESET, and NOT a pass.** The quadruple-witching confound registered that morni
 leg never fired, so it never arose. A caveat that costs nothing is what a symmetric one looks like.**
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice,
-each time the settle REVERSED the live read. **★ The pathology needs an INERT anchor — and 09-18 says the anchor is NOT inert:
-+9bp on NO scheduled data.** The enabling leg is ABSENT again; the falsifier now waits on **both**.
+each time the settle REVERSED the live read. **★★ 09-22 — THE PATHOLOGY OCCURRED, on the first session that cannot be dismissed. COUNTER 0 → 1.**
+The index leg **FIRED** (Composite max **2.49%**; the 500 at **1.68%**, which **CROSSED** from the
+1.46% it sat at 18Z — *UNRESOLVED is not did-not-fire*; the Dow at 0.86% did not) and the anchor was
+**INERT: 2Y 4.76, 0bp**, flat while the belly and long rallied 3–5bp — a bull **FLATTENING** with the
+front **pinned**. **An inert anchor on a quiet curve is weak evidence; inert while everything else
+moves is the configuration this test was written to catch.**
+**It does NOT trip — leg ONE of a required pair.** ★ And it is the **cleanest test the falsifier has
+had**: no Fed move (unlike 09-16), no witching (unlike 09-18), so **both branches were worth
+something** and it went to the one that counts against the frame.
+**RESET RULE — pre-registered 09-22, before the next session exists:** fires + anchor **RESPONDS** →
+**RESET to 0**; antecedent **never fires** → **UNTESTABLE, a STAY, counter HOLDS at 1**. *A STAY is
+not a RESET.*
 **Treasury buyback** (sb0607, effective 09-09) no longer caps the long end — the 30Y **5.34** sits
 above the 5.31 it reached before it.
 
@@ -95,11 +105,10 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Fri 09-18 close, 20:00Z — DECLARED 2026-09-21 00Z):** UST **2Y 4.76 / 5Y 4.86 / 10Y 5.01 /
-30Y 5.34** (CMT; **+9/+8/+7/+5** — **front-led, a modest bear-flatten, 2s30s −4bp**; **the front
-ROUND-TRIPPED above the hike-day 4.74** on **no scheduled data**) · S&P **7,650.50** / Nasdaq
-**26,522.54** / Dow **51,682.64** (broad tape ~flat, **+0.17 / +0.39 / −0.18%** — the memory rip was
-concentrated, not broad). **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
+**US (Mon 09-21 close, 20:00Z — DECLARED 2026-09-22 00Z):** UST **2Y 4.76 / 5Y 4.83 / 10Y 4.96 /
+30Y 5.29** (CMT; **0/−3/−5/−5** — a bull **FLATTENING**, 2s10s −5bp, with the **front INERT at 0bp**:
+the falsifier's enabling leg) · S&P **7,764.70** / Nasdaq **27,122.09** / Dow **52,048.83**
+(**+1.49 / +2.26 / +0.71%** — a risk-on rip the anchor did not answer). **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
 4,408.90** — every move since has been reported as a percentage (neither host is on the settle-block
 allowlist, so no later absolute is DECLARED). **A percentage is not a base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
@@ -143,28 +152,21 @@ chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE l
 **SELECTION EFFECT. Mild support accumulates into false confidence precisely because no single
 instance is worth arguing about.**
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Mon 09-14's breadth said
-**chip-SPECIFIC within a macro backdrop — ★ NOW CONTESTED, not held.** Scored 09-15 00Z **CONFIRMED
-by 1.28 index points** — the BROAD leg landed on the boundary, *a crisp verdict whose crispness is an
-ARTIFACT*, pre-registered as the **LOW-INFORMATION** outcome.
-**★ RECORD:** 09-15 **FOR** · 09-16 **UNRESOLVED** · 09-17 **AGAINST** · 09-18 **AGAINST** (+3.32pp)
-· **09-21 AGAINST, DECISIVELY** — memory mean **+6.35%** vs S&P **+0.17%** = **+6.18pp**, 3 of 3,
-nearly DOUBLE the prior margin. **Three straight against, the newest decisive.**
-**★★ STATUS CONTESTED — NOT because the evidence is balanced.** An **AGGREGATION RULE** is
-pre-registered (ops `2000604`), written **before** reading five and tested against *"would I have
-written this with the readings REVERSED?"*: rolling five — **≥3 against & 0 for = REFUTED**, symmetric
-for ESTABLISHED, **≥1 each way = CONTESTED**; UNRESOLVED counts toward the window, never a verdict;
-**no weighting by margin.** Now **1 FOR / 3 AGAINST / 1 UNRESOLVED → CONTESTED**; **REFUTED at
-reading SIX**, when the 09-15 FOR rolls out, if six is not FOR.
-**★★ 09-21 is the first time the rule COST something.** Three shortcuts each return REFUTED —
-shorten the window to four; weight by margin (a **1.28-index-point** confirm loses to **+6.18pp**);
-call that confirm too weak to count — and **all three were pre-committed AGAINST on 09-18, before
-the number existed.** The card **predicted this exact situation**, *which is what makes the refusal
-credible rather than stubborn.* **A recorded verdict binds; the margin does not vote twice.**
-**AMENDMENT 3 (09-21, pre-settle):** the anti-outlier leg was written only in the DE-RATE direction
-and went silently inapplicable for four break-direction readings — now symmetric (**AGAINST needs
-2 of 3 names individually beating the tape**, else SINGLE-NAME EVENT → UNRESOLVED). It can only make
-AGAINST harder and **cannot change reading six's aggregate**, which is why amending now is honest. **★ The complex DISPERSES as the mean breaks: spread 7.07pp — WIDER than the +6.18pp gap it
-evidences.** A claim about a CLASS needs the class to behave as one. **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic) and **09-16
+**chip-SPECIFIC within a macro backdrop — ★★ REFUTED 2026-09-22.**
+**RECORD (rolling five):** 09-16 **U** · 09-17 **AGAINST** · 09-18 **AGAINST** · 09-21 **AGAINST** ·
+09-22 **U** → **3 AGAINST, 0 FOR = REFUTED** under the pre-registered aggregation (ops `2000604`;
+UNRESOLVED counts toward the window, never a verdict; **no weighting by margin**). The 09-15
+knife-edge FOR **aged out** at reading six.
+**★★ HOW it died is the finding: on an UNRESOLVED, not a decisive break.** Reading six was memory
+**+0.97%** vs S&P **+1.49%** — gap **−0.52pp**, 1 of 3 under; neither branch. **It fell because no
+supporting reading arrived in five — an ABSENCE of support, which is exactly what the rule was built
+to detect.**
+**★ The rule named the reading THREE DAYS ahead**, and nothing was shortened, re-weighted or
+reclassified — including on 09-21, when all three would have delivered REFUTED early. **A recorded
+verdict binds; the margin does not vote twice.**
+**★ REFUTED was the desk's PRE-REGISTERED expectation → the LOW-INFORMATION outcome**, and it moves
+the frame LESS than a FOR would have. Written down before the print so it cannot be re-read as
+insight afterwards. **What replaces the claim is UNNAMED** — see the discriminating-axis hole. **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic) and **09-16
 supplied the PAIRING** — see the Korea row.
 **Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 
@@ -204,15 +206,9 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. They read identically until 09-03 (every earlier fired antecedent carried an INERT
-anchor, and the RESPONDED sessions never fired). **Both stand at 0** after Fri 09-04's reset.
+is built from. **★ AS OF 09-22: ANTECEDENT-RUN 1 · PATHOLOGY-RUN 1** — the 09-22 session carried **both** legs.
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
-switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **Earliest trip TUESDAY 09-08** (Mon 09-07
-is Labor Day, US shut; Korea trades).
-
-**Prior scores, compressed:** **Tue 09-01** — UNTESTABLE, STAYS, 2Y **+5bp RESPONDED**; **Wed 09-02** —
-UNTESTABLE, STAYS (0.65/0.56/0.87%), 2Y 4.39 **0bp INERT**, the pathology-enabling leg with no index
-firing. **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
+switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
 
 **★ THE INDEX LEG'S CONTAINER, fixed 2026-08-29, FORWARD not retroactive:** **S&P 500 / Nasdaq
