@@ -83,7 +83,7 @@ Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INE
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice,
 each time the settle REVERSED the live read. **★★ 09-22 — THE PATHOLOGY OCCURRED, on the first session that cannot be dismissed. COUNTER 0 → 1.**
 The index leg **FIRED** (Composite max **2.49%**; the 500 at **1.68%**, which **CROSSED** from the
-1.46% it sat at 18Z — *UNRESOLVED is not did-not-fire*; the Dow at 0.86% did not) and the anchor was
+1.46% it sat at 18Z — *UNRESOLVED is not did-not-fire*; the third leg fell short) and the anchor was
 **INERT: 2Y 4.76, 0bp**, flat while the belly and long rallied 3–5bp — a bull **FLATTENING** with the
 front **pinned**. **An inert anchor on a quiet curve is weak evidence; inert while everything else
 moves is the configuration this test was written to catch.**
@@ -94,9 +94,9 @@ something** and it went to the one that counts against the frame.
 **RESET to 0**; antecedent **never fires** → **UNTESTABLE, a STAY, counter HOLDS at 1**. *A STAY is
 not a RESET.*
 ⚠ **Treasury buyback** (sb0607, effective 09-09): the *"no longer caps the long end"* reading rested
-on the 30Y trading **above** the 5.31 it reached before it. At **5.29** it is now **below** that —
-**the evidence is gone and the claim reverts to UNSUPPORTED**, not retired. *Caught only by grepping
-the frame for the OLD base value after stepping.*
+on the long end trading **above** its pre-buyback high. It has now fallen **back below** it — **the
+evidence is gone and the claim reverts to UNSUPPORTED**, not retired. *Caught only by grepping the
+frame for the OLD base value after stepping.*
 
 **US equities — the discriminating axis is still UNNAMED** (08-27). **"Sell-the-spend fires at the
 RECEIVERS" is retired.** Three axes, **none survives its own counterexample**: *provider/receiver*
