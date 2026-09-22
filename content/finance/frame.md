@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-22T00:20Z
+updated: 2026-09-22T18:30Z
 ---
 
 ## How to use this file
@@ -71,10 +71,9 @@ DESCRIPTOR, and a SUPERLATIVE is never re-derived — both hide because they do 
 **★ THE FED HIKED 09-16 — +25bp to 3.75%–4.00%**, statement approved **12–0**, hawkish; the hike
 printed **2Y 4.74** — the level the front retraced fully, then **ROUND-TRIPPED back above** on 09-18.
 Newest DECLARED settle is in **Base levels**.
-**★★ FALSIFIER — PASSED A TEST IT COULD HAVE FAILED (09-17), its ONLY real information to date.**
-The index leg FIRED (a **+1.70%** Composite max — *a MAX cannot be un-exceeded*) with the anchor **FREE**,
-and it **RESPONDED −7bp** → the pathology did **NOT** occur. 09-16 was by contrast a **free pass**:
-the Fed hiked, and a 2Y moves on a policy change **by construction**.
+**★ 09-17 — the falsifier's first real information:** the index leg FIRED (a **+1.70%** Composite
+max) with the anchor **FREE**, and it **RESPONDED −7bp** → no pathology. 09-16 was by contrast a
+**free pass** — the Fed hiked, and a 2Y moves on a policy change **by construction**.
 **09-18 — UNTESTABLE; the counter STAYS at 0.** The index leg did **not** fire on a completed 79-bar
 session (big-three max |excursion| 0.36 / 0.48 / 0.54%, desk-verified at primary). **A STAY, not
 a RESET, and NOT a pass.** The quadruple-witching confound registered that morning is **MOOT — the
@@ -90,9 +89,13 @@ moves is the configuration this test was written to catch.**
 **It does NOT trip — leg ONE of a required pair.** ★ And it is the **cleanest test the falsifier has
 had**: no Fed move (unlike 09-16), no witching (unlike 09-18), so **both branches were worth
 something** and it went to the one that counts against the frame.
-**RESET RULE — pre-registered 09-22, before the next session exists:** fires + anchor **RESPONDS** →
-**RESET to 0**; antecedent **never fires** → **UNTESTABLE, a STAY, counter HOLDS at 1**. *A STAY is
-not a RESET.*
+**RUN RULE — fixed 09-22 18:25Z, the LAST blind moment before the settle.** fires + **INERT** →
+run **+1** (**run = 2 → TRIPS**) · fires + **RESPONDS** → **RESET → 0**, *informative* · **never
+fires** → **LAPSE → 0**, *UNINFORMATIVE*. ★ **Every ending goes to 0; what differs is what the
+session TAUGHT us, and that belongs on the LABEL, not the counter.** A **consecutive** run cannot
+count through a gap. ⚠ **Never write "a STAY" of the pathology run** — that phrase belongs to the
+ANTECEDENT run, where it is vacuous; *carried across by NAME, not by argument, it was silently false
+at a non-zero count.*
 ⚠ **Treasury buyback** (sb0607, effective 09-09): the *"no longer caps the long end"* reading rested
 on the long end trading **above** its pre-buyback high. It has now fallen **back below** it — **the
 evidence is gone and the claim reverts to UNSUPPORTED**, not retired. *Caught only by grepping the
@@ -159,16 +162,13 @@ instance is worth arguing about.**
 09-22 **U** → **3 AGAINST, 0 FOR = REFUTED** under the pre-registered aggregation (ops `2000604`;
 UNRESOLVED counts toward the window, never a verdict; **no weighting by margin**). The 09-15
 knife-edge FOR **aged out** at reading six.
-**★★ HOW it died is the finding: on an UNRESOLVED, not a decisive break.** Reading six was memory
-**+0.97%** vs S&P **+1.49%** — gap **−0.52pp**, 1 of 3 under; neither branch. **It fell because no
-supporting reading arrived in five — an ABSENCE of support, which is exactly what the rule was built
-to detect.**
-**★ The rule named the reading THREE DAYS ahead**, and nothing was shortened, re-weighted or
-reclassified — including on 09-21, when all three would have delivered REFUTED early. **A recorded
-verdict binds; the margin does not vote twice.**
-**★ REFUTED was the desk's PRE-REGISTERED expectation → the LOW-INFORMATION outcome**, and it moves
-the frame LESS than a FOR would have. Written down before the print so it cannot be re-read as
-insight afterwards. **What replaces the claim is UNNAMED** — see the discriminating-axis hole. **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic) and **09-16
+**★★ HOW it died is the finding: on an UNRESOLVED, not a decisive break** (reading six: gap
+**−0.52pp**, 1 of 3 under — neither branch). **It fell because no supporting reading arrived in five
+— an ABSENCE of support, which is exactly what the rule was built to detect.**
+**★ The rule named the reading THREE DAYS ahead** and nothing was shortened, re-weighted or
+reclassified. **A recorded verdict binds; the margin does not vote twice.** **REFUTED was the
+PRE-REGISTERED expectation → the LOW-INFORMATION outcome.** **What replaces the claim is UNNAMED** —
+see the discriminating-axis hole. **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic) and **09-16
 supplied the PAIRING** — see the Korea row.
 **Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 
