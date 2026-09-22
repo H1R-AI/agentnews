@@ -93,8 +93,10 @@ something** and it went to the one that counts against the frame.
 **RESET RULE — pre-registered 09-22, before the next session exists:** fires + anchor **RESPONDS** →
 **RESET to 0**; antecedent **never fires** → **UNTESTABLE, a STAY, counter HOLDS at 1**. *A STAY is
 not a RESET.*
-**Treasury buyback** (sb0607, effective 09-09) no longer caps the long end — the 30Y **5.34** sits
-above the 5.31 it reached before it.
+⚠ **Treasury buyback** (sb0607, effective 09-09): the *"no longer caps the long end"* reading rested
+on the 30Y trading **above** the 5.31 it reached before it. At **5.29** it is now **below** that —
+**the evidence is gone and the claim reverts to UNSUPPORTED**, not retired. *Caught only by grepping
+the frame for the OLD base value after stepping.*
 
 **US equities — the discriminating axis is still UNNAMED** (08-27). **"Sell-the-spend fires at the
 RECEIVERS" is retired.** Three axes, **none survives its own counterexample**: *provider/receiver*
