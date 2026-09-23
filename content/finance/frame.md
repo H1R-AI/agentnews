@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-22T18:30Z
+updated: 2026-09-23T00:25Z
 ---
 
 ## How to use this file
@@ -71,24 +71,26 @@ DESCRIPTOR, and a SUPERLATIVE is never re-derived — both hide because they do 
 **★ THE FED HIKED 09-16 — +25bp to 3.75%–4.00%**, statement approved **12–0**, hawkish; the hike
 printed **2Y 4.74** — the level the front retraced fully, then **ROUND-TRIPPED back above** on 09-18.
 Newest DECLARED settle is in **Base levels**.
-**★ 09-17 — the falsifier's first real information:** the index leg FIRED (a **+1.70%** Composite
-max) with the anchor **FREE**, and it **RESPONDED −7bp** → no pathology. 09-16 was by contrast a
-**free pass** — the Fed hiked, and a 2Y moves on a policy change **by construction**.
-**09-18 — UNTESTABLE; the counter STAYS at 0.** The index leg did **not** fire on a completed 79-bar
-session (big-three max |excursion| 0.36 / 0.48 / 0.54%, desk-verified at primary). **A STAY, not
-a RESET, and NOT a pass.** The quadruple-witching confound registered that morning is **MOOT — the
-leg never fired, so it never arose. A caveat that costs nothing is what a symmetric one looks like.**
+**★ 09-17:** index FIRED (**+1.70%** Composite max), anchor **FREE**, **RESPONDED −7bp** → no
+pathology. 09-16 was a **free pass** — the Fed hiked; a 2Y moves on a policy change **by
+construction**.
+**09-18 — UNTESTABLE** (big-three max 0.36 / 0.48 / 0.54%, desk-verified): the run was already 0,
+so nothing moved, **and NOT a pass.** The quadruple-witching confound was **MOOT — the leg never
+fired. A caveat that costs nothing is what a symmetric one looks like.**
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice,
-each time the settle REVERSED the live read. **★★ 09-22 — THE PATHOLOGY OCCURRED, on the first session that cannot be dismissed. COUNTER 0 → 1.**
-The index leg **FIRED** (Composite max **2.49%**; the 500 at **1.68%**, which **CROSSED** from the
-1.46% it sat at 18Z — *UNRESOLVED is not did-not-fire*; the third leg fell short) and the anchor was
-**INERT: 2Y 4.76, 0bp**, flat while the belly and long rallied 3–5bp — a bull **FLATTENING** with the
-front **pinned**. **An inert anchor on a quiet curve is weak evidence; inert while everything else
-moves is the configuration this test was written to catch.**
-**It does NOT trip — leg ONE of a required pair.** ★ And it is the **cleanest test the falsifier has
-had**: no Fed move (unlike 09-16), no witching (unlike 09-18), so **both branches were worth
-something** and it went to the one that counts against the frame.
+each time the settle REVERSED the live read. **★★ 09-23 — LAPSE. The antecedent did NOT fire (79-bar session: 0.225 / 0.615 / 0.620% vs the
+strict 1.50 bar), so the session was UNTESTABLE → **PATHOLOGY-RUN 1 → 0, UNINFORMATIVE.** ⚠ **The
+anchor RESPONDED (2Y 4.71, −5bp) and that is NOT a RESET** — a reset needs a FIRED antecedent, so the
+anchor is **not part of an untestable session's verdict** and a −5bp print is **not** the switch
+transmitting. **Monday's leg one is ORPHANED; a trip now needs two FRESH consecutive pathologies.**
+⚠ **The $69bn-auction caveat is MOOT** — it devalued only the RESET branch and that branch never
+arose. *Moot is the GOOD outcome: its value was registration at 12:10Z while the branch was live.*
+
+**★ 09-22 — the pathology DID occur** (Composite max 2.49% and the 500 at 1.68% **both FIRED** —
+the 500 **crossed** from 1.46% at 18Z, *UNRESOLVED is not did-not-fire* — with the anchor **INERT at
+0bp** while the belly and long rallied 3–5bp: **pinned, not quiet**). **The cleanest test the
+falsifier has had** — no Fed move, no witching. **Now ORPHANED by the 09-23 lapse.**
 **RUN RULE — fixed 09-22 18:25Z, the LAST blind moment before the settle.** fires + **INERT** →
 run **+1** (**run = 2 → TRIPS**) · fires + **RESPONDS** → **RESET → 0**, *informative* · **never
 fires** → **LAPSE → 0**, *UNINFORMATIVE*. ★ **Every ending goes to 0; what differs is what the
@@ -110,10 +112,12 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Mon 09-21 close, 20:00Z — DECLARED 2026-09-22 00Z):** UST **2Y 4.76 / 5Y 4.83 / 10Y 4.96 /
-30Y 5.29** (CMT; **0/−3/−5/−5** — a bull **FLATTENING**, 2s10s −5bp, with the **front INERT at 0bp**:
-the falsifier's enabling leg) · S&P **7,764.70** / Nasdaq **27,122.09** / Dow **52,048.83**
-(**+1.49 / +2.26 / +0.71%** — a risk-on rip the anchor did not answer). **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
+**US (Tue 09-22 close, 20:00Z — DECLARED 2026-09-23 00Z):** UST **2Y 4.71 / 5Y 4.83 / 10Y 4.96 /
+30Y 5.29** (CMT; **−5/0/0/0** — a bull **STEEPENING**, 2s10s 20→25 = **+5bp**, *spread computed not
+described*; the front rallied **through its own $69bn auction**) · S&P **7,782.17** / Nasdaq
+**27,288.49** / Dow **52,188.68**. **Crude base is NOVEMBER `CLX26`** — Nov-to-Nov **−3.0%**;
+⚠ **`@CL.1` is frozen on the EXPIRED October** and is not a usable front month until the slot rolls.
+**A SLOT is to a contract what a POSITION is to a date — address by NAME.** **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
 4,408.90** — every move since has been reported as a percentage (neither host is on the settle-block
 allowlist, so no later absolute is DECLARED). **A percentage is not a base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
@@ -153,23 +157,19 @@ readings, opposite directions — the FLOW channel, not oil.** **★ METHOD:** `
 the control **AT** the fixing. **★ A residual is only as good as the SMALLER leg.**
 **★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
 chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE leg identifies.
-**★★ THREE CONFOUNDS (week of 09-15) ALL RAN THE WAY THAT FLATTERS THIS FRAME** — together a
-**SELECTION EFFECT. Mild support accumulates into false confidence precisely because no single
-instance is worth arguing about.**
+**★★ THREE CONFOUNDS (week of 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT. Mild support
+accumulates into false confidence precisely because no single instance is worth arguing about.**
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Mon 09-14's breadth said
-**chip-SPECIFIC within a macro backdrop — ★★ REFUTED 2026-09-22.**
-**RECORD (rolling five):** 09-16 **U** · 09-17 **AGAINST** · 09-18 **AGAINST** · 09-21 **AGAINST** ·
-09-22 **U** → **3 AGAINST, 0 FOR = REFUTED** under the pre-registered aggregation (ops `2000604`;
-UNRESOLVED counts toward the window, never a verdict; **no weighting by margin**). The 09-15
-knife-edge FOR **aged out** at reading six.
+**chip-SPECIFIC within a macro backdrop — ★★ REFUTED 2026-09-22.** Rolling five ended
+**3 AGAINST / 0 FOR** under the pre-registered aggregation (ops `2000604`; **no weighting by
+margin**), the 09-15 knife-edge FOR having **aged out** at reading six.
 **★★ HOW it died is the finding: on an UNRESOLVED, not a decisive break** (reading six: gap
 **−0.52pp**, 1 of 3 under — neither branch). **It fell because no supporting reading arrived in five
 — an ABSENCE of support, which is exactly what the rule was built to detect.**
-**★ The rule named the reading THREE DAYS ahead** and nothing was shortened, re-weighted or
-reclassified. **A recorded verdict binds; the margin does not vote twice.** **REFUTED was the
-PRE-REGISTERED expectation → the LOW-INFORMATION outcome.** **What replaces the claim is UNNAMED** —
-see the discriminating-axis hole. **★ USD/KRW — the thread reversed 09-15** (+10.90 fixing, +0.53pp idiosyncratic) and **09-16
-supplied the PAIRING** — see the Korea row.
+**★ The rule named the reading THREE DAYS ahead**; nothing was shortened, re-weighted or
+reclassified. **A recorded verdict binds; the margin does not vote twice.** REFUTED was the
+**PRE-REGISTERED** expectation → the **LOW-INFORMATION** outcome. **What replaces the claim is
+UNNAMED.** **★ USD/KRW — the thread reversed 09-15**; **09-16 supplied the PAIRING** — see the Korea row.
 **Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 
 
@@ -190,9 +190,8 @@ Score the **condition**, not the metric's letter, and only ever at a **settle**.
 antecedent never fired) / **too coarse** (true in one sub-case, false in another — and a single test
 can never return it). A silent "not tripped" that was really "never tested" accrues as false evidence.
 
-**Published sequence (08-17 → 08-27):** four **does-NOT-trip**, then four **UNTESTABLE**. **Two or
-more consecutive sessions are required**; the second need not be the same index but must clear the
-bar on its own.
+**Two or more consecutive sessions are required**; the second need not be the same index but must
+clear the bar on its own.
 
 **★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED** — 08-27 broke it (the configuration on both legs at
 once, first time this run). I carried that claim and the data broke it, so it is named rather than
@@ -208,7 +207,7 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 09-22: ANTECEDENT-RUN 1 · PATHOLOGY-RUN 1** — the 09-22 session carried **both** legs.
+is built from. **★ AS OF 09-23: ANTECEDENT-RUN 0 · PATHOLOGY-RUN 0** — the 09-23 lapse ended both.
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
