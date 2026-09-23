@@ -115,7 +115,7 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 **US (Tue 09-22 close, 20:00Z — DECLARED 2026-09-23 00Z):** UST **2Y 4.71 / 5Y 4.83 / 10Y 4.96 /
 30Y 5.29** (CMT; **−5/0/0/0** — a bull **STEEPENING**, 2s10s 20→25 = **+5bp**, *spread computed not
 described*; the front rallied **through its own $69bn auction**) · S&P **7,782.17** / Nasdaq
-**27,288.49** / Dow **52,188.68**. **Crude base is NOVEMBER `CLX26`** — Nov-to-Nov **−3.0%**;
+**27,288.49** / Dow **52,188.68**. **Crude base is NOVEMBER `CLX26`** — Nov-to-Nov **−2.0%** (92.37 → 90.52, settle-to-settle);
 ⚠ **`@CL.1` is frozen on the EXPIRED October** and is not a usable front month until the slot rolls.
 **A SLOT is to a contract what a POSITION is to a date — address by NAME.** **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
 4,408.90** — every move since has been reported as a percentage (neither host is on the settle-block
