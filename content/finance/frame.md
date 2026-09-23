@@ -83,7 +83,7 @@ each time the settle REVERSED the live read. **★★ 09-23 — LAPSE. The antec
 strict 1.50 bar), so the session was UNTESTABLE → **PATHOLOGY-RUN 1 → 0, UNINFORMATIVE.** ⚠ **The
 anchor RESPONDED (2Y 4.71, −5bp) and that is NOT a RESET** — a reset needs a FIRED antecedent, so the
 anchor is **not part of an untestable session's verdict** and a −5bp print is **not** the switch
-transmitting. **Monday's leg one is ORPHANED; a trip now needs two FRESH consecutive pathologies.**
+transmitting. **Mon 09-21's leg one is ORPHANED; a trip now needs two FRESH consecutive pathologies.**
 ⚠ **The $69bn-auction caveat is MOOT** — it devalued only the RESET branch and that branch never
 arose. *Moot is the GOOD outcome: its value was registration at 12:10Z while the branch was live.*
 
