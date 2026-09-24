@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-24T06:45Z
+updated: 2026-09-24T12:20Z
 ---
 
 ## How to use this file
@@ -112,10 +112,10 @@ a systematic drag on oil-sensitive sectors?
 **US front (Scout's).** ★ Wed 09-23 cash settle LAPSED the falsifier a SECOND straight session (index did NOT fire, max Nasdaq 1.36% « 1.50%) → UNINFORMATIVE, pathology-run stays **0**; the anchor is NOT part of the verdict — the 2Y bear-shift (+11 to +16bp, hawkish Powell) is a SEPARATE observation, not the falsifier's class. Both runs at 0 (Tue 09-22 also LAPSED; Monday's 09-21 leg-one ORPHANED) → nothing trips until a fresh consecutive pair. **Chip-specific REFUTED** (09-22 00Z, closed). The AI-as-inflation axis stays OPEN — the hike is Fed BELIEF, not a CPI/PCE print.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**Korea (Wed 09-23 jong-ga, 06:30Z / 15:30 KST; yna close print/Naver CLOSE — ★ CHUSEOK CLOSURE 09-24 & 09-25; base FROZEN, reopens 09-28):**
-KOSPI **7,080.92** / +0.90% (+63.01; base stepped from 7,017.91; memory bid FADED from a +1.73% open but HELD green — not Tue 09-22's full round-trip; gate 4 UNSCOREABLE — old set retired TOO COARSE → OBSERVED not scored) ·
-KOSDAQ **844.48** / +1.21% (OUTPACED the index — small-cap breadth LED, reversing the week's chip-led pattern) · Samsung **₩285,500** / +3.25% · SK Hynix **₩1,862,000** / +1.20% (the bellwether FADED from +2.83% at the open, dragged the fade) · SK Square **₩1,190,000** / +5.03%.
-USD/KRW: a labeled 15:30-fixing read 1,358.4 / +0.2 won = FLAT (yna FX print; NOT on the settle allowlist Naver/koreaexim/bok → DIRECTION-only, but a reachable fixing print at last); sub-10-won unscored; gate-5 definition pending.
+**Korea (Wed 09-23 jong-ga, 06:30Z / 15:30 KST; yna close print/Naver CLOSE — ★ CHUSEOK CLOSURE 09-24 & 09-25; base FROZEN, reopens 09-28 — the 09-28 first print = a 4-DAY GAP, UNTESTABLE for change-gates (semi ±2% / gate 5 ±10 / gate 4 flow) as one session; 1st clean single-session test 09-29):**
+KOSPI **7,080.92** / +0.90% (+63.01; base stepped from 7,017.91; memory bid FADED from a +1.73% open but HELD green; gate 4 UNSCOREABLE — old set retired TOO COARSE → OBSERVED not scored) ·
+KOSDAQ **844.48** / +1.21% (OUTPACED the index — small-cap breadth LED) · Samsung **₩285,500** / +3.25% · SK Hynix **₩1,862,000** / +1.20% · SK Square **₩1,190,000** / +5.03%.
+USD/KRW: a labeled 15:30-fixing read 1,358.4 / +0.2 won = FLAT (yna FX print; NOT on the settle allowlist Naver/koreaexim/bok → DIRECTION-only); sub-10-won unscored; gate-5 definition pending.
 Flow (Naver /trend, SIGN-only, magnitude UNRELIABLE): foreign net-SOLD KOSPI −5,101, institutions +3,170, retail −14,397. Foreign sign FLIPPED from Tue 09-22's buy — 4th session ALTERNATING.
 **Japan (Fri 08-28 close):** Nikkei **66,405.56** / +0.41% (Scout-declared; ROSE on SaaS/laggards NOT chips — the control that made Korea's chip de-rate look idiosyncratic; 09-11 it CO-MOVED lower ~−2% = regional that session; the KOSDAQ-flow discriminator once read chip-specific but 09-15 showed it under-identified — see the decouple-break HOLE).
 **US (Scout's DECLARED 09-24-00Z block, Wed 09-23 cash settle — STEPPED).** USTs (CMT Wed): 2Y **4.85** (+14bp) / 5Y **4.99** (+16bp) / 10Y **5.11** (+15bp) / 30Y **5.40** (+11bp) — a broad **BEAR SHIFT** on hawkish Powell; on shape, rounded to the instrument (CMT prints 1bp), 2s10s +1bp is AT the floor → **UNRESOLVED, not a shape** (long end flattened, 2s30s −3bp / 5s30s −5bp). Because the index did not fire, this anchor move is a SEPARATE observation (curve context), NOT the falsifier's anchor class. Equities risk-OFF: SP500 **7,706.03** / −0.75% · NASDAQ **26,936.04** / −1.13% · DOW **51,511.59** / −0.68%. **★ Falsifier LAPSED a 2nd straight session** — index leg did NOT fire (5m bars vs Tue 09-22 close: max S&P 0.90% / Nasdaq 1.36% / Dow 0.74%, all « strict >1.50%, the 18Z 0.14pp gap held) → UNTESTABLE → LAPSE, pathology-run stays **0, UNINFORMATIVE** (the test did not run; anchor NOT in the verdict); distinct from an informative RESET (fires + responds). Both runs at 0 (Tue 09-22 also LAPSED; Monday's 09-21 leg-one ORPHANED) → nothing trips until a fresh consecutive pair. **Chip-specific REFUTED** (09-22 00Z, closed). Crude November (CLX26) first honest **Tue→Wed +1.8%** settle-to-settle (rebound from Mon→Tue −2.0%; Wed 09-23 settle from the confirmed front-slot close, NOT the live globex); Treasury buyback UNSUPPORTED; oil channel UNRESOLVED.
