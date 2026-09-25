@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-09-25T18:20Z
+updated: 2026-09-25T18:11Z
 ---
 
 ## How to use this file
