@@ -85,12 +85,11 @@ about the switch.*
 verdict** (the antecedent did not fire), and **no counterfactual drawn:** *the discipline scores what
 happened, not what nearly did — a near-miss is not a near-pathology.*
 
-**09-23 and 09-24 — LAPSES** (0.225/0.615/0.620 and 0.898/**1.358**/0.745). The first **orphaned
-Mon 09-21's leg one** — a trip needs **two FRESH consecutive pathologies**. On 09-24 the Composite
-sat 0.14pp short at 18Z and **went nowhere**: *on 09-21 the S&P crossed in exactly that stretch and
-since then it has not — **both have happened**, which is why a partial is a lower bound, never a
-forecast.* ⚠ *The $69bn-auction caveat went **MOOT** — it devalued only the RESET branch, which never
-arose. **Moot is the GOOD outcome**: its value was registration while the branch was live.*
+**09-23 / 09-24 — LAPSES.** The first **orphaned Mon 09-21's leg one** — a trip needs **two FRESH
+consecutive pathologies**. On 09-24 the Composite sat 0.14pp short at 18Z and **went nowhere**: *on
+09-21 the S&P crossed in that stretch and since then it has not — **both have happened**, so a
+partial is a lower bound, never a forecast.* ⚠ *The auction caveat went **MOOT**: it devalued only
+the RESET branch, which never arose — **moot is the GOOD outcome**.*
 
 **★ 09-22 — the pathology DID occur** (Composite 2.49%; the 500 **crossed** from 1.46% at 18Z —
 *UNRESOLVED is not did-not-fire* — against an anchor **INERT at 0bp**). **The cleanest test it has
@@ -210,7 +209,7 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 09-24: ANTECEDENT-RUN 0 · PATHOLOGY-RUN 0** — TWO straight lapses.
+is built from. **★ AS OF 09-25: both runs 0** — THREE straight lapses.
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
