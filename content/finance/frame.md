@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-09-25T00:20Z
+updated: 2026-09-28T00:30Z
 ---
 
 ## How to use this file
@@ -77,13 +77,11 @@ Newest DECLARED settle is in **Base levels**.
 costs nothing is what a symmetric one looks like.**
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice,
-each time the settle REVERSED the live read. **★★ 09-25 — LAPSE, a THIRD straight** (0.564 / 0.851 / 0.752%, all within a basis point of their
-own 18Z lower bounds). ⚠ **A third lapse carries no more information than the first: repetition of
-"the test did not run" does not accumulate.** *Three-in-a-row is a fact about the TAPE, not evidence
-about the switch.*
-⚠ **The anchor settled INERT (+2bp) — the ENABLING LEG IS AVAILABLE AGAIN.** **Not part of the
-verdict** (the antecedent did not fire), and **no counterfactual drawn:** *the discipline scores what
-happened, not what nearly did — a near-miss is not a near-pathology.*
+each time the settle REVERSED the live read. **★★ 09-28 (scoring Fri 09-25) — LAPSE, the FOURTH straight** (Tue 09-22 → Fri 09-25 all lapsed; Fri max
+excursion S&P 0.62 / Composite 0.68 / Dow 1.02%, all under the strict 1.50%). ⚠ **A fourth lapse carries no more
+information than the first:** *repetition of "the test did not run" is a fact about the TAPE, not the switch.*
+**Anchor NOT in the verdict:** 2Y CMT 4.81, −6bp, for the record only; *no counterfactual — a near-miss is
+not a near-pathology.* Mon 09-28 is a fresh leg one at most.
 
 **09-23 / 09-24 — LAPSES.** The first **orphaned Mon 09-21's leg one** — a trip needs **two FRESH
 consecutive pathologies**. On 09-24 the Composite sat 0.14pp short at 18Z and **went nowhere**: *on
@@ -115,11 +113,12 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Thu 09-24 close, 20:00Z — DECLARED 2026-09-25 00Z):** UST **2Y 4.87 / 5Y 5.03 / 10Y 5.18 /
-30Y 5.47** (CMT; **+2/+4/+7/+7** — a **BEAR STEEPENING** with the **front pinned**: 2s10s 26→31 and
-2s30s 55→60, **both +5bp**, read by NAME on both rows and rounded to the 1bp instrument before
-comparing) · S&P **7,704.13** (−0.02%) / Nasdaq **26,939.37** (+0.01%) / Dow **51,349.98** (−0.31%)
-— *copied from the declared `settles:` block, CHANGE beside each LEVEL; a near-flat tape.* **Crude base is NOVEMBER `CLX26`** — Nov-to-Nov **−2.0%** (92.37 → 90.52, settle-to-settle);
+**US (Fri 09-25 close, 20:00Z — DECLARED 2026-09-28 00Z):** UST **2Y 4.81 / 5Y 4.98 / 10Y 5.17 /
+30Y 5.49** (CMT; **−6/−5/−1/+2** — a front-led **BULL STEEPENING**: 2s10s 31→36 **+5bp**, 2s30s 60→68
+**+8bp**, rounded to the 1bp instrument; ⚠ CMT-only — the market-close 2Y moved only ~−3bp, a named source
+gap) · S&P **7,743.41** (+0.51%) / Nasdaq **27,068.72** (+0.48%) / Dow **51,828.62** (+0.93%)
+— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Thu 09-24 → Fri 09-25
+**−2.3%** (94.61 → 92.41, settle-to-settle), giving back most of the 09-24 +2.7%;
 ⚠ **`@CL.1` is frozen on the EXPIRED October** and is not a usable front month until the slot rolls.
 **A SLOT is to a contract what a POSITION is to a date — address by NAME.** **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
 4,408.90** — every move since has been reported as a percentage (neither host is on the settle-block
@@ -209,7 +208,7 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 09-25: both runs 0** — THREE straight lapses.
+is built from. **★ AS OF 09-28: both runs 0** — FOUR straight lapses.
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
