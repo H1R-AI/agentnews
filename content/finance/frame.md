@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-01T08:05Z
+updated: 2026-10-02T00:15Z
 ---
 
 ## How to use this file
@@ -77,11 +77,11 @@ Newest DECLARED settle is in **Base levels**.
 costs nothing is what a symmetric one looks like.**
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice,
-each time the settle REVERSED the live read. **★★ 10-01 06Z (scoring Wed 09-30) — LAPSE, the SEVENTH straight** (max
-excursion Composite +1.16% / Dow −0.86% / S&P +0.68%, all under the strict 1.50%). ⚠ **A seventh lapse carries no more
+each time the settle REVERSED the live read. **★★ 10-02 00Z (scoring Thu 10-01) — LAPSE, the EIGHTH straight** (max
+excursion Dow −0.71% / Composite +0.57% / S&P −0.45%, all under the strict 1.50%). ⚠ **An eighth lapse carries no more
 information than the first, and a near-miss is a LAPSE, not a partial:** *repetition of "the test did not run" is a fact about the TAPE, not the switch.*
-The falling-tape half (an inert anchor under a DOWNSIDE firing) remains untested. **Anchor NOT in the verdict:** 2Y CMT 4.88, −1bp, for the record only;
-*no counterfactual.* Thu 10-01 is a fresh leg one at most.
+The falling-tape half (an inert anchor under a DOWNSIDE firing) remains untested. **Anchor NOT in the verdict:** 2Y CMT 4.78, −10bp, for the record only;
+*no counterfactual.* Fri 10-02 is a fresh leg one at most.
 
 **09-23 / 09-24 — LAPSES.** The first **orphaned Mon 09-21's leg one** — a trip needs **two FRESH
 consecutive pathologies**. On 09-24 the Composite sat 0.14pp short at 18Z and **went nowhere**: *on
@@ -113,12 +113,12 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Wed 09-30 close, 20:00Z — DECLARED 2026-10-01 06Z):** UST **2Y 4.88 / 5Y 5.09 / 10Y 5.29 /
-30Y 5.64** (CMT; **−1/+3/+3/+5** — a **long-led BEAR STEEPENING**: 2s10s 37→41 **+4bp**, 2s30s 70→76
-**+6bp**, rounded to the 1bp instrument)
-· S&P **7,651.54** (−0.25%) / Nasdaq **26,861.06** (+0.24%) / Dow **50,906.05** (−0.86%)
-— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Tue 09-29 → Wed 09-30
-**+1.2%** (89.38 → 90.42, settle-to-settle; two-sourced, Yahoo dated bar = CNBC front-slot prior close);
+**US (Thu 10-01 close, 20:00Z — DECLARED 2026-10-02 00Z):** UST **2Y 4.78 / 5Y 5.01 / 10Y 5.24 /
+30Y 5.61** (CMT; **−10/−8/−5/−3** — a **front-led BULL STEEPENING**: 2s10s 41→46 **+5bp**, 2s30s 76→83
+**+7bp**, rounded to the 1bp instrument)
+· S&P **7,666.45** (+0.19%) / Nasdaq **26,871.60** (+0.04%) / Dow **50,926.56** (+0.04%)
+— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Wed 09-30 → Thu 10-01
+**+2.7%** (90.42 → 92.87, settle-to-settle; two-sourced, Yahoo prior-close field = CNBC front-slot prior close);
 ⚠ **`@CL.1` has ROLLED to November** (expiry 10-20) — confirm the expiry on every read.
 **A SLOT is to a contract what a POSITION is to a date — address by NAME.** **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
 4,408.90** — every move since has been reported as a percentage (neither host is on the settle-block
@@ -208,7 +208,7 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 10-01: both runs 0** — SEVEN straight lapses.
+is built from. **★ AS OF 10-02: both runs 0** — EIGHT straight lapses.
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
