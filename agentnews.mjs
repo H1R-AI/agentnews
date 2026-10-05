@@ -361,7 +361,10 @@ const C9_TOLERANCE = 0.011;
 //
 // Scoped hard to the base-levels block. An index level quoted in frame PROSE is
 // usually historical narration ("the week ran 6,471 -> 6,852") and must not fire.
-const C10_BASE_BLOCK = /\*\*Base levels[^*]*\*\*([\s\S]*?)(?=\n\s*\n|\n## |\n---|$)/i;
+// Anchored on the HEADING's own words ("Base levels for the next window"), not on the first bold
+// "Base levels" anywhere: a bold POINTER to the block matched first and C10 read the wrong paragraph
+// from 2026-09-21 to 10-05 (see the pointer fixture).
+const C10_BASE_BLOCK = /\*\*Base levels for the next window[^*]*\*\*([\s\S]*?)(?=\n\s*\n|\n## |\n---|$)/i;
 const C10_INDICES = [
   { key: 'KOSPI',  label: /KOSPI/i },
   { key: 'KOSDAQ', label: /KOSDAQ/i },
@@ -376,7 +379,9 @@ const C10_INDICES = [
   // is the key the settles block declares.
   { key: 'SP500',  label: /S&P(?:\s*500)?|\bSP500\b|\bSPX\b/i },
   { key: 'NASDAQ', label: /Nasdaq/i },
-  { key: 'DOW',    label: /Dow/i },
+  // \b on BOTH sides (2026-10-05): a bare /Dow/i matched inside "down" and read a gate number as
+  // the Dow base. A label that is also an English substring must be a WORD.
+  { key: 'DOW',    label: /\bDow\b/i },
   // Yields print to 1bp and the frame's whole front-end argument is built on 1bp
   // differences, so these carry their own tolerance — the default 0.011 would
   // swallow exactly the difference the check exists to see.
@@ -421,6 +426,33 @@ const C10_FIXTURES = [
   ['block present with prose but no recognised pair reports zero coverage',
    '**Base levels for the next window.**\nCarried forward unchanged from yesterday.\n\nend',
    { KOSPI: 6808.21 }, 'EMPTY'],
+  // --- regression 2026-10-05: /Dow/i matched INSIDE "down". finance-ko's frame carried "smbs.biz
+  // down); gate-5" ABOVE its Dow base, so C10 read the DOW base as 5 and flagged a CORRECT 51,176.96
+  // as stale. The reporter had to reword true prose to quiet the check. The same bug runs the other
+  // way: a stray number after an earlier "down" that happens to equal the declared close HIDES a
+  // stale Dow. Found by Suri, not by the desk.
+  ['REAL SHAPE: "down" earlier in the block is NOT the Dow',
+   '**Base levels for the next window.**\nUSD/KRW: fixing unsourced (smbs.biz down); gate-5 pending.\n' +
+   '**US:** Dow **51,176.96**.\n\nend',
+   { DOW: 51176.96 }, 0],
+  ['a stale Dow behind an earlier "down" IS still a finding',
+   '**Base levels for the next window.**\nUSD/KRW: fixing unsourced (smbs.biz down); gate-5 pending.\n' +
+   '**US:** Dow **50,926.56**.\n\nend',
+   { DOW: 51176.96 }, 1],
+  // --- regression 2026-10-05: the block regex took the FIRST bold "Base levels" in the frame. Since
+  // 09-21 finance/frame.md has carried a POINTER ("Newest DECLARED settle is in **Base levels**.")
+  // ~40 lines above the real block, so for two weeks C10 parsed the falsifier paragraph under the
+  // pointer as the US base levels: excursion percentages read as index levels, while the real block
+  // went unread. Its warnings looked like permanent noise, and that is how it hid.
+  ['REAL SHAPE: a bold "Base levels" POINTER above the block is not the block',
+   'Newest DECLARED settle is in **Base levels**.\nMax excursion S&P +1.15% / Dow +0.90%; 2Y CMT 4.83.\n\n' +
+   '**Base levels for the next window — each as of its OWN market\'s last settle, not one date.**\n' +
+   '**US:** UST **2Y 4.83** · S&P **7,722.72** / Dow **51,176.96**.\n\nend',
+   { SP500: 7722.72, DOW: 51176.96, UST2Y: 4.83 }, 0],
+  ['a stale level in the REAL block is caught even with a pointer above it',
+   'Newest DECLARED settle is in **Base levels**.\nS&P **7,722.72** was Friday.\n\n' +
+   '**Base levels for the next window.**\n**US:** S&P **7,666.45**.\n\nend',
+   { SP500: 7722.72 }, 1],
 ];
 
 
