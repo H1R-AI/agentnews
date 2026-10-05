@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-10-05T00:10Z
+updated: 2026-10-05T06:45Z
 ---
 
 ## How to use this file
@@ -114,8 +114,9 @@ KOSDAQ **893.29** / −0.11% (−1.00 off 894.29; crossed 900 intraday to 903.88
 USD/KRW: the certified onshore 15:30 fixing is still unsourced (smbs.biz unreachable); gate-5 definition + source pending — direction-unmeasured.
 Flow: SIGN DISPUTED across feeds at the Fri 10-02 jong-ga — one native close wire + the morning read put foreign + institutions as net SELLERS (small) with retail the bid; another feed showed foreign + institutions buying. Carried UNRESOLVED (not a scored gate-4 read); pull the finalized KRX settlement flow.
 **★ CALENDAR:** The Fri 10-02 jong-ga (above) was the LAST settle before KRX shut Sat 10-03 – Mon 10-05 (Gaecheonjeol substitute Mon 10-05); it priced Thu 10-01's now-scored US Micron session. Tue 10-06's jong-ga stacks Fri 10-02 + Mon 10-05 US sessions + the SOFT Sept payrolls — TWO US sessions into one Korean reaction (semi-switch TESTABLE, cause not attributable, per the 10-02 registration).
-**Japan (Thu 10-01 close):** Nikkei **+3.30%** (Scout-declared, Yahoo=CNBC) — co-move control, no cause (regional).
 **US (Scout's DECLARED 10-05-00Z block, Fri 10-02 cash settle — STEPPED).** USTs (CMT Fri 10-02): 2Y **4.83** (+5bp) / 5Y **5.06** (+5bp) / 10Y **5.28** (+4bp) / 30Y **5.63** (+2bp) — a front-led **BEAR-FLATTENING** (2s30s 83→80 −3bp; 2s10s −1bp unresolvable) REVERSING Thu 10-01's bull steepening, **no cause established** (payrolls day; context, not a discount on the verdict); the won reads it only at the fixing. Equities closed UP: SP500 **7,722.72** / +0.73% · NASDAQ **27,190.86** / +1.19% · DOW **51,176.96** / +0.49%. **★ Falsifier: FIRE + RESPONDED → RESET to 0, informative** — the Composite's max excursion **+1.79%** cleared the strict >1.50% (first fire after 8 lapses, UPSIDE); the 2Y CMT **4.83** moved **+5bp** (≥4 = RESPONDED) under the firing → run stays **0** but INFORMATIVE (the switch was tested and the anchor moved; no pathology). The falling-tape half stays UNTESTED. **Chip-specific REFUTED** (09-22 00Z, closed) — the UP-fire imported NO de-rate. Crude Nov (CLX26) **Thu→Fri −1.9%** AFTER the agreed **G7 100M-bbl** release (cause unestablished); oil channel UNRESOLVED. **Sept payrolls (Fri 10-02 12:30Z, BLS): NFP +29k, u-rate 4.2%, −60k revisions — SOFT/dovish, now SETTLED; Korea reads Tue 10-06.** Next: FOMC Sept-meeting minutes Wed 10-07 (belief, not a CPI/PCE print).
+
+**Co-move (not a base level):** Nikkei **+3.30%** (Thu 10-01, Scout-declared) — regional control, no cause.
 ---
 
 ## Next gates
