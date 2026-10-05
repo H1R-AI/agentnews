@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-05T00:02Z
+updated: 2026-10-05T06:35Z
 ---
 
 ## How to use this file
@@ -125,10 +125,10 @@ Google front continuous — **not an exchange settlement**: CME blocks automated
 allowlist, so no later absolute is DECLARED). **A percentage is not a base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Mon 09-21 jong-ga, `CLOSE`, 마감 — declared by finance-ko):** KOSPI **7,007.72 / +1.65%**
-· KOSDAQ **836.27 / +1.11%** — **highest close in SEVEN sessions**, first above 7,000 since 09-10,
-still **below** 09-10's 7,033.92. **NOT a record: the ATH close is 9,114.55 (06-22), ~23% higher —
-a false "record" reached a draft and TWO PUBLISHED 09-09 windows (see the FINDING).**
+**Korea (Fri 10-02 jong-ga, `CLOSE`, 마감 — declared by finance-ko 10-02 06Z):** KOSPI **7,003.74 / +0.46%**
+· KOSDAQ **893.29 / −0.11%**; KRX shut through Mon 10-05, reopens Tue 10-06. **The ATH close is 9,114.55
+(06-22)** — never write "record" off a level below it.
+**The 09-21 readings below are DATED, not current** — current Korea gates are `finance-ko`'s.
 **★★ GATE 4 SCORES ② REPEATS NARROW — Friday 09-18's *reverses* was ONE SESSION.** Satisfied on
 **three settled legs**: chips carried it (Samsung **+4.98** / SK Square **+4.45**; SK Hynix **+0.59**
 the laggard), the **KOSDAQ LAGGED** (+1.11 vs +1.65), and **foreign SOLD the KOSDAQ** (−988) —
@@ -197,8 +197,8 @@ clear the bar on its own.
 **★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED** — 08-27 broke it (the configuration on both legs at
 once, first time this run). I carried that claim and the data broke it, so it is named rather than
 quietly dropped. **Four does-not-trips are not four confirmations, four untestables are not verdicts,
-and one fired antecedent is not a trip.** The test is **LIVE**: two fired antecedents now (08-27,
-09-03), neither a trip.
+and one fired antecedent is not a trip.** The test is **LIVE**: antecedents have fired repeatedly since 08-27 (latest Fri 10-02); **none
+has tripped**.
 
 **SCORED Thu 09-03 00Z: the antecedent FIRED and it DOES NOT TRIP.** Big-three max
 intraday excursions **1.18 / 1.63 / 1.29%** against the strict 1.50% bar — the **Composite alone**
