@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-05T06:35Z
+updated: 2026-10-06T00:03Z
 ---
 
 ## How to use this file
@@ -81,12 +81,12 @@ each time the settle REVERSED the live read. **★★ 10-05 00Z (scoring Fri 10-
 **+1.79%** (high 27,353.68 vs 26,871.60; Nasdaq exchange API = CNBC), S&P +1.15% / Dow +0.90% under the strict
 1.50%. 2Y CMT **4.83, +5bp = RESPONDED** — the anchor moved with the tape, so **no pathology.** This ended EIGHT
 straight lapses; *a lapse taught nothing, this RESET did.* The falling-tape half (an inert anchor under a DOWNSIDE
-firing) remains untested. **Mon 10-05 is a fresh leg one at most — NOT leg two** (leg two needed INERT).
+firing) remains untested.
+**10-06 00Z (scoring Mon 10-05) — NO FIRE → LAPSE, 0 → 0.** Composite max **+1.30%** (0.20pp short), S&P +0.93%,
+Dow −0.61% (low side); CNBC = Yahoo to the cent. CMT +1bp scores nothing without a fire. **Tue 10-06: fresh leg one at most.**
 
-**09-23 / 09-24 — LAPSES.** The first **orphaned Mon 09-21's leg one** — a trip needs **two FRESH
-consecutive pathologies**. On 09-24 the Composite sat 0.14pp short at 18Z and **went nowhere**: *on
-09-21 the S&P crossed in that stretch and since then it has not — **both have happened**, so a
-partial is a lower bound, never a forecast.*
+**09-23 / 09-24 — LAPSES** (the first orphaned 09-21's leg one). *An 18Z partial is a lower bound, never a forecast:*
+the S&P crossed after 18Z on 09-21; the Composite did not on 09-24 or 10-05.
 
 **★ 09-22 — the pathology DID occur** (Composite 2.49%; the 500 **crossed** from 1.46% at 18Z —
 *UNRESOLVED is not did-not-fire* — against an anchor **INERT at 0bp**). **The cleanest test it has
@@ -112,12 +112,12 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Fri 10-02 close, 20:00Z — DECLARED 2026-10-05 00Z):** UST **2Y 4.83 / 5Y 5.06 / 10Y 5.28 /
-30Y 5.63** (CMT; **+5/+5/+4/+2** — a **BEAR FLATTENING**: 2s10s 46→45 **−1bp**, 2s30s 83→80
-**−3bp**, rounded to the 1bp instrument)
-· S&P **7,722.72** (+0.73%) / Nasdaq **27,190.86** (+1.19%) / Dow **51,176.96** (+0.49%)
-— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Thu 10-01 → Fri 10-02
-**−1.9%** (92.87 → 91.11, settle-to-settle; two VENDOR prior-close fields — CNBC Nov'26-labelled =
+**US (Mon 10-05 close, 20:00Z — DECLARED 2026-10-06 00Z):** UST **2Y 4.84 / 5Y 5.06 / 10Y 5.31 /
+30Y 5.66** (CMT; **+1/0/+3/+3** — a **BEAR STEEPENING**, long-end-led: 2s10s 45→47 **+2bp**, 2s30s 80→82
+**+2bp**, rounded to the 1bp instrument)
+· S&P **7,773.95** (+0.66%) / Nasdaq **27,477.31** (+1.05%) / Dow **51,267.90** (+0.18%)
+— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Fri 10-02 → Mon 10-05
+**−1.8%** (91.11 → 89.43, settle-to-settle; two VENDOR prior-close fields — CNBC Nov'26-labelled =
 Google front continuous — **not an exchange settlement**: CME blocks automated reads);
 ⚠ **`@CL.1` has ROLLED to November** (expiry 10-20) — confirm the expiry on every read.
 **A SLOT is to a contract what a POSITION is to a date — address by NAME.** **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
@@ -208,7 +208,7 @@ settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* 
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 10-05: both runs 0** — Fri 10-02 FIRED and RESET (2Y RESPONDED).
+is built from. **★ AS OF 10-06: both runs 0** — Mon 10-05 LAPSED (no fire); Fri 10-02 had FIRED and RESET (2Y RESPONDED).
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
