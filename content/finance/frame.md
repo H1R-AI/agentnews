@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-06T00:03Z
+updated: 2026-10-07T00:03Z
 ---
 
 ## How to use this file
@@ -82,8 +82,10 @@ each time the settle REVERSED the live read. **★★ 10-05 00Z (scoring Fri 10-
 1.50%. 2Y CMT **4.83, +5bp = RESPONDED** — the anchor moved with the tape, so **no pathology.** This ended EIGHT
 straight lapses; *a lapse taught nothing, this RESET did.* The falling-tape half (an inert anchor under a DOWNSIDE
 firing) remains untested.
-**10-06 00Z (scoring Mon 10-05) — NO FIRE → LAPSE, 0 → 0.** Composite max **+1.30%** (0.20pp short), S&P +0.93%,
-Dow −0.61% (low side); CNBC = Yahoo to the cent. CMT +1bp scores nothing without a fire. **Tue 10-06: fresh leg one at most.**
+**10-06 00Z (Mon 10-05) — LAPSE, 0 → 0** (Composite max +1.30%, 0.20pp short).
+**10-07 00Z (scoring Tue 10-06) — NO FIRE → LAPSE, 0 → 0, second straight.** S&P max **+0.91%** (0.59pp short),
+Composite +0.89%, Dow +0.79%, all high side, lows above Monday's close; CNBC = Yahoo to the cent. CMT 2Y **−5bp** scores nothing
+without a fire. Falling-tape half untested. **Wed 10-07: fresh leg one at most.**
 
 **09-23 / 09-24 — LAPSES** (the first orphaned 09-21's leg one). *An 18Z partial is a lower bound, never a forecast:*
 the S&P crossed after 18Z on 09-21; the Composite did not on 09-24 or 10-05.
@@ -112,12 +114,13 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Mon 10-05 close, 20:00Z — DECLARED 2026-10-06 00Z):** UST **2Y 4.84 / 5Y 5.06 / 10Y 5.31 /
-30Y 5.66** (CMT; **+1/0/+3/+3** — a **BEAR STEEPENING**, long-end-led: 2s10s 45→47 **+2bp**, 2s30s 80→82
-**+2bp**, rounded to the 1bp instrument)
-· S&P **7,773.95** (+0.66%) / Nasdaq **27,477.31** (+1.05%) / Dow **51,267.90** (+0.18%)
-— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Fri 10-02 → Mon 10-05
-**−1.8%** (91.11 → 89.43, settle-to-settle; two VENDOR prior-close fields — CNBC Nov'26-labelled =
+**US (Tue 10-06 close, 20:00Z — DECLARED 2026-10-07 00Z):** UST **2Y 4.79 / 5Y 5.03 / 10Y 5.27 /
+30Y 5.64** (CMT; **−5/−3/−4/−2** — a **BULL STEEPENING**, front-led: 2s10s 47→48 **+1bp**, 2s30s 82→85
+**+3bp**, rounded to the 1bp instrument)
+· S&P **7,818.93** (+0.58%) / Nasdaq **27,599.89** (+0.45%) / Dow **51,521.28** (+0.49%)
+— Wed 10-07 bars (±1.50%, strict): S&P >7,936.21 / <7,701.65 · Composite >28,013.89 / <27,185.89 · Dow >52,294.10 / <50,748.46
+— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Mon 10-05 → Tue 10-06
+**+0.01%**, about flat after a ~3% intraday round trip (Fri 10-02 → Mon 10-05 was −1.8%, 91.11 → 89.43; settle-to-settle; two VENDOR prior-close fields — CNBC Nov'26-labelled =
 Google front continuous — **not an exchange settlement**: CME blocks automated reads);
 ⚠ **`@CL.1` has ROLLED to November** (expiry 10-20) — confirm the expiry on every read.
 **A SLOT is to a contract what a POSITION is to a date — address by NAME.** **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
@@ -200,15 +203,11 @@ quietly dropped. **Four does-not-trips are not four confirmations, four untestab
 and one fired antecedent is not a trip.** The test is **LIVE**: antecedents have fired repeatedly since 08-27 (latest Fri 10-02); **none
 has tripped**.
 
-**SCORED Thu 09-03 00Z: the antecedent FIRED and it DOES NOT TRIP.** Big-three max
-intraday excursions **1.18 / 1.63 / 1.29%** against the strict 1.50% bar — the **Composite alone**
-clears it, as on 08-27. Second fired antecedent of the run. It does not trip for
-**two independent reasons**: 2+ consecutive sessions are required and this is one, **and** the 2Y
-settled **4.34, −5bp = RESPONDED**, so the *"while the 2Y stays range-bound"* leg fails outright.
+**09-03 00Z: FIRED, no trip** (Composite 1.63% alone; one session, and 2Y −5bp RESPONDED).
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 10-06: both runs 0** — Mon 10-05 LAPSED (no fire); Fri 10-02 had FIRED and RESET (2Y RESPONDED).
+is built from. **★ AS OF 10-07: both runs 0** — Tue 10-06 and Mon 10-05 LAPSED (no fire); Fri 10-02 had FIRED and RESET (2Y RESPONDED).
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
