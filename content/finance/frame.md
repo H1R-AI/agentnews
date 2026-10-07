@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-07T00:03Z
+updated: 2026-10-07T00:12Z
 ---
 
 ## How to use this file
@@ -84,7 +84,7 @@ straight lapses; *a lapse taught nothing, this RESET did.* The falling-tape half
 firing) remains untested.
 **10-06 00Z (Mon 10-05) — LAPSE, 0 → 0** (Composite max +1.30%, 0.20pp short).
 **10-07 00Z (scoring Tue 10-06) — NO FIRE → LAPSE, 0 → 0, second straight.** S&P max **+0.91%** (0.59pp short),
-Composite +0.89%, Dow +0.79%, all high side, lows above Monday's close; CNBC = Yahoo to the cent. CMT 2Y **−5bp** scores nothing
+Composite +0.89%, Dow +0.79%, all high side, lows above Mon 10-05's close; CNBC = Yahoo. CMT 2Y **−5bp** scores nothing
 without a fire. Falling-tape half untested. **Wed 10-07: fresh leg one at most.**
 
 **09-23 / 09-24 — LAPSES** (the first orphaned 09-21's leg one). *An 18Z partial is a lower bound, never a forecast:*
