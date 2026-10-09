@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-08T00:01Z
+updated: 2026-10-09T00:02Z
 ---
 
 ## How to use this file
@@ -77,14 +77,11 @@ Newest DECLARED settle is in **Base levels**.
 costs nothing is what a symmetric one looks like.**
 Forward rule fixed 08-31 *before any 3 or 4 had ever printed*: **|Δ| ≤3bp INERT, ≥4bp RESPONDED —
 no indeterminate cell.** **The scoring instrument is the settle, never an intraday** — earned twice,
-each time the settle REVERSED the live read. **★★ 10-05 00Z (scoring Fri 10-02) — FIRED + RESPONDED → RESET → 0, *informative*.** Composite max
-**+1.79%** (high 27,353.68 vs 26,871.60; Nasdaq exchange API = CNBC), S&P +1.15% / Dow +0.90% under the strict
-1.50%. 2Y CMT **4.83, +5bp = RESPONDED** — the anchor moved with the tape, so **no pathology.** This ended EIGHT
-straight lapses; *a lapse taught nothing, this RESET did.* The falling-tape half (an inert anchor under a DOWNSIDE
-firing) remains untested.
-**10-06 / 10-07 00Z (Mon 10-05, Tue 10-06) — LAPSES, 0 → 0** (maxima +1.30% Composite, +0.91% S&P; high side).
-**10-08 00Z (scoring Wed 10-07) — NO FIRE → LAPSE, 0 → 0, third straight.** All low side: max **Dow −1.17%** (0.33pp short), Composite −0.94%, S&P −0.71%; every high below Tue 10-06's close; CNBC = Yahoo.
-CMT 2Y **−2bp** scores nothing without a fire. **Falling-tape half still untested — approached, not fired.**
+each time the settle REVERSED the live read. **★★ 10-05 00Z (scoring Fri 10-02) — FIRED + RESPONDED → RESET → 0, *informative*:** Composite max
+**+1.79%**, 2Y CMT **4.83, +5bp** — the anchor moved with the tape, **no pathology**; ended EIGHT straight lapses.
+The falling-tape half (an inert anchor under a DOWNSIDE firing) was then untested.
+**10-06 / 10-07 / 10-08 00Z — three LAPSES, 0 → 0** (max +1.30% Composite; then Dow −1.17%, 0.33pp short).
+**★ 10-09 00Z (scoring Thu 10-08) — FIRED + INERT → both runs 0 → 1.** Composite max **−1.71%** (CNBC = Yahoo), S&P −0.90%, Dow −0.47%. 2Y CMT **4.75, −2bp = INERT.** **The falling-tape half the 10-05 entry called untested is now OBSERVED — once;** one session is a leg one, not a trip.
 
 **09-23 / 09-24 — LAPSES** (the first orphaned 09-21's leg one). *An 18Z partial is a lower bound, never a forecast:*
 the S&P crossed after 18Z on 09-21; the Composite did not on 09-24 or 10-05.
@@ -113,22 +110,23 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Wed 10-07 close, 20:00Z — DECLARED 2026-10-08 00Z):** UST **2Y 4.77 / 5Y 5.03 / 10Y 5.28 /
-30Y 5.67** (CMT; **−2/0/+1/+3** — a **STEEPENING TWIST**, front down, long end up: 2s10s 48→51 **+3bp**, 2s30s 85→90
-**+5bp**, rounded to the 1bp instrument)
-· S&P **7,801.77** (−0.22%) / Nasdaq **27,538.69** (−0.22%) / Dow **51,179.87** (−0.66%)
-— Thu 10-08 bars (±1.50%, strict): S&P >7,918.80 / <7,684.74 · Composite >27,951.77 / <27,125.61 · Dow >51,947.57 / <50,412.17
-— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Tue 10-06 → Wed 10-07
-**−1.30%**, 89.44 → **88.28** (CNBC `settlePrice` field, SINGLE-SOURCED: Yahoo's 10-07 bar prints 88.96, the post-settle
-last, not the settle; Mon 10-05 → Tue was +0.01%; **not an exchange settlement**: CME blocks automated reads);
+**US (Thu 10-08 close, 20:00Z — DECLARED 2026-10-09 00Z):** UST **2Y 4.75 / 5Y 4.99 / 10Y 5.22 /
+30Y 5.60** (CMT; **−2/−4/−6/−7** — **BULL FLATTENING**, long end down most: 2s10s 51→47 **−4bp**, 2s30s 90→85
+**−5bp**, rounded to the 1bp instrument)
+· S&P **7,765.36** (−0.47%) / Nasdaq **27,193.34** (−1.25%) / Dow **51,231.64** (+0.10%) (CNBC = Yahoo)
+— Fri 10-09 bars (±1.50%, strict): S&P >7,881.84 / <7,648.88 · Composite >27,601.24 / <26,785.44 · Dow >52,000.11 / <50,463.17
+— **Mon 10-12 (Columbus Day): equities trade, bonds shut, no CMT** — the Monday class rule is pre-registered BEFORE the session.
+— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Wed 10-07 → Thu 10-08
+**+3.63%**, 88.28 → **91.49** (CNBC `settlePrice` field, SINGLE-SOURCED; Yahoo's bar prints the post-settle
+last, not the settle; Tue → Wed was −1.30%; **not an exchange settlement**: CME blocks automated reads);
 ⚠ **`@CL.1` has ROLLED to November** (expiry 10-20) — confirm the expiry on every read.
 **A SLOT is to a contract what a POSITION is to a date — address by NAME.** **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
 4,408.90** — every move since has been reported as a percentage (neither host is on the settle-block
 allowlist, so no later absolute is DECLARED). **A percentage is not a base**
 · **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
 mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Wed 10-07 jong-ga, `CLOSE` — declared by finance-ko 10-07 06Z):** KOSPI **6,803.90 / −1.98%**
-· KOSDAQ **898.43 / −2.34%**; KRX shut Fri 10-09 (Hangul Day). **The ATH close is 9,114.55
+**Korea (Thu 10-08 jong-ga, `CLOSE` — declared by finance-ko 10-08 06Z):** KOSPI **6,625.93 / −2.62%**
+· KOSDAQ **892.27 / −0.69%**; KRX shut Fri 10-09 (Hangul Day), reopens Mon 10-12. **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it.
 **The 09-21 readings below are DATED, not current** — current Korea gates are `finance-ko`'s.
 **★★ GATE 4 SCORES ② REPEATS NARROW — Friday 09-18's *reverses* was ONE SESSION.** Satisfied on
@@ -206,7 +204,7 @@ has tripped**.
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 10-08: both runs 0** — Wed 10-07, Tue 10-06 and Mon 10-05 LAPSED (no fire); Fri 10-02 had FIRED and RESET (2Y RESPONDED).
+is built from. **★ AS OF 10-09: both runs 1** — Thu 10-08 FIRED with the 2Y INERT (−2bp); Mon–Wed had LAPSED; Fri 10-02 had FIRED and RESET (2Y RESPONDED).
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
