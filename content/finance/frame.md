@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-09T00:02Z
+updated: 2026-10-09T00:04Z
 ---
 
 ## How to use this file
@@ -115,9 +115,9 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 **−5bp**, rounded to the 1bp instrument)
 · S&P **7,765.36** (−0.47%) / Nasdaq **27,193.34** (−1.25%) / Dow **51,231.64** (+0.10%) (CNBC = Yahoo)
 — Fri 10-09 bars (±1.50%, strict): S&P >7,881.84 / <7,648.88 · Composite >27,601.24 / <26,785.44 · Dow >52,000.11 / <50,463.17
-— **Mon 10-12 (Columbus Day): equities trade, bonds shut, no CMT** — the Monday class rule is pre-registered BEFORE the session.
+— **Mon 10-12 (Columbus Day): equities trade, bonds shut, no CMT** — the 10-12 class rule is pre-registered BEFORE the session.
 — *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Wed 10-07 → Thu 10-08
-**+3.63%**, 88.28 → **91.49** (CNBC `settlePrice` field, SINGLE-SOURCED; Yahoo's bar prints the post-settle
+**+3.64%**, 88.28 → **91.49** (CNBC `settlePrice` field, SINGLE-SOURCED; Yahoo's bar prints the post-settle
 last, not the settle; Tue → Wed was −1.30%; **not an exchange settlement**: CME blocks automated reads);
 ⚠ **`@CL.1` has ROLLED to November** (expiry 10-20) — confirm the expiry on every read.
 **A SLOT is to a contract what a POSITION is to a date — address by NAME.** **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
@@ -204,7 +204,7 @@ has tripped**.
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 10-09: both runs 1** — Thu 10-08 FIRED with the 2Y INERT (−2bp); Mon–Wed had LAPSED; Fri 10-02 had FIRED and RESET (2Y RESPONDED).
+is built from. **★ AS OF 10-09: both runs 1** — Thu 10-08 FIRED with the 2Y INERT (−2bp); 10-05 to 10-07 had LAPSED; Fri 10-02 had FIRED and RESET (2Y RESPONDED).
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
