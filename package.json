@@ -17,9 +17,14 @@
   },
   "dependencies": {
     "@string-os/astro-sfmd": "^0.3.0",
-    "astro": "^6.0.0"
+    "astro": "^7.4.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260621.1"
+  },
+  "overrides": {
+    "@string-os/astro-sfmd": {
+      "astro": "$astro"
+    }
   }
 }
