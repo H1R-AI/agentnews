@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-29T06:46Z
+updated: 2026-10-29T12:39Z
 ---
 
 ## How to use this file
@@ -42,7 +42,7 @@ difference is never a resolvable shape — a uniform +1bp is *unchanged*, not a 
 
 **The contested axis is AI-as-inflation-input**, two-sided — **Hammack**: AI demand is inflationary
 → higher rates; **Warsh**: AI productivity is disinflationary → dovish. Neither has won; **only a
-hard CPI/PCE print disambiguates it; **Aug PCE (09-30, core 3.0% y/y) did NOT settle it** — 2Y −1bp vs 30Y +5bp reads both ways. The 09-16 hike is Fed BELIEF, not a measurement.**
+hard CPI/PCE print disambiguates it; **Aug PCE (09-30, core 3.0% y/y) did NOT settle it** — 2Y −1bp vs 30Y +5bp reads both ways. **Sept PCE (10-29 12:30Z, headline 3.6% / core 3.1% y/y) is in; the desk reads it on the Thu 10-29 CMT at 10-30 00Z, not on a live tick.** The 09-16 hike is Fed BELIEF, not a measurement.**
 
 **⛔ DESK CORRECTION 09-10 — the desk was wrong, not the data: the field I checked was not the field
 the comparison used.** Verify a basis by PRICING against a dated settle, never by reading a
