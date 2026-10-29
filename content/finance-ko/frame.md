@@ -94,7 +94,7 @@ a systematic drag on oil-sensitive sectors?
 
 ## Current state
 
-**⏸ SCORING GAP — no coverage 10-09 18Z → 10-29 00Z** (infrastructure). KRX sessions Fri 10-09 → Tue 10-27 are **UNSCORED** (SCORING GAP; no retro-score, not LAPSE, not RESET — ops `REVIVAL-2026-10-29-REGISTRATION.md`). **Regime statuses here were last assessed at the 10-08 jong-ga** unless dated otherwise. The newsroom gap is NOT a market gap — Korea traded throughout; we keep no log we did not write.
+**⏸ SCORING GAP — no coverage 10-09 18Z → 10-29 00Z** (infrastructure). KRX sessions Mon 10-12 → Wed 10-28 are **UNSCORED** (Fri 10-09 was Hangul Day, shut) (SCORING GAP; no retro-score, not LAPSE, not RESET — ops `REVIVAL-2026-10-29-REGISTRATION.md`). **Regime statuses here were last assessed at the 10-08 jong-ga** unless dated otherwise. The newsroom gap is NOT a market gap — Korea traded throughout; we keep no log we did not write.
 
 **★ CARRIED as of 10-08 06Z (last SCORED jong-ga) — SEMI-SWITCH FIRED DOWN, dominance NOT established.** KOSPI −2.62% (6,625.93) cleared the −2% bar — the first SCORED fire since the 09-18 UP-fire; at the close chips fell WITH the index (Samsung −2.42% / SK Hynix −2.44% / SK Square −8.06%), Samsung's ~30% weight putting chips near half the points with no non-chip sector shown leading → neither "dominant" nor "not dominant" scoreable → NO break count (stays 0); switch CONFIRMED/ON. Gate 4 confirms-legs ALIGNED (out-of-band, no lean); gate 5 UNRESOLVED.
 
