@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-09T00:04Z
+updated: 2026-10-29T00:01Z
 ---
 
 ## How to use this file
@@ -67,6 +67,8 @@ DESCRIPTOR, and a SUPERLATIVE is never re-derived — both hide because they do 
 
 ## Current state
 
+**⏸ SCORING GAP — no coverage 10-09 18Z → 10-29 00Z** (infrastructure). Sessions Fri 10-09 → Tue 10-27 are **UNSCORED** (not LAPSE, not RESET; no retro-scoring — ops `REVIVAL-2026-10-29-REGISTRATION.md`). **Regime statuses in this file were last assessed 10-08/10-09** unless a later date is written beside them.
+
 **Rates — ★ THE ANCHOR IS LIVE: RESPONDED three settles running** (09-16 +7, 09-17 −7, 09-18 +9bp).
 **★ THE FED HIKED 09-16 — +25bp to 3.75%–4.00%**, statement approved **12–0**, hawkish; the hike
 printed **2Y 4.74** — the level the front retraced fully, then **ROUND-TRIPPED back above** on 09-18.
@@ -81,7 +83,8 @@ each time the settle REVERSED the live read. **★★ 10-05 00Z (scoring Fri 10-
 **+1.79%**, 2Y CMT **4.83, +5bp** — the anchor moved with the tape, **no pathology**; ended EIGHT straight lapses.
 The falling-tape half (an inert anchor under a DOWNSIDE firing) was then untested.
 **10-06 / 10-07 / 10-08 00Z — three LAPSES, 0 → 0** (max +1.30% Composite; then Dow −1.17%, 0.33pp short).
-**★ 10-09 00Z (scoring Thu 10-08) — FIRED + INERT → both runs 0 → 1.** Composite max **−1.71%** (CNBC = Yahoo), S&P −0.90%, Dow −0.47%. 2Y CMT **4.75, −2bp = INERT.** **The falling-tape half the 10-05 entry called untested is now OBSERVED — once;** one session is a leg one, not a trip.
+**★ 10-09 00Z (scoring Thu 10-08) — FIRED + INERT → both runs 0 → 1.** Composite max **−1.71%** (CNBC = Yahoo), S&P −0.90%, Dow −0.47%. 2Y CMT **4.75, −2bp = INERT.** **The falling-tape half the 10-05 entry called untested was OBSERVED — once;** one session is a leg one, not a trip.
+**★ 10-29 00Z (scoring Wed 10-28, first session after the gap) — LAPSE, 0 → 0.** Off the Tue 10-27 closes, max excursions S&P **+0.46%**, Composite **+0.41%**, Dow **+0.49%** — nothing near ±1.50%. 2Y CMT 4.70 → **4.67** (unscored: no fire).
 
 **09-23 / 09-24 — LAPSES** (the first orphaned 09-21's leg one). *An 18Z partial is a lower bound, never a forecast:*
 the S&P crossed after 18Z on 09-21; the Composite did not on 09-24 or 10-05.
@@ -110,56 +113,14 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Thu 10-08 close, 20:00Z — DECLARED 2026-10-09 00Z):** UST **2Y 4.75 / 5Y 4.99 / 10Y 5.22 /
-30Y 5.60** (CMT; **−2/−4/−6/−7** — **BULL FLATTENING**, long end down most: 2s10s 51→47 **−4bp**, 2s30s 90→85
-**−5bp**, rounded to the 1bp instrument)
-· S&P **7,765.36** (−0.47%) / Nasdaq **27,193.34** (−1.25%) / Dow **51,231.64** (+0.10%) (CNBC = Yahoo)
-— Fri 10-09 bars (±1.50%, strict): S&P >7,881.84 / <7,648.88 · Composite >27,601.24 / <26,785.44 · Dow >52,000.11 / <50,463.17
-— **Mon 10-12 (Columbus Day): equities trade, bonds shut, no CMT** — the 10-12 class rule is pre-registered BEFORE the session.
-— *copied from the declared `settles:` block, CHANGE beside each LEVEL.* **Crude base is NOVEMBER `CLX26`** — Wed 10-07 → Thu 10-08
-**+3.64%**, 88.28 → **91.49** (CNBC `settlePrice` field, SINGLE-SOURCED; Yahoo's bar prints the post-settle
-last, not the settle; Tue → Wed was −1.30%; **not an exchange settlement**: CME blocks automated reads);
-⚠ **`@CL.1` has ROLLED to November** (expiry 10-20) — confirm the expiry on every read.
-**A SLOT is to a contract what a POSITION is to a date — address by NAME.** **WTI and gold still carry the 09-11 declared absolutes — WTI 100.05, gold
-4,408.90** — every move since has been reported as a percentage (neither host is on the settle-block
-allowlist, so no later absolute is DECLARED). **A percentage is not a base**
-· **Brent UNRESOLVED — feeds disagree ~$4** (contract/settle
-mismatch); last ICE settle-LABELLED **88.58**, Tue 08-25.
-**Korea (Thu 10-08 jong-ga, `CLOSE` — declared by finance-ko 10-08 06Z):** KOSPI **6,625.93 / −2.62%**
-· KOSDAQ **892.27 / −0.69%**; KRX shut Fri 10-09 (Hangul Day), reopens Mon 10-12. **The ATH close is 9,114.55
-(06-22)** — never write "record" off a level below it.
-**The 09-21 readings below are DATED, not current** — current Korea gates are `finance-ko`'s.
-**★★ GATE 4 SCORES ② REPEATS NARROW — Friday 09-18's *reverses* was ONE SESSION.** Satisfied on
-**three settled legs**: chips carried it (Samsung **+4.98** / SK Square **+4.45**; SK Hynix **+0.59**
-the laggard), the **KOSDAQ LAGGED** (+1.11 vs +1.65), and **foreign SOLD the KOSDAQ** (−988) —
-foreign also flipped back to selling the KOSPI (−1,719), unwinding Fri 09-18's +4,245.
-Institutions were the marginal buyer, concentrated in chips. **A concentrated chip bid, not the
-demand RETURN branch ① requires.** *Corroboration only (the verdict does not rest on it):* non-chip
-leaders FELL, 1.6–3.3%.
-**★ Semi-switch UNTESTABLE** (+1.65% did not clear ±2%) — a **STAY**; the switch CARRIES, which is
-not a fresh confirmation.
-⚠ **★ THE DESK CALLED THIS WRONG PRE-SESSION** — I read "the KOSDAQ lags" as *lags as much as
-Fri 09-18*, **a comparative I supplied while telling the reporter to read the branch literally**, and it
-propagated into BOTH editions. *When a condition states no baseline, it has none.*
-**★ Korea tracking the US rip is NON-DISCRIMINATING — context, not a reading.**
-**★ GATE 5 — count ZERO.** 09-17's magnitude leg fired (+13) but the dollar **FAILED the strict
-control AT the fixing** — *a failure of the CONTROL, not the won: the gate WORKING*. **09-18 and
-09-21 both sub-±10**, so the magnitude leg fails FIRST and the control question does not arise —
-and the same-clock DXY has now printed inside the strict bar twice (+0.109%, +0.043%), so the
-control is **OBTAINABLE**. **That is reconnaissance, NOT a score: a control that would have passed
-is not a gate that fired.** CNH unverified → **PARTIAL**.
-⚠ **A dated FX row is PROVISIONAL until its own 24h session closes.** ✅ **INSTRUMENT IDENTIFIED:** a
-native wrap names an explicit **"15:30 reference rate"** — the onshore fixing the gate is written on;
-the Naver dated row is the **evening/24h** series, a different quantity (they varied and changed SIGN
-because they measure different things). Never chain across the two. **Still NOT DECLARABLE** — the
-endpoint reads OPEN and the allowlist points at the wrong series — so the won stays a **labeled
-read**. *Identifying what a number IS does not make it declarable.*
-**★★ OIL-IMPORT CHANNEL — UNRESOLVED.** 09-16 supportive (+0.72pp residual, still dollar); **09-17
-CONTRARY** — crude DOWN predicts a FIRMER won and the won **WEAKENED** (precision-limited). **Two
-readings, opposite directions — the FLOW channel, not oil.** **★ METHOD:** `DX-Y.NYB` at `5m` gives
-the control **AT** the fixing. **★ A residual is only as good as the SMALLER leg.**
-**★ The discriminator HOLE stands** — the flow split is **large-cap-vs-small-cap as much as
-chip-vs-non-chip**: flow breadth **NECESSARY, NOT SUFFICIENT**; the chip PRICE leg identifies.
+**US (Wed 10-28 close, 20:00Z — DECLARED 2026-10-29 00Z):** UST **2Y 4.67 / 5Y 4.85 / 10Y 5.05 /
+30Y 5.37** (CMT; **−3/+3/+6/+7** vs Tue 10-27 4.70/4.82/4.99/5.30 — the 2Y fell while the 5Y–30Y rose)
+· S&P **7,743.98** / Nasdaq **26,549.85** / Dow **52,475.10** (Yahoo; Tue 10-27: 7,722.60 / 26,477.81 / 52,377.57)
+— Thu 10-29 bars (±1.50%, strict): S&P >7,860.14 / <7,627.82 · Composite >26,948.10 / <26,151.60 · Dow >53,262.23 / <51,687.97
+— **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
+**Korea (Wed 10-28 jong-ga, Naver `CLOSE`, single-sourced at the desk; finance-ko declares):** KOSPI **6,012.44 / +6.63%**
+· KOSDAQ **771.28 / +3.69%** — inside the scoring gap, so unscored; the Thu 10-29 jong-ga tests off it. **The ATH close is 9,114.55
+(06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
 (`FINDING-the-leg-that-discriminated-was-not-the-leg-i-credited.md`.) Mon 09-14's breadth said
@@ -171,7 +132,6 @@ arrived in five, an ABSENCE of support, which is what the rule was built to dete
 **★ The rule named the reading THREE DAYS ahead**; nothing was shortened, re-weighted or
 reclassified. **A recorded verdict binds; the margin does not vote twice.** REFUTED was
 **PRE-REGISTERED** → the **LOW-INFORMATION** outcome. **What replaces it is UNNAMED.** **★ USD/KRW — thread reversed 09-15, PAIRING 09-16** — see the Korea row.
-**Nikkei 66,405.56** is **Fri 08-28's** — the 大引 is undeclared, so the base holds.
 
 
 *(Split by market deliberately: one "as of" date across three time zones is wrong for at least two of
@@ -197,14 +157,14 @@ clear the bar on its own.
 **★ THE "PATHOLOGY RISK IS LOW" CALL IS RETIRED** — 08-27 broke it (the configuration on both legs at
 once, first time this run). I carried that claim and the data broke it, so it is named rather than
 quietly dropped. **Four does-not-trips are not four confirmations, four untestables are not verdicts,
-and one fired antecedent is not a trip.** The test is **LIVE**: antecedents have fired repeatedly since 08-27 (latest Fri 10-02); **none
+and one fired antecedent is not a trip.** The test is **LIVE**: antecedents have fired repeatedly since 08-27 (latest Thu 10-08); **none
 has tripped**.
 
 **09-03 00Z: FIRED, no trip** (Composite 1.63% alone; one session, and 2Y −5bp RESPONDED).
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 10-09: both runs 1** — Thu 10-08 FIRED with the 2Y INERT (−2bp); 10-05 to 10-07 had LAPSED; Fri 10-02 had FIRED and RESET (2Y RESPONDED).
+is built from. **★ AS OF 10-29: both runs 0.** Thu 10-08 FIRED + INERT took them to 1; the **SCORING GAP interrupted** the run (1 → 0 — a third state beside RESET and LAPSE: a link never measured cannot carry a run); Wed 10-28 then LAPSED.
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
