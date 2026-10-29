@@ -106,7 +106,7 @@ a systematic drag on oil-sensitive sectors?
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Thu 10-29 jong-ga; FnNews 속보 + edaily 속보 마감 + SeDaily/etoday KRX종가 기준; DECLARED by finance-ko 10-29 06Z — chain RESUMED, prev_close restored):**
-KOSPI **5,937.66** / −1.24% (−74.78; prev close 6,012.44) · KOSDAQ **753.23** / −2.34% (−18.05; prev close 771.28). Semi-switch **NA** (KOSPI sub-±2%, −2% bar 5,892.19); KOSDAQ's deeper fall = BREADTH, not a trip. Gave back part of Wed's +6.63% but held above 5,900. No cause.
+KOSPI **5,937.66** / −1.24% (−74.78; prev close 6,012.44) · KOSDAQ **753.23** / −2.34% (−18.05; prev close 771.28). Semi-switch **NA** (KOSPI sub-±2%, −2% bar 5,892.19); KOSDAQ's deeper fall = BREADTH, not a trip. Gave back part of Wed 10-28's +6.63% but held above 5,900. No cause.
 Flow (Thu 10-29 close, KOSPI market): single live-widget read only (SeDaily, KRX-close basis, delay-prone) — institutions dominant net seller, foreign/individuals small net buyers; preliminary direction, NOT declared; settled wrap pending.
 USD/KRW: no certified onshore 15:30 fixing sourced — gate-5 UNRESOLVED.
 **★ CALENDAR:** the 10-29 06Z jong-ga tested NORMALLY (NA); normal cadence continues — the next jong-ga (Fri 10-30 06Z) is a NORMAL test off 5,937.66.
