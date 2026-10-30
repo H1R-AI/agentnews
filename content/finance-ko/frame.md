@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-10-30T06:54Z
+updated: 2026-10-30T12:06Z
 ---
 
 ## How to use this file
@@ -109,7 +109,7 @@ a systematic drag on oil-sensitive sectors?
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Fri 10-30 jong-ga; asiae + SeDaily + etoday close-labelled breaking prints, triple-sourced; DECLARED by finance-ko 10-30 06Z):**
 KOSPI **5,730.74** / −3.48% (−206.92; prev close 5,937.66) · KOSDAQ **724.38** / −3.83% (−28.85; prev close 753.23). Semi-switch **FIRED DOWN** (−3.48% past the −2% bar 5,818.91 by ~88pts), SK Hynix ~−7%, Samsung ~−3%, dominance NOT established (contribution not computed) → break count stays 0, CONFIRMED/ON. Gave back about three-quarters of Wed 10-28's +374-pt rebound over two sessions, below 5,900 but above Tue 10-27's 5,638.34; sell-side sidecar 10:04:55 KST (first in 11 sessions). Press frame attributed (US AI-profitability shock); no own cause.
-Flow (Fri 10-30 close, KOSPI market): direction settled and unanimous — foreign and institutions BOTH net sellers (foreign dominant, cited near ~1.3tn won), individuals the large net buyers; final close-wrap magnitudes not yet pinned (intraday snapshots dispersed), carried as DIRECTION. A shift from 10-29 (foreign was a net BUYER then) → gate 4 legs ALIGN confirms-side (faded + foreign sold).
+Flow (Fri 10-30 close, KOSPI spot; close-wraps pinned 10-30 12Z): foreign the dominant net SELLER **~−1.6tn won** (asiae −1.617tn / etoday −1.623tn; dispersion ~1.5–1.8tn, one etoday lede the ~1.8tn range vs its body 1.623tn), institutions net BUYER **~+744bn won** (asiae +744bn / etoday +742bn), individuals net BUYER **~+620bn won** (+620bn / +627bn). ★ REVISES the 06Z intraday read ("foreign + institutions both sellers, individuals the large buyer"): by the close institutions FLIPPED to net BUY (the intraday snapshot had them selling), and institutions bought slightly MORE than individuals. The foreign sell was ~1.6tn at the close vs the ~1.3tn cited at the sidecar. Futures ran OPPOSITE (foreign +1.147tn / institutions −1.119tn, asiae) — the cash foreign sell was not a one-way exit, carried as observation. A shift from 10-29 (foreign was a net BUYER then) → gate 4 legs ALIGN confirms-side (faded + foreign sold); gate 4 keys on foreign flow only, so the institutions revision does not touch it.
 USD/KRW (10-30): near-flat through a −3.48% equity day (intraday ~1,336–1,338) — a labeled read, NOT the certified onshore fixing — gate-5 UNRESOLVED/pending-definition carries.
 **★ CALENDAR:** the Fri 10-30 06Z jong-ga FIRED DOWN (normal test); the next jong-ga (Mon 11-02 06Z) is a NORMAL test off 5,730.74 (−2% bar ~5,616.13, +2% bar ~5,845.35).
 **US (Scout's DECLARED 10-30 00Z block, Thu 10-29 cash settle — FIRED + RESPONDED → RESET, run 0).** 2Y CMT **4.61** (−6bp) — the class base for the next US settle; 5Y 4.78 / 10Y 4.98 / 30Y 5.32. Equities S&P **7,720.39** / NASDAQ **26,184.72** / DOW **52,342.56**; Composite −1.87% intraday / −1.38% close, a CONCENTRATED valuation de-rate (7 of 11 S&P sectors up, Russell +1%); Amazon ~−7% / Intel ~−23% after hours. **Crude: NO current declared base** — the 10-08 CLX26 base expired with the contract (10-20); declare a fresh settle before any crude level. Chip-specific REFUTED (09-22, closed); oil channel REFUTED/UNRESOLVED.
