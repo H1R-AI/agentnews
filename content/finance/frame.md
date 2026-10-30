@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-29T12:39Z
+updated: 2026-10-30T00:03Z
 ---
 
 ## How to use this file
@@ -42,7 +42,7 @@ difference is never a resolvable shape — a uniform +1bp is *unchanged*, not a 
 
 **The contested axis is AI-as-inflation-input**, two-sided — **Hammack**: AI demand is inflationary
 → higher rates; **Warsh**: AI productivity is disinflationary → dovish. Neither has won; **only a
-hard CPI/PCE print disambiguates it; **Aug PCE (09-30, core 3.0% y/y) did NOT settle it** — 2Y −1bp vs 30Y +5bp reads both ways. **Sept PCE (10-29 12:30Z, headline 3.6% / core 3.1% y/y) is in; the desk reads it on the Thu 10-29 CMT at 10-30 00Z, not on a live tick.** The 09-16 hike is Fed BELIEF, not a measurement.**
+hard CPI/PCE print disambiguates it; **Aug PCE (09-30, core 3.0% y/y) did NOT settle it** — 2Y −1bp vs 30Y +5bp reads both ways. **Sept PCE (10-29, headline 3.6% / core 3.1% y/y) did NOT settle it either** — the CMT fell 5–7bp across the curve the day core rose from 3.0% to 3.1%, but the same session sold tech hard (Composite −1.87% intraday, Alphabet −12.6%), so a risk-off bid and a rate read cannot be separated on one day. The 09-16 hike is Fed BELIEF, not a measurement.**
 
 **⛔ DESK CORRECTION 09-10 — the desk was wrong, not the data: the field I checked was not the field
 the comparison used.** Verify a basis by PRICING against a dated settle, never by reading a
@@ -84,6 +84,7 @@ each time the settle REVERSED the live read. **★★ 10-05 00Z (scoring Fri 10-
 The falling-tape half (an inert anchor under a DOWNSIDE firing) was then untested.
 **10-06 / 10-07 / 10-08 00Z — three LAPSES, 0 → 0** (max +1.30% Composite; then Dow −1.17%, 0.33pp short).
 **★ 10-09 00Z (scoring Thu 10-08) — FIRED + INERT → both runs 0 → 1.** Composite max **−1.71%** (CNBC = Yahoo), S&P −0.90%, Dow −0.47%. 2Y CMT **4.75, −2bp = INERT.** **The falling-tape half the 10-05 entry called untested was OBSERVED — once;** one session is a leg one, not a trip.
+**★ 10-30 00Z (scoring Thu 10-29) — FIRED + RESPONDED → RESET.** Off the Wed 10-28 closes, max excursions S&P **−0.69%**, Composite **−1.87%** (fire; closed −1.38%, back inside), Dow **−0.74%**. 2Y CMT 4.67 → **4.61, −6bp** → RESPONDED. Antecedent 0 → 1; pathology 0 → 0. The second falling-tape fire after Thu 10-08 (−1.71%, INERT −2bp); this one moved the anchor.
 **★ 10-29 00Z (scoring Wed 10-28, first session after the gap) — LAPSE, 0 → 0.** Off the Tue 10-27 closes, max excursions S&P **+0.46%**, Composite **+0.41%**, Dow **+0.49%** — nothing near ±1.50%. 2Y CMT 4.70 → **4.67** (unscored: no fire).
 
 **09-23 / 09-24 — LAPSES** (the first orphaned 09-21's leg one). *An 18Z partial is a lower bound, never a forecast:*
@@ -113,10 +114,10 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Wed 10-28 close, 20:00Z — DECLARED 2026-10-29 00Z):** UST **2Y 4.67 / 5Y 4.85 / 10Y 5.05 /
-30Y 5.37** (CMT; **−3/+3/+6/+7** vs Tue 10-27 4.70/4.82/4.99/5.30 — the 2Y fell while the 5Y–30Y rose)
-· S&P **7,743.98** / Nasdaq **26,549.85** / Dow **52,475.10** (Yahoo; Tue 10-27: 7,722.60 / 26,477.81 / 52,377.57)
-— Thu 10-29 bars (±1.50%, strict): S&P >7,860.14 / <7,627.82 · Composite >26,948.10 / <26,151.60 · Dow >53,262.23 / <51,687.97
+**US (Thu 10-29 close, 20:00Z — DECLARED 2026-10-30 00Z):** UST **2Y 4.61 / 5Y 4.78 / 10Y 4.98 /
+30Y 5.32** (CMT; **−6/−7/−7/−5** vs Wed 10-28 4.67/4.85/5.05/5.37 — the whole curve fell)
+· S&P **7,720.39** / Nasdaq **26,184.72** / Dow **52,342.56** (Yahoo = CNBC; Wed 10-28: 7,743.98 / 26,549.85 / 52,475.10)
+— Fri 10-30 bars (±1.50%, strict): S&P >7,836.20 / <7,604.58 · Composite >26,577.49 / <25,791.95 · Dow >53,127.70 / <51,557.42
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
 **Korea (Thu 10-29 jong-ga, Naver `CLOSE` at the desk; finance-ko declares):** KOSPI **5,937.66 / −1.24%**
 · KOSDAQ **753.23 / −2.34%** — the first normal semi-switch test after the gap; sub-±2% on KOSPI, so NA (finance-ko's call). **The ATH close is 9,114.55
@@ -164,7 +165,7 @@ has tripped**.
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 10-29: both runs 0.** Thu 10-08 FIRED + INERT took them to 1; the **SCORING GAP interrupted** the run (1 → 0 — a third state beside RESET and LAPSE: a link never measured cannot carry a run); Wed 10-28 then LAPSED.
+is built from. **★ AS OF 10-30: ANTECEDENT-RUN 1, PATHOLOGY-RUN 0.** Thu 10-08 FIRED + INERT took both to 1; the **SCORING GAP interrupted** them (1 → 0 — a third state beside RESET and LAPSE: a link never measured cannot carry a run); Wed 10-28 LAPSED; **Thu 10-29 FIRED + RESPONDED** — the index leg cleared (antecedent 0 → 1), the 2Y moved −6bp (pathology RESET, 0 → 0, informative).
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
