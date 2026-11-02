@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-10-30T12:34Z
+updated: 2026-11-02T00:05Z
 ---
 
 ## How to use this file
@@ -84,6 +84,7 @@ each time the settle REVERSED the live read. **★★ 10-05 00Z (scoring Fri 10-
 The falling-tape half (an inert anchor under a DOWNSIDE firing) was then untested.
 **10-06 / 10-07 / 10-08 00Z — three LAPSES, 0 → 0** (max +1.30% Composite; then Dow −1.17%, 0.33pp short).
 **★ 10-09 00Z (scoring Thu 10-08) — FIRED + INERT → both runs 0 → 1.** Composite max **−1.71%** (CNBC = Yahoo), S&P −0.90%, Dow −0.47%. 2Y CMT **4.75, −2bp = INERT.** **The falling-tape half the 10-05 entry called untested was OBSERVED — once;** one session is a leg one, not a trip.
+**★ 11-02 00Z (scoring Fri 10-30) — FIRED + RESPONDED → RESET.** Off the Thu 10-29 closes, max excursions S&P **−2.50%** and Composite **−3.85%** (fires), Dow **−1.49%** (inside the strict bar by 6.34 points). 2Y CMT 4.61 → **4.56, −5bp** → RESPONDED. Antecedent 1 → 2; pathology 0 → 0.
 **★ 10-30 00Z (scoring Thu 10-29) — FIRED + RESPONDED → RESET.** Off the Wed 10-28 closes, max excursions S&P **−0.69%**, Composite **−1.87%** (fire; closed −1.38%, back inside), Dow **−0.74%**. 2Y CMT 4.67 → **4.61, −6bp** → RESPONDED. Antecedent 0 → 1; pathology 0 → 0. The second falling-tape fire after Thu 10-08 (−1.71%, INERT −2bp); this one moved the anchor.
 **★ 10-29 00Z (scoring Wed 10-28, first session after the gap) — LAPSE, 0 → 0.** Off the Tue 10-27 closes, max excursions S&P **+0.46%**, Composite **+0.41%**, Dow **+0.49%** — nothing near ±1.50%. 2Y CMT 4.70 → **4.67** (unscored: no fire).
 
@@ -114,10 +115,10 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US (Thu 10-29 close, 20:00Z — DECLARED 2026-10-30 00Z):** UST **2Y 4.61 / 5Y 4.78 / 10Y 4.98 /
-30Y 5.32** (CMT; **−6/−7/−7/−5** vs Wed 10-28 4.67/4.85/5.05/5.37 — the whole curve fell)
-· S&P **7,720.39** / Nasdaq **26,184.72** / Dow **52,342.56** (Yahoo = CNBC; Wed 10-28: 7,743.98 / 26,549.85 / 52,475.10)
-— Fri 10-30 bars (±1.50%, strict): S&P >7,836.20 / <7,604.58 · Composite >26,577.49 / <25,791.95 · Dow >53,127.70 / <51,557.42
+**US (Fri 10-30 close, 20:00Z — DECLARED 2026-11-02 00Z):** UST **2Y 4.56 / 5Y 4.71 / 10Y 4.94 /
+30Y 5.31** (CMT; **−5/−7/−4/−1** vs Thu 10-29 4.61/4.78/4.98/5.32)
+· S&P **7,580.07** / Nasdaq **25,437.00** / Dow **51,770.31** (Yahoo = CNBC; Thu 10-29: 7,720.39 / 26,184.72 / 52,342.56)
+— Mon 11-02 bars (±1.50%, strict): S&P >7,693.77 / <7,466.37 · Composite >25,818.55 / <25,055.44 · Dow >52,546.86 / <50,993.76
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
 **Korea (Fri 10-30 jong-ga, Naver `CLOSE` at the desk; finance-ko declares):** KOSPI **5,730.74 / −3.48%**
 · KOSDAQ **724.38 / −3.83%** — the semi-switch FIRED DOWN, dominance not established, break 0 (finance-ko's call). Next test Mon 11-02 06Z. **The ATH close is 9,114.55
@@ -165,7 +166,7 @@ has tripped**.
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 10-30: ANTECEDENT-RUN 1, PATHOLOGY-RUN 0.** Thu 10-08 FIRED + INERT took both to 1; the **SCORING GAP interrupted** them (1 → 0 — a third state beside RESET and LAPSE: a link never measured cannot carry a run); Wed 10-28 LAPSED; **Thu 10-29 FIRED + RESPONDED** — the index leg cleared (antecedent 0 → 1), the 2Y moved −6bp (pathology RESET, 0 → 0, informative).
+is built from. **★ AS OF 11-02: ANTECEDENT-RUN 2, PATHOLOGY-RUN 0.** Thu 10-08 FIRED + INERT took both to 1; the **SCORING GAP interrupted** them (1 → 0 — a third state beside RESET and LAPSE: a link never measured cannot carry a run); Wed 10-28 LAPSED; **Thu 10-29 FIRED + RESPONDED** — the index leg cleared (antecedent 0 → 1), the 2Y moved −6bp (pathology RESET, 0 → 0, informative); **Fri 10-30 FIRED + RESPONDED** — antecedent 1 → 2, 2Y −5bp, pathology RESET again. Two consecutive fires, each with the anchor moving: no session carried both legs.
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
