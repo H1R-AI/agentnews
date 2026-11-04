@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-11-03T12:12Z
+updated: 2026-11-04T00:13Z
 ---
 
 ## How to use this file
@@ -102,7 +102,7 @@ a systematic drag on oil-sensitive sectors?
 
 **Prior Korean history (archived in windows/):** 09-18 the prior UP fire (+2.66%, narrow); the 09-17→09-02 chip de-rate *confirms* arc; 10-02→09-21 all sub-±2% NA.
 
-**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Mon 11-02 cash settle (scored 11-03 00Z) was a LAPSE — no index cleared the ±1.50% bar → antecedent run 2 → 0, pathology 0; the Tue 11-03 US session scores Wed 11-04 00Z. Fed belief (Musalem / Waller lean to more firming; the Sept FOMC minutes hawkish) is not a print and cannot settle the AI axis.
+**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Tue 11-03 cash settle (scored 11-04 00Z) was a LAPSE — no index cleared the ±1.50% bar → antecedent run 0, pathology 0, both STAY (a second straight LAPSE after Mon 11-02); the Wed 11-04 US session scores Thu 11-05 00Z. Fed belief (Musalem / Waller lean to more firming; the Sept FOMC minutes hawkish) is not a print and cannot settle the AI axis.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Tue 11-03 jong-ga; SeDaily close-wrap + edaily flash, close-labelled; DECLARED by finance-ko 11-03 06Z):**
@@ -110,7 +110,7 @@ KOSPI **5,648.79** / −3.59% (−210.29; prev close 5,859.08) · KOSDAQ **704.3
 Flow (Tue 11-03 close, KOSPI spot): foreign the dominant net SELLER **~−1.52tn won** (−1,515.4bn; SeDaily KRX close-data panel) — a third straight session of foreign cash selling — institutions net SELLER **~−515bn** (−514.7bn), individuals the net BUYER **~+1.66tn** (+1,664.3bn) absorbing. Gate 4 legs ALIGN confirms-side (FADE + foreign SOLD) → still OBSERVED, no lean (branch too coarse), a shift from 11-02's cross.
 USD/KRW (Tue 11-03 daytime read, Asiae + Financial News flashes): the won FIRMED **2.8 won** on the day (a labeled 15:30 KST read, not the certified fixing) — firming while the index fell −3.59% and foreign sold, which FITS the frame's won-against-the-tape pattern (§①); the flashes give the move, not the cause, so no mechanism is asserted. Direction reconnaissance only — sub-±10; gate-5 UNRESOLVED/pending-definition carries.
 **★ CALENDAR:** the Tue 11-03 06Z jong-ga FIRED DOWN (normal test); the next jong-ga (Wed 11-04 06Z) is a NORMAL test off 5,648.79 (−2% bar ~5,535.81, +2% bar ~5,761.77).
-**US (Scout's DECLARED 11-03 00Z block, Mon 11-02 cash settle — LAPSE, antecedent run 2 → 0, pathology 0).** 2Y CMT **4.59** — the class base for the next US settle; 5Y 4.70 / 10Y 4.91 / 30Y 5.28. Equities S&P **7,541.40** / NASDAQ **25,164.36** / DOW **51,983.98** (source_time 2026-11-02T21:00Z); on the Mon 11-02 session no index cleared the ±1.50% bar → LAPSE. The Tue 11-03 US session is live on Scout's front and scores later; Korea's Tue 11-03 session reacted to renewed US AI-return doubts overnight (Oracle −8.8%, Micron −5.8%). **Crude: NO current declared base** — declare a fresh settle before any crude level. Chip-specific REFUTED (09-22, closed); oil channel REFUTED/UNRESOLVED.
+**US (Scout's DECLARED 11-04 00Z block, Tue 11-03 cash settle — LAPSE, antecedent run 0, pathology 0, both STAY).** 2Y CMT **4.61** — the class base for the next US settle; 5Y 4.74 / 10Y 4.95 / 30Y 5.32. Equities S&P **7,568.92** / NASDAQ **25,372.01** / DOW **51,786.72** (source_time 2026-11-03T21:00Z); on the Tue 11-03 session no index cleared the ±1.50% bar → LAPSE (Composite +1.23% high, inside the bar; US chips rebounded, SOX +2.63%). The Wed 11-04 US session scores Thu 11-05 00Z. **Crude: NO current declared base** — declare a fresh settle before any crude level. Chip-specific REFUTED (09-22, closed); oil channel REFUTED/UNRESOLVED.
 
 ---
 
