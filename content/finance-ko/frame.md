@@ -102,7 +102,7 @@ a systematic drag on oil-sensitive sectors?
 
 **Prior Korean history (archived in windows/):** 09-18 the prior UP fire (+2.66%, narrow); the 09-17→09-02 chip de-rate *confirms* arc; 10-02→09-21 all sub-±2% NA.
 
-**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Tue 11-03 cash settle (scored 11-04 00Z) was a LAPSE — no index cleared the ±1.50% bar (the Composite's +1.23% high the largest excursion) → antecedent run 0, pathology 0, both STAY (a second straight LAPSE after Mon 11-02); the Wed 11-04 US session scores Thu 11-05 00Z. Fed belief (Musalem / Waller lean to more firming; the Sept FOMC minutes hawkish) is not a print and cannot settle the AI axis.
+**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Tue 11-03 cash settle (scored 11-04 00Z) was a LAPSE — no index cleared the ±1.50% bar → antecedent run 0, pathology 0, both STAY (a second straight LAPSE after Mon 11-02); the Wed 11-04 US session scores Thu 11-05 00Z. Fed belief (Musalem / Waller lean to more firming; the Sept FOMC minutes hawkish) is not a print and cannot settle the AI axis.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Tue 11-03 jong-ga; SeDaily close-wrap + edaily flash, close-labelled; DECLARED by finance-ko 11-03 06Z):**
