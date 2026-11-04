@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-04T00:04Z
+updated: 2026-11-04T06:54Z
 ---
 
 ## How to use this file
@@ -122,8 +122,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 · S&P **7,568.92** / Nasdaq **25,372.01** / Dow **51,786.72** (Yahoo = CNBC; Mon 11-02: 7,541.40 / 25,164.36 / 51,983.98)
 — Wed 11-04 bars (±1.50%, strict): S&P >7,682.45 / <7,455.39 · Composite >25,752.59 / <24,991.43 · Dow >52,563.52 / <51,009.92
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Tue 11-03 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,648.79 / −3.59%**
-· KOSDAQ **704.39 / −4.08%** — the semi-switch FIRED DOWN, dominance not established, break 0 (finance-ko's call); third straight scored fire (10-30 DOWN, 11-02 UP, 11-03 DOWN). Next test Wed 11-04 06Z. **The ATH close is 9,114.55
+**Korea (Wed 11-04 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,683.80 / +0.62%**
+· KOSDAQ **714.95 / +1.50%** — NA (sub-±2%; scored on the close, not the intraday 5,421.72–5,828.13 range, which crossed both bars); the semi-switch carries FIRED DOWN (Tue 11-03), break 0 (finance-ko's call), ending a three-fire run (10-30 DOWN, 11-02 UP, 11-03 DOWN). Next test Thu 11-05 06Z. **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
