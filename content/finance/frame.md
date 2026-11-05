@@ -122,7 +122,7 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Thu 11-05 bars (±1.50%, strict): S&P >7,803.95 / <7,573.29 · Composite >26,122.56 / <25,350.46 · Dow >54,156.46 / <52,555.78
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
 **Korea (Thu 11-05 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,383.80 / −5.28%**
-· KOSDAQ **678.41 / −5.11%** — the semi-switch FIRED DOWN (cleared the −2% bar 5,570.12), chip-led, dominance not established, break 0 (finance-ko's call); the deepest fire since 10-08 and the fourth in six sessions (10-30 DOWN, 11-02 UP, 11-03 DOWN, 11-05 DOWN; 11-04 NA). Next test Fri 11-06 06Z. **The ATH close is 9,114.55
+· KOSDAQ **678.41 / −5.11%** — the semi-switch FIRED DOWN (cleared the −2% bar 5,570.12), chip-led, dominance not established, break 0 (finance-ko's call); the deepest SCORED fire of the arc from 10-08 (the −7.57% 10-15 session fell in the unscored gap) and the fourth in six sessions (10-30 DOWN, 11-02 UP, 11-03 DOWN, 11-05 DOWN; 11-04 NA). Next test Fri 11-06 06Z. **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
