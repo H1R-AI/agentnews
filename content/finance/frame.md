@@ -118,7 +118,7 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 **US (Thu 11-05 close, 21:00Z — DECLARED 2026-11-06 00Z):** UST **2Y 4.46 / 5Y 4.59 / 10Y 4.84 /
 30Y 5.25** (CMT; **−12/−10/−6/−3** vs Wed 11-04 4.58/4.69/4.90/5.28)
 · S&P **7,353.73** / Nasdaq **24,315.00** / Dow **51,523.06** (Yahoo daily; Wed 11-04: 7,688.62 / 25,736.51 / 53,356.12)
-— Fri 11-06 bars (±1.50%, strict; nearest cent — at a one-cent edge the % decides): S&P >7,464.04 / <7,243.42 · Composite >24,679.73 / <23,950.28 · Dow >52,295.91 / <50,750.21
+— Fri 11-06 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,464.04 / <7,243.42 · Composite >24,679.725 / <23,950.275 (exact half-cents) · Dow >52,295.91 / <50,750.21
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
 **Korea (Thu 11-05 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,383.80 / −5.28%**
 · KOSDAQ **678.41 / −5.11%** — the semi-switch FIRED DOWN (cleared the −2% bar 5,570.12), chip-led, dominance not established, break 0 (finance-ko's call); the deepest SCORED fire of the arc from 10-08 (the −7.57% 10-15 session fell in the unscored gap) and the fourth in six sessions (10-30 DOWN, 11-02 UP, 11-03 DOWN, 11-05 DOWN; 11-04 NA). Next test Fri 11-06 06Z. **The ATH close is 9,114.55
