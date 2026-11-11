@@ -117,7 +117,7 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 30Y 5.35** (CMT; **+17/+14/+10/+9** vs Mon 11-09 4.56/4.67/4.88/5.26)
 · S&P **7,520.93** / Nasdaq **25,065.87** / Dow **52,231.89** (CNBC = Yahoo; Mon 11-09: 7,549.94 / 25,253.14 / 52,389.75)
 — Wed 11-11 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,633.74 / <7,408.12 · Composite >25,441.86 / <24,689.88 · Dow >53,015.37 / <51,448.41
-— **Wed 11-11 is Veterans Day: US equities trade, the bond market is shut (SIFMA) → no Wed CMT expected.** Scored under the Columbus Day precedent (ops `desk-preregistration/`), applied in a registration filed before the Wed 14:30Z open. Thu 11-12's class base stays the Tue 4.73.
+— **Wed 11-11 is Veterans Day: US equities trade, the bond market is shut (SIFMA) → no Wed 11-11 CMT.** Scored under the Columbus Day precedent (ops `desk-preregistration/`), applied in a registration filed before the Wed 11-11 14:30Z open. Thu 11-12's class base stays the Tue 11-10 4.73.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
 **Korea (Tue 11-10 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,239.13 / +4.39%**
 · KOSDAQ **667.61 / +4.48%** — the semi-switch FIRED UP (closed above the +2% bar 5,119.23 off Mon 11-09's 5,018.85; the selector is the close), ending the carry of the Fri 11-06 FIRED DOWN; leadership, dominance and break are finance-ko's call. Next test Wed 11-11 06Z off 5,239.13 (bars 5,134.35 / 5,343.91). **The ATH close is 9,114.55
