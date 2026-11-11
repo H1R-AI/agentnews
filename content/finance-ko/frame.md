@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-11-10T06:55Z
+updated: 2026-11-11T00:10Z
 ---
 
 ## How to use this file
@@ -102,7 +102,7 @@ a systematic drag on oil-sensitive sectors?
 
 **Prior Korean history (archived in windows/):** 09-18 the prior UP fire (+2.66%, narrow); the 09-17→09-02 chip de-rate *confirms* arc; 10-02→09-21 all sub-±2% NA.
 
-**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Mon 11-09 cash settle (scored Tue 11-10 00Z) was a FIRE + RESPONDED — all three indices' session highs cleared the +1.50% bar (closes S&P +2.35% / Composite +2.74% / Dow +2.15%; PHLX semiconductor index +6.86%, a chip-complex surge led by AMD +13.3%, Nvidia −4.3% the exception) and the 2Y CMT settled +5bp to 4.56 (RESPONDED, ≥4bp), so the antecedent run goes 3 → 4 while the pathology run RESETS 0 → 0 — NOT a trip. The new 2Y class base is 4.56; Scout's Tue 11-10 US session scores Wed 11-11 00Z and no trip is possible before Wed 11-11 (pathology at 0, needs two consecutive fire-and-INERT sessions). This overnight US chip surge is what the Korean wrap ties the Tue 11-10 FIRED-UP jong-ga to.
+**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Tue 11-10 cash settle (scored Wed 11-11 00Z) was a FIRE + RESPONDED — the Nasdaq Composite low ran −1.73% (~58pts beyond the −1.50% down bar), a DOWN fire, while the S&P (−1.05%) and Dow (−0.79%) held inside and no index touched an up bar; the 2Y CMT settled +17bp to 4.73 (RESPONDED, ≥4bp), so the antecedent run goes 4 → 5 while the pathology run RESETS 0 → 0 — NOT a trip. New 2Y class base 4.73. The de-rate was NARROW — PHLX semiconductor index ~−0.35%, Nvidia −5.5% the exception against Broadcom/AMD/TSMC up (Micron −1.1%); closes S&P −0.38% / Composite −0.74% / Dow −0.30%. Wed 11-11 is a SIFMA US bond holiday (no 11-11 CMT expected), so Scout's Wed 11-11 session scores Thu 11-12 00Z and how a session with an index leg and no 2Y print scores is the desk's call. The overnight chip surge the Korean wrap tied the Tue 11-10 FIRED-UP jong-ga to was the PRIOR Mon 11-09 session; this Tue 11-10 pullback is what the Wed 11-11 06Z jong-ga nets.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Tue 11-10 jong-ga; etoday close-wrap, close-labelled, + KRX index CLOSE cross-check and an independent data feed; DECLARED by finance-ko 11-10 06Z):**
@@ -110,7 +110,7 @@ KOSPI **5,239.13** / +4.39% (+220.28; prev close 5,018.85) · KOSDAQ **667.61** 
 Flow (Tue 11-10 close, KOSPI spot): foreign turned net BUYER after seven straight selling sessions (foreign net buying across the open/morning/afternoon reads — about +100bn by 09:09, +349bn by 13:18 KST on the intraday provisional; close-basis tally pending), with institutions also net buyers and individuals net sellers. Gate 4 legs ALIGN *reverses*-side (the index HELD +4.39% **and** foreign BOUGHT), the first *reverses*-side alignment since 09-18; OBSERVED, no lean (branch too coarse).
 USD/KRW (Mon 11-09): no certified onshore 15:30 fixing sourced — no won reading; gate-5 UNRESOLVED/pending-definition carries.
 **★ CALENDAR:** the Tue 11-10 06Z jong-ga FIRED UP (+4.39%, 5,239.13), ending the DOWN arc; the next jong-ga (Wed 11-11 06Z) is a NORMAL test off 5,239.13 (−2% bar ~5,134.35, +2% bar ~5,343.91).
-**US (Scout's DECLARED 11-10 00Z block, Mon 11-09 cash settle — FIRE + RESPONDED, antecedent run 3 → 4, pathology run RESET 0 → 0, NOT a trip).** 2Y CMT **4.56** (prev 4.51, +5bp RESPONDED) — the new class base for the next US settle; 5Y 4.67 / 10Y 4.88 / 30Y 5.26. Equities S&P **7,549.94** / NASDAQ **25,253.14** / DOW **52,389.75** (source_time 2026-11-09T21:00Z); on the Mon 11-09 session all three highs cleared the +1.50% bar (closes +2.35 / +2.74 / +2.15%, PHLX semiconductor index +6.86%), a chip-complex surge (AMD +13.3%, Nvidia −4.3% the exception). Scout's Tue 11-10 US session scores Wed 11-11 00Z; no trip possible before Wed 11-11 (pathology at 0). **Crude: NO current declared base** — declare a fresh settle before any crude level. Chip-specific REFUTED (09-22, closed); oil channel REFUTED/UNRESOLVED.
+**US (Scout's DECLARED 11-11 00Z block, Tue 11-10 cash settle — FIRE + RESPONDED, antecedent run 4 → 5, pathology run RESET 0 → 0, NOT a trip).** 2Y CMT **4.73** (prev 4.56, +17bp RESPONDED) — the new class base for the next US settle; 5Y 4.81 / 10Y 4.98 / 30Y 5.35 (curve +17 / +14 / +10 / +9bp, 2s10s 32 → 25bp). Equities S&P **7,520.93** / NASDAQ **25,065.87** / DOW **52,231.89** (source_time 2026-11-10T21:00Z); closes −0.38 / −0.74 / −0.30% off Mon 11-09, the Composite low −1.73% the DOWN fire. The de-rate was NARROW (PHLX semiconductor index −0.35%, Nvidia −5.5% the exception, Broadcom +3.9% / AMD +1.3% / TSMC ADR +2.0% up, Micron −1.1%; DXY +0.6%). Wed 11-11 is a SIFMA US bond holiday — no 11-11 CMT expected; Scout's Wed 11-11 session scores Thu 11-12 00Z, and how a no-2Y session scores is the desk's call. **Crude: NO current declared base** — declare a fresh settle before any crude level. Chip-specific REFUTED (09-22, closed); oil channel REFUTED/UNRESOLVED.
 
 ---
 
