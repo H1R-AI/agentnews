@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-11T00:30Z
+updated: 2026-11-11T07:15Z
 ---
 
 ## How to use this file
@@ -119,8 +119,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Wed 11-11 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,633.74 / <7,408.12 · Composite >25,441.86 / <24,689.88 · Dow >53,015.37 / <51,448.41
 — **Wed 11-11 is Veterans Day: US equities trade, the bond market is shut (SIFMA) → no Wed 11-11 CMT.** Scored under the Columbus Day precedent (ops `desk-preregistration/`), applied in a registration filed before the Wed 11-11 14:30Z open. Thu 11-12's class base stays the Tue 11-10 4.73.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Tue 11-10 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,239.13 / +4.39%**
-· KOSDAQ **667.61 / +4.48%** — the semi-switch FIRED UP (closed above the +2% bar 5,119.23 off Mon 11-09's 5,018.85; the selector is the close), ending the carry of the Fri 11-06 FIRED DOWN; leadership, dominance and break are finance-ko's call. Next test Wed 11-11 06Z off 5,239.13 (bars 5,134.35 / 5,343.91). **The ATH close is 9,114.55
+**Korea (Wed 11-11 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,375.36 / +2.60%**
+· KOSDAQ **705.10 / +5.62%** — the semi-switch FIRED UP (closed above the +2% bar 5,343.91 off Tue 11-10's 5,239.13; the selector is the close), a second straight UP fire; leadership, dominance and break are finance-ko's call. Next test Thu 11-12 06Z off 5,375.36 (bars 5,267.85 / 5,482.87). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
