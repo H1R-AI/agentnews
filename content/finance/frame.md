@@ -116,7 +116,7 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 **US equities (Wed 11-11 close, 21:00Z — DECLARED 2026-11-12 00Z):** S&P **7,619.38** / Nasdaq **25,466.19** / Dow **52,486.49** (CNBC = Yahoo; Tue 11-10: 7,520.93 / 25,065.87 / 52,231.89)
 **UST (Tue 11-10 CMT, the last print — Wed 11-11 was a bond holiday):** **2Y 4.73 / 5Y 4.81 / 10Y 4.98 / 30Y 5.35** (+17/+14/+10/+9 vs Mon 11-09)
 — Thu 11-12 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,733.67 / <7,505.09 · Composite >25,848.18 / <25,084.20 · Dow >53,273.79 / <51,699.19
-— **Thu 11-12's 2Y class = the Thu CMT vs the Tue 11-10 4.73**, labelled as also absorbing the Wed 11-11 session (Veterans Day registration, ops `desk-preregistration/`).
+— **Thu 11-12's 2Y class = the Thu 11-12 CMT vs the Tue 11-10 4.73**, labelled as also absorbing the Wed 11-11 session (Veterans Day registration, ops `desk-preregistration/`).
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
 **Korea (Wed 11-11 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,375.36 / +2.60%**
 · KOSDAQ **705.10 / +5.62%** — the semi-switch FIRED UP (closed above the +2% bar 5,343.91 off Tue 11-10's 5,239.13; the selector is the close), a second straight UP fire; leadership, dominance and break are finance-ko's call. Next test Thu 11-12 06Z off 5,375.36 (bars 5,267.85 / 5,482.87). **The ATH close is 9,114.55
