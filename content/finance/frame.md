@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-13T00:05Z
+updated: 2026-11-13T06:48Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Fri 11-13 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,706.29 / <7,478.51 · Composite >25,746.58 / <24,985.60 · Dow >53,081.55 / <51,512.63
 — **Fri 11-13's 2Y class = the Fri 11-13 CMT vs 4.86.** October PPI (BLS, Fri 11-13 8:30am ET) prints inside that settle.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Thu 11-12 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,342.73 / −0.61%**
-· KOSDAQ **696.53 / −1.22%** — the semi-switch did NOT fire (closed inside the bars 5,267.85 / 5,482.87 off Wed 11-11's 5,375.36; the selector is the close), ending a run of two straight UP fires; leadership, dominance and break are finance-ko's call. Next test Fri 11-13 06Z off 5,342.73 (bars 5,235.88 / 5,449.58). **The ATH close is 9,114.55
+**Korea (Fri 11-13 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,290.53 / −0.98%**
+· KOSDAQ **699.66 / +0.45%** — the semi-switch did NOT fire (closed inside the bars 5,235.88 / 5,449.58 off Thu 11-12's 5,342.73; the selector is the close, though the intraday high 5,504.44, +3.03%, crossed the up bar); leadership, dominance and break are finance-ko's call. Next test Mon 11-16 06Z off 5,290.53 (bars 5,184.72 / 5,396.34). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
