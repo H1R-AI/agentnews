@@ -119,7 +119,7 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — **Fri 11-13's 2Y class = the Fri 11-13 CMT vs 4.86.** October PPI (BLS, Fri 11-13 8:30am ET) prints inside that settle.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
 **Korea (Fri 11-13 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,290.53 / −0.98%**
-· KOSDAQ **699.66 / +0.45%** — the semi-switch did NOT fire for a second session (closed inside the bars 5,235.88 / 5,449.58 off Thu 11-12's 5,342.73; the selector is the close, though the intraday high 5,504.44, +3.03%, crossed the up bar); leadership, dominance and break are finance-ko's call. Next test Mon 11-16 06Z off 5,290.53 (bars 5,184.72 / 5,396.34). **The ATH close is 9,114.55
+· KOSDAQ **699.66 / +0.45%** — the semi-switch did NOT fire (closed inside the bars 5,235.88 / 5,449.58 off Thu 11-12's 5,342.73; the selector is the close, though the intraday high 5,504.44, +3.03%, crossed the up bar); leadership, dominance and break are finance-ko's call. Next test Mon 11-16 06Z off 5,290.53 (bars 5,184.72 / 5,396.34). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
