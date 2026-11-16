@@ -115,7 +115,7 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **US equities (Fri 11-13 close, 21:00Z — DECLARED 2026-11-16 00Z):** S&P **7,561.67** / Nasdaq **25,136.27** / Dow **52,347.55** (Yahoo; Thu 11-12: 7,592.40 / 25,366.09 / 52,297.09)
 **UST (Fri 11-13 CMT, Treasury):** **2Y 4.88 / 5Y 4.98 / 10Y 5.15 / 30Y 5.47** (+2/+3/+5/+4 vs Thu 11-12)
-— Mon 11-16 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,675.09 / <7,448.24 · Composite >25,513.31 / <24,759.23 · Dow >53,132.76 / <51,562.34
+— Mon 11-16 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,675.10 / <7,448.24 · Composite >25,513.31 / <24,759.23 · Dow >53,132.76 / <51,562.34
 — **Mon 11-16's 2Y class = the Mon 11-16 CMT vs 4.88.** With the pathology run at 1, **a Mon 11-16 FIRED + INERT is the first TRIP**, scored Tue 11-17 00Z; a fire with a ≥4bp move RESETs it; no fire LAPSEs both runs.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
 **Korea (Fri 11-13 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,290.53 / −0.98%**
