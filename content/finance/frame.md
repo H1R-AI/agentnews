@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-16T00:01Z
+updated: 2026-11-16T06:35Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Mon 11-16 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,675.10 / <7,448.24 · Composite >25,513.31 / <24,759.23 · Dow >53,132.76 / <51,562.34
 — **Mon 11-16's 2Y class = the Mon 11-16 CMT vs 4.88.** With the pathology run at 1, **a Mon 11-16 FIRED + INERT is the first TRIP**, scored Tue 11-17 00Z; a fire with a ≥4bp move RESETs it; no fire LAPSEs both runs.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Fri 11-13 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,290.53 / −0.98%**
-· KOSDAQ **699.66 / +0.45%** — the semi-switch did NOT fire (closed inside the bars 5,235.88 / 5,449.58 off Thu 11-12's 5,342.73; the selector is the close, though the intraday high 5,504.44, +3.03%, crossed the up bar); leadership, dominance and break are finance-ko's call. Next test Mon 11-16 06Z off 5,290.53 (bars 5,184.72 / 5,396.34). **The ATH close is 9,114.55
+**Korea (Mon 11-16 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,100.50 / −3.59%**
+· KOSDAQ **665.65 / −4.86%** — the semi-switch FIRED DOWN (closed below the down bar 5,184.72 off Fri 11-13's 5,290.53; open 5,305.40, high 5,327.99, low 5,069.83); leadership, dominance and break are finance-ko's call. Next test Tue 11-17 06Z off 5,100.50 (bars 4,998.49 / 5,202.51). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
