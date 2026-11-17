@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-17T00:10Z
+updated: 2026-11-17T06:36Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Tue 11-17 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,527.84 / <7,305.34 · Composite >24,877.41 / <24,142.11 · Dow >52,382.29 / <50,834.05
 — **Tue 11-17's 2Y class = the Tue 11-17 CMT vs 4.83.** With the pathology run at 0, **a Tue 11-17 FIRED + INERT is leg one, not a trip**, scored Wed 11-18 00Z; a fire with a ≥4bp move RESETs; no fire LAPSEs both runs. Nvidia reports Tue 11-17 after the bell, outside the Tue 11-17 settle.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Mon 11-16 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,100.50 / −3.59%**
-· KOSDAQ **665.65 / −4.86%** — the semi-switch FIRED DOWN (closed below the down bar 5,184.72 off Fri 11-13's 5,290.53; open 5,305.40, high 5,327.99, low 5,069.83); leadership, dominance and break are finance-ko's call. Next test Tue 11-17 06Z off 5,100.50 (bars 4,998.49 / 5,202.51). **The ATH close is 9,114.55
+**Korea (Tue 11-17 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **4,968.48 / −2.59%**
+· KOSDAQ **650.06 / −2.34%** — the semi-switch FIRED DOWN (closed below the down bar 4,998.49 off Mon 11-16's 5,100.50; open 5,008.09, high 5,084.06, low 4,957.00), a second straight DOWN fire; leadership, dominance and break are finance-ko's call. Next test Wed 11-18 06Z off 4,968.48 (bars 4,869.11 / 5,067.85). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
