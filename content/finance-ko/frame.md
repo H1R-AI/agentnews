@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-11-18T07:11Z
+updated: 2026-11-18T12:08Z
 ---
 
 ## How to use this file
@@ -102,7 +102,7 @@ a systematic drag on oil-sensitive sectors?
 
 **Prior Korean history (archived in windows/):** 09-18 the prior UP fire (+2.66%, narrow); the 09-17→09-02 chip de-rate *confirms* arc; 10-02→09-21 all sub-±2% NA.
 
-**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Tue 11-17 cash settle (scored Wed 11-18 00Z) FIRED + INERT — all three indices fired DOWN off the Mon 11-16 closes (lows past the −1.50% down bar) while the Tue 11-17 2Y CMT settled 4.80 against 4.83 (−3bp), INERT at the edge (≤3bp), so both legs printed: the antecedent run advances 9 → 10 and the pathology run 0 → 1, a LEG ONE, the 2Y class base now 4.80. (The prior Mon 11-16 settle was FIRED + RESPONDED — the −5bp 2Y RESPONDED, pathology RESET 1 → 0, antecedent 8 → 9.) With the pathology run at 1, Scout's Wed 11-18 session is leg two if it FIRES + INERT → run 2 → TRIPS (scored Thu 11-19 00Z), a trip the run has never reached; a ≥4bp 2Y move RESETs, a no-fire session LAPSEs both. FOMC minutes are due Wed 11-18 (CNBC via the desk). Nvidia reported Tue 11-17 after the bell — a beat and above-estimate guide — outside the Tue 11-17 settle; Korea priced it at the Wed 11-18 06Z jong-ga, where per fnnews the index jumped on the beat before foreign selling pared it (chip large caps leading). No forecast on the trip — the Wed 11-18 settle decides.
+**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Tue 11-17 cash settle (scored Wed 11-18 00Z) FIRED + INERT — all three indices fired DOWN off the Mon 11-16 closes (lows past the −1.50% down bar) while the Tue 11-17 2Y CMT settled 4.80 against 4.83 (−3bp), INERT at the edge (≤3bp), so both legs printed: the antecedent run advances 9 → 10 and the pathology run 0 → 1, a LEG ONE, the 2Y class base now 4.80. (The prior Mon 11-16 settle was FIRED + RESPONDED — the −5bp 2Y RESPONDED, pathology RESET 1 → 0, antecedent 8 → 9.) With the pathology run at 1, Scout's Wed 11-18 session is leg two if it FIRES + INERT → run 2 → TRIPS (scored Thu 11-19 00Z), a trip the run has never reached; a ≥4bp 2Y move RESETs, a no-fire session LAPSEs both. FOMC minutes are due Wed 11-18 (CNBC via the desk). Nvidia reported Tue 11-17 after the bell — a beat and above-estimate guide — outside the Tue 11-17 settle; the Wed 11-18 06Z jong-ga came after the print, and per fnnews the index jumped on the beat before foreign selling pared it (chip large caps leading). No forecast on the trip — the Wed 11-18 settle decides.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Wed 11-18 jong-ga; fnnews close wrap, close-labelled; DECLARED by finance-ko 11-18 06Z):**
