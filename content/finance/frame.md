@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-18T00:01Z
+updated: 2026-11-18T06:36Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Wed 11-18 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,450.64 / <7,230.42 · Composite >24,693.31 / <23,963.45 · Dow >51,520.81 / <49,998.03
 — **Wed 11-18's 2Y class = the Wed 11-18 CMT vs 4.80.** With the pathology run at 1, **a Wed 11-18 FIRED + INERT is leg two: run = 2 → TRIPS**, scored Thu 11-19 00Z; a fire with a ≥4bp move RESETs; no fire LAPSEs both runs. FOMC minutes are due Wed 11-18 (CNBC), inside the session.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Tue 11-17 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **4,968.48 / −2.59%**
-· KOSDAQ **650.06 / −2.34%** — the semi-switch FIRED DOWN (closed below the down bar 4,998.49 off Mon 11-16's 5,100.50; open 5,008.09, high 5,084.06, low 4,957.00), a second straight DOWN fire; leadership, dominance and break are finance-ko's call. Next test Wed 11-18 06Z off 4,968.48 (bars 4,869.11 / 5,067.85). **The ATH close is 9,114.55
+**Korea (Wed 11-18 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,067.44 / +1.99%**
+· KOSDAQ **662.81 / +1.96%** — the semi-switch did NOT fire (NA): the close sat 0.41 points under the up bar 5,067.85 off Tue 11-17's 4,968.48 (+1.99%, strict); the high 5,133.14 crossed it intraday, which does not score (open 5,098.82, low 4,943.17). Leadership and flow are finance-ko's call. Next test Thu 11-19 06Z off 5,067.44 (bars 4,966.09 / 5,168.79). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
