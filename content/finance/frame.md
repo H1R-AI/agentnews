@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-19T00:02Z
+updated: 2026-11-19T07:30Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Thu 11-19 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,433.48 / <7,213.78 · Composite >24,796.33 / <24,063.43 · Dow >50,951.14 / <49,445.20
 — **Thu 11-19's 2Y class = the Thu 11-19 CMT vs 4.80.** Both runs are at 0, so **no Thu 11-19 outcome can trip**: a FIRED + INERT is a leg one (pathology 0 → 1), a fire with a ≥4bp move RESETs pathology 0 → 0; no fire keeps both at 0. Scored Fri 11-20 00Z.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Wed 11-18 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,067.44 / +1.99%**
-· KOSDAQ **662.81 / +1.96%** — the semi-switch did NOT fire (NA): the close sat 0.41 points under the up bar 5,067.85 off Tue 11-17's 4,968.48 (+1.99%, strict); the high 5,133.14 crossed it intraday, which does not score (open 5,098.82, low 4,943.17). Leadership and flow are finance-ko's call. Next test Thu 11-19 06Z off 5,067.44 (bars 4,966.09 / 5,168.79). **The ATH close is 9,114.55
+**Korea (Thu 11-19 jong-ga, 16:30 KST = 07:30Z, CSAT-day session; Naver/KRX CLOSE at the desk; finance-ko declares):** KOSPI **5,118.96 / +1.02%**
+· KOSDAQ **683.27 / +3.09%** — the semi-switch did NOT fire (NA): the close sat 49.83 points under the up bar 5,168.79 off Wed 11-18's 5,067.44 (+1.02%, strict); the low 4,963.61 (−2.05%) crossed the down bar 4,966.09 intraday (unscored). Leadership and flow are finance-ko's call. Next test Fri 11-20 06Z off 5,118.96 (bars 5,016.58 / 5,221.34). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
