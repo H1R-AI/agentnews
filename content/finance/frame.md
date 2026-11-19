@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-18T06:36Z
+updated: 2026-11-19T00:02Z
 ---
 
 ## How to use this file
@@ -83,8 +83,8 @@ each time the settle REVERSED the live read. **★★ 10-05 00Z (scoring Fri 10-
 **+1.79%**, 2Y CMT **4.83, +5bp** — the anchor moved with the tape, **no pathology**; ended EIGHT straight lapses.
 The falling-tape half (an inert anchor under a DOWNSIDE firing) was then untested.
 **★ 10-09 00Z (scoring Thu 10-08) — FIRED + INERT → both runs 0 → 1.** Composite max **−1.71%** (CNBC = Yahoo), S&P −0.90%, Dow −0.47%. 2Y CMT **4.75, −2bp = INERT.** **The falling-tape half the 10-05 entry called untested was OBSERVED — once;** one session is a leg one, not a trip.
-**★ 11-18 00Z (scoring Tue 11-17) — FIRED + INERT → antecedent 9 → 10, pathology 0 → 1; NO TRIP (leg one).** Off the Mon 11-16 closes, all three fired DOWN: Composite low 23,989.09, **−2.12%**; S&P low 7,288.34, −1.73%; Dow low 50,566.98, −2.02%; closes −0.74% / −1.03% / −1.64% (CNBC = Yahoo). 2Y CMT 4.83 → **4.80, −3bp** (INERT, at the edge, as on Wed 11-04). Nvidia reported after the bell, outside the settle.
-**★ 11-17 00Z (scoring Mon 11-16) — FIRED + RESPONDED → antecedent 8 → 9, pathology RESET 1 → 0; NO TRIP.** Off the Fri 11-13 closes, all three fired DOWN: Composite low 24,460.28, **−2.69%**; S&P low −2.14%, Dow low −1.60%; closes −1.92% / −2.49% / −1.41% (CNBC = Yahoo). 2Y CMT 4.88 → **4.83, −5bp** (RESPONDED): the run that could have tripped did not; the anchor moved with a falling tape.
+**★ 11-19 00Z (scoring Wed 11-18) — NO FIRE → LAPSE: antecedent 10 → 0, pathology 1 → 0; NO TRIP.** Off the Tue 11-17 closes, no index reached a bar: Dow low 50,029.35, **−1.44%** (31.32 points above the down bar 49,998.03); S&P low −0.75%, Composite low −0.42%; closes −0.23% / +0.42% / −1.11% (CNBC = Yahoo). 2Y CMT 4.80 → 4.80 (0bp); with no fired leg there is no anchor to class.
+**★ 11-18 00Z (scoring Tue 11-17) — FIRED + INERT → antecedent 9 → 10, pathology 0 → 1 (leg one).** All three fired DOWN off the Mon 11-16 closes (Composite low **−2.12%**, S&P −1.73%, Dow −2.02%); 2Y CMT 4.83 → **4.80, −3bp** (INERT, at the edge).
 
 **09-23 / 09-24 — LAPSES** (the first orphaned 09-21's leg one). *An 18Z partial is a lower bound, never a forecast:*
 the S&P crossed after 18Z on 09-21; the Composite did not on 09-24 or 10-05.
@@ -113,10 +113,10 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 `finance-ko`'s.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
-**US equities (Tue 11-17 close, 21:00Z — DECLARED 2026-11-18 00Z):** S&P **7,340.53** / Nasdaq **24,328.38** / Dow **50,759.42** (Yahoo = CNBC; Mon 11-16: 7,416.59 / 24,509.76 / 51,608.17)
-**UST (Tue 11-17 CMT, Treasury):** **2Y 4.80 / 5Y 4.90 / 10Y 5.10 / 30Y 5.46** (−3/−3/−2/0 vs Mon 11-16)
-— Wed 11-18 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,450.64 / <7,230.42 · Composite >24,693.31 / <23,963.45 · Dow >51,520.81 / <49,998.03
-— **Wed 11-18's 2Y class = the Wed 11-18 CMT vs 4.80.** With the pathology run at 1, **a Wed 11-18 FIRED + INERT is leg two: run = 2 → TRIPS**, scored Thu 11-19 00Z; a fire with a ≥4bp move RESETs; no fire LAPSEs both runs. FOMC minutes are due Wed 11-18 (CNBC), inside the session.
+**US equities (Wed 11-18 close, 21:00Z — DECLARED 2026-11-19 00Z):** S&P **7,323.63** / Nasdaq **24,429.88** / Dow **50,198.17** (Yahoo = CNBC; Tue 11-17: 7,340.53 / 24,328.38 / 50,759.42)
+**UST (Wed 11-18 CMT, Treasury):** **2Y 4.80 / 5Y 4.89 / 10Y 5.07 / 30Y 5.41** (0/−1/−3/−5 vs Tue 11-17)
+— Thu 11-19 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,433.48 / <7,213.78 · Composite >24,796.33 / <24,063.43 · Dow >50,951.14 / <49,445.20
+— **Thu 11-19's 2Y class = the Thu 11-19 CMT vs 4.80.** Both runs are at 0, so **no Thu 11-19 outcome can trip**: a FIRED + INERT is a leg one (pathology 0 → 1), a fire with a ≥4bp move RESETs pathology 0 → 0; no fire keeps both at 0. Scored Fri 11-20 00Z.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
 **Korea (Wed 11-18 jong-ga, Naver/KRX at the desk; finance-ko declares):** KOSPI **5,067.44 / +1.99%**
 · KOSDAQ **662.81 / +1.96%** — the semi-switch did NOT fire (NA): the close sat 0.41 points under the up bar 5,067.85 off Tue 11-17's 4,968.48 (+1.99%, strict); the high 5,133.14 crossed it intraday, which does not score (open 5,098.82, low 4,943.17). Leadership and flow are finance-ko's call. Next test Thu 11-19 06Z off 5,067.44 (bars 4,966.09 / 5,168.79). **The ATH close is 9,114.55
@@ -164,7 +164,7 @@ has tripped**.
 
 **★ TWO COUNTERS, distinct since 09-03.** **ANTECEDENT-RUN** = consecutive sessions whose index leg
 clears the bar. **PATHOLOGY-RUN** = consecutive sessions carrying **both** legs — the only thing a TRIP
-is built from. **★ AS OF 11-18: ANTECEDENT-RUN 10, PATHOLOGY-RUN 1.** Thu 10-08 FIRED + INERT took both to 1; the **SCORING GAP interrupted** them (1 → 0 — a third state beside RESET and LAPSE: a link never measured cannot carry a run); Wed 10-28 LAPSED; Thu 10-29 and Fri 10-30 FIRED + RESPONDED (antecedent 0 → 2, pathology RESET twice); **Mon 11-02 and Tue 11-03 LAPSED** (antecedent 2 → 0, pathology STAYS at 0). **Wed 11-04 FIRED + INERT** — all three indices cleared their up bars (Dow +3.29%), 2Y CMT −3bp, at the INERT edge; both runs 0 → 1, the first session to carry both legs since Thu 10-08. **Thu 11-05 FIRED + RESPONDED** — all three indices cleared their DOWN bars (Composite −5.73%), 2Y CMT −12bp; antecedent 1 → 2, pathology RESET 1 → 0, so the run that could have tripped did not: the anchor moved. **Fri 11-06, Mon 11-09 and Tue 11-10 FIRED + RESPONDED** (2Y CMT +5 / +5 / +17bp); antecedent 2 → 5, pathology RESET 0 → 0 each (a fired leg expiring, not a STAY). **Wed 11-11 FIRED with no CMT (bond holiday)** — antecedent 5 → 6, pathology 0 labelled UNTESTABLE (an unmeasured leg, not a RESET or STAY), per the Veterans Day registration. **Thu 11-12 FIRED + RESPONDED** (+13bp; antecedent 6 → 7). **Fri 11-13 FIRED + INERT** (+2bp; 7 → 8, pathology 0 → 1). **Mon 11-16 FIRED + RESPONDED** (−5bp; 8 → 9, pathology RESET 1 → 0, NO TRIP). **Tue 11-17 FIRED + INERT** — all three DOWN (Composite −2.12% off its low), 2Y CMT −3bp; antecedent 9 → 10, pathology 0 → 1, leg one.
+is built from. **★ AS OF 11-19: ANTECEDENT-RUN 0, PATHOLOGY-RUN 0.** Thu 10-08 FIRED + INERT took both to 1; the **SCORING GAP interrupted** them (1 → 0 — a third state beside RESET and LAPSE: a link never measured cannot carry a run); Wed 10-28 LAPSED; Thu 10-29 and Fri 10-30 FIRED + RESPONDED (antecedent 0 → 2, pathology RESET twice); **Mon 11-02 and Tue 11-03 LAPSED** (antecedent 2 → 0, pathology STAYS at 0). **Wed 11-04 FIRED + INERT** — all three indices cleared their up bars (Dow +3.29%), 2Y CMT −3bp, at the INERT edge; both runs 0 → 1, the first session to carry both legs since Thu 10-08. **Thu 11-05 FIRED + RESPONDED** — all three indices cleared their DOWN bars (Composite −5.73%), 2Y CMT −12bp; antecedent 1 → 2, pathology RESET 1 → 0, so the run that could have tripped did not: the anchor moved. **Fri 11-06, Mon 11-09 and Tue 11-10 FIRED + RESPONDED** (2Y CMT +5 / +5 / +17bp); antecedent 2 → 5, pathology RESET 0 → 0 each (a fired leg expiring, not a STAY). **Wed 11-11 FIRED with no CMT (bond holiday)** — antecedent 5 → 6, pathology 0 labelled UNTESTABLE (an unmeasured leg, not a RESET or STAY), per the Veterans Day registration. **Thu 11-12 FIRED + RESPONDED** (+13bp; antecedent 6 → 7). **Fri 11-13 FIRED + INERT** (+2bp; 7 → 8, pathology 0 → 1). **Mon 11-16 FIRED + RESPONDED** (−5bp; 8 → 9, pathology RESET 1 → 0, NO TRIP). **Tue 11-17 FIRED + INERT** — all three DOWN (Composite −2.12% off its low), 2Y CMT −3bp; antecedent 9 → 10, pathology 0 → 1, leg one. **Wed 11-18 NO FIRE** (Dow −1.44% off its low, the closest) — both LAPSE to 0; the first lapse since Tue 11-03 ended a ten-session antecedent run.
 **A STAY is not a RESET:** a RESET is a *fired* antecedent expiring. **A 12Z window once called the
 switch "vindicated, hard" off an INTRADAY, which this frame forbids — the settle said INERT.** **A RESET (a fired antecedent expiring) and a STAY (already zero) are different histories of
 the same number** and are named differently every time.
