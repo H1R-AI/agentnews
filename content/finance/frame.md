@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-20T00:02Z
+updated: 2026-11-20T06:37Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Fri 11-20 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,283.47 / <7,068.19 · Composite >24,237.39 / <23,521.01 · Dow >49,833.52 / <48,360.60
 — **Fri 11-20's 2Y class = the Fri 11-20 CMT vs 4.76.** Antecedent 1, pathology 0, so **no Fri 11-20 outcome can trip**: a FIRED + INERT is a leg one (pathology 0 → 1), a fire with a ≥4bp move RESETs pathology 0 → 0; no fire LAPSEs both to 0. Scored Mon 11-23 00Z (no Saturday window).
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Thu 11-19 jong-ga, 16:30 KST = 07:30Z, CSAT-day session; Naver/KRX CLOSE at the desk; finance-ko declares):** KOSPI **5,137.89 / +1.39%**
-· KOSDAQ **684.81 / +3.32%** — the semi-switch did NOT fire (NA): the close sat 30.90 points under the up bar 5,168.79 off Wed 11-18's 5,067.44 (+1.39%, strict); the low 4,963.61 (−2.05%) crossed the down bar 4,966.09 intraday (unscored). Leadership and flow are finance-ko's call. Next test Fri 11-20 06Z off 5,137.89 (bars 5,035.13 / 5,240.65). **The ATH close is 9,114.55
+**Korea (Fri 11-20 jong-ga, 15:30 KST = 06:30Z; Naver/KRX CLOSE at the desk = etoday close-labelled wire; finance-ko declares):** KOSPI **4,869.96 / −5.21%**
+· KOSDAQ **645.68 / −5.71%** — the semi-switch FIRED DOWN: the close sat 165.17 points under the down bar 5,035.13 off Thu 11-19's 5,137.89 (−5.21%, strict). Leadership and flow are finance-ko's call. Next test Mon 11-23 06Z off 4,869.96 (bars 4,772.56 / 4,967.36). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
