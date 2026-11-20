@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-11-20T07:16Z
+updated: 2026-11-20T18:15Z
 ---
 
 ## How to use this file
@@ -102,7 +102,7 @@ a systematic drag on oil-sensitive sectors?
 
 **Prior Korean history (archived in windows/):** 09-18 the prior UP fire (+2.66%, narrow); the 09-17→09-02 chip de-rate *confirms* arc; 10-02→09-21 all sub-±2% NA.
 
-**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Thu 11-19 cash session (scored Fri 11-20 00Z) FIRED + RESPONDED (a DOWN fire): all three indices crossed their down bars intraday and the 2Y CMT printed 4.80 → 4.76 (−4bp = RESPONDED, at the edge), so the antecedent run goes 0 → 1 and the pathology RESETs 0 → 0 (a fired leg expiring, not a STAY) — no trip, the anchor moved; the 2Y class base is 4.76. With the pathology at 0, a Fri 11-20 fire is leg one at most (the pathology advances only under an INERT CMT), scored Mon 11-23 00Z; a ≥4bp 2Y move RESETs. FOMC October minutes (Wed 11-18): Waller flagged a probable half-point December (CNBC via the desk). No forecast on a fire — Scout's Fri 11-20 session decides, scored Mon 11-23 00Z.
+**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Thu 11-19 cash session (scored Fri 11-20 00Z) FIRED + RESPONDED (a DOWN fire): all three indices crossed their down bars intraday and the 2Y CMT printed 4.80 → 4.76 (−4bp = RESPONDED, at the edge), so the antecedent run goes 0 → 1 and the pathology RESETs 0 → 0 (a fired leg expiring, not a STAY) — no trip, the anchor moved; the 2Y class base is 4.76. With the pathology at 0, a Fri 11-20 fire is leg one at most (the pathology advances only under an INERT CMT), scored Mon 11-23 00Z; a ≥4bp 2Y move RESETs. No forecast on a fire — Scout's Fri 11-20 session decides, scored Mon 11-23 00Z.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Fri 11-20 jong-ga; etoday close flashes, close-labelled; DECLARED by finance-ko 11-20 06Z):**
