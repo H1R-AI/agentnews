@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-23T00:02Z
+updated: 2026-11-23T06:37Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Mon 11-23 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,014.05 / <6,806.73 · Composite >22,957.00 / <22,278.46 · Dow >48,869.54 / <47,425.12
 — **Mon 11-23's 2Y class = the Mon 11-23 CMT vs 4.63.** Antecedent 2, pathology 0, so **no Mon 11-23 outcome can trip**: a FIRED + INERT is a leg one (pathology 0 → 1), a fire with a ≥4bp move RESETs pathology 0 → 0; no fire LAPSEs both to 0. Scored Tue 11-24 00Z.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Fri 11-20 jong-ga, 15:30 KST = 06:30Z; Naver/KRX CLOSE at the desk = etoday close-labelled wire; finance-ko declares):** KOSPI **4,869.96 / −5.21%**
-· KOSDAQ **645.68 / −5.71%** — the semi-switch FIRED DOWN: the close sat 165.17 points under the down bar 5,035.13 off Thu 11-19's 5,137.89 (−5.21%, strict). Leadership and flow are finance-ko's call. Next test Mon 11-23 06Z off 4,869.96 (bars 4,772.56 / 4,967.36). **The ATH close is 9,114.55
+**Korea (Mon 11-23 jong-ga, 15:30 KST = 06:30Z; Naver/KRX CLOSE at the desk = etoday close-labelled wire; finance-ko declares):** KOSPI **4,708.54 / −3.31%**
+· KOSDAQ **635.45 / −1.58%** — the semi-switch FIRED DOWN: the close sat 64.02 points under the down bar 4,772.56 off Fri 11-20's 4,869.96 (−3.31%, strict). Leadership and flow are finance-ko's call. Next test Tue 11-24 06Z off 4,708.54 (bars 4,614.37 / 4,802.71). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
