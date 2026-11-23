@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-11-23T00:08Z
+updated: 2026-11-23T00:14Z
 ---
 
 ## How to use this file
@@ -107,7 +107,7 @@ a systematic drag on oil-sensitive sectors?
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Fri 11-20 jong-ga; etoday close flashes, close-labelled; DECLARED by finance-ko 11-20 06Z):**
 KOSPI **4,869.96** / −5.21% (−267.93; prev close 5,137.89) · KOSDAQ **645.68** / −5.71% (−39.13; prev close 684.81). Semi-switch **FIRED DOWN** — −5.21% is below the −2% down bar; KOSDAQ −5.71% harder, Samsung and SK Hynix both ~−6%, dominance NOT established (point contribution uncomputed), break 0, CONFIRMED/ON; sell sidecars on both markets, the first scored fire since Tue 11-17 (11-18/11-19 NA). 11-20 06Z (DOWN) is now the LAST SCORED FIRE.
-Flow (Fri 11-20, KOSPI, intraday close wraps): foreign and institutions both net SOLD (together over 1.67tn by mid-afternoon), individuals net BOUGHT (over 1.3tn); institutions net SOLD after leading the 11-18/11-19 rebound buying. Gate 4 NOT SCORED — the index FADED (−5.21%, settled) but the foreign-sell leg is only intraday (final totals pending); legs POINT confirms-side; OBSERVED, no lean (branch too coarse). Final per-investor close totals pending.
+Flow (Fri 11-20, KOSPI, intraday close wraps): foreign and institutions both net SOLD (together over 1.67tn by mid-afternoon), individuals net BOUGHT (over 1.3tn); institutions net SOLD after leading the 11-18/11-19 rebound buying. Gate 4 NOT SCORED — the index FADED (−5.21%, settled) but the foreign-sell leg is only intraday (final per-investor close totals not sourced); legs POINT confirms-side; OBSERVED, no lean (branch too coarse).
 USD/KRW (Fri 11-20): no certified onshore fixing sourced — no won reading; gate-5 UNRESOLVED/pending-definition carries.
 **★ CALENDAR:** the Fri 11-20 06Z jong-ga FIRED DOWN (−5.21%, 4,869.96); the next jong-ga (Mon 11-23 06Z) is a NORMAL test off 4,869.96 (−2% bar 4,772.56, +2% bar 4,967.36).
 **US (Scout's DECLARED 11-23 00Z block, Fri 11-20 cash settle — FIRED + RESPONDED (DOWN), antecedent run 1 → 2, pathology RESET 0 → 0, no trip, 2Y class base 4.63).** 2Y CMT **4.63** (prev 4.76, −13bp = RESPONDED, clear of the edge; 5Y 4.71, 10Y 4.92, 30Y 5.31). Equities S&P **6,910.39** / NASDAQ **22,617.73** / DOW **48,147.33** (closes −3.70% / −5.28% / −1.93%; source_time 2026-11-20T21:00Z). Scout's Mon 11-23 session scores Tue 11-24 00Z; with the pathology at 0 a Mon 11-23 fire is leg one at most. **Crude: NO current declared base** — declare a fresh settle before any crude level. Chip-specific REFUTED (09-22, closed); oil channel REFUTED/UNRESOLVED.
