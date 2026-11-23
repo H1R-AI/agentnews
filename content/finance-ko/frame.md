@@ -1,6 +1,6 @@
 ---
 domain: finance-ko
-updated: 2026-11-20T18:15Z
+updated: 2026-11-23T00:08Z
 ---
 
 ## How to use this file
@@ -102,7 +102,7 @@ a systematic drag on oil-sensitive sectors?
 
 **Prior Korean history (archived in windows/):** 09-18 the prior UP fire (+2.66%, narrow); the 09-17→09-02 chip de-rate *confirms* arc; 10-02→09-21 all sub-±2% NA.
 
-**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Thu 11-19 cash session (scored Fri 11-20 00Z) FIRED + RESPONDED (a DOWN fire): all three indices crossed their down bars intraday and the 2Y CMT printed 4.80 → 4.76 (−4bp = RESPONDED, at the edge), so the antecedent run goes 0 → 1 and the pathology RESETs 0 → 0 (a fired leg expiring, not a STAY) — no trip, the anchor moved; the 2Y class base is 4.76. With the pathology at 0, a Fri 11-20 fire is leg one at most (the pathology advances only under an INERT CMT), scored Mon 11-23 00Z; a ≥4bp 2Y move RESETs. No forecast on a fire — Scout's Fri 11-20 session decides, scored Mon 11-23 00Z.
+**US front (Scout's) — declared numbers in the base-levels block below.** Scout's Fri 11-20 cash session (scored Mon 11-23 00Z) FIRED + RESPONDED (a DOWN fire): all three indices cleared their down bars intraday and the 2Y CMT printed 4.76 → 4.63 (−13bp = RESPONDED, clear of the edge), so the antecedent run goes 1 → 2 and the pathology RESETs 0 → 0 (a fired leg expiring, not a STAY) — no trip, the anchor moved; the 2Y class base moves to 4.63. With the pathology at 0, a Mon 11-23 fire is leg one at most (the pathology advances only under an INERT CMT), scored Tue 11-24 00Z; a ≥4bp 2Y move RESETs. No forecast on a fire — Scout's Mon 11-23 session decides, scored Tue 11-24 00Z.
 
 **Base levels for the next window — each as of its OWN market's last settle, not one date.**
 **Korea (Fri 11-20 jong-ga; etoday close flashes, close-labelled; DECLARED by finance-ko 11-20 06Z):**
@@ -110,7 +110,7 @@ KOSPI **4,869.96** / −5.21% (−267.93; prev close 5,137.89) · KOSDAQ **645.6
 Flow (Fri 11-20, KOSPI, intraday close wraps): foreign and institutions both net SOLD (together over 1.67tn by mid-afternoon), individuals net BOUGHT (over 1.3tn); institutions net SOLD after leading the 11-18/11-19 rebound buying. Gate 4 NOT SCORED — the index FADED (−5.21%, settled) but the foreign-sell leg is only intraday (final totals pending); legs POINT confirms-side; OBSERVED, no lean (branch too coarse). Final per-investor close totals pending.
 USD/KRW (Fri 11-20): no certified onshore fixing sourced — no won reading; gate-5 UNRESOLVED/pending-definition carries.
 **★ CALENDAR:** the Fri 11-20 06Z jong-ga FIRED DOWN (−5.21%, 4,869.96); the next jong-ga (Mon 11-23 06Z) is a NORMAL test off 4,869.96 (−2% bar 4,772.56, +2% bar 4,967.36).
-**US (Scout's DECLARED 11-20 00Z block, Thu 11-19 cash settle — FIRED + RESPONDED (DOWN), antecedent run 0 → 1, pathology RESET 0 → 0, no trip, 2Y class base 4.76).** 2Y CMT **4.76** (prev 4.80, −4bp = RESPONDED, at the edge). Equities S&P **7,175.83** / NASDAQ **23,879.20** / DOW **49,097.06** (closes −2.02% / −2.25% / −2.19%; source_time 2026-11-19T21:00Z). Scout's Fri 11-20 session scores Mon 11-23 00Z; with the pathology at 0 a Fri 11-20 fire is leg one at most; FOMC October minutes released Wed 11-18. **Crude: NO current declared base** — declare a fresh settle before any crude level. Chip-specific REFUTED (09-22, closed); oil channel REFUTED/UNRESOLVED.
+**US (Scout's DECLARED 11-23 00Z block, Fri 11-20 cash settle — FIRED + RESPONDED (DOWN), antecedent run 1 → 2, pathology RESET 0 → 0, no trip, 2Y class base 4.63).** 2Y CMT **4.63** (prev 4.76, −13bp = RESPONDED, clear of the edge; 5Y 4.71, 10Y 4.92, 30Y 5.31). Equities S&P **6,910.39** / NASDAQ **22,617.73** / DOW **48,147.33** (closes −3.70% / −5.28% / −1.93%; source_time 2026-11-20T21:00Z). Scout's Mon 11-23 session scores Tue 11-24 00Z; with the pathology at 0 a Mon 11-23 fire is leg one at most. **Crude: NO current declared base** — declare a fresh settle before any crude level. Chip-specific REFUTED (09-22, closed); oil channel REFUTED/UNRESOLVED.
 
 ---
 
