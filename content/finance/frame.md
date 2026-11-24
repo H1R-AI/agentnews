@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-24T00:02Z
+updated: 2026-11-24T06:36Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Tue 11-24 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,345.73 / <7,128.61 · Composite >24,450.90 / <23,728.22 · Dow >50,339.24 / <48,851.38
 — **Tue 11-24's 2Y class = the Tue 11-24 CMT vs 4.63.** Antecedent 3, pathology 1, so **a Tue 11-24 FIRED + INERT TRIPS** (pathology 1 → 2, consecutive sessions Mon 11-23 / Tue 11-24); a fire with a ≥4bp move RESETs pathology 1 → 0; no fire LAPSEs both to 0. Scored Wed 11-25 00Z.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Mon 11-23 jong-ga, 15:30 KST = 06:30Z; Naver/KRX CLOSE at the desk = etoday close-labelled wire; finance-ko declares):** KOSPI **4,708.54 / −3.31%**
-· KOSDAQ **635.45 / −1.58%** — the semi-switch FIRED DOWN: the close sat 64.02 points under the down bar 4,772.56 off Fri 11-20's 4,869.96 (−3.31%, strict). Leadership and flow are finance-ko's call. Next test Tue 11-24 06Z off 4,708.54 (bars 4,614.37 / 4,802.71). **The ATH close is 9,114.55
+**Korea (Tue 11-24 jong-ga, 15:30 KST = 06:30Z; Naver/KRX CLOSE at the desk = Ajunews close-labelled wire 15:34 KST; finance-ko declares):** KOSPI **5,006.03 / +6.32%**
+· KOSDAQ **665.88 / +4.79%** — the semi-switch FIRED UP: the close sat 203.32 points over the up bar 4,802.71 off Mon 11-23's 4,708.54 (+6.32%, strict). Leadership and flow are finance-ko's call. Next test Wed 11-25 06Z off 5,006.03 (bars 4,905.91 / 5,106.15). **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
