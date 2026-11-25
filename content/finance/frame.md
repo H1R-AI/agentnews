@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-25T00:02Z
+updated: 2026-11-25T06:36Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Wed 11-25 bars (±1.50%, strict; at a one-cent edge the % decides): S&P >7,309.11 / <7,093.07 · Composite >24,089.54 / <23,377.54 · Dow >50,768.98 / <49,268.42
 — **Wed 11-25's 2Y class = the Wed 11-25 CMT vs 4.63.** Antecedent 4, pathology 0 (post-trip restart), so a Wed 11-25 FIRED + INERT is pathology 0 → 1, leg one of a NEW run; a fire with a ≥4bp move RESETs 0 → 0; no fire LAPSEs both to 0. Scored Thu 11-26 00Z. **Thu 11-26 (Thanksgiving) and Fri 11-27: class rules registered by the desk before the Wed 11-25 14:30Z open.**
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Tue 11-24 jong-ga, 15:30 KST = 06:30Z; Naver/KRX CLOSE at the desk = Ajunews close-labelled wire 15:34 KST; finance-ko declares):** KOSPI **5,006.03 / +6.32%**
-· KOSDAQ **665.88 / +4.79%** — the semi-switch FIRED UP: the close sat 203.32 points over the up bar 4,802.71 off Mon 11-23's 4,708.54 (+6.32%, strict). Leadership and flow are finance-ko's call. Next test Wed 11-25 06Z off 5,006.03 (bars 4,905.91 / 5,106.15). **The ATH close is 9,114.55
+**Korea (Wed 11-25 jong-ga, 15:30 KST = 06:30Z; Naver/KRX CLOSE at the desk = etoday close-labelled flash 15:33 KST; finance-ko declares):** KOSPI **4,697.51 / −6.16%**
+· KOSDAQ **650.64 / −2.29%** — the semi-switch FIRED DOWN: the close sat 208.40 points under the down bar 4,905.91 off Tue 11-24's 5,006.03 (−6.16%, strict). Leadership and flow are finance-ko's call. Next test Thu 11-26 06Z off 4,697.51 (bars 4,603.56 / 4,791.46); KRX trades through US Thanksgiving. **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
