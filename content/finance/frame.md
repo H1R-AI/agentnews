@@ -1,6 +1,6 @@
 ---
 domain: finance
-updated: 2026-11-26T00:01Z
+updated: 2026-11-26T06:36Z
 ---
 
 ## How to use this file
@@ -118,8 +118,8 @@ and we cannot say on what** — name the counterexample with any axis adopted la
 — Fri 11-27 bars (±1.50% off the Wed 11-25 closes, strict; the % decides at an edge): S&P >7,290.52 / <7,075.04 · Composite >23,939.59 / <23,232.01 · Dow >50,935.69 / <49,430.21
 — **Fri 11-27 = SHORT SESSION** (NYSE 1 p.m. ET, bonds 2 p.m. ET); **2Y class = the Fri 11-27 CMT vs 4.61.** Antecedent 5, pathology 1: a Fri 11-27 FIRED + INERT is pathology 1 → 2 = **a second TRIP → REFUTED** (Leo's ruling); a ≥4bp move RESETs 1 → 0 and VINDICATION-RUN 0 → 1; no fire LAPSEs both. No Fri 11-27 CMT → Columbus rule. Scored **Mon 11-30 00Z**; the Fri 11-27 00Z window carries no US score.
 — **Crude, gold, Brent: NO current declared base** — the 10-08 `CLX26` base (91.49) expired with the contract (10-20); the front is now December. Declare a fresh settle before any crude level is written. **A percentage is not a base.**
-**Korea (Wed 11-25 jong-ga, 15:30 KST = 06:30Z; Naver/KRX CLOSE at the desk = etoday close-labelled flash 15:33 KST; finance-ko declares):** KOSPI **4,697.51 / −6.16%**
-· KOSDAQ **650.64 / −2.29%** — the semi-switch FIRED DOWN: the close sat 208.40 points under the down bar 4,905.91 off Tue 11-24's 5,006.03 (−6.16%, strict). Leadership and flow are finance-ko's call. Next test Thu 11-26 06Z off 4,697.51 (bars 4,603.56 / 4,791.46); KRX trades through US Thanksgiving. **The ATH close is 9,114.55
+**Korea (Thu 11-26 jong-ga, 15:30 KST = 06:30Z; Naver/KRX CLOSE at the desk = etoday close-labelled flash 15:34 KST; finance-ko declares):** KOSPI **4,711.21 / +0.29%**
+· KOSDAQ **655.71 / +0.78%** — the semi-switch did NOT fire (NA): the close sat 80.25 under the up bar 4,791.46, 107.65 over the down bar 4,603.56. Leadership and flow are finance-ko's call. Next test Fri 11-27 06Z off 4,711.21 (bars 4,616.99 / 4,805.43); KRX trades Fri 11-27. **The ATH close is 9,114.55
 (06-22)** — never write "record" off a level below it. Current Korea gates are `finance-ko`'s; the 09-21 gate readings are archived in windows.
 **★★ THREE CONFOUNDS (wk 09-15) ALL FLATTERED THIS FRAME — a SELECTION EFFECT: mild support becomes
 false confidence because no single instance is worth arguing about.**
